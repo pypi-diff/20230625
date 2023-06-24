@@ -540,3 +540,55 @@ EOFError: EOF read where object expected
 [2023-06-25 00:47:51] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.1.tar.gz]
 [2023-06-25 00:47:51] INFO root fetch - main [MainThread]: End processing [text2text]: success
 [2023-06-25 00:47:51] INFO root fetch - main [MainThread]: Store serial: [18632438]
+[2023-06-25 00:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632438]
+[2023-06-25 00:53:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timeout-executor
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercury-sync
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bayfile-uploader
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timeout-executor
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bayfile-uploader
+[2023-06-25 00:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowtask
+[2023-06-25 00:53:00] WARNING root fetch - processPackages [bayfile-uploader]: Skipping, unable to determine old version
+[2023-06-25 00:53:00] INFO root fetch - main [MainThread]: End processing [bayfile-uploader] error
+[2023-06-25 00:53:00] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-25 00:53:00] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.20] Old Version: [0.1.8.19]
+[2023-06-25 00:53:00] WARNING root fetch - processPackages [bayfile-uploader]: Skipping, unable to determine old version
+[2023-06-25 00:53:00] INFO root fetch - main [MainThread]: End processing [bayfile-uploader] error
+[2023-06-25 00:53:00] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/18/d8/779fa64a36464dc2718ba0d34c7b6502afe7694885416d6d33abdf066e42/mercury-sync-0.3.3.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [timeout-executor]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 00:53:00] INFO root fetch - processPackages [timeout-executor]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 00:53:00] INFO root fetch - processPackages [flowtask]: New version: [4.5.3] Old Version: [4.5.1]
+[2023-06-25 00:53:00] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/dd/3d/e4109905f24545975fdae49f27dc5f0496e1b1ad2647ff1d4c5907da61b5/timeout_executor-0.1.4.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/47/f1/f54ab5ab523c6be40d30e9e691fd12964fab581363eddb95a92061491b06/pillar1-0.1.8.19.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/dd/3d/e4109905f24545975fdae49f27dc5f0496e1b1ad2647ff1d4c5907da61b5/timeout_executor-0.1.4.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/a0/27/9dbd87c1998cfe43e13653cea0684294bdb1662f24488f2ff3c64f7a8931/flowtask-4.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 00:53:00] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/d9/af/1f26250ec889ae3947677b14bbc4e98957ad5b852f2cc36743036bfe2034/mercury-sync-0.3.4.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/17/bb/ea4d95e4d91e08dc9fdeaa5fe007f2093e9ced410ccb9f790861885c31e9/pillar1-0.1.8.20.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-25 00:53:00] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.3.tar.gz tmp/mercury-sync-0.3.4.tar.gz --markdown 20230625/m/mercury-sync/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-25 00:53:00] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/2e/b7/71a7d341eb4653091fa760cdb251c1ca197d84d85910fa5e56ae11a19e0c/timeout_executor-0.1.5.tar.gz
+[2023-06-25 00:53:00] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/2e/b7/71a7d341eb4653091fa760cdb251c1ca197d84d85910fa5e56ae11a19e0c/timeout_executor-0.1.5.tar.gz
+[2023-06-25 00:53:01] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 00:53:01] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.19.tar.gz tmp/pillar1-0.1.8.20.tar.gz --markdown 20230625/p/pillar1/0.1.8.19-0.1.8.20/diff.md --exclude *.pyd
+[2023-06-25 00:53:01] INFO root fetch - processPackages [timeout-executor]: executing diffoscope
+[2023-06-25 00:53:01] INFO root fetch - processPackages [timeout-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_executor-0.1.4.tar.gz tmp/timeout_executor-0.1.5.tar.gz --markdown 20230625/t/timeout-executor/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 00:53:01] INFO root fetch - processPackages [timeout-executor]: executing diffoscope
+[2023-06-25 00:53:01] INFO root fetch - processPackages [timeout-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_executor-0.1.4.tar.gz tmp/timeout_executor-0.1.5.tar.gz --markdown 20230625/t/timeout-executor/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 00:53:01] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/67/61/9b97d550b8c8f755d05729653c4642945f8f73e38065fa0901a4ad0af8af/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 00:53:01] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-25 00:53:01] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/f/flowtask/4.5.1-4.5.3/diff.md --exclude *.pyd
+[2023-06-25 00:53:02] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.3.tar.gz]
+[2023-06-25 00:53:02] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.4.tar.gz]
+[2023-06-25 00:53:02] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-25 00:53:02] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.19.tar.gz]
+[2023-06-25 00:53:02] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.20.tar.gz]
+[2023-06-25 00:53:02] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 00:53:02] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.4.tar.gz]
+[2023-06-25 00:53:02] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.5.tar.gz]
+[2023-06-25 00:53:02] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
+[2023-06-25 00:53:02] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
+[2023-06-25 00:53:05] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 00:53:05] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 00:53:05] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-25 00:53:05] INFO root fetch - main [MainThread]: Store serial: [18632463]
