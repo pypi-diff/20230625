@@ -246,3 +246,33 @@ EOFError: EOF read where object expected
 [2023-06-25 00:11:24] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-25 00:11:25] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-25 00:11:25] INFO root fetch - main [MainThread]: Store serial: [18632332]
+[2023-06-25 00:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632332]
+[2023-06-25 00:16:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 00:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptoowl
+[2023-06-25 00:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quik-ai
+[2023-06-25 00:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pointnet
+[2023-06-25 00:16:34] INFO root fetch - processPackages [pointnet]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 00:16:34] INFO root fetch - processPackages [quik-ai]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-25 00:16:34] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 00:16:34] INFO root fetch - processPackages [pointnet]: Downloading https://files.pythonhosted.org/packages/5e/7f/173b918e0756f8ebfe8bfcc8b5d47fd3b0bc7de020ed4312d3a5dbc7af4e/pointnet-0.0.2.tar.gz
+[2023-06-25 00:16:35] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/15/b7/49b430a3e92567b1ae07f87985e92609c8515f76b305fef7d13ee8e4daf5/cryptoowl-0.0.4.tar.gz
+[2023-06-25 00:16:35] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/db/ce/b6c39188c0ef35eb96fe79eda2f3732fa6c5a9d6c59319ae2af1f8aef21f/quik-ai-1.1.0.tar.gz
+[2023-06-25 00:16:35] INFO root fetch - processPackages [pointnet]: Downloading https://files.pythonhosted.org/packages/fd/cf/33099bd59e6282e7c65e77acdd204b59ca5c20a8be67676cc4ee4165688d/pointnet-0.0.3.tar.gz
+[2023-06-25 00:16:35] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/4f/3c/065eed07dbc5b83e031f1da4d10a3130a1a09a6ee8c1da302cd90e509c14/cryptoowl-0.0.5.tar.gz
+[2023-06-25 00:16:35] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/72/11/ceb3e90470f56dbb60acf233f42feafe19f8048e3ed361237c9736fd0b61/quik-ai-1.2.0.tar.gz
+[2023-06-25 00:16:35] INFO root fetch - processPackages [pointnet]: executing diffoscope
+[2023-06-25 00:16:35] INFO root fetch - processPackages [pointnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointnet-0.0.2.tar.gz tmp/pointnet-0.0.3.tar.gz --markdown 20230625/p/pointnet/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 00:16:35] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2023-06-25 00:16:35] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.4.tar.gz tmp/cryptoowl-0.0.5.tar.gz --markdown 20230625/c/cryptoowl/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 00:16:35] INFO root fetch - processPackages [quik-ai]: executing diffoscope
+[2023-06-25 00:16:35] INFO root fetch - processPackages [quik-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik-ai-1.1.0.tar.gz tmp/quik-ai-1.2.0.tar.gz --markdown 20230625/q/quik-ai/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 00:16:36] INFO root fetch - processPackages [pointnet]: Remove: archive file [/home/abi/fetcher/tmp/pointnet-0.0.2.tar.gz]
+[2023-06-25 00:16:36] INFO root fetch - processPackages [pointnet]: Remove: archive file [/home/abi/fetcher/tmp/pointnet-0.0.3.tar.gz]
+[2023-06-25 00:16:36] INFO root fetch - main [MainThread]: End processing [pointnet]: success
+[2023-06-25 00:16:36] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.4.tar.gz]
+[2023-06-25 00:16:36] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.5.tar.gz]
+[2023-06-25 00:16:36] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2023-06-25 00:16:36] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.1.0.tar.gz]
+[2023-06-25 00:16:36] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.2.0.tar.gz]
+[2023-06-25 00:16:36] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
+[2023-06-25 00:16:36] INFO root fetch - main [MainThread]: Store serial: [18632341]
