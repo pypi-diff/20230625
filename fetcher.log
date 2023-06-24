@@ -438,3 +438,45 @@ EOFError: EOF read where object expected
 [2023-06-25 00:37:28] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
 [2023-06-25 00:37:28] INFO root fetch - main [MainThread]: End processing [PHX]: success
 [2023-06-25 00:37:28] INFO root fetch - main [MainThread]: Store serial: [18632396]
+[2023-06-25 00:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632396]
+[2023-06-25 00:42:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 00:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biopipen
+[2023-06-25 00:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-06-25 00:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seaborn-analyzer
+[2023-06-25 00:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deadcode
+[2023-06-25 00:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: doctran
+[2023-06-25 00:42:36] WARNING root fetch - processPackages [doctran]: Skipping, unable to determine old version
+[2023-06-25 00:42:36] INFO root fetch - main [MainThread]: End processing [doctran] error
+[2023-06-25 00:42:36] INFO root fetch - processPackages [seaborn-analyzer]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-25 00:42:36] INFO root fetch - processPackages [deadcode]: New version: [1.1.0] Old Version: [0.1.0]
+[2023-06-25 00:42:36] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-25 00:42:36] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev93] Old Version: [0.6.3.dev92]
+[2023-06-25 00:42:36] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/97/82/8c158542d2458976f8bf150661cfc889801a316ddb70f15b56a07dbe4377/deadcode-0.1.0.tar.gz
+[2023-06-25 00:42:36] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f2/ae/6b0980b9369e872279d3099baae1a0b22f2e1daaa22e04100f79fdf37473/khoj_assistant-0.6.3.dev92.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/13/1e/d7150632c65516bc5c9ceae1000930f20e859eecfda44438180da7f08971/seaborn-analyzer-0.3.2.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/89/b9/46f3d5cd893c0976bf3233ad8535b0db5c0974811fdc70887e9d78411486/deadcode-1.1.0.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b2/88/596fae894597c332c84022118be89620760350a10c20eeb2b7f5ac70eb8a/khoj_assistant-0.6.3.dev93.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [deadcode]: executing diffoscope
+[2023-06-25 00:42:37] INFO root fetch - processPackages [deadcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadcode-0.1.0.tar.gz tmp/deadcode-1.1.0.tar.gz --markdown 20230625/d/deadcode/0.1.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 00:42:37] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/fd/b2/bb3697bce7ec1c6e3a444d5da1a3c3d11d9ba0e94fb503c5806c275b0d2a/seaborn-analyzer-0.3.3.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2023-06-25 00:42:37] INFO root fetch - processPackages [seaborn-analyzer]: executing diffoscope
+[2023-06-25 00:42:37] INFO root fetch - processPackages [seaborn-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn-analyzer-0.3.2.tar.gz tmp/seaborn-analyzer-0.3.3.tar.gz --markdown 20230625/s/seaborn-analyzer/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-25 00:42:37] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-25 00:42:37] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev92.tar.gz tmp/khoj_assistant-0.6.3.dev93.tar.gz --markdown 20230625/k/khoj-assistant/0.6.3.dev92-0.6.3.dev93/diff.md --exclude *.pyd
+[2023-06-25 00:42:37] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2023-06-25 00:42:37] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20230625/b/biopipen/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 00:42:38] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-0.1.0.tar.gz]
+[2023-06-25 00:42:38] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.0.tar.gz]
+[2023-06-25 00:42:38] INFO root fetch - main [MainThread]: End processing [deadcode]: success
+[2023-06-25 00:42:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev92.tar.gz]
+[2023-06-25 00:42:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev93.tar.gz]
+[2023-06-25 00:42:39] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-25 00:42:39] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2023-06-25 00:42:39] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2023-06-25 00:42:39] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2023-06-25 00:42:39] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.2.tar.gz]
+[2023-06-25 00:42:39] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.3.tar.gz]
+[2023-06-25 00:42:39] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
+[2023-06-25 00:42:39] INFO root fetch - main [MainThread]: Store serial: [18632418]
