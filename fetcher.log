@@ -390,3 +390,51 @@ EOFError: EOF read where object expected
 [2023-06-25 00:32:14] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-25 00:32:14] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-25 00:32:14] INFO root fetch - main [MainThread]: Store serial: [18632382]
+[2023-06-25 00:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632382]
+[2023-06-25 00:37:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UpyTest
+[2023-06-25 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspark-ai
+[2023-06-25 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jplaw
+[2023-06-25 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PHX
+[2023-06-25 00:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scProject
+[2023-06-25 00:37:23] INFO root fetch - processPackages [UpyTest]: New version: [3.0.7] Old Version: [3.0.6]
+[2023-06-25 00:37:23] INFO root fetch - processPackages [pyspark-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 00:37:23] INFO root fetch - processPackages [jplaw]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 00:37:23] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-25 00:37:23] INFO root fetch - processPackages [scProject]: New version: [1.1.2] Old Version: [1.0.9.8997]
+[2023-06-25 00:37:23] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/de/ca/ce9fa96ef13d27cd5a42cf4be9bc4265b97a0fd6d9af5c6690de1b2a5e01/pyspark_ai-0.1.1.tar.gz
+[2023-06-25 00:37:23] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/09/cb/ff33ffccb475968c712c6af5e85fa90b6571e0a36f23bc3c344ba99793a8/jplaw-0.1.1.tar.gz
+[2023-06-25 00:37:23] INFO root fetch - processPackages [scProject]: Downloading https://files.pythonhosted.org/packages/b4/29/0ebc6dc86d2206887e691c29e6434d03a7029ea9cfa786c8f1a1fb5f320d/scProject-1.0.9.8997.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/67/89/75b5dd7e46c4ab44eae6fa3109a9f1f0b6901b76809b7e10f407ade7ea54/UpyTest-3.0.6.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [scProject]: Downloading https://files.pythonhosted.org/packages/cf/12/2e4f780b0d1a61896447773ff4b40207517275f7a8f8e3a5637cc65bd8e4/scProject-1.1.2.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/ad/3f/8d98896a30c53bca2ed6c0d12005b62db1e1c86774e2fcfaad84d6fee330/jplaw-0.1.2.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/bd/72/73a2d893863031707c4a19aba89a5c96aee43ed6326ecbb414c2c0e69c29/pyspark_ai-0.1.2.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [scProject]: executing diffoscope
+[2023-06-25 00:37:24] INFO root fetch - processPackages [scProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scProject-1.0.9.8997.tar.gz tmp/scProject-1.1.2.tar.gz --markdown 20230625/s/scProject/1.0.9.8997-1.1.2/diff.md --exclude *.pyd
+[2023-06-25 00:37:24] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/a2/3f/ae27b69eac200fc1a6162384d33c0a708943bfed1b62e1761fcedcb08a42/UpyTest-3.0.7.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-06-25 00:37:24] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.1.tar.gz tmp/jplaw-0.1.2.tar.gz --markdown 20230625/j/jplaw/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 00:37:24] INFO root fetch - processPackages [pyspark-ai]: executing diffoscope
+[2023-06-25 00:37:24] INFO root fetch - processPackages [pyspark-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_ai-0.1.1.tar.gz tmp/pyspark_ai-0.1.2.tar.gz --markdown 20230625/p/pyspark-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 00:37:24] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-06-25 00:37:24] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-06-25 00:37:24] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.0.6.tar.gz tmp/UpyTest-3.0.7.tar.gz --markdown 20230625/U/UpyTest/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2023-06-25 00:37:25] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-06-25 00:37:25] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230625/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-25 00:37:25] INFO root fetch - processPackages [scProject]: Remove: archive file [/home/abi/fetcher/tmp/scProject-1.0.9.8997.tar.gz]
+[2023-06-25 00:37:25] INFO root fetch - processPackages [scProject]: Remove: archive file [/home/abi/fetcher/tmp/scProject-1.1.2.tar.gz]
+[2023-06-25 00:37:25] INFO root fetch - main [MainThread]: End processing [scProject]: success
+[2023-06-25 00:37:25] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.1.tar.gz]
+[2023-06-25 00:37:25] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.2.tar.gz]
+[2023-06-25 00:37:25] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-06-25 00:37:25] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.1.tar.gz]
+[2023-06-25 00:37:25] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.2.tar.gz]
+[2023-06-25 00:37:25] INFO root fetch - main [MainThread]: End processing [pyspark-ai]: success
+[2023-06-25 00:37:26] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.0.6.tar.gz]
+[2023-06-25 00:37:26] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.0.7.tar.gz]
+[2023-06-25 00:37:26] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-06-25 00:37:28] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-06-25 00:37:28] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-06-25 00:37:28] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-06-25 00:37:28] INFO root fetch - main [MainThread]: Store serial: [18632396]
