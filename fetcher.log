@@ -787,3 +787,46 @@ EOFError: EOF read where object expected
 [2023-06-25 01:14:46] INFO root fetch - processPackages [higlass-schema]: Remove: archive file [/home/abi/fetcher/tmp/higlass_schema-0.1.0.tar.gz]
 [2023-06-25 01:14:46] INFO root fetch - main [MainThread]: End processing [higlass-schema]: success
 [2023-06-25 01:14:46] INFO root fetch - main [MainThread]: Store serial: [18632642]
+[2023-06-25 01:19:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632642]
+[2023-06-25 01:19:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timeout-executor
+[2023-06-25 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batcave
+[2023-06-25 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: batcave
+[2023-06-25 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funga-eth
+[2023-06-25 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timeout-executor
+[2023-06-25 01:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deadcode
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: New version: [42.0.3rc0] Old Version: [42.0.3]
+[2023-06-25 01:19:55] INFO root fetch - processPackages [funga-eth]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: New version: [42.0.3rc0] Old Version: [42.0.3]
+[2023-06-25 01:19:55] INFO root fetch - processPackages [deadcode]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-25 01:19:55] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/7b/d1/fea3889f173922d775d5a2622130d3170951e1fc99811668614c08f397d4/deadcode-1.1.1.tar.gz
+[2023-06-25 01:19:55] WARNING root fetch - processPackages [timeout-executor]: Skipping, unable to determine old version
+[2023-06-25 01:19:55] WARNING root fetch - processPackages [timeout-executor]: Skipping, unable to determine old version
+[2023-06-25 01:19:55] INFO root fetch - main [MainThread]: End processing [timeout-executor] error
+[2023-06-25 01:19:55] INFO root fetch - main [MainThread]: End processing [timeout-executor] error
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/82/b8/c6edae8d247f9a6060d7f461abca4d4b241e872a9fc7cec370352a760e21/batcave-42.0.3.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/82/b8/c6edae8d247f9a6060d7f461abca4d4b241e872a9fc7cec370352a760e21/batcave-42.0.3.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [funga-eth]: Downloading https://files.pythonhosted.org/packages/4e/c7/682c5ec1f2771684846fb3596c4dd0070391218ea63d33ff7e697ca58b21/funga-eth-0.7.3.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/cb/d3/a2ddc901e8e57642acb6cd9ecf2c2843fb2b5c1e37e0eedba6c1a04a9486/deadcode-1.1.2.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/25/b3/a12e4668d7300716ed0916d0d0e3e9e1739a43431899d5cdbe27c54b46b9/batcave-42.0.3rc0.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [deadcode]: executing diffoscope
+[2023-06-25 01:19:55] INFO root fetch - processPackages [deadcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadcode-1.1.1.tar.gz tmp/deadcode-1.1.2.tar.gz --markdown 20230625/d/deadcode/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: Downloading https://files.pythonhosted.org/packages/25/b3/a12e4668d7300716ed0916d0d0e3e9e1739a43431899d5cdbe27c54b46b9/batcave-42.0.3rc0.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [funga-eth]: Downloading https://files.pythonhosted.org/packages/14/48/40363310e41c0e421c97e331cf00ad3401c59b9828ccd6d16d569bf96cd7/funga-eth-0.7.4.tar.gz
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-42.0.3.tar.gz tmp/batcave-42.0.3rc0.tar.gz --markdown 20230625/b/batcave/42.0.3-42.0.3rc0/diff.md --exclude *.pyd
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: executing diffoscope
+[2023-06-25 01:19:55] INFO root fetch - processPackages [batcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batcave-42.0.3.tar.gz tmp/batcave-42.0.3rc0.tar.gz --markdown 20230625/b/batcave/42.0.3-42.0.3rc0/diff.md --exclude *.pyd
+[2023-06-25 01:19:55] INFO root fetch - processPackages [funga-eth]: executing diffoscope
+[2023-06-25 01:19:55] INFO root fetch - processPackages [funga-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funga-eth-0.7.3.tar.gz tmp/funga-eth-0.7.4.tar.gz --markdown 20230625/f/funga-eth/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-25 01:19:56] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.1.tar.gz]
+[2023-06-25 01:19:56] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.2.tar.gz]
+[2023-06-25 01:19:56] INFO root fetch - main [MainThread]: End processing [deadcode]: success
+[2023-06-25 01:19:57] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-42.0.3.tar.gz]
+[2023-06-25 01:19:57] INFO root fetch - processPackages [batcave]: Remove: archive file [/home/abi/fetcher/tmp/batcave-42.0.3rc0.tar.gz]
+[2023-06-25 01:19:57] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2023-06-25 01:19:57] INFO root fetch - main [MainThread]: End processing [batcave]: success
+[2023-06-25 01:19:57] INFO root fetch - processPackages [funga-eth]: Remove: archive file [/home/abi/fetcher/tmp/funga-eth-0.7.3.tar.gz]
+[2023-06-25 01:19:57] INFO root fetch - processPackages [funga-eth]: Remove: archive file [/home/abi/fetcher/tmp/funga-eth-0.7.4.tar.gz]
+[2023-06-25 01:19:57] INFO root fetch - main [MainThread]: End processing [funga-eth]: success
+[2023-06-25 01:19:57] INFO root fetch - main [MainThread]: Store serial: [18632660]
