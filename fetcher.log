@@ -920,3 +920,81 @@ EOFError: EOF read where object expected
 [2023-06-25 01:40:53] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-25 01:40:53] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-25 01:40:53] INFO root fetch - main [MainThread]: Store serial: [18632705]
+[2023-06-25 01:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632705]
+[2023-06-25 01:46:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-pretrained
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redcat
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pg-zero-downtime-migrations
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netdem
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drizzutojr-vader
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wasmpy
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skyplane-nightly
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nd2
+[2023-06-25 01:46:01] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: New version: [0.9] Old Version: [0.8]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [wasmpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [wasmpy]: Downloading https://files.pythonhosted.org/packages/81/2d/279d5f235183f7d25fa8f3f7970ef87c69f95e2df1d899f25e70a4f5acab/wasmpy-0.1.1.tar.gz
+[2023-06-25 01:46:01] WARNING root fetch - processPackages [netdem]: Skipping, unable to determine old version
+[2023-06-25 01:46:01] INFO root fetch - main [MainThread]: End processing [netdem] error
+[2023-06-25 01:46:01] INFO root fetch - processPackages [redcat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-25 01:46:01] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-25 01:46:01] INFO root fetch - processPackages [nd2]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-25 01:46:01] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230624] Old Version: [0.3.2.dev20230623]
+[2023-06-25 01:46:02] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: Downloading https://files.pythonhosted.org/packages/5d/93/8c76dcf429fff19c30202d3044aa03f683616625ef1ced7238e73d50fd19/django-pg-zero-downtime-migrations-0.8.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-25 01:46:02] INFO root fetch - processPackages [redcat]: Downloading https://files.pythonhosted.org/packages/ca/37/47557627c6c14678f60c8e24271863a4b7f64a857499e45f114f031dca5e/redcat-0.0.5.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230625/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [nd2]: Downloading https://files.pythonhosted.org/packages/3f/40/b92cd8e27fc7b89a7b4849c61af72f01c86c8799a2fbf174819e11ea7759/nd2-0.6.0.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230625/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/3d/0c/1790b16aa434559c788e3036ad990b8f79ec878bf8257ef6247b6288c763/skyplane_nightly-0.3.2.dev20230623.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [wasmpy]: Downloading https://files.pythonhosted.org/packages/2e/42/381f779fd03b926c30de6daa0c447175f56c05f9810f30f6c262bcd7ff4c/wasmpy-0.1.2.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [wasmpy]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [wasmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-0.1.1.tar.gz tmp/wasmpy-0.1.2.tar.gz --markdown 20230625/w/wasmpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/e6/88/ca0cf857ef0b19665b2576fe13288a5e2b65a3120d0b85aa3fc271db2181/skyplane_nightly-0.3.2.dev20230624.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [redcat]: Downloading https://files.pythonhosted.org/packages/06/34/bbdc41a1391df21c3539cd5b5f81284fea46a87f30502f09c7d5b196c2bd/redcat-0.0.6.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230625/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [nd2]: Downloading https://files.pythonhosted.org/packages/50/58/30d9d94266952aafb77325b24a1328028e0fe984f3087db96496b7b2d580/nd2-0.6.1.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: Downloading https://files.pythonhosted.org/packages/0a/64/b8b84b5f4969f9287633ab92c43389eaad3c3fe93b6cce6409036b6d6c51/django-pg-zero-downtime-migrations-0.9.tar.gz
+[2023-06-25 01:46:02] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230623.tar.gz tmp/skyplane_nightly-0.3.2.dev20230624.tar.gz --markdown 20230625/s/skyplane-nightly/0.3.2.dev20230623-0.3.2.dev20230624/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [nd2]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nd2-0.6.0.tar.gz tmp/nd2-0.6.1.tar.gz --markdown 20230625/n/nd2/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [redcat]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [redcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redcat-0.0.5.tar.gz tmp/redcat-0.0.6.tar.gz --markdown 20230625/r/redcat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 01:46:02] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: executing diffoscope
+[2023-06-25 01:46:02] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pg-zero-downtime-migrations-0.8.tar.gz tmp/django-pg-zero-downtime-migrations-0.9.tar.gz --markdown 20230625/d/django-pg-zero-downtime-migrations/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-25 01:46:03] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-25 01:46:03] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-25 01:46:03] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-25 01:46:03] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-25 01:46:03] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-25 01:46:03] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-25 01:46:04] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-25 01:46:04] INFO root fetch - processPackages [wasmpy]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-0.1.1.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - processPackages [wasmpy]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-0.1.2.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - main [MainThread]: End processing [wasmpy]: success
+[2023-06-25 01:46:04] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django-pg-zero-downtime-migrations-0.8.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - processPackages [django-pg-zero-downtime-migrations]: Remove: archive file [/home/abi/fetcher/tmp/django-pg-zero-downtime-migrations-0.9.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - main [MainThread]: End processing [django-pg-zero-downtime-migrations]: success
+[2023-06-25 01:46:04] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230623.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230624.tar.gz]
+[2023-06-25 01:46:04] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-06-25 01:46:05] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.6.0.tar.gz]
+[2023-06-25 01:46:05] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.6.1.tar.gz]
+[2023-06-25 01:46:05] INFO root fetch - main [MainThread]: End processing [nd2]: success
+[2023-06-25 01:46:05] INFO root fetch - processPackages [redcat]: Remove: archive file [/home/abi/fetcher/tmp/redcat-0.0.5.tar.gz]
+[2023-06-25 01:46:05] INFO root fetch - processPackages [redcat]: Remove: archive file [/home/abi/fetcher/tmp/redcat-0.0.6.tar.gz]
+[2023-06-25 01:46:05] INFO root fetch - main [MainThread]: End processing [redcat]: success
+[2023-06-25 01:46:05] INFO root fetch - main [MainThread]: Store serial: [18632732]
