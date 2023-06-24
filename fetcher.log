@@ -480,3 +480,63 @@ EOFError: EOF read where object expected
 [2023-06-25 00:42:39] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.3.tar.gz]
 [2023-06-25 00:42:39] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
 [2023-06-25 00:42:39] INFO root fetch - main [MainThread]: Store serial: [18632418]
+[2023-06-25 00:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632418]
+[2023-06-25 00:47:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptoowl
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: companycam-unofficial
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ytdl-sub
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipsocgen
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deadcode
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text2text
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alx-utils
+[2023-06-25 00:47:48] INFO root fetch - processPackages [companycam-unofficial]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-06-25 00:47:48] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-25 00:47:48] WARNING root fetch - processPackages [alx-utils]: Skipping, unable to determine old version
+[2023-06-25 00:47:48] INFO root fetch - main [MainThread]: End processing [alx-utils] error
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ipsocgen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 00:47:48] INFO root fetch - processPackages [deadcode]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-25 00:47:48] INFO root fetch - processPackages [text2text]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-25 00:47:48] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.6.3] Old Version: [2023.6.24]
+[2023-06-25 00:47:48] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/89/b9/46f3d5cd893c0976bf3233ad8535b0db5c0974811fdc70887e9d78411486/deadcode-1.1.0.tar.gz
+[2023-06-25 00:47:48] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/ae/85/853411ccaa27e79008de5dfa5956973425c9f87044e96c5ee76b6dd534d5/text2text-1.1.0.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/15/b7/49b430a3e92567b1ae07f87985e92609c8515f76b305fef7d13ee8e4daf5/cryptoowl-0.0.4.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [companycam-unofficial]: Downloading https://files.pythonhosted.org/packages/d3/7e/0f90290332a7cd7555344c241bae0599db20d4404a336fae15e2b4fa2de6/companycam-unofficial-0.1.6.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/47/52/17df179f4381ee4cfb351009f31e4885295885eea95451d0a2bc9faeb75d/ytdl-sub-2023.6.24.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ipsocgen]: Downloading https://files.pythonhosted.org/packages/11/54/e76ec133a215133bc0add89fbba0f3e5d9473aaf7a80771670485d2081b0/ipsocgen-0.1.8.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/00/dc/f1bcd150068501b013c03ee75a38b5e0d39e8909ffdb3282de92a0bc4539/text2text-1.1.1.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-25 00:47:49] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.0.tar.gz tmp/text2text-1.1.1.tar.gz --markdown 20230625/t/text2text/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-25 00:47:49] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/7b/d1/fea3889f173922d775d5a2622130d3170951e1fc99811668614c08f397d4/deadcode-1.1.1.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [companycam-unofficial]: Downloading https://files.pythonhosted.org/packages/c8/1f/442f9b3cf204710af7e7ada2855b9edaf92a23070982115435242e8fb13f/companycam-unofficial-0.2.0.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/ec/70/d9d036bc0f5e3c175cac2fe7285443f63b53a428a35c8a300ead784cc00b/cryptoowl-0.0.6.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ipsocgen]: Downloading https://files.pythonhosted.org/packages/65/4b/20da524e91684573355257160a62b7f893d4175024d3f8ef3e478b720b50/ipsocgen-0.1.9.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [deadcode]: executing diffoscope
+[2023-06-25 00:47:49] INFO root fetch - processPackages [deadcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadcode-1.1.0.tar.gz tmp/deadcode-1.1.1.tar.gz --markdown 20230625/d/deadcode/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-25 00:47:49] INFO root fetch - processPackages [companycam-unofficial]: executing diffoscope
+[2023-06-25 00:47:49] INFO root fetch - processPackages [companycam-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/companycam-unofficial-0.1.6.tar.gz tmp/companycam-unofficial-0.2.0.tar.gz --markdown 20230625/c/companycam-unofficial/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 00:47:49] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2023-06-25 00:47:49] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.4.tar.gz tmp/cryptoowl-0.0.6.tar.gz --markdown 20230625/c/cryptoowl/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/6d/3a3da8b1a8081732036cac9976155ed25006692dc0d50256ec4f22126ee5/ytdl-sub-2023.6.3.tar.gz
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.6.24.tar.gz tmp/ytdl-sub-2023.6.3.tar.gz --markdown 20230625/y/ytdl-sub/2023.6.24-2023.6.3/diff.md --exclude *.pyd
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ipsocgen]: executing diffoscope
+[2023-06-25 00:47:49] INFO root fetch - processPackages [ipsocgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipsocgen-0.1.8.tar.gz tmp/ipsocgen-0.1.9.tar.gz --markdown 20230625/i/ipsocgen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 00:47:50] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.4.tar.gz]
+[2023-06-25 00:47:50] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.6.tar.gz]
+[2023-06-25 00:47:50] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2023-06-25 00:47:50] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.0.tar.gz]
+[2023-06-25 00:47:50] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-1.1.1.tar.gz]
+[2023-06-25 00:47:50] INFO root fetch - main [MainThread]: End processing [deadcode]: success
+[2023-06-25 00:47:50] INFO root fetch - processPackages [companycam-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/companycam-unofficial-0.1.6.tar.gz]
+[2023-06-25 00:47:50] INFO root fetch - processPackages [companycam-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/companycam-unofficial-0.2.0.tar.gz]
+[2023-06-25 00:47:50] INFO root fetch - main [MainThread]: End processing [companycam-unofficial]: success
+[2023-06-25 00:47:51] INFO root fetch - processPackages [ipsocgen]: Remove: archive file [/home/abi/fetcher/tmp/ipsocgen-0.1.8.tar.gz]
+[2023-06-25 00:47:51] INFO root fetch - processPackages [ipsocgen]: Remove: archive file [/home/abi/fetcher/tmp/ipsocgen-0.1.9.tar.gz]
+[2023-06-25 00:47:51] INFO root fetch - main [MainThread]: End processing [ipsocgen]: success
+[2023-06-25 00:47:51] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.24.tar.gz]
+[2023-06-25 00:47:51] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
+[2023-06-25 00:47:51] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-06-25 00:47:51] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.0.tar.gz]
+[2023-06-25 00:47:51] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.1.tar.gz]
+[2023-06-25 00:47:51] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-25 00:47:51] INFO root fetch - main [MainThread]: Store serial: [18632438]
