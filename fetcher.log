@@ -655,3 +655,66 @@ EOFError: EOF read where object expected
 [2023-06-25 00:58:16] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.0.8.tar.gz]
 [2023-06-25 00:58:16] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
 [2023-06-25 00:58:16] INFO root fetch - main [MainThread]: Store serial: [18632494]
+[2023-06-25 01:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632494]
+[2023-06-25 01:03:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicemeeter-api
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UpyTest
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitarray
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: censoredsummarystats
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: compare-packages
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-06-25 01:03:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeout-executor
+[2023-06-25 01:03:25] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-25 01:03:25] INFO root fetch - processPackages [UpyTest]: New version: [3.1.0] Old Version: [3.0.8]
+[2023-06-25 01:03:25] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-25 01:03:25] WARNING root fetch - processPackages [timeout-executor]: Skipping, unable to determine old version
+[2023-06-25 01:03:25] INFO root fetch - main [MainThread]: End processing [timeout-executor] error
+[2023-06-25 01:03:25] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-25 01:03:25] WARNING root fetch - processPackages [compare-packages]: Skipping, unable to determine old version
+[2023-06-25 01:03:25] INFO root fetch - main [MainThread]: End processing [compare-packages] error
+[2023-06-25 01:03:25] INFO root fetch - processPackages [bitarray]: New version: [2.7.6] Old Version: [2.7.5]
+[2023-06-25 01:03:25] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230624] Old Version: [0.7.0b20230623]
+[2023-06-25 01:03:25] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/c2/c8/99a0e17bb6005d56b398f2b14b7255b13d55fc0e5ce5c71d152f811563d8/UpyTest-3.0.8.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/eb/b1/065a15d87dd1e0e9816bdb0717c710224c64a680e84833e1c06f3569a97d/censoredsummarystats-0.2.6.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/07/ed/fc94cced07d3626306d35271049568a47ea42909e117585e7ce4ab4480ac/tmnt-cu101-0.7.0b20230623.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/9c/36/303d5a7605336452b2c67673f0f232b113b69eec55432c91a064b42c5489/voicemeeter-api-1.0.0.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [bitarray]: Downloading https://files.pythonhosted.org/packages/6f/c6/10035510ad638c6932858acede3809fefecdbefc04aeeb92123af997b1ac/bitarray-2.7.5.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/c6/c7/341d11aab555db9f943ef058c6fcdceea0042b1ffa6147bdf7d3b46b8106/UpyTest-3.1.0.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/4e/50/d6573e6551dc26c5618cb16e642effa6c09d383f47a59a8f517e76e2e3a8/censoredsummarystats-0.2.7.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-25 01:03:25] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230625/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-25 01:03:25] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-06-25 01:03:25] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.0.8.tar.gz tmp/UpyTest-3.1.0.tar.gz --markdown 20230625/U/UpyTest/3.0.8-3.1.0/diff.md --exclude *.pyd
+[2023-06-25 01:03:25] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/61/37/24ff53e2991369ae05b4d5ec4626918f7647209a83de18af22d02d3032a3/tmnt-cu101-0.7.0b20230624.tar.gz
+[2023-06-25 01:03:25] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/17/65/470d41f1bfba9301985b1e6c0afba81c8e55913aebfa5e74dc63523848b0/voicemeeter-api-2.0.0.tar.gz
+[2023-06-25 01:03:26] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-06-25 01:03:26] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter-api-1.0.0.tar.gz tmp/voicemeeter-api-2.0.0.tar.gz --markdown 20230625/v/voicemeeter-api/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-25 01:03:26] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-25 01:03:26] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.2.6.tar.gz tmp/censoredsummarystats-0.2.7.tar.gz --markdown 20230625/c/censoredsummarystats/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-25 01:03:26] INFO root fetch - processPackages [bitarray]: Downloading https://files.pythonhosted.org/packages/b3/9b/b095445cd50385bf3b77f09a922bb191d6452a699a98c71ae96beb2cda71/bitarray-2.7.6-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2023-06-25 01:03:26] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-25 01:03:26] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230623.tar.gz tmp/tmnt-cu101-0.7.0b20230624.tar.gz --markdown 20230625/t/tmnt-cu101/0.7.0b20230623-0.7.0b20230624/diff.md --exclude *.pyd
+[2023-06-25 01:03:26] INFO root fetch - processPackages [bitarray]: executing diffoscope
+[2023-06-25 01:03:26] INFO root fetch - processPackages [bitarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitarray-2.7.5.tar.gz tmp/bitarray-2.7.6-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20230625/b/bitarray/2.7.5-2.7.6/diff.md --exclude *.pyd
+[2023-06-25 01:03:27] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.0.8.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.0.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-06-25 01:03:27] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.6.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.7.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-25 01:03:27] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-api-1.0.0.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-api-2.0.0.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-06-25 01:03:27] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230623.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230624.tar.gz]
+[2023-06-25 01:03:27] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-25 01:03:28] INFO root fetch - processPackages [bitarray]: Remove: archive file [/home/abi/fetcher/tmp/bitarray-2.7.5.tar.gz]
+[2023-06-25 01:03:28] INFO root fetch - processPackages [bitarray]: Remove: archive file [/home/abi/fetcher/tmp/bitarray-2.7.6-pp39-pypy39_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2023-06-25 01:03:28] INFO root fetch - main [MainThread]: End processing [bitarray]: success
+[2023-06-25 01:03:28] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-25 01:03:28] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-25 01:03:28] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-25 01:03:28] INFO root fetch - main [MainThread]: Store serial: [18632616]
