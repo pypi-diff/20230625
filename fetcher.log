@@ -884,3 +884,39 @@ EOFError: EOF read where object expected
 [2023-06-25 01:35:40] INFO root fetch - processPackages [hmmix]: Remove: archive file [/home/abi/fetcher/tmp/hmmix-0.6.7.tar.gz]
 [2023-06-25 01:35:40] INFO root fetch - main [MainThread]: End processing [hmmix]: success
 [2023-06-25 01:35:40] INFO root fetch - main [MainThread]: Store serial: [18632687]
+[2023-06-25 01:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632687]
+[2023-06-25 01:40:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drizzutojr-vapi
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowtask
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dslclib
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lnauth-django
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-25 01:40:48] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 01:40:48] INFO root fetch - processPackages [flowtask]: New version: [4.5.4] Old Version: [4.5.3]
+[2023-06-25 01:40:48] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/f7/c4/2f17a01fc2a33782eee174b54e3e1530e0ca2419b8ca6d90bedd967a46db/drizzutojr_vapi-0.0.7-py3-none-any.whl
+[2023-06-25 01:40:48] WARNING root fetch - processPackages [dslclib]: Skipping, unable to determine old version
+[2023-06-25 01:40:48] INFO root fetch - main [MainThread]: End processing [dslclib] error
+[2023-06-25 01:40:48] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/67/61/9b97d550b8c8f755d05729653c4642945f8f73e38065fa0901a4ad0af8af/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 01:40:48] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-25 01:40:48] WARNING root fetch - processPackages [lnauth-django]: Skipping, unable to determine old version
+[2023-06-25 01:40:48] INFO root fetch - main [MainThread]: End processing [lnauth-django] error
+[2023-06-25 01:40:49] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/9e/bb/7151bcca72f269619d7090e91e72f807c69390208b314b2be77a7d53141d/flowtask-4.5.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 01:40:49] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-25 01:40:49] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/ba/60/03f3af6ed4a15dbbbf1ccfff551baca7480a592f96f810b0df37d21d9fc9/drizzutojr_vapi-0.0.8-py3-none-any.whl
+[2023-06-25 01:40:49] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-25 01:40:49] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230625/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-25 01:40:49] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-25 01:40:49] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.7-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.8-py3-none-any.whl.zip --markdown 20230625/d/drizzutojr-vapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 01:40:49] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-25 01:40:50] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/f/flowtask/4.5.3-4.5.4/diff.md --exclude *.pyd
+[2023-06-25 01:40:50] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.7-py3-none-any.whl.zip]
+[2023-06-25 01:40:50] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.8-py3-none-any.whl.zip]
+[2023-06-25 01:40:50] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-25 01:40:51] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-25 01:40:51] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-25 01:40:51] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-25 01:40:53] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 01:40:53] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 01:40:53] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-25 01:40:53] INFO root fetch - main [MainThread]: Store serial: [18632705]
