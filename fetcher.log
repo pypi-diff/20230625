@@ -851,3 +851,24 @@ EOFError: EOF read where object expected
 [2023-06-25 01:25:19] INFO root fetch - processPackages [pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-5.9.0.tar.gz]
 [2023-06-25 01:25:19] INFO root fetch - main [MainThread]: End processing [pyinstaller]: success
 [2023-06-25 01:25:19] INFO root fetch - main [MainThread]: Store serial: [18632677]
+[2023-06-25 01:30:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632677]
+[2023-06-25 01:30:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 01:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usermgr
+[2023-06-25 01:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-06-25 01:30:28] INFO root fetch - processPackages [usermgr]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-25 01:30:28] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.21] Old Version: [0.1.8.20]
+[2023-06-25 01:30:28] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/17/bb/ea4d95e4d91e08dc9fdeaa5fe007f2093e9ced410ccb9f790861885c31e9/pillar1-0.1.8.20.tar.gz
+[2023-06-25 01:30:28] INFO root fetch - processPackages [usermgr]: Downloading https://files.pythonhosted.org/packages/f9/5e/6d4c06545f3efe86c6b9e2144637fa6209068e5bc1fbaac00360ee60ce1d/usermgr-0.0.2.tar.gz
+[2023-06-25 01:30:28] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/12/a0/218f04b278342e6bc4d679e090d965da3165dd254089a48fb0b670446f98/pillar1-0.1.8.21.tar.gz
+[2023-06-25 01:30:28] INFO root fetch - processPackages [usermgr]: Downloading https://files.pythonhosted.org/packages/fd/95/186f846d48367f7c80c8ee430898e1a1e12ded22de030dd4e3e999e9faa2/usermgr-0.1.0.tar.gz
+[2023-06-25 01:30:28] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 01:30:28] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.20.tar.gz tmp/pillar1-0.1.8.21.tar.gz --markdown 20230625/p/pillar1/0.1.8.20-0.1.8.21/diff.md --exclude *.pyd
+[2023-06-25 01:30:28] INFO root fetch - processPackages [usermgr]: executing diffoscope
+[2023-06-25 01:30:28] INFO root fetch - processPackages [usermgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usermgr-0.0.2.tar.gz tmp/usermgr-0.1.0.tar.gz --markdown 20230625/u/usermgr/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-25 01:30:30] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.20.tar.gz]
+[2023-06-25 01:30:30] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.21.tar.gz]
+[2023-06-25 01:30:30] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 01:30:30] INFO root fetch - processPackages [usermgr]: Remove: archive file [/home/abi/fetcher/tmp/usermgr-0.0.2.tar.gz]
+[2023-06-25 01:30:30] INFO root fetch - processPackages [usermgr]: Remove: archive file [/home/abi/fetcher/tmp/usermgr-0.1.0.tar.gz]
+[2023-06-25 01:30:30] INFO root fetch - main [MainThread]: End processing [usermgr]: success
+[2023-06-25 01:30:30] INFO root fetch - main [MainThread]: Store serial: [18632684]
