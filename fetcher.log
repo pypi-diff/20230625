@@ -998,3 +998,15 @@ EOFError: EOF read where object expected
 [2023-06-25 01:46:05] INFO root fetch - processPackages [redcat]: Remove: archive file [/home/abi/fetcher/tmp/redcat-0.0.6.tar.gz]
 [2023-06-25 01:46:05] INFO root fetch - main [MainThread]: End processing [redcat]: success
 [2023-06-25 01:46:05] INFO root fetch - main [MainThread]: Store serial: [18632732]
+[2023-06-25 01:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632732]
+[2023-06-25 01:51:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-25 01:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-25 01:51:14] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.22] Old Version: [0.1.8.21]
+[2023-06-25 01:51:14] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/12/a0/218f04b278342e6bc4d679e090d965da3165dd254089a48fb0b670446f98/pillar1-0.1.8.21.tar.gz
+[2023-06-25 01:51:15] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/31/ab/213a248406d75ca3ff1eda81cb349b3116fccdc55c94a499f824652032a5/pillar1-0.1.8.22.tar.gz
+[2023-06-25 01:51:15] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 01:51:15] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.21.tar.gz tmp/pillar1-0.1.8.22.tar.gz --markdown 20230625/p/pillar1/0.1.8.21-0.1.8.22/diff.md --exclude *.pyd
+[2023-06-25 01:51:16] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.21.tar.gz]
+[2023-06-25 01:51:16] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.22.tar.gz]
+[2023-06-25 01:51:16] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 01:51:16] INFO root fetch - main [MainThread]: Store serial: [18632735]
