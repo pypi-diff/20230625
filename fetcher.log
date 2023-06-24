@@ -718,3 +718,42 @@ EOFError: EOF read where object expected
 [2023-06-25 01:03:28] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-06-25 01:03:28] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-06-25 01:03:28] INFO root fetch - main [MainThread]: Store serial: [18632616]
+[2023-06-25 01:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632616]
+[2023-06-25 01:08:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2023-06-25 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: censoredsummarystats
+[2023-06-25 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utilix
+[2023-06-25 01:08:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UpyTest
+[2023-06-25 01:08:37] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-25 01:08:37] INFO root fetch - processPackages [UpyTest]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-25 01:08:37] INFO root fetch - processPackages [utilix]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-25 01:08:37] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230624] Old Version: [0.7.0b20230623]
+[2023-06-25 01:08:37] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/4e/50/d6573e6551dc26c5618cb16e642effa6c09d383f47a59a8f517e76e2e3a8/censoredsummarystats-0.2.7.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/c6/c7/341d11aab555db9f943ef058c6fcdceea0042b1ffa6147bdf7d3b46b8106/UpyTest-3.1.0.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/b5/d5/d7ac03cbcafca8f6ce5af2928235051faa8063523d2176822106fd7bcc8b/tmnt-0.7.0b20230623.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [utilix]: Downloading https://files.pythonhosted.org/packages/9c/75/a1b42d41cc600e3bec3840de02f8f838cd98e4d8086a6ed9fe6fa08497b8/utilix-0.7.2.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/57/f2/1c7dfe09355b93adec3f720beb48a7b15279c94f5c9f6e61bb17bc835e5c/UpyTest-3.1.1.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/13/fd/2bbaa87fd584b5926645da9cbb0feb360c9cb9312dc17d7a9534edc9578d/tmnt-0.7.0b20230624.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-06-25 01:08:37] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.1.0.tar.gz tmp/UpyTest-3.1.1.tar.gz --markdown 20230625/U/UpyTest/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-25 01:08:37] INFO root fetch - processPackages [utilix]: Downloading https://files.pythonhosted.org/packages/e2/08/4970505d874dfc244d8ac2151f6a607847b6dcfbefde0d83c85a357e486f/utilix-0.7.3.tar.gz
+[2023-06-25 01:08:37] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/0c/38/005da997e6e135b24db5e3254ab92153e42b230251340cdac8d0b35540a7/censoredsummarystats-0.2.8.tar.gz
+[2023-06-25 01:08:38] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-25 01:08:38] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.2.7.tar.gz tmp/censoredsummarystats-0.2.8.tar.gz --markdown 20230625/c/censoredsummarystats/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-25 01:08:38] INFO root fetch - processPackages [utilix]: executing diffoscope
+[2023-06-25 01:08:38] INFO root fetch - processPackages [utilix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilix-0.7.2.tar.gz tmp/utilix-0.7.3.tar.gz --markdown 20230625/u/utilix/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-25 01:08:38] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-25 01:08:38] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230623.tar.gz tmp/tmnt-0.7.0b20230624.tar.gz --markdown 20230625/t/tmnt/0.7.0b20230623-0.7.0b20230624/diff.md --exclude *.pyd
+[2023-06-25 01:08:39] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.7.tar.gz]
+[2023-06-25 01:08:39] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.8.tar.gz]
+[2023-06-25 01:08:39] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-25 01:08:39] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.0.tar.gz]
+[2023-06-25 01:08:39] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.1.tar.gz]
+[2023-06-25 01:08:39] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-06-25 01:08:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230623.tar.gz]
+[2023-06-25 01:08:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230624.tar.gz]
+[2023-06-25 01:08:39] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-25 01:09:33] INFO root fetch - processPackages [utilix]: Remove: archive file [/home/abi/fetcher/tmp/utilix-0.7.2.tar.gz]
+[2023-06-25 01:09:33] INFO root fetch - processPackages [utilix]: Remove: archive file [/home/abi/fetcher/tmp/utilix-0.7.3.tar.gz]
+[2023-06-25 01:09:33] INFO root fetch - main [MainThread]: End processing [utilix]: success
+[2023-06-25 01:09:33] INFO root fetch - main [MainThread]: Store serial: [18632632]
