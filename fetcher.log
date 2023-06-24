@@ -592,3 +592,66 @@ EOFError: EOF read where object expected
 [2023-06-25 00:53:05] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-25 00:53:05] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-25 00:53:05] INFO root fetch - main [MainThread]: Store serial: [18632463]
+[2023-06-25 00:58:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632463]
+[2023-06-25 00:58:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lol-esports-api
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timeout-executor
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UpyTest
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aio-aws
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drizzutojr-vapi
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaaql-middleware-python
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-game-collection
+[2023-06-25 00:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskAutom
+[2023-06-25 00:58:13] INFO root fetch - processPackages [aio-aws]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-25 00:58:13] INFO root fetch - processPackages [UpyTest]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-06-25 00:58:13] INFO root fetch - processPackages [taskAutom]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-06-25 00:58:13] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 00:58:13] WARNING root fetch - processPackages [lol-esports-api]: Skipping, unable to determine old version
+[2023-06-25 00:58:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 00:58:13] INFO root fetch - main [MainThread]: End processing [lol-esports-api] error
+[2023-06-25 00:58:13] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-25 00:58:13] WARNING root fetch - processPackages [timeout-executor]: Skipping, unable to determine old version
+[2023-06-25 00:58:13] INFO root fetch - main [MainThread]: End processing [timeout-executor] error
+[2023-06-25 00:58:13] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/c3/6f/fc2b7dbe883da85cc8af0053dafd72b1a18a03cb3c2b96d933b1a1ec601c/drizzutojr_vapi-0.0.6-py3-none-any.whl
+[2023-06-25 00:58:13] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/a2/3f/ae27b69eac200fc1a6162384d33c0a708943bfed1b62e1761fcedcb08a42/UpyTest-3.0.7.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/94/e7/badedd28e2a757f1333283fbb42440d0b422485036b236c5838125d692fa/taskAutom-8.0.5.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [aio-aws]: Downloading https://files.pythonhosted.org/packages/77/3b/17135f7a819a2b506ddab5657e680f0ef974d5900ebe4b93765b88d221f9/aio-aws-0.8.0.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/c2/c8/99a0e17bb6005d56b398f2b14b7255b13d55fc0e5ce5c71d152f811563d8/UpyTest-3.0.8.tar.gz
+[2023-06-25 00:58:13] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-25 00:58:13] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230625/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-25 00:58:14] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/f7/c4/2f17a01fc2a33782eee174b54e3e1530e0ca2419b8ca6d90bedd967a46db/drizzutojr_vapi-0.0.7-py3-none-any.whl
+[2023-06-25 00:58:14] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-06-25 00:58:14] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.0.7.tar.gz tmp/UpyTest-3.0.8.tar.gz --markdown 20230625/U/UpyTest/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-06-25 00:58:14] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-25 00:58:14] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-25 00:58:14] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.6-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.7-py3-none-any.whl.zip --markdown 20230625/d/drizzutojr-vapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 00:58:14] INFO root fetch - processPackages [taskAutom]: Downloading https://files.pythonhosted.org/packages/fb/44/7e45654771d809174cd3b504b7cabe15c563eed6d046d1cf7ff6f2ebf78a/taskAutom-8.0.6.tar.gz
+[2023-06-25 00:58:14] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-25 00:58:14] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230625/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 00:58:14] INFO root fetch - processPackages [taskAutom]: executing diffoscope
+[2023-06-25 00:58:14] INFO root fetch - processPackages [aio-aws]: Downloading https://files.pythonhosted.org/packages/4d/bc/9acf7f7c05011fe1a5002ddee28c7c54ef512c16ffaed8aca6ea64bcd8f5/aio-aws-0.9.0.tar.gz
+[2023-06-25 00:58:14] INFO root fetch - processPackages [taskAutom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskAutom-8.0.5.tar.gz tmp/taskAutom-8.0.6.tar.gz --markdown 20230625/t/taskAutom/8.0.5-8.0.6/diff.md --exclude *.pyd
+[2023-06-25 00:58:14] INFO root fetch - processPackages [aio-aws]: executing diffoscope
+[2023-06-25 00:58:14] INFO root fetch - processPackages [aio-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-aws-0.8.0.tar.gz tmp/aio-aws-0.9.0.tar.gz --markdown 20230625/a/aio-aws/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 00:58:15] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.6-py3-none-any.whl.zip]
+[2023-06-25 00:58:15] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.7-py3-none-any.whl.zip]
+[2023-06-25 00:58:15] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-25 00:58:15] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-25 00:58:15] INFO root fetch - processPackages [aio-aws]: Remove: archive file [/home/abi/fetcher/tmp/aio-aws-0.8.0.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - processPackages [aio-aws]: Remove: archive file [/home/abi/fetcher/tmp/aio-aws-0.9.0.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - main [MainThread]: End processing [aio-aws]: success
+[2023-06-25 00:58:15] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-25 00:58:15] INFO root fetch - processPackages [taskAutom]: Remove: archive file [/home/abi/fetcher/tmp/taskAutom-8.0.5.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - processPackages [taskAutom]: Remove: archive file [/home/abi/fetcher/tmp/taskAutom-8.0.6.tar.gz]
+[2023-06-25 00:58:15] INFO root fetch - main [MainThread]: End processing [taskAutom]: success
+[2023-06-25 00:58:16] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.0.7.tar.gz]
+[2023-06-25 00:58:16] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.0.8.tar.gz]
+[2023-06-25 00:58:16] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-06-25 00:58:16] INFO root fetch - main [MainThread]: Store serial: [18632494]
