@@ -291,3 +291,45 @@ EOFError: EOF read where object expected
 [2023-06-25 00:21:47] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.3.tar.gz]
 [2023-06-25 00:21:47] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
 [2023-06-25 00:21:47] INFO root fetch - main [MainThread]: Store serial: [18632348]
+[2023-06-25 00:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632348]
+[2023-06-25 00:26:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 00:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oexp
+[2023-06-25 00:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Jug
+[2023-06-25 00:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openssm
+[2023-06-25 00:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydatawork
+[2023-06-25 00:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib-pybroker
+[2023-06-25 00:26:56] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-25 00:26:56] INFO root fetch - processPackages [Jug]: New version: [2.3.0] Old Version: [2.2.3]
+[2023-06-25 00:26:56] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 00:26:56] WARNING root fetch - processPackages [openssm]: Skipping, unable to determine old version
+[2023-06-25 00:26:56] INFO root fetch - main [MainThread]: End processing [openssm] error
+[2023-06-25 00:26:56] INFO root fetch - processPackages [oexp]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-25 00:26:56] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/85/4c/bde62c7c187f4ca63e5947fe17cae936a6b9dd01e8afe47026f824763809/oexp-0.8.5.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [Jug]: Downloading https://files.pythonhosted.org/packages/af/63/445ce00e40447603ae11f6d60e647c2580f775e5481481c30db2d96bf5b4/Jug-2.2.3.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/a8/31/f4f8c82d93f79a2969ce1e754a862acf207431d0f462f085d4b44a8d2ffb/oexp-0.9.0.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-25 00:26:56] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230625/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 00:26:56] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-25 00:26:56] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.8.5.tar.gz tmp/oexp-0.9.0.tar.gz --markdown 20230625/o/oexp/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 00:26:56] INFO root fetch - processPackages [Jug]: Downloading https://files.pythonhosted.org/packages/f5/50/03c54987eaf32e4e2b7ef6845e5ecb3ea79da4e32976fbc31c35c2506b4f/Jug-2.3.0.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2023-06-25 00:26:56] INFO root fetch - processPackages [Jug]: executing diffoscope
+[2023-06-25 00:26:56] INFO root fetch - processPackages [Jug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jug-2.2.3.tar.gz tmp/Jug-2.3.0.tar.gz --markdown 20230625/J/Jug/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2023-06-25 00:26:56] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2023-06-25 00:26:56] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20230625/l/lib-pybroker/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-25 00:26:57] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.8.5.tar.gz]
+[2023-06-25 00:26:57] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.9.0.tar.gz]
+[2023-06-25 00:26:57] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-25 00:26:57] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-25 00:26:57] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-25 00:26:57] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-25 00:26:58] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2023-06-25 00:26:58] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2023-06-25 00:26:58] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2023-06-25 00:26:58] INFO root fetch - processPackages [Jug]: Remove: archive file [/home/abi/fetcher/tmp/Jug-2.2.3.tar.gz]
+[2023-06-25 00:26:58] INFO root fetch - processPackages [Jug]: Remove: archive file [/home/abi/fetcher/tmp/Jug-2.3.0.tar.gz]
+[2023-06-25 00:26:58] INFO root fetch - main [MainThread]: End processing [Jug]: success
+[2023-06-25 00:26:58] INFO root fetch - main [MainThread]: Store serial: [18632364]
