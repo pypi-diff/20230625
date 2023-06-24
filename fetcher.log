@@ -1,0 +1,148 @@
+[2023-06-25 00:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632257]
+[2023-06-25 00:00:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pps-tools
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonrise
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cihai
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydatawork
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multion
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timeout-executor
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: investor8-sdk
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scientific-plots
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyvipe
+[2023-06-25 00:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zeroshot
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pps-tools]: New version: [2.0.0] Old Version: [1.2.2]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [moonrise]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [timeout-executor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pyvipe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [cihai]: New version: [0.9.0a5] Old Version: [0.9.0a4]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.96] Old Version: [1.1.95]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [zeroshot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [scientific-plots]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-25 00:00:52] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/d1/72/00403910ea6a76906e17f39a71d609d4f20aad6dc7c2704905ebadc85fd8/investor8-sdk-1.1.95.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/f4/fa/6106c1e9ea951adb969df6a0bed4ccb08b8d65e1975cded8fd414ab98adf/timeout_executor-0.1.0.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pyvipe]: Downloading https://files.pythonhosted.org/packages/27/77/0f8c18aefcf4ed773f67d9d150fe568ae2788130a6fc04e9cf1e5ef86ce9/pyvipe-0.1.2.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pps-tools]: Downloading https://files.pythonhosted.org/packages/d6/46/717aafc21840675ebfc502c87be8a3a8edc332444a1ff5bb59b63b358593/pps-tools-1.2.2.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [moonrise]: Downloading https://files.pythonhosted.org/packages/be/81/c84a15b1c7d357b21684a95fe11b7db481b2a768ea92db0b767fef9417b1/moonrise-1.1.1.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [zeroshot]: Downloading https://files.pythonhosted.org/packages/2d/17/39952cc42962fa1a44e4f1ed1ab6e79d01e743531644fa888f586ef1449a/zeroshot-0.1.0.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/c5/26/f5c9a70938fb4184e66b14cfe8b4d4c2502380e18d1f10d92d9026c4da22/scientific_plots-1.5.1.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230625/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 00:00:52] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d6/3675b62daf319214f963f970ac6e7c0122518c201bc62164a38accdd7149/investor8-sdk-1.1.96.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-25 00:00:52] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.95.tar.gz tmp/investor8-sdk-1.1.96.tar.gz --markdown 20230625/i/investor8-sdk/1.1.95-1.1.96/diff.md --exclude *.pyd
+[2023-06-25 00:00:52] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/9f/40/2e239345287af20d9d069dfc92bda1f14c68851be8deb7c263e62c5b4239/timeout_executor-0.1.1.tar.gz
+[2023-06-25 00:00:52] INFO root fetch - processPackages [cihai]: executing diffoscope
+[2023-06-25 00:00:52] INFO root fetch - processPackages [cihai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-0.9.0a4.tar.gz tmp/cihai-0.9.0a5.tar.gz --markdown 20230625/c/cihai/0.9.0a4-0.9.0a5/diff.md --exclude *.pyd
+[2023-06-25 00:00:52] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-25 00:00:52] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230625/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 00:00:52] INFO root fetch - processPackages [timeout-executor]: executing diffoscope
+[2023-06-25 00:00:52] INFO root fetch - processPackages [timeout-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_executor-0.1.0.tar.gz tmp/timeout_executor-0.1.1.tar.gz --markdown 20230625/t/timeout-executor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 00:00:52] INFO root fetch - processPackages [pyvipe]: Downloading https://files.pythonhosted.org/packages/25/88/cf8de65e68175ae0537a016082032d65eb42d30dcdac196538c03263b1f2/pyvipe-0.1.3.tar.gz
+[2023-06-25 00:00:53] INFO root fetch - processPackages [moonrise]: Downloading https://files.pythonhosted.org/packages/ed/4b/29765d9386522e0a4ca43e8a39f605cc414425251f69f2badd4e5fd1946a/moonrise-1.1.2.tar.gz
+[2023-06-25 00:00:53] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/46/b9/2408df499c244c57c63df500bf82e2ce42ee0199b004f757ee9798ebc84d/scientific_plots-1.5.2.tar.gz
+[2023-06-25 00:00:53] INFO root fetch - processPackages [zeroshot]: Downloading https://files.pythonhosted.org/packages/b7/4d/a1a60aae691acb4632c8c7ee70d911ef3d719fb21b4d33c0645d4ed3c22d/zeroshot-0.1.1.tar.gz
+[2023-06-25 00:00:53] INFO root fetch - processPackages [pps-tools]: Downloading https://files.pythonhosted.org/packages/a3/26/e6e9bae0b2f6d7c43dd1226e631f38f7bfbc0b94f48dfeff023027cc071a/pps-tools-2.0.0.tar.gz
+[2023-06-25 00:00:53] INFO root fetch - processPackages [moonrise]: executing diffoscope
+[2023-06-25 00:00:53] INFO root fetch - processPackages [pyvipe]: executing diffoscope
+[2023-06-25 00:00:53] INFO root fetch - processPackages [moonrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonrise-1.1.1.tar.gz tmp/moonrise-1.1.2.tar.gz --markdown 20230625/m/moonrise/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-25 00:00:53] INFO root fetch - processPackages [pyvipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvipe-0.1.2.tar.gz tmp/pyvipe-0.1.3.tar.gz --markdown 20230625/p/pyvipe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 00:00:53] INFO root fetch - processPackages [scientific-plots]: executing diffoscope
+[2023-06-25 00:00:53] INFO root fetch - processPackages [scientific-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientific_plots-1.5.1.tar.gz tmp/scientific_plots-1.5.2.tar.gz --markdown 20230625/s/scientific-plots/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-25 00:00:53] INFO root fetch - processPackages [pps-tools]: executing diffoscope
+[2023-06-25 00:00:53] INFO root fetch - processPackages [pps-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pps-tools-1.2.2.tar.gz tmp/pps-tools-2.0.0.tar.gz --markdown 20230625/p/pps-tools/1.2.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-25 00:00:53] INFO root fetch - processPackages [zeroshot]: executing diffoscope
+[2023-06-25 00:00:53] INFO root fetch - processPackages [zeroshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroshot-0.1.0.tar.gz tmp/zeroshot-0.1.1.tar.gz --markdown 20230625/z/zeroshot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 00:00:54] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - processPackages [pydatawork]: Start processing: marcel
+[2023-06-25 00:00:54] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-25 00:00:54] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 00:00:54] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2023-06-25 00:00:54] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-06-25 00:00:54] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2023-06-25 00:00:54] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2023-06-25 00:00:54] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20230625/m/marcel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 00:00:54] INFO root fetch - processPackages [moonrise]: Remove: archive file [/home/abi/fetcher/tmp/moonrise-1.1.1.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - processPackages [moonrise]: Remove: archive file [/home/abi/fetcher/tmp/moonrise-1.1.2.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - main [MainThread]: End processing [moonrise]: success
+[2023-06-25 00:00:54] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.0.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.1.tar.gz]
+[2023-06-25 00:00:54] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
+[2023-06-25 00:00:55] ERROR root fetch - processPackages [cihai]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-25 00:00:55] INFO root fetch - main [MainThread]: End processing [cihai] error
+[2023-06-25 00:00:55] INFO root fetch - processPackages [pyvipe]: Remove: archive file [/home/abi/fetcher/tmp/pyvipe-0.1.2.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - processPackages [pyvipe]: Remove: archive file [/home/abi/fetcher/tmp/pyvipe-0.1.3.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - main [MainThread]: End processing [pyvipe]: success
+[2023-06-25 00:00:55] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.5.1.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.5.2.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - main [MainThread]: End processing [scientific-plots]: success
+[2023-06-25 00:00:55] INFO root fetch - processPackages [pps-tools]: Remove: archive file [/home/abi/fetcher/tmp/pps-tools-1.2.2.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - processPackages [pps-tools]: Remove: archive file [/home/abi/fetcher/tmp/pps-tools-2.0.0.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - main [MainThread]: End processing [pps-tools]: success
+[2023-06-25 00:00:55] INFO root fetch - processPackages [zeroshot]: Remove: archive file [/home/abi/fetcher/tmp/zeroshot-0.1.0.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - processPackages [zeroshot]: Remove: archive file [/home/abi/fetcher/tmp/zeroshot-0.1.1.tar.gz]
+[2023-06-25 00:00:55] INFO root fetch - main [MainThread]: End processing [zeroshot]: success
+[2023-06-25 00:00:56] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.95.tar.gz]
+[2023-06-25 00:00:56] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.96.tar.gz]
+[2023-06-25 00:00:56] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-25 00:00:56] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2023-06-25 00:00:56] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2023-06-25 00:00:56] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2023-06-25 00:00:56] INFO root fetch - main [MainThread]: Store serial: [18632288]
