@@ -276,3 +276,18 @@ EOFError: EOF read where object expected
 [2023-06-25 00:16:36] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.2.0.tar.gz]
 [2023-06-25 00:16:36] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
 [2023-06-25 00:16:36] INFO root fetch - main [MainThread]: Store serial: [18632341]
+[2023-06-25 00:21:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632341]
+[2023-06-25 00:21:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 00:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timeout-executor
+[2023-06-25 00:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerise
+[2023-06-25 00:21:45] INFO root fetch - processPackages [timeout-executor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 00:21:45] WARNING root fetch - processPackages [cerise]: Skipping, unable to determine old version
+[2023-06-25 00:21:45] INFO root fetch - main [MainThread]: End processing [cerise] error
+[2023-06-25 00:21:45] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/41/1d/0cd6739ce5a8e08b6d808b4bb546a4fd94366052fef409b837a536ff18d2/timeout_executor-0.1.2.tar.gz
+[2023-06-25 00:21:45] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/26/31/966dfb2d1f5c8f2727b0c7484d61c789c24fd545b87a81f13ab5d111bebc/timeout_executor-0.1.3.tar.gz
+[2023-06-25 00:21:45] INFO root fetch - processPackages [timeout-executor]: executing diffoscope
+[2023-06-25 00:21:45] INFO root fetch - processPackages [timeout-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_executor-0.1.2.tar.gz tmp/timeout_executor-0.1.3.tar.gz --markdown 20230625/t/timeout-executor/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 00:21:47] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.2.tar.gz]
+[2023-06-25 00:21:47] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.3.tar.gz]
+[2023-06-25 00:21:47] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
+[2023-06-25 00:21:47] INFO root fetch - main [MainThread]: Store serial: [18632348]
