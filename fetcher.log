@@ -11361,3 +11361,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:23:52] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.2.0.tar.gz]
 [2023-06-25 17:23:52] INFO root fetch - main [MainThread]: End processing [promptulate]: success
 [2023-06-25 17:23:52] INFO root fetch - main [MainThread]: Store serial: [18637109]
+[2023-06-25 17:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637109]
+[2023-06-25 17:29:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vk-urls-validator
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: czsc
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyQt-Fluent-Widgets
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: verysimplemodule-lais
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mess-sever
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meo
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcloud-secret-configure
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: entityshape
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-tts-plugin-mimic3-server
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NEMO-CE
+[2023-06-25 17:29:01] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-25 17:29:01] INFO root fetch - processPackages [entityshape]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-25 17:29:01] INFO root fetch - processPackages [NEMO-CE]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-25 17:29:01] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: New version: [0.0.2a3] Old Version: [0.0.2a2]
+[2023-06-25 17:29:01] INFO root fetch - processPackages [czsc]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 17:29:01] INFO root fetch - processPackages [meo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 17:29:01] WARNING root fetch - processPackages [mess-sever]: Skipping, unable to determine old version
+[2023-06-25 17:29:01] INFO root fetch - main [MainThread]: End processing [mess-sever] error
+[2023-06-25 17:29:01] INFO root fetch - processPackages [verysimplemodule-lais]: New version: [0.0.1.7] Old Version: [0.0.1.6]
+[2023-06-25 17:29:01] WARNING root fetch - processPackages [gcloud-secret-configure]: Skipping, unable to determine old version
+[2023-06-25 17:29:01] INFO root fetch - main [MainThread]: End processing [gcloud-secret-configure] error
+[2023-06-25 17:29:01] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/ae/90/b0c570fc9b423e4dbc94a2c4efd9ecd8848c025a1255e4eb5e59e1caef91/meo-0.1.2.tar.gz
+[2023-06-25 17:29:01] INFO root fetch - processPackages [vk-urls-validator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 17:29:01] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/56/7a/2c663a4dfa8ac36da5ed8d4f1b9985b342a8da7b540c26bbb62283961e57/verysimplemodule_lais-0.0.1.6.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/f9/7e/e7eecf24839fc6482152269bf6205cc20790a94800072bca1c09f2ce257b/PyQt-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Downloading https://files.pythonhosted.org/packages/f8/86/9b16db6755ab0421a773c00f6b83506fb27d62113456c6e9bb531b59ad2d/ovos_tts_plugin_mimic3_server-0.0.2a2-py3-none-any.whl
+[2023-06-25 17:29:02] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/af/4d/99a63798513f8f308b3e371b1852ed49947125cb74abcf4847e9168a251a/NEMO_CE-1.5.2-py3-none-any.whl
+[2023-06-25 17:29:02] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/ff/64/49e6809b474049632717e96f3a51bcdab728d63517d8ec0eb228e09ad52d/czsc-0.9.8.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [entityshape]: Downloading https://files.pythonhosted.org/packages/02/ed/861de5be026fb3744679f484f6e9952c4cfaa350126f694026b7d0b159ab/entityshape-0.0.2.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [vk-urls-validator]: Downloading https://files.pythonhosted.org/packages/f5/3c/0f60ce2ddb6552465e01390dae201759ca32cb4a27f9f9e899f2828e925a/vk_urls_validator-0.0.3-py3-none-any.whl
+[2023-06-25 17:29:02] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/02/56/4e7867bcb67746d8d3867e9440cdff9be274c01f4926e0eb3219dd9e476b/verysimplemodule_lais-0.0.1.7.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/65/f6/39073d68e1a2eb6018239802e37af04ce84c89614e34936ae25968255168/meo-0.1.3.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [verysimplemodule-lais]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [verysimplemodule-lais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verysimplemodule_lais-0.0.1.6.tar.gz tmp/verysimplemodule_lais-0.0.1.7.tar.gz --markdown 20230625/v/verysimplemodule-lais/0.0.1.6-0.0.1.7/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.2.tar.gz tmp/meo-0.1.3.tar.gz --markdown 20230625/m/meo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/0e/d2/4a7d6b153c5da9fda43bbc2a73b3c6bc20a392693a2a1fafca8686f5cc8e/NEMO_CE-1.5.3-py3-none-any.whl
+[2023-06-25 17:29:02] INFO root fetch - processPackages [entityshape]: Downloading https://files.pythonhosted.org/packages/53/3f/476da3c44a40d50b2850534f02a2a77a41cfd576c31b7234e2135be5af64/entityshape-0.1.0.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/65/2a/c6b0017939d88546e65732fc499326433b075adecda347c5aca412e4fe77/czsc-0.9.9.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Downloading https://files.pythonhosted.org/packages/13/4f/e9fd3900c11c406e52abf332539f99ec95f7b6f30bbc1152188e1cbaf4f0/ovos_tts_plugin_mimic3_server-0.0.2a3-py3-none-any.whl
+[2023-06-25 17:29:02] INFO root fetch - processPackages [entityshape]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [entityshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entityshape-0.0.2.tar.gz tmp/entityshape-0.1.0.tar.gz --markdown 20230625/e/entityshape/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [vk-urls-validator]: Downloading https://files.pythonhosted.org/packages/9e/e4/6d2c1511645f87fbcedfd603fc3e5ce0128e348d9cc86e150626c6db59d1/vk_urls_validator-0.0.4.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0d/30/629d83990b4cd4b5d547fa7142fee045a55e0efd28d6a75da7341c8d7aa2/PyQt-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-25 17:29:02] INFO root fetch - processPackages [vk-urls-validator]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [vk-urls-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vk_urls_validator-0.0.3-py3-none-any.whl.zip tmp/vk_urls_validator-0.0.4.tar.gz --markdown 20230625/v/vk-urls-validator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [czsc]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [czsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czsc-0.9.8.tar.gz tmp/czsc-0.9.9.tar.gz --markdown 20230625/c/czsc/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_mimic3_server-0.0.2a2-py3-none-any.whl.zip tmp/ovos_tts_plugin_mimic3_server-0.0.2a3-py3-none-any.whl.zip --markdown 20230625/o/ovos-tts-plugin-mimic3-server/0.0.2a2-0.0.2a3/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.7.tar.gz tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz --markdown 20230625/P/PyQt-Fluent-Widgets/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-25 17:29:02] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2023-06-25 17:29:02] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-1.5.2-py3-none-any.whl.zip tmp/NEMO_CE-1.5.3-py3-none-any.whl.zip --markdown 20230625/N/NEMO-CE/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-25 17:29:03] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.6.tar.gz]
+[2023-06-25 17:29:03] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.7.tar.gz]
+[2023-06-25 17:29:03] INFO root fetch - main [MainThread]: End processing [verysimplemodule-lais]: success
+[2023-06-25 17:29:03] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.2.tar.gz]
+[2023-06-25 17:29:03] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.3.tar.gz]
+[2023-06-25 17:29:03] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-06-25 17:29:04] INFO root fetch - processPackages [entityshape]: Remove: archive file [/home/abi/fetcher/tmp/entityshape-0.0.2.tar.gz]
+[2023-06-25 17:29:04] INFO root fetch - processPackages [entityshape]: Remove: archive file [/home/abi/fetcher/tmp/entityshape-0.1.0.tar.gz]
+[2023-06-25 17:29:04] INFO root fetch - main [MainThread]: End processing [entityshape]: success
+[2023-06-25 17:29:04] INFO root fetch - processPackages [vk-urls-validator]: Remove: archive file [/home/abi/fetcher/tmp/vk_urls_validator-0.0.3-py3-none-any.whl.zip]
+[2023-06-25 17:29:04] INFO root fetch - processPackages [vk-urls-validator]: Remove: archive file [/home/abi/fetcher/tmp/vk_urls_validator-0.0.4.tar.gz]
+[2023-06-25 17:29:04] INFO root fetch - main [MainThread]: End processing [vk-urls-validator]: success
+[2023-06-25 17:29:04] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_mimic3_server-0.0.2a2-py3-none-any.whl.zip]
+[2023-06-25 17:29:04] INFO root fetch - processPackages [ovos-tts-plugin-mimic3-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos_tts_plugin_mimic3_server-0.0.2a3-py3-none-any.whl.zip]
+[2023-06-25 17:29:04] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-mimic3-server]: success
+[2023-06-25 17:29:04] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.8.tar.gz]
+[2023-06-25 17:29:04] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.9.tar.gz]
+[2023-06-25 17:29:04] INFO root fetch - main [MainThread]: End processing [czsc]: success
+[2023-06-25 17:29:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-25 17:29:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-25 17:29:07] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-25 17:29:08] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.2-py3-none-any.whl.zip]
+[2023-06-25 17:29:08] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.3-py3-none-any.whl.zip]
+[2023-06-25 17:29:08] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2023-06-25 17:29:08] INFO root fetch - main [MainThread]: Store serial: [18637141]
