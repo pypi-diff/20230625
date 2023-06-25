@@ -5901,3 +5901,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:02:49] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-06-25 09:02:49] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-06-25 09:02:49] INFO root fetch - main [MainThread]: Store serial: [18634724]
+[2023-06-25 09:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634724]
+[2023-06-25 09:07:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 09:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cla
+[2023-06-25 09:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlightRadarAPI
+[2023-06-25 09:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-box-streamlit
+[2023-06-25 09:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: theboringlibrary
+[2023-06-25 09:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-hub-nightly
+[2023-06-25 09:07:57] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-25 09:07:57] INFO root fetch - processPackages [cla]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-25 09:07:57] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-25 09:07:58] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 09:07:58] INFO root fetch - processPackages [theboringlibrary]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-25 09:07:58] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/0e/ca/97354c6b5530908d912bdfc0babb7f4bb5dc781b0dfdb679a16fb6a39893/FlightRadarAPI-1.3.4.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-25 09:07:58] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/1a/a3/cec3184a541b57c831fc9c1126d3d68ef14c4285ee9d20e07ed865270789/theboringlibrary-0.3.5.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/0a/b0/372f41bfefeb0d55557d3d669d0bd2f201ed48b2b2e2d00140b95732c9d8/chat-box-streamlit-0.0.6.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/f4/9b/cffc45b84d10e0caefd1793090127d9b9c11fd829f6da1bd6988bc6f4e2c/cla-1.1.5.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-25 09:07:58] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/37/4b/337115738e8bb4f109f548f95adfd7621ae8a0369f6b915a3943b14219a4/theboringlibrary-0.4.0.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/63/1a/5788b9a3d7dbec3e360f12308c0db8bb6b03b8342d60d6104cd7276dc766/FlightRadarAPI-1.3.5.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/e3/d7/c78379d7c26dc8d3bbb4ecec1eeaf81d3636fb87831e2eb05f39a927e626/chat-box-streamlit-0.0.7.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-25 09:07:58] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230625/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-25 09:07:58] INFO root fetch - processPackages [theboringlibrary]: executing diffoscope
+[2023-06-25 09:07:58] INFO root fetch - processPackages [theboringlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theboringlibrary-0.3.5.tar.gz tmp/theboringlibrary-0.4.0.tar.gz --markdown 20230625/t/theboringlibrary/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-25 09:07:58] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-25 09:07:58] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.3.4.tar.gz tmp/FlightRadarAPI-1.3.5.tar.gz --markdown 20230625/F/FlightRadarAPI/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-25 09:07:58] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-06-25 09:07:58] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.6.tar.gz tmp/chat-box-streamlit-0.0.7.tar.gz --markdown 20230625/c/chat-box-streamlit/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 09:07:58] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/4d/d9/4f82617c71ddfb89e5f58db198d182555b673bda50d36d4f36d2a122ac1d/cla-1.1.6.tar.gz
+[2023-06-25 09:07:58] INFO root fetch - processPackages [cla]: executing diffoscope
+[2023-06-25 09:07:58] INFO root fetch - processPackages [cla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cla-1.1.5.tar.gz tmp/cla-1.1.6.tar.gz --markdown 20230625/c/cla/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-25 09:07:59] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.3.5.tar.gz]
+[2023-06-25 09:07:59] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.4.0.tar.gz]
+[2023-06-25 09:07:59] INFO root fetch - main [MainThread]: End processing [theboringlibrary]: success
+[2023-06-25 09:07:59] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.4.tar.gz]
+[2023-06-25 09:07:59] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.5.tar.gz]
+[2023-06-25 09:07:59] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-25 09:08:00] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-25 09:08:00] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-25 09:08:00] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-25 09:08:00] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.6.tar.gz]
+[2023-06-25 09:08:00] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.7.tar.gz]
+[2023-06-25 09:08:00] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-06-25 09:08:00] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.1.5.tar.gz]
+[2023-06-25 09:08:00] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.1.6.tar.gz]
+[2023-06-25 09:08:00] INFO root fetch - main [MainThread]: End processing [cla]: success
+[2023-06-25 09:08:00] INFO root fetch - main [MainThread]: Store serial: [18634738]
