@@ -10568,3 +10568,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:48:51] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
 [2023-06-25 15:48:51] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-06-25 15:48:51] INFO root fetch - main [MainThread]: Store serial: [18636744]
+[2023-06-25 15:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636744]
+[2023-06-25 15:54:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 15:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastestimator-nightly
+[2023-06-25 15:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RouterExecutor
+[2023-06-25 15:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngdistributionsudacity
+[2023-06-25 15:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delfino-docker
+[2023-06-25 15:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiomagra
+[2023-06-25 15:54:00] INFO root fetch - processPackages [RouterExecutor]: New version: [1.2.0] Old Version: [0.2.0]
+[2023-06-25 15:54:00] INFO root fetch - processPackages [delfino-docker]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-06-25 15:54:00] WARNING root fetch - processPackages [ngdistributionsudacity]: Skipping, unable to determine old version
+[2023-06-25 15:54:00] INFO root fetch - main [MainThread]: End processing [ngdistributionsudacity] error
+[2023-06-25 15:54:00] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202306241348] Old Version: [1.6.0.dev202306231351]
+[2023-06-25 15:54:00] WARNING root fetch - processPackages [aiomagra]: Skipping, unable to determine old version
+[2023-06-25 15:54:00] INFO root fetch - main [MainThread]: End processing [aiomagra] error
+[2023-06-25 15:54:00] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/a5/da/5641be100ea5a4d70f307c1e89574a4a598bc90b974bfbb4cfbebbbc1f03/fastestimator-nightly-1.6.0.dev202306231351.tar.gz
+[2023-06-25 15:54:00] INFO root fetch - processPackages [RouterExecutor]: Downloading https://files.pythonhosted.org/packages/cc/56/3f67fda5fbacb561c2cdcb8037863f5ee05a4ba797fba96f6f96572a5656/RouterExecutor-0.2.0.linux-x86_64.tar.gz
+[2023-06-25 15:54:00] INFO root fetch - processPackages [delfino-docker]: Downloading https://files.pythonhosted.org/packages/43/86/01c91b241feea0b2b1d86721803f246494e2a57f48e89d21c37b7dba8c98/delfino_docker-2.0.1.tar.gz
+[2023-06-25 15:54:00] INFO root fetch - processPackages [RouterExecutor]: Downloading https://files.pythonhosted.org/packages/2f/41/961b710441ac70b4e7c8cc79a93e1c29681c1f7ea1e57b518263ca539ddb/RouterExecutor-1.2.0.linux-x86_64.tar.gz
+[2023-06-25 15:54:00] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/24/fe/a4d166448ecde11a98b0ee42bb7d9d1afc812f3f63c131c4554740d9bfdb/fastestimator-nightly-1.6.0.dev202306241348.tar.gz
+[2023-06-25 15:54:00] INFO root fetch - processPackages [RouterExecutor]: executing diffoscope
+[2023-06-25 15:54:00] INFO root fetch - processPackages [RouterExecutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RouterExecutor-0.2.0.linux-x86_64.tar.gz tmp/RouterExecutor-1.2.0.linux-x86_64.tar.gz --markdown 20230625/R/RouterExecutor/0.2.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 15:54:01] INFO root fetch - processPackages [delfino-docker]: Downloading https://files.pythonhosted.org/packages/b8/05/e04325159f64c8ad68e9a3294358cd23ffd91e4db806e3598124c12e2926/delfino_docker-3.0.0.tar.gz
+[2023-06-25 15:54:01] INFO root fetch - processPackages [delfino-docker]: executing diffoscope
+[2023-06-25 15:54:01] INFO root fetch - processPackages [delfino-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delfino_docker-2.0.1.tar.gz tmp/delfino_docker-3.0.0.tar.gz --markdown 20230625/d/delfino-docker/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-25 15:54:01] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-06-25 15:54:01] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306231351.tar.gz tmp/fastestimator-nightly-1.6.0.dev202306241348.tar.gz --markdown 20230625/f/fastestimator-nightly/1.6.0.dev202306231351-1.6.0.dev202306241348/diff.md --exclude *.pyd
+[2023-06-25 15:54:02] INFO root fetch - processPackages [RouterExecutor]: Remove: archive file [/home/abi/fetcher/tmp/RouterExecutor-0.2.0.linux-x86_64.tar.gz]
+[2023-06-25 15:54:02] INFO root fetch - processPackages [RouterExecutor]: Remove: archive file [/home/abi/fetcher/tmp/RouterExecutor-1.2.0.linux-x86_64.tar.gz]
+[2023-06-25 15:54:02] INFO root fetch - main [MainThread]: End processing [RouterExecutor]: success
+[2023-06-25 15:54:02] INFO root fetch - processPackages [delfino-docker]: Remove: archive file [/home/abi/fetcher/tmp/delfino_docker-2.0.1.tar.gz]
+[2023-06-25 15:54:02] INFO root fetch - processPackages [delfino-docker]: Remove: archive file [/home/abi/fetcher/tmp/delfino_docker-3.0.0.tar.gz]
+[2023-06-25 15:54:02] INFO root fetch - main [MainThread]: End processing [delfino-docker]: success
+[2023-06-25 15:54:07] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306231351.tar.gz]
+[2023-06-25 15:54:07] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306241348.tar.gz]
+[2023-06-25 15:54:07] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-06-25 15:54:07] INFO root fetch - main [MainThread]: Store serial: [18636761]
