@@ -14238,3 +14238,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:57:18] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-25 20:57:18] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-25 20:57:18] INFO root fetch - main [MainThread]: Store serial: [18638358]
+[2023-06-25 21:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638358]
+[2023-06-25 21:02:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catflow-worker
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-csp
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-autorefresh
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rbfly
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentinel-analysis
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-services
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aifunctools
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vbtex
+[2023-06-25 21:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codebleu
+[2023-06-25 21:02:27] WARNING root fetch - processPackages [wagtail-csp]: Skipping, unable to determine old version
+[2023-06-25 21:02:27] INFO root fetch - processPackages [wagtail-csp]: Start processing: asdfuzz
+[2023-06-25 21:02:27] INFO root fetch - main [MainThread]: End processing [wagtail-csp] error
+[2023-06-25 21:02:27] INFO root fetch - processPackages [streamlit-autorefresh]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [sentinel-analysis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [aifunctools]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [codebleu]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-25 21:02:27] INFO root fetch - processPackages [catflow-worker]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-25 21:02:27] INFO root fetch - processPackages [streamlit-autorefresh]: Downloading https://files.pythonhosted.org/packages/f4/4d/bf84a32e147dbac4e0f2251a22a1d77fdd69b736f55a988ab864e5f711ca/streamlit-autorefresh-0.0.1.tar.gz
+[2023-06-25 21:02:27] INFO root fetch - processPackages [vbtex]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 21:02:27] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/16/4b/179a5e04470e5c213959485e4a1282fd2d739d12929d006405890196ef3c/sentinel_analysis-0.1.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [aifunctools]: Downloading https://files.pythonhosted.org/packages/71/18/db323f4e3810243f1d7677c791bc71b2f08e437a5645293569877fb540bd/aifunctools-0.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [rbfly]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-25 21:02:28] WARNING root fetch - processPackages [asdfuzz]: Skipping, unable to determine old version
+[2023-06-25 21:02:28] INFO root fetch - processPackages [asdfuzz]: Start processing: vbtex
+[2023-06-25 21:02:28] INFO root fetch - main [MainThread]: End processing [asdfuzz] error
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 21:02:28] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/9e/31/31e1165ee104574949085df6fa1b154c846ec7e8ceceafa273696b3d24ab/codebleu-0.0.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230625/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230625/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/ee/3c/6c19fe4b6a34e7fae7592bcbc64aa0d6924737c17cca50e4062a846e4960/vbtex-0.1.0.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [streamlit-autorefresh]: Downloading https://files.pythonhosted.org/packages/dd/e3/46a5817f39e2fe40be65799a3cc501a71a7688f38a2e99ab2ce2bbacac62/streamlit-autorefresh-1.0.0.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [catflow-worker]: Downloading https://files.pythonhosted.org/packages/8a/9b/3b223fbe48962a4ff78d1f4efedc6566750430b0c74bdec2953c1fab92c3/catflow-worker-0.1.5.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/ee/3c/6c19fe4b6a34e7fae7592bcbc64aa0d6924737c17cca50e4062a846e4960/vbtex-0.1.0.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [aifunctools]: Downloading https://files.pythonhosted.org/packages/46/bc/4ff716dee4c573bb585e9b9cfa520b79b082e8a5de41c262a6af5231ba76/aifunctools-0.1.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [rbfly]: Downloading https://files.pythonhosted.org/packages/72/39/fb4d88ca60340cdd4c89baabe03817787c5cc8953e9e72e65eb807a72a09/rbfly-0.7.0.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [aifunctools]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [aifunctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunctools-0.1.tar.gz tmp/aifunctools-0.1.1.tar.gz --markdown 20230625/a/aifunctools/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/a2/52/23785f2bb9085d7e810f6e8d5ef6df2c4107f3daa6546d6787591d3830ec/sentinel_analysis-0.1.2.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [streamlit-autorefresh]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [streamlit-autorefresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-autorefresh-0.0.1.tar.gz tmp/streamlit-autorefresh-1.0.0.tar.gz --markdown 20230625/s/streamlit-autorefresh/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [catflow-worker]: Downloading https://files.pythonhosted.org/packages/63/df/e27a3d0f1a88ceff76b5d32a7fa0e4c43036eeac52262518af286981a7c8/catflow-worker-0.1.6.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/cf/9a/68ce9b9203c7504d45f876c4ff14a3908aded91fd2b50998ecaead252515/codebleu-0.0.2.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [sentinel-analysis]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [sentinel-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_analysis-0.1.1.tar.gz tmp/sentinel_analysis-0.1.2.tar.gz --markdown 20230625/s/sentinel-analysis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/b4/fb/10e38db5b16de1421a1d65d413bf4102d91d517475f1bc3ead74f1fb35d2/vbtex-0.1.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [codebleu]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [codebleu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebleu-0.0.1.tar.gz tmp/codebleu-0.0.2.tar.gz --markdown 20230625/c/codebleu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/b4/fb/10e38db5b16de1421a1d65d413bf4102d91d517475f1bc3ead74f1fb35d2/vbtex-0.1.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [rbfly]: Downloading https://files.pythonhosted.org/packages/27/5b/98a22c1c4c64f01c277429b66f94b8cfd2a9d08de9a722a19cd331afa48c/rbfly-0.7.1.tar.gz
+[2023-06-25 21:02:28] INFO root fetch - processPackages [catflow-worker]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [catflow-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catflow-worker-0.1.5.tar.gz tmp/catflow-worker-0.1.6.tar.gz --markdown 20230625/c/catflow-worker/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.0.tar.gz tmp/vbtex-0.1.1.tar.gz --markdown 20230625/v/vbtex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.0.tar.gz tmp/vbtex-0.1.1.tar.gz --markdown 20230625/v/vbtex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 21:02:28] INFO root fetch - processPackages [rbfly]: executing diffoscope
+[2023-06-25 21:02:28] INFO root fetch - processPackages [rbfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbfly-0.7.0.tar.gz tmp/rbfly-0.7.1.tar.gz --markdown 20230625/r/rbfly/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-25 21:02:29] INFO root fetch - processPackages [aifunctools]: Remove: archive file [/home/abi/fetcher/tmp/aifunctools-0.1.tar.gz]
+[2023-06-25 21:02:29] INFO root fetch - processPackages [aifunctools]: Remove: archive file [/home/abi/fetcher/tmp/aifunctools-0.1.1.tar.gz]
+[2023-06-25 21:02:29] INFO root fetch - main [MainThread]: End processing [aifunctools]: success
+[2023-06-25 21:02:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-25 21:02:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-25 21:02:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-25 21:02:30] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.0.tar.gz]
+[2023-06-25 21:02:30] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.1.tar.gz]
+[2023-06-25 21:02:30] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-06-25 21:02:30] INFO root fetch - processPackages [catflow-worker]: Remove: archive file [/home/abi/fetcher/tmp/catflow-worker-0.1.5.tar.gz]
+[2023-06-25 21:02:30] INFO root fetch - processPackages [catflow-worker]: Remove: archive file [/home/abi/fetcher/tmp/catflow-worker-0.1.6.tar.gz]
+[2023-06-25 21:02:30] INFO root fetch - main [MainThread]: End processing [catflow-worker]: success
+[2023-06-25 21:02:30] ERROR root fetch - processPackages [vbtex]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
+
+[2023-06-25 21:02:30] INFO root fetch - main [MainThread]: End processing [vbtex] error
+[2023-06-25 21:02:30] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-25 21:02:30] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-25 21:02:30] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-25 21:02:31] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.1.tar.gz]
+[2023-06-25 21:02:31] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.2.tar.gz]
+[2023-06-25 21:02:31] INFO root fetch - main [MainThread]: End processing [sentinel-analysis]: success
+[2023-06-25 21:02:31] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.0.1.tar.gz]
+[2023-06-25 21:02:31] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.0.2.tar.gz]
+[2023-06-25 21:02:31] INFO root fetch - main [MainThread]: End processing [codebleu]: success
+[2023-06-25 21:02:31] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.7.0.tar.gz]
+[2023-06-25 21:02:31] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.7.1.tar.gz]
+[2023-06-25 21:02:31] INFO root fetch - main [MainThread]: End processing [rbfly]: success
+[2023-06-25 21:02:36] INFO root fetch - processPackages [streamlit-autorefresh]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-autorefresh-0.0.1.tar.gz]
+[2023-06-25 21:02:36] INFO root fetch - processPackages [streamlit-autorefresh]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-autorefresh-1.0.0.tar.gz]
+[2023-06-25 21:02:36] INFO root fetch - main [MainThread]: End processing [streamlit-autorefresh]: success
+[2023-06-25 21:02:36] INFO root fetch - main [MainThread]: Store serial: [18638407]
