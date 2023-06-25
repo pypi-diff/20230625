@@ -9791,3 +9791,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:54:30] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230624.tar.gz]
 [2023-06-25 14:54:30] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-06-25 14:54:30] INFO root fetch - main [MainThread]: Store serial: [18636399]
+[2023-06-25 14:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636399]
+[2023-06-25 14:59:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-pdk-sky130
+[2023-06-25 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorcircuit-nightly
+[2023-06-25 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectrum-io
+[2023-06-25 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg-napari-mtrack
+[2023-06-25 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camel-converter
+[2023-06-25 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: delfino-core
+[2023-06-25 14:59:39] INFO root fetch - processPackages [c4m-pdk-sky130]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-25 14:59:40] INFO root fetch - processPackages [camel-converter]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-25 14:59:40] INFO root fetch - processPackages [delfino-core]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-06-25 14:59:40] INFO root fetch - processPackages [spectrum-io]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-25 14:59:40] INFO root fetch - processPackages [vollseg-napari-mtrack]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-25 14:59:40] INFO root fetch - processPackages [vollseg-napari-mtrack]: Downloading https://files.pythonhosted.org/packages/ee/2d/4e2d0b4e31a32c98e52d5dd24c90d9a222b099e404cf1afb0c4cafdf41f8/vollseg-napari-mtrack-1.3.5.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [delfino-core]: Downloading https://files.pythonhosted.org/packages/6b/ec/352540f11a868573c84b10c39dbe0dac7236ef37b1b6b5dbea0e5dc53474/delfino_core-5.0.0.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-25 14:59:40] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/2c/66/d4acff2bcd851542f90a6433fb638d6a49d176e972f28e68c1593f08c395/c4m_pdk_sky130-0.1.3-py3-none-any.whl
+[2023-06-25 14:59:40] INFO root fetch - processPackages [camel-converter]: Downloading https://files.pythonhosted.org/packages/67/74/92806bf240c3e2ce6cdddce5b7661f33d1bcc45f8d38dc3a1b2633e04134/camel_converter-3.0.0.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [spectrum-io]: Downloading https://files.pythonhosted.org/packages/80/a8/c0199211d634b44656bf8173327c52029ca19dd581b15dc65f3d71dfb28a/spectrum_io-0.2.0.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [delfino-core]: Downloading https://files.pythonhosted.org/packages/aa/1e/a16a4bbea7e7cd5b7e8d7272e5b19f93bab9c13eb9667f0cae8d673ccfdd/delfino_core-5.1.0.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [vollseg-napari-mtrack]: Downloading https://files.pythonhosted.org/packages/df/21/0f74e1acd30d0e65549585474c2bff7dfaf781bc5a30281b79d97839d582/vollseg-napari-mtrack-1.3.6.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [delfino-core]: executing diffoscope
+[2023-06-25 14:59:40] INFO root fetch - processPackages [delfino-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delfino_core-5.0.0.tar.gz tmp/delfino_core-5.1.0.tar.gz --markdown 20230625/d/delfino-core/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-06-25 14:59:40] INFO root fetch - processPackages [vollseg-napari-mtrack]: executing diffoscope
+[2023-06-25 14:59:40] INFO root fetch - processPackages [vollseg-napari-mtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-mtrack-1.3.5.tar.gz tmp/vollseg-napari-mtrack-1.3.6.tar.gz --markdown 20230625/v/vollseg-napari-mtrack/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-25 14:59:40] INFO root fetch - processPackages [camel-converter]: Downloading https://files.pythonhosted.org/packages/52/3b/8f475d8d9c057f45ac0f3f29e574e484f7cef098a5bd3881d55ac67c7d3f/camel_converter-3.0.1.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-25 14:59:40] INFO root fetch - processPackages [camel-converter]: executing diffoscope
+[2023-06-25 14:59:40] INFO root fetch - processPackages [camel-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camel_converter-3.0.0.tar.gz tmp/camel_converter-3.0.1.tar.gz --markdown 20230625/c/camel-converter/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-25 14:59:40] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-25 14:59:40] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230625/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-25 14:59:41] INFO root fetch - processPackages [delfino-core]: Remove: archive file [/home/abi/fetcher/tmp/delfino_core-5.0.0.tar.gz]
+[2023-06-25 14:59:41] INFO root fetch - processPackages [delfino-core]: Remove: archive file [/home/abi/fetcher/tmp/delfino_core-5.1.0.tar.gz]
+[2023-06-25 14:59:41] INFO root fetch - main [MainThread]: End processing [delfino-core]: success
+[2023-06-25 14:59:41] INFO root fetch - processPackages [camel-converter]: Remove: archive file [/home/abi/fetcher/tmp/camel_converter-3.0.0.tar.gz]
+[2023-06-25 14:59:41] INFO root fetch - processPackages [camel-converter]: Remove: archive file [/home/abi/fetcher/tmp/camel_converter-3.0.1.tar.gz]
+[2023-06-25 14:59:41] INFO root fetch - main [MainThread]: End processing [camel-converter]: success
+[2023-06-25 14:59:41] INFO root fetch - processPackages [vollseg-napari-mtrack]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-mtrack-1.3.5.tar.gz]
+[2023-06-25 14:59:41] INFO root fetch - processPackages [vollseg-napari-mtrack]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-mtrack-1.3.6.tar.gz]
+[2023-06-25 14:59:41] INFO root fetch - main [MainThread]: End processing [vollseg-napari-mtrack]: success
+[2023-06-25 14:59:41] INFO root fetch - processPackages [spectrum-io]: Downloading https://files.pythonhosted.org/packages/38/63/e66e3b62ccf331236acac62b425e5ade5c34d75d421a88f7c5fff37110ca/spectrum_io-0.2.1.tar.gz
+[2023-06-25 14:59:42] INFO root fetch - processPackages [spectrum-io]: executing diffoscope
+[2023-06-25 14:59:42] INFO root fetch - processPackages [spectrum-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_io-0.2.0.tar.gz tmp/spectrum_io-0.2.1.tar.gz --markdown 20230625/s/spectrum-io/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 14:59:42] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/a0/22/ee943084fe8be5a08ae11528c28981060b9adaea597abcec889d8d6046a6/c4m_pdk_sky130-0.1.4.tar.gz
+[2023-06-25 14:59:42] WARNING root fetch - processPackages [c4m-pdk-sky130]: Skipping package: exceeds size limit 14485516>=10485760
+[2023-06-25 14:59:42] INFO root fetch - main [MainThread]: End processing [c4m-pdk-sky130] error
+[2023-06-25 14:59:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-25 14:59:43] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-25 14:59:43] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-25 14:59:49] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.2.0.tar.gz]
+[2023-06-25 14:59:49] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.2.1.tar.gz]
+[2023-06-25 14:59:49] INFO root fetch - main [MainThread]: End processing [spectrum-io]: success
+[2023-06-25 14:59:49] INFO root fetch - main [MainThread]: Store serial: [18636422]
