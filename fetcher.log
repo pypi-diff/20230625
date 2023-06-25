@@ -11194,3 +11194,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:02:10] INFO root fetch - processPackages [streamlit-reveal-slides]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-reveal-slides-0.2.0.tar.gz]
 [2023-06-25 17:02:10] INFO root fetch - main [MainThread]: End processing [streamlit-reveal-slides]: success
 [2023-06-25 17:02:10] INFO root fetch - main [MainThread]: Store serial: [18637040]
+[2023-06-25 17:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637040]
+[2023-06-25 17:07:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pidgeotto
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py4ami
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betapert
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunspot
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devgoldyutils
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-text-nightly
+[2023-06-25 17:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jtorch
+[2023-06-25 17:07:20] INFO root fetch - processPackages [sunspot]: New version: [0.2] Old Version: [0.0.1]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [betapert]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [py4ami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230624] Old Version: [2.14.0.dev20230623]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [sunspot]: Downloading https://files.pythonhosted.org/packages/9f/8d/f0fe59618b1324f1196b93e21c84775a32de1071547db0f40bea7e842c24/sunspot-0.0.1.tar.gz
+[2023-06-25 17:07:20] INFO root fetch - processPackages [pidgeotto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [betapert]: Downloading https://files.pythonhosted.org/packages/61/72/06628ea812889c7eeb6d919ed62b84e68658fb4309e844053961aee46f88/betapert-0.1.0.tar.gz
+[2023-06-25 17:07:20] INFO root fetch - processPackages [jtorch]: New version: [0.1.6] Old Version: [0.1.3]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [devgoldyutils]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-06-25 17:07:20] INFO root fetch - processPackages [py4ami]: Downloading https://files.pythonhosted.org/packages/c5/19/fd72b8e353daaae6dce12807e4727231323c1eb920f6f081e58828435702/py4ami-0.0.8.tar.gz
+[2023-06-25 17:07:20] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/c5/60/930a2fcaabb82d0f036fa8d6143e5427d0934ad3ec85d24afe154d73cc14/tensorflow_text_nightly-2.14.0.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 17:07:20] WARNING root fetch - processPackages [py4ami]: Skipping package: exceeds size limit 16331081>=10485760
+[2023-06-25 17:07:20] INFO root fetch - main [MainThread]: End processing [py4ami] error
+[2023-06-25 17:07:20] INFO root fetch - processPackages [sunspot]: Downloading https://files.pythonhosted.org/packages/e2/7e/4898b4a32071ddc614354fd0ed42616f5dc9c5159601b1403f34bcb0da55/sunspot-0.2.tar.gz
+[2023-06-25 17:07:20] INFO root fetch - processPackages [betapert]: Downloading https://files.pythonhosted.org/packages/bf/9e/42c1dcb2a5067c3561ba6470addbc03cd863787a9849fee5eeff5d897a14/betapert-0.1.1.tar.gz
+[2023-06-25 17:07:20] INFO root fetch - processPackages [pidgeotto]: Downloading https://files.pythonhosted.org/packages/2a/9c/e6b9f8112d1741242d84772e581e70de18123260f03ca22a22e986306048/pidgeotto-0.0.4.tar.gz
+[2023-06-25 17:07:21] INFO root fetch - processPackages [jtorch]: Downloading https://files.pythonhosted.org/packages/9e/84/2c7b8410630cf4eb0dfd6f031891dbbc313c81f627ddb14bbd955f281a10/jtorch-0.1.3.tar.gz
+[2023-06-25 17:07:21] INFO root fetch - processPackages [sunspot]: executing diffoscope
+[2023-06-25 17:07:21] INFO root fetch - processPackages [betapert]: executing diffoscope
+[2023-06-25 17:07:21] INFO root fetch - processPackages [sunspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunspot-0.0.1.tar.gz tmp/sunspot-0.2.tar.gz --markdown 20230625/s/sunspot/0.0.1-0.2/diff.md --exclude *.pyd
+[2023-06-25 17:07:21] INFO root fetch - processPackages [betapert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betapert-0.1.0.tar.gz tmp/betapert-0.1.1.tar.gz --markdown 20230625/b/betapert/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 17:07:21] INFO root fetch - processPackages [devgoldyutils]: Downloading https://files.pythonhosted.org/packages/9b/27/38b734c73a19c923dc9ff832a3a7b87365bee4cf3372b723930b0f07f56c/devgoldyutils-2.5.3.tar.gz
+[2023-06-25 17:07:21] INFO root fetch - processPackages [pidgeotto]: Downloading https://files.pythonhosted.org/packages/3f/91/92bf7726cb62ffa76a56d3e29a688ad8c560f05e7fe2719363ce5521806a/pidgeotto-0.0.5.tar.gz
+[2023-06-25 17:07:21] INFO root fetch - processPackages [devgoldyutils]: Downloading https://files.pythonhosted.org/packages/50/4b/64f50e56d00e5dc94982f71e672b6ed02873ab776cdd619b0d75dfaf6dad/devgoldyutils-2.5.4.tar.gz
+[2023-06-25 17:07:21] INFO root fetch - processPackages [jtorch]: Downloading https://files.pythonhosted.org/packages/e3/59/44b4e4d73bd8f360172815765acc228776adfeac8bed738505d9235bae94/jtorch-0.1.6.tar.gz
+[2023-06-25 17:07:21] INFO root fetch - processPackages [pidgeotto]: executing diffoscope
+[2023-06-25 17:07:21] INFO root fetch - processPackages [pidgeotto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidgeotto-0.0.4.tar.gz tmp/pidgeotto-0.0.5.tar.gz --markdown 20230625/p/pidgeotto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 17:07:21] INFO root fetch - processPackages [jtorch]: executing diffoscope
+[2023-06-25 17:07:21] INFO root fetch - processPackages [jtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jtorch-0.1.3.tar.gz tmp/jtorch-0.1.6.tar.gz --markdown 20230625/j/jtorch/0.1.3-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 17:07:21] INFO root fetch - processPackages [devgoldyutils]: executing diffoscope
+[2023-06-25 17:07:21] INFO root fetch - processPackages [devgoldyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devgoldyutils-2.5.3.tar.gz tmp/devgoldyutils-2.5.4.tar.gz --markdown 20230625/d/devgoldyutils/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-06-25 17:07:21] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/9d/af/936696dd2ff35e82fd8579b6991b4a81a38329350a4416b1d37fd9d8fb02/tensorflow_text_nightly-2.14.0.dev20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 17:07:22] INFO root fetch - processPackages [betapert]: Remove: archive file [/home/abi/fetcher/tmp/betapert-0.1.0.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - processPackages [betapert]: Remove: archive file [/home/abi/fetcher/tmp/betapert-0.1.1.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - main [MainThread]: End processing [betapert]: success
+[2023-06-25 17:07:22] INFO root fetch - processPackages [sunspot]: Remove: archive file [/home/abi/fetcher/tmp/sunspot-0.0.1.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - processPackages [sunspot]: Remove: archive file [/home/abi/fetcher/tmp/sunspot-0.2.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - main [MainThread]: End processing [sunspot]: success
+[2023-06-25 17:07:22] INFO root fetch - processPackages [pidgeotto]: Remove: archive file [/home/abi/fetcher/tmp/pidgeotto-0.0.4.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - processPackages [pidgeotto]: Remove: archive file [/home/abi/fetcher/tmp/pidgeotto-0.0.5.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - main [MainThread]: End processing [pidgeotto]: success
+[2023-06-25 17:07:22] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-25 17:07:22] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/t/tensorflow-text-nightly/2.14.0.dev20230623-2.14.0.dev20230624/diff.md --exclude *.pyd
+[2023-06-25 17:07:22] INFO root fetch - processPackages [jtorch]: Remove: archive file [/home/abi/fetcher/tmp/jtorch-0.1.3.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - processPackages [jtorch]: Remove: archive file [/home/abi/fetcher/tmp/jtorch-0.1.6.tar.gz]
+[2023-06-25 17:07:22] INFO root fetch - main [MainThread]: End processing [jtorch]: success
+[2023-06-25 17:07:23] INFO root fetch - processPackages [devgoldyutils]: Remove: archive file [/home/abi/fetcher/tmp/devgoldyutils-2.5.3.tar.gz]
+[2023-06-25 17:07:23] INFO root fetch - processPackages [devgoldyutils]: Remove: archive file [/home/abi/fetcher/tmp/devgoldyutils-2.5.4.tar.gz]
+[2023-06-25 17:07:23] INFO root fetch - main [MainThread]: End processing [devgoldyutils]: success
+[2023-06-25 17:07:25] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 17:07:25] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 17:07:25] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-25 17:07:25] INFO root fetch - main [MainThread]: Store serial: [18637061]
