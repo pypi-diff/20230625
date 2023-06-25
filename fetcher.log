@@ -14932,3 +14932,142 @@ AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
 [2023-06-25 21:55:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-25 21:55:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-25 21:55:24] INFO root fetch - main [MainThread]: Store serial: [18638652]
+[2023-06-25 22:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638652]
+[2023-06-25 22:00:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjs8call
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pointstorm
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openfractal-client
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: customgpt-client
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text2text
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inventree-wled-locator
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyphetools
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pttp
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dasy
+[2023-06-25 22:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yaqd-control
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pyjs8call]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [dasy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [openfractal-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [inventree-wled-locator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [customgpt-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [yaqd-control]: New version: [2023.6.0] Old Version: [2022.4.0]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pointstorm]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [text2text]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pttp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 22:00:33] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/34/08/0fb3830bd88bee70cbac694a5a2c71d00cf57fdec8de3c43e43583d2419b/customgpt_client-1.0.8-py3-none-any.whl
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/2f/3e/df3eb7e5c259a4839e4410adaf9d3ab35029f958296bf4d375fc5dbad9af/pyphetools-0.2.7.tar.gz
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pttp]: Downloading https://files.pythonhosted.org/packages/33/b4/047fd69d7515ddb58c90e3d917151cf617c1be7e785efa2dbe7298e07dfa/pttp-0.0.2.tar.gz
+[2023-06-25 22:00:33] INFO root fetch - processPackages [inventree-wled-locator]: Downloading https://files.pythonhosted.org/packages/0e/ed/22fcd32518a3eec48a36e60d376a4df6d51de030fb0ffb107b3e5f3cd321/inventree-wled-locator-0.2.0.tar.gz
+[2023-06-25 22:00:33] INFO root fetch - processPackages [pyjs8call]: Downloading https://files.pythonhosted.org/packages/a9/c5/da7e02246176da031a5e5f2b7187009957cdc5262e286d712a903a22cb1a/pyjs8call-0.2.0.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [dasy]: Downloading https://files.pythonhosted.org/packages/d3/b1/de780503eb0e6bca7541d7ae49e6a21bb72fca5c51d9f7ff1e3e534aa356/dasy-0.1.8.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/34/d8/3346f16aad90af5e5a2d4382d62b4b2b370130640c167ab3054f4d91704a/openfractal_client-0.1.0.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [yaqd-control]: Downloading https://files.pythonhosted.org/packages/c8/ea/6769adc31bbed4dad214a4ebb260677921df6fa5fe63d02bb9fe93a2abcf/yaqd-control-2022.4.0.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/5d/c2/235fd4437665562fd93aed215f544bbdef0e8691dd0f31b04db6773b9179/text2text-1.1.6.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/a0/09/c043bb89e8451345bc5af62e161c70bf3f9b43e8e2887f9b5a02998acc48/pyphetools-0.2.9.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pointstorm]: Downloading https://files.pythonhosted.org/packages/9a/8a/0650887b54fdf1a6e0cb877869d5c21ad9d6f8b7831f1696e2446762fe40/pointstorm-1.1.7.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/28/ca/0474691e5ec1fe5ff73b6c5cb37d6c884ff4dea5a16d8617f7601fc70ecd/customgpt_client-1.0.9-py3-none-any.whl
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230625/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pttp]: Downloading https://files.pythonhosted.org/packages/5d/2f/c2f1a82a1ac7bb9d4492428e8cec01f4f297255faacd0ca6b48b3e61002f/pttp-0.0.3.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [inventree-wled-locator]: Downloading https://files.pythonhosted.org/packages/7c/1f/eee749e27669fdcd9bf1e90f64ca38457a2f3949efef5a011f790af0f346/inventree-wled-locator-0.2.1.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/16/3b/95920a030dd3071cdcc54198d434c96528b69b8bdd86663b1af467ef9057/openfractal_client-0.1.1.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.0.8-py3-none-any.whl.zip tmp/customgpt_client-1.0.9-py3-none-any.whl.zip --markdown 20230625/c/customgpt-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pyjs8call]: Downloading https://files.pythonhosted.org/packages/6d/fa/c1d472d51a3014586fcb60c6fb05cf455c24daa7ec994306c9bfefab6b3d/pyjs8call-0.2.1.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pttp]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pttp-0.0.2.tar.gz tmp/pttp-0.0.3.tar.gz --markdown 20230625/p/pttp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [inventree-wled-locator]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [inventree-wled-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-wled-locator-0.2.0.tar.gz tmp/inventree-wled-locator-0.2.1.tar.gz --markdown 20230625/i/inventree-wled-locator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [dasy]: Downloading https://files.pythonhosted.org/packages/0e/53/e05b4a570e16b91c8396e18dbdd2f607a96ad7d632a7349226a9dca46b32/dasy-0.1.9.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/2a/95/e711931ccb7feb9ece3445fdc27c47d9bd4b35ef1e3241078a7fab7ceba5/text2text-1.1.7.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pointstorm]: Downloading https://files.pythonhosted.org/packages/0e/5d/63feae2e3e68d01923ddb122ccaf6ee2554149c8511d9f088b570836de3d/pointstorm-1.1.8.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [yaqd-control]: Downloading https://files.pythonhosted.org/packages/3c/a8/bcdcc20c07d921b57ebbecfad3035bac1cf3f467c59cd9c8a198d3b22112/yaqd_control-2023.6.0.tar.gz
+[2023-06-25 22:00:34] INFO root fetch - processPackages [openfractal-client]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [openfractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfractal_client-0.1.0.tar.gz tmp/openfractal_client-0.1.1.tar.gz --markdown 20230625/o/openfractal-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pointstorm]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pointstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointstorm-1.1.7.tar.gz tmp/pointstorm-1.1.8.tar.gz --markdown 20230625/p/pointstorm/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pyjs8call]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [pyjs8call]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjs8call-0.2.0.tar.gz tmp/pyjs8call-0.2.1.tar.gz --markdown 20230625/p/pyjs8call/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [yaqd-control]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [yaqd-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaqd-control-2022.4.0.tar.gz tmp/yaqd_control-2023.6.0.tar.gz --markdown 20230625/y/yaqd-control/2022.4.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [dasy]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [dasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dasy-0.1.8.tar.gz tmp/dasy-0.1.9.tar.gz --markdown 20230625/d/dasy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 22:00:34] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-25 22:00:34] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.6.tar.gz tmp/text2text-1.1.7.tar.gz --markdown 20230625/t/text2text/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-25 22:00:35] INFO root fetch - processPackages [pttp]: Remove: archive file [/home/abi/fetcher/tmp/pttp-0.0.2.tar.gz]
+[2023-06-25 22:00:35] INFO root fetch - processPackages [pttp]: Remove: archive file [/home/abi/fetcher/tmp/pttp-0.0.3.tar.gz]
+[2023-06-25 22:00:35] INFO root fetch - processPackages [pttp]: Start processing: text2text
+[2023-06-25 22:00:35] INFO root fetch - main [MainThread]: End processing [pttp]: success
+[2023-06-25 22:00:35] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.7.tar.gz]
+[2023-06-25 22:00:35] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.9.tar.gz]
+[2023-06-25 22:00:35] INFO root fetch - processPackages [pyphetools]: Start processing: gridworks-proactor
+[2023-06-25 22:00:35] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-25 22:00:35] INFO root fetch - processPackages [text2text]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-25 22:00:35] INFO root fetch - processPackages [gridworks-proactor]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-25 22:00:36] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-25 22:00:36] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.6.tar.gz tmp/text2text-1.1.7.tar.gz --markdown 20230625/t/text2text/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-25 22:00:36] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/41/3b/6583e28e0428fc3d9eb9df01ddf94f3a1804297dc3a8819595e4fe0a2957/gridworks_proactor-0.2.1.tar.gz
+[2023-06-25 22:00:36] INFO root fetch - processPackages [inventree-wled-locator]: Remove: archive file [/home/abi/fetcher/tmp/inventree-wled-locator-0.2.0.tar.gz]
+[2023-06-25 22:00:36] INFO root fetch - processPackages [inventree-wled-locator]: Remove: archive file [/home/abi/fetcher/tmp/inventree-wled-locator-0.2.1.tar.gz]
+[2023-06-25 22:00:36] INFO root fetch - processPackages [inventree-wled-locator]: Start processing: django-khronos
+[2023-06-25 22:00:36] INFO root fetch - main [MainThread]: End processing [inventree-wled-locator]: success
+[2023-06-25 22:00:36] ERROR root fetch - processPackages [django-khronos]: Unable to get metadata: No such project 'django-khronos'
+[2023-06-25 22:00:36] INFO root fetch - processPackages [django-khronos]: Start processing: calcipy
+[2023-06-25 22:00:36] INFO root fetch - main [MainThread]: End processing [django-khronos] error
+[2023-06-25 22:00:36] INFO root fetch - processPackages [calcipy]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-25 22:00:36] INFO root fetch - processPackages [gridworks-proactor]: Downloading https://files.pythonhosted.org/packages/8d/7c/aa164effaad27a83383c0162d00b7f51045f4e228a752d287a73016146a0/gridworks_proactor-0.2.2.tar.gz
+[2023-06-25 22:00:36] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/4a/82/fdc741fd30b734622c5c75e2e9f2e7e519b3345d68b11723a9de09b30420/calcipy-1.3.0.tar.gz
+[2023-06-25 22:00:36] INFO root fetch - processPackages [dasy]: Remove: archive file [/home/abi/fetcher/tmp/dasy-0.1.8.tar.gz]
+[2023-06-25 22:00:36] INFO root fetch - processPackages [dasy]: Remove: archive file [/home/abi/fetcher/tmp/dasy-0.1.9.tar.gz]
+[2023-06-25 22:00:36] INFO root fetch - main [MainThread]: End processing [dasy]: success
+[2023-06-25 22:00:36] INFO root fetch - processPackages [gridworks-proactor]: executing diffoscope
+[2023-06-25 22:00:36] INFO root fetch - processPackages [gridworks-proactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_proactor-0.2.1.tar.gz tmp/gridworks_proactor-0.2.2.tar.gz --markdown 20230625/g/gridworks-proactor/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-25 22:00:36] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/3e/83/e046de69d57188245db96dc70012848e930d27549cba57e122b148176626/calcipy-1.4.0.tar.gz
+[2023-06-25 22:00:37] INFO root fetch - processPackages [pointstorm]: Remove: archive file [/home/abi/fetcher/tmp/pointstorm-1.1.7.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - processPackages [pointstorm]: Remove: archive file [/home/abi/fetcher/tmp/pointstorm-1.1.8.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - main [MainThread]: End processing [pointstorm]: success
+[2023-06-25 22:00:37] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.6.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.7.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-25 22:00:37] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-06-25 22:00:37] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.3.0.tar.gz tmp/calcipy-1.4.0.tar.gz --markdown 20230625/c/calcipy/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-25 22:00:37] INFO root fetch - processPackages [pyjs8call]: Remove: archive file [/home/abi/fetcher/tmp/pyjs8call-0.2.0.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - processPackages [pyjs8call]: Remove: archive file [/home/abi/fetcher/tmp/pyjs8call-0.2.1.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - main [MainThread]: End processing [pyjs8call]: success
+[2023-06-25 22:00:37] INFO root fetch - processPackages [yaqd-control]: Remove: archive file [/home/abi/fetcher/tmp/yaqd-control-2022.4.0.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - processPackages [yaqd-control]: Remove: archive file [/home/abi/fetcher/tmp/yaqd_control-2023.6.0.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - main [MainThread]: End processing [yaqd-control]: success
+[2023-06-25 22:00:37] ERROR root fetch - processPackages [text2text]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
+
+[2023-06-25 22:00:37] INFO root fetch - main [MainThread]: End processing [text2text] error
+[2023-06-25 22:00:37] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.1.0.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.1.1.tar.gz]
+[2023-06-25 22:00:37] INFO root fetch - main [MainThread]: End processing [openfractal-client]: success
+[2023-06-25 22:00:38] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.8-py3-none-any.whl.zip]
+[2023-06-25 22:00:38] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.9-py3-none-any.whl.zip]
+[2023-06-25 22:00:38] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-06-25 22:00:38] INFO root fetch - processPackages [gridworks-proactor]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_proactor-0.2.1.tar.gz]
+[2023-06-25 22:00:38] INFO root fetch - processPackages [gridworks-proactor]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_proactor-0.2.2.tar.gz]
+[2023-06-25 22:00:38] INFO root fetch - main [MainThread]: End processing [gridworks-proactor]: success
+[2023-06-25 22:00:38] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.3.0.tar.gz]
+[2023-06-25 22:00:38] INFO root fetch - processPackages [calcipy]: Remove: archive file [/home/abi/fetcher/tmp/calcipy-1.4.0.tar.gz]
+[2023-06-25 22:00:38] INFO root fetch - main [MainThread]: End processing [calcipy]: success
+[2023-06-25 22:00:38] INFO root fetch - main [MainThread]: Store serial: [18638693]
