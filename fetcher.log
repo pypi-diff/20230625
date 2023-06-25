@@ -8998,3 +8998,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:43:34] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.3.tar.gz]
 [2023-06-25 13:43:34] INFO root fetch - main [MainThread]: End processing [flook]: success
 [2023-06-25 13:43:34] INFO root fetch - main [MainThread]: Store serial: [18636033]
+[2023-06-25 13:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636033]
+[2023-06-25 13:48:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygwalker
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-dllib-spark3
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca-spark3
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-friesian-spark3
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-chronos-spark3
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-spark3
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dputils
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-25 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: i8-terminal
+[2023-06-25 13:48:43] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [pygwalker]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [dputils]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.87]
+[2023-06-25 13:48:43] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230625114708] Old Version: [2.1.1.dev20230623144818]
+[2023-06-25 13:48:44] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/81/21/bc06b8f3dbf8d5b9017591b5349506e228c0fb9664575af86d418282bbe4/pygwalker-0.1.9.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/f0/8a/c91d5fc0a4cb305d37f1ca5d84e0f089083175150682237d5284a0861671/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/d0/82/9c991f9c8cf33a85e29eb445fe118a168b13756796fbbea3f6cf0e32353d/bigdl-dllib-spark3-2.4.0b20230624.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/46/b2/11932ebb6f29d039eb1dcf50a7cd77b8f1bd3dcc9256e220f5a864c80aa7/bigdl_orca_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/f4/41/569aeb443c56751b2411d882cbb618431859a9886f2e9bf5cd9bc0e804dd/bigdl_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/0b/43/3f92cc0f4f274c0c7a99ca9a9e7db3a9d18dcc001a06712b4ceea261b14e/bigdl_friesian_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/ef/57/3c9452dd81dcc5f0dceb6eb3d40aa40ea7e878400a08f0663d6749ae3a33/i8-terminal-0.2.87.tar.gz
+[2023-06-25 13:48:44] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207714>=10485760
+[2023-06-25 13:48:44] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329236>=10485760
+[2023-06-25 13:48:44] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-25 13:48:44] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-25 13:48:44] INFO root fetch - processPackages [dputils]: Downloading https://files.pythonhosted.org/packages/08/0c/ff1c428cb24ad16e5a0d8e42d6dff2d09e78dc79f746086bc8798658ccc3/dputils-0.2.3.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/61/93/61081a1f71dc5a29f3ab938ff2c141d0ee83c79e0cebf76af20a79e28921/Denoising_Diffusion_Probabilistic_Models-1.0.0-py3-none-any.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ee/11/75e612713c3008f48c7510fd1f0633dfadfde0a48781f0ce6bc4266ef025/localstack-core-2.1.1.dev20230623144818.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/ae/f1/8f2e7835469d6296fa9e10f46796d84b1921d68685773eacbfbc6cec12f6/bigdl_friesian_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ae/6a/9e828e5d7b2d4df5556587635312a188a957fbb3dd9888be95d6ed0bd6e8/bigdl_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [dputils]: Downloading https://files.pythonhosted.org/packages/e6/c6/d580ee4918be3544193b004429fa6a25058100381d1603797b1f2f3e3f1f/dputils-0.2.4.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/97/62/aedaf5b0ea5725a6f5275f22ed6571ad1f9d53511b6b1c71046e73b6862f/Denoising_Diffusion_Probabilistic_Models-1.0.1-py3-none-any.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/96/95/0b477ef5c2c3d8f6b04fff5720c10fb7c2b9406544b1a104e60b702cf788/bigdl_chronos_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl
+[2023-06-25 13:48:44] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/31/8c/e8da2569902cccf2ec59dca0a2c1d8f83b94c75fdcbe705dd7903deb25e3/pygwalker-0.1.9.1.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230625/b/bigdl-spark3/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/11/73/9ed41049fe7714353478168454c6e3b972829fb737023bd17f21a64065e2/localstack-core-2.1.1.dev20230625114708.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [dputils]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [dputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dputils-0.2.3.tar.gz tmp/dputils-0.2.4.tar.gz --markdown 20230625/d/dputils/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip --markdown 20230625/b/bigdl-friesian-spark3/2.4.0b20230624-2.4.0b20230625/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-1.0.0-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-1.0.1-py3-none-any.whl.zip --markdown 20230625/D/Denoising-Diffusion-Probabilistic-Models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.1.9.tar.gz tmp/pygwalker-0.1.9.1.tar.gz --markdown 20230625/p/pygwalker/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip --markdown 20230625/b/bigdl-chronos-spark3/2.4.0b20230624-2.4.0b20230625/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/3a/4e/059b0e0994331c6b3c544b088856473010361bbdd6bcf135283c19003870/i8-terminal-0.2.9.tar.gz
+[2023-06-25 13:48:44] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.87.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230625/i/i8-terminal/0.2.87-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 13:48:44] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-25 13:48:44] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230623144818.tar.gz tmp/localstack-core-2.1.1.dev20230625114708.tar.gz --markdown 20230625/l/localstack-core/2.1.1.dev20230623144818-2.1.1.dev20230625114708/diff.md --exclude *.pyd
+[2023-06-25 13:48:45] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-25 13:48:45] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-25 13:48:45] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-25 13:48:46] INFO root fetch - processPackages [dputils]: Remove: archive file [/home/abi/fetcher/tmp/dputils-0.2.3.tar.gz]
+[2023-06-25 13:48:46] INFO root fetch - processPackages [dputils]: Remove: archive file [/home/abi/fetcher/tmp/dputils-0.2.4.tar.gz]
+[2023-06-25 13:48:46] INFO root fetch - main [MainThread]: End processing [dputils]: success
+[2023-06-25 13:48:46] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-1.0.0-py3-none-any.whl.zip]
+[2023-06-25 13:48:46] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-1.0.1-py3-none-any.whl.zip]
+[2023-06-25 13:48:46] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-25 13:48:46] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-25 13:48:46] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-25 13:48:46] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-25 13:48:46] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.1.9.tar.gz]
+[2023-06-25 13:48:46] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.1.9.1.tar.gz]
+[2023-06-25 13:48:46] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-06-25 13:48:47] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.87.tar.gz]
+[2023-06-25 13:48:47] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.9.tar.gz]
+[2023-06-25 13:48:47] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-25 13:48:47] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-25 13:48:47] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-25 13:48:47] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-25 13:48:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230623144818.tar.gz]
+[2023-06-25 13:48:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230625114708.tar.gz]
+[2023-06-25 13:48:52] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-25 13:48:52] INFO root fetch - main [MainThread]: Store serial: [18636060]
