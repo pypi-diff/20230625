@@ -1090,3 +1090,96 @@ EOFError: EOF read where object expected
 [2023-06-25 02:06:49] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
 [2023-06-25 02:06:49] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
 [2023-06-25 02:06:49] INFO root fetch - main [MainThread]: Store serial: [18632798]
+[2023-06-25 02:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632798]
+[2023-06-25 02:11:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-compiler-opt
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlayers-nightly
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-grafana
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garlandtools-async
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pillar1
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aws-discord-notifiers
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: constructs
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306250008] Old Version: [0.0.1.dev202306240007]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.22] Old Version: [0.1.8.21]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [xklb]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687565326] Old Version: [1687478935]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/ff/86/b34af3bfe6d2572b0cc4b526758a3a74fbdabce05902486c062536fc8f9b/ml-compiler-opt-0.0.1.dev202306240007.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.83]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [garlandtools-async]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/b1/a1/03a47da30bb6a1c754c92f2f9789d463bf99ff6025502a3b10459768037e/xklb-2.1.8.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/58/18/941fb5a3984d3849942389504483dc46b2b49ded6011f9796e0128cfda7f/torchlayers-nightly-1687478935.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/12/a0/218f04b278342e6bc4d679e090d965da3165dd254089a48fb0b670446f98/pillar1-0.1.8.21.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/12/fe/b783a1dbdfcfbb8abb51ddccd822d29242dccbe9eaaf79ff291e0e359f61/cdk8s-2.7.83.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/e6/c8/05cf61f36e0e0457efb63d90051ef801f55cf0db4e5f92c27a28a57c5501/constructs-3.4.98.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [garlandtools-async]: Downloading https://files.pythonhosted.org/packages/95/a4/2408ab2c759760c0f251fcf84ac18bea39140eb7e12f2434d56b490526af/garlandtools_async-0.1.2.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2e/31/1637bef7e4aaf8529af80e5d5d27b2eca11c30c3a63fd32033fb97549c52/xklb-2.1.9.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/31/ab/213a248406d75ca3ff1eda81cb349b3116fccdc55c94a499f824652032a5/pillar1-0.1.8.22.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [constructs]: Downloading https://files.pythonhosted.org/packages/0a/98/a9a1408d0c31908cc2c2129ea9ab047e19bc2d51b19406637848339f5c37/constructs-3.4.99.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d1/bf/62fcab1aac90c8836a3608946babc2144d15316986d375d59a4b795c2980/ml-compiler-opt-0.0.1.dev202306250008.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-06-25 02:11:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-25 02:11:59] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/6a/23/10042d4221ec1ce328ec47dd6ed3c3ca4c348b6d85737a92d3418b2b214f/torchlayers-nightly-1687565326.tar.gz
+[2023-06-25 02:11:59] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230625/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.21.tar.gz tmp/pillar1-0.1.8.22.tar.gz --markdown 20230625/p/pillar1/0.1.8.21-0.1.8.22/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306240007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306250008.tar.gz --markdown 20230625/m/ml-compiler-opt/0.0.1.dev202306240007-0.0.1.dev202306250008/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.8.tar.gz tmp/xklb-2.1.9.tar.gz --markdown 20230625/x/xklb/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.83.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230625/c/cdk8s/2.7.83-2.7.9/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230625/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230625/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687478935.tar.gz tmp/torchlayers-nightly-1687565326.tar.gz --markdown 20230625/t/torchlayers-nightly/1687478935-1687565326/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [garlandtools-async]: Downloading https://files.pythonhosted.org/packages/94/6e/c8eae02818d038188a0efe7cc9ccae9783c311ba183e6af8b1b03caeb037/garlandtools_async-0.2.0.tar.gz
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230625/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-25 02:11:59] INFO root fetch - processPackages [garlandtools-async]: executing diffoscope
+[2023-06-25 02:11:59] INFO root fetch - processPackages [garlandtools-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garlandtools_async-0.1.2.tar.gz tmp/garlandtools_async-0.2.0.tar.gz --markdown 20230625/g/garlandtools-async/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 02:12:00] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.21.tar.gz]
+[2023-06-25 02:12:00] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.22.tar.gz]
+[2023-06-25 02:12:00] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.83.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.8.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.98.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [constructs]: Remove: archive file [/home/abi/fetcher/tmp/constructs-3.4.99.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [garlandtools-async]: Remove: archive file [/home/abi/fetcher/tmp/garlandtools_async-0.1.2.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [garlandtools-async]: Remove: archive file [/home/abi/fetcher/tmp/garlandtools_async-0.2.0.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [garlandtools-async]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-25 02:12:01] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306240007.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306250008.tar.gz]
+[2023-06-25 02:12:01] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-25 02:12:02] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687478935.tar.gz]
+[2023-06-25 02:12:02] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687565326.tar.gz]
+[2023-06-25 02:12:02] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-25 02:12:02] INFO root fetch - main [MainThread]: Store serial: [18632828]
