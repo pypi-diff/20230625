@@ -10488,3 +10488,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:43:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.7.post1.tar.gz]
 [2023-06-25 15:43:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
 [2023-06-25 15:43:36] INFO root fetch - main [MainThread]: Store serial: [18636720]
+[2023-06-25 15:48:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636720]
+[2023-06-25 15:48:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsr-agent
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasieve
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhackrf2
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slackblocks
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cbra
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-upnp-client
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proJSON
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystencils
+[2023-06-25 15:48:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbmpy
+[2023-06-25 15:48:45] INFO root fetch - processPackages [datasieve]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [slackblocks]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [dsr-agent]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [async-upnp-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [pyhackrf2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [proJSON]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/f3/ea/9b9dbcf584fbea23fbeca9c19aa06ee783351d9fc6eecd3e9db828f3ca0e/proJSON-1.2.5.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [pystencils]: New version: [1.3] Old Version: [1.2]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [lbmpy]: New version: [1.3] Old Version: [1.2]
+[2023-06-25 15:48:45] INFO root fetch - processPackages [pyhackrf2]: Downloading https://files.pythonhosted.org/packages/a5/3a/34def8615b56a26c13ba37819c2082e27738654f2246091fe731c8a26e47/pyhackrf2-1.0.0.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [dsr-agent]: Downloading https://files.pythonhosted.org/packages/5e/03/54f3eb4021af3c2367b59b8729df412472cfd8e75edec553fe8f81d8d890/dsr_agent-0.0.4.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [slackblocks]: Downloading https://files.pythonhosted.org/packages/49/25/c3b83c388f5929e1da526a1188719c2c11f194c6d33dd19ffc9746d01b21/slackblocks-0.9.6.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [datasieve]: Downloading https://files.pythonhosted.org/packages/4c/65/d88309818b95e38d880160466d477dbb1a771634d8dcffd572f1dc44c68b/datasieve-0.1.5.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [async-upnp-client]: Downloading https://files.pythonhosted.org/packages/7d/2b/7ebb1f0cc93612224a4411059fa0ae9548c5169b803cf03e4daf1bbbc820/async_upnp_client-0.9.0.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [lbmpy]: Downloading https://files.pythonhosted.org/packages/f4/85/1e4b0be3316ffc347dc12a5f309d7f70deedf7e583b808568638b2d40480/lbmpy-1.2.tar.gz
+[2023-06-25 15:48:45] INFO root fetch - processPackages [pystencils]: Downloading https://files.pythonhosted.org/packages/f0/4b/eb422ff94360a5d4c547e13d0aa4fd832d8e7c8cc670d37e0ebe55475128/pystencils-1.2.tar.gz
+[2023-06-25 15:48:45] WARNING root fetch - processPackages [lbmpy]: Skipping package: exceeds size limit 16283994>=10485760
+[2023-06-25 15:48:45] INFO root fetch - main [MainThread]: End processing [lbmpy] error
+[2023-06-25 15:48:45] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/6d/b6/8100d72a3726e127ff275df634faccbce6e96c4670027da1d52a715f2177/proJSON-1.2.6.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [pyhackrf2]: Downloading https://files.pythonhosted.org/packages/fe/3c/795598368ac6f668c6da1c0554ca74ddabfa31fafc3f3af566d815e2f5a5/pyhackrf2-1.0.1.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [dsr-agent]: Downloading https://files.pythonhosted.org/packages/86/93/bc6b881c7aa69d532f7759ab49d2bb8f33684a840f66c445f29f298c6f4a/dsr_agent-0.0.5.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [slackblocks]: Downloading https://files.pythonhosted.org/packages/e3/cb/734e2a87964294b6533538e0d5c014ef972a840d5a6e131585211e238c4f/slackblocks-0.9.7.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [pyhackrf2]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [pyhackrf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhackrf2-1.0.0.tar.gz tmp/pyhackrf2-1.0.1.tar.gz --markdown 20230625/p/pyhackrf2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [async-upnp-client]: Downloading https://files.pythonhosted.org/packages/17/b1/42f48df9fbdbb04889a223958bca9611fe3d17946ef40f925369b1070b6c/async_upnp_client-0.9.1-py3-none-any.whl
+[2023-06-25 15:48:46] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.2.5.tar.gz tmp/proJSON-1.2.6.tar.gz --markdown 20230625/p/proJSON/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [datasieve]: Downloading https://files.pythonhosted.org/packages/a8/6d/8b97003611f0f7446756a9c18c0b8feb3c7ec0da834fea29d9f37f036a49/datasieve-0.1.6.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [dsr-agent]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [dsr-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsr_agent-0.0.4.tar.gz tmp/dsr_agent-0.0.5.tar.gz --markdown 20230625/d/dsr-agent/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [slackblocks]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [slackblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackblocks-0.9.6.tar.gz tmp/slackblocks-0.9.7.tar.gz --markdown 20230625/s/slackblocks/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [datasieve]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [datasieve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasieve-0.1.5.tar.gz tmp/datasieve-0.1.6.tar.gz --markdown 20230625/d/datasieve/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [pystencils]: Downloading https://files.pythonhosted.org/packages/b0/b5/831877d8b7de906615f99e5d89ff51fb607e208a927d6325c653a587f05c/pystencils-1.3.tar.gz
+[2023-06-25 15:48:46] INFO root fetch - processPackages [async-upnp-client]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [async-upnp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_upnp_client-0.9.0.tar.gz tmp/async_upnp_client-0.9.1-py3-none-any.whl.zip --markdown 20230625/a/async-upnp-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230625/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-06-25 15:48:46] INFO root fetch - processPackages [pystencils]: executing diffoscope
+[2023-06-25 15:48:46] INFO root fetch - processPackages [pystencils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystencils-1.2.tar.gz tmp/pystencils-1.3.tar.gz --markdown 20230625/p/pystencils/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-25 15:48:47] INFO root fetch - processPackages [pyhackrf2]: Remove: archive file [/home/abi/fetcher/tmp/pyhackrf2-1.0.0.tar.gz]
+[2023-06-25 15:48:47] INFO root fetch - processPackages [pyhackrf2]: Remove: archive file [/home/abi/fetcher/tmp/pyhackrf2-1.0.1.tar.gz]
+[2023-06-25 15:48:47] INFO root fetch - main [MainThread]: End processing [pyhackrf2]: success
+[2023-06-25 15:48:47] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.5.tar.gz]
+[2023-06-25 15:48:47] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.6.tar.gz]
+[2023-06-25 15:48:47] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-25 15:48:47] INFO root fetch - processPackages [dsr-agent]: Remove: archive file [/home/abi/fetcher/tmp/dsr_agent-0.0.4.tar.gz]
+[2023-06-25 15:48:47] INFO root fetch - processPackages [dsr-agent]: Remove: archive file [/home/abi/fetcher/tmp/dsr_agent-0.0.5.tar.gz]
+[2023-06-25 15:48:47] INFO root fetch - main [MainThread]: End processing [dsr-agent]: success
+[2023-06-25 15:48:48] INFO root fetch - processPackages [datasieve]: Remove: archive file [/home/abi/fetcher/tmp/datasieve-0.1.5.tar.gz]
+[2023-06-25 15:48:48] INFO root fetch - processPackages [datasieve]: Remove: archive file [/home/abi/fetcher/tmp/datasieve-0.1.6.tar.gz]
+[2023-06-25 15:48:48] INFO root fetch - main [MainThread]: End processing [datasieve]: success
+[2023-06-25 15:48:48] INFO root fetch - processPackages [slackblocks]: Remove: archive file [/home/abi/fetcher/tmp/slackblocks-0.9.6.tar.gz]
+[2023-06-25 15:48:48] INFO root fetch - processPackages [slackblocks]: Remove: archive file [/home/abi/fetcher/tmp/slackblocks-0.9.7.tar.gz]
+[2023-06-25 15:48:48] INFO root fetch - main [MainThread]: End processing [slackblocks]: success
+[2023-06-25 15:48:48] INFO root fetch - processPackages [async-upnp-client]: Remove: archive file [/home/abi/fetcher/tmp/async_upnp_client-0.9.0.tar.gz]
+[2023-06-25 15:48:48] INFO root fetch - processPackages [async-upnp-client]: Remove: archive file [/home/abi/fetcher/tmp/async_upnp_client-0.9.1-py3-none-any.whl.zip]
+[2023-06-25 15:48:48] INFO root fetch - main [MainThread]: End processing [async-upnp-client]: success
+[2023-06-25 15:48:51] INFO root fetch - processPackages [pystencils]: Remove: archive file [/home/abi/fetcher/tmp/pystencils-1.2.tar.gz]
+[2023-06-25 15:48:51] INFO root fetch - processPackages [pystencils]: Remove: archive file [/home/abi/fetcher/tmp/pystencils-1.3.tar.gz]
+[2023-06-25 15:48:51] INFO root fetch - main [MainThread]: End processing [pystencils]: success
+[2023-06-25 15:48:51] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-06-25 15:48:51] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-06-25 15:48:51] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-06-25 15:48:51] INFO root fetch - main [MainThread]: Store serial: [18636744]
