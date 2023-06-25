@@ -4474,3 +4474,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:58:09] INFO root fetch - processPackages [metpx-sarracenia]: Remove: archive file [/home/abi/fetcher/tmp/metpx_sarracenia-2.23.6-py3-none-any.whl.zip]
 [2023-06-25 06:58:09] INFO root fetch - main [MainThread]: End processing [metpx-sarracenia]: success
 [2023-06-25 06:58:09] INFO root fetch - main [MainThread]: Store serial: [18634158]
+[2023-06-25 07:03:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634158]
+[2023-06-25 07:03:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 07:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mathtranslate
+[2023-06-25 07:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-user-role
+[2023-06-25 07:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubescaler
+[2023-06-25 07:03:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FlightRadarAPI
+[2023-06-25 07:03:18] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-25 07:03:18] INFO root fetch - processPackages [mathtranslate]: New version: [3.0.0] Old Version: [2.4.4]
+[2023-06-25 07:03:18] INFO root fetch - processPackages [odoo-addon-base-user-role]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-06-25 07:03:19] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/92/c0/7989c6d599192f3fe8111103fc4e654e80bf0eef97aef7f09eb6af5dbe08/FlightRadarAPI-1.3.0.tar.gz
+[2023-06-25 07:03:19] INFO root fetch - processPackages [kubescaler]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-25 07:03:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/a0/1f/ada7b4ce531e9d71252e156223eb12b6d614a0c5d5f487d2610584f176ba/odoo_addon_base_user_role-16.0.1.2.0-py3-none-any.whl
+[2023-06-25 07:03:19] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/54/7d/151266fcf66847c4ba4747c386366d43d425a15cedb05c9e335b54171fed/mathtranslate-2.4.4.tar.gz
+[2023-06-25 07:03:19] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/7f/79/3bf8c256a4df5943ef2cde68007383efbd46b409829b793ed7accec52240/FlightRadarAPI-1.3.1.tar.gz
+[2023-06-25 07:03:19] INFO root fetch - processPackages [kubescaler]: Downloading https://files.pythonhosted.org/packages/8f/93/05785e85fac6af3592e17c70121f9c924aface899cafba7407165e50097c/kubescaler-0.0.11.tar.gz
+[2023-06-25 07:03:19] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-25 07:03:19] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.3.0.tar.gz tmp/FlightRadarAPI-1.3.1.tar.gz --markdown 20230625/F/FlightRadarAPI/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-25 07:03:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/ad/6c/51d88000e6e6fba23749e0e452aca006a8250df53848e5b9f06fa9081a3b/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl
+[2023-06-25 07:03:19] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/d6/70/89845c9ac4e1a58aa3034823db6daad8aefd97ede04ad122a2ce0c4f0c78/mathtranslate-3.0.0.tar.gz
+[2023-06-25 07:03:19] INFO root fetch - processPackages [kubescaler]: Downloading https://files.pythonhosted.org/packages/88/ef/8672ef985c5333fc507379619fcda5cfc38791a4fe8616c4a149117dfd56/kubescaler-0.0.12.tar.gz
+[2023-06-25 07:03:19] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-06-25 07:03:19] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-2.4.4.tar.gz tmp/mathtranslate-3.0.0.tar.gz --markdown 20230625/m/mathtranslate/2.4.4-3.0.0/diff.md --exclude *.pyd
+[2023-06-25 07:03:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: executing diffoscope
+[2023-06-25 07:03:19] INFO root fetch - processPackages [odoo-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230625/o/odoo-addon-base-user-role/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-06-25 07:03:19] INFO root fetch - processPackages [kubescaler]: executing diffoscope
+[2023-06-25 07:03:19] INFO root fetch - processPackages [kubescaler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubescaler-0.0.11.tar.gz tmp/kubescaler-0.0.12.tar.gz --markdown 20230625/k/kubescaler/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-25 07:03:20] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.0.tar.gz]
+[2023-06-25 07:03:20] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.1.tar.gz]
+[2023-06-25 07:03:20] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-25 07:03:20] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-2.4.4.tar.gz]
+[2023-06-25 07:03:20] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-3.0.0.tar.gz]
+[2023-06-25 07:03:20] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-06-25 07:03:21] INFO root fetch - processPackages [kubescaler]: Remove: archive file [/home/abi/fetcher/tmp/kubescaler-0.0.11.tar.gz]
+[2023-06-25 07:03:21] INFO root fetch - processPackages [kubescaler]: Remove: archive file [/home/abi/fetcher/tmp/kubescaler-0.0.12.tar.gz]
+[2023-06-25 07:03:21] INFO root fetch - main [MainThread]: End processing [kubescaler]: success
+[2023-06-25 07:03:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-25 07:03:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-06-25 07:03:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
+[2023-06-25 07:03:22] INFO root fetch - main [MainThread]: Store serial: [18634167]
