@@ -7385,3 +7385,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 11:14:29] INFO root fetch - processPackages [py-near-primitives]: Remove: archive file [/home/abi/fetcher/tmp/py_near_primitives-0.1.1-cp37-abi3-win_amd64.whl.zip]
 [2023-06-25 11:14:29] INFO root fetch - main [MainThread]: End processing [py-near-primitives]: success
 [2023-06-25 11:14:29] INFO root fetch - main [MainThread]: Store serial: [18635276]
+[2023-06-25 11:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635276]
+[2023-06-25 11:19:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vpso
+[2023-06-25 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sjoa
+[2023-06-25 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly
+[2023-06-25 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-pyinstaller
+[2023-06-25 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladybug-vectorworks
+[2023-06-25 11:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helios-opentelemetry-sdk
+[2023-06-25 11:19:38] INFO root fetch - processPackages [vpso]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-25 11:19:38] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 11:19:38] INFO root fetch - processPackages [types-pyinstaller]: New version: [5.9.0.1] Old Version: [5.9.0.0]
+[2023-06-25 11:19:38] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.93] Old Version: [1.0.92]
+[2023-06-25 11:19:38] WARNING root fetch - processPackages [sjoa]: Skipping, unable to determine old version
+[2023-06-25 11:19:38] INFO root fetch - main [MainThread]: End processing [sjoa] error
+[2023-06-25 11:19:38] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230625] Old Version: [2.14.0.dev20230624]
+[2023-06-25 11:19:38] INFO root fetch - processPackages [vpso]: Downloading https://files.pythonhosted.org/packages/f9/f5/baab1b34d64cd64bb786843412e9e5c80f9f8a42cb645f0a356581fdaa64/vpso-1.1.0.tar.gz
+[2023-06-25 11:19:38] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/ef/cb/51081ec3637b33418683674526d76c69a41a34f1763a83608e3e0964bf20/ladybug_vectorworks-0.2.2.tar.gz
+[2023-06-25 11:19:38] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/c8/3b/bfa5022de4e182e0917aa29bd44a5c3931ebe084606f147210c1ff987e99/types-pyinstaller-5.9.0.0.tar.gz
+[2023-06-25 11:19:38] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/f6/fc/776cf3fbfbc07fc918d87b3b978fa7f2686e675a36a4adeb07c62fb3ff48/helios-opentelemetry-sdk-1.0.92.tar.gz
+[2023-06-25 11:19:38] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 36424134>=10485760
+[2023-06-25 11:19:38] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-06-25 11:19:38] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/24/df/114959eda76fc3d46ffa8ffc482eceb3ffe0b00970f25d87772a479caf62/tf_nightly-2.14.0.dev20230624-cp39-cp39-win_amd64.whl
+[2023-06-25 11:19:38] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/7a/04/04fc1869659c40d6e25cc3678d27abc1c1e618508367d94a7221658354e2/helios-opentelemetry-sdk-1.0.93.tar.gz
+[2023-06-25 11:19:38] INFO root fetch - processPackages [vpso]: Downloading https://files.pythonhosted.org/packages/9c/0e/45ace8b9f6f65e207d9ca9dea10fb4b611a844179cc604a52d9022b6157b/vpso-1.1.1.tar.gz
+[2023-06-25 11:19:38] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/a2/9c/f0da807194c7f9dc7b5631b6df9c030de97d9cb351e1aa3c876be0a7d274/types-pyinstaller-5.9.0.1.tar.gz
+[2023-06-25 11:19:38] INFO root fetch - processPackages [types-pyinstaller]: executing diffoscope
+[2023-06-25 11:19:38] INFO root fetch - processPackages [types-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyinstaller-5.9.0.0.tar.gz tmp/types-pyinstaller-5.9.0.1.tar.gz --markdown 20230625/t/types-pyinstaller/5.9.0.0-5.9.0.1/diff.md --exclude *.pyd
+[2023-06-25 11:19:38] INFO root fetch - processPackages [vpso]: executing diffoscope
+[2023-06-25 11:19:38] INFO root fetch - processPackages [vpso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpso-1.1.0.tar.gz tmp/vpso-1.1.1.tar.gz --markdown 20230625/v/vpso/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-25 11:19:38] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/aa/33/df634e170d356ddee77383ff8eddee2a6dcef98c24019bf0e0210807ad75/tf_nightly-2.14.0.dev20230625-cp39-cp39-win_amd64.whl
+[2023-06-25 11:19:38] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-06-25 11:19:38] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.92.tar.gz tmp/helios-opentelemetry-sdk-1.0.93.tar.gz --markdown 20230625/h/helios-opentelemetry-sdk/1.0.92-1.0.93/diff.md --exclude *.pyd
+[2023-06-25 11:19:38] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-06-25 11:19:38] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230624-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230625-cp39-cp39-win_amd64.whl.zip --markdown 20230625/t/tf-nightly/2.14.0.dev20230624-2.14.0.dev20230625/diff.md --exclude *.pyd
+[2023-06-25 11:19:39] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-5.9.0.0.tar.gz]
+[2023-06-25 11:19:39] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-5.9.0.1.tar.gz]
+[2023-06-25 11:19:39] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
+[2023-06-25 11:19:40] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230624-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 11:19:40] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230625-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 11:19:40] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-06-25 11:19:40] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.92.tar.gz]
+[2023-06-25 11:19:40] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.93.tar.gz]
+[2023-06-25 11:19:40] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-06-25 11:19:40] INFO root fetch - processPackages [vpso]: Remove: archive file [/home/abi/fetcher/tmp/vpso-1.1.0.tar.gz]
+[2023-06-25 11:19:40] INFO root fetch - processPackages [vpso]: Remove: archive file [/home/abi/fetcher/tmp/vpso-1.1.1.tar.gz]
+[2023-06-25 11:19:40] INFO root fetch - main [MainThread]: End processing [vpso]: success
+[2023-06-25 11:19:40] INFO root fetch - main [MainThread]: Store serial: [18635307]
