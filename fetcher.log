@@ -11138,3 +11138,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:56:27] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.8.tar.gz]
 [2023-06-25 16:56:27] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
 [2023-06-25 16:56:27] INFO root fetch - main [MainThread]: Store serial: [18637009]
+[2023-06-25 17:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637009]
+[2023-06-25 17:01:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verysimplemodule-lais
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-reveal-slides
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snipar
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WeatherApp-pck
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jittor
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sunspot
+[2023-06-25 17:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch4keras
+[2023-06-25 17:01:36] INFO root fetch - processPackages [streamlit-reveal-slides]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-25 17:01:36] INFO root fetch - processPackages [verysimplemodule-lais]: New version: [0.0.1.5] Old Version: [0.0.1.4]
+[2023-06-25 17:01:36] WARNING root fetch - processPackages [WeatherApp-pck]: Skipping, unable to determine old version
+[2023-06-25 17:01:36] INFO root fetch - main [MainThread]: End processing [WeatherApp-pck] error
+[2023-06-25 17:01:36] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/e6/58/4c9d33d74964884878bc17019e989f122882a21342b2d763ba8e35ccdab0/verysimplemodule_lais-0.0.1.4.tar.gz
+[2023-06-25 17:01:36] INFO root fetch - processPackages [snipar]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-25 17:01:36] INFO root fetch - processPackages [sunspot]: New version: [0.2] Old Version: [0.0.1]
+[2023-06-25 17:01:36] INFO root fetch - processPackages [jittor]: New version: [1.3.8.3] Old Version: [1.3.8.2]
+[2023-06-25 17:01:36] INFO root fetch - processPackages [torch4keras]: New version: [0.0.8] Old Version: [0.0.7.post3]
+[2023-06-25 17:01:36] INFO root fetch - processPackages [streamlit-reveal-slides]: Downloading https://files.pythonhosted.org/packages/5f/d1/f461326c8f80e44940896a6c20397c08b69b5c08d42ebe14a4082000f66c/streamlit-reveal-slides-0.1.9.tar.gz
+[2023-06-25 17:01:36] INFO root fetch - processPackages [snipar]: Downloading https://files.pythonhosted.org/packages/38/b3/8f56743bcc71f299ff491ee0316696e407a4b43baffda04d67f48cda0fa1/snipar-0.0.7-cp39-cp39-win_amd64.whl
+[2023-06-25 17:01:36] INFO root fetch - processPackages [sunspot]: Downloading https://files.pythonhosted.org/packages/9f/8d/f0fe59618b1324f1196b93e21c84775a32de1071547db0f40bea7e842c24/sunspot-0.0.1.tar.gz
+[2023-06-25 17:01:36] INFO root fetch - processPackages [jittor]: Downloading https://files.pythonhosted.org/packages/52/7e/8d519a07c25cd116a1330dc6f5f8e1a56c90b593f30617e34e4044c6e826/jittor-1.3.8.2.tar.gz
+[2023-06-25 17:01:36] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/c4/43/e9f51d5a0d89352e121c8e28ccb80db4adec85a7093d5a0513f6e3556e4d/torch4keras-0.0.7.post3.tar.gz
+[2023-06-25 17:01:36] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/50/d6/38134aa1d59394dd1ae0fb963c1add286f8fc15c8f534595457249a86780/verysimplemodule_lais-0.0.1.5.tar.gz
+[2023-06-25 17:01:36] INFO root fetch - processPackages [verysimplemodule-lais]: executing diffoscope
+[2023-06-25 17:01:36] INFO root fetch - processPackages [verysimplemodule-lais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verysimplemodule_lais-0.0.1.4.tar.gz tmp/verysimplemodule_lais-0.0.1.5.tar.gz --markdown 20230625/v/verysimplemodule-lais/0.0.1.4-0.0.1.5/diff.md --exclude *.pyd
+[2023-06-25 17:01:36] INFO root fetch - processPackages [sunspot]: Downloading https://files.pythonhosted.org/packages/e2/7e/4898b4a32071ddc614354fd0ed42616f5dc9c5159601b1403f34bcb0da55/sunspot-0.2.tar.gz
+[2023-06-25 17:01:37] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/70/c8/f3049c9a518b0e61f4dd0ffcb4b594db717ea554a3e4bece33b35bd836e1/torch4keras-0.0.8.tar.gz
+[2023-06-25 17:01:37] WARNING root fetch - processPackages [snipar]: Skipping package: exceeds size limit 53228617>=10485760
+[2023-06-25 17:01:37] INFO root fetch - main [MainThread]: End processing [snipar] error
+[2023-06-25 17:01:37] INFO root fetch - processPackages [sunspot]: executing diffoscope
+[2023-06-25 17:01:37] INFO root fetch - processPackages [sunspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunspot-0.0.1.tar.gz tmp/sunspot-0.2.tar.gz --markdown 20230625/s/sunspot/0.0.1-0.2/diff.md --exclude *.pyd
+[2023-06-25 17:01:37] INFO root fetch - processPackages [jittor]: Downloading https://files.pythonhosted.org/packages/ec/8f/8495e6f743bee49d4c8a21f54f1f69924d11d61a9254207fb746f1eec5d6/jittor-1.3.8.3.tar.gz
+[2023-06-25 17:01:37] INFO root fetch - processPackages [torch4keras]: executing diffoscope
+[2023-06-25 17:01:37] INFO root fetch - processPackages [torch4keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4keras-0.0.7.post3.tar.gz tmp/torch4keras-0.0.8.tar.gz --markdown 20230625/t/torch4keras/0.0.7.post3-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 17:01:37] INFO root fetch - processPackages [streamlit-reveal-slides]: Downloading https://files.pythonhosted.org/packages/46/cb/57ee31ad9617d3d27c29d72ed5d30ee24c8b153f81350f1be924cb07ff7f/streamlit-reveal-slides-0.2.0.tar.gz
+[2023-06-25 17:01:37] INFO root fetch - processPackages [streamlit-reveal-slides]: executing diffoscope
+[2023-06-25 17:01:37] INFO root fetch - processPackages [streamlit-reveal-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-reveal-slides-0.1.9.tar.gz tmp/streamlit-reveal-slides-0.2.0.tar.gz --markdown 20230625/s/streamlit-reveal-slides/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 17:01:37] INFO root fetch - processPackages [jittor]: executing diffoscope
+[2023-06-25 17:01:37] INFO root fetch - processPackages [jittor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jittor-1.3.8.2.tar.gz tmp/jittor-1.3.8.3.tar.gz --markdown 20230625/j/jittor/1.3.8.2-1.3.8.3/diff.md --exclude *.pyd
+[2023-06-25 17:01:37] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.4.tar.gz]
+[2023-06-25 17:01:37] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.5.tar.gz]
+[2023-06-25 17:01:37] INFO root fetch - main [MainThread]: End processing [verysimplemodule-lais]: success
+[2023-06-25 17:01:38] INFO root fetch - processPackages [sunspot]: Remove: archive file [/home/abi/fetcher/tmp/sunspot-0.0.1.tar.gz]
+[2023-06-25 17:01:38] INFO root fetch - processPackages [sunspot]: Remove: archive file [/home/abi/fetcher/tmp/sunspot-0.2.tar.gz]
+[2023-06-25 17:01:38] INFO root fetch - main [MainThread]: End processing [sunspot]: success
+[2023-06-25 17:01:38] INFO root fetch - processPackages [torch4keras]: Remove: archive file [/home/abi/fetcher/tmp/torch4keras-0.0.7.post3.tar.gz]
+[2023-06-25 17:01:38] INFO root fetch - processPackages [torch4keras]: Remove: archive file [/home/abi/fetcher/tmp/torch4keras-0.0.8.tar.gz]
+[2023-06-25 17:01:38] INFO root fetch - main [MainThread]: End processing [torch4keras]: success
+[2023-06-25 17:01:45] INFO root fetch - processPackages [jittor]: Remove: archive file [/home/abi/fetcher/tmp/jittor-1.3.8.2.tar.gz]
+[2023-06-25 17:01:45] INFO root fetch - processPackages [jittor]: Remove: archive file [/home/abi/fetcher/tmp/jittor-1.3.8.3.tar.gz]
+[2023-06-25 17:01:45] INFO root fetch - main [MainThread]: End processing [jittor]: success
+[2023-06-25 17:02:10] INFO root fetch - processPackages [streamlit-reveal-slides]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-reveal-slides-0.1.9.tar.gz]
+[2023-06-25 17:02:10] INFO root fetch - processPackages [streamlit-reveal-slides]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-reveal-slides-0.2.0.tar.gz]
+[2023-06-25 17:02:10] INFO root fetch - main [MainThread]: End processing [streamlit-reveal-slides]: success
+[2023-06-25 17:02:10] INFO root fetch - main [MainThread]: Store serial: [18637040]
