@@ -7432,3 +7432,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 11:19:40] INFO root fetch - processPackages [vpso]: Remove: archive file [/home/abi/fetcher/tmp/vpso-1.1.1.tar.gz]
 [2023-06-25 11:19:40] INFO root fetch - main [MainThread]: End processing [vpso]: success
 [2023-06-25 11:19:40] INFO root fetch - main [MainThread]: Store serial: [18635307]
+[2023-06-25 11:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635307]
+[2023-06-25 11:24:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosdk-py
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tbp-nightly
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-everything
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: investor8-sdk
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: click-schema-config
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airontools
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-06-25 11:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TuXingKeJi
+[2023-06-25 11:24:49] INFO root fetch - processPackages [click-schema-config]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [airontools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [TuXingKeJi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.97] Old Version: [1.1.96]
+[2023-06-25 11:24:49] WARNING root fetch - processPackages [aiosdk-py]: Skipping, unable to determine old version
+[2023-06-25 11:24:49] INFO root fetch - main [MainThread]: End processing [aiosdk-py] error
+[2023-06-25 11:24:49] INFO root fetch - processPackages [auto-everything]: New version: [3.9] Old Version: [3.8]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [TuXingKeJi]: Downloading https://files.pythonhosted.org/packages/6e/e4/dd0fec361e90b0561cec98ce1b735ae6d1cef675526e37b9ab969f349139/TuXingKeJi-0.0.5.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/1c/a1/ee4f0a89c7f7eb356f1da893ab5726ba05871394ac223304efb0f1926e5d/airontools-0.1.8-py3-none-any.whl
+[2023-06-25 11:24:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d6/3675b62daf319214f963f970ac6e7c0122518c201bc62164a38accdd7149/investor8-sdk-1.1.96.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/ba/98/e851ad914f093789afee54f30170a7e2ef6fedc385ad6da1ee17c4e5aa2b/click_schema_config-0.1.3.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-25 11:24:49] INFO root fetch - processPackages [auto-everything]: Downloading https://files.pythonhosted.org/packages/55/94/6d533c6710f10fbaf86108833bb72d58a04bfbb1985189bc544d6d89f743/auto_everything-3.8.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/b8/08/2a60311ced2f2e597aa5dff7784a56fd4979cd36b06d6099ee3a0c075f44/airontools-0.1.9-py3-none-any.whl
+[2023-06-25 11:24:49] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/4b/6c/165c16326245eaf3fa5c0891a64c6758b52e8b8f8cee10174b4ef7e95672/click_schema_config-0.1.4.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/4f/83/8830c77df7a9e83f0e83780ec997c44d181a4b28d172f248f3903649fa33/investor8-sdk-1.1.97.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [TuXingKeJi]: Downloading https://files.pythonhosted.org/packages/3f/93/bf910fbed44e846501ca64b21c725be2a5be3e338f6ba01b6c93895535c3/TuXingKeJi-0.0.6.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [airontools]: executing diffoscope
+[2023-06-25 11:24:49] INFO root fetch - processPackages [airontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airontools-0.1.8-py3-none-any.whl.zip tmp/airontools-0.1.9-py3-none-any.whl.zip --markdown 20230625/a/airontools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 11:24:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 11:24:49] INFO root fetch - processPackages [click-schema-config]: executing diffoscope
+[2023-06-25 11:24:49] INFO root fetch - processPackages [click-schema-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_schema_config-0.1.3.tar.gz tmp/click_schema_config-0.1.4.tar.gz --markdown 20230625/c/click-schema-config/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 11:24:49] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-25 11:24:49] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.96.tar.gz tmp/investor8-sdk-1.1.97.tar.gz --markdown 20230625/i/investor8-sdk/1.1.96-1.1.97/diff.md --exclude *.pyd
+[2023-06-25 11:24:50] INFO root fetch - processPackages [TuXingKeJi]: executing diffoscope
+[2023-06-25 11:24:50] INFO root fetch - processPackages [TuXingKeJi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuXingKeJi-0.0.5.tar.gz tmp/TuXingKeJi-0.0.6.tar.gz --markdown 20230625/T/TuXingKeJi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 11:24:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 11:24:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 11:24:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 11:24:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 11:24:50] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-25 11:24:50] INFO root fetch - processPackages [auto-everything]: Downloading https://files.pythonhosted.org/packages/b2/be/5da4db8476d7835cf93de5795870ca54d3f829b7a85700a7a58445d1364a/auto_everything-3.9.tar.gz
+[2023-06-25 11:24:50] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-25 11:24:50] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230625/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-25 11:24:50] INFO root fetch - processPackages [auto-everything]: executing diffoscope
+[2023-06-25 11:24:50] INFO root fetch - processPackages [auto-everything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_everything-3.8.tar.gz tmp/auto_everything-3.9.tar.gz --markdown 20230625/a/auto-everything/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-25 11:24:50] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-25 11:24:50] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-25 11:24:50] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230625/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-25 11:24:51] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 11:24:51] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 11:24:51] INFO root fetch - main [MainThread]: End processing [airontools]: success
+[2023-06-25 11:24:51] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.3.tar.gz]
+[2023-06-25 11:24:51] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.4.tar.gz]
+[2023-06-25 11:24:51] INFO root fetch - main [MainThread]: End processing [click-schema-config]: success
+[2023-06-25 11:24:51] INFO root fetch - processPackages [TuXingKeJi]: Remove: archive file [/home/abi/fetcher/tmp/TuXingKeJi-0.0.5.tar.gz]
+[2023-06-25 11:24:51] INFO root fetch - processPackages [TuXingKeJi]: Remove: archive file [/home/abi/fetcher/tmp/TuXingKeJi-0.0.6.tar.gz]
+[2023-06-25 11:24:51] INFO root fetch - main [MainThread]: End processing [TuXingKeJi]: success
+[2023-06-25 11:24:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-25 11:24:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-25 11:24:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 11:24:52] INFO root fetch - processPackages [auto-everything]: Remove: archive file [/home/abi/fetcher/tmp/auto_everything-3.8.tar.gz]
+[2023-06-25 11:24:52] INFO root fetch - processPackages [auto-everything]: Remove: archive file [/home/abi/fetcher/tmp/auto_everything-3.9.tar.gz]
+[2023-06-25 11:24:52] INFO root fetch - main [MainThread]: End processing [auto-everything]: success
+[2023-06-25 11:24:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 11:24:52] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-25 11:24:52] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-25 11:24:52] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-25 11:24:53] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.96.tar.gz]
+[2023-06-25 11:24:53] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.97.tar.gz]
+[2023-06-25 11:24:53] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-25 11:24:56] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-25 11:24:56] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-25 11:24:56] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-25 11:24:56] INFO root fetch - main [MainThread]: Store serial: [18635337]
