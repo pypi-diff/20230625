@@ -16018,3 +16018,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 23:22:07] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.9.tar.gz]
 [2023-06-25 23:22:07] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight]: success
 [2023-06-25 23:22:07] INFO root fetch - main [MainThread]: Store serial: [18639105]
+[2023-06-25 23:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639105]
+[2023-06-25 23:27:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pollination-annual-daylight.viz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollination-annual-daylight.full
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openfractal-client
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TorchSisso
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiovantage
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iza
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-ecosystem-services
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cryptoowl
+[2023-06-25 23:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: degex
+[2023-06-25 23:27:17] INFO root fetch - processPackages [aiovantage]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-25 23:27:17] INFO root fetch - processPackages [openfractal-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 23:27:17] WARNING root fetch - processPackages [pollination-annual-daylight.full]: Skipping, unable to determine old version
+[2023-06-25 23:27:17] INFO root fetch - processPackages [pollination-annual-daylight.full]: Start processing: pqv
+[2023-06-25 23:27:17] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.full] error
+[2023-06-25 23:27:17] INFO root fetch - processPackages [TorchSisso]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-25 23:27:17] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-25 23:27:17] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230624] Old Version: [0.3.2.dev20230623]
+[2023-06-25 23:27:17] WARNING root fetch - processPackages [pollination-annual-daylight.viz]: Skipping, unable to determine old version
+[2023-06-25 23:27:17] INFO root fetch - processPackages [degex]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-25 23:27:17] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.viz] error
+[2023-06-25 23:27:17] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 23:27:17] INFO root fetch - processPackages [iza]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-25 23:27:17] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/16/3b/95920a030dd3071cdcc54198d434c96528b69b8bdd86663b1af467ef9057/openfractal_client-0.1.1.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/3d/0c/1790b16aa434559c788e3036ad990b8f79ec878bf8257ef6247b6288c763/skyplane_nightly-0.3.2.dev20230623.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [pqv]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-25 23:27:17] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/61/ea/50758e85abaeb47ffa166b43a224618ea72cfa814ef9838597a0c2d0ad48/aiovantage-0.2.3.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [TorchSisso]: Downloading https://files.pythonhosted.org/packages/d2/c5/8ef0f31cc4e46de688077c49e17a48dd544dab5ce190cd2302bc39e578eb/TorchSisso-1.0.9.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/5b/b4/a584724d7e35ae5981af4af7d388f8bd1661108b7dbb36ae7b5f776cd71a/iza-0.0.1.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [degex]: Downloading https://files.pythonhosted.org/packages/b3/e9/6b6d0d2164ddf1bf9143c3879dcb9a3109481ffdc2c02c0f3659ae46a320/degex-0.0.22.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/e6/88/ca0cf857ef0b19665b2576fe13288a5e2b65a3120d0b85aa3fc271db2181/skyplane_nightly-0.3.2.dev20230624.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [pqv]: Downloading https://files.pythonhosted.org/packages/5b/d6/a69ede373f9d27970660a8247af91434e2917964c019bc7b3398cc917da3/pqv-0.5.0.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/40/2d/88431e1a10d1c00c7daf5cf7d2a023231538cd59e03786a0ffe51d4db653/openfractal_client-0.1.2.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2023-06-25 23:27:17] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-25 23:27:17] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230625/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-25 23:27:17] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-06-25 23:27:17] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230623.tar.gz tmp/skyplane_nightly-0.3.2.dev20230624.tar.gz --markdown 20230625/s/skyplane-nightly/0.3.2.dev20230623-0.3.2.dev20230624/diff.md --exclude *.pyd
+[2023-06-25 23:27:17] INFO root fetch - processPackages [openfractal-client]: executing diffoscope
+[2023-06-25 23:27:17] INFO root fetch - processPackages [openfractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfractal_client-0.1.1.tar.gz tmp/openfractal_client-0.1.2.tar.gz --markdown 20230625/o/openfractal-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 23:27:18] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2023-06-25 23:27:18] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20230625/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 23:27:18] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/b2/ee/bbc6c2825e1eebd5bda15d4f27e96db92cccc40c27b64f75d603efb3e1cd/aiovantage-0.3.0.tar.gz
+[2023-06-25 23:27:18] INFO root fetch - processPackages [TorchSisso]: Downloading https://files.pythonhosted.org/packages/79/db/f611745149854ce5b935613a597557a3e2ce05046a85b758f1f2e5fefdda/TorchSisso-1.1.0.tar.gz
+[2023-06-25 23:27:18] INFO root fetch - processPackages [degex]: Downloading https://files.pythonhosted.org/packages/09/45/2308cfdd0250d4ac8615cfd1b208c27945425b1807bd29e3e823fb8f5781/degex-0.0.23.tar.gz
+[2023-06-25 23:27:18] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/d1/87/c92b4ae8c9d98e054db4136e958f9e7ef96a71ac1f03cd22ad0989c21b1f/iza-0.0.3.tar.gz
+[2023-06-25 23:27:18] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-06-25 23:27:18] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.2.3.tar.gz tmp/aiovantage-0.3.0.tar.gz --markdown 20230625/a/aiovantage/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 23:27:18] INFO root fetch - processPackages [pqv]: Downloading https://files.pythonhosted.org/packages/0d/37/0b8492e7c7b55257da6c1ad05a59a8a2ab76124fc5fe07255ac7113c668a/pqv-0.6.0.tar.gz
+[2023-06-25 23:27:18] INFO root fetch - processPackages [degex]: executing diffoscope
+[2023-06-25 23:27:18] INFO root fetch - processPackages [degex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degex-0.0.22.tar.gz tmp/degex-0.0.23.tar.gz --markdown 20230625/d/degex/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-25 23:27:18] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-06-25 23:27:18] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.1.tar.gz tmp/iza-0.0.3.tar.gz --markdown 20230625/i/iza/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 23:27:18] INFO root fetch - processPackages [TorchSisso]: executing diffoscope
+[2023-06-25 23:27:18] INFO root fetch - processPackages [TorchSisso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchSisso-1.0.9.tar.gz tmp/TorchSisso-1.1.0.tar.gz --markdown 20230625/T/TorchSisso/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 23:27:18] INFO root fetch - processPackages [pqv]: executing diffoscope
+[2023-06-25 23:27:18] INFO root fetch - processPackages [pqv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqv-0.5.0.tar.gz tmp/pqv-0.6.0.tar.gz --markdown 20230625/p/pqv/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-25 23:27:19] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2023-06-25 23:27:19] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2023-06-25 23:27:19] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2023-06-25 23:27:19] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-25 23:27:19] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-25 23:27:19] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-25 23:27:19] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230623.tar.gz]
+[2023-06-25 23:27:19] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230624.tar.gz]
+[2023-06-25 23:27:19] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-06-25 23:27:20] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.1.1.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.1.2.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - main [MainThread]: End processing [openfractal-client]: success
+[2023-06-25 23:27:20] INFO root fetch - processPackages [degex]: Remove: archive file [/home/abi/fetcher/tmp/degex-0.0.22.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - processPackages [degex]: Remove: archive file [/home/abi/fetcher/tmp/degex-0.0.23.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - main [MainThread]: End processing [degex]: success
+[2023-06-25 23:27:20] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.1.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.3.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-06-25 23:27:20] INFO root fetch - processPackages [TorchSisso]: Remove: archive file [/home/abi/fetcher/tmp/TorchSisso-1.0.9.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - processPackages [TorchSisso]: Remove: archive file [/home/abi/fetcher/tmp/TorchSisso-1.1.0.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - main [MainThread]: End processing [TorchSisso]: success
+[2023-06-25 23:27:20] INFO root fetch - processPackages [pqv]: Remove: archive file [/home/abi/fetcher/tmp/pqv-0.5.0.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - processPackages [pqv]: Remove: archive file [/home/abi/fetcher/tmp/pqv-0.6.0.tar.gz]
+[2023-06-25 23:27:20] INFO root fetch - main [MainThread]: End processing [pqv]: success
+[2023-06-25 23:27:22] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.2.3.tar.gz]
+[2023-06-25 23:27:22] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.3.0.tar.gz]
+[2023-06-25 23:27:22] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-06-25 23:27:22] INFO root fetch - main [MainThread]: Store serial: [18639141]
