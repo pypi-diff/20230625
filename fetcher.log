@@ -4156,3 +4156,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:27:00] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Remove: archive file [/home/abi/fetcher/tmp/tsutsuji_trackcomputer-1.7.0-py3-none-any.whl.zip]
 [2023-06-25 06:27:00] INFO root fetch - main [MainThread]: End processing [tsutsuji-trackcomputer]: success
 [2023-06-25 06:27:00] INFO root fetch - main [MainThread]: Store serial: [18634070]
+[2023-06-25 06:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634070]
+[2023-06-25 06:32:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 06:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cm2py
+[2023-06-25 06:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atlassian-api-py
+[2023-06-25 06:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPDFForm
+[2023-06-25 06:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbterd
+[2023-06-25 06:32:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stitch3d
+[2023-06-25 06:32:09] INFO root fetch - processPackages [cm2py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-25 06:32:09] INFO root fetch - processPackages [PyPDFForm]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-25 06:32:09] INFO root fetch - processPackages [atlassian-api-py]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-25 06:32:09] WARNING root fetch - processPackages [stitch3d]: Skipping, unable to determine old version
+[2023-06-25 06:32:09] INFO root fetch - main [MainThread]: End processing [stitch3d] error
+[2023-06-25 06:32:09] INFO root fetch - processPackages [dbterd]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-25 06:32:09] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/bd/97/a8b68f7be84eaa52bdfe59b162b6d0b6f2e0806a1f1b6fc049cdedf56760/cm2py-0.2.0.tar.gz
+[2023-06-25 06:32:09] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/8a/83/a40a40c423f1dbf6dac7af6e6f2e3c8b6778a4e289a7a8f7a35c009b42be/PyPDFForm-1.2.8.tar.gz
+[2023-06-25 06:32:09] INFO root fetch - processPackages [atlassian-api-py]: Downloading https://files.pythonhosted.org/packages/a9/f3/eb4f6d4787bd9e2f7c27bb9ed6034bc59cc2781752c91671faed84ae7ef8/atlassian_api_py-0.5.0-py3-none-any.whl
+[2023-06-25 06:32:09] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/52/ad/8d2a3d036215e2aa61c76613658b7a7bee7d183f84fc76bae2fa55cc9280/dbterd-1.2.3.tar.gz
+[2023-06-25 06:32:09] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/6e/5b/ec095a4be025094875f3cbaaeff2801fb841d8f8f87c30e6e1c455f9f96c/cm2py-0.2.1.tar.gz
+[2023-06-25 06:32:09] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/bd/bf/5e2537c76ad9a169a9e82e7f7ad9a93e9c465ade7f52187396f60f578412/dbterd-1.2.4.tar.gz
+[2023-06-25 06:32:09] INFO root fetch - processPackages [atlassian-api-py]: Downloading https://files.pythonhosted.org/packages/d3/19/7780419a39a0afe9a92bf68ec4ff5adf1ec0146bd5ef55176e3368866fa7/atlassian_api_py-0.5.1-py3-none-any.whl
+[2023-06-25 06:32:09] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2023-06-25 06:32:09] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.2.3.tar.gz tmp/dbterd-1.2.4.tar.gz --markdown 20230625/d/dbterd/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-25 06:32:09] INFO root fetch - processPackages [atlassian-api-py]: executing diffoscope
+[2023-06-25 06:32:09] INFO root fetch - processPackages [atlassian-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlassian_api_py-0.5.0-py3-none-any.whl.zip tmp/atlassian_api_py-0.5.1-py3-none-any.whl.zip --markdown 20230625/a/atlassian-api-py/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-25 06:32:09] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-06-25 06:32:09] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.0.tar.gz tmp/cm2py-0.2.1.tar.gz --markdown 20230625/c/cm2py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 06:32:09] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/43/ce/5fe337bb56202689c67f790cf9af6f9fae2c1920571ca7656d6cc0ac8ec8/PyPDFForm-1.2.9.tar.gz
+[2023-06-25 06:32:10] INFO root fetch - processPackages [PyPDFForm]: executing diffoscope
+[2023-06-25 06:32:10] INFO root fetch - processPackages [PyPDFForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDFForm-1.2.8.tar.gz tmp/PyPDFForm-1.2.9.tar.gz --markdown 20230625/P/PyPDFForm/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-25 06:32:11] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.0.tar.gz]
+[2023-06-25 06:32:11] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.1.tar.gz]
+[2023-06-25 06:32:11] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-06-25 06:32:11] INFO root fetch - processPackages [atlassian-api-py]: Remove: archive file [/home/abi/fetcher/tmp/atlassian_api_py-0.5.0-py3-none-any.whl.zip]
+[2023-06-25 06:32:11] INFO root fetch - processPackages [atlassian-api-py]: Remove: archive file [/home/abi/fetcher/tmp/atlassian_api_py-0.5.1-py3-none-any.whl.zip]
+[2023-06-25 06:32:11] INFO root fetch - main [MainThread]: End processing [atlassian-api-py]: success
+[2023-06-25 06:32:11] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.2.8.tar.gz]
+[2023-06-25 06:32:11] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.2.9.tar.gz]
+[2023-06-25 06:32:11] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
+[2023-06-25 06:32:11] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.2.3.tar.gz]
+[2023-06-25 06:32:11] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.2.4.tar.gz]
+[2023-06-25 06:32:11] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2023-06-25 06:32:11] INFO root fetch - main [MainThread]: Store serial: [18634086]
