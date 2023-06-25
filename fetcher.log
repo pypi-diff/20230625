@@ -3065,3 +3065,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:42:23] INFO root fetch - processPackages [monai-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monai-weekly-1.3.dev2326.tar.gz]
 [2023-06-25 04:42:23] INFO root fetch - main [MainThread]: End processing [monai-weekly]: success
 [2023-06-25 04:42:23] INFO root fetch - main [MainThread]: Store serial: [18633622]
+[2023-06-25 04:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633622]
+[2023-06-25 04:47:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taospy
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radiant-framework
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudpss
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allianceauth-auth-stats
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monailabel-weekly
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nitrado
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-25 04:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aindex
+[2023-06-25 04:47:32] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a4] Old Version: [0.1a3]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [cloudpss]: New version: [3.5.0a1] Old Version: [3.2.0a2]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.43] Old Version: [0.1.8.42]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [taospy]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [allianceauth-auth-stats]: New version: [0.0.1b1] Old Version: [0.0.1a2]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [yplib]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-25 04:47:32] WARNING root fetch - processPackages [aindex]: Skipping, unable to determine old version
+[2023-06-25 04:47:32] INFO root fetch - main [MainThread]: End processing [aindex] error
+[2023-06-25 04:47:32] INFO root fetch - processPackages [monailabel-weekly]: New version: [0.5.dev2326] Old Version: [0.5.dev2325]
+[2023-06-25 04:47:32] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/f6/b0/4cf1f50d5c8e637d80dac078436faf6ba1e14ba95ad7e140959ed2925f7e/nitrado-1.0.8.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/49/dc/f62e0631dd13f240efe949b24295084dbaaad4c2777e38f67340fa70e44c/pillar1-0.1.8.42.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [allianceauth-auth-stats]: Downloading https://files.pythonhosted.org/packages/01/e6/90927e4e071c7c071f61f340c286a2d6b356dc383d438c3bf19f35d158a4/allianceauth-auth-stats-0.0.1a2.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/35/ff/cda1530c1d9dee5fc8e1a15c6388ca0a50e52810ba4a17d31395b69b4f5d/taospy-2.7.8.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/a3/72/78a7648df6e9bac0ee7dfae8d650e403f838bd8a14f4fef4bbb8fc0e820c/radiant_framework-0.1a3-py3-none-any.whl
+[2023-06-25 04:47:32] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f7/d6/3c996cfff03e1ed8526d3cffd843750f55e2bf74812a7ddd485c30a363bd/yplib-1.6.8.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/4d/58/59ee1c5cb88f0f84c36c47f9c9da99ffde9a7a48f6e08c4e038c72ce1fd0/monailabel_weekly-0.5.dev2325-py3-none-any.whl
+[2023-06-25 04:47:32] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/18/5d/a182a36879b2e7f8aaebc3d49a610d00a10f3ecf37211672fc9db139c4b7/nitrado-1.0.9.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-06-25 04:47:32] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230625/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 04:47:32] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/f7/94/670a69737a044133c2a29a3207f792c2b8867d37ee68b1e14794e7a89fb3/taospy-2.7.9.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e4/26/1bd5dae851ac5830f642e9adbf408c60254b4c93ddbc98f8f87be7c5a37b/yplib-1.6.9.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/25/11/d22270d53d4fbe8c0b9a0a8ede047b3b6f4a896394e47be2814c8970e71f/radiant-framework-0.1a4.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/32/ef/f23565834195343d3315f1277daf72c319580d8d6f74e1d5c21773bea3e9/pillar1-0.1.8.43.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/a1/ea/b982eca2d4f934e979415733a5cd17bfc1de57683a844475fac1be584921/cloudpss-3.5.0a1.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 04:47:32] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.6.8.tar.gz tmp/yplib-1.6.9.tar.gz --markdown 20230625/y/yplib/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-25 04:47:32] INFO root fetch - processPackages [allianceauth-auth-stats]: Downloading https://files.pythonhosted.org/packages/09/bf/a34f88b126c2fa0e3b2a416d3213c330fe9820e486f8f0bfb13d3ee670a4/allianceauth-auth-stats-0.0.1b1.tar.gz
+[2023-06-25 04:47:32] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-06-25 04:47:32] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a2.tar.gz tmp/cloudpss-3.5.0a1.tar.gz --markdown 20230625/c/cloudpss/3.2.0a2-3.5.0a1/diff.md --exclude *.pyd
+[2023-06-25 04:47:32] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 28113059>=10485760
+[2023-06-25 04:47:32] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-06-25 04:47:32] INFO root fetch - processPackages [taospy]: executing diffoscope
+[2023-06-25 04:47:32] INFO root fetch - processPackages [taospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taospy-2.7.8.tar.gz tmp/taospy-2.7.9.tar.gz --markdown 20230625/t/taospy/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-25 04:47:32] INFO root fetch - processPackages [monailabel-weekly]: Downloading https://files.pythonhosted.org/packages/a7/b2/a7b41c56a04bb7db99769fc8885c631284731383f628975c5d4556c385be/monailabel_weekly-0.5.dev2326-py3-none-any.whl
+[2023-06-25 04:47:32] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 04:47:32] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.42.tar.gz tmp/pillar1-0.1.8.43.tar.gz --markdown 20230625/p/pillar1/0.1.8.42-0.1.8.43/diff.md --exclude *.pyd
+[2023-06-25 04:47:32] INFO root fetch - processPackages [allianceauth-auth-stats]: executing diffoscope
+[2023-06-25 04:47:32] INFO root fetch - processPackages [allianceauth-auth-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-auth-stats-0.0.1a2.tar.gz tmp/allianceauth-auth-stats-0.0.1b1.tar.gz --markdown 20230625/a/allianceauth-auth-stats/0.0.1a2-0.0.1b1/diff.md --exclude *.pyd
+[2023-06-25 04:47:34] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.8.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.9.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 04:47:34] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.42.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.43.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 04:47:34] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.8.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.9.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - main [MainThread]: End processing [taospy]: success
+[2023-06-25 04:47:34] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.2.0a2.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.5.0a1.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-06-25 04:47:34] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.8.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.9.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-06-25 04:47:34] INFO root fetch - processPackages [allianceauth-auth-stats]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-auth-stats-0.0.1a2.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - processPackages [allianceauth-auth-stats]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-auth-stats-0.0.1b1.tar.gz]
+[2023-06-25 04:47:34] INFO root fetch - main [MainThread]: End processing [allianceauth-auth-stats]: success
+[2023-06-25 04:47:35] INFO root fetch - processPackages [monailabel-weekly]: executing diffoscope
+[2023-06-25 04:47:35] INFO root fetch - processPackages [monailabel-weekly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel_weekly-0.5.dev2325-py3-none-any.whl.zip tmp/monailabel_weekly-0.5.dev2326-py3-none-any.whl.zip --markdown 20230625/m/monailabel-weekly/0.5.dev2325-0.5.dev2326/diff.md --exclude *.pyd
+[2023-06-25 04:47:43] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2325-py3-none-any.whl.zip]
+[2023-06-25 04:47:43] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2326-py3-none-any.whl.zip]
+[2023-06-25 04:47:43] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
+[2023-06-25 04:47:43] INFO root fetch - main [MainThread]: Store serial: [18633649]
