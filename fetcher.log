@@ -11782,3 +11782,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:56:43] INFO root fetch - processPackages [PyTransLingo]: Remove: archive file [/home/abi/fetcher/tmp/PyTransLingo-1.0.1.tar.gz]
 [2023-06-25 17:56:43] INFO root fetch - main [MainThread]: End processing [PyTransLingo]: success
 [2023-06-25 17:56:43] INFO root fetch - main [MainThread]: Store serial: [18637276]
+[2023-06-25 18:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637276]
+[2023-06-25 18:01:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 18:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fb-python-sdk
+[2023-06-25 18:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-playwright-async
+[2023-06-25 18:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autocomplet
+[2023-06-25 18:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-monitor
+[2023-06-25 18:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geoarchpy
+[2023-06-25 18:01:53] INFO root fetch - processPackages [pytest-playwright-async]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/5b/69/b16b44df96dc44b9bf923812868da393a13c28e71743feda7c9a57d5b15f/pytest-playwright-async-0.0.4.tar.gz
+[2023-06-25 18:01:54] WARNING root fetch - processPackages [autocomplet]: Skipping, unable to determine old version
+[2023-06-25 18:01:54] INFO root fetch - main [MainThread]: End processing [autocomplet] error
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-monitor]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-25 18:01:54] INFO root fetch - processPackages [fb-python-sdk]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-25 18:01:54] INFO root fetch - processPackages [Geoarchpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/77/5d/37a16cc358a25759e9728f66228cfc8449cd2fb1eceffc23d6b7889e1be1/pytest-playwright-async-0.0.5.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [fb-python-sdk]: Downloading https://files.pythonhosted.org/packages/e3/04/584e5bc036b7192af25394cd60dd0dd697aa3b6c332b8c6f5015e7c864f2/fb-python-sdk-1.1.4.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-playwright-async]: executing diffoscope
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-playwright-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-async-0.0.4.tar.gz tmp/pytest-playwright-async-0.0.5.tar.gz --markdown 20230625/p/pytest-playwright-async/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 18:01:54] INFO root fetch - processPackages [Geoarchpy]: Downloading https://files.pythonhosted.org/packages/13/ef/64c9dbb26267dada47f2b1376088018922919c9ee3b1467fa61e1f1ca698/Geoarchpy-1.0.1.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-monitor]: Downloading https://files.pythonhosted.org/packages/b4/22/c5b5463ed4db9a632ebcaa914f08b25d7324319734ca17eed82674295cbd/pytest-monitor-1.6.5.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [fb-python-sdk]: Downloading https://files.pythonhosted.org/packages/cf/7d/9f8cec46165c3032d483bbc6e735cd1a8f9c62816490fcb0ddec25ea125b/fb-python-sdk-1.1.5.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [Geoarchpy]: Downloading https://files.pythonhosted.org/packages/1f/8f/f5fd1cd71fdf22a8a18682bd61eef40acbb9d327e0fa26e225697d345a1a/Geoarchpy-1.0.2.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-monitor]: Downloading https://files.pythonhosted.org/packages/9e/5a/b4768ee6ba0a47151cf990e129079b4926db9034c45aa47b72793f37c40d/pytest-monitor-1.6.6.tar.gz
+[2023-06-25 18:01:54] INFO root fetch - processPackages [fb-python-sdk]: executing diffoscope
+[2023-06-25 18:01:54] INFO root fetch - processPackages [fb-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb-python-sdk-1.1.4.tar.gz tmp/fb-python-sdk-1.1.5.tar.gz --markdown 20230625/f/fb-python-sdk/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-25 18:01:54] INFO root fetch - processPackages [Geoarchpy]: executing diffoscope
+[2023-06-25 18:01:54] INFO root fetch - processPackages [Geoarchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geoarchpy-1.0.1.tar.gz tmp/Geoarchpy-1.0.2.tar.gz --markdown 20230625/G/Geoarchpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-monitor]: executing diffoscope
+[2023-06-25 18:01:54] INFO root fetch - processPackages [pytest-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-monitor-1.6.5.tar.gz tmp/pytest-monitor-1.6.6.tar.gz --markdown 20230625/p/pytest-monitor/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-25 18:01:55] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.4.tar.gz]
+[2023-06-25 18:01:55] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.5.tar.gz]
+[2023-06-25 18:01:55] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async]: success
+[2023-06-25 18:01:56] INFO root fetch - processPackages [pytest-monitor]: Remove: archive file [/home/abi/fetcher/tmp/pytest-monitor-1.6.5.tar.gz]
+[2023-06-25 18:01:56] INFO root fetch - processPackages [pytest-monitor]: Remove: archive file [/home/abi/fetcher/tmp/pytest-monitor-1.6.6.tar.gz]
+[2023-06-25 18:01:56] INFO root fetch - main [MainThread]: End processing [pytest-monitor]: success
+[2023-06-25 18:01:56] INFO root fetch - processPackages [fb-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fb-python-sdk-1.1.4.tar.gz]
+[2023-06-25 18:01:56] INFO root fetch - processPackages [fb-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fb-python-sdk-1.1.5.tar.gz]
+[2023-06-25 18:01:56] INFO root fetch - main [MainThread]: End processing [fb-python-sdk]: success
+[2023-06-25 18:01:56] INFO root fetch - processPackages [Geoarchpy]: Remove: archive file [/home/abi/fetcher/tmp/Geoarchpy-1.0.1.tar.gz]
+[2023-06-25 18:01:56] INFO root fetch - processPackages [Geoarchpy]: Remove: archive file [/home/abi/fetcher/tmp/Geoarchpy-1.0.2.tar.gz]
+[2023-06-25 18:01:56] INFO root fetch - main [MainThread]: End processing [Geoarchpy]: success
+[2023-06-25 18:01:56] INFO root fetch - main [MainThread]: Store serial: [18637294]
