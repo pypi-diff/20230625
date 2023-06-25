@@ -10261,3 +10261,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:22:47] INFO root fetch - processPackages [pandasmore]: Remove: archive file [/home/abi/fetcher/tmp/pandasmore-0.0.3.tar.gz]
 [2023-06-25 15:22:47] INFO root fetch - main [MainThread]: End processing [pandasmore]: success
 [2023-06-25 15:22:47] INFO root fetch - main [MainThread]: Store serial: [18636627]
+[2023-06-25 15:27:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636627]
+[2023-06-25 15:27:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitssh
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dronefly-core
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wiliot-deployment-tools
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuspyserver
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inducoapi
+[2023-06-25 15:27:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lycoris-lora
+[2023-06-25 15:27:57] WARNING root fetch - processPackages [bitssh]: Skipping, unable to determine old version
+[2023-06-25 15:27:57] INFO root fetch - main [MainThread]: End processing [bitssh] error
+[2023-06-25 15:27:57] INFO root fetch - processPackages [inducoapi]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-06-25 15:27:57] INFO root fetch - processPackages [dronefly-core]: New version: [0.3.6.dev6] Old Version: [0.3.6.dev5]
+[2023-06-25 15:27:57] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.0.8] Old Version: [4.0.7]
+[2023-06-25 15:27:57] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev7] Old Version: [0.1.7.dev6]
+[2023-06-25 15:27:57] INFO root fetch - processPackages [tuspyserver]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-25 15:27:57] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.856] Old Version: [0.0.855]
+[2023-06-25 15:27:57] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/98/58/2f6226c45600bfda4a86da83e38423bd576ec566a52afeb9f7bf5251beb7/lycoris_lora-0.1.7.dev6.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8c/50/114369a9c716bb4ea6d5e99376fdbf044bc5051da43f3f7b5597ec0ccfb2/nbdev-apl-0.0.855.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [inducoapi]: Downloading https://files.pythonhosted.org/packages/2e/d0/f69bae808d453f032ef9d0feb9b559e560195db680579bd6d4342c4b78d6/inducoapi-2.0.2.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [dronefly-core]: Downloading https://files.pythonhosted.org/packages/ee/cc/09255d6db811315c8172959f6bd2fed2b7ae876f1baee97532f31e5c37b0/dronefly_core-0.3.6.dev5.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/dc/92/c5b9a483fe38ba3d8168fab282f11332917de54eb6ba9ef5c674f0fd6f98/wiliot-deployment-tools-4.0.7.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [tuspyserver]: Downloading https://files.pythonhosted.org/packages/c7/6f/84ed677977b3111c6c7b1d4b5780c703dc3011f33f973bc8fddb823f520a/tuspyserver-1.2.1.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/9d/69/afde69793bc49824db13e4bcb5e355475d7815fec5c400b8e3f025f91e72/nbdev-apl-0.0.856.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/2a/1a/d43b9003799dc96caaba1306c272c91f4a0f58d5f6a82a1b374c8014f23d/lycoris_lora-0.1.7.dev7.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [dronefly-core]: Downloading https://files.pythonhosted.org/packages/5a/89/dd3a61af679b2baf7c62f2beb52339b8e3774c622c7a15e0e9e000d0c1d9/dronefly_core-0.3.6.dev6.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-25 15:27:57] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.855.tar.gz tmp/nbdev-apl-0.0.856.tar.gz --markdown 20230625/n/nbdev-apl/0.0.855-0.0.856/diff.md --exclude *.pyd
+[2023-06-25 15:27:57] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/c1/d8/ac9ca94ecddd03059c1fc825f3afd9097f77d7810f76c2d615ba559b0c3c/wiliot-deployment-tools-4.0.8.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [inducoapi]: Downloading https://files.pythonhosted.org/packages/8a/d4/8440a7c94330c02fbe66310f68aae2f53a9e3cd5e0730cf69cfdaf803789/inducoapi-2.1.0.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-06-25 15:27:57] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.7.tar.gz tmp/wiliot-deployment-tools-4.0.8.tar.gz --markdown 20230625/w/wiliot-deployment-tools/4.0.7-4.0.8/diff.md --exclude *.pyd
+[2023-06-25 15:27:57] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-25 15:27:57] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev6.tar.gz tmp/lycoris_lora-0.1.7.dev7.tar.gz --markdown 20230625/l/lycoris-lora/0.1.7.dev6-0.1.7.dev7/diff.md --exclude *.pyd
+[2023-06-25 15:27:57] INFO root fetch - processPackages [tuspyserver]: Downloading https://files.pythonhosted.org/packages/a7/52/7d32c6ac16782331e93979e76b265f90491c3e6b25266f0b84d52f2529db/tuspyserver-1.3.0.tar.gz
+[2023-06-25 15:27:57] INFO root fetch - processPackages [dronefly-core]: executing diffoscope
+[2023-06-25 15:27:57] INFO root fetch - processPackages [dronefly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_core-0.3.6.dev5.tar.gz tmp/dronefly_core-0.3.6.dev6.tar.gz --markdown 20230625/d/dronefly-core/0.3.6.dev5-0.3.6.dev6/diff.md --exclude *.pyd
+[2023-06-25 15:27:58] INFO root fetch - processPackages [inducoapi]: executing diffoscope
+[2023-06-25 15:27:58] INFO root fetch - processPackages [inducoapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inducoapi-2.0.2.tar.gz tmp/inducoapi-2.1.0.tar.gz --markdown 20230625/i/inducoapi/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-06-25 15:27:58] INFO root fetch - processPackages [tuspyserver]: executing diffoscope
+[2023-06-25 15:27:58] INFO root fetch - processPackages [tuspyserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuspyserver-1.2.1.tar.gz tmp/tuspyserver-1.3.0.tar.gz --markdown 20230625/t/tuspyserver/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-25 15:27:59] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.855.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.856.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-25 15:27:59] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev6.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev7.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-25 15:27:59] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.7.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.8.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-06-25 15:27:59] INFO root fetch - processPackages [dronefly-core]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_core-0.3.6.dev5.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - processPackages [dronefly-core]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_core-0.3.6.dev6.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [dronefly-core]: success
+[2023-06-25 15:27:59] INFO root fetch - processPackages [tuspyserver]: Remove: archive file [/home/abi/fetcher/tmp/tuspyserver-1.2.1.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - processPackages [tuspyserver]: Remove: archive file [/home/abi/fetcher/tmp/tuspyserver-1.3.0.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [tuspyserver]: success
+[2023-06-25 15:27:59] INFO root fetch - processPackages [inducoapi]: Remove: archive file [/home/abi/fetcher/tmp/inducoapi-2.0.2.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - processPackages [inducoapi]: Remove: archive file [/home/abi/fetcher/tmp/inducoapi-2.1.0.tar.gz]
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [inducoapi]: success
+[2023-06-25 15:27:59] INFO root fetch - main [MainThread]: Store serial: [18636655]
