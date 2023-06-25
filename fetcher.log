@@ -8189,3 +8189,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:20:49] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
 [2023-06-25 12:20:49] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2023-06-25 12:20:49] INFO root fetch - main [MainThread]: Store serial: [18635632]
+[2023-06-25 12:25:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635632]
+[2023-06-25 12:25:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 12:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hayloft
+[2023-06-25 12:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cns
+[2023-06-25 12:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eudplib
+[2023-06-25 12:25:58] INFO root fetch - processPackages [cns]: New version: [1.0.32] Old Version: [1.0.31]
+[2023-06-25 12:25:58] INFO root fetch - processPackages [hayloft]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-25 12:25:58] INFO root fetch - processPackages [eudplib]: New version: [0.76.0.dev1] Old Version: [0.75.0a25]
+[2023-06-25 12:25:58] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/f1/d3/72db58cc031ddf31b69fb10ddf41378999b149793cdcb76acc6bcd8a3444/hayloft-0.2.5.tar.gz
+[2023-06-25 12:25:58] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/63/30/bcbe97a3a7894033fe7a2ccb9e1e3bf63d29d2eee9bc024ad1ccf50069b5/cns-1.0.31-py3-none-any.whl
+[2023-06-25 12:25:58] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/c1/cd/ca402a8580c0f216b736922b6fc37c0f3b25ae8628f0970d292bf2803d49/eudplib-0.75.0a25-py3-none-any.whl
+[2023-06-25 12:25:59] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/81/1d/84bf99a53235c07763b12bd10482fa75c777bef036a9439ba3cd4ee25854/hayloft-0.2.6.tar.gz
+[2023-06-25 12:25:59] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-25 12:25:59] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.5.tar.gz tmp/hayloft-0.2.6.tar.gz --markdown 20230625/h/hayloft/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-25 12:25:59] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/b2/85/4d2e0e23bf918c99f5932ee2cc103e1e903f5e867bb3e8e607c461d76549/cns-1.0.32-py3-none-any.whl
+[2023-06-25 12:25:59] INFO root fetch - processPackages [cns]: executing diffoscope
+[2023-06-25 12:25:59] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.0.31-py3-none-any.whl.zip tmp/cns-1.0.32-py3-none-any.whl.zip --markdown 20230625/c/cns/1.0.31-1.0.32/diff.md --exclude *.pyd
+[2023-06-25 12:25:59] INFO root fetch - processPackages [eudplib]: Downloading https://files.pythonhosted.org/packages/e1/a9/02f8d1b1438a0c563257e9930d323f38fd51a78ebc99f4b3272ce14c2638/eudplib-0.76.0.dev1-py3-none-any.whl
+[2023-06-25 12:25:59] INFO root fetch - processPackages [eudplib]: executing diffoscope
+[2023-06-25 12:25:59] INFO root fetch - processPackages [eudplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eudplib-0.75.0a25-py3-none-any.whl.zip tmp/eudplib-0.76.0.dev1-py3-none-any.whl.zip --markdown 20230625/e/eudplib/0.75.0a25-0.76.0.dev1/diff.md --exclude *.pyd
+[2023-06-25 12:26:00] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.31-py3-none-any.whl.zip]
+[2023-06-25 12:26:00] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.32-py3-none-any.whl.zip]
+[2023-06-25 12:26:00] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2023-06-25 12:26:02] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.5.tar.gz]
+[2023-06-25 12:26:02] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.6.tar.gz]
+[2023-06-25 12:26:02] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-25 12:26:05] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.75.0a25-py3-none-any.whl.zip]
+[2023-06-25 12:26:05] INFO root fetch - processPackages [eudplib]: Remove: archive file [/home/abi/fetcher/tmp/eudplib-0.76.0.dev1-py3-none-any.whl.zip]
+[2023-06-25 12:26:05] INFO root fetch - main [MainThread]: End processing [eudplib]: success
+[2023-06-25 12:26:05] INFO root fetch - main [MainThread]: Store serial: [18635639]
