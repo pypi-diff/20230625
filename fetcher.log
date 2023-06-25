@@ -3709,3 +3709,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:29:46] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230625.tar.gz]
 [2023-06-25 05:29:46] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-06-25 05:29:46] INFO root fetch - main [MainThread]: Store serial: [18633903]
+[2023-06-25 05:34:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633903]
+[2023-06-25 05:34:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: govtech-data
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ogms
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cocoserver
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bohrium-sdk
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SpLFastlyWrite
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miuc
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EphemSahabatFalak
+[2023-06-25 05:34:54] INFO root fetch - processPackages [ogms]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-25 05:34:54] INFO root fetch - processPackages [EphemSahabatFalak]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-25 05:34:54] INFO root fetch - processPackages [cocoserver]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 05:34:54] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 05:34:54] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-25 05:34:54] INFO root fetch - processPackages [miuc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-25 05:34:54] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 05:34:55] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/96/0c/47013f68a48b4fb95856b0ca48c81059e049f23c38df2919a7ead2eabd70/cocoserver-1.0.1.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [ogms]: Downloading https://files.pythonhosted.org/packages/f0/96/b7c7c56ad1a912b253bb9525abc3cda906be7499d15f4728574a0f6ede2a/ogms-0.1.2-py3.7.egg
+[2023-06-25 05:34:55] INFO root fetch - processPackages [EphemSahabatFalak]: Downloading https://files.pythonhosted.org/packages/7e/fc/7d4e3f08f87bac100d254d07cf88c2f96caa3e5a0ddb125e20cfd8be323d/EphemSahabatFalak-0.0.5.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/8b/3e/73edf6242f70ae987a1fc9adc23026cb685b28614b2345895719ef77fa2b/SpLFastlyWrite-1.0.3.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/6b/3e/a00837a0669fa4cd987e3c7ebad161697493b8c4a0373b39f390504cdf14/bohrium-sdk-0.2.2.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/4f/05/3f4a0fa74c80accb1143cc63440af6a20213d8b3a8e308e9c3dda7bba5c8/miuc-0.1.7.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/bb/aa/590dca710c7623f047f33cc26090a8386c7febe4081f0b10e752cd06f244/govtech_data-0.1.8.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/62/a2/516c30730118b9c0e8d228357156f2095394c44995e02737260941a59569/cocoserver-1.0.2.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [cocoserver]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [cocoserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoserver-1.0.1.tar.gz tmp/cocoserver-1.0.2.tar.gz --markdown 20230625/c/cocoserver/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 05:34:55] INFO root fetch - processPackages [ogms]: Downloading https://files.pythonhosted.org/packages/95/92/34b81d01d57145d5118276d7a1aeff1976e6fa06bf35e83912f3b6c982e8/ogms-0.1.4-py3.7.egg
+[2023-06-25 05:34:55] INFO root fetch - processPackages [EphemSahabatFalak]: Downloading https://files.pythonhosted.org/packages/c0/72/c1e323fc31a851bafdfe5059d22fd60e03ae91a97fe79f6f137dd3aaf3a8/EphemSahabatFalak-0.1.0.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/6c/1b/93cd52bace89f5176e610429e05d60e5d56b204ac4d521e783404faa0f32/bohrium-sdk-0.2.3.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [ogms]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [ogms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogms-0.1.2-py3.7.egg tmp/ogms-0.1.4-py3.7.egg --markdown 20230625/o/ogms/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 05:34:55] INFO root fetch - processPackages [EphemSahabatFalak]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [govtech-data]: Downloading https://files.pythonhosted.org/packages/38/27/bfc2b116c599d8a7ebd76ab6512ee38a1b5d1a16499059770372bc29e6e2/govtech_data-0.1.9.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [EphemSahabatFalak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EphemSahabatFalak-0.0.5.tar.gz tmp/EphemSahabatFalak-0.1.0.tar.gz --markdown 20230625/E/EphemSahabatFalak/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-25 05:34:55] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/35/0e/c70a0f2b2d4746e02836e9c6db1e567f8e8692876fdab76ced3def3cbdae/SpLFastlyWrite-1.0.4.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.2.2.tar.gz tmp/bohrium-sdk-0.2.3.tar.gz --markdown 20230625/b/bohrium-sdk/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 05:34:55] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/af/bb/9656071ed65f3df415ffacd3f4f829a5e7efb7ab41832a25b1ad24057f23/miuc-0.1.8.tar.gz
+[2023-06-25 05:34:55] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.3.tar.gz tmp/SpLFastlyWrite-1.0.4.tar.gz --markdown 20230625/S/SpLFastlyWrite/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-25 05:34:55] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230625/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 05:34:55] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-06-25 05:34:55] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.7.tar.gz tmp/miuc-0.1.8.tar.gz --markdown 20230625/m/miuc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-25 05:34:56] INFO root fetch - processPackages [ogms]: Remove: archive file [/home/abi/fetcher/tmp/ogms-0.1.2-py3.7.egg]
+[2023-06-25 05:34:56] INFO root fetch - processPackages [ogms]: Remove: archive file [/home/abi/fetcher/tmp/ogms-0.1.4-py3.7.egg]
+[2023-06-25 05:34:56] INFO root fetch - main [MainThread]: End processing [ogms]: success
+[2023-06-25 05:34:57] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.1.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.2.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [cocoserver]: success
+[2023-06-25 05:34:57] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.2.2.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - processPackages [bohrium-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bohrium-sdk-0.2.3.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-06-25 05:34:57] INFO root fetch - processPackages [EphemSahabatFalak]: Remove: archive file [/home/abi/fetcher/tmp/EphemSahabatFalak-0.0.5.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - processPackages [EphemSahabatFalak]: Remove: archive file [/home/abi/fetcher/tmp/EphemSahabatFalak-0.1.0.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [EphemSahabatFalak]: success
+[2023-06-25 05:34:57] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.3.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.4.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-06-25 05:34:57] INFO root fetch - processPackages [govtech-data]: Remove: archive file [/home/abi/fetcher/tmp/govtech_data-0.1.8.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - processPackages [govtech-data]: Remove: archive file [/home/abi/fetcher/tmp/govtech_data-0.1.9.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-06-25 05:34:57] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.7.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.8.tar.gz]
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-06-25 05:34:57] INFO root fetch - main [MainThread]: Store serial: [18633924]
