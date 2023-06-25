@@ -13993,3 +13993,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:36:28] INFO root fetch - processPackages [streamlit-autorefresh]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-autorefresh-1.0.0.tar.gz]
 [2023-06-25 20:36:28] INFO root fetch - main [MainThread]: End processing [streamlit-autorefresh]: success
 [2023-06-25 20:36:28] INFO root fetch - main [MainThread]: Store serial: [18638229]
+[2023-06-25 20:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638229]
+[2023-06-25 20:41:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vxfinder
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miley
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuasarCode
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-utilities
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testless-autocomplete
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Scrapset
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rlb
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-pip-package-anticommute
+[2023-06-25 20:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rlforge
+[2023-06-25 20:41:37] WARNING root fetch - processPackages [vxfinder]: Skipping, unable to determine old version
+[2023-06-25 20:41:37] INFO root fetch - main [MainThread]: End processing [vxfinder] error
+[2023-06-25 20:41:37] INFO root fetch - processPackages [Scrapset]: New version: [3.4.0] Old Version: [3.1.0]
+[2023-06-25 20:41:37] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.109] Old Version: [0.0.108]
+[2023-06-25 20:41:37] INFO root fetch - processPackages [automation-utilities]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-25 20:41:37] INFO root fetch - processPackages [miley]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 20:41:37] INFO root fetch - processPackages [QuasarCode]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-25 20:41:37] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/94/56/48292ddcaea296e148c9725c759ec6a953a0e5e33fb6c033c856f77834ab/automation-utilities-1.2.0.tar.gz
+[2023-06-25 20:41:38] WARNING root fetch - processPackages [rlb]: Skipping, unable to determine old version
+[2023-06-25 20:41:38] INFO root fetch - main [MainThread]: End processing [rlb] error
+[2023-06-25 20:41:38] WARNING root fetch - processPackages [rlforge]: Skipping, unable to determine old version
+[2023-06-25 20:41:38] INFO root fetch - main [MainThread]: End processing [rlforge] error
+[2023-06-25 20:41:38] WARNING root fetch - processPackages [my-pip-package-anticommute]: Skipping, unable to determine old version
+[2023-06-25 20:41:38] INFO root fetch - main [MainThread]: End processing [my-pip-package-anticommute] error
+[2023-06-25 20:41:38] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/72/7d/4cc941e3d9f045f600dc10a71408652763a08308fbc2187e3d7e1382fc76/testless_autocomplete-0.0.108.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/c7/8b/8c5dadf508aeb5cbf5c9941b0c1a23682eb59f9753dbb22a37477214c8c6/miley-0.1.0.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/5e/3b/90339c5136615b6413c777bb3ee58be3539d1e0240985679ee7df754803f/Scrapset-3.1.0.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/4b/f9/b2d8ee96804291c82aa8544413344aeff5d171030de7fca251a7887f43b4/QuasarCode-0.8.0.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/fe/8e/4f446c3765f408fb006977f3c343354a3c42cd11848d9237b097282dd99b/automation-utilities-1.2.1.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/21/71/3bd6a4513a49ae327b72c6e60871e53d4cf813998a55aac6957e6521f37a/miley-0.1.1.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/15/d5/562d2fba19e484132ecc1fb4c875cc9777f56bd12038f4fe8a861318b29f/testless_autocomplete-0.0.109.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-25 20:41:38] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.2.0.tar.gz tmp/automation-utilities-1.2.1.tar.gz --markdown 20230625/a/automation-utilities/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-25 20:41:38] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/67/46/55d9a0f234778abc638a43b265aa1558469d0967d78b5d026750dc299011/QuasarCode-0.9.0.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/eb/19/f2bf0e912218e1e19abd8b71d840e3fd7d330a08ad745879363b6fc19823/Scrapset-3.4.0.tar.gz
+[2023-06-25 20:41:38] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 20:41:38] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.108.tar.gz tmp/testless_autocomplete-0.0.109.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.108-0.0.109/diff.md --exclude *.pyd
+[2023-06-25 20:41:38] INFO root fetch - processPackages [miley]: executing diffoscope
+[2023-06-25 20:41:38] INFO root fetch - processPackages [miley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miley-0.1.0.tar.gz tmp/miley-0.1.1.tar.gz --markdown 20230625/m/miley/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 20:41:38] INFO root fetch - processPackages [QuasarCode]: executing diffoscope
+[2023-06-25 20:41:38] INFO root fetch - processPackages [QuasarCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuasarCode-0.8.0.tar.gz tmp/QuasarCode-0.9.0.tar.gz --markdown 20230625/Q/QuasarCode/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 20:41:38] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-06-25 20:41:38] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-3.1.0.tar.gz tmp/Scrapset-3.4.0.tar.gz --markdown 20230625/S/Scrapset/3.1.0-3.4.0/diff.md --exclude *.pyd
+[2023-06-25 20:41:39] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.0.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.1.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-25 20:41:39] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.108.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.109.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 20:41:39] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.0.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.1.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - main [MainThread]: End processing [miley]: success
+[2023-06-25 20:41:39] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-3.1.0.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-3.4.0.tar.gz]
+[2023-06-25 20:41:39] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-06-25 20:41:40] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.8.0.tar.gz]
+[2023-06-25 20:41:40] INFO root fetch - processPackages [QuasarCode]: Remove: archive file [/home/abi/fetcher/tmp/QuasarCode-0.9.0.tar.gz]
+[2023-06-25 20:41:40] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
+[2023-06-25 20:41:40] INFO root fetch - main [MainThread]: Store serial: [18638265]
