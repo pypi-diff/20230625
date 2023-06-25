@@ -3140,3 +3140,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:47:43] INFO root fetch - processPackages [monailabel-weekly]: Remove: archive file [/home/abi/fetcher/tmp/monailabel_weekly-0.5.dev2326-py3-none-any.whl.zip]
 [2023-06-25 04:47:43] INFO root fetch - main [MainThread]: End processing [monailabel-weekly]: success
 [2023-06-25 04:47:43] INFO root fetch - main [MainThread]: Store serial: [18633649]
+[2023-06-25 04:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633649]
+[2023-06-25 04:52:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-06-25 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-26
+[2023-06-25 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-06-25 04:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissistant
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-25 04:52:52] INFO root fetch - processPackages [aissistant]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-25 04:52:52] INFO root fetch - processPackages [aissistant]: Downloading https://files.pythonhosted.org/packages/63/d5/7b1aeab8e740266576d49ccd04aea87cb16f145e0e05a3aecfbdd48cd53e/aissistant-0.0.1.tar.gz
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-25 04:52:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-25 04:52:53] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-25 04:52:53] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230625/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-25 04:52:53] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-25 04:52:53] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230625/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-25 04:52:53] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-25 04:52:53] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230625/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-25 04:52:53] INFO root fetch - processPackages [aissistant]: Downloading https://files.pythonhosted.org/packages/94/70/2c5d6b3f853602416cdfba5a26cb6c0c993f93824372bbd1e201c7cd743c/aissistant-0.0.2.tar.gz
+[2023-06-25 04:52:53] INFO root fetch - processPackages [aissistant]: executing diffoscope
+[2023-06-25 04:52:53] INFO root fetch - processPackages [aissistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissistant-0.0.1.tar.gz tmp/aissistant-0.0.2.tar.gz --markdown 20230625/a/aissistant/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 04:52:54] INFO root fetch - processPackages [aissistant]: Remove: archive file [/home/abi/fetcher/tmp/aissistant-0.0.1.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - processPackages [aissistant]: Remove: archive file [/home/abi/fetcher/tmp/aissistant-0.0.2.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - main [MainThread]: End processing [aissistant]: success
+[2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-25 04:52:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-25 04:52:54] INFO root fetch - main [MainThread]: Store serial: [18633661]
