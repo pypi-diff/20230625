@@ -4305,3 +4305,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:42:34] INFO root fetch - processPackages [static-frame]: Remove: archive file [/home/abi/fetcher/tmp/static-frame-1.4.6.tar.gz]
 [2023-06-25 06:42:34] INFO root fetch - main [MainThread]: End processing [static-frame]: success
 [2023-06-25 06:42:34] INFO root fetch - main [MainThread]: Store serial: [18634130]
+[2023-06-25 06:47:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634130]
+[2023-06-25 06:47:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 06:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SpLFastlyWrite
+[2023-06-25 06:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-code-search
+[2023-06-25 06:47:43] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-25 06:47:43] WARNING root fetch - processPackages [gpt-code-search]: Skipping, unable to determine old version
+[2023-06-25 06:47:43] INFO root fetch - main [MainThread]: End processing [gpt-code-search] error
+[2023-06-25 06:47:43] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/20/09/b3930fb9003159dde3cbf6f45dd32bb9ed975ea7f117338ce4fa260597ec/SpLFastlyWrite-1.0.6.tar.gz
+[2023-06-25 06:47:43] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/74/0b/dd8cac021813ae35a018fbb59ea2f46f329e4a3c2cdba8595e8ef727ec8b/SpLFastlyWrite-1.0.7.tar.gz
+[2023-06-25 06:47:44] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-06-25 06:47:44] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.6.tar.gz tmp/SpLFastlyWrite-1.0.7.tar.gz --markdown 20230625/S/SpLFastlyWrite/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-25 06:47:45] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.6.tar.gz]
+[2023-06-25 06:47:45] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.7.tar.gz]
+[2023-06-25 06:47:45] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-06-25 06:47:45] INFO root fetch - main [MainThread]: Store serial: [18634139]
