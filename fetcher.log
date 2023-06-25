@@ -2984,3 +2984,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:31:47] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
 [2023-06-25 04:31:47] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-06-25 04:31:47] INFO root fetch - main [MainThread]: Store serial: [18633580]
+[2023-06-25 04:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633580]
+[2023-06-25 04:36:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 04:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aindex
+[2023-06-25 04:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jykj
+[2023-06-25 04:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-miningtaxes
+[2023-06-25 04:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-06-25 04:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-library-objects
+[2023-06-25 04:36:56] WARNING root fetch - processPackages [aindex]: Skipping, unable to determine old version
+[2023-06-25 04:36:56] INFO root fetch - main [MainThread]: End processing [aindex] error
+[2023-06-25 04:36:56] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-25 04:36:56] INFO root fetch - processPackages [jykj]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 04:36:56] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-25 04:36:56] INFO root fetch - processPackages [xklb]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-25 04:36:56] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/b1/a1/03a47da30bb6a1c754c92f2f9789d463bf99ff6025502a3b10459768037e/xklb-2.1.8.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/b6/2d/e0e3ec2197cee944f46e3a04f497e91675c2c5ed201d011f0b728f0375e1/jykj-0.0.5.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/1b/5b/704179ad12ecc5eb905b7f7162fea20d3fde53744942e8927a82f570e46c/aa-miningtaxes-1.2.6.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2e/31/1637bef7e4aaf8529af80e5d5d27b2eca11c30c3a63fd32033fb97549c52/xklb-2.1.9.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-06-25 04:36:56] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230625/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-06-25 04:36:56] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/33/71/1aee3a8905ef6788d9687b7d11f751be220cb9d20b8cfa9f2f1fe6aecdc5/jykj-0.0.6.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-25 04:36:56] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.8.tar.gz tmp/xklb-2.1.9.tar.gz --markdown 20230625/x/xklb/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-25 04:36:56] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/56/f8/c8f84030472826fa8b0a973e4da9d101c7aaf5027dc9270c68ffa4b9c9b8/aa-miningtaxes-1.2.7.tar.gz
+[2023-06-25 04:36:56] INFO root fetch - processPackages [jykj]: executing diffoscope
+[2023-06-25 04:36:56] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.5.tar.gz tmp/jykj-0.0.6.tar.gz --markdown 20230625/j/jykj/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 04:36:56] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-06-25 04:36:56] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.2.6.tar.gz tmp/aa-miningtaxes-1.2.7.tar.gz --markdown 20230625/a/aa-miningtaxes/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-25 04:36:58] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-06-25 04:36:58] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-06-25 04:36:58] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-06-25 04:36:58] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.5.tar.gz]
+[2023-06-25 04:36:58] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.6.tar.gz]
+[2023-06-25 04:36:58] INFO root fetch - main [MainThread]: End processing [jykj]: success
+[2023-06-25 04:36:58] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.8.tar.gz]
+[2023-06-25 04:36:58] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
+[2023-06-25 04:36:58] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-25 04:36:59] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.6.tar.gz]
+[2023-06-25 04:36:59] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.7.tar.gz]
+[2023-06-25 04:36:59] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-06-25 04:36:59] INFO root fetch - main [MainThread]: Store serial: [18633596]
