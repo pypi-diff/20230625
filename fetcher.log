@@ -6193,3 +6193,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:29:44] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.7.tar.gz]
 [2023-06-25 09:29:44] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
 [2023-06-25 09:29:44] INFO root fetch - main [MainThread]: Store serial: [18634831]
+[2023-06-25 09:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634831]
+[2023-06-25 09:34:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-ttauto-crawler
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-bilichat
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-avatar20220130-py2
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-avatar20220130
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcentralab-qa-infra-automation
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: celescope
+[2023-06-25 09:34:53] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [alibabacloud-avatar20220130]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [1.0.3] Old Version: [1.0.25]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: New version: [1.0.2] Old Version: [0.3.0]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 09:34:53] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/fa/4c/e194b3d41431d2518e3ef616ad389e60a01e82adba4b7b8c6c979065a81d/nonebot_plugin_bilichat-2.8.2.tar.gz
+[2023-06-25 09:34:53] INFO root fetch - processPackages [celescope]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-25 09:34:53] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/bb/56/6ee2f9292302d4a066cf8c5c39c7508fbe0d05a9b9549390d9d538fb8760/alibabacloud_avatar20220130_py2-1.0.25.tar.gz
+[2023-06-25 09:34:53] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/63/13/9b6337394c782acb07949df0332216c1bef34b2cff3bf7020915c47f422d/dcentralab_qa_infra_automation-0.3.0-py3-none-any.whl
+[2023-06-25 09:34:53] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/4b/a0/6a2a2e8ff44efdba82be0a18fd74ded8f0ce81b1d6dd876f82c0c84b6521/alibabacloud_avatar20220130-1.0.8.tar.gz
+[2023-06-25 09:34:53] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 09:34:53] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-25 09:34:54] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/83/b9/858378ee92e00801a34ac10f4b99aab872ffc2e1e079d875ea872e747caa/celescope-1.8.1.tar.gz
+[2023-06-25 09:34:54] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 09:34:54] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 09:34:54] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/47/8e/394ab4c66a3c5fb9c446076756afcb14c47bbd6395f25d80e21efad816da/nonebot_plugin_bilichat-2.9.0.tar.gz
+[2023-06-25 09:34:54] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-06-25 09:34:54] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/1d/b4/4bb6f09cc7b58637e751863262974a4cb14ab1d86ab3e80fe0ef8fa9db9a/alibabacloud_avatar20220130-1.0.9.tar.gz
+[2023-06-25 09:34:54] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/b9/83/67c53d0e0f0899916b14d5df848e73db4cba17573e079140f16b8db56922/dcentralab_qa_infra_automation-1.0.2.tar.gz
+[2023-06-25 09:34:54] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-25 09:34:54] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.8.2.tar.gz tmp/nonebot_plugin_bilichat-2.9.0.tar.gz --markdown 20230625/n/nonebot-plugin-bilichat/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-06-25 09:34:54] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-06-25 09:34:54] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.25.tar.gz tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz --markdown 20230625/a/alibabacloud-avatar20220130-py2/1.0.25-1.0.3/diff.md --exclude *.pyd
+[2023-06-25 09:34:54] INFO root fetch - processPackages [alibabacloud-avatar20220130]: executing diffoscope
+[2023-06-25 09:34:54] INFO root fetch - processPackages [alibabacloud-avatar20220130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130-1.0.8.tar.gz tmp/alibabacloud_avatar20220130-1.0.9.tar.gz --markdown 20230625/a/alibabacloud-avatar20220130/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 09:34:54] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: executing diffoscope
+[2023-06-25 09:34:54] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentralab_qa_infra_automation-0.3.0-py3-none-any.whl.zip tmp/dcentralab_qa_infra_automation-1.0.2.tar.gz --markdown 20230625/d/dcentralab-qa-infra-automation/0.3.0-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 09:34:54] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/a5/6b/4116fc1b9d114067cd4ea6d81ab5023a9afd88347abbacac404f48300fa9/celescope-1.9.0.tar.gz
+[2023-06-25 09:34:55] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-25 09:34:55] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 09:34:55] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-0.3.0-py3-none-any.whl.zip]
+[2023-06-25 09:34:55] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.2.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - main [MainThread]: End processing [dcentralab-qa-infra-automation]: success
+[2023-06-25 09:34:55] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.25.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-06-25 09:34:55] INFO root fetch - processPackages [celescope]: executing diffoscope
+[2023-06-25 09:34:55] INFO root fetch - processPackages [celescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celescope-1.8.1.tar.gz tmp/celescope-1.9.0.tar.gz --markdown 20230625/c/celescope/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-25 09:34:55] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.8.2.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.0.tar.gz]
+[2023-06-25 09:34:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-25 09:34:56] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.8.tar.gz]
+[2023-06-25 09:34:56] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.9.tar.gz]
+[2023-06-25 09:34:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130]: success
+[2023-06-25 09:34:56] ERROR root fetch - processPackages [celescope]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-25 09:34:56] INFO root fetch - main [MainThread]: End processing [celescope] error
+[2023-06-25 09:34:56] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-25 09:34:56] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230625/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-25 09:35:06] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-25 09:35:06] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-25 09:35:06] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-25 09:35:06] INFO root fetch - main [MainThread]: Store serial: [18634851]
