@@ -6547,3 +6547,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:01:40] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-06-25 10:01:40] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-06-25 10:01:40] INFO root fetch - main [MainThread]: Store serial: [18634963]
+[2023-06-25 10:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634963]
+[2023-06-25 10:06:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 10:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosdk-py
+[2023-06-25 10:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2023-06-25 10:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydns3
+[2023-06-25 10:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deci-platform-client
+[2023-06-25 10:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airontools
+[2023-06-25 10:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2023-06-25 10:06:50] WARNING root fetch - processPackages [aiosdk-py]: Skipping, unable to determine old version
+[2023-06-25 10:06:50] INFO root fetch - main [MainThread]: End processing [aiosdk-py] error
+[2023-06-25 10:06:50] INFO root fetch - processPackages [airontools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 10:06:50] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230624] Old Version: [0.3.1.dev20230623]
+[2023-06-25 10:06:50] INFO root fetch - processPackages [deci-platform-client]: New version: [5.4.0] Old Version: [5.3.1]
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pydns3]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 10:06:50] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/ec/70/d9d036bc0f5e3c175cac2fe7285443f63b53a428a35c8a300ead784cc00b/cryptoowl-0.0.6.tar.gz
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/fa/f9/38b37878ca6564f0435ffcaad79b7af72d4cd108292451c5c8f8795c6f78/pyglove-0.3.1.dev20230623.tar.gz
+[2023-06-25 10:06:50] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/85/0a/e55127c64107b1e09540ddb3f0fb44fb765f20d855baea3215fb4949f483/deci_platform_client-5.3.1-py3-none-any.whl
+[2023-06-25 10:06:50] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/1c/a1/ee4f0a89c7f7eb356f1da893ab5726ba05871394ac223304efb0f1926e5d/airontools-0.1.8-py3-none-any.whl
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pydns3]: Downloading https://files.pythonhosted.org/packages/76/56/e8085198c51f3bf04a724431519672d4e3fd1c8d4150f7362693af4bf6a0/pydns3-0.0.7.tar.gz
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/15/0e/d8b7337427db9ed6517ae0ccf702e51ae26cebbea791e229d28a9b495ead/pyglove-0.3.1.dev20230624.tar.gz
+[2023-06-25 10:06:50] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/cf/cb/bbc5a2e1c956bd3acdb65de5edc80627fb1220a13a287c73f8731ee68c88/cryptoowl-0.0.7.tar.gz
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230623.tar.gz tmp/pyglove-0.3.1.dev20230624.tar.gz --markdown 20230625/p/pyglove/0.3.1.dev20230623-0.3.1.dev20230624/diff.md --exclude *.pyd
+[2023-06-25 10:06:50] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2023-06-25 10:06:50] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.6.tar.gz tmp/cryptoowl-0.0.7.tar.gz --markdown 20230625/c/cryptoowl/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pydns3]: Downloading https://files.pythonhosted.org/packages/62/de/c86f0761bce6388c3491158149c0f0d06a6b220877d67d50d8d9051e0e08/pydns3-0.0.8.tar.gz
+[2023-06-25 10:06:50] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/8d/43/319f393c88dde94a1bf21247947c035726d5c2afb6e1e8270b109fa1abfa/deci_platform_client-5.4.0-py3-none-any.whl
+[2023-06-25 10:06:50] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/b8/08/2a60311ced2f2e597aa5dff7784a56fd4979cd36b06d6099ee3a0c075f44/airontools-0.1.9-py3-none-any.whl
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pydns3]: executing diffoscope
+[2023-06-25 10:06:50] INFO root fetch - processPackages [pydns3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydns3-0.0.7.tar.gz tmp/pydns3-0.0.8.tar.gz --markdown 20230625/p/pydns3/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 10:06:50] INFO root fetch - processPackages [airontools]: executing diffoscope
+[2023-06-25 10:06:50] INFO root fetch - processPackages [airontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airontools-0.1.8-py3-none-any.whl.zip tmp/airontools-0.1.9-py3-none-any.whl.zip --markdown 20230625/a/airontools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 10:06:50] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-06-25 10:06:50] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.3.1-py3-none-any.whl.zip tmp/deci_platform_client-5.4.0-py3-none-any.whl.zip --markdown 20230625/d/deci-platform-client/5.3.1-5.4.0/diff.md --exclude *.pyd
+[2023-06-25 10:06:51] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.6.tar.gz]
+[2023-06-25 10:06:51] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.7.tar.gz]
+[2023-06-25 10:06:51] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2023-06-25 10:06:52] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 10:06:52] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 10:06:52] INFO root fetch - main [MainThread]: End processing [airontools]: success
+[2023-06-25 10:06:52] INFO root fetch - processPackages [pydns3]: Remove: archive file [/home/abi/fetcher/tmp/pydns3-0.0.7.tar.gz]
+[2023-06-25 10:06:52] INFO root fetch - processPackages [pydns3]: Remove: archive file [/home/abi/fetcher/tmp/pydns3-0.0.8.tar.gz]
+[2023-06-25 10:06:52] INFO root fetch - main [MainThread]: End processing [pydns3]: success
+[2023-06-25 10:06:52] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230623.tar.gz]
+[2023-06-25 10:06:52] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230624.tar.gz]
+[2023-06-25 10:06:52] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-25 10:06:58] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.3.1-py3-none-any.whl.zip]
+[2023-06-25 10:06:58] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.4.0-py3-none-any.whl.zip]
+[2023-06-25 10:06:58] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-06-25 10:06:58] INFO root fetch - main [MainThread]: Store serial: [18634980]
