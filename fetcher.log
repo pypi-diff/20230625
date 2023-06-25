@@ -13132,3 +13132,214 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:43:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251742-py3-none-any.whl.zip]
 [2023-06-25 19:43:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-25 19:43:42] INFO root fetch - main [MainThread]: Store serial: [18637874]
+[2023-06-25 19:48:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637874]
+[2023-06-25 19:48:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solarwatt-energymanager-py
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimagine
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: i8-terminal
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgecrew
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonmc
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JukeAudio
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyqrack
+[2023-06-25 19:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: i8-terminal
+[2023-06-25 19:48:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 19:48:51] INFO root fetch - processPackages [pyimagine]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-06-25 19:48:51] INFO root fetch - processPackages [solarwatt-energymanager-py]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-25 19:48:51] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.91] Old Version: [0.2.90]
+[2023-06-25 19:48:51] WARNING root fetch - processPackages [JukeAudio]: Skipping, unable to determine old version
+[2023-06-25 19:48:51] INFO root fetch - processPackages [pythonmc]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-25 19:48:51] INFO root fetch - processPackages [JukeAudio]: Start processing: gcloud-secret-configure
+[2023-06-25 19:48:51] INFO root fetch - main [MainThread]: End processing [JukeAudio] error
+[2023-06-25 19:48:51] INFO root fetch - processPackages [kfish]: New version: [99.0.202306251745] Old Version: [99.0.202306251731]
+[2023-06-25 19:48:51] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.91] Old Version: [0.2.90]
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-25 19:48:52] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-25 19:48:52] INFO root fetch - processPackages [gcloud-secret-configure]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 19:48:52] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e2/87/96a185c75924a2e17709778ac531dd00f76ebc6dd3aceed0bfdb9729977f/kfish-99.0.202306251731-py3-none-any.whl
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyimagine]: Downloading https://files.pythonhosted.org/packages/39/1e/1a7edc9dc733e0374df6a88d9b76c4650e44ef957f3bd036f6c971982cd1/pyimagine-2.7.4.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/bd/f4/b6af2bf7b03f786e603b0d03fc7c4ed20b8cd1c5241870a056089883a2db/i8-terminal-0.2.90.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/bd/f4/b6af2bf7b03f786e603b0d03fc7c4ed20b8cd1c5241870a056089883a2db/i8-terminal-0.2.90.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [solarwatt-energymanager-py]: Downloading https://files.pythonhosted.org/packages/93/31/59a79ff889cf97a12a1841d101475ef91002782fa15831574d62c7b92d15/solarwatt-energymanager-py-1.2.1.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [gcloud-secret-configure]: Downloading https://files.pythonhosted.org/packages/e3/e4/6bfd212682d650f4c99814955653841b115fc926fa43a0844c6621300e06/gcloud-secret-configure-0.0.2.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pythonmc]: Downloading https://files.pythonhosted.org/packages/bc/10/3d9b135ce90950dc7917dbd73c186ce778185182de205ca371c8d631fbb7/pythonmc-1.0.4.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/25/fd/1293ed681d89e9f2b96f90d0c854d3de2a4e9dd5f0e2fc57c53a42c6a57c/kfish-99.0.202306251745-py3-none-any.whl
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyimagine]: Downloading https://files.pythonhosted.org/packages/c8/fb/c92658e7e5c6518cea0b91637135b1c7271b7a9e19a808f4ff06dca53256/pyimagine-2.7.5.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [solarwatt-energymanager-py]: Downloading https://files.pythonhosted.org/packages/46/f4/d01cc9b7f95b5b9b64462c92b87ee4099f9b850e2b2242151db113c25e4e/solarwatt-energymanager-py-1.3.0.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230625/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/b2/f4/d28f09dd52fc85ed7e5327697ee024846c2466afdbcbe35d657e5c6b2428/i8-terminal-0.2.91.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pythonmc]: Downloading https://files.pythonhosted.org/packages/12/55/9dd47573bed34c31e19960011ad0ef97de616fc379907a562efd5e62028c/pythonmc-1.0.5.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/b2/f4/d28f09dd52fc85ed7e5327697ee024846c2466afdbcbe35d657e5c6b2428/i8-terminal-0.2.91.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyimagine]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pyimagine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimagine-2.7.4.tar.gz tmp/pyimagine-2.7.5.tar.gz --markdown 20230625/p/pyimagine/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306251731-py3-none-any.whl.zip tmp/kfish-99.0.202306251745-py3-none-any.whl.zip --markdown 20230625/k/kfish/99.0.202306251731-99.0.202306251745/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [solarwatt-energymanager-py]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [solarwatt-energymanager-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarwatt-energymanager-py-1.2.1.tar.gz tmp/solarwatt-energymanager-py-1.3.0.tar.gz --markdown 20230625/s/solarwatt-energymanager-py/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pythonmc]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [pythonmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonmc-1.0.4.tar.gz tmp/pythonmc-1.0.5.tar.gz --markdown 20230625/p/pythonmc/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [gcloud-secret-configure]: Downloading https://files.pythonhosted.org/packages/fb/bf/59ba2aa14f95314b63ecf0e773cf894627e97d139297c658ee32e666d04a/gcloud-secret-configure-0.0.3.tar.gz
+[2023-06-25 19:48:52] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230625/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230625/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [gcloud-secret-configure]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [gcloud-secret-configure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-secret-configure-0.0.2.tar.gz tmp/gcloud-secret-configure-0.0.3.tar.gz --markdown 20230625/g/gcloud-secret-configure/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.90.tar.gz tmp/i8-terminal-0.2.91.tar.gz --markdown 20230625/i/i8-terminal/0.2.90-0.2.91/diff.md --exclude *.pyd
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-25 19:48:52] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.90.tar.gz tmp/i8-terminal-0.2.91.tar.gz --markdown 20230625/i/i8-terminal/0.2.90-0.2.91/diff.md --exclude *.pyd
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyqrack]: Start processing: pysipfenn
+[2023-06-25 19:48:54] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pysipfenn]: New version: [0.12.1] Old Version: [0.12.0]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: Remove: archive file [/home/abi/fetcher/tmp/pyimagine-2.7.4.tar.gz]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: Remove: archive file [/home/abi/fetcher/tmp/pyimagine-2.7.5.tar.gz]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: Start processing: pyimagine
+[2023-06-25 19:48:54] INFO root fetch - main [MainThread]: End processing [pyimagine]: success
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: Downloading https://files.pythonhosted.org/packages/39/1e/1a7edc9dc733e0374df6a88d9b76c4650e44ef957f3bd036f6c971982cd1/pyimagine-2.7.4.tar.gz
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pysipfenn]: Downloading https://files.pythonhosted.org/packages/4c/a4/4dd559c84d526b0d3794d0c22fbb99d8eae43b98253f6f085b42b59575fa/pysipfenn-0.12.0.tar.gz
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: Downloading https://files.pythonhosted.org/packages/c8/fb/c92658e7e5c6518cea0b91637135b1c7271b7a9e19a808f4ff06dca53256/pyimagine-2.7.5.tar.gz
+[2023-06-25 19:48:54] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251731-py3-none-any.whl.zip]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251745-py3-none-any.whl.zip]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [kfish]: Start processing: fastapi-mail
+[2023-06-25 19:48:54] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-25 19:48:54] INFO root fetch - processPackages [fastapi-mail]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: executing diffoscope
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pyimagine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimagine-2.7.4.tar.gz tmp/pyimagine-2.7.5.tar.gz --markdown 20230625/p/pyimagine/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-06-25 19:48:54] INFO root fetch - processPackages [fastapi-mail]: Downloading https://files.pythonhosted.org/packages/01/ff/af24ddaf7c40b3e8877d0f2af44f5c61b4dad607ba01be48540e85522c22/fastapi_mail-1.2.9.tar.gz
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pysipfenn]: Downloading https://files.pythonhosted.org/packages/91/1f/6a28ca7b8ed8e17b954ff30d317628e6f95edd8cf1f226c809e794af406f/pysipfenn-0.12.1.tar.gz
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pysipfenn]: executing diffoscope
+[2023-06-25 19:48:54] INFO root fetch - processPackages [pysipfenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysipfenn-0.12.0.tar.gz tmp/pysipfenn-0.12.1.tar.gz --markdown 20230625/p/pysipfenn/0.12.0-0.12.1/diff.md --exclude *.pyd
+[2023-06-25 19:48:54] INFO root fetch - processPackages [fastapi-mail]: Downloading https://files.pythonhosted.org/packages/5f/94/58fc8ae7dc6664c331dc6e5f1ed2c3438d337c1df3d0b183636acffdeed7/fastapi_mail-1.3.0.tar.gz
+[2023-06-25 19:48:54] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-25 19:48:54] INFO root fetch - processPackages [bridgecrew]: Start processing: xia-git
+[2023-06-25 19:48:54] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-25 19:48:55] ERROR root fetch - processPackages [xia-git]: Unable to get metadata: No such project 'xia-git'
+[2023-06-25 19:48:55] INFO root fetch - main [MainThread]: End processing [xia-git] error
+[2023-06-25 19:48:55] INFO root fetch - processPackages [solarwatt-energymanager-py]: Remove: archive file [/home/abi/fetcher/tmp/solarwatt-energymanager-py-1.2.1.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - processPackages [solarwatt-energymanager-py]: Remove: archive file [/home/abi/fetcher/tmp/solarwatt-energymanager-py-1.3.0.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - main [MainThread]: End processing [solarwatt-energymanager-py]: success
+[2023-06-25 19:48:55] INFO root fetch - processPackages [fastapi-mail]: executing diffoscope
+[2023-06-25 19:48:55] INFO root fetch - processPackages [fastapi-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mail-1.2.9.tar.gz tmp/fastapi_mail-1.3.0.tar.gz --markdown 20230625/f/fastapi-mail/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-25 19:48:55] INFO root fetch - processPackages [gcloud-secret-configure]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-secret-configure-0.0.2.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - processPackages [gcloud-secret-configure]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-secret-configure-0.0.3.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - main [MainThread]: End processing [gcloud-secret-configure]: success
+[2023-06-25 19:48:55] INFO root fetch - processPackages [pythonmc]: Remove: archive file [/home/abi/fetcher/tmp/pythonmc-1.0.4.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - processPackages [pythonmc]: Remove: archive file [/home/abi/fetcher/tmp/pythonmc-1.0.5.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - main [MainThread]: End processing [pythonmc]: success
+[2023-06-25 19:48:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-25 19:48:55] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.90.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.91.tar.gz]
+[2023-06-25 19:48:55] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-25 19:48:56] INFO root fetch - processPackages [pyimagine]: Remove: archive file [/home/abi/fetcher/tmp/pyimagine-2.7.4.tar.gz]
+[2023-06-25 19:48:56] INFO root fetch - processPackages [pyimagine]: Remove: archive file [/home/abi/fetcher/tmp/pyimagine-2.7.5.tar.gz]
+[2023-06-25 19:48:56] INFO root fetch - main [MainThread]: End processing [pyimagine]: success
+[2023-06-25 19:48:56] INFO root fetch - processPackages [fastapi-mail]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mail-1.2.9.tar.gz]
+[2023-06-25 19:48:56] INFO root fetch - processPackages [fastapi-mail]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mail-1.3.0.tar.gz]
+[2023-06-25 19:48:56] INFO root fetch - main [MainThread]: End processing [fastapi-mail]: success
+[2023-06-25 19:48:56] ERROR root fetch - processPackages [i8-terminal]: Diffoscope failed: gzip: tmp/i8-terminal-0.2.91.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/i8-terminal-0.2.91.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-25 19:48:56] INFO root fetch - main [MainThread]: End processing [i8-terminal] error
+[2023-06-25 19:48:56] INFO root fetch - processPackages [pysipfenn]: Remove: archive file [/home/abi/fetcher/tmp/pysipfenn-0.12.0.tar.gz]
+[2023-06-25 19:48:56] INFO root fetch - processPackages [pysipfenn]: Remove: archive file [/home/abi/fetcher/tmp/pysipfenn-0.12.1.tar.gz]
+[2023-06-25 19:48:56] INFO root fetch - main [MainThread]: End processing [pysipfenn]: success
+[2023-06-25 19:48:56] INFO root fetch - main [MainThread]: Store serial: [18637929]
