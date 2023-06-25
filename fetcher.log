@@ -14553,3 +14553,78 @@ AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
 [2023-06-25 21:23:26] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.0.tar.gz]
 [2023-06-25 21:23:26] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
 [2023-06-25 21:23:26] INFO root fetch - main [MainThread]: Store serial: [18638481]
+[2023-06-25 21:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638481]
+[2023-06-25 21:28:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-flexio
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pciSeq
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testless-autocomplete
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-simple-bulk-emailer
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunspot
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbrlabs-pulumi-eks
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meo
+[2023-06-25 21:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-simple-forms
+[2023-06-25 21:28:37] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.112] Old Version: [0.0.111]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [django-simple-bulk-emailer]: New version: [0.2.5] Old Version: [0.2.1]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [sunspot]: New version: [0.5] Old Version: [0.4]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [c4m-flexio]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [pciSeq]: New version: [0.0.52.dev1] Old Version: [0.0.51.dev2]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.4a1687717427] Old Version: [0.0.3a1687660999]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [meo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 21:28:37] INFO root fetch - processPackages [sunspot]: Downloading https://files.pythonhosted.org/packages/3e/df/039fe9f56a9f194f9e75517b3cf2cf46e311b5f739b7f23b660ea6228118/sunspot-0.4.tar.gz
+[2023-06-25 21:28:37] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/fb/96/f7b048db989597dc46957a0c8893a916fbaa49ff48e6cf60a9db981b66e4/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz
+[2023-06-25 21:28:37] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/ae/90/b0c570fc9b423e4dbc94a2c4efd9ecd8848c025a1255e4eb5e59e1caef91/meo-0.1.2.tar.gz
+[2023-06-25 21:28:37] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/50/91/2201682da968814612f3dbbaaa4fe5e0be08791a61e22726cd73b14eaf9d/testless_autocomplete-0.0.111.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/5b/4b/f862148a1a839536cb0f3f9bcd016f76b83b2044ee21a8ba9aebc8ab2ac0/c4m_flexio-0.3.0.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-forms]: New version: [0.1.7] Old Version: [0.1.2]
+[2023-06-25 21:28:38] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/7e/69/3a7459de38c7f404da2f9c906fb4246e0a677ad168d2188fd7c480c815ef/pciSeq-0.0.51.dev2-py3-none-any.whl
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-bulk-emailer]: Downloading https://files.pythonhosted.org/packages/84/a5/d6900cd79b9896a8d07508678815c6bd3f48744df275784b330c94afdd6f/django_simple_bulk_emailer-0.2.1.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [sunspot]: Downloading https://files.pythonhosted.org/packages/23/b4/e934497b04f9bd44cd287cfedd710c3a3f205e88da77e2edd3c01b2e79be/sunspot-0.5.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/65/f6/39073d68e1a2eb6018239802e37af04ce84c89614e34936ae25968255168/meo-0.1.3.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/2e/d2/f57eb55dfcf03d5cac9a75392ce1b9fa490bb21534200328d576968bd6e5/lbrlabs_pulumi_eks-0.0.4a1687717427.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.2.tar.gz tmp/meo-0.1.3.tar.gz --markdown 20230625/m/meo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-forms]: Downloading https://files.pythonhosted.org/packages/c9/49/a044f4fab0e620b9e1116e6b91abff270d35076789398136410bc1cb1661/django_simple_forms-0.1.2.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [sunspot]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [sunspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunspot-0.4.tar.gz tmp/sunspot-0.5.tar.gz --markdown 20230625/s/sunspot/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/70/17/7c772cefcab5a92b351a9490f683d7e9dcb63ae6e6041ae0931cb99774e7/testless_autocomplete-0.0.112.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz tmp/lbrlabs_pulumi_eks-0.0.4a1687717427.tar.gz --markdown 20230625/l/lbrlabs-pulumi-eks/0.0.3a1687660999-0.0.4a1687717427/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/87/c1/82f4b355027a8a38719e29acb43764e8eb07150762131f960e28c696b085/c4m_flexio-0.3.1.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.111.tar.gz tmp/testless_autocomplete-0.0.112.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.111-0.0.112/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-bulk-emailer]: Downloading https://files.pythonhosted.org/packages/c7/65/6a5072b04ef21102b8867bb11bb758817c7e39dd440eb177336616996919/django_simple_bulk_emailer-0.2.5.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/e5/bb/2b06aa2567b7591d76a5038185112534a51aab2c4e7534126bcf1c87c5a0/pciSeq-0.0.52.dev1-py3-none-any.whl
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-bulk-emailer]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-bulk-emailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_bulk_emailer-0.2.1.tar.gz tmp/django_simple_bulk_emailer-0.2.5.tar.gz --markdown 20230625/d/django-simple-bulk-emailer/0.2.1-0.2.5/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-forms]: Downloading https://files.pythonhosted.org/packages/be/a8/2e81f3af0cf7f975e7f47be7997b0937e0f57ceaeab59307ae82faa28fdc/django_simple_forms-0.1.7.tar.gz
+[2023-06-25 21:28:38] INFO root fetch - processPackages [c4m-flexio]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [c4m-flexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexio-0.3.0.tar.gz tmp/c4m_flexio-0.3.1.tar.gz --markdown 20230625/c/c4m-flexio/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.51.dev2-py3-none-any.whl.zip tmp/pciSeq-0.0.52.dev1-py3-none-any.whl.zip --markdown 20230625/p/pciSeq/0.0.51.dev2-0.0.52.dev1/diff.md --exclude *.pyd
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-forms]: executing diffoscope
+[2023-06-25 21:28:38] INFO root fetch - processPackages [django-simple-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_forms-0.1.2.tar.gz tmp/django_simple_forms-0.1.7.tar.gz --markdown 20230625/d/django-simple-forms/0.1.2-0.1.7/diff.md --exclude *.pyd
+[2023-06-25 21:28:39] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.2.tar.gz]
+[2023-06-25 21:28:39] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.3.tar.gz]
+[2023-06-25 21:28:39] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-06-25 21:28:39] INFO root fetch - processPackages [sunspot]: Remove: archive file [/home/abi/fetcher/tmp/sunspot-0.4.tar.gz]
+[2023-06-25 21:28:39] INFO root fetch - processPackages [sunspot]: Remove: archive file [/home/abi/fetcher/tmp/sunspot-0.5.tar.gz]
+[2023-06-25 21:28:39] INFO root fetch - main [MainThread]: End processing [sunspot]: success
+[2023-06-25 21:28:40] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz]
+[2023-06-25 21:28:40] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.4a1687717427.tar.gz]
+[2023-06-25 21:28:40] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-25 21:28:40] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.111.tar.gz]
+[2023-06-25 21:28:40] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.112.tar.gz]
+[2023-06-25 21:28:40] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 21:28:40] INFO root fetch - processPackages [django-simple-forms]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_forms-0.1.2.tar.gz]
+[2023-06-25 21:28:40] INFO root fetch - processPackages [django-simple-forms]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_forms-0.1.7.tar.gz]
+[2023-06-25 21:28:40] INFO root fetch - main [MainThread]: End processing [django-simple-forms]: success
+[2023-06-25 21:28:41] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.3.0.tar.gz]
+[2023-06-25 21:28:41] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.3.1.tar.gz]
+[2023-06-25 21:28:41] INFO root fetch - main [MainThread]: End processing [c4m-flexio]: success
+[2023-06-25 21:28:41] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.51.dev2-py3-none-any.whl.zip]
+[2023-06-25 21:28:41] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.52.dev1-py3-none-any.whl.zip]
+[2023-06-25 21:28:41] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2023-06-25 21:28:43] INFO root fetch - processPackages [django-simple-bulk-emailer]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_bulk_emailer-0.2.1.tar.gz]
+[2023-06-25 21:28:43] INFO root fetch - processPackages [django-simple-bulk-emailer]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_bulk_emailer-0.2.5.tar.gz]
+[2023-06-25 21:28:43] INFO root fetch - main [MainThread]: End processing [django-simple-bulk-emailer]: success
+[2023-06-25 21:28:43] INFO root fetch - main [MainThread]: Store serial: [18638505]
