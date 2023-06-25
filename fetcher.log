@@ -13491,3 +13491,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:59:23] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
 [2023-06-25 19:59:23] INFO root fetch - main [MainThread]: End processing [openllm]: success
 [2023-06-25 19:59:23] INFO root fetch - main [MainThread]: Store serial: [18637995]
+[2023-06-25 20:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637995]
+[2023-06-25 20:04:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jhu-assembly-linter
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: milho-multi-sqlite3-manager
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MLandPattern
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lol-esp-api
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdxbasics
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jhu-assembly-linter
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-function-calling
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: error-alerts
+[2023-06-25 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatlab
+[2023-06-25 20:04:32] INFO root fetch - processPackages [lol-esp-api]: New version: [0.24.3] Old Version: [0.24.2]
+[2023-06-25 20:04:32] WARNING root fetch - processPackages [milho-multi-sqlite3-manager]: Skipping, unable to determine old version
+[2023-06-25 20:04:32] INFO root fetch - processPackages [openai-function-calling]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-25 20:04:32] INFO root fetch - processPackages [jhu-assembly-linter]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-25 20:04:32] INFO root fetch - main [MainThread]: End processing [milho-multi-sqlite3-manager] error
+[2023-06-25 20:04:32] INFO root fetch - processPackages [error-alerts]: New version: [4.4] Old Version: [4.3]
+[2023-06-25 20:04:32] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 20:04:32] INFO root fetch - processPackages [jhu-assembly-linter]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-25 20:04:32] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-25 20:04:32] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 20:04:33] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/9f/6c/a0f38b93d8aac52edfb61eb105987c7a408a3f8b8cf5b2929e9640f0e24c/error-alerts-4.3.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/93/4f/105d0e3f59d62f6b8a0dff1c9145b73e84de8975808c41f33738c93e5d33/openai_function_calling-0.5.0.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [chatlab]: New version: [0.14.0] Old Version: [0.13.0]
+[2023-06-25 20:04:33] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 20:04:33] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 20:04:33] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/4a/8e/4ca95c8fc88dacc19c48ef3e4fdbef536b3d068b7e3b13aa2b5dd6e73751/lol-esp-api-0.24.2.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/af/53/c2ab5979828b8b104b3146ff3db2f32a27e399cfbf5a870e4883edba5672/MLandPattern-0.2.3.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: Downloading https://files.pythonhosted.org/packages/16/18/d2d0e7bdfa9b93d15ea2e7cecf9bbde2a731993387e47e4408761c6b6159/jhu_assembly_linter-0.1.6.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: Downloading https://files.pythonhosted.org/packages/16/18/d2d0e7bdfa9b93d15ea2e7cecf9bbde2a731993387e47e4408761c6b6159/jhu_assembly_linter-0.1.6.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/da/1f/8e83ddbcb344b7823a8add9827dd3e3bef2f1a8c9f87935b0570e837e6f3/error-alerts-4.4.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/77/0f/56c7d6f6c05ea175669fc76acd377d3b025f00a7926ec5ec9c1fdd326baf/chatlab-0.13.0.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/ea/c8/71db5e6eaf18344433403b19a21a7fb704ee7c1c3254d3ac5f8632fff032/openai_function_calling-0.6.0.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-4.3.tar.gz tmp/error-alerts-4.4.tar.gz --markdown 20230625/e/error-alerts/4.3-4.4/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/72/19/60206848525d0cdbb378abb45a5b4a486eb1a29facf81e7d72a771e4dce5/MLandPattern-0.2.4.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/15/a4/f8741e76bb353fbdde5bb0a67a30b89c1e04eafb3695add5b534e6012cc0/lol-esp-api-0.24.3.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230625/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.3.tar.gz tmp/MLandPattern-0.2.4.tar.gz --markdown 20230625/M/MLandPattern/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: Downloading https://files.pythonhosted.org/packages/1f/08/f2124eeca5fff66d4e7a4ed881fb5f863eed15226fdf5d46c4ec0f20061a/jhu_assembly_linter-0.1.7.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: Downloading https://files.pythonhosted.org/packages/1f/08/f2124eeca5fff66d4e7a4ed881fb5f863eed15226fdf5d46c4ec0f20061a/jhu_assembly_linter-0.1.7.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [openai-function-calling]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [openai-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_calling-0.5.0.tar.gz tmp/openai_function_calling-0.6.0.tar.gz --markdown 20230625/o/openai-function-calling/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.24.2.tar.gz tmp/lol-esp-api-0.24.3.tar.gz --markdown 20230625/l/lol-esp-api/0.24.2-0.24.3/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/6e/d8/109fc78402cc41b4b94b614e460b565e19590035238e987475b90258a82e/chatlab-0.14.0.tar.gz
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhu_assembly_linter-0.1.6.tar.gz tmp/jhu_assembly_linter-0.1.7.tar.gz --markdown 20230625/j/jhu-assembly-linter/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [jhu-assembly-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhu_assembly_linter-0.1.6.tar.gz tmp/jhu_assembly_linter-0.1.7.tar.gz --markdown 20230625/j/jhu-assembly-linter/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-25 20:04:33] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-06-25 20:04:33] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-0.13.0.tar.gz tmp/chatlab-0.14.0.tar.gz --markdown 20230625/c/chatlab/0.13.0-0.14.0/diff.md --exclude *.pyd
+[2023-06-25 20:04:34] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.3.tar.gz]
+[2023-06-25 20:04:34] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.4.tar.gz]
+[2023-06-25 20:04:34] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-25 20:04:35] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-06-25 20:04:35] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.5.0.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.6.0.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - main [MainThread]: End processing [openai-function-calling]: success
+[2023-06-25 20:04:35] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.3.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.4.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-25 20:04:35] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.2.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.3.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 20:04:35] INFO root fetch - processPackages [jhu-assembly-linter]: Remove: archive file [/home/abi/fetcher/tmp/jhu_assembly_linter-0.1.6.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - processPackages [jhu-assembly-linter]: Remove: archive file [/home/abi/fetcher/tmp/jhu_assembly_linter-0.1.7.tar.gz]
+[2023-06-25 20:04:35] INFO root fetch - main [MainThread]: End processing [jhu-assembly-linter]: success
+[2023-06-25 20:04:35] INFO root fetch - main [MainThread]: End processing [jhu-assembly-linter]: success
+[2023-06-25 20:04:36] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-0.13.0.tar.gz]
+[2023-06-25 20:04:36] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-0.14.0.tar.gz]
+[2023-06-25 20:04:36] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-06-25 20:04:36] INFO root fetch - main [MainThread]: Store serial: [18638030]
