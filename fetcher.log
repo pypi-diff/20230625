@@ -11716,3 +11716,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:50:58] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.25.tar.gz]
 [2023-06-25 17:50:58] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
 [2023-06-25 17:50:58] INFO root fetch - main [MainThread]: Store serial: [18637255]
+[2023-06-25 17:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637255]
+[2023-06-25 17:56:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-choices-field
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decorator-parser
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhOn
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyTransLingo
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide6-Fluent-Widgets
+[2023-06-25 17:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cocoserver
+[2023-06-25 17:56:07] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 17:56:07] INFO root fetch - processPackages [cocoserver]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 17:56:07] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-25 17:56:07] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/96/0c/47013f68a48b4fb95856b0ca48c81059e049f23c38df2919a7ead2eabd70/cocoserver-1.0.1.tar.gz
+[2023-06-25 17:56:07] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/4b/99/5f74d5fa106de8665932a21df7daa8917478d2a414139e1da9079e92bd3f/decorator-parser-1.0.1.tar.gz
+[2023-06-25 17:56:07] INFO root fetch - processPackages [PyTransLingo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 17:56:07] INFO root fetch - processPackages [django-choices-field]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-25 17:56:07] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-25 17:56:07] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-25 17:56:08] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/62/a2/516c30730118b9c0e8d228357156f2095394c44995e02737260941a59569/cocoserver-1.0.2.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [PyTransLingo]: Downloading https://files.pythonhosted.org/packages/99/ee/0de8e0c39236d30ed6609537c24a2c3477492d72ae9844c305228be7c029/PyTransLingo-1.0.0.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/25/20/1f523f009a0a3934201f9ac766a32d2a8f88794a9b16824b196aaa342afd/decorator_parser-1.0.2.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [django-choices-field]: Downloading https://files.pythonhosted.org/packages/34/54/3ef49589cf3bcaae1d3ee30455f44143e223ff124cef586f17bbcf5392fd/django_choices_field-2.2.1.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/50/bc/8aecce2286bd60e5f79cd9795ab16fa16bf69cc135a6a396fba44b3729a0/PySide6-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [cocoserver]: executing diffoscope
+[2023-06-25 17:56:08] INFO root fetch - processPackages [cocoserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoserver-1.0.1.tar.gz tmp/cocoserver-1.0.2.tar.gz --markdown 20230625/c/cocoserver/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 17:56:08] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-06-25 17:56:08] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator-parser-1.0.1.tar.gz tmp/decorator_parser-1.0.2.tar.gz --markdown 20230625/d/decorator-parser/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 17:56:08] INFO root fetch - processPackages [django-choices-field]: Downloading https://files.pythonhosted.org/packages/a7/c1/c75b91972bcabfa170df30969504e59ccbb192e6c486c2fbe96d9d68f3ac/django_choices_field-2.2.2.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/7f/10/c963e0f91f6d8a83f5035491106245cee8a7eec51fbba33a22c47e371ec2/PySide6-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [PyTransLingo]: Downloading https://files.pythonhosted.org/packages/8d/01/03168e63158f600c4556de54cce5f67f35f216dc37edd33ef5d99b00e14e/PyTransLingo-1.0.1.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-25 17:56:08] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230625/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-25 17:56:08] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-06-25 17:56:08] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-25 17:56:08] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.7.tar.gz tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz --markdown 20230625/P/PySide6-Fluent-Widgets/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-25 17:56:08] INFO root fetch - processPackages [django-choices-field]: executing diffoscope
+[2023-06-25 17:56:08] INFO root fetch - processPackages [django-choices-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_choices_field-2.2.1.tar.gz tmp/django_choices_field-2.2.2.tar.gz --markdown 20230625/d/django-choices-field/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-25 17:56:08] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-06-25 17:56:08] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230625/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-25 17:56:09] INFO root fetch - processPackages [PyTransLingo]: executing diffoscope
+[2023-06-25 17:56:09] INFO root fetch - processPackages [PyTransLingo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTransLingo-1.0.0.tar.gz tmp/PyTransLingo-1.0.1.tar.gz --markdown 20230625/P/PyTransLingo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 17:56:09] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator-parser-1.0.1.tar.gz]
+[2023-06-25 17:56:09] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.2.tar.gz]
+[2023-06-25 17:56:09] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-06-25 17:56:09] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.1.tar.gz]
+[2023-06-25 17:56:09] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.2.tar.gz]
+[2023-06-25 17:56:09] INFO root fetch - main [MainThread]: End processing [cocoserver]: success
+[2023-06-25 17:56:10] INFO root fetch - processPackages [django-choices-field]: Remove: archive file [/home/abi/fetcher/tmp/django_choices_field-2.2.1.tar.gz]
+[2023-06-25 17:56:10] INFO root fetch - processPackages [django-choices-field]: Remove: archive file [/home/abi/fetcher/tmp/django_choices_field-2.2.2.tar.gz]
+[2023-06-25 17:56:10] INFO root fetch - main [MainThread]: End processing [django-choices-field]: success
+[2023-06-25 17:56:10] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-06-25 17:56:10] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-06-25 17:56:10] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-06-25 17:56:11] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-25 17:56:11] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-25 17:56:11] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-25 17:56:12] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-25 17:56:12] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-25 17:56:12] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-25 17:56:43] INFO root fetch - processPackages [PyTransLingo]: Remove: archive file [/home/abi/fetcher/tmp/PyTransLingo-1.0.0.tar.gz]
+[2023-06-25 17:56:43] INFO root fetch - processPackages [PyTransLingo]: Remove: archive file [/home/abi/fetcher/tmp/PyTransLingo-1.0.1.tar.gz]
+[2023-06-25 17:56:43] INFO root fetch - main [MainThread]: End processing [PyTransLingo]: success
+[2023-06-25 17:56:43] INFO root fetch - main [MainThread]: Store serial: [18637276]
