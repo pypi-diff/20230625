@@ -5817,3 +5817,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:46:48] INFO root fetch - processPackages [zedstat]: Remove: archive file [/home/abi/fetcher/tmp/zedstat-0.0.99.tar.gz]
 [2023-06-25 08:46:48] INFO root fetch - main [MainThread]: End processing [zedstat]: success
 [2023-06-25 08:46:48] INFO root fetch - main [MainThread]: Store serial: [18634694]
+[2023-06-25 08:51:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634694]
+[2023-06-25 08:51:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 08:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-starter
+[2023-06-25 08:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jykj
+[2023-06-25 08:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-functions
+[2023-06-25 08:51:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-alicloud
+[2023-06-25 08:51:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Jedutils
+[2023-06-25 08:51:57] INFO root fetch - processPackages [jykj]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 08:51:57] INFO root fetch - processPackages [ml-starter]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 08:51:57] INFO root fetch - processPackages [openai-functions]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-25 08:51:57] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-06-25 08:51:57] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/df/2c/2c63fad196ec57efe08dd1770b01933d4003ae9d7d1567786452cf7467aa/ml-starter-0.1.2.tar.gz
+[2023-06-25 08:51:57] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/33/71/1aee3a8905ef6788d9687b7d11f751be220cb9d20b8cfa9f2f1fe6aecdc5/jykj-0.0.6.tar.gz
+[2023-06-25 08:51:57] WARNING root fetch - processPackages [Jedutils]: Skipping, unable to determine old version
+[2023-06-25 08:51:57] INFO root fetch - main [MainThread]: End processing [Jedutils] error
+[2023-06-25 08:51:57] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/ea/5c/8ea5ce1443077ec4b87689dda05badc13d361cd7574813fa2141fd9e85fc/openai_functions-0.5.5.tar.gz
+[2023-06-25 08:51:57] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2023-06-25 08:51:57] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/bf/bb/71c5bc94c49ec26ff12463f008b3f2a5c4b3735393198b62304e1b14ba52/jykj-0.0.7.tar.gz
+[2023-06-25 08:51:57] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/16/e8/5e34e30fe54751157bea91e712f59d7b299fda2d7d7d719bb4aa713ef227/ml-starter-0.1.3.tar.gz
+[2023-06-25 08:51:57] INFO root fetch - processPackages [jykj]: executing diffoscope
+[2023-06-25 08:51:57] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.6.tar.gz tmp/jykj-0.0.7.tar.gz --markdown 20230625/j/jykj/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 08:51:57] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-25 08:51:57] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.2.tar.gz tmp/ml-starter-0.1.3.tar.gz --markdown 20230625/m/ml-starter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 08:51:57] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/04/b8/5fe5320821d886a134ea2e9212cdee7781aea5f6e83b90b916f6f2db9216/openai_functions-0.6.0.tar.gz
+[2023-06-25 08:51:57] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-25 08:51:57] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.5.5.tar.gz tmp/openai_functions-0.6.0.tar.gz --markdown 20230625/o/openai-functions/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-25 08:51:58] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.6.tar.gz]
+[2023-06-25 08:51:58] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.7.tar.gz]
+[2023-06-25 08:51:58] INFO root fetch - main [MainThread]: End processing [jykj]: success
+[2023-06-25 08:51:58] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2023-06-25 08:51:59] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.5.5.tar.gz]
+[2023-06-25 08:51:59] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.0.tar.gz]
+[2023-06-25 08:51:59] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-25 08:51:59] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-06-25 08:51:59] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230625/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-06-25 08:51:59] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.2.tar.gz]
+[2023-06-25 08:51:59] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.3.tar.gz]
+[2023-06-25 08:51:59] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-25 08:52:26] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2023-06-25 08:52:26] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2023-06-25 08:52:26] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-06-25 08:52:26] INFO root fetch - main [MainThread]: Store serial: [18634710]
