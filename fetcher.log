@@ -4594,3 +4594,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:11:32] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-25 07:11:32] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-25 07:11:32] INFO root fetch - main [MainThread]: Store serial: [18634191]
+[2023-06-25 07:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634191]
+[2023-06-25 07:16:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbmlmath
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlmesh
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpyrt
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-support-nightly
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cabinet
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-runtime-nightly
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpslo-orbits
+[2023-06-25 07:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cabinet
+[2023-06-25 07:16:40] WARNING root fetch - processPackages [cpyrt]: Skipping, unable to determine old version
+[2023-06-25 07:16:40] INFO root fetch - main [MainThread]: End processing [cpyrt] error
+[2023-06-25 07:16:40] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-25 07:16:40] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.25.1]
+[2023-06-25 07:16:40] INFO root fetch - processPackages [sbmlmath]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 07:16:40] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.25.1]
+[2023-06-25 07:16:40] WARNING root fetch - processPackages [cpslo-orbits]: Skipping, unable to determine old version
+[2023-06-25 07:16:40] INFO root fetch - main [MainThread]: End processing [cpslo-orbits] error
+[2023-06-25 07:16:40] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230623] Old Version: [2.14.0.dev20230619]
+[2023-06-25 07:16:40] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-25 07:16:41] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/86/99/99fb88c172f18e655c84b7e3b03c0e51e062bbf4c01fc05cb5564a4738a1/tflite_runtime_nightly-2.14.0.dev20230619-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 07:16:41] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230624] Old Version: [0.4.4.dev20230623]
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/08/66/1e46009b1a6b76405848bb3b02d6d288790d09617ff71b7b0edaa0cfd696/cabinet-2023.6.25.1.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/08/66/1e46009b1a6b76405848bb3b02d6d288790d09617ff71b7b0edaa0cfd696/cabinet-2023.6.25.1.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sbmlmath]: Downloading https://files.pythonhosted.org/packages/5c/c5/b408adf29433e55707789d1229f5dcff29f79b3d4ad206fce46e6d83d5f1/sbmlmath-0.0.1.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/ea/e8/fd0292583cbd8d9663789a7a01bde6152ed48c74d78c147d1ae99f5362c5/tflite_support_nightly-0.4.4.dev20230623-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 07:16:41] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815123>=10485760
+[2023-06-25 07:16:41] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-06-25 07:16:41] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/42/2c/e3cd4d556c91b9c5cc9452924a26929a313228da4ba65747809c9dc0852f/tflite_runtime_nightly-2.14.0.dev20230623-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sbmlmath]: Downloading https://files.pythonhosted.org/packages/bc/c5/2f6be7be6b440c2916a237488f50da9dcf5aa67d752065ba8b56886dedf6/sbmlmath-0.0.2.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-25 07:16:41] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230619-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230623-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230625/t/tflite-runtime-nightly/2.14.0.dev20230619-2.14.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.25.1.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230625/c/cabinet/2023.6.25.1-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.25.1.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230625/c/cabinet/2023.6.25.1-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sbmlmath]: executing diffoscope
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sbmlmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbmlmath-0.0.1.tar.gz tmp/sbmlmath-0.0.2.tar.gz --markdown 20230625/s/sbmlmath/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-06-25 07:16:41] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230625/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-25 07:16:41] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230625/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-25 07:16:43] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.25.1.tar.gz]
+[2023-06-25 07:16:43] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-25 07:16:43] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-25 07:16:43] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-25 07:16:43] INFO root fetch - processPackages [sbmlmath]: Remove: archive file [/home/abi/fetcher/tmp/sbmlmath-0.0.1.tar.gz]
+[2023-06-25 07:16:43] INFO root fetch - processPackages [sbmlmath]: Remove: archive file [/home/abi/fetcher/tmp/sbmlmath-0.0.2.tar.gz]
+[2023-06-25 07:16:43] INFO root fetch - main [MainThread]: End processing [sbmlmath]: success
+[2023-06-25 07:16:44] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-25 07:16:44] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-25 07:16:44] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-25 07:17:12] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230619-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-25 07:17:12] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230623-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-25 07:17:12] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-25 07:17:18] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-06-25 07:17:18] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-06-25 07:17:18] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-06-25 07:17:18] INFO root fetch - main [MainThread]: Store serial: [18634235]
