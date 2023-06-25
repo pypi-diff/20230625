@@ -6388,3 +6388,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:50:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-25 09:50:50] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-25 09:50:50] INFO root fetch - main [MainThread]: Store serial: [18634898]
+[2023-06-25 09:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634898]
+[2023-06-25 09:55:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 09:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basal
+[2023-06-25 09:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpectroscopicBinarySystem
+[2023-06-25 09:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2023-06-25 09:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-connector
+[2023-06-25 09:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickzetta-sqlalchemy
+[2023-06-25 09:55:59] WARNING root fetch - processPackages [basal]: Skipping, unable to determine old version
+[2023-06-25 09:55:59] INFO root fetch - main [MainThread]: End processing [basal] error
+[2023-06-25 09:55:59] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-06-25 09:55:59] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-25 09:55:59] INFO root fetch - processPackages [yplib]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-25 09:55:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/94/fb/0a87624a7d84dedbb7f928afbeca2ff7a9d7b2c91ced1301bdb7898d9d06/yplib-1.7.1.tar.gz
+[2023-06-25 09:55:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-25 09:55:59] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/c7/8f/cded505d24a558cf906bce82c9632f07ca879d3edf7ba71d6cbefb4845a4/SpectroscopicBinarySystem-1.3.4.tar.gz
+[2023-06-25 09:55:59] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-25 09:55:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-25 09:55:59] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/50/f5/18724ceb7cd728668f10a691093acbcafb8815ee6871dc820984d230fd84/yplib-1.7.2.tar.gz
+[2023-06-25 09:55:59] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 09:55:59] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.1.tar.gz tmp/yplib-1.7.2.tar.gz --markdown 20230625/y/yplib/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-25 09:55:59] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/72/e6/2acc5759407ca25b9c669376aae511bc2d67eabfa3aa9de529ac04fc285c/SpectroscopicBinarySystem-1.4.0.tar.gz
+[2023-06-25 09:55:59] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-25 09:56:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-06-25 09:56:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.3.4.tar.gz tmp/SpectroscopicBinarySystem-1.4.0.tar.gz --markdown 20230625/S/SpectroscopicBinarySystem/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-06-25 09:56:00] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-25 09:56:00] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230625/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-25 09:56:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-25 09:56:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-25 09:56:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230625/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-25 09:56:01] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.1.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.2.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 09:56:01] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Remove: archive file [/home/abi/fetcher/tmp/SpectroscopicBinarySystem-1.3.4.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Remove: archive file [/home/abi/fetcher/tmp/SpectroscopicBinarySystem-1.4.0.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-06-25 09:56:01] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-25 09:56:01] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-25 09:56:01] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-25 09:56:01] INFO root fetch - main [MainThread]: Store serial: [18634918]
