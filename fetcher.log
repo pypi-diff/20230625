@@ -12719,3 +12719,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:16:16] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-25 19:16:16] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
 [2023-06-25 19:16:16] INFO root fetch - main [MainThread]: Store serial: [18637681]
+[2023-06-25 19:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637681]
+[2023-06-25 19:21:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sem-desc
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commandeft
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mensajes-Isidro
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erroraffirmations
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ko2kana
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoproxy
+[2023-06-25 19:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfii
+[2023-06-25 19:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atlaspy
+[2023-06-25 19:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-proxmoxve
+[2023-06-25 19:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blackboardsync
+[2023-06-25 19:21:26] INFO root fetch - processPackages [erroraffirmations]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2023-06-25 19:21:26] WARNING root fetch - processPackages [autoproxy]: Skipping, unable to determine old version
+[2023-06-25 19:21:26] INFO root fetch - main [MainThread]: End processing [autoproxy] error
+[2023-06-25 19:21:26] WARNING root fetch - processPackages [ko2kana]: Skipping, unable to determine old version
+[2023-06-25 19:21:26] INFO root fetch - main [MainThread]: End processing [ko2kana] error
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pyfii]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-25 19:21:26] WARNING root fetch - processPackages [Mensajes-Isidro]: Skipping, unable to determine old version
+[2023-06-25 19:21:26] INFO root fetch - processPackages [sem-desc]: New version: [4.5.0] Old Version: [4.4.4]
+[2023-06-25 19:21:26] INFO root fetch - main [MainThread]: End processing [Mensajes-Isidro] error
+[2023-06-25 19:21:26] INFO root fetch - processPackages [atlaspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 19:21:26] INFO root fetch - processPackages [commandeft]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-25 19:21:26] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.2rc1] Old Version: [0.9.0a1]
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [5.7.0] Old Version: [5.6.0]
+[2023-06-25 19:21:26] INFO root fetch - processPackages [erroraffirmations]: Downloading https://files.pythonhosted.org/packages/72/44/af87a5a88cc8612b1b4883c6fd8b1b97db0b291acfdbd5b45d01620446f4/erroraffirmations-0.1.0rc1.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/48/69/a8cb764bb8585e18d7f9b35edd9b51955afd814f44d1886587018f787df1/pyfii-1.4.0.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/dd/5d/c559c4dcd95807aef5d86de327f34c9a0c4c9d3839a033ecd9428cd729b4/atlaspy-0.0.8.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/4c/aa/8a6284029f539cd832e0302d7052c2e43df7b41fd2ecd5bc2d7f70b47018/sem_desc-4.4.4.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/91/1c/c626fa128bb13a9b348c63dc8b7adefd2844a4766450d35c2326a02a54b6/pulumi_proxmoxve-5.6.0.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/9c/e1/3b8eae5547bb3f2aa9501b3869a00b2f71919fd142df11b08504a831074e/commandeft-0.2.1.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [erroraffirmations]: Downloading https://files.pythonhosted.org/packages/bb/61/2d50692366a6eabfdcfc024a0581e8c9e9a21e0c34a79c129d659c2e1be1/erroraffirmations-0.1.0rc2.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/30/ce/4e5a24ab32927f90c799411a2d5acff1a01ffb24cfbf2957d8afd0cbf2c3/blackboardsync-0.9.0a1.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [erroraffirmations]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [erroraffirmations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erroraffirmations-0.1.0rc1.tar.gz tmp/erroraffirmations-0.1.0rc2.tar.gz --markdown 20230625/e/erroraffirmations/0.1.0rc1-0.1.0rc2/diff.md --exclude *.pyd
+[2023-06-25 19:21:26] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/fc/4f/5baa60fb634dfd081b54662af39465de8c0c81717a636a468daacbdd81b9/sem_desc-4.5.0.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pyfii]: Downloading https://files.pythonhosted.org/packages/ef/b6/29f12862b6d84f305a2d51a0540c60c27115ec77d07be3b3755e2c3f4c26/pyfii-1.5.0.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/3a/9c/0d067b2bf3950f09a6219734090e44577bdf53d6bffc9c44e5a322d02d05/atlaspy-0.0.9.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [commandeft]: Downloading https://files.pythonhosted.org/packages/0f/f5/8593b9d9e726e25f601fbd3e8adec66c52f5219a251055db69d73f74ae79/commandeft-0.3.0.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [sem-desc]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [sem-desc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sem_desc-4.4.4.tar.gz tmp/sem_desc-4.5.0.tar.gz --markdown 20230625/s/sem-desc/4.4.4-4.5.0/diff.md --exclude *.pyd
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pyfii]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pyfii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfii-1.4.0.tar.gz tmp/pyfii-1.5.0.tar.gz --markdown 20230625/p/pyfii/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/77/dc/b2e19990a52db7fba10176a00abe171577105164d76bd88c338b7fcac1d0/pulumi_proxmoxve-5.7.0.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.8.tar.gz tmp/atlaspy-0.0.9.tar.gz --markdown 20230625/a/atlaspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 19:21:26] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/ab/6a/cd1d7563d74a55edbd48a8286ee5089adbe06d845afbf1e0a28b5333fc9f/blackboardsync-0.9.2rc1.tar.gz
+[2023-06-25 19:21:26] INFO root fetch - processPackages [commandeft]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [commandeft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commandeft-0.2.1.tar.gz tmp/commandeft-0.3.0.tar.gz --markdown 20230625/c/commandeft/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-5.6.0.tar.gz tmp/pulumi_proxmoxve-5.7.0.tar.gz --markdown 20230625/p/pulumi-proxmoxve/5.6.0-5.7.0/diff.md --exclude *.pyd
+[2023-06-25 19:21:26] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-25 19:21:26] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.0a1.tar.gz tmp/blackboardsync-0.9.2rc1.tar.gz --markdown 20230625/b/blackboardsync/0.9.0a1-0.9.2rc1/diff.md --exclude *.pyd
+[2023-06-25 19:21:27] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc1.tar.gz]
+[2023-06-25 19:21:27] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc2.tar.gz]
+[2023-06-25 19:21:27] INFO root fetch - main [MainThread]: End processing [erroraffirmations]: success
+[2023-06-25 19:21:28] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-4.4.4.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-4.5.0.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [sem-desc]: success
+[2023-06-25 19:21:28] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.4.0.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - processPackages [pyfii]: Remove: archive file [/home/abi/fetcher/tmp/pyfii-1.5.0.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [pyfii]: success
+[2023-06-25 19:21:28] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.2.1.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - processPackages [commandeft]: Remove: archive file [/home/abi/fetcher/tmp/commandeft-0.3.0.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [commandeft]: success
+[2023-06-25 19:21:28] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.8.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.9.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-25 19:21:28] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.6.0.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-5.7.0.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2023-06-25 19:21:28] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.0a1.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.2rc1.tar.gz]
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-25 19:21:28] INFO root fetch - main [MainThread]: Store serial: [18637723]
