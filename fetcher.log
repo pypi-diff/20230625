@@ -9662,3 +9662,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:38:50] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2023-06-25 14:38:50] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2023-06-25 14:38:50] INFO root fetch - main [MainThread]: Store serial: [18636348]
+[2023-06-25 14:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636348]
+[2023-06-25 14:44:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 14:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-models
+[2023-06-25 14:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caped-ai-augmentations
+[2023-06-25 14:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpectroscopicBinarySystem
+[2023-06-25 14:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comicapi
+[2023-06-25 14:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c4m-flexcell
+[2023-06-25 14:44:00] INFO root fetch - processPackages [c4m-flexcell]: New version: [0.4.0.dev3] Old Version: [0.3.3]
+[2023-06-25 14:44:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-25 14:44:00] INFO root fetch - processPackages [comicapi]: New version: [3.2.0] Old Version: [3.0.0]
+[2023-06-25 14:44:00] INFO root fetch - processPackages [caped-ai-augmentations]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-25 14:44:00] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-06-25 14:44:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/72/e6/2acc5759407ca25b9c669376aae511bc2d67eabfa3aa9de529ac04fc285c/SpectroscopicBinarySystem-1.4.0.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [caped-ai-augmentations]: Downloading https://files.pythonhosted.org/packages/59/f0/b805644421db87057d658e2d81a8d3324862a6e2c17ef6ce27615194f820/caped-ai-augmentations-1.0.5.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/35/8f/6f9bdee8407028e631505736654bb09405c24d5502b7c7758b498683d91a/c4m_flexcell-0.3.3.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [comicapi]: Downloading https://files.pythonhosted.org/packages/97/1d/90e73d808960a77defbcdf06021bdb334f869cd71cb6e6acbf8200091e85/comicapi-3.0.0.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/73/0d/5871e99eeb8a6fa102eec6e4998eef1b31a7b9b5d16df02e929cd651f3d4/SpectroscopicBinarySystem-1.5.0.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/1e/41/fc1af20984e56f718774a197f644cb2adbef6f9b0f22b13ae4a3c6bebd1d/c4m_flexcell-0.4.0.dev3.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-06-25 14:44:00] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.4.0.tar.gz tmp/SpectroscopicBinarySystem-1.5.0.tar.gz --markdown 20230625/S/SpectroscopicBinarySystem/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 14:44:00] INFO root fetch - processPackages [caped-ai-augmentations]: Downloading https://files.pythonhosted.org/packages/d5/02/9e1557f8237f2c6a345bb2dfa903252fbef195ff305a4920c7b7a212535b/caped-ai-augmentations-1.0.6.tar.gz
+[2023-06-25 14:44:00] INFO root fetch - processPackages [c4m-flexcell]: executing diffoscope
+[2023-06-25 14:44:00] INFO root fetch - processPackages [c4m-flexcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexcell-0.3.3.tar.gz tmp/c4m_flexcell-0.4.0.dev3.tar.gz --markdown 20230625/c/c4m-flexcell/0.3.3-0.4.0.dev3/diff.md --exclude *.pyd
+[2023-06-25 14:44:00] INFO root fetch - processPackages [comicapi]: Downloading https://files.pythonhosted.org/packages/05/b0/a9a14bd64293c2f9daf849c8f5d2369d562711af2bd4a8d250bfe3bef108/comicapi-3.2.0-py3-none-any.whl
+[2023-06-25 14:44:01] INFO root fetch - processPackages [caped-ai-augmentations]: executing diffoscope
+[2023-06-25 14:44:01] INFO root fetch - processPackages [caped-ai-augmentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caped-ai-augmentations-1.0.5.tar.gz tmp/caped-ai-augmentations-1.0.6.tar.gz --markdown 20230625/c/caped-ai-augmentations/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-25 14:44:01] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-06-25 14:44:01] INFO root fetch - processPackages [comicapi]: executing diffoscope
+[2023-06-25 14:44:01] INFO root fetch - processPackages [comicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comicapi-3.0.0.tar.gz tmp/comicapi-3.2.0-py3-none-any.whl.zip --markdown 20230625/c/comicapi/3.0.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-25 14:44:01] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-06-25 14:44:01] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230625/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-25 14:44:02] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Remove: archive file [/home/abi/fetcher/tmp/SpectroscopicBinarySystem-1.4.0.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Remove: archive file [/home/abi/fetcher/tmp/SpectroscopicBinarySystem-1.5.0.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-06-25 14:44:02] INFO root fetch - processPackages [comicapi]: Remove: archive file [/home/abi/fetcher/tmp/comicapi-3.0.0.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - processPackages [comicapi]: Remove: archive file [/home/abi/fetcher/tmp/comicapi-3.2.0-py3-none-any.whl.zip]
+[2023-06-25 14:44:02] INFO root fetch - main [MainThread]: End processing [comicapi]: success
+[2023-06-25 14:44:02] INFO root fetch - processPackages [caped-ai-augmentations]: Remove: archive file [/home/abi/fetcher/tmp/caped-ai-augmentations-1.0.5.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - processPackages [caped-ai-augmentations]: Remove: archive file [/home/abi/fetcher/tmp/caped-ai-augmentations-1.0.6.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - main [MainThread]: End processing [caped-ai-augmentations]: success
+[2023-06-25 14:44:02] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.3.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.4.0.dev3.tar.gz]
+[2023-06-25 14:44:02] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
+[2023-06-25 14:44:03] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-06-25 14:44:03] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-06-25 14:44:03] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-06-25 14:44:03] INFO root fetch - main [MainThread]: Store serial: [18636364]
