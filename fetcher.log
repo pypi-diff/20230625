@@ -12794,3 +12794,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:21:28] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.2rc1.tar.gz]
 [2023-06-25 19:21:28] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
 [2023-06-25 19:21:28] INFO root fetch - main [MainThread]: Store serial: [18637723]
+[2023-06-25 19:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637723]
+[2023-06-25 19:26:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: longship
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strictdoc
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erroraffirmations
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ko2kana
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyphetools
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-migratepg
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coiled
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: granny-pliers
+[2023-06-25 19:26:37] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-25 19:26:37] INFO root fetch - processPackages [flask-migratepg]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-25 19:26:37] INFO root fetch - processPackages [ko2kana]: New version: [1.2] Old Version: [1.1]
+[2023-06-25 19:26:37] INFO root fetch - processPackages [erroraffirmations]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2023-06-25 19:26:37] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.11]
+[2023-06-25 19:26:37] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 19:26:37] WARNING root fetch - processPackages [longship]: Skipping, unable to determine old version
+[2023-06-25 19:26:37] INFO root fetch - processPackages [longship]: Start processing: gcloud-secret-configure
+[2023-06-25 19:26:37] INFO root fetch - main [MainThread]: End processing [longship] error
+[2023-06-25 19:26:37] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-25 19:26:37] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/2f/3e/df3eb7e5c259a4839e4410adaf9d3ab35029f958296bf4d375fc5dbad9af/pyphetools-0.2.7.tar.gz
+[2023-06-25 19:26:37] WARNING root fetch - processPackages [gcloud-secret-configure]: Skipping, unable to determine old version
+[2023-06-25 19:26:37] INFO root fetch - processPackages [gcloud-secret-configure]: Start processing: mythril
+[2023-06-25 19:26:37] INFO root fetch - main [MainThread]: End processing [gcloud-secret-configure] error
+[2023-06-25 19:26:37] INFO root fetch - processPackages [erroraffirmations]: Downloading https://files.pythonhosted.org/packages/72/44/af87a5a88cc8612b1b4883c6fd8b1b97db0b291acfdbd5b45d01620446f4/erroraffirmations-0.1.0rc1.tar.gz
+[2023-06-25 19:26:37] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-06-25 19:26:37] INFO root fetch - processPackages [flask-migratepg]: Downloading https://files.pythonhosted.org/packages/4e/95/c7978ba9d1ccb5b73161b8aa4209978c2c239dfcf27d016855d99381f303/flask-migratepg-0.0.1.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 19:26:38] INFO root fetch - processPackages [ko2kana]: Downloading https://files.pythonhosted.org/packages/60/d2/6a3f7a17846f75db3b16cd1ed740f6721e790746e0b90e008988d6a30a91/ko2kana-1.1.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/b8/93/e9fb0da8652670384f12510bded0043dcef5c7e0270fbb2116dda944e070/granny-pliers-0.0.11.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [mythril]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-25 19:26:38] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [erroraffirmations]: Downloading https://files.pythonhosted.org/packages/bb/61/2d50692366a6eabfdcfc024a0581e8c9e9a21e0c34a79c129d659c2e1be1/erroraffirmations-0.1.0rc2.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 19:26:38] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/a0/09/c043bb89e8451345bc5af62e161c70bf3f9b43e8e2887f9b5a02998acc48/pyphetools-0.2.9.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [mythril]: Downloading https://files.pythonhosted.org/packages/15/a9/a568ae41cab2a712424cc756b15f056beb54efe3738fc0bee7797245e3c5/mythril-0.9.1.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [erroraffirmations]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [flask-migratepg]: Downloading https://files.pythonhosted.org/packages/72/90/a547c2634e4f19c3b9b2bc7cb1fa6dca60ae3d67dd229e04c5b5034ee180/flask-migratepg-0.0.3.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [erroraffirmations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erroraffirmations-0.1.0rc1.tar.gz tmp/erroraffirmations-0.1.0rc2.tar.gz --markdown 20230625/e/erroraffirmations/0.1.0rc1-0.1.0rc2/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230625/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [ko2kana]: Downloading https://files.pythonhosted.org/packages/c3/f4/463aefbd6895eaf9f5a10494f1d582ce618e90b524209855bc2910cc5eb7/ko2kana-1.2.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230625/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [ko2kana]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [ko2kana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ko2kana-1.1.tar.gz tmp/ko2kana-1.2.tar.gz --markdown 20230625/k/ko2kana/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [flask-migratepg]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [flask-migratepg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-migratepg-0.0.1.tar.gz tmp/flask-migratepg-0.0.3.tar.gz --markdown 20230625/f/flask-migratepg/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [mythril]: Downloading https://files.pythonhosted.org/packages/2a/cd/5424a7c1c9e14ffddea6dbc7772d1e867be5666e47786ea8d978e3c4bd4c/mythril-0.9.2.tar.gz
+[2023-06-25 19:26:38] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230625/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.11.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230625/g/granny-pliers/0.0.11-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 19:26:38] INFO root fetch - processPackages [mythril]: executing diffoscope
+[2023-06-25 19:26:38] INFO root fetch - processPackages [mythril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythril-0.9.1.tar.gz tmp/mythril-0.9.2.tar.gz --markdown 20230625/m/mythril/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-25 19:26:40] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc1.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc2.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - main [MainThread]: End processing [erroraffirmations]: success
+[2023-06-25 19:26:40] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.7.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.9.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-25 19:26:40] INFO root fetch - processPackages [flask-migratepg]: Remove: archive file [/home/abi/fetcher/tmp/flask-migratepg-0.0.1.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - processPackages [flask-migratepg]: Remove: archive file [/home/abi/fetcher/tmp/flask-migratepg-0.0.3.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - main [MainThread]: End processing [flask-migratepg]: success
+[2023-06-25 19:26:40] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-25 19:26:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-25 19:26:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 19:26:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 19:26:41] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-25 19:26:41] INFO root fetch - processPackages [ko2kana]: Remove: archive file [/home/abi/fetcher/tmp/ko2kana-1.1.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - processPackages [ko2kana]: Remove: archive file [/home/abi/fetcher/tmp/ko2kana-1.2.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - main [MainThread]: End processing [ko2kana]: success
+[2023-06-25 19:26:41] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.11.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-06-25 19:26:41] INFO root fetch - processPackages [mythril]: Remove: archive file [/home/abi/fetcher/tmp/mythril-0.9.1.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - processPackages [mythril]: Remove: archive file [/home/abi/fetcher/tmp/mythril-0.9.2.tar.gz]
+[2023-06-25 19:26:41] INFO root fetch - main [MainThread]: End processing [mythril]: success
+[2023-06-25 19:26:41] INFO root fetch - main [MainThread]: Store serial: [18637764]
