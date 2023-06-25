@@ -5859,3 +5859,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:52:26] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2023-06-25 08:52:26] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-06-25 08:52:26] INFO root fetch - main [MainThread]: Store serial: [18634710]
+[2023-06-25 08:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634710]
+[2023-06-25 08:57:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 08:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-rancher2
+[2023-06-25 08:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mathtranslate
+[2023-06-25 08:57:36] INFO root fetch - processPackages [mathtranslate]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-25 08:57:36] INFO root fetch - processPackages [pulumi-rancher2]: New version: [5.1.0a1687673654] Old Version: [5.1.0a1686980182]
+[2023-06-25 08:57:36] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/d6/70/89845c9ac4e1a58aa3034823db6daad8aefd97ede04ad122a2ce0c4f0c78/mathtranslate-3.0.0.tar.gz
+[2023-06-25 08:57:36] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/f8/ba/706a5ceabfb3927500d10076e0ba55ebdfdec51a128a315ee63955456df6/pulumi_rancher2-5.1.0a1686980182.tar.gz
+[2023-06-25 08:57:36] INFO root fetch - processPackages [mathtranslate]: Downloading https://files.pythonhosted.org/packages/24/9b/eef7d142272aad72a74b30f36552cd2905ab6bfad2baa7abebb9faddb7c7/mathtranslate-3.0.1.tar.gz
+[2023-06-25 08:57:36] INFO root fetch - processPackages [mathtranslate]: executing diffoscope
+[2023-06-25 08:57:36] INFO root fetch - processPackages [mathtranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathtranslate-3.0.0.tar.gz tmp/mathtranslate-3.0.1.tar.gz --markdown 20230625/m/mathtranslate/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-25 08:57:36] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/91/ad/f5f20e656855cd0b57ef44ccfb71de77cc85877c9313e9e1597ede4e74b5/pulumi_rancher2-5.1.0a1687673654.tar.gz
+[2023-06-25 08:57:36] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-06-25 08:57:36] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz tmp/pulumi_rancher2-5.1.0a1687673654.tar.gz --markdown 20230625/p/pulumi-rancher2/5.1.0a1686980182-5.1.0a1687673654/diff.md --exclude *.pyd
+[2023-06-25 08:57:37] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-3.0.0.tar.gz]
+[2023-06-25 08:57:37] INFO root fetch - processPackages [mathtranslate]: Remove: archive file [/home/abi/fetcher/tmp/mathtranslate-3.0.1.tar.gz]
+[2023-06-25 08:57:37] INFO root fetch - main [MainThread]: End processing [mathtranslate]: success
+[2023-06-25 08:57:38] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1686980182.tar.gz]
+[2023-06-25 08:57:38] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1687673654.tar.gz]
+[2023-06-25 08:57:38] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-06-25 08:57:38] INFO root fetch - main [MainThread]: Store serial: [18634716]
