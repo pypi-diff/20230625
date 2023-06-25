@@ -7758,3 +7758,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 11:46:14] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.1.tar.gz]
 [2023-06-25 11:46:14] INFO root fetch - main [MainThread]: End processing [draggan]: success
 [2023-06-25 11:46:14] INFO root fetch - main [MainThread]: Store serial: [18635454]
+[2023-06-25 11:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635454]
+[2023-06-25 11:51:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 11:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caltool
+[2023-06-25 11:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bayfile-uploader
+[2023-06-25 11:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bayfile-uploader
+[2023-06-25 11:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eFatura
+[2023-06-25 11:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-ddosbgp
+[2023-06-25 11:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsi-tk
+[2023-06-25 11:51:22] WARNING root fetch - processPackages [bayfile-uploader]: Skipping, unable to determine old version
+[2023-06-25 11:51:22] INFO root fetch - main [MainThread]: End processing [bayfile-uploader] error
+[2023-06-25 11:51:22] WARNING root fetch - processPackages [bayfile-uploader]: Skipping, unable to determine old version
+[2023-06-25 11:51:22] INFO root fetch - main [MainThread]: End processing [bayfile-uploader] error
+[2023-06-25 11:51:23] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 11:51:23] INFO root fetch - processPackages [eFatura]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-25 11:51:23] WARNING root fetch - processPackages [caltool]: Skipping, unable to determine old version
+[2023-06-25 11:51:23] INFO root fetch - main [MainThread]: End processing [caltool] error
+[2023-06-25 11:51:23] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/03/e4/483b9961f8f1b4f41320b7381d3fb6e741861b8e40f7cacd7092cbac1671/eFatura-1.1.0.tar.gz
+[2023-06-25 11:51:23] INFO root fetch - processPackages [qsi-tk]: New version: [0.5.2] Old Version: [0.5.0]
+[2023-06-25 11:51:23] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: Downloading https://files.pythonhosted.org/packages/29/e1/d47f71c2f0adaba0a1b01ea15faef245ddceb7f0f36b9d46e89f87566811/aliyun-python-sdk-ddosbgp-1.0.0.tar.gz
+[2023-06-25 11:51:23] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/55/83/0f5f3c678f748c34de5530292a6b689040aff2d304a859a23d9b53767a05/qsi-tk-0.5.0.tar.gz
+[2023-06-25 11:51:23] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/72/50/638fce076588bcce484b2df5d5a24916b6534d7393287cbd9581354e5936/eFatura-1.1.1.tar.gz
+[2023-06-25 11:51:23] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-06-25 11:51:23] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.1.0.tar.gz tmp/eFatura-1.1.1.tar.gz --markdown 20230625/e/eFatura/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-25 11:51:23] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58244564>=10485760
+[2023-06-25 11:51:23] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-06-25 11:51:23] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: Downloading https://files.pythonhosted.org/packages/73/96/06844ee20e93741cd91f9252d4db2d75b1a690cd3e97b3850e8630dd3301/aliyun-python-sdk-ddosbgp-1.0.1.tar.gz
+[2023-06-25 11:51:23] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: executing diffoscope
+[2023-06-25 11:51:23] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ddosbgp-1.0.0.tar.gz tmp/aliyun-python-sdk-ddosbgp-1.0.1.tar.gz --markdown 20230625/a/aliyun-python-sdk-ddosbgp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 11:51:24] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.1.0.tar.gz]
+[2023-06-25 11:51:24] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.1.1.tar.gz]
+[2023-06-25 11:51:24] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-06-25 11:51:24] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ddosbgp-1.0.0.tar.gz]
+[2023-06-25 11:51:24] INFO root fetch - processPackages [aliyun-python-sdk-ddosbgp]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ddosbgp-1.0.1.tar.gz]
+[2023-06-25 11:51:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ddosbgp]: success
+[2023-06-25 11:51:24] INFO root fetch - main [MainThread]: Store serial: [18635474]
