@@ -6983,3 +6983,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:44:18] INFO root fetch - main [MainThread]: End processing [aiocord]: success
 [2023-06-25 10:44:18] INFO root fetch - main [MainThread]: End processing [aiocord]: success
 [2023-06-25 10:44:18] INFO root fetch - main [MainThread]: Store serial: [18635123]
+[2023-06-25 10:49:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635123]
+[2023-06-25 10:49:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jdcloud-sdk
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ast-grep-cli
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tff-nightly
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jellyash
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: propan
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: folder-tree-generator
+[2023-06-25 10:49:27] INFO root fetch - processPackages [yplib]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [propan]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [jellyash]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [folder-tree-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [jdcloud-sdk]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230624] Old Version: [0.0.1.dev20230623]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-25 10:49:27] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/2a/1a/2b06712d59771bab2999fe5fe8ee29d3a526690c2f38acc571291c055493/yplib-1.7.6.tar.gz
+[2023-06-25 10:49:27] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-25 10:49:27] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ff/22/302157c7724df47eee6dfc33f13f1d518e964f4455425c6d1bbb0d3330d7/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl
+[2023-06-25 10:49:28] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/78/34/5bb97268345582d531f810b7a1a8756a1ca11bac3af52772b2f6f2a32a39/ast_grep_cli-0.6.7.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/2e/bc/8febc292cb164b868943aa1f0860b6d58bd563ed6b752557bbd739dddcf6/propan-0.1.3.8.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jellyash]: Downloading https://files.pythonhosted.org/packages/98/0d/9b1ef9a34f2a917c475f57103f6a6aa68d008608022196838133ddb3ced8/jellyash-0.4.0.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/6c/fe/bbc18edb4187500d38a41b5bbd275a36f684740caa02fa0947b731655f19/folder_tree_generator-0.1.8.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/95/4f/825f3e2814e962db5d30b644c7fdfc01996a9bbe76c789866aeaf20d1d82/jdcloud_sdk-1.6.98.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/2e/71/256bd808eba7df82bd49f93aaf486d83daedd542be15f61826d36d6a86cf/yplib-1.7.7.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c3/fa/583b3d1e6c2a2951c72470559efdf4e7bb6cc0ec4fe8c1977fb3a44fc3f0/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl
+[2023-06-25 10:49:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-25 10:49:28] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/52/cb/7dcb9fcb51adc9d87e593296151f4da396f29c8bda1adec20ceb8f90ed13/ast_grep_cli-0.7.0.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.6.tar.gz tmp/yplib-1.7.7.tar.gz --markdown 20230625/y/yplib/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jellyash]: Downloading https://files.pythonhosted.org/packages/38/d4/4dd41e35c161fb1f7c193c7763a79b77942758411c3d74a360e3fa176f50/jellyash-0.4.1.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl.zip --markdown 20230625/t/tff-nightly/0.0.1.dev20230623-0.0.1.dev20230624/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230625/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jdcloud-sdk]: Downloading https://files.pythonhosted.org/packages/14/1e/7f5fff16d7e0e2793fdd72a4eb17de3ad540cf935be128a7c69d1ee161c0/jdcloud_sdk-1.6.99.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.6.7.tar.gz tmp/ast_grep_cli-0.7.0.tar.gz --markdown 20230625/a/ast-grep-cli/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/69/e6/bc7cb6e9b78e3e948b6c8433fdcaeaca26051215c27c714975856fd5a85e/propan-0.1.3.9.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jellyash]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jellyash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jellyash-0.4.0.tar.gz tmp/jellyash-0.4.1.tar.gz --markdown 20230625/j/jellyash/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [folder-tree-generator]: Downloading https://files.pythonhosted.org/packages/af/8c/6fbaa1474b672735423e92f428a9a5f54acdd7e0a9603ee7ba1e08bb0d71/folder_tree_generator-0.1.9.tar.gz
+[2023-06-25 10:49:28] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.3.8.tar.gz tmp/propan-0.1.3.9.tar.gz --markdown 20230625/p/propan/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jdcloud-sdk]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [jdcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdcloud_sdk-1.6.98.tar.gz tmp/jdcloud_sdk-1.6.99.tar.gz --markdown 20230625/j/jdcloud-sdk/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-06-25 10:49:28] INFO root fetch - processPackages [folder-tree-generator]: executing diffoscope
+[2023-06-25 10:49:28] INFO root fetch - processPackages [folder-tree-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folder_tree_generator-0.1.8.tar.gz tmp/folder_tree_generator-0.1.9.tar.gz --markdown 20230625/f/folder-tree-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 10:49:30] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.6.tar.gz]
+[2023-06-25 10:49:30] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.7.tar.gz]
+[2023-06-25 10:49:30] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 10:49:30] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.8.tar.gz]
+[2023-06-25 10:49:30] INFO root fetch - processPackages [folder-tree-generator]: Remove: archive file [/home/abi/fetcher/tmp/folder_tree_generator-0.1.9.tar.gz]
+[2023-06-25 10:49:30] INFO root fetch - main [MainThread]: End processing [folder-tree-generator]: success
+[2023-06-25 10:49:30] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.6.7.tar.gz]
+[2023-06-25 10:49:30] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.7.0.tar.gz]
+[2023-06-25 10:49:30] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2023-06-25 10:49:31] INFO root fetch - processPackages [jellyash]: Remove: archive file [/home/abi/fetcher/tmp/jellyash-0.4.0.tar.gz]
+[2023-06-25 10:49:31] INFO root fetch - processPackages [jellyash]: Remove: archive file [/home/abi/fetcher/tmp/jellyash-0.4.1.tar.gz]
+[2023-06-25 10:49:31] INFO root fetch - main [MainThread]: End processing [jellyash]: success
+[2023-06-25 10:49:31] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.8.tar.gz]
+[2023-06-25 10:49:31] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.9.tar.gz]
+[2023-06-25 10:49:31] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-25 10:49:31] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl.zip]
+[2023-06-25 10:49:31] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl.zip]
+[2023-06-25 10:49:31] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-25 10:49:44] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-25 10:49:44] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-25 10:49:44] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-25 10:52:28] ERROR root fetch - processPackages [jdcloud-sdk]: Timeout during execution of pkgdiff
+[2023-06-25 10:52:28] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk] error
+[2023-06-25 10:52:28] INFO root fetch - main [MainThread]: Store serial: [18635152]
