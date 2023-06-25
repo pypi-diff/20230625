@@ -8472,3 +8472,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:53:05] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.4a0.tar.gz]
 [2023-06-25 12:53:05] INFO root fetch - main [MainThread]: End processing [hayloft]: success
 [2023-06-25 12:53:05] INFO root fetch - main [MainThread]: Store serial: [18635811]
+[2023-06-25 12:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635811]
+[2023-06-25 12:58:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NCPNet
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: herta-villa-sdk
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytablewriter-altrow-theme
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graiax-text2img-playwright
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydlutils
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-airflow-client
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serverchain
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hayloft
+[2023-06-25 12:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cbpi4-iSpindle
+[2023-06-25 12:58:14] INFO root fetch - processPackages [NCPNet]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pytablewriter-altrow-theme]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230625.9.43.822972] Old Version: [20230625.10.53.701628]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [apache-airflow-client]: New version: [2.6.2rc2] Old Version: [2.6.2rc1]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [graiax-text2img-playwright]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [serverchain]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pydlutils]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [hayloft]: New version: [0.2.7] Old Version: [0.2.4a0]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [cbpi4-iSpindle]: New version: [0.0.9] Old Version: [0.0.3]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/66/23/79370256d00d67c4550b2dd2e5d233c8a9f77ab851228adeef1d045e5b72/hayloft-0.2.4a0.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [NCPNet]: Downloading https://files.pythonhosted.org/packages/10/d9/57ce898cc078e917f9d7cfb714c9f3cac0455cb677981acc14a3a75d7bc4/NCPNet-1.0.3.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/d0/46/64dc47c3eb1ec0d5abb177821b04268db06a610932b6339faee9aba1928c/certora-cli-alpha-cnandi-morpho-equiv-20230625.10.53.701628.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [graiax-text2img-playwright]: Downloading https://files.pythonhosted.org/packages/fa/60/27ebde758fbfe76acfa16cbc22a7ad3160ee686067391b0d1e35e07b8b6e/graiax-text2img-playwright-0.4.0.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/e3/f3/c2b9e4abcf39c7836179387f1386867f30884d9bccea927ac1fef8ab93b2/herta_villa_sdk-0.3.1.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pytablewriter-altrow-theme]: Downloading https://files.pythonhosted.org/packages/5f/02/8900b01210f2ddd62bea5d4551ee51daa05a494236b0bbac5f7fd67bced7/pytablewriter-altrow-theme-0.0.3.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [serverchain]: Downloading https://files.pythonhosted.org/packages/c5/0a/fc545f526e5c8106178b224cb25db7e6304b08cb7bd28e3e01aa5d849b90/serverchain-0.1.0.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [cbpi4-iSpindle]: Downloading https://files.pythonhosted.org/packages/f8/43/3f59502de08c33af6c2d99a6dede13de65244a3ac3a6092da8b89929316d/cbpi4-iSpindle-0.0.3.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/e1/b1/c1748ed402aa0d9c9bc4396e4fbab0d62231a3c4afd4859b29835203e340/apache-airflow-client-2.6.2rc1.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pydlutils]: Downloading https://files.pythonhosted.org/packages/76/41/1c2024bbd2512efd6ece53f30df86b5e1e4e5c82183befa2c63970e5ff00/pydlutils-0.0.1.tar.gz
+[2023-06-25 12:58:14] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40306519>=10485760
+[2023-06-25 12:58:14] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: pybox-toolkit
+[2023-06-25 12:58:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev92] Old Version: [0.1.9.dev87]
+[2023-06-25 12:58:14] INFO root fetch - processPackages [NCPNet]: Downloading https://files.pythonhosted.org/packages/6e/00/9d442ada5ce6721923ef43d2c24c28704ac5811bcd6f7a2593f99f26294e/NCPNet-1.0.4.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/bb/9d/e975fcaaadbaf4b99bd173b8f569b3591ae08c5d59d95f5637b0d1e29895/hayloft-0.2.7.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/05/b8/d70ba885cd86315b2a74ee35241e7d9117ba7014afae8f6d87dfc29dddb6/herta_villa_sdk-0.3.2.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pytablewriter-altrow-theme]: Downloading https://files.pythonhosted.org/packages/81/4d/140854f6b065d823dfa63401c2173b99530fd221f1cae51349aee62b1064/pytablewriter-altrow-theme-0.1.0.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [graiax-text2img-playwright]: Downloading https://files.pythonhosted.org/packages/fe/c3/418d5c93b76239c045221757f566f1ea0f212efb5eb5650be7ac30aa3d33/graiax_text2img_playwright-0.4.1.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pydlutils]: Downloading https://files.pythonhosted.org/packages/aa/59/0451fefaccd0d6c3a8012fe05120c433e9d9078f2204a76ec3bc278c7340/pydlutils-0.0.3.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [serverchain]: Downloading https://files.pythonhosted.org/packages/33/90/6976bb855fdc5ae6e2a0b0b847a6f0139a069ca3c2026e80e9679c71a7db/serverchain-0.1.1.tar.gz
+[2023-06-25 12:58:14] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/42/29/3f22c23c5d72f4c12fe7c62d93e85c8450041256320d917fa6fd613a2768/pybox-toolkit-0.1.9.dev87.tar.gz
+[2023-06-25 12:58:15] INFO root fetch - processPackages [NCPNet]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [NCPNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NCPNet-1.0.3.tar.gz tmp/NCPNet-1.0.4.tar.gz --markdown 20230625/N/NCPNet/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pytablewriter-altrow-theme]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pytablewriter-altrow-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytablewriter-altrow-theme-0.0.3.tar.gz tmp/pytablewriter-altrow-theme-0.1.0.tar.gz --markdown 20230625/p/pytablewriter-altrow-theme/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.4a0.tar.gz tmp/hayloft-0.2.7.tar.gz --markdown 20230625/h/hayloft/0.2.4a0-0.2.7/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.3.1.tar.gz tmp/herta_villa_sdk-0.3.2.tar.gz --markdown 20230625/h/herta-villa-sdk/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/ed/ae/e12396c2f50db29f17d497c8ca0d7c1c03f3069ddc68fb089d209233f216/apache-airflow-client-2.6.2rc2.tar.gz
+[2023-06-25 12:58:15] INFO root fetch - processPackages [cbpi4-iSpindle]: Downloading https://files.pythonhosted.org/packages/30/c2/09c4fb36fb8f6a3adbf8c953c9396bf138bdb39855c01e8e3e7707723dcb/cbpi4-iSpindle-0.0.9.tar.gz
+[2023-06-25 12:58:15] INFO root fetch - processPackages [graiax-text2img-playwright]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [graiax-text2img-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graiax-text2img-playwright-0.4.0.tar.gz tmp/graiax_text2img_playwright-0.4.1.tar.gz --markdown 20230625/g/graiax-text2img-playwright/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [serverchain]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [serverchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverchain-0.1.0.tar.gz tmp/serverchain-0.1.1.tar.gz --markdown 20230625/s/serverchain/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [apache-airflow-client]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [apache-airflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-client-2.6.2rc1.tar.gz tmp/apache-airflow-client-2.6.2rc2.tar.gz --markdown 20230625/a/apache-airflow-client/2.6.2rc1-2.6.2rc2/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pydlutils]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pydlutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydlutils-0.0.1.tar.gz tmp/pydlutils-0.0.3.tar.gz --markdown 20230625/p/pydlutils/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/7c/e2/c885fda89e9445571c1d3b2e5314f157feffbbae695a4bf61ec15541ad9c/pybox-toolkit-0.1.9.dev92.tar.gz
+[2023-06-25 12:58:15] INFO root fetch - processPackages [cbpi4-iSpindle]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [cbpi4-iSpindle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-iSpindle-0.0.3.tar.gz tmp/cbpi4-iSpindle-0.0.9.tar.gz --markdown 20230625/c/cbpi4-iSpindle/0.0.3-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-25 12:58:15] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev87.tar.gz tmp/pybox-toolkit-0.1.9.dev92.tar.gz --markdown 20230625/p/pybox-toolkit/0.1.9.dev87-0.1.9.dev92/diff.md --exclude *.pyd
+[2023-06-25 12:58:16] INFO root fetch - processPackages [NCPNet]: Remove: archive file [/home/abi/fetcher/tmp/NCPNet-1.0.3.tar.gz]
+[2023-06-25 12:58:16] INFO root fetch - processPackages [NCPNet]: Remove: archive file [/home/abi/fetcher/tmp/NCPNet-1.0.4.tar.gz]
+[2023-06-25 12:58:16] INFO root fetch - main [MainThread]: End processing [NCPNet]: success
+[2023-06-25 12:58:16] INFO root fetch - processPackages [pytablewriter-altrow-theme]: Remove: archive file [/home/abi/fetcher/tmp/pytablewriter-altrow-theme-0.0.3.tar.gz]
+[2023-06-25 12:58:16] INFO root fetch - processPackages [pytablewriter-altrow-theme]: Remove: archive file [/home/abi/fetcher/tmp/pytablewriter-altrow-theme-0.1.0.tar.gz]
+[2023-06-25 12:58:16] INFO root fetch - main [MainThread]: End processing [pytablewriter-altrow-theme]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [cbpi4-iSpindle]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-iSpindle-0.0.3.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [cbpi4-iSpindle]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-iSpindle-0.0.9.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [cbpi4-iSpindle]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.3.1.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.3.2.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [graiax-text2img-playwright]: Remove: archive file [/home/abi/fetcher/tmp/graiax-text2img-playwright-0.4.0.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [graiax-text2img-playwright]: Remove: archive file [/home/abi/fetcher/tmp/graiax_text2img_playwright-0.4.1.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [graiax-text2img-playwright]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [pydlutils]: Remove: archive file [/home/abi/fetcher/tmp/pydlutils-0.0.1.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [pydlutils]: Remove: archive file [/home/abi/fetcher/tmp/pydlutils-0.0.3.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [pydlutils]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev87.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev92.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [serverchain]: Remove: archive file [/home/abi/fetcher/tmp/serverchain-0.1.0.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [serverchain]: Remove: archive file [/home/abi/fetcher/tmp/serverchain-0.1.1.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [serverchain]: success
+[2023-06-25 12:58:17] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.4a0.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.7.tar.gz]
+[2023-06-25 12:58:17] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-25 12:58:19] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-client-2.6.2rc1.tar.gz]
+[2023-06-25 12:58:19] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-client-2.6.2rc2.tar.gz]
+[2023-06-25 12:58:19] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
+[2023-06-25 12:58:19] INFO root fetch - main [MainThread]: Store serial: [18635848]
