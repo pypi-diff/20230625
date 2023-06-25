@@ -3905,3 +3905,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:50:42] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.5.tar.gz]
 [2023-06-25 05:50:42] INFO root fetch - main [MainThread]: End processing [wizlib]: success
 [2023-06-25 05:50:42] INFO root fetch - main [MainThread]: Store serial: [18633971]
+[2023-06-25 05:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633971]
+[2023-06-25 05:55:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-25 05:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissist
+[2023-06-25 05:55:51] INFO root fetch - processPackages [aissist]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 05:55:51] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/77/4d/8ad5a8394ab0a6d711ed5b38870c4c32894190cddd3256edf2b58b73a33b/aissist-0.0.5.tar.gz
+[2023-06-25 05:55:52] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/74/b7/b3a8abd0ab3a0a469697bebaa9845dc400b68361c4a7c30270afbf7077e6/aissist-0.0.6.tar.gz
+[2023-06-25 05:55:52] INFO root fetch - processPackages [aissist]: executing diffoscope
+[2023-06-25 05:55:52] INFO root fetch - processPackages [aissist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissist-0.0.5.tar.gz tmp/aissist-0.0.6.tar.gz --markdown 20230625/a/aissist/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 05:55:53] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.5.tar.gz]
+[2023-06-25 05:55:53] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.6.tar.gz]
+[2023-06-25 05:55:53] INFO root fetch - main [MainThread]: End processing [aissist]: success
+[2023-06-25 05:55:53] INFO root fetch - main [MainThread]: Store serial: [18633974]
