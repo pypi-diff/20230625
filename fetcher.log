@@ -9125,3 +9125,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:54:57] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc1.tar.gz]
 [2023-06-25 13:54:57] INFO root fetch - main [MainThread]: End processing [erroraffirmations]: success
 [2023-06-25 13:54:57] INFO root fetch - main [MainThread]: Store serial: [18636079]
+[2023-06-25 14:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636079]
+[2023-06-25 14:00:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 14:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JestingLang
+[2023-06-25 14:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Bigsansar
+[2023-06-25 14:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyezviz
+[2023-06-25 14:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynanolab
+[2023-06-25 14:00:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: royman-tools
+[2023-06-25 14:00:05] INFO root fetch - processPackages [pyezviz]: New version: [0.2.1.4] Old Version: [0.2.1.3]
+[2023-06-25 14:00:05] INFO root fetch - processPackages [JestingLang]: New version: [0.0.0a7] Old Version: [0.0.0a5]
+[2023-06-25 14:00:05] WARNING root fetch - processPackages [royman-tools]: Skipping, unable to determine old version
+[2023-06-25 14:00:05] INFO root fetch - processPackages [pynanolab]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-25 14:00:05] INFO root fetch - main [MainThread]: End processing [royman-tools] error
+[2023-06-25 14:00:05] INFO root fetch - processPackages [Bigsansar]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-25 14:00:05] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/45/b1/3228a743304a23831ecff7fd86937e1f1547da21a20e3cbd77c6b056d4da/pyezviz-0.2.1.3.tar.gz
+[2023-06-25 14:00:05] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/c8/67/63e6ffe3e3b5b6b15c720de0463836c76957c490b7e5837ea97d5ed674fa/Bigsansar-1.7.4.tar.gz
+[2023-06-25 14:00:06] INFO root fetch - processPackages [JestingLang]: Downloading https://files.pythonhosted.org/packages/e1/5e/23112956665d3048cb2441ae64a6131bead9f57cfa8dc7e11cb50eda67ba/JestingLang-0.0.0a5.tar.gz
+[2023-06-25 14:00:06] INFO root fetch - processPackages [pynanolab]: Downloading https://files.pythonhosted.org/packages/a7/f9/5344be1b9f4360856e75bec2cdeb75eb4f29db49ff30a35a90675ad2280f/pynanolab-3.0.0-cp311-cp311-macosx_10_9_x86_64.whl
+[2023-06-25 14:00:06] WARNING root fetch - processPackages [pynanolab]: Skipping package: exceeds size limit 88322520>=10485760
+[2023-06-25 14:00:06] INFO root fetch - main [MainThread]: End processing [pynanolab] error
+[2023-06-25 14:00:06] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/57/84/61f9fbb45394867c869ed7ffa59d14adafb2769e6715201bc2f51f18e659/pyezviz-0.2.1.4.tar.gz
+[2023-06-25 14:00:06] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-06-25 14:00:06] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.1.3.tar.gz tmp/pyezviz-0.2.1.4.tar.gz --markdown 20230625/p/pyezviz/0.2.1.3-0.2.1.4/diff.md --exclude *.pyd
+[2023-06-25 14:00:06] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/bc/c2/e0e253d44b6525c3c398d72cbf3168c8dd76c9dbb3bf9efab512e168f00b/Bigsansar-1.7.5.tar.gz
+[2023-06-25 14:00:06] INFO root fetch - processPackages [JestingLang]: Downloading https://files.pythonhosted.org/packages/3f/1d/59a49b72a07717bbb666720d41416d2810c444809cfe0d398d95a63b6bbe/JestingLang-0.0.0a7.tar.gz
+[2023-06-25 14:00:06] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-25 14:00:06] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.7.4.tar.gz tmp/Bigsansar-1.7.5.tar.gz --markdown 20230625/B/Bigsansar/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-25 14:00:06] INFO root fetch - processPackages [JestingLang]: executing diffoscope
+[2023-06-25 14:00:06] INFO root fetch - processPackages [JestingLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JestingLang-0.0.0a5.tar.gz tmp/JestingLang-0.0.0a7.tar.gz --markdown 20230625/J/JestingLang/0.0.0a5-0.0.0a7/diff.md --exclude *.pyd
+[2023-06-25 14:00:07] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.3.tar.gz]
+[2023-06-25 14:00:07] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.4.tar.gz]
+[2023-06-25 14:00:07] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-06-25 14:00:07] INFO root fetch - processPackages [JestingLang]: Remove: archive file [/home/abi/fetcher/tmp/JestingLang-0.0.0a5.tar.gz]
+[2023-06-25 14:00:07] INFO root fetch - processPackages [JestingLang]: Remove: archive file [/home/abi/fetcher/tmp/JestingLang-0.0.0a7.tar.gz]
+[2023-06-25 14:00:07] INFO root fetch - main [MainThread]: End processing [JestingLang]: success
+[2023-06-25 14:00:08] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.4.tar.gz]
+[2023-06-25 14:00:08] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.5.tar.gz]
+[2023-06-25 14:00:08] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-25 14:00:08] INFO root fetch - main [MainThread]: Store serial: [18636094]
