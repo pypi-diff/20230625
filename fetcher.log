@@ -4660,3 +4660,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:17:18] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-06-25 07:17:18] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-06-25 07:17:18] INFO root fetch - main [MainThread]: Store serial: [18634235]
+[2023-06-25 07:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634235]
+[2023-06-25 07:22:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msgram-parser
+[2023-06-25 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dss-python-backend
+[2023-06-25 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FlightRadarAPI
+[2023-06-25 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipen-report
+[2023-06-25 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trialbot
+[2023-06-25 07:22:31] INFO root fetch - processPackages [msgram-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 07:22:31] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.4rc1] Old Version: [0.13.3rc2]
+[2023-06-25 07:22:31] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-25 07:22:31] INFO root fetch - processPackages [pipen-report]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-25 07:22:32] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/55/10/68d137ecee30a31064c51c04b0a8f2357ef6c8ff785ae57e39760aa7efea/FlightRadarAPI-1.3.3.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [trialbot]: New version: [0.3.9.2] Old Version: [0.3.9.1]
+[2023-06-25 07:22:32] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/d0/6e/5cea947aaefdbc998e116eb93ea3a25937e832aadb744c63c014cc39f04f/msgram-parser-0.0.3.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/a2/92/a6f7b43423abb6744d7290f078b8bfe93968d3b920902661d20a57ce451c/dss_python_backend-0.13.3rc2-cp37-abi3-win_amd64.whl
+[2023-06-25 07:22:32] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/f9/ce/1478680d76ea4b3e79258f5024b603b8fc36ed02144fbd0682120be69689/pipen_report-0.8.0.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [trialbot]: Downloading https://files.pythonhosted.org/packages/e9/38/53fe9c3dab5f1ef477e02a49b0e4bbc421b16243e161194e0bd1e3081b86/trialbot-0.3.9.1.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/0e/ca/97354c6b5530908d912bdfc0babb7f4bb5dc781b0dfdb679a16fb6a39893/FlightRadarAPI-1.3.4.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/26/e2/ecafa97faf7890a11f22cbdd68a73885a62913e3f7ae70b54149216bb0db/msgram-parser-0.0.4.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-25 07:22:32] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.3.3.tar.gz tmp/FlightRadarAPI-1.3.4.tar.gz --markdown 20230625/F/FlightRadarAPI/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-25 07:22:32] INFO root fetch - processPackages [msgram-parser]: executing diffoscope
+[2023-06-25 07:22:32] INFO root fetch - processPackages [msgram-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-parser-0.0.3.tar.gz tmp/msgram-parser-0.0.4.tar.gz --markdown 20230625/m/msgram-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 07:22:32] INFO root fetch - processPackages [pipen-report]: Downloading https://files.pythonhosted.org/packages/bd/42/f6e3acca8f25830d56abb0eb2e88b3f896a8c3bf694365bb5ca73fd739d1/pipen_report-0.9.0.tar.gz
+[2023-06-25 07:22:32] INFO root fetch - processPackages [pipen-report]: executing diffoscope
+[2023-06-25 07:22:32] INFO root fetch - processPackages [pipen-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_report-0.8.0.tar.gz tmp/pipen_report-0.9.0.tar.gz --markdown 20230625/p/pipen-report/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 07:22:32] INFO root fetch - processPackages [trialbot]: Downloading https://files.pythonhosted.org/packages/0b/0a/7e1b71a2922944fb96eff5936d417b46aad45c19a52fbbb4be8f505166ae/trialbot-0.3.9.2.tar.gz
+[2023-06-25 07:22:33] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16966604>=10485760
+[2023-06-25 07:22:33] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-06-25 07:22:33] INFO root fetch - processPackages [trialbot]: executing diffoscope
+[2023-06-25 07:22:33] INFO root fetch - processPackages [trialbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trialbot-0.3.9.1.tar.gz tmp/trialbot-0.3.9.2.tar.gz --markdown 20230625/t/trialbot/0.3.9.1-0.3.9.2/diff.md --exclude *.pyd
+[2023-06-25 07:22:33] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.3.tar.gz]
+[2023-06-25 07:22:33] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.4.tar.gz]
+[2023-06-25 07:22:33] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-25 07:22:33] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.3.tar.gz]
+[2023-06-25 07:22:33] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.4.tar.gz]
+[2023-06-25 07:22:33] INFO root fetch - main [MainThread]: End processing [msgram-parser]: success
+[2023-06-25 07:22:34] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.8.0.tar.gz]
+[2023-06-25 07:22:34] INFO root fetch - processPackages [pipen-report]: Remove: archive file [/home/abi/fetcher/tmp/pipen_report-0.9.0.tar.gz]
+[2023-06-25 07:22:34] INFO root fetch - main [MainThread]: End processing [pipen-report]: success
+[2023-06-25 07:22:34] INFO root fetch - processPackages [trialbot]: Remove: archive file [/home/abi/fetcher/tmp/trialbot-0.3.9.1.tar.gz]
+[2023-06-25 07:22:34] INFO root fetch - processPackages [trialbot]: Remove: archive file [/home/abi/fetcher/tmp/trialbot-0.3.9.2.tar.gz]
+[2023-06-25 07:22:34] INFO root fetch - main [MainThread]: End processing [trialbot]: success
+[2023-06-25 07:22:34] INFO root fetch - main [MainThread]: Store serial: [18634255]
