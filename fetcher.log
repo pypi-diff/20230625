@@ -5397,3 +5397,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:15:11] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
 [2023-06-25 08:15:11] INFO root fetch - main [MainThread]: End processing [dss-python]: success
 [2023-06-25 08:15:11] INFO root fetch - main [MainThread]: Store serial: [18634566]
+[2023-06-25 08:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634566]
+[2023-06-25 08:20:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyMobileProvision
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yter
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-mgmt-graphservices
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-datax-tools
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-minio
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-libvirt
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-datadog
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-keycloak
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-mysql
+[2023-06-25 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: areixio
+[2023-06-25 08:20:27] INFO root fetch - processPackages [azure-mgmt-graphservices]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [PyMobileProvision]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [spark-datax-tools]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [yter]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1687671641] Old Version: [0.4.1a1687055262]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1687671831] Old Version: [3.2.0a1687055263]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1687671641] Old Version: [5.3.0a1687055253]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.87]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-06-25 08:20:27] INFO root fetch - processPackages [spark-datax-tools]: Downloading https://files.pythonhosted.org/packages/38/95/7bc12dbb1db40bdd8d7e14dca758f2d29223c40cee48da6d398691d48510/spark_datax_tools-0.3.1.tar.gz
+[2023-06-25 08:20:27] INFO root fetch - processPackages [PyMobileProvision]: Downloading https://files.pythonhosted.org/packages/56/96/98ad831da2b4176ed7ce1fa9ddb97757d9b44291a599b5b487d49d462f14/PyMobileProvision-1.4.4.tar.gz
+[2023-06-25 08:20:27] INFO root fetch - processPackages [azure-mgmt-graphservices]: Downloading https://files.pythonhosted.org/packages/83/f9/d97e3600529b6cf4ac0b0c99c2c12ab51add46f78cf6d524eba03ecd4360/azure-mgmt-graphservices-1.0.0.zip
+[2023-06-25 08:20:28] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/5c/0a/8cfb361fe863d491639ce1b26eb4f9e8ca1ce0c8965570719ea55b8470fc/yter-3.1.0.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/28/0f/6163c24e8bb0c326d576d47b6dca7acde4b5fdd4ade5f74c8a6a046569a7/areixio-0.2.87.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/8d/05/87420f29cd97f7d1853ebd10269b7a0ba436c854e3a8095190a4e3bb7582/pulumi_libvirt-0.4.1a1687055262.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/27/c6/248146b5f4768585cc539688f2b6a125b3c8c0564fbdf5224713637619df/pulumi_mysql-3.2.0a1687055263.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/14/e7/c853ba77ebdc4f9df7c53ebb454024ec146b1e6c5a7fee3ceff58914cf52/pulumi_keycloak-5.3.0a1687055253.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [spark-datax-tools]: Downloading https://files.pythonhosted.org/packages/9b/35/e9acf62474ca67d6398e6f51047eb1f20c9bd45b4f521528427229a1097d/spark_datax_tools-0.3.2.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [azure-mgmt-graphservices]: Downloading https://files.pythonhosted.org/packages/ba/a7/cdfc0b98634d7bf58889ca89ef071bcd31f2ddf9d50e41d317edf6fe1f7c/azure-mgmt-graphservices-1.0.0b1.zip
+[2023-06-25 08:20:28] INFO root fetch - processPackages [PyMobileProvision]: Downloading https://files.pythonhosted.org/packages/bd/27/d47095f81d77b91f4338b136e5b029361a585d568f3743a6337ea8ac0331/PyMobileProvision-1.4.5.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/c5/8b/6172e7618d6a6d310d0de35f21b36a6adcd338f44b07749c6fc7e703d38d/yter-3.1.1.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/85/6b/83d108b50faa1cc6f141455392efb6a4480f1ac8e338f5fb1c8af73ad29d/pulumi_libvirt-0.4.1a1687671641.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/c1/6a/4caf98b353ff95c95f7a1809cd909c87c4513e1f15c52863c2ad94795935/pulumi_mysql-3.2.0a1687671831.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [PyMobileProvision]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [azure-mgmt-graphservices]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [PyMobileProvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMobileProvision-1.4.4.tar.gz tmp/PyMobileProvision-1.4.5.tar.gz --markdown 20230625/P/PyMobileProvision/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [azure-mgmt-graphservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-graphservices-1.0.0.zip tmp/azure-mgmt-graphservices-1.0.0b1.zip --markdown 20230625/a/azure-mgmt-graphservices/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [spark-datax-tools]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [spark-datax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_datax_tools-0.3.1.tar.gz tmp/spark_datax_tools-0.3.2.tar.gz --markdown 20230625/s/spark-datax-tools/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/8a/3d/3a7133ffc8dc47c4bc2bf53d912af80048376f94879278202e1ee1649d4a/pulumi_keycloak-5.3.0a1687671641.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.87.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230625/a/areixio/0.2.87-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-06-25 08:20:28] INFO root fetch - processPackages [yter]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [yter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yter-3.1.0.tar.gz tmp/yter-3.1.1.tar.gz --markdown 20230625/y/yter/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1687055263.tar.gz tmp/pulumi_mysql-3.2.0a1687671831.tar.gz --markdown 20230625/p/pulumi-mysql/3.2.0a1687055263-3.2.0a1687671831/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1687055262.tar.gz tmp/pulumi_libvirt-0.4.1a1687671641.tar.gz --markdown 20230625/p/pulumi-libvirt/0.4.1a1687055262-0.4.1a1687671641/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230625/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230625/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-06-25 08:20:28] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1687055253.tar.gz tmp/pulumi_keycloak-5.3.0a1687671641.tar.gz --markdown 20230625/p/pulumi-keycloak/5.3.0a1687055253-5.3.0a1687671641/diff.md --exclude *.pyd
+[2023-06-25 08:20:30] INFO root fetch - processPackages [PyMobileProvision]: Remove: archive file [/home/abi/fetcher/tmp/PyMobileProvision-1.4.4.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [PyMobileProvision]: Remove: archive file [/home/abi/fetcher/tmp/PyMobileProvision-1.4.5.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [PyMobileProvision]: Start processing: pulumi-linode
+[2023-06-25 08:20:30] INFO root fetch - main [MainThread]: End processing [PyMobileProvision]: success
+[2023-06-25 08:20:30] INFO root fetch - processPackages [spark-datax-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_datax_tools-0.3.1.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [spark-datax-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_datax_tools-0.3.2.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [spark-datax-tools]: Start processing: pulumi-newrelic
+[2023-06-25 08:20:30] INFO root fetch - main [MainThread]: End processing [spark-datax-tools]: success
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-linode]: New version: [4.5.0a1687671694] Old Version: [4.4.0a1687557732]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/04/b2/cd68a1f08c902d46c76efb3a319f3c32c224ce57fb2b1c89282c2e5c3ced/pulumi_linode-4.4.0a1687557732.tar.gz
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2023-06-25 08:20:30] INFO root fetch - processPackages [azure-mgmt-graphservices]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-graphservices-1.0.0.zip]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [azure-mgmt-graphservices]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-graphservices-1.0.0b1.zip]
+[2023-06-25 08:20:30] INFO root fetch - main [MainThread]: End processing [azure-mgmt-graphservices]: success
+[2023-06-25 08:20:30] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.1.0.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.1.1.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - main [MainThread]: End processing [yter]: success
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1687055263.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1687671831.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/e2/d8/1831cf66ed07c3aaf976ce5a909c705dbebb345fe50c8cd075dc98a907fb/pulumi_linode-4.5.0a1687671694.tar.gz
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.4.0a1687557732.tar.gz tmp/pulumi_linode-4.5.0a1687671694.tar.gz --markdown 20230625/p/pulumi-linode/4.4.0a1687557732-4.5.0a1687671694/diff.md --exclude *.pyd
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1687055262.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1687671641.tar.gz]
+[2023-06-25 08:20:30] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-06-25 08:20:31] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-06-25 08:20:31] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230625/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-06-25 08:20:31] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-06-25 08:20:31] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-06-25 08:20:31] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-06-25 08:20:31] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1687055253.tar.gz]
+[2023-06-25 08:20:31] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1687671641.tar.gz]
+[2023-06-25 08:20:31] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-06-25 08:20:32] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.4.0a1687557732.tar.gz]
+[2023-06-25 08:20:32] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.5.0a1687671694.tar.gz]
+[2023-06-25 08:20:32] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-06-25 08:20:33] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2023-06-25 08:20:33] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2023-06-25 08:20:33] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-06-25 08:20:33] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2023-06-25 08:20:33] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2023-06-25 08:20:33] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-06-25 08:20:40] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.87.tar.gz]
+[2023-06-25 08:20:40] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
+[2023-06-25 08:20:40] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-06-25 08:20:40] INFO root fetch - main [MainThread]: Store serial: [18634594]
