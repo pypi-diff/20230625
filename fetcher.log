@@ -5110,3 +5110,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
 [2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
 [2023-06-25 07:59:01] INFO root fetch - main [MainThread]: Store serial: [18634440]
+[2023-06-25 08:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634440]
+[2023-06-25 08:04:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 08:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatsapp-chat-exporter
+[2023-06-25 08:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mltb2
+[2023-06-25 08:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyod
+[2023-06-25 08:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhdf
+[2023-06-25 08:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytdl-sub
+[2023-06-25 08:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Nuitka-winsvc
+[2023-06-25 08:04:11] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.6.3] Old Version: [2023.6.25]
+[2023-06-25 08:04:11] INFO root fetch - processPackages [mltb2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 08:04:11] INFO root fetch - processPackages [whatsapp-chat-exporter]: New version: [0.9.5] Old Version: [0.9.1]
+[2023-06-25 08:04:11] INFO root fetch - processPackages [pyod]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-25 08:04:11] INFO root fetch - processPackages [pyhdf]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-25 08:04:11] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-25 08:04:11] WARNING root fetch - processPackages [pyhdf]: fallback to get urls: [0.8.3]
+[2023-06-25 08:04:11] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/d0/6c/bcf4c86ebaba92419cfd77f736df9e3211ab170589122a5662fab1fc0d5b/ytdl-sub-2023.6.25.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [whatsapp-chat-exporter]: Downloading https://files.pythonhosted.org/packages/35/3a/5b8917d33e084dc7561e4ed1effd1ff199d4ca3319d99db1b0fc2afbbe50/whatsapp-chat-exporter-0.9.1.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/4a/0a/99c709fbe27100c3d9de8b798afb70d4ce68d424c16a92a5271b1c7571f1/mltb2-0.0.5.tar.gz
+[2023-06-25 08:04:11] WARNING root fetch - processPackages [pyhdf]: None
+[2023-06-25 08:04:11] WARNING root fetch - processPackages [pyhdf]: None
+[2023-06-25 08:04:11] INFO root fetch - processPackages [pyod]: Downloading https://files.pythonhosted.org/packages/be/e9/b0987c83944552c6aa0da8d38b2ad5413f2e2faee1f5755a17f64535e821/pyod-1.0.9.tar.gz
+[2023-06-25 08:04:11] WARNING root fetch - processPackages [pyhdf]: unable to get url for both version [0.8.3]
+[2023-06-25 08:04:11] WARNING root fetch - processPackages [pyhdf]: None
+[2023-06-25 08:04:11] INFO root fetch - main [MainThread]: End processing [pyhdf] error
+[2023-06-25 08:04:11] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/e1/6d/3a3da8b1a8081732036cac9976155ed25006692dc0d50256ec4f22126ee5/ytdl-sub-2023.6.3.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/98/44/115a906ca8174dacb9dfc9d7796664d2229042ebef561639aaf7ecc335fd/Nuitka-winsvc-1.6.3.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/67/38/3519aaab24e2be815bea09463d162013c2b3800943f3b71c7ca8a55ec027/mltb2-0.0.6.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-06-25 08:04:11] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.6.25.tar.gz tmp/ytdl-sub-2023.6.3.tar.gz --markdown 20230625/y/ytdl-sub/2023.6.25-2023.6.3/diff.md --exclude *.pyd
+[2023-06-25 08:04:11] INFO root fetch - processPackages [pyod]: Downloading https://files.pythonhosted.org/packages/0d/5f/627e0064c3435ad9f7dbfb1aac5fef52003adfb1c97adced134449557300/pyod-1.1.0.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [whatsapp-chat-exporter]: Downloading https://files.pythonhosted.org/packages/30/e1/545689b66acf90d168dbf5b00bd613fc722f750ffdbcca79fa958707303f/whatsapp-chat-exporter-0.9.5.tar.gz
+[2023-06-25 08:04:11] INFO root fetch - processPackages [mltb2]: executing diffoscope
+[2023-06-25 08:04:11] INFO root fetch - processPackages [mltb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltb2-0.0.5.tar.gz tmp/mltb2-0.0.6.tar.gz --markdown 20230625/m/mltb2/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 08:04:11] INFO root fetch - processPackages [whatsapp-chat-exporter]: executing diffoscope
+[2023-06-25 08:04:11] INFO root fetch - processPackages [whatsapp-chat-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-chat-exporter-0.9.1.tar.gz tmp/whatsapp-chat-exporter-0.9.5.tar.gz --markdown 20230625/w/whatsapp-chat-exporter/0.9.1-0.9.5/diff.md --exclude *.pyd
+[2023-06-25 08:04:11] INFO root fetch - processPackages [pyod]: executing diffoscope
+[2023-06-25 08:04:11] INFO root fetch - processPackages [pyod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyod-1.0.9.tar.gz tmp/pyod-1.1.0.tar.gz --markdown 20230625/p/pyod/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 08:04:12] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/ff/cc/947ed93c6e3f393cf132e61e756ec608d3ef0beea2e9906caa10cee7d5c7/Nuitka_winsvc-1.6.4-cp310-cp310-win_amd64.whl
+[2023-06-25 08:04:12] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-06-25 08:04:12] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.6.3.tar.gz tmp/Nuitka_winsvc-1.6.4-cp310-cp310-win_amd64.whl.zip --markdown 20230625/N/Nuitka-winsvc/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-25 08:04:13] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.0.5.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.0.6.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - main [MainThread]: End processing [mltb2]: success
+[2023-06-25 08:04:13] INFO root fetch - processPackages [whatsapp-chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chat-exporter-0.9.1.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - processPackages [whatsapp-chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-chat-exporter-0.9.5.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - main [MainThread]: End processing [whatsapp-chat-exporter]: success
+[2023-06-25 08:04:13] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.25.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2023.6.3.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-06-25 08:04:13] INFO root fetch - processPackages [pyod]: Remove: archive file [/home/abi/fetcher/tmp/pyod-1.0.9.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - processPackages [pyod]: Remove: archive file [/home/abi/fetcher/tmp/pyod-1.1.0.tar.gz]
+[2023-06-25 08:04:13] INFO root fetch - main [MainThread]: End processing [pyod]: success
+[2023-06-25 08:04:16] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-winsvc-1.6.3.tar.gz]
+[2023-06-25 08:04:16] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka_winsvc-1.6.4-cp310-cp310-win_amd64.whl.zip]
+[2023-06-25 08:04:16] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-06-25 08:04:16] INFO root fetch - main [MainThread]: Store serial: [18634476]
