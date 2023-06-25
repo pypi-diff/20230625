@@ -6069,3 +6069,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:18:32] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-25 09:18:32] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-25 09:18:32] INFO root fetch - main [MainThread]: Store serial: [18634789]
+[2023-06-25 09:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634789]
+[2023-06-25 09:23:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parse-emails
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-oci
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plutous-trade-crypto
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-ttauto-crawler
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rttbackend
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rttbackend
+[2023-06-25 09:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: origamibot
+[2023-06-25 09:23:41] INFO root fetch - processPackages [parse-emails]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [pulumi-oci]: New version: [1.2.0a1687673610] Old Version: [1.1.0a1687471141]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [rttbackend]: New version: [0.2] Old Version: [0.1]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [rttbackend]: New version: [0.2] Old Version: [0.1]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [origamibot]: New version: [2.3.6] Old Version: [2.3.4]
+[2023-06-25 09:23:41] INFO root fetch - processPackages [parse-emails]: Downloading https://files.pythonhosted.org/packages/d0/1f/b63b82e92164441e2fbcb5f2cbb938f02674ffa9cb49df0688dfda802705/parse_emails-0.1.8.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/5a/90/87e12db177dc172a22f23dfefef067217b06c877075dfca171819dc61517/pulumi_oci-1.1.0a1687471141.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [rttbackend]: Downloading https://files.pythonhosted.org/packages/bd/91/9fda0c7ffb3ed38b0e5ae8ed344499f23bfc055ebd8b59e865b74a737911/rttbackend-0.1-py3.8-macosx-13.2-arm64.egg
+[2023-06-25 09:23:41] INFO root fetch - processPackages [rttbackend]: Downloading https://files.pythonhosted.org/packages/bd/91/9fda0c7ffb3ed38b0e5ae8ed344499f23bfc055ebd8b59e865b74a737911/rttbackend-0.1-py3.8-macosx-13.2-arm64.egg
+[2023-06-25 09:23:41] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [origamibot]: Downloading https://files.pythonhosted.org/packages/79/85/293c4720cadf21b1ffef833404f6ef2370f48132bcc624b0ec16207711f6/origamibot-2.3.4.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 09:23:41] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-25 09:23:41] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230625/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 09:23:41] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 09:23:41] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 09:23:41] INFO root fetch - processPackages [rttbackend]: Downloading https://files.pythonhosted.org/packages/37/ad/65f985f6d2c5b776b4ddbce1b675527c9cdbdec1fb1fc7a247c2e682f26d/rttbackend-0.2-py3.8-macosx-13.2-arm64.egg
+[2023-06-25 09:23:41] INFO root fetch - processPackages [rttbackend]: Downloading https://files.pythonhosted.org/packages/37/ad/65f985f6d2c5b776b4ddbce1b675527c9cdbdec1fb1fc7a247c2e682f26d/rttbackend-0.2-py3.8-macosx-13.2-arm64.egg
+[2023-06-25 09:23:41] INFO root fetch - processPackages [origamibot]: Downloading https://files.pythonhosted.org/packages/83/64/8972aded53c68553d18693d10623262623fd0c100e45515a5ea1efa68c64/origamibot-2.3.6.tar.gz
+[2023-06-25 09:23:42] INFO root fetch - processPackages [rttbackend]: executing diffoscope
+[2023-06-25 09:23:42] INFO root fetch - processPackages [rttbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rttbackend-0.1-py3.8-macosx-13.2-arm64.egg tmp/rttbackend-0.2-py3.8-macosx-13.2-arm64.egg --markdown 20230625/r/rttbackend/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-25 09:23:42] INFO root fetch - processPackages [rttbackend]: executing diffoscope
+[2023-06-25 09:23:42] INFO root fetch - processPackages [rttbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rttbackend-0.1-py3.8-macosx-13.2-arm64.egg tmp/rttbackend-0.2-py3.8-macosx-13.2-arm64.egg --markdown 20230625/r/rttbackend/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-25 09:23:42] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/5e/04/c86654783510dcb20d3b2da01afe36e39eb82587fb2ede7bd1bc668b64a3/pulumi_oci-1.2.0a1687673610.tar.gz
+[2023-06-25 09:23:42] INFO root fetch - processPackages [origamibot]: executing diffoscope
+[2023-06-25 09:23:42] INFO root fetch - processPackages [origamibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origamibot-2.3.4.tar.gz tmp/origamibot-2.3.6.tar.gz --markdown 20230625/o/origamibot/2.3.4-2.3.6/diff.md --exclude *.pyd
+[2023-06-25 09:23:42] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-25 09:23:42] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.1.0a1687471141.tar.gz tmp/pulumi_oci-1.2.0a1687673610.tar.gz --markdown 20230625/p/pulumi-oci/1.1.0a1687471141-1.2.0a1687673610/diff.md --exclude *.pyd
+[2023-06-25 09:23:42] INFO root fetch - processPackages [parse-emails]: Downloading https://files.pythonhosted.org/packages/86/2e/7d74e4e6e573160a15da3effd044c6ad9eac83ed0fa2a23be82b1b5002ae/parse_emails-0.1.9.tar.gz
+[2023-06-25 09:23:42] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 09:23:42] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 09:23:42] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 09:23:43] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-25 09:23:43] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-25 09:23:43] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-25 09:23:43] INFO root fetch - processPackages [parse-emails]: executing diffoscope
+[2023-06-25 09:23:43] INFO root fetch - processPackages [parse-emails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_emails-0.1.8.tar.gz tmp/parse_emails-0.1.9.tar.gz --markdown 20230625/p/parse-emails/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 09:23:44] INFO root fetch - processPackages [origamibot]: Remove: archive file [/home/abi/fetcher/tmp/origamibot-2.3.4.tar.gz]
+[2023-06-25 09:23:44] INFO root fetch - processPackages [origamibot]: Remove: archive file [/home/abi/fetcher/tmp/origamibot-2.3.6.tar.gz]
+[2023-06-25 09:23:44] INFO root fetch - main [MainThread]: End processing [origamibot]: success
+[2023-06-25 09:23:44] INFO root fetch - processPackages [rttbackend]: Remove: archive file [/home/abi/fetcher/tmp/rttbackend-0.1-py3.8-macosx-13.2-arm64.egg]
+[2023-06-25 09:23:44] INFO root fetch - processPackages [rttbackend]: Remove: archive file [/home/abi/fetcher/tmp/rttbackend-0.2-py3.8-macosx-13.2-arm64.egg]
+[2023-06-25 09:23:44] INFO root fetch - main [MainThread]: End processing [rttbackend]: success
+[2023-06-25 09:23:44] INFO root fetch - main [MainThread]: End processing [rttbackend]: success
+[2023-06-25 09:23:46] INFO root fetch - processPackages [parse-emails]: Remove: archive file [/home/abi/fetcher/tmp/parse_emails-0.1.8.tar.gz]
+[2023-06-25 09:23:46] INFO root fetch - processPackages [parse-emails]: Remove: archive file [/home/abi/fetcher/tmp/parse_emails-0.1.9.tar.gz]
+[2023-06-25 09:23:46] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
+[2023-06-25 09:24:32] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.1.0a1687471141.tar.gz]
+[2023-06-25 09:24:32] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1687673610.tar.gz]
+[2023-06-25 09:24:32] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-25 09:24:32] INFO root fetch - main [MainThread]: Store serial: [18634806]
