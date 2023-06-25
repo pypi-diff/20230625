@@ -7105,3 +7105,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:57:55] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
 [2023-06-25 10:57:55] INFO root fetch - main [MainThread]: End processing [metdig]: success
 [2023-06-25 10:57:55] INFO root fetch - main [MainThread]: Store serial: [18635167]
+[2023-06-25 11:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635167]
+[2023-06-25 11:03:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 11:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiocord
+[2023-06-25 11:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyaubo-sdk
+[2023-06-25 11:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-bot
+[2023-06-25 11:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spyx
+[2023-06-25 11:03:04] INFO root fetch - processPackages [pyaubo-sdk]: New version: [0.20.0] Old Version: [0.19.6]
+[2023-06-25 11:03:04] INFO root fetch - processPackages [spyx]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 11:03:04] INFO root fetch - processPackages [aiocord]: New version: [3.0.0.post1] Old Version: [2.0.0]
+[2023-06-25 11:03:04] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/c3/9c/24bda5a8497893ef9c2ac9936d6c6e837f8b3407126ef0d00e65eb64e29e/spyx-0.0.7.tar.gz
+[2023-06-25 11:03:04] INFO root fetch - processPackages [antchain-bot]: New version: [1.8.83] Old Version: [1.8.76]
+[2023-06-25 11:03:04] INFO root fetch - processPackages [aiocord]: Downloading https://files.pythonhosted.org/packages/a0/eb/3712ba0fcdaa694c3a1a859132788014c05c1c747cd5253ee6b6f690be1a/aiocord-2.0.0.tar.gz
+[2023-06-25 11:03:04] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/f4/0d/d1605f36f45579f733a1b2c89a1fa81330cc5dc512e04f426fb97b9a3e36/pyaubo_sdk-0.19.6-cp39-cp39-win_amd64.whl
+[2023-06-25 11:03:04] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-06-25 11:03:04] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-25 11:03:04] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.7.tar.gz tmp/spyx-0.0.8.tar.gz --markdown 20230625/s/spyx/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 11:03:04] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/5d/9a/54775c68af4e2f24737cbee212a5b2d759b54558fc57c8260f7da573f2c1/antchain_bot-1.8.76.tar.gz
+[2023-06-25 11:03:05] INFO root fetch - processPackages [aiocord]: Downloading https://files.pythonhosted.org/packages/23/76/d9999a9a1f0833484a8e876a1081f4680547b69b257e2ebc4027adcb9558/aiocord-3.0.0.post1.tar.gz
+[2023-06-25 11:03:05] INFO root fetch - processPackages [pyaubo-sdk]: Downloading https://files.pythonhosted.org/packages/95/3e/796a70beb4c7afb6f8bb381256240a73aa03af75a41290102333a2b8ab97/pyaubo_sdk-0.20.0-cp311-cp311-manylinux2014_x86_64.whl
+[2023-06-25 11:03:05] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/90/4e/f3edfb3f2d7458191500accfef40667d88f7f41341a51c4d7ac8d2e6949d/antchain_bot-1.8.83.tar.gz
+[2023-06-25 11:03:05] INFO root fetch - processPackages [aiocord]: executing diffoscope
+[2023-06-25 11:03:05] INFO root fetch - processPackages [aiocord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocord-2.0.0.tar.gz tmp/aiocord-3.0.0.post1.tar.gz --markdown 20230625/a/aiocord/2.0.0-3.0.0.post1/diff.md --exclude *.pyd
+[2023-06-25 11:03:05] INFO root fetch - processPackages [pyaubo-sdk]: executing diffoscope
+[2023-06-25 11:03:05] INFO root fetch - processPackages [pyaubo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaubo_sdk-0.19.6-cp39-cp39-win_amd64.whl.zip tmp/pyaubo_sdk-0.20.0-cp311-cp311-manylinux2014_x86_64.whl.zip --markdown 20230625/p/pyaubo-sdk/0.19.6-0.20.0/diff.md --exclude *.pyd
+[2023-06-25 11:03:05] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2023-06-25 11:03:05] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.8.76.tar.gz tmp/antchain_bot-1.8.83.tar.gz --markdown 20230625/a/antchain-bot/1.8.76-1.8.83/diff.md --exclude *.pyd
+[2023-06-25 11:03:06] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.7.tar.gz]
+[2023-06-25 11:03:06] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-06-25 11:03:06] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-25 11:03:06] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.19.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 11:03:06] INFO root fetch - processPackages [pyaubo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyaubo_sdk-0.20.0-cp311-cp311-manylinux2014_x86_64.whl.zip]
+[2023-06-25 11:03:06] INFO root fetch - main [MainThread]: End processing [pyaubo-sdk]: success
+[2023-06-25 11:03:06] INFO root fetch - processPackages [aiocord]: Remove: archive file [/home/abi/fetcher/tmp/aiocord-2.0.0.tar.gz]
+[2023-06-25 11:03:06] INFO root fetch - processPackages [aiocord]: Remove: archive file [/home/abi/fetcher/tmp/aiocord-3.0.0.post1.tar.gz]
+[2023-06-25 11:03:06] INFO root fetch - main [MainThread]: End processing [aiocord]: success
+[2023-06-25 11:03:07] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.76.tar.gz]
+[2023-06-25 11:03:07] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.8.83.tar.gz]
+[2023-06-25 11:03:07] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2023-06-25 11:03:07] INFO root fetch - main [MainThread]: Store serial: [18635178]
