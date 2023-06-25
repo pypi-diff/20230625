@@ -11442,3 +11442,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:29:08] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.3-py3-none-any.whl.zip]
 [2023-06-25 17:29:08] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2023-06-25 17:29:08] INFO root fetch - main [MainThread]: Store serial: [18637141]
+[2023-06-25 17:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637141]
+[2023-06-25 17:34:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 17:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roblox-aio.py
+[2023-06-25 17:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-alconna
+[2023-06-25 17:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-06-25 17:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MLandPattern
+[2023-06-25 17:34:19] INFO root fetch - processPackages [roblox-aio.py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 17:34:19] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 17:34:19] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-25 17:34:19] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-25 17:34:19] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [roblox-aio.py]: Downloading https://files.pythonhosted.org/packages/de/9a/d845f3b0c118a4eca08baf375fe294d47fa70718caa7ce0265292d5f2654/roblox-aio.py-1.0.0.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/be/d4/8824b21061cc9dbb0375e1d95c8e2b2577568fc271eca9caff5fea3f3bf1/MLandPattern-0.2.1.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/2b/1f/edfcf10f28d07782330110694fb41cfc9c6de3228a919cd69ee03c20b071/nonebot-plugin-alconna-0.8.1.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-25 17:34:19] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230625/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 17:34:19] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/3f/f8/9f631951e3b320a0869530c11732ce537eaea07935f3f5570be9a4572ef2/MLandPattern-0.2.2.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/81/b3/886f4c95bdb242954c8b818636bbb331d9be6a06e4ae5ad83e7d46515498/nonebot-plugin-alconna-0.8.2.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [roblox-aio.py]: Downloading https://files.pythonhosted.org/packages/ae/74/42e4b558d59f5161eddb46b99af655675255fb53e81e95c46c48b9a4c8ce/roblox-aio.py-1.0.1.tar.gz
+[2023-06-25 17:34:19] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-06-25 17:34:19] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.8.1.tar.gz tmp/nonebot-plugin-alconna-0.8.2.tar.gz --markdown 20230625/n/nonebot-plugin-alconna/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-25 17:34:19] INFO root fetch - processPackages [roblox-aio.py]: executing diffoscope
+[2023-06-25 17:34:19] INFO root fetch - processPackages [roblox-aio.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-aio.py-1.0.0.tar.gz tmp/roblox-aio.py-1.0.1.tar.gz --markdown 20230625/r/roblox-aio.py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 17:34:19] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-25 17:34:19] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.1.tar.gz tmp/MLandPattern-0.2.2.tar.gz --markdown 20230625/M/MLandPattern/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-25 17:34:20] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-25 17:34:20] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-25 17:34:20] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-25 17:34:21] INFO root fetch - processPackages [roblox-aio.py]: Remove: archive file [/home/abi/fetcher/tmp/roblox-aio.py-1.0.0.tar.gz]
+[2023-06-25 17:34:21] INFO root fetch - processPackages [roblox-aio.py]: Remove: archive file [/home/abi/fetcher/tmp/roblox-aio.py-1.0.1.tar.gz]
+[2023-06-25 17:34:21] INFO root fetch - main [MainThread]: End processing [roblox-aio.py]: success
+[2023-06-25 17:34:21] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.1.tar.gz]
+[2023-06-25 17:34:21] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.2.tar.gz]
+[2023-06-25 17:34:21] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-25 17:35:14] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.8.1.tar.gz]
+[2023-06-25 17:35:14] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.8.2.tar.gz]
+[2023-06-25 17:35:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-06-25 17:35:14] INFO root fetch - main [MainThread]: Store serial: [18637153]
