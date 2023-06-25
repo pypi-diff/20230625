@@ -13343,3 +13343,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:48:56] INFO root fetch - processPackages [pysipfenn]: Remove: archive file [/home/abi/fetcher/tmp/pysipfenn-0.12.1.tar.gz]
 [2023-06-25 19:48:56] INFO root fetch - main [MainThread]: End processing [pysipfenn]: success
 [2023-06-25 19:48:56] INFO root fetch - main [MainThread]: Store serial: [18637929]
+[2023-06-25 19:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637929]
+[2023-06-25 19:54:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 19:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testless-autocomplete
+[2023-06-25 19:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jhu-assembly-linter
+[2023-06-25 19:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logfunc
+[2023-06-25 19:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: granny-pliers
+[2023-06-25 19:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyeletrica
+[2023-06-25 19:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lol-esp-api
+[2023-06-25 19:54:06] INFO root fetch - processPackages [jhu-assembly-linter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 19:54:06] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.102] Old Version: [0.0.101]
+[2023-06-25 19:54:06] INFO root fetch - processPackages [lol-esp-api]: New version: [0.24.2] Old Version: [0.24.1]
+[2023-06-25 19:54:06] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-06-25 19:54:06] INFO root fetch - processPackages [logfunc]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-25 19:54:06] WARNING root fetch - processPackages [pyeletrica]: Skipping, unable to determine old version
+[2023-06-25 19:54:06] INFO root fetch - main [MainThread]: End processing [pyeletrica] error
+[2023-06-25 19:54:06] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/c9/ea/4b1d8ba1014896cb500d2dab7fdab2ec9f55bf50cbdd48fd43ef9bb94f6f/lol-esp-api-0.24.1.tar.gz
+[2023-06-25 19:54:06] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/6a/6f/60ceb1d1ad82aa386765ee19eae5882793e0aad4bedb2898e60c19964946/testless_autocomplete-0.0.101.tar.gz
+[2023-06-25 19:54:06] INFO root fetch - processPackages [jhu-assembly-linter]: Downloading https://files.pythonhosted.org/packages/ee/36/9ceca3755c24163db78a075821f1af6636f8859412981668cc19a9239110/jhu_assembly_linter-0.1.4.tar.gz
+[2023-06-25 19:54:06] INFO root fetch - processPackages [logfunc]: Downloading https://files.pythonhosted.org/packages/45/cb/df090f818424d54319188a9755cc52cba506e68dfdd9437708bf210c4e3c/logfunc-1.1.1.tar.gz
+[2023-06-25 19:54:06] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/35/5c/e35aa62345dcdc17ec227b92f02eda0f5d43118dea22c086cdfbc9a7c214/granny-pliers-0.0.12.tar.gz
+[2023-06-25 19:54:07] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/4a/8e/4ca95c8fc88dacc19c48ef3e4fdbef536b3d068b7e3b13aa2b5dd6e73751/lol-esp-api-0.24.2.tar.gz
+[2023-06-25 19:54:07] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-06-25 19:54:07] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/fc/3c/a04ea88a80734b61d8edeb35292899f3dca760c3aa626156bd1322aff971/testless_autocomplete-0.0.102.tar.gz
+[2023-06-25 19:54:07] INFO root fetch - processPackages [jhu-assembly-linter]: Downloading https://files.pythonhosted.org/packages/ae/a7/25bbdd44844b019cb37c0565edce296d55297b4d4f1f0360f22d819efc57/jhu_assembly_linter-0.1.5.tar.gz
+[2023-06-25 19:54:07] INFO root fetch - processPackages [logfunc]: Downloading https://files.pythonhosted.org/packages/c0/88/33af232312d71137fc7807527494896d3cfeefbb28058007fa3790073f41/logfunc-1.2.0.tar.gz
+[2023-06-25 19:54:07] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-06-25 19:54:07] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.12.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230625/g/granny-pliers/0.0.12-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 19:54:07] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 19:54:07] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.24.1.tar.gz tmp/lol-esp-api-0.24.2.tar.gz --markdown 20230625/l/lol-esp-api/0.24.1-0.24.2/diff.md --exclude *.pyd
+[2023-06-25 19:54:07] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 19:54:07] INFO root fetch - processPackages [jhu-assembly-linter]: executing diffoscope
+[2023-06-25 19:54:07] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.101.tar.gz tmp/testless_autocomplete-0.0.102.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.101-0.0.102/diff.md --exclude *.pyd
+[2023-06-25 19:54:07] INFO root fetch - processPackages [jhu-assembly-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhu_assembly_linter-0.1.4.tar.gz tmp/jhu_assembly_linter-0.1.5.tar.gz --markdown 20230625/j/jhu-assembly-linter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 19:54:07] INFO root fetch - processPackages [logfunc]: executing diffoscope
+[2023-06-25 19:54:07] INFO root fetch - processPackages [logfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfunc-1.1.1.tar.gz tmp/logfunc-1.2.0.tar.gz --markdown 20230625/l/logfunc/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 19:54:08] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.1.tar.gz]
+[2023-06-25 19:54:08] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.2.tar.gz]
+[2023-06-25 19:54:08] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 19:54:08] INFO root fetch - processPackages [logfunc]: Remove: archive file [/home/abi/fetcher/tmp/logfunc-1.1.1.tar.gz]
+[2023-06-25 19:54:08] INFO root fetch - processPackages [logfunc]: Remove: archive file [/home/abi/fetcher/tmp/logfunc-1.2.0.tar.gz]
+[2023-06-25 19:54:08] INFO root fetch - main [MainThread]: End processing [logfunc]: success
+[2023-06-25 19:54:09] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.101.tar.gz]
+[2023-06-25 19:54:09] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.102.tar.gz]
+[2023-06-25 19:54:09] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 19:54:09] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.12.tar.gz]
+[2023-06-25 19:54:09] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-06-25 19:54:09] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-06-25 19:54:09] INFO root fetch - processPackages [jhu-assembly-linter]: Remove: archive file [/home/abi/fetcher/tmp/jhu_assembly_linter-0.1.4.tar.gz]
+[2023-06-25 19:54:09] INFO root fetch - processPackages [jhu-assembly-linter]: Remove: archive file [/home/abi/fetcher/tmp/jhu_assembly_linter-0.1.5.tar.gz]
+[2023-06-25 19:54:09] INFO root fetch - main [MainThread]: End processing [jhu-assembly-linter]: success
+[2023-06-25 19:54:09] INFO root fetch - main [MainThread]: Store serial: [18637953]
