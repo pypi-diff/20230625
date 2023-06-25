@@ -3985,3 +3985,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:01:06] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230623.tar.gz]
 [2023-06-25 06:01:06] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-06-25 06:01:06] INFO root fetch - main [MainThread]: Store serial: [18634003]
+[2023-06-25 06:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634003]
+[2023-06-25 06:06:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 06:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-password-maker
+[2023-06-25 06:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-process
+[2023-06-25 06:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmxbot
+[2023-06-25 06:06:14] INFO root fetch - processPackages [test-password-maker]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 06:06:14] INFO root fetch - processPackages [video-process]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 06:06:14] INFO root fetch - processPackages [pmxbot]: New version: [1122.9.3] Old Version: [1122.9.2]
+[2023-06-25 06:06:15] INFO root fetch - processPackages [test-password-maker]: Downloading https://files.pythonhosted.org/packages/51/f7/f4ac6fcf7f0962264908011c729a644b70a8daf46be7c3c2b70cf39cd03d/test_password_maker-0.0.1.tar.gz
+[2023-06-25 06:06:15] INFO root fetch - processPackages [pmxbot]: Downloading https://files.pythonhosted.org/packages/ab/fc/2d9c3f76f69fcb8bc55d3cf04174c39ff90711b9e023528b9d11f0247b20/pmxbot-1122.9.2.tar.gz
+[2023-06-25 06:06:15] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/79/7d/71a764d6bb5ef91a077774d4b5b2febaf3400df5a079987dc012bd6d9dc2/video_process-0.1.5.tar.gz
+[2023-06-25 06:06:15] INFO root fetch - processPackages [test-password-maker]: Downloading https://files.pythonhosted.org/packages/50/aa/8c68039e4d1322a22b692917e5c1ced48ed1d0c00097bb7c4aa238861fa3/test_password_maker-0.0.2.tar.gz
+[2023-06-25 06:06:15] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/d2/c9/b9e0fd7610bfa007908d43c813e704f3839c394ad82b45ba224a8d6f0b5f/video_process-0.1.6.tar.gz
+[2023-06-25 06:06:15] INFO root fetch - processPackages [test-password-maker]: executing diffoscope
+[2023-06-25 06:06:15] INFO root fetch - processPackages [test-password-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_password_maker-0.0.1.tar.gz tmp/test_password_maker-0.0.2.tar.gz --markdown 20230625/t/test-password-maker/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 06:06:15] INFO root fetch - processPackages [pmxbot]: Downloading https://files.pythonhosted.org/packages/1b/e7/14e272769ecd82df63b0c9cf7a3bcf1fc3fd72cde627bded97e636fdde7c/pmxbot-1122.9.3.tar.gz
+[2023-06-25 06:06:15] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-06-25 06:06:15] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.1.5.tar.gz tmp/video_process-0.1.6.tar.gz --markdown 20230625/v/video-process/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 06:06:15] INFO root fetch - processPackages [pmxbot]: executing diffoscope
+[2023-06-25 06:06:15] INFO root fetch - processPackages [pmxbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmxbot-1122.9.2.tar.gz tmp/pmxbot-1122.9.3.tar.gz --markdown 20230625/p/pmxbot/1122.9.2-1122.9.3/diff.md --exclude *.pyd
+[2023-06-25 06:06:16] INFO root fetch - processPackages [test-password-maker]: Remove: archive file [/home/abi/fetcher/tmp/test_password_maker-0.0.1.tar.gz]
+[2023-06-25 06:06:16] INFO root fetch - processPackages [test-password-maker]: Remove: archive file [/home/abi/fetcher/tmp/test_password_maker-0.0.2.tar.gz]
+[2023-06-25 06:06:16] INFO root fetch - main [MainThread]: End processing [test-password-maker]: success
+[2023-06-25 06:06:16] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.5.tar.gz]
+[2023-06-25 06:06:16] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.6.tar.gz]
+[2023-06-25 06:06:16] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-06-25 06:06:17] INFO root fetch - processPackages [pmxbot]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot-1122.9.2.tar.gz]
+[2023-06-25 06:06:17] INFO root fetch - processPackages [pmxbot]: Remove: archive file [/home/abi/fetcher/tmp/pmxbot-1122.9.3.tar.gz]
+[2023-06-25 06:06:17] INFO root fetch - main [MainThread]: End processing [pmxbot]: success
+[2023-06-25 06:06:17] INFO root fetch - main [MainThread]: Store serial: [18634012]
