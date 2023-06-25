@@ -6316,3 +6316,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:40:20] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
 [2023-06-25 09:40:20] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
 [2023-06-25 09:40:20] INFO root fetch - main [MainThread]: Store serial: [18634869]
+[2023-06-25 09:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634869]
+[2023-06-25 09:45:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 09:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potato-tool
+[2023-06-25 09:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strictdoc
+[2023-06-25 09:45:29] WARNING root fetch - processPackages [potato-tool]: Skipping, unable to determine old version
+[2023-06-25 09:45:29] INFO root fetch - main [MainThread]: End processing [potato-tool] error
+[2023-06-25 09:45:29] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 09:45:29] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-06-25 09:45:29] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-06-25 09:45:29] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-06-25 09:45:29] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230625/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 09:45:31] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2023-06-25 09:45:31] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2023-06-25 09:45:31] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-06-25 09:45:31] INFO root fetch - main [MainThread]: Store serial: [18634877]
