@@ -10780,3 +10780,20 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:14:52] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
 [2023-06-25 16:14:52] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
 [2023-06-25 16:14:52] INFO root fetch - main [MainThread]: Store serial: [18636835]
+[2023-06-25 16:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636835]
+[2023-06-25 16:20:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 16:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodeDict
+[2023-06-25 16:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: so-vits-svc-fork
+[2023-06-25 16:20:01] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [4.1.0] Old Version: [4.0.3]
+[2023-06-25 16:20:01] INFO root fetch - processPackages [CodeDict]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 16:20:01] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/18/96/bf6c36ca077157791cc48a2d23beacb9b6a409a8c5a5f44f0ff9c59914ca/so_vits_svc_fork-4.0.3.tar.gz
+[2023-06-25 16:20:01] INFO root fetch - processPackages [CodeDict]: Downloading https://files.pythonhosted.org/packages/5a/25/1997ba7bf639f838a5ff5073a9aa7e30b38740578a40eae5f4af9d6f9bdf/CodeDict-0.0.3.tar.gz
+[2023-06-25 16:20:01] WARNING root fetch - processPackages [CodeDict]: Skipping package: exceeds size limit 48076238>=10485760
+[2023-06-25 16:20:01] INFO root fetch - main [MainThread]: End processing [CodeDict] error
+[2023-06-25 16:20:01] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/f3/cd/151567c5db24bb6cb703f610726823218a6b36ac1b7cfc00d93009effb29/so_vits_svc_fork-4.1.0.tar.gz
+[2023-06-25 16:20:01] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-06-25 16:20:01] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-4.0.3.tar.gz tmp/so_vits_svc_fork-4.1.0.tar.gz --markdown 20230625/s/so-vits-svc-fork/4.0.3-4.1.0/diff.md --exclude *.pyd
+[2023-06-25 16:20:02] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.0.3.tar.gz]
+[2023-06-25 16:20:02] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.1.0.tar.gz]
+[2023-06-25 16:20:03] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-06-25 16:20:03] INFO root fetch - main [MainThread]: Store serial: [18636840]
