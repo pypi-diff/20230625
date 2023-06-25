@@ -8366,3 +8366,37 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:37:29] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.1.tar.gz]
 [2023-06-25 12:37:29] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-25 12:37:29] INFO root fetch - main [MainThread]: Store serial: [18635751]
+[2023-06-25 12:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635751]
+[2023-06-25 12:42:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 12:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaven
+[2023-06-25 12:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sopel-remind
+[2023-06-25 12:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaven
+[2023-06-25 12:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erroraffirmations
+[2023-06-25 12:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citation-utils
+[2023-06-25 12:42:38] WARNING root fetch - processPackages [sopel-remind]: Skipping, unable to determine old version
+[2023-06-25 12:42:38] INFO root fetch - main [MainThread]: End processing [sopel-remind] error
+[2023-06-25 12:42:38] INFO root fetch - processPackages [heaven]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 12:42:38] INFO root fetch - processPackages [citation-utils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-25 12:42:38] WARNING root fetch - processPackages [erroraffirmations]: Skipping, unable to determine old version
+[2023-06-25 12:42:38] INFO root fetch - main [MainThread]: End processing [erroraffirmations] error
+[2023-06-25 12:42:38] INFO root fetch - processPackages [heaven]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 12:42:39] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/3e/12/6f3cad975e8a438f024d4eaf738a5a34b7bc8bd56f95251d3a6042666b9d/citation_utils-0.4.0.tar.gz
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/2f/17/211bc35629a291b7e15e8c481624e9e43a650cd4662e6a2594a75cca3127/heaven-0.0.8.tar.gz
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/2f/17/211bc35629a291b7e15e8c481624e9e43a650cd4662e6a2594a75cca3127/heaven-0.0.8.tar.gz
+[2023-06-25 12:42:39] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/71/f8/27ce6e47bcde047a103cd24f8d50c27fbb88bc4918d6d52067a273e223ce/citation_utils-0.4.1.tar.gz
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/0f/93/859cbebed265bb43a3a4457177e0d2fcb36a651326a9cd10af97735ac8cb/heaven-0.0.9.tar.gz
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/0f/93/859cbebed265bb43a3a4457177e0d2fcb36a651326a9cd10af97735ac8cb/heaven-0.0.9.tar.gz
+[2023-06-25 12:42:39] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-06-25 12:42:39] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.4.0.tar.gz tmp/citation_utils-0.4.1.tar.gz --markdown 20230625/c/citation-utils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.8.tar.gz tmp/heaven-0.0.9.tar.gz --markdown 20230625/h/heaven/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2023-06-25 12:42:39] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.0.8.tar.gz tmp/heaven-0.0.9.tar.gz --markdown 20230625/h/heaven/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 12:42:40] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.0.tar.gz]
+[2023-06-25 12:42:40] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.1.tar.gz]
+[2023-06-25 12:42:40] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-06-25 12:42:40] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.8.tar.gz]
+[2023-06-25 12:42:40] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.0.9.tar.gz]
+[2023-06-25 12:42:40] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-25 12:42:40] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2023-06-25 12:42:40] INFO root fetch - main [MainThread]: Store serial: [18635773]
