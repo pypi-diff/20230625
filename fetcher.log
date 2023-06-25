@@ -3854,3 +3854,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:45:31] INFO root fetch - processPackages [edge-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/edge_testing_framework-0.1.7.tar.gz]
 [2023-06-25 05:45:31] INFO root fetch - main [MainThread]: End processing [edge-testing-framework]: success
 [2023-06-25 05:45:31] INFO root fetch - main [MainThread]: Store serial: [18633952]
+[2023-06-25 05:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633952]
+[2023-06-25 05:50:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 05:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intercode-bench
+[2023-06-25 05:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viqi-api
+[2023-06-25 05:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agent-automata
+[2023-06-25 05:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen-validate
+[2023-06-25 05:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissist
+[2023-06-25 05:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wizlib
+[2023-06-25 05:50:40] INFO root fetch - processPackages [agent-automata]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 05:50:40] WARNING root fetch - processPackages [gen-validate]: Skipping, unable to determine old version
+[2023-06-25 05:50:40] INFO root fetch - main [MainThread]: End processing [gen-validate] error
+[2023-06-25 05:50:40] INFO root fetch - processPackages [aissist]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 05:50:40] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2023-06-25 05:50:40] INFO root fetch - processPackages [intercode-bench]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 05:50:40] INFO root fetch - processPackages [agent-automata]: Downloading https://files.pythonhosted.org/packages/cf/7a/fcd8ce6952afdcabb3b8765e84d534b303aba3614acf429b5c7ff154c42e/agent_automata-0.1.4.tar.gz
+[2023-06-25 05:50:40] INFO root fetch - processPackages [wizlib]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-25 05:50:40] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2023-06-25 05:50:40] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/b7/fe/2aac61407660f9eb72ef5748a95dd2f3a88ee1beb4584e7d156c06640fa4/aissist-0.0.4.tar.gz
+[2023-06-25 05:50:40] INFO root fetch - processPackages [intercode-bench]: Downloading https://files.pythonhosted.org/packages/67/aa/07f6b1f39cf7fa84432179c69f96537067feed9468e7af0efd501d5a66f9/intercode-bench-0.1.4.tar.gz
+[2023-06-25 05:50:40] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2023-06-25 05:50:40] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/f0/dc/f4d359489d68db1e90f9a336970b169ec2021dc2660a8f5abb63544f6ea0/wizlib-0.2.3.tar.gz
+[2023-06-25 05:50:40] INFO root fetch - processPackages [agent-automata]: Downloading https://files.pythonhosted.org/packages/c5/c9/45d5ec41f31cd9f179dc12ed11229edd5643adb9f9fa8b157da416a846f2/agent_automata-0.1.5.tar.gz
+[2023-06-25 05:50:41] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/77/4d/8ad5a8394ab0a6d711ed5b38870c4c32894190cddd3256edf2b58b73a33b/aissist-0.0.5.tar.gz
+[2023-06-25 05:50:41] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2023-06-25 05:50:41] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20230625/v/viqi-api/0.6.4.8-0.6.4.9/diff.md --exclude *.pyd
+[2023-06-25 05:50:41] INFO root fetch - processPackages [agent-automata]: executing diffoscope
+[2023-06-25 05:50:41] INFO root fetch - processPackages [agent-automata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_automata-0.1.4.tar.gz tmp/agent_automata-0.1.5.tar.gz --markdown 20230625/a/agent-automata/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 05:50:41] INFO root fetch - processPackages [intercode-bench]: Downloading https://files.pythonhosted.org/packages/c7/53/5d1b44b072c6a9f1efd9dffa0a8e7b64a7f514ca99ccb4ca058a971c30df/intercode-bench-0.1.5.tar.gz
+[2023-06-25 05:50:41] INFO root fetch - processPackages [aissist]: executing diffoscope
+[2023-06-25 05:50:41] INFO root fetch - processPackages [aissist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissist-0.0.4.tar.gz tmp/aissist-0.0.5.tar.gz --markdown 20230625/a/aissist/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 05:50:41] INFO root fetch - processPackages [intercode-bench]: executing diffoscope
+[2023-06-25 05:50:41] INFO root fetch - processPackages [intercode-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intercode-bench-0.1.4.tar.gz tmp/intercode-bench-0.1.5.tar.gz --markdown 20230625/i/intercode-bench/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 05:50:41] INFO root fetch - processPackages [wizlib]: Downloading https://files.pythonhosted.org/packages/57/43/701875f7ada993e914e4bd60724a9db9836c779ece77b0ac5fbb4d34fda6/wizlib-0.2.5.tar.gz
+[2023-06-25 05:50:41] INFO root fetch - processPackages [wizlib]: executing diffoscope
+[2023-06-25 05:50:41] INFO root fetch - processPackages [wizlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizlib-0.2.3.tar.gz tmp/wizlib-0.2.5.tar.gz --markdown 20230625/w/wizlib/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-25 05:50:42] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2023-06-25 05:50:42] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2023-06-25 05:50:42] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2023-06-25 05:50:42] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.4.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.5.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - main [MainThread]: End processing [aissist]: success
+[2023-06-25 05:50:42] INFO root fetch - processPackages [agent-automata]: Remove: archive file [/home/abi/fetcher/tmp/agent_automata-0.1.4.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - processPackages [agent-automata]: Remove: archive file [/home/abi/fetcher/tmp/agent_automata-0.1.5.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - main [MainThread]: End processing [agent-automata]: success
+[2023-06-25 05:50:42] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.4.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.5.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - main [MainThread]: End processing [intercode-bench]: success
+[2023-06-25 05:50:42] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.3.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - processPackages [wizlib]: Remove: archive file [/home/abi/fetcher/tmp/wizlib-0.2.5.tar.gz]
+[2023-06-25 05:50:42] INFO root fetch - main [MainThread]: End processing [wizlib]: success
+[2023-06-25 05:50:42] INFO root fetch - main [MainThread]: Store serial: [18633971]
