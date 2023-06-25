@@ -3625,3 +3625,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:13:56] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
 [2023-06-25 05:13:56] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-06-25 05:13:56] INFO root fetch - main [MainThread]: Store serial: [18633856]
+[2023-06-25 05:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633856]
+[2023-06-25 05:19:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 05:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cns
+[2023-06-25 05:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chat-box-streamlit
+[2023-06-25 05:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cns
+[2023-06-25 05:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flux-burst
+[2023-06-25 05:19:05] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-25 05:19:05] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-25 05:19:05] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-25 05:19:05] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 05:19:05] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-25 05:19:05] WARNING root fetch - processPackages [flux-burst]: Skipping, unable to determine old version
+[2023-06-25 05:19:05] INFO root fetch - main [MainThread]: End processing [flux-burst] error
+[2023-06-25 05:19:05] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/6c/bc/8c03082d9a47ec37e2af6a1240a2be477fab56e25f58b1db52b2cd440e84/chat-box-streamlit-0.0.4.tar.gz
+[2023-06-25 05:19:05] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/38/cd/37ac397adec67700b65ad6f6c2d425f8978b17331115aba9dc6954a1930e/chat-box-streamlit-0.0.5.tar.gz
+[2023-06-25 05:19:05] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-06-25 05:19:05] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.4.tar.gz tmp/chat-box-streamlit-0.0.5.tar.gz --markdown 20230625/c/chat-box-streamlit/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 05:19:07] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.4.tar.gz]
+[2023-06-25 05:19:07] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.5.tar.gz]
+[2023-06-25 05:19:07] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-06-25 05:19:07] INFO root fetch - main [MainThread]: Store serial: [18633879]
