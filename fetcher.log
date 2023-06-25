@@ -13795,3 +13795,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:20:15] INFO root fetch - processPackages [schem]: Remove: archive file [/home/abi/fetcher/tmp/schem-0.9.7.tar.gz]
 [2023-06-25 20:20:15] INFO root fetch - main [MainThread]: End processing [schem]: success
 [2023-06-25 20:20:15] INFO root fetch - main [MainThread]: Store serial: [18638134]
+[2023-06-25 20:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638134]
+[2023-06-25 20:25:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 20:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snort-web-master
+[2023-06-25 20:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpubs
+[2023-06-25 20:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c-custom-code-checker
+[2023-06-25 20:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zedstat
+[2023-06-25 20:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-25 20:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: empty-files
+[2023-06-25 20:25:25] WARNING root fetch - processPackages [c-custom-code-checker]: Skipping, unable to determine old version
+[2023-06-25 20:25:25] INFO root fetch - main [MainThread]: End processing [c-custom-code-checker] error
+[2023-06-25 20:25:25] INFO root fetch - processPackages [snort-web-master]: New version: [1.0.0.3] Old Version: [1.0.0.2]
+[2023-06-25 20:25:25] INFO root fetch - processPackages [zedstat]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 20:25:25] INFO root fetch - processPackages [gpubs]: New version: [3] Old Version: [2]
+[2023-06-25 20:25:26] INFO root fetch - processPackages [kcli]: New version: [99.0.202306251825] Old Version: [99.0.202306251742]
+[2023-06-25 20:25:26] INFO root fetch - processPackages [zedstat]: Downloading https://files.pythonhosted.org/packages/0c/c7/c0cf9fe7d807ad52059c321a3f39e23d4a870d99c91e16e45d65cc6f2146/zedstat-0.0.98.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/a6/792588e645e8230a2ad6a8025931e41baf78d84c8508234b3d9157926b4d/kcli-99.0.202306251742-py3-none-any.whl
+[2023-06-25 20:25:26] INFO root fetch - processPackages [empty-files]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 20:25:26] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/57/70/c672709507105a5504a53f20db06b574bfe8f762fd7e72e8eb4f2269b456/snort_web_master-1.0.0.2.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [gpubs]: Downloading https://files.pythonhosted.org/packages/94/14/e1dc4080a887db36fb918b10975890d0c546ce18f9112e71db74d177943a/gpubs-2.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [zedstat]: Downloading https://files.pythonhosted.org/packages/d5/5a/f2d98d6de497697eff5fa441808a8c69c9feaf708be05752b37e0e9c0eb6/zedstat-0.0.99.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [empty-files]: Downloading https://files.pythonhosted.org/packages/d9/74/b0a8c620ae46637586e4152cf34e71dfbf2090f6dcc3201474cc23c9c0a7/empty-files-0.0.3.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [zedstat]: executing diffoscope
+[2023-06-25 20:25:26] INFO root fetch - processPackages [zedstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zedstat-0.0.98.tar.gz tmp/zedstat-0.0.99.tar.gz --markdown 20230625/z/zedstat/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 20:25:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3f/06/5ea189514afa0f1c67f1921da07c3e4ee53a4274197308abe95ba36f2570/kcli-99.0.202306251825-py3-none-any.whl
+[2023-06-25 20:25:26] INFO root fetch - processPackages [gpubs]: Downloading https://files.pythonhosted.org/packages/3e/00/4c62ea7194857b8af21567c3330af3d7f7b13c6060f8efca926461c11c86/gpubs-3.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [gpubs]: executing diffoscope
+[2023-06-25 20:25:26] INFO root fetch - processPackages [gpubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpubs-2.tar.gz tmp/gpubs-3.tar.gz --markdown 20230625/g/gpubs/2-3/diff.md --exclude *.pyd
+[2023-06-25 20:25:26] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/d5/9a/a6d1026dd7fb0520e83e6ced7d2a9e489de48a8ac9720e2492cbc80658fc/snort_web_master-1.0.0.3.tar.gz
+[2023-06-25 20:25:26] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-25 20:25:26] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306251742-py3-none-any.whl.zip tmp/kcli-99.0.202306251825-py3-none-any.whl.zip --markdown 20230625/k/kcli/99.0.202306251742-99.0.202306251825/diff.md --exclude *.pyd
+[2023-06-25 20:25:26] INFO root fetch - processPackages [empty-files]: Downloading https://files.pythonhosted.org/packages/ea/90/5a0ecd27d3607fb40caa44bc4dbfa490a9e78b34703a4a84b6a9b1b2220d/empty-files-0.0.4.tar.gz
+[2023-06-25 20:25:27] INFO root fetch - processPackages [empty-files]: executing diffoscope
+[2023-06-25 20:25:27] INFO root fetch - processPackages [empty-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empty-files-0.0.3.tar.gz tmp/empty-files-0.0.4.tar.gz --markdown 20230625/e/empty-files/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 20:25:27] INFO root fetch - processPackages [snort-web-master]: executing diffoscope
+[2023-06-25 20:25:27] INFO root fetch - processPackages [snort-web-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snort_web_master-1.0.0.2.tar.gz tmp/snort_web_master-1.0.0.3.tar.gz --markdown 20230625/s/snort-web-master/1.0.0.2-1.0.0.3/diff.md --exclude *.pyd
+[2023-06-25 20:25:27] INFO root fetch - processPackages [zedstat]: Remove: archive file [/home/abi/fetcher/tmp/zedstat-0.0.98.tar.gz]
+[2023-06-25 20:25:27] INFO root fetch - processPackages [zedstat]: Remove: archive file [/home/abi/fetcher/tmp/zedstat-0.0.99.tar.gz]
+[2023-06-25 20:25:27] INFO root fetch - main [MainThread]: End processing [zedstat]: success
+[2023-06-25 20:25:27] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-2.tar.gz]
+[2023-06-25 20:25:27] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-3.tar.gz]
+[2023-06-25 20:25:27] INFO root fetch - main [MainThread]: End processing [gpubs]: success
+[2023-06-25 20:25:28] INFO root fetch - processPackages [empty-files]: Remove: archive file [/home/abi/fetcher/tmp/empty-files-0.0.3.tar.gz]
+[2023-06-25 20:25:28] INFO root fetch - processPackages [empty-files]: Remove: archive file [/home/abi/fetcher/tmp/empty-files-0.0.4.tar.gz]
+[2023-06-25 20:25:28] INFO root fetch - main [MainThread]: End processing [empty-files]: success
+[2023-06-25 20:25:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251742-py3-none-any.whl.zip]
+[2023-06-25 20:25:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251825-py3-none-any.whl.zip]
+[2023-06-25 20:25:36] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-25 20:25:56] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.2.tar.gz]
+[2023-06-25 20:25:56] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.3.tar.gz]
+[2023-06-25 20:25:56] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
+[2023-06-25 20:25:56] INFO root fetch - main [MainThread]: Store serial: [18638160]
