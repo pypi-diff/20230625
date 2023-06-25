@@ -14850,3 +14850,85 @@ AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
 [2023-06-25 21:50:06] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.5.5.tar.gz]
 [2023-06-25 21:50:06] INFO root fetch - main [MainThread]: End processing [gridworks-protocol]: success
 [2023-06-25 21:50:06] INFO root fetch - main [MainThread]: Store serial: [18638613]
+[2023-06-25 21:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638613]
+[2023-06-25 21:55:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chargemaster-parsers
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfinv-generator
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-khronos
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pttp
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vulturecov
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: m23
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipyvasp
+[2023-06-25 21:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: focalnet-tf
+[2023-06-25 21:55:15] INFO root fetch - processPackages [chargemaster-parsers]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 21:55:15] WARNING root fetch - processPackages [vulturecov]: Skipping, unable to determine old version
+[2023-06-25 21:55:15] INFO root fetch - processPackages [vulturecov]: Start processing: xklb
+[2023-06-25 21:55:15] INFO root fetch - main [MainThread]: End processing [vulturecov] error
+[2023-06-25 21:55:15] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230625195247] Old Version: [2.1.1.dev20230625195031]
+[2023-06-25 21:55:15] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230625195247] Old Version: [2.1.1.dev20230625195031]
+[2023-06-25 21:55:15] INFO root fetch - processPackages [pttp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 21:55:15] WARNING root fetch - processPackages [django-khronos]: Skipping, unable to determine old version
+[2023-06-25 21:55:15] INFO root fetch - main [MainThread]: End processing [django-khronos] error
+[2023-06-25 21:55:15] INFO root fetch - processPackages [xklb]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-25 21:55:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/b1/a1/03a47da30bb6a1c754c92f2f9789d463bf99ff6025502a3b10459768037e/xklb-2.1.8.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [ipyvasp]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-25 21:55:16] INFO root fetch - processPackages [focalnet-tf]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-06-25 21:55:16] INFO root fetch - processPackages [m23]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-25 21:55:16] WARNING root fetch - processPackages [pdfinv-generator]: Skipping, unable to determine old version
+[2023-06-25 21:55:16] INFO root fetch - main [MainThread]: End processing [pdfinv-generator] error
+[2023-06-25 21:55:16] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/81/66/234c17a8ef0397cddf04882bced2f03458af63f446ec4e63706725789977/m23-1.8.1.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [chargemaster-parsers]: Downloading https://files.pythonhosted.org/packages/96/95/a79aea9e63c55ae28b3e708b8a3a6c13271ffc5f29764528d8b489b6bde9/chargemaster_parsers-0.0.2.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [pttp]: Downloading https://files.pythonhosted.org/packages/20/29/3d85e16c5d3a2ef75fbf3193633798d491ee945b188e327a84db6319b05a/pttp-0.0.1.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/87/35/7532c486da95290fd0e4c8a17576ebd941a1a7425eabef63818562889284/localstack-core-2.1.1.dev20230625195031.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2e/31/1637bef7e4aaf8529af80e5d5d27b2eca11c30c3a63fd32033fb97549c52/xklb-2.1.9.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/87/35/7532c486da95290fd0e4c8a17576ebd941a1a7425eabef63818562889284/localstack-core-2.1.1.dev20230625195031.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [ipyvasp]: Downloading https://files.pythonhosted.org/packages/79/b6/060ff6c4f4c322783314e932f77e3b0d38883092530c76719b68ae54ce97/ipyvasp-0.1.0.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [focalnet-tf]: Downloading https://files.pythonhosted.org/packages/57/98/dc2c391832d4b2b14d7a5ad0330227d894780d33b6f0060db417f1065d40/focalnet-tf-0.0.2.1.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-25 21:55:16] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.8.tar.gz tmp/xklb-2.1.9.tar.gz --markdown 20230625/x/xklb/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-25 21:55:16] INFO root fetch - processPackages [pttp]: Downloading https://files.pythonhosted.org/packages/33/b4/047fd69d7515ddb58c90e3d917151cf617c1be7e785efa2dbe7298e07dfa/pttp-0.0.2.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/0a/44/705c9726984438de5bec99f9947619f3668612c67ecf9aac3a94010aad52/m23-1.8.2.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [pttp]: executing diffoscope
+[2023-06-25 21:55:16] INFO root fetch - processPackages [pttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pttp-0.0.1.tar.gz tmp/pttp-0.0.2.tar.gz --markdown 20230625/p/pttp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 21:55:16] INFO root fetch - processPackages [chargemaster-parsers]: Downloading https://files.pythonhosted.org/packages/c8/3b/1985ae72914d02e2954d8df9d57a6b8f38f67d7a7f3b072fdc25ba28a520/chargemaster_parsers-0.0.3.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [focalnet-tf]: Downloading https://files.pythonhosted.org/packages/ed/4c/d378e0f641cbe0c31820945b2b0c21ffe8e79677408828322a849207039d/focalnet-tf-0.0.2.2.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/cc/162f5a7f38f2ccda81328d18f90efcf58fe4a7a59cb4413ee6e3230830c5/localstack-core-2.1.1.dev20230625195247.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [ipyvasp]: Downloading https://files.pythonhosted.org/packages/8b/79/77a4130ad2912ff6c134cf610cb9d1634902552e619c599a71c0d0b2bb35/ipyvasp-0.2.0.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/cc/162f5a7f38f2ccda81328d18f90efcf58fe4a7a59cb4413ee6e3230830c5/localstack-core-2.1.1.dev20230625195247.tar.gz
+[2023-06-25 21:55:16] INFO root fetch - processPackages [chargemaster-parsers]: executing diffoscope
+[2023-06-25 21:55:16] INFO root fetch - processPackages [chargemaster-parsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargemaster_parsers-0.0.2.tar.gz tmp/chargemaster_parsers-0.0.3.tar.gz --markdown 20230625/c/chargemaster-parsers/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 21:55:16] INFO root fetch - processPackages [focalnet-tf]: executing diffoscope
+[2023-06-25 21:55:16] INFO root fetch - processPackages [focalnet-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focalnet-tf-0.0.2.1.tar.gz tmp/focalnet-tf-0.0.2.2.tar.gz --markdown 20230625/f/focalnet-tf/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-06-25 21:55:16] INFO root fetch - processPackages [ipyvasp]: executing diffoscope
+[2023-06-25 21:55:16] INFO root fetch - processPackages [ipyvasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyvasp-0.1.0.tar.gz tmp/ipyvasp-0.2.0.tar.gz --markdown 20230625/i/ipyvasp/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 21:55:16] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-25 21:55:16] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.1.tar.gz tmp/m23-1.8.2.tar.gz --markdown 20230625/m/m23/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-25 21:55:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-25 21:55:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230625195031.tar.gz tmp/localstack-core-2.1.1.dev20230625195247.tar.gz --markdown 20230625/l/localstack-core/2.1.1.dev20230625195031-2.1.1.dev20230625195247/diff.md --exclude *.pyd
+[2023-06-25 21:55:17] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-25 21:55:17] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230625195031.tar.gz tmp/localstack-core-2.1.1.dev20230625195247.tar.gz --markdown 20230625/l/localstack-core/2.1.1.dev20230625195031-2.1.1.dev20230625195247/diff.md --exclude *.pyd
+[2023-06-25 21:55:17] INFO root fetch - processPackages [pttp]: Remove: archive file [/home/abi/fetcher/tmp/pttp-0.0.1.tar.gz]
+[2023-06-25 21:55:17] INFO root fetch - processPackages [pttp]: Remove: archive file [/home/abi/fetcher/tmp/pttp-0.0.2.tar.gz]
+[2023-06-25 21:55:17] INFO root fetch - main [MainThread]: End processing [pttp]: success
+[2023-06-25 21:55:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.8.tar.gz]
+[2023-06-25 21:55:18] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
+[2023-06-25 21:55:18] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-25 21:55:18] INFO root fetch - processPackages [ipyvasp]: Remove: archive file [/home/abi/fetcher/tmp/ipyvasp-0.1.0.tar.gz]
+[2023-06-25 21:55:18] INFO root fetch - processPackages [ipyvasp]: Remove: archive file [/home/abi/fetcher/tmp/ipyvasp-0.2.0.tar.gz]
+[2023-06-25 21:55:18] INFO root fetch - main [MainThread]: End processing [ipyvasp]: success
+[2023-06-25 21:55:18] INFO root fetch - processPackages [chargemaster-parsers]: Remove: archive file [/home/abi/fetcher/tmp/chargemaster_parsers-0.0.2.tar.gz]
+[2023-06-25 21:55:18] INFO root fetch - processPackages [chargemaster-parsers]: Remove: archive file [/home/abi/fetcher/tmp/chargemaster_parsers-0.0.3.tar.gz]
+[2023-06-25 21:55:18] INFO root fetch - main [MainThread]: End processing [chargemaster-parsers]: success
+[2023-06-25 21:55:19] INFO root fetch - processPackages [focalnet-tf]: Remove: archive file [/home/abi/fetcher/tmp/focalnet-tf-0.0.2.1.tar.gz]
+[2023-06-25 21:55:19] INFO root fetch - processPackages [focalnet-tf]: Remove: archive file [/home/abi/fetcher/tmp/focalnet-tf-0.0.2.2.tar.gz]
+[2023-06-25 21:55:19] INFO root fetch - main [MainThread]: End processing [focalnet-tf]: success
+[2023-06-25 21:55:21] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.1.tar.gz]
+[2023-06-25 21:55:21] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.2.tar.gz]
+[2023-06-25 21:55:21] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-25 21:55:24] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230625195031.tar.gz]
+[2023-06-25 21:55:24] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230625195247.tar.gz]
+[2023-06-25 21:55:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-25 21:55:24] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-25 21:55:24] INFO root fetch - main [MainThread]: Store serial: [18638652]
