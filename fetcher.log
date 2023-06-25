@@ -14169,3 +14169,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:52:04] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.21.tar.gz]
 [2023-06-25 20:52:04] INFO root fetch - main [MainThread]: End processing [datawise]: success
 [2023-06-25 20:52:04] INFO root fetch - main [MainThread]: Store serial: [18638320]
+[2023-06-25 20:57:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638320]
+[2023-06-25 20:57:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowtask
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-csp
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ArtByCode
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-notify
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stormlibpp
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embedchain
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypha
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnisoot
+[2023-06-25 20:57:13] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ArtByCode]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 20:57:13] INFO root fetch - processPackages [omnisoot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 20:57:13] INFO root fetch - processPackages [stormlibpp]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-25 20:57:13] WARNING root fetch - processPackages [wagtail-csp]: Skipping, unable to determine old version
+[2023-06-25 20:57:13] INFO root fetch - main [MainThread]: End processing [wagtail-csp] error
+[2023-06-25 20:57:13] INFO root fetch - processPackages [async-notify]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 20:57:13] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-25 20:57:13] INFO root fetch - processPackages [flowtask]: New version: [4.5.8] Old Version: [4.5.7]
+[2023-06-25 20:57:13] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/0c/c0/c93b07d055804b919eff74240a1fefac7e745fae725e6a4c91b7e1ed1b2d/stormlibpp-0.1.2.tar.gz
+[2023-06-25 20:57:13] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-06-25 20:57:13] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-25 20:57:13] INFO root fetch - processPackages [ArtByCode]: Downloading https://files.pythonhosted.org/packages/ba/89/ed78e5f175ba4a8ad769ddf1d8684711b2fbbd8ed9fd9cf1d706e9d16122/ArtByCode-0.0.1.tar.gz
+[2023-06-25 20:57:13] INFO root fetch - processPackages [async-notify]: Downloading https://files.pythonhosted.org/packages/8c/25/74c18b473c123b90d1c771f08f4f122fed7b9288394597bdb1fa1d00eace/async_notify-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 20:57:13] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/98/3b/df19eb65d82c6c6e4a15e770cb0c85ba2c3b4f521f7c338fa79a59939d5b/flowtask-4.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 20:57:13] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/20/a0/7365827734d4ae8d622f2352df5bd5e18d8d0d90115f10b984fb430968b6/omnisoot-0.1.4-cp39-cp39-win_amd64.whl
+[2023-06-25 20:57:13] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-25 20:57:14] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-06-25 20:57:14] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/fd/3d/497e899d368a80aa7fc2c8ac5bf4c8d4398dc25ff6a6c7691eced7b85364/stormlibpp-0.2.0.tar.gz
+[2023-06-25 20:57:14] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-06-25 20:57:14] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230625/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 20:57:14] INFO root fetch - processPackages [ArtByCode]: Downloading https://files.pythonhosted.org/packages/61/13/468fbb7ac4341802029e9360ab44059a90ad6987a4fa7d43093c407fe621/ArtByCode-0.0.2.tar.gz
+[2023-06-25 20:57:14] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-25 20:57:14] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230625/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-25 20:57:14] INFO root fetch - processPackages [async-notify]: Downloading https://files.pythonhosted.org/packages/16/05/71bf498d5b10a4d1de4c6282097651036ab7285e74770e84cee1658f8bac/async_notify-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 20:57:14] INFO root fetch - processPackages [stormlibpp]: executing diffoscope
+[2023-06-25 20:57:14] INFO root fetch - processPackages [stormlibpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stormlibpp-0.1.2.tar.gz tmp/stormlibpp-0.2.0.tar.gz --markdown 20230625/s/stormlibpp/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 20:57:14] INFO root fetch - processPackages [ArtByCode]: executing diffoscope
+[2023-06-25 20:57:14] INFO root fetch - processPackages [ArtByCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArtByCode-0.0.1.tar.gz tmp/ArtByCode-0.0.2.tar.gz --markdown 20230625/A/ArtByCode/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 20:57:14] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 20:57:14] INFO root fetch - processPackages [async-notify]: executing diffoscope
+[2023-06-25 20:57:14] INFO root fetch - processPackages [async-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_notify-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/async_notify-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/a/async-notify/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 20:57:14] INFO root fetch - processPackages [omnisoot]: Downloading https://files.pythonhosted.org/packages/ff/99/0fe61fa94962bc4190069b8cc01e24fd79d9ba882d8c6ad5a8fe4941c978/omnisoot-0.1.5-cp39-cp39-win_amd64.whl
+[2023-06-25 20:57:14] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-25 20:57:14] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/f/flowtask/4.5.7-4.5.8/diff.md --exclude *.pyd
+[2023-06-25 20:57:15] INFO root fetch - processPackages [omnisoot]: executing diffoscope
+[2023-06-25 20:57:15] INFO root fetch - processPackages [omnisoot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnisoot-0.1.4-cp39-cp39-win_amd64.whl.zip tmp/omnisoot-0.1.5-cp39-cp39-win_amd64.whl.zip --markdown 20230625/o/omnisoot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 20:57:15] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-06-25 20:57:15] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-06-25 20:57:15] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-06-25 20:57:15] INFO root fetch - processPackages [ArtByCode]: Remove: archive file [/home/abi/fetcher/tmp/ArtByCode-0.0.1.tar.gz]
+[2023-06-25 20:57:15] INFO root fetch - processPackages [ArtByCode]: Remove: archive file [/home/abi/fetcher/tmp/ArtByCode-0.0.2.tar.gz]
+[2023-06-25 20:57:15] INFO root fetch - main [MainThread]: End processing [ArtByCode]: success
+[2023-06-25 20:57:15] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.1.2.tar.gz]
+[2023-06-25 20:57:15] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.2.0.tar.gz]
+[2023-06-25 20:57:15] INFO root fetch - main [MainThread]: End processing [stormlibpp]: success
+[2023-06-25 20:57:16] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-25 20:57:16] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-25 20:57:16] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-25 20:57:16] INFO root fetch - processPackages [async-notify]: Remove: archive file [/home/abi/fetcher/tmp/async_notify-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 20:57:16] INFO root fetch - processPackages [async-notify]: Remove: archive file [/home/abi/fetcher/tmp/async_notify-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 20:57:16] INFO root fetch - main [MainThread]: End processing [async-notify]: success
+[2023-06-25 20:57:16] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 20:57:16] INFO root fetch - processPackages [omnisoot]: Remove: archive file [/home/abi/fetcher/tmp/omnisoot-0.1.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 20:57:16] INFO root fetch - main [MainThread]: End processing [omnisoot]: success
+[2023-06-25 20:57:18] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 20:57:18] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 20:57:18] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-25 20:57:18] INFO root fetch - main [MainThread]: Store serial: [18638358]
