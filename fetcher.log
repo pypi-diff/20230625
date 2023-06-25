@@ -4513,3 +4513,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:03:22] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.0.1-py3-none-any.whl.zip]
 [2023-06-25 07:03:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
 [2023-06-25 07:03:22] INFO root fetch - main [MainThread]: Store serial: [18634167]
+[2023-06-25 07:08:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634167]
+[2023-06-25 07:08:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popari
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text2text
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsutsuji-trackcomputer
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FlightRadarAPI
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-session
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dask-cuda
+[2023-06-25 07:08:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: translator-json
+[2023-06-25 07:08:31] INFO root fetch - processPackages [popari]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [text2text]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [tsutsuji-trackcomputer]: New version: [1.7.1] Old Version: [1.6.1]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230625] Old Version: [0.1.1.dev20230624]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [translator-json]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230624] Old Version: [23.8.0a230623]
+[2023-06-25 07:08:31] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/28/6f/e9f7ca2eb25693e0694ff0b7ec2ab1f6377725e64ddd5c7f7f1d5c16af03/rapid_pe-0.1.1.dev20230624.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/65/f5/68787d0eb687fa6534508cde4244cf24659ad0a55bb61543bda2f0768e5b/popari-0.0.8.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/16/8c/78ace2cf6782b0b9ad9c7641a103d5af7585152269b8dd4feca183376623/dask-cuda-23.8.0a230623.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/10/0a/04f382792a55770e72df2cd111f5ecc1772a5021bf9d2dc04b01e0f696a8/FlightRadarAPI-1.3.2.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/1c/47/5f7ee5fc745244a6fc31e57f9e28c14132da4f511fff065a2295be6858e6/text2text-1.1.2.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Downloading https://files.pythonhosted.org/packages/0c/4d/05680e459951e636d137979851a91d74db31198ae56752f3f5a870cf0bab/tsutsuji_trackcomputer-1.6.1-py3-none-any.whl
+[2023-06-25 07:08:31] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [translator-json]: Downloading https://files.pythonhosted.org/packages/b4/f9/be547616383d28523f82855bea0d6a8215a40057cf61e8a2f727e8421764/translator_json-1.0.7.tar.gz
+[2023-06-25 07:08:31] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-25 07:08:31] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230625/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/55/10/68d137ecee30a31064c51c04b0a8f2357ef6c8ff785ae57e39760aa7efea/FlightRadarAPI-1.3.3.tar.gz
+[2023-06-25 07:08:32] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230625/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/4d/c5/e7b0eeddd69ad3fc21a25b0072b65fba8d41dd924e83d94349dace2115b4/rapid_pe-0.1.1.dev20230625.tar.gz
+[2023-06-25 07:08:32] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.3.2.tar.gz tmp/FlightRadarAPI-1.3.3.tar.gz --markdown 20230625/F/FlightRadarAPI/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ce/cd/ebe87ef36eb2891ab75fd88d1796eeada0b91ba5ac9346e63e6c177cc74d/dask-cuda-23.8.0a230624.tar.gz
+[2023-06-25 07:08:32] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/32/90/548a88df5e1bb4876e07dc08dd3a6dcdf5c38aa7475663db4eb10bb88caf/popari-0.0.9.tar.gz
+[2023-06-25 07:08:32] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Downloading https://files.pythonhosted.org/packages/e3/0a/86cd8f0e07f191f3c4936be8cbb5d0e5d53ebc30a5ea016f115032895e8e/tsutsuji_trackcomputer-1.7.1-py3-none-any.whl
+[2023-06-25 07:08:32] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/d3/2f/d58bf1367c0a551eb4f95a12a967691532923168d3f58b0d48120dfc7edd/text2text-1.1.3.tar.gz
+[2023-06-25 07:08:32] INFO root fetch - processPackages [popari]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [popari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popari-0.0.8.tar.gz tmp/popari-0.0.9.tar.gz --markdown 20230625/p/popari/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.2.tar.gz tmp/text2text-1.1.3.tar.gz --markdown 20230625/t/text2text/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [translator-json]: Downloading https://files.pythonhosted.org/packages/3f/f9/9690c135d388cf41820433794d7f315548a97d2c789a163fdac98b9f36e1/translator_json-1.0.8.tar.gz
+[2023-06-25 07:08:32] INFO root fetch - processPackages [tsutsuji-trackcomputer]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [tsutsuji-trackcomputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsutsuji_trackcomputer-1.6.1-py3-none-any.whl.zip tmp/tsutsuji_trackcomputer-1.7.1-py3-none-any.whl.zip --markdown 20230625/t/tsutsuji-trackcomputer/1.6.1-1.7.1/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230624.tar.gz tmp/rapid_pe-0.1.1.dev20230625.tar.gz --markdown 20230625/r/rapid-pe/0.1.1.dev20230624-0.1.1.dev20230625/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230623.tar.gz tmp/dask-cuda-23.8.0a230624.tar.gz --markdown 20230625/d/dask-cuda/23.8.0a230623-23.8.0a230624/diff.md --exclude *.pyd
+[2023-06-25 07:08:32] INFO root fetch - processPackages [translator-json]: executing diffoscope
+[2023-06-25 07:08:32] INFO root fetch - processPackages [translator-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translator_json-1.0.7.tar.gz tmp/translator_json-1.0.8.tar.gz --markdown 20230625/t/translator-json/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-25 07:08:33] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-25 07:08:33] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-25 07:08:33] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-25 07:08:33] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.2.tar.gz]
+[2023-06-25 07:08:33] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.3.tar.gz]
+[2023-06-25 07:08:33] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-25 07:08:34] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.8.tar.gz]
+[2023-06-25 07:08:34] INFO root fetch - processPackages [popari]: Remove: archive file [/home/abi/fetcher/tmp/popari-0.0.9.tar.gz]
+[2023-06-25 07:08:34] INFO root fetch - main [MainThread]: End processing [popari]: success
+[2023-06-25 07:08:34] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Remove: archive file [/home/abi/fetcher/tmp/tsutsuji_trackcomputer-1.6.1-py3-none-any.whl.zip]
+[2023-06-25 07:08:34] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Remove: archive file [/home/abi/fetcher/tmp/tsutsuji_trackcomputer-1.7.1-py3-none-any.whl.zip]
+[2023-06-25 07:08:34] INFO root fetch - main [MainThread]: End processing [tsutsuji-trackcomputer]: success
+[2023-06-25 07:08:34] INFO root fetch - processPackages [translator-json]: Remove: archive file [/home/abi/fetcher/tmp/translator_json-1.0.7.tar.gz]
+[2023-06-25 07:08:34] INFO root fetch - processPackages [translator-json]: Remove: archive file [/home/abi/fetcher/tmp/translator_json-1.0.8.tar.gz]
+[2023-06-25 07:08:34] INFO root fetch - main [MainThread]: End processing [translator-json]: success
+[2023-06-25 07:08:35] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.2.tar.gz]
+[2023-06-25 07:08:35] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.3.tar.gz]
+[2023-06-25 07:08:35] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-25 07:08:35] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230623.tar.gz]
+[2023-06-25 07:08:35] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230624.tar.gz]
+[2023-06-25 07:08:35] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-25 07:08:36] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230624.tar.gz]
+[2023-06-25 07:08:36] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230625.tar.gz]
+[2023-06-25 07:08:36] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-25 07:11:32] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-25 07:11:32] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-25 07:11:32] INFO root fetch - main [MainThread]: Store serial: [18634191]
