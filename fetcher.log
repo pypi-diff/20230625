@@ -12890,3 +12890,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:26:41] INFO root fetch - processPackages [mythril]: Remove: archive file [/home/abi/fetcher/tmp/mythril-0.9.2.tar.gz]
 [2023-06-25 19:26:41] INFO root fetch - main [MainThread]: End processing [mythril]: success
 [2023-06-25 19:26:41] INFO root fetch - main [MainThread]: Store serial: [18637764]
+[2023-06-25 19:31:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637764]
+[2023-06-25 19:31:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emreader
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytextrust
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: babyrobot
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoproxy
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Mensajes-Isidro
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfdf
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-prime-rando
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crazy-thursday
+[2023-06-25 19:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dszoro
+[2023-06-25 19:31:50] INFO root fetch - processPackages [Mensajes-Isidro]: New version: [6.0.0] Old Version: [5.0]
+[2023-06-25 19:31:50] INFO root fetch - processPackages [babyrobot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 19:31:50] INFO root fetch - processPackages [emreader]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-25 19:31:50] INFO root fetch - processPackages [open-prime-rando]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-06-25 19:31:50] ERROR root fetch - processPackages [dszoro]: Unable to get metadata: No such project 'dszoro'
+[2023-06-25 19:31:50] WARNING root fetch - processPackages [rdfdf]: Skipping, unable to determine old version
+[2023-06-25 19:31:50] INFO root fetch - processPackages [dszoro]: Start processing: kfish
+[2023-06-25 19:31:50] INFO root fetch - main [MainThread]: End processing [dszoro] error
+[2023-06-25 19:31:50] INFO root fetch - processPackages [pytextrust]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 19:31:50] INFO root fetch - main [MainThread]: End processing [rdfdf] error
+[2023-06-25 19:31:50] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-25 19:31:50] INFO root fetch - processPackages [autoproxy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 19:31:50] INFO root fetch - processPackages [kcli]: New version: [99.0.202306251729] Old Version: [99.0.202306241558]
+[2023-06-25 19:31:51] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [Mensajes-Isidro]: Downloading https://files.pythonhosted.org/packages/b2/3f/9f937cf2d804b17e8d569fef9b3d04528fa3ac9f84625f524ee31620b85b/Mensajes-Isidro-5.0.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kfish]: New version: [99.0.202306251731] Old Version: [99.0.202306241601]
+[2023-06-25 19:31:51] INFO root fetch - processPackages [babyrobot]: Downloading https://files.pythonhosted.org/packages/40/37/2b19e197ee7324dd2e980bcfa8e754675bb1ca47c30acdcdaf4390a39ae5/babyrobot-1.0.8.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/fd/91/55aef49b0d733f69301aa79a37e11499124d10595b13a8158f6826235654/open-prime-rando-0.7.1.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [autoproxy]: Downloading https://files.pythonhosted.org/packages/5c/18/bb1bb3a741bd6237b8f28bfa9c6d3b2b38c3cc7955de79018a5dca87748b/autoproxy-0.0.1.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [emreader]: Downloading https://files.pythonhosted.org/packages/c8/79/da560bb4510d588b62edb1dcd539941521edd69fdfbb9d0ab6c367fa9f1a/emreader-0.1.7.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/e3/bc/f80188c791eb430f80fdc359f51af59d94e17662d770871ab9749eccd247/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f8/8c/db5ffa73e48c689cc1b3bfd563d78304b0935b2ec9b212a7e49d85202267/kcli-99.0.202306241558-py3-none-any.whl
+[2023-06-25 19:31:51] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230625/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9d/d9/aa4b873cbe3054f6d42fedd54eae7128a7f3c055293b1c4cc23a65bef469/kfish-99.0.202306241601-py3-none-any.whl
+[2023-06-25 19:31:51] INFO root fetch - processPackages [Mensajes-Isidro]: Downloading https://files.pythonhosted.org/packages/50/62/d75c46a65007131114c9f33c62e01df64040fb84351cc0f92031a5f260f4/Mensajes-Isidro-6.0.0.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [autoproxy]: Downloading https://files.pythonhosted.org/packages/79/22/02c0c7c67ebb46fc7797012c73bf51794476e5bcfe9462a3a78716f8ecc6/autoproxy-0.0.2.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [babyrobot]: Downloading https://files.pythonhosted.org/packages/4c/20/3a61f7effe2ce0041ea898bff945eba89b9e6e56dd8f07ad3223fb68a0f0/babyrobot-1.0.9.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [emreader]: Downloading https://files.pythonhosted.org/packages/64/9a/f9d07b0b15d2355e49a4e923412fe52cd5c0d6ebd8b3cb1557d29526af1a/emreader-0.1.8.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f7/36/8d4e1d1d4cb632ab8f11337fb3c42a143bca49a0eaa94757c77e98b13f3e/kcli-99.0.202306251729-py3-none-any.whl
+[2023-06-25 19:31:51] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/ca/89/c6795227920800583336b431d56f334ffec173f273098dfc1aaabc306d91/open-prime-rando-0.8.0.tar.gz
+[2023-06-25 19:31:51] INFO root fetch - processPackages [babyrobot]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [babyrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babyrobot-1.0.8.tar.gz tmp/babyrobot-1.0.9.tar.gz --markdown 20230625/b/babyrobot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [emreader]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [emreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emreader-0.1.7.tar.gz tmp/emreader-0.1.8.tar.gz --markdown 20230625/e/emreader/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.7.1.tar.gz tmp/open-prime-rando-0.8.0.tar.gz --markdown 20230625/o/open-prime-rando/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [autoproxy]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [autoproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoproxy-0.0.1.tar.gz tmp/autoproxy-0.0.2.tar.gz --markdown 20230625/a/autoproxy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [Mensajes-Isidro]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [Mensajes-Isidro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mensajes-Isidro-5.0.tar.gz tmp/Mensajes-Isidro-6.0.0.tar.gz --markdown 20230625/M/Mensajes-Isidro/5.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e2/87/96a185c75924a2e17709778ac531dd00f76ebc6dd3aceed0bfdb9729977f/kfish-99.0.202306251731-py3-none-any.whl
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306241558-py3-none-any.whl.zip tmp/kcli-99.0.202306251729-py3-none-any.whl.zip --markdown 20230625/k/kcli/99.0.202306241558-99.0.202306251729/diff.md --exclude *.pyd
+[2023-06-25 19:31:51] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/f2/50/3ac4f53e52c9ca00af65c870172d963a9bee545cd73c8470aef43e2d9ce7/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-25 19:31:51] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306241601-py3-none-any.whl.zip tmp/kfish-99.0.202306251731-py3-none-any.whl.zip --markdown 20230625/k/kfish/99.0.202306241601-99.0.202306251731/diff.md --exclude *.pyd
+[2023-06-25 19:31:52] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-25 19:31:52] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-25 19:31:52] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-25 19:31:52] INFO root fetch - processPackages [pytextrust]: executing diffoscope
+[2023-06-25 19:31:52] INFO root fetch - processPackages [pytextrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/p/pytextrust/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 19:31:53] INFO root fetch - processPackages [babyrobot]: Remove: archive file [/home/abi/fetcher/tmp/babyrobot-1.0.8.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - processPackages [babyrobot]: Remove: archive file [/home/abi/fetcher/tmp/babyrobot-1.0.9.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - main [MainThread]: End processing [babyrobot]: success
+[2023-06-25 19:31:53] INFO root fetch - processPackages [autoproxy]: Remove: archive file [/home/abi/fetcher/tmp/autoproxy-0.0.1.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - processPackages [autoproxy]: Remove: archive file [/home/abi/fetcher/tmp/autoproxy-0.0.2.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - main [MainThread]: End processing [autoproxy]: success
+[2023-06-25 19:31:53] INFO root fetch - processPackages [Mensajes-Isidro]: Remove: archive file [/home/abi/fetcher/tmp/Mensajes-Isidro-5.0.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - processPackages [Mensajes-Isidro]: Remove: archive file [/home/abi/fetcher/tmp/Mensajes-Isidro-6.0.0.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - main [MainThread]: End processing [Mensajes-Isidro]: success
+[2023-06-25 19:31:53] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306241601-py3-none-any.whl.zip]
+[2023-06-25 19:31:53] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251731-py3-none-any.whl.zip]
+[2023-06-25 19:31:53] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-25 19:31:53] INFO root fetch - processPackages [emreader]: Remove: archive file [/home/abi/fetcher/tmp/emreader-0.1.7.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - processPackages [emreader]: Remove: archive file [/home/abi/fetcher/tmp/emreader-0.1.8.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - main [MainThread]: End processing [emreader]: success
+[2023-06-25 19:31:53] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.7.1.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.8.0.tar.gz]
+[2023-06-25 19:31:53] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-06-25 19:32:01] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306241558-py3-none-any.whl.zip]
+[2023-06-25 19:32:01] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251729-py3-none-any.whl.zip]
+[2023-06-25 19:32:01] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-25 19:32:23] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:32:23] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:32:23] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
+[2023-06-25 19:32:23] INFO root fetch - main [MainThread]: Store serial: [18637805]
