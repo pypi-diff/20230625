@@ -3917,3 +3917,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:55:53] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.6.tar.gz]
 [2023-06-25 05:55:53] INFO root fetch - main [MainThread]: End processing [aissist]: success
 [2023-06-25 05:55:53] INFO root fetch - main [MainThread]: Store serial: [18633974]
+[2023-06-25 06:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633974]
+[2023-06-25 06:01:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-password-maker
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphawave
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-twc
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataprep-ml
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arknights-mower
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sigdf
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evals-nightly
+[2023-06-25 06:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-l10n-spain
+[2023-06-25 06:01:02] INFO root fetch - processPackages [alphawave]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-25 06:01:02] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 06:01:02] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-25 06:01:02] WARNING root fetch - processPackages [test-password-maker]: Skipping, unable to determine old version
+[2023-06-25 06:01:02] INFO root fetch - main [MainThread]: End processing [test-password-maker] error
+[2023-06-25 06:01:02] INFO root fetch - processPackages [dataprep-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 06:01:02] WARNING root fetch - processPackages [sigdf]: Skipping, unable to determine old version
+[2023-06-25 06:01:02] INFO root fetch - main [MainThread]: End processing [sigdf] error
+[2023-06-25 06:01:02] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230624.0] Old Version: [16.0.20230619.0]
+[2023-06-25 06:01:02] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230623] Old Version: [1.0.3.dev20230622]
+[2023-06-25 06:01:02] INFO root fetch - processPackages [arknights-mower]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-06-25 06:01:02] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/a2/c0/9e3160e3044b275aefde1635dc0b8240777b2905f18f5b576dfc36f6552d/dataprep_ml-0.0.8.tar.gz
+[2023-06-25 06:01:02] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/42/cb/791c6cb77cc0eebdd4c3ae7be746b3508f8323d727b8592647cbbcf75faa/evals-nightly-1.0.3.dev20230622.tar.gz
+[2023-06-25 06:01:02] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2023-06-25 06:01:02] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-06-25 06:01:02] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/df/e0/ce3e0f0489fa419d475226fb2aa955de74b35a87e4f53090fdec079f1a6e/odoo_addons_oca_l10n_spain-16.0.20230619.0-py3-none-any.whl
+[2023-06-25 06:01:02] INFO root fetch - processPackages [arknights-mower]: Downloading https://files.pythonhosted.org/packages/f3/e9/7b61c9cc8bbc29dca0870eb3b50e98e8c85ded7714546e94691434b89ef7/arknights_mower-3.3.3.tar.gz
+[2023-06-25 06:01:02] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2023-06-25 06:01:02] WARNING root fetch - processPackages [arknights-mower]: Skipping package: exceeds size limit 15857106>=10485760
+[2023-06-25 06:01:02] INFO root fetch - main [MainThread]: End processing [arknights-mower] error
+[2023-06-25 06:01:02] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/df/68/6abde14d213c7403001207c60cacb8a91f73c2e3c2a83e631d6fb3ab00e8/alphawave-0.2.7.tar.gz
+[2023-06-25 06:01:03] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/1a/60/95286a559a2b6fab866ee7e22018cfbc22ae3d75b7bd6d3c88231b9dfe5d/odoo_addons_oca_l10n_spain-16.0.20230624.0-py3-none-any.whl
+[2023-06-25 06:01:03] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2023-06-25 06:01:03] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/8e/5d/645cde37a49b819c229df0e53b8fc655f837f8b96ca12a634d98f6c0a6f0/evals-nightly-1.0.3.dev20230623.tar.gz
+[2023-06-25 06:01:03] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2023-06-25 06:01:03] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.8.tar.gz tmp/dataprep_ml-0.0.9.tar.gz --markdown 20230625/d/dataprep-ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 06:01:03] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-06-25 06:01:03] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-25 06:01:03] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230622.tar.gz tmp/evals-nightly-1.0.3.dev20230623.tar.gz --markdown 20230625/e/evals-nightly/1.0.3.dev20230622-1.0.3.dev20230623/diff.md --exclude *.pyd
+[2023-06-25 06:01:03] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-25 06:01:03] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230619.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230624.0-py3-none-any.whl.zip --markdown 20230625/o/odoo-addons-oca-l10n-spain/16.0.20230619.0-16.0.20230624.0/diff.md --exclude *.pyd
+[2023-06-25 06:01:03] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-06-25 06:01:03] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230625/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 06:01:03] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/7f/d6/6716a93cfc039a5e2b17a3d0bba0edff6587691df9bd3c4700365b90d971/alphawave-0.2.8.tar.gz
+[2023-06-25 06:01:03] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-06-25 06:01:03] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230625/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-25 06:01:03] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-25 06:01:03] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.2.7.tar.gz tmp/alphawave-0.2.8.tar.gz --markdown 20230625/a/alphawave/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-25 06:01:04] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.8.tar.gz]
+[2023-06-25 06:01:04] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2023-06-25 06:01:04] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2023-06-25 06:01:04] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230619.0-py3-none-any.whl.zip]
+[2023-06-25 06:01:04] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230624.0-py3-none-any.whl.zip]
+[2023-06-25 06:01:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-06-25 06:01:04] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2023-06-25 06:01:04] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2023-06-25 06:01:04] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-06-25 06:01:05] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.7.tar.gz]
+[2023-06-25 06:01:05] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.2.8.tar.gz]
+[2023-06-25 06:01:05] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-25 06:01:05] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-06-25 06:01:05] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-06-25 06:01:05] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-06-25 06:01:06] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230622.tar.gz]
+[2023-06-25 06:01:06] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230623.tar.gz]
+[2023-06-25 06:01:06] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-25 06:01:06] INFO root fetch - main [MainThread]: Store serial: [18634003]
