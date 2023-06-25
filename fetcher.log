@@ -4743,3 +4743,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:27:47] INFO root fetch - processPackages [borgmatic]: Remove: archive file [/home/abi/fetcher/tmp/borgmatic-1.7.9.tar.gz]
 [2023-06-25 07:27:47] INFO root fetch - main [MainThread]: End processing [borgmatic]: success
 [2023-06-25 07:27:47] INFO root fetch - main [MainThread]: Store serial: [18634267]
+[2023-06-25 07:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634267]
+[2023-06-25 07:32:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-matrix-market
+[2023-06-25 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotify-internal
+[2023-06-25 07:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-06-25 07:32:56] INFO root fetch - processPackages [spotify-internal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 07:32:56] INFO root fetch - processPackages [fast-matrix-market]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-25 07:32:56] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-25 07:32:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-25 07:32:57] INFO root fetch - processPackages [spotify-internal]: Downloading https://files.pythonhosted.org/packages/70/67/7f2e4b897887df44538f84a922c10e257325bde67098dda1ddc0acf08640/spotify_internal-0.1.8.tar.gz
+[2023-06-25 07:32:57] INFO root fetch - processPackages [fast-matrix-market]: Downloading https://files.pythonhosted.org/packages/9f/dc/7c9a8f7a572bf462922b74836023bbf3281705a8a586b7748c244a187ecf/fast-matrix-market-1.6.0.tar.gz
+[2023-06-25 07:32:57] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-25 07:32:57] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-25 07:32:57] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230625/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-25 07:32:57] INFO root fetch - processPackages [spotify-internal]: Downloading https://files.pythonhosted.org/packages/8f/2e/79020b770c43ebe86e5eac451a50669f82d1e4d40d20b8651f52b4a7c290/spotify_internal-0.1.9.tar.gz
+[2023-06-25 07:32:57] INFO root fetch - processPackages [spotify-internal]: executing diffoscope
+[2023-06-25 07:32:57] INFO root fetch - processPackages [spotify-internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_internal-0.1.8.tar.gz tmp/spotify_internal-0.1.9.tar.gz --markdown 20230625/s/spotify-internal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 07:32:57] INFO root fetch - processPackages [fast-matrix-market]: Downloading https://files.pythonhosted.org/packages/5e/f0/d3f0c63694c3a57d54a49ea52eea096b3056f85ebf58024524d3bff1ef96/fast-matrix-market-1.7.0.tar.gz
+[2023-06-25 07:32:57] INFO root fetch - processPackages [fast-matrix-market]: executing diffoscope
+[2023-06-25 07:32:57] INFO root fetch - processPackages [fast-matrix-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-matrix-market-1.6.0.tar.gz tmp/fast-matrix-market-1.7.0.tar.gz --markdown 20230625/f/fast-matrix-market/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-25 07:32:58] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-25 07:32:58] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-25 07:32:58] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-25 07:32:58] INFO root fetch - processPackages [spotify-internal]: Remove: archive file [/home/abi/fetcher/tmp/spotify_internal-0.1.8.tar.gz]
+[2023-06-25 07:32:58] INFO root fetch - processPackages [spotify-internal]: Remove: archive file [/home/abi/fetcher/tmp/spotify_internal-0.1.9.tar.gz]
+[2023-06-25 07:32:58] INFO root fetch - main [MainThread]: End processing [spotify-internal]: success
+[2023-06-25 07:32:59] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.6.0.tar.gz]
+[2023-06-25 07:32:59] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.7.0.tar.gz]
+[2023-06-25 07:32:59] INFO root fetch - main [MainThread]: End processing [fast-matrix-market]: success
+[2023-06-25 07:32:59] INFO root fetch - main [MainThread]: Store serial: [18634310]
