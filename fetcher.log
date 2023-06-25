@@ -13846,3 +13846,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:25:56] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.3.tar.gz]
 [2023-06-25 20:25:56] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
 [2023-06-25 20:25:56] INFO root fetch - main [MainThread]: Store serial: [18638160]
+[2023-06-25 20:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638160]
+[2023-06-25 20:31:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: empty-files
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amounts
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitlab-runner-tart-driver
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykebab
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyezviz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scipy
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cns
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testless-autocomplete
+[2023-06-25 20:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lol-esp-api
+[2023-06-25 20:31:08] INFO root fetch - processPackages [empty-files]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pykebab]: New version: [0.7.4] Old Version: [0.7.1]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [cns]: New version: [1.0.35] Old Version: [1.0.33]
+[2023-06-25 20:31:08] WARNING root fetch - processPackages [amounts]: Skipping, unable to determine old version
+[2023-06-25 20:31:08] INFO root fetch - main [MainThread]: End processing [amounts] error
+[2023-06-25 20:31:08] INFO root fetch - processPackages [kfish]: New version: [99.0.202306251827] Old Version: [99.0.202306251745]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.106] Old Version: [0.0.104]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [lol-esp-api]: New version: [0.24.4] Old Version: [0.24.3]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [gitlab-runner-tart-driver]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pyezviz]: New version: [0.2.1.5] Old Version: [0.2.1.4]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [scipy]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-25 20:31:08] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/70/0f/b5311fd1d60577bc18c225413408d6a4516bf0fd74ee7b6d61a82f59028f/testless_autocomplete-0.0.104.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/7b/4d/2718d0187c1d083e5f04d622d4b10967566faecea3648d2e8d4634756dfb/pykebab-0.7.1.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/15/a4/f8741e76bb353fbdde5bb0a67a30b89c1e04eafb3695add5b534e6012cc0/lol-esp-api-0.24.3.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/25/fd/1293ed681d89e9f2b96f90d0c854d3de2a4e9dd5f0e2fc57c53a42c6a57c/kfish-99.0.202306251745-py3-none-any.whl
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/57/84/61f9fbb45394867c869ed7ffa59d14adafb2769e6715201bc2f51f18e659/pyezviz-0.2.1.4.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [empty-files]: Downloading https://files.pythonhosted.org/packages/d9/74/b0a8c620ae46637586e4152cf34e71dfbf2090f6dcc3201474cc23c9c0a7/empty-files-0.0.3.tar.gz
+[2023-06-25 20:31:08] ERROR root fetch - processPackages [cns]: Unable to fetch info: No such project/version 'cns' 1.0.33
+[2023-06-25 20:31:08] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-25 20:31:08] INFO root fetch - processPackages [scipy]: Downloading https://files.pythonhosted.org/packages/17/07/68df07679ec4a4a24bff00147a14908aa73e9e8912d142886e8d0e1e3d64/scipy-1.9.2.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/14/db/6cc4222805b1adb5ea997d2759f8f3311c0a4d44880e7a139485e79d8da1/gitlab-runner-tart-driver-0.1.5.tar.gz
+[2023-06-25 20:31:08] WARNING root fetch - processPackages [scipy]: Skipping package: exceeds size limit 42068300>=10485760
+[2023-06-25 20:31:08] INFO root fetch - main [MainThread]: End processing [scipy] error
+[2023-06-25 20:31:08] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/1b/a8/93a837f011860317b83c4bc1edb021fcc2a82f3f860d75956bb209054392/testless_autocomplete-0.0.106.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/73/ed/72650860fd02a9abd81a266f4cba6c436ea6bdd908818c7c73eff4f36158/kfish-99.0.202306251827-py3-none-any.whl
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/f2/77/94198b264a9952fe96ed7853315771e4415c1d39b74f2a8cb1f421465941/pykebab-0.7.4.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/61/a3/b3b1891aec852a70329af6df2cb1549dc2043600d0a7c5383aaf137c7dbc/lol-esp-api-0.24.4.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.104.tar.gz tmp/testless_autocomplete-0.0.106.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.104-0.0.106/diff.md --exclude *.pyd
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/36/98/cb941e6afe17778f09a726bb5b084a03c111eb5a237a0aeec34ad17af6c1/pyezviz-0.2.1.5.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [empty-files]: Downloading https://files.pythonhosted.org/packages/ea/90/5a0ecd27d3607fb40caa44bc4dbfa490a9e78b34703a4a84b6a9b1b2220d/empty-files-0.0.4.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.7.1.tar.gz tmp/pykebab-0.7.4.tar.gz --markdown 20230625/p/pykebab/0.7.1-0.7.4/diff.md --exclude *.pyd
+[2023-06-25 20:31:08] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/4a/b3/b40c9f725932d834995a59f00d6e3476976fbfc3b323c6bd7b10a5d258f8/gitlab-runner-tart-driver-0.1.6.tar.gz
+[2023-06-25 20:31:08] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.24.3.tar.gz tmp/lol-esp-api-0.24.4.tar.gz --markdown 20230625/l/lol-esp-api/0.24.3-0.24.4/diff.md --exclude *.pyd
+[2023-06-25 20:31:08] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306251745-py3-none-any.whl.zip tmp/kfish-99.0.202306251827-py3-none-any.whl.zip --markdown 20230625/k/kfish/99.0.202306251745-99.0.202306251827/diff.md --exclude *.pyd
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.1.4.tar.gz tmp/pyezviz-0.2.1.5.tar.gz --markdown 20230625/p/pyezviz/0.2.1.4-0.2.1.5/diff.md --exclude *.pyd
+[2023-06-25 20:31:08] INFO root fetch - processPackages [empty-files]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [empty-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empty-files-0.0.3.tar.gz tmp/empty-files-0.0.4.tar.gz --markdown 20230625/e/empty-files/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 20:31:08] INFO root fetch - processPackages [gitlab-runner-tart-driver]: executing diffoscope
+[2023-06-25 20:31:08] INFO root fetch - processPackages [gitlab-runner-tart-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-runner-tart-driver-0.1.5.tar.gz tmp/gitlab-runner-tart-driver-0.1.6.tar.gz --markdown 20230625/g/gitlab-runner-tart-driver/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 20:31:10] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.1.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.4.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-06-25 20:31:10] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.104.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.106.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 20:31:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251745-py3-none-any.whl.zip]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251827-py3-none-any.whl.zip]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-25 20:31:10] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.3.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.4.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 20:31:10] INFO root fetch - processPackages [empty-files]: Remove: archive file [/home/abi/fetcher/tmp/empty-files-0.0.3.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [empty-files]: Remove: archive file [/home/abi/fetcher/tmp/empty-files-0.0.4.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [empty-files]: success
+[2023-06-25 20:31:10] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.4.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.5.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-06-25 20:31:10] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.1.5.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.1.6.tar.gz]
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
+[2023-06-25 20:31:10] INFO root fetch - main [MainThread]: Store serial: [18638191]
