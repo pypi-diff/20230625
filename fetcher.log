@@ -2828,3 +2828,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:10:58] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
 [2023-06-25 04:10:58] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-06-25 04:10:58] INFO root fetch - main [MainThread]: Store serial: [18633496]
+[2023-06-25 04:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633496]
+[2023-06-25 04:16:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lol-esp-api
+[2023-06-25 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-devops20210625-py2
+[2023-06-25 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillar1
+[2023-06-25 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-devops20210625
+[2023-06-25 04:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-pygrpc
+[2023-06-25 04:16:06] WARNING root fetch - processPackages [common-pygrpc]: Skipping, unable to determine old version
+[2023-06-25 04:16:06] INFO root fetch - main [MainThread]: End processing [common-pygrpc] error
+[2023-06-25 04:16:06] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: New version: [3.0.0] Old Version: [2.1.9]
+[2023-06-25 04:16:06] INFO root fetch - processPackages [alibabacloud-devops20210625]: New version: [3.0.0] Old Version: [2.1.9]
+[2023-06-25 04:16:06] INFO root fetch - processPackages [lol-esp-api]: New version: [0.24] Old Version: [0.23]
+[2023-06-25 04:16:06] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.40] Old Version: [0.1.8.39]
+[2023-06-25 04:16:06] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/4f/4f/158cc1bc7d4a259e18cf370e41713883beb716e95d8acb5021fbe156ad9b/pillar1-0.1.8.39.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/32/6c/9896b9d01cd0f2de8ca119ab14e793f48a6049353daf2e9ebfc06d09c9f3/lol-esp-api-0.23.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: Downloading https://files.pythonhosted.org/packages/a5/76/44b843b4a695e5889b9cf4b682e43f5ee5fdc80816468f5c71c96f340bd2/alibabacloud_devops20210625-2.1.9.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Downloading https://files.pythonhosted.org/packages/4d/59/9c93f86bab2cac3eac428bf71070a30f568b5eefb68714dc6a7a33558a1a/alibabacloud_devops20210625_py2-2.1.9.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/e6/c5/fa6e0bded9b736d168e2bcd9338d7f1bc11c1d3d0c2969cb15ab88906c97/pillar1-0.1.8.40.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/0f/d5/7171642831798174f43805c72c0ed2b053787f1bab4b487951a2979476bb/lol-esp-api-0.24.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: Downloading https://files.pythonhosted.org/packages/51/1d/cfaccf2cfc1cabc9e9d251f31aeb2663c795e657b03b297325443711b843/alibabacloud_devops20210625-3.0.0.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Downloading https://files.pythonhosted.org/packages/73/c6/d366e29050f840f42bde1d6c7bcf17b09c37c4f51e17026e455822491604/alibabacloud_devops20210625_py2-3.0.0.tar.gz
+[2023-06-25 04:16:07] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 04:16:07] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.23.tar.gz tmp/lol-esp-api-0.24.tar.gz --markdown 20230625/l/lol-esp-api/0.23-0.24/diff.md --exclude *.pyd
+[2023-06-25 04:16:07] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 04:16:07] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.39.tar.gz tmp/pillar1-0.1.8.40.tar.gz --markdown 20230625/p/pillar1/0.1.8.39-0.1.8.40/diff.md --exclude *.pyd
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: executing diffoscope
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_devops20210625_py2-2.1.9.tar.gz tmp/alibabacloud_devops20210625_py2-3.0.0.tar.gz --markdown 20230625/a/alibabacloud-devops20210625-py2/2.1.9-3.0.0/diff.md --exclude *.pyd
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: executing diffoscope
+[2023-06-25 04:16:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_devops20210625-2.1.9.tar.gz tmp/alibabacloud_devops20210625-3.0.0.tar.gz --markdown 20230625/a/alibabacloud-devops20210625/2.1.9-3.0.0/diff.md --exclude *.pyd
+[2023-06-25 04:16:08] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.23.tar.gz]
+[2023-06-25 04:16:08] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.tar.gz]
+[2023-06-25 04:16:08] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 04:16:08] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.39.tar.gz]
+[2023-06-25 04:16:08] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.40.tar.gz]
+[2023-06-25 04:16:08] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 04:16:10] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625_py2-2.1.9.tar.gz]
+[2023-06-25 04:16:10] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625_py2-3.0.0.tar.gz]
+[2023-06-25 04:16:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625-py2]: success
+[2023-06-25 04:16:10] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-2.1.9.tar.gz]
+[2023-06-25 04:16:10] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.0.tar.gz]
+[2023-06-25 04:16:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625]: success
+[2023-06-25 04:16:10] INFO root fetch - main [MainThread]: Store serial: [18633529]
