@@ -2338,3 +2338,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:21:12] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz]
 [2023-06-25 03:21:12] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
 [2023-06-25 03:21:12] INFO root fetch - main [MainThread]: Store serial: [18633217]
+[2023-06-25 03:26:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633217]
+[2023-06-25 03:26:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 03:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-25 03:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agent-automata
+[2023-06-25 03:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycoinlib
+[2023-06-25 03:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DataProperty
+[2023-06-25 03:26:21] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.37] Old Version: [0.1.8.36]
+[2023-06-25 03:26:21] WARNING root fetch - processPackages [agent-automata]: Skipping, unable to determine old version
+[2023-06-25 03:26:21] INFO root fetch - main [MainThread]: End processing [agent-automata] error
+[2023-06-25 03:26:21] INFO root fetch - processPackages [DataProperty]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-25 03:26:21] INFO root fetch - processPackages [mycoinlib]: New version: [1.3] Old Version: [1.2]
+[2023-06-25 03:26:21] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/39/e3/34c1099855bbad80c01b171465cbee79f9e44be5f971ad7c245d1b0d5c3e/pillar1-0.1.8.36.tar.gz
+[2023-06-25 03:26:21] INFO root fetch - processPackages [DataProperty]: Downloading https://files.pythonhosted.org/packages/d4/7a/8a214fc3c6eb2aeb42282a25355296f391cdcfd6c6b51c80bd644ce6b229/DataProperty-0.9.0.tar.gz
+[2023-06-25 03:26:21] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/83/1e/f141b14f2b0d9e9b82059b3974e326a37f827bdc45d9c94e38d2dc673f94/mycoinlib-1.2.tar.gz
+[2023-06-25 03:26:21] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/6c/41/9d139e5fb67bca47b17a523dfaf2b54932ee4c3e470c4f77c100c5376e07/pillar1-0.1.8.37.tar.gz
+[2023-06-25 03:26:21] INFO root fetch - processPackages [DataProperty]: Downloading https://files.pythonhosted.org/packages/40/11/eac1206a8ea46eb6e1b6b20eb4eec454d41887cfd2396d1f87f50d03a483/DataProperty-1.0.0.tar.gz
+[2023-06-25 03:26:21] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/e1/05/87b16675a8a173ffb2d572833736d19cff9e7b191598bd6a2be388999a57/mycoinlib-1.3.tar.gz
+[2023-06-25 03:26:21] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 03:26:21] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.36.tar.gz tmp/pillar1-0.1.8.37.tar.gz --markdown 20230625/p/pillar1/0.1.8.36-0.1.8.37/diff.md --exclude *.pyd
+[2023-06-25 03:26:21] INFO root fetch - processPackages [DataProperty]: executing diffoscope
+[2023-06-25 03:26:21] INFO root fetch - processPackages [DataProperty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataProperty-0.9.0.tar.gz tmp/DataProperty-1.0.0.tar.gz --markdown 20230625/D/DataProperty/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-25 03:26:21] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-25 03:26:21] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-1.2.tar.gz tmp/mycoinlib-1.3.tar.gz --markdown 20230625/m/mycoinlib/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-25 03:26:23] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.36.tar.gz]
+[2023-06-25 03:26:23] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.37.tar.gz]
+[2023-06-25 03:26:23] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:26:23] INFO root fetch - processPackages [DataProperty]: Remove: archive file [/home/abi/fetcher/tmp/DataProperty-0.9.0.tar.gz]
+[2023-06-25 03:26:23] INFO root fetch - processPackages [DataProperty]: Remove: archive file [/home/abi/fetcher/tmp/DataProperty-1.0.0.tar.gz]
+[2023-06-25 03:26:23] INFO root fetch - main [MainThread]: End processing [DataProperty]: success
+[2023-06-25 03:26:23] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-1.2.tar.gz]
+[2023-06-25 03:26:23] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-1.3.tar.gz]
+[2023-06-25 03:26:23] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-25 03:26:23] INFO root fetch - main [MainThread]: Store serial: [18633240]
