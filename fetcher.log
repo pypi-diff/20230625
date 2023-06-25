@@ -2664,3 +2664,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:49:12] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-25 03:49:12] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-25 03:49:12] INFO root fetch - main [MainThread]: Store serial: [18633384]
+[2023-06-25 03:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633384]
+[2023-06-25 03:54:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-apl
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lol-esp-api
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agent-automata
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-subminute
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domain-admin
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-06-25 03:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xw-utils
+[2023-06-25 03:54:24] INFO root fetch - processPackages [agent-automata]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [lol-esp-api]: New version: [0.23] Old Version: [0.21]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [domain-admin]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.855] Old Version: [0.0.854]
+[2023-06-25 03:54:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-25 03:54:24] INFO root fetch - processPackages [agent-automata]: Downloading https://files.pythonhosted.org/packages/61/01/39b581ad64c1af7c4261d48ef8920b3676deb16d73e18df5646622277f3a/agent_automata-0.1.3.tar.gz
+[2023-06-25 03:54:24] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/a5/45/87cc242775a11294e4f5fead4e5621f75ca6bf6efdeb729cda52b27dc705/lol_esp_api-0.21-py3-none-any.whl
+[2023-06-25 03:54:24] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-25 03:54:24] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/64/31/a338718789b61232e828ccd8cdbf57ca108b2c451099f22e91ae380f4af8/domain-admin-1.4.7.tar.gz
+[2023-06-25 03:54:24] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8e/20/30e6f32a1ee89b4bb01f320b657509c79847b561d84f4251f90c1e6319e6/nbdev-apl-0.0.854.tar.gz
+[2023-06-25 03:54:24] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-25 03:54:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-25 03:54:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230625/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:54:25] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/32/6c/9896b9d01cd0f2de8ca119ab14e793f48a6049353daf2e9ebfc06d09c9f3/lol-esp-api-0.23.tar.gz
+[2023-06-25 03:54:25] INFO root fetch - processPackages [agent-automata]: Downloading https://files.pythonhosted.org/packages/cf/7a/fcd8ce6952afdcabb3b8765e84d534b303aba3614acf429b5c7ff154c42e/agent_automata-0.1.4.tar.gz
+[2023-06-25 03:54:25] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-25 03:54:25] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-25 03:54:25] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8c/50/114369a9c716bb4ea6d5e99376fdbf044bc5051da43f3f7b5597ec0ccfb2/nbdev-apl-0.0.855.tar.gz
+[2023-06-25 03:54:25] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-25 03:54:25] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230625/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:54:25] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol_esp_api-0.21-py3-none-any.whl.zip tmp/lol-esp-api-0.23.tar.gz --markdown 20230625/l/lol-esp-api/0.21-0.23/diff.md --exclude *.pyd
+[2023-06-25 03:54:25] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.7.tar.gz tmp/domain-admin-1.4.8.tar.gz --markdown 20230625/d/domain-admin/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-25 03:54:25] INFO root fetch - processPackages [agent-automata]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [agent-automata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_automata-0.1.3.tar.gz tmp/agent_automata-0.1.4.tar.gz --markdown 20230625/a/agent-automata/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 03:54:25] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230625/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 03:54:25] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-25 03:54:25] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.854.tar.gz tmp/nbdev-apl-0.0.855.tar.gz --markdown 20230625/n/nbdev-apl/0.0.854-0.0.855/diff.md --exclude *.pyd
+[2023-06-25 03:54:26] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol_esp_api-0.21-py3-none-any.whl.zip]
+[2023-06-25 03:54:26] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.23.tar.gz]
+[2023-06-25 03:54:26] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 03:54:26] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-25 03:54:26] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-25 03:54:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-25 03:54:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.854.tar.gz]
+[2023-06-25 03:54:27] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.855.tar.gz]
+[2023-06-25 03:54:27] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-25 03:54:27] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 03:54:27] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 03:54:27] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-25 03:54:27] INFO root fetch - processPackages [agent-automata]: Remove: archive file [/home/abi/fetcher/tmp/agent_automata-0.1.3.tar.gz]
+[2023-06-25 03:54:27] INFO root fetch - processPackages [agent-automata]: Remove: archive file [/home/abi/fetcher/tmp/agent_automata-0.1.4.tar.gz]
+[2023-06-25 03:54:27] INFO root fetch - main [MainThread]: End processing [agent-automata]: success
+[2023-06-25 03:54:39] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.7.tar.gz]
+[2023-06-25 03:54:39] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-25 03:54:39] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-25 03:55:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-25 03:55:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-25 03:55:20] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-25 03:55:20] INFO root fetch - main [MainThread]: Store serial: [18633416]
