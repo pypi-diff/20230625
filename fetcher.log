@@ -4848,3 +4848,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:43:22] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.8.tar.gz]
 [2023-06-25 07:43:22] INFO root fetch - main [MainThread]: End processing [pyserde]: success
 [2023-06-25 07:43:22] INFO root fetch - main [MainThread]: Store serial: [18634361]
+[2023-06-25 07:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634361]
+[2023-06-25 07:48:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ros20190910-py2
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fluxoperator
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudinit
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ros20190910
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: distributions-probability-xyz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-auth0
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GPTConnect
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uuid05
+[2023-06-25 07:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GPTConnect
+[2023-06-25 07:48:30] INFO root fetch - processPackages [alibabacloud-ros20190910]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [fluxoperator]: New version: [0.0.3] Old Version: [0.0.29]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [GPTConnect]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-06-25 07:48:30] WARNING root fetch - processPackages [distributions-probability-xyz]: Skipping, unable to determine old version
+[2023-06-25 07:48:30] INFO root fetch - main [MainThread]: End processing [distributions-probability-xyz] error
+[2023-06-25 07:48:30] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [uuid05]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [GPTConnect]: New version: [0.2.1] Old Version: [0.1.9]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1687670371] Old Version: [1.4.0a1687054201]
+[2023-06-25 07:48:30] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/f8/3d/6da137fb1e93001a5242b355d6a595311912078e91bc4ba43f119b0342e9/GPTConnect-0.1.9.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/f8/3d/6da137fb1e93001a5242b355d6a595311912078e91bc4ba43f119b0342e9/GPTConnect-0.1.9.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [alibabacloud-ros20190910]: Downloading https://files.pythonhosted.org/packages/a5/5f/f413add2083069f357180c6d3859697a81b46ea10ffb83011f14a687c5ea/alibabacloud_ros20190910-3.2.8.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/b8/16/0c9d6a6614ef0d38167491ac5ded2e01fd058f3bfdb610a6b371863d0c45/fluxoperator-0.0.29.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/4c/50/d2f3b5db79b01ff578f027ac154b855377472dc33363f070f2fdf5d8df86/pulumi_cloudinit-1.4.0a1687054201.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Downloading https://files.pythonhosted.org/packages/03/1e/2f398e987c91810a442f00ff6f0f1e3a9a9a626d23e32d18611d9379a2ae/alibabacloud_ros20190910_py2-2.2.8.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [uuid05]: Downloading https://files.pythonhosted.org/packages/9e/38/e5bd92d219332935af0e5b5218b57300d8ba9e68cf740ef42448841e0093/uuid05-0.0.2.tar.gz
+[2023-06-25 07:48:30] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/3e/35/7d6e4499bceba97755c0134f6a13d88ed94dadff204afd15746602f4d885/pulumi_auth0-2.9.0a1651588791.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/c3/2b/df5dcf7537096995a9172193ee13308064d08e229e22120947bb1007f75a/GPTConnect-0.2.1.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/c3/2b/df5dcf7537096995a9172193ee13308064d08e229e22120947bb1007f75a/GPTConnect-0.2.1.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [alibabacloud-ros20190910]: Downloading https://files.pythonhosted.org/packages/f3/38/d9846c16f521f90eff5252f6882afaf5e502b522028bb55413e11a7552a9/alibabacloud_ros20190910-3.2.9.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/d5/c5/d82032ef5f1378a6c026e0818fc9ee94540a859c0d134f3411dde3619a19/fluxoperator-0.0.3.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/cf/8a/9cc7c036551445eb453e151e14bbb86b20d1ace1f71bec856badd8699d13/pulumi_cloudinit-1.4.0a1687670371.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [uuid05]: Downloading https://files.pythonhosted.org/packages/a5/53/795403495a3163c1a5fc822e9893ec6211db8d3b5f2cfb5e54a8c352a4ce/uuid05-0.0.3.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.9.tar.gz tmp/GPTConnect-0.2.1.tar.gz --markdown 20230625/G/GPTConnect/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.9.tar.gz tmp/GPTConnect-0.2.1.tar.gz --markdown 20230625/G/GPTConnect/0.1.9-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Downloading https://files.pythonhosted.org/packages/91/70/4f6bf49e8b547147e5bd030ee4209e15d7efc3e726c6768527769861d171/alibabacloud_ros20190910_py2-2.2.9.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [alibabacloud-ros20190910]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [alibabacloud-ros20190910]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ros20190910-3.2.8.tar.gz tmp/alibabacloud_ros20190910-3.2.9.tar.gz --markdown 20230625/a/alibabacloud-ros20190910/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [fluxoperator]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [fluxoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxoperator-0.0.29.tar.gz tmp/fluxoperator-0.0.3.tar.gz --markdown 20230625/f/fluxoperator/0.0.29-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1687054201.tar.gz tmp/pulumi_cloudinit-1.4.0a1687670371.tar.gz --markdown 20230625/p/pulumi-cloudinit/1.4.0a1687054201-1.4.0a1687670371/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ros20190910_py2-2.2.8.tar.gz tmp/alibabacloud_ros20190910_py2-2.2.9.tar.gz --markdown 20230625/a/alibabacloud-ros20190910-py2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/19/fc/57f01dd941ba0ec2ad79d6e6f06dc951a65e89280d974bb8be71b3a6bc6a/pulumi_auth0-2.9.0a1653604814.tar.gz
+[2023-06-25 07:48:31] INFO root fetch - processPackages [uuid05]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [uuid05]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uuid05-0.0.2.tar.gz tmp/uuid05-0.0.3.tar.gz --markdown 20230625/u/uuid05/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 07:48:31] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-06-25 07:48:31] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230625/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-06-25 07:48:32] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.9.tar.gz]
+[2023-06-25 07:48:32] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.2.1.tar.gz]
+[2023-06-25 07:48:32] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-25 07:48:32] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-25 07:48:33] INFO root fetch - processPackages [alibabacloud-ros20190910]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910-3.2.8.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - processPackages [alibabacloud-ros20190910]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910-3.2.9.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910]: success
+[2023-06-25 07:48:33] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1687054201.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1687670371.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-06-25 07:48:33] INFO root fetch - processPackages [uuid05]: Remove: archive file [/home/abi/fetcher/tmp/uuid05-0.0.2.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - processPackages [uuid05]: Remove: archive file [/home/abi/fetcher/tmp/uuid05-0.0.3.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - main [MainThread]: End processing [uuid05]: success
+[2023-06-25 07:48:33] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910_py2-2.2.8.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ros20190910_py2-2.2.9.tar.gz]
+[2023-06-25 07:48:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910-py2]: success
+[2023-06-25 07:48:34] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.29.tar.gz]
+[2023-06-25 07:48:34] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.3.tar.gz]
+[2023-06-25 07:48:34] INFO root fetch - main [MainThread]: End processing [fluxoperator]: success
+[2023-06-25 07:48:35] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1651588791.tar.gz]
+[2023-06-25 07:48:35] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-2.9.0a1653604814.tar.gz]
+[2023-06-25 07:48:35] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-06-25 07:48:35] INFO root fetch - main [MainThread]: Store serial: [18634388]
