@@ -8448,3 +8448,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:47:52] INFO root fetch - processPackages [msaf]: Remove: archive file [/home/abi/fetcher/tmp/msaf-0.1.80.tar.gz]
 [2023-06-25 12:47:52] INFO root fetch - main [MainThread]: End processing [msaf]: success
 [2023-06-25 12:47:52] INFO root fetch - main [MainThread]: Store serial: [18635797]
+[2023-06-25 12:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635797]
+[2023-06-25 12:53:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 12:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: countool
+[2023-06-25 12:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hayloft
+[2023-06-25 12:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mautrix
+[2023-06-25 12:53:01] WARNING root fetch - processPackages [countool]: Skipping, unable to determine old version
+[2023-06-25 12:53:01] INFO root fetch - main [MainThread]: End processing [countool] error
+[2023-06-25 12:53:01] INFO root fetch - processPackages [hayloft]: New version: [0.2.4a0] Old Version: [0.2.3]
+[2023-06-25 12:53:01] INFO root fetch - processPackages [mautrix]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 12:53:01] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/6a/8c/dc8a3787ed1cc5038a8fb5b3375d4bde6fae8ccca6f848bc3f109ebdb2a4/hayloft-0.2.3.tar.gz
+[2023-06-25 12:53:01] INFO root fetch - processPackages [mautrix]: Downloading https://files.pythonhosted.org/packages/98/f0/24955e5c1561a687061d561661a0cd4e285ee7525d45939c0b81e70aa105/mautrix-0.9.8.tar.gz
+[2023-06-25 12:53:02] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/66/23/79370256d00d67c4550b2dd2e5d233c8a9f77ab851228adeef1d045e5b72/hayloft-0.2.4a0.tar.gz
+[2023-06-25 12:53:02] INFO root fetch - processPackages [mautrix]: Downloading https://files.pythonhosted.org/packages/9b/36/edc5d20a2ef50ac0286c5fcbd7a7ffc4e4c78a60172a12ecab5b558cd57b/mautrix-0.9.9.tar.gz
+[2023-06-25 12:53:02] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-25 12:53:02] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.3.tar.gz tmp/hayloft-0.2.4a0.tar.gz --markdown 20230625/h/hayloft/0.2.3-0.2.4a0/diff.md --exclude *.pyd
+[2023-06-25 12:53:02] INFO root fetch - processPackages [mautrix]: executing diffoscope
+[2023-06-25 12:53:02] INFO root fetch - processPackages [mautrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mautrix-0.9.8.tar.gz tmp/mautrix-0.9.9.tar.gz --markdown 20230625/m/mautrix/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 12:53:04] INFO root fetch - processPackages [mautrix]: Remove: archive file [/home/abi/fetcher/tmp/mautrix-0.9.8.tar.gz]
+[2023-06-25 12:53:04] INFO root fetch - processPackages [mautrix]: Remove: archive file [/home/abi/fetcher/tmp/mautrix-0.9.9.tar.gz]
+[2023-06-25 12:53:04] INFO root fetch - main [MainThread]: End processing [mautrix]: success
+[2023-06-25 12:53:05] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.3.tar.gz]
+[2023-06-25 12:53:05] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.4a0.tar.gz]
+[2023-06-25 12:53:05] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-25 12:53:05] INFO root fetch - main [MainThread]: Store serial: [18635811]
