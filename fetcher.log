@@ -15402,3 +15402,81 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:39:23] INFO root fetch - processPackages [hackchat]: Remove: archive file [/home/abi/fetcher/tmp/hackchat-0.3.0.tar.gz]
 [2023-06-25 22:39:23] INFO root fetch - main [MainThread]: End processing [hackchat]: success
 [2023-06-25 22:39:23] INFO root fetch - main [MainThread]: Store serial: [18638832]
+[2023-06-25 22:44:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638832]
+[2023-06-25 22:44:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catimerge
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybox-toolkit
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybox-toolkit
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sao-paulo-rent-extractor
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyNyaaTa
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oloren
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-playwright-async
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyNyaaTa
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c-custom-code-checker
+[2023-06-25 22:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyNyaaTa
+[2023-06-25 22:44:33] INFO root fetch - processPackages [catimerge]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev92] Old Version: [0.1.9.dev87]
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pytest-playwright-async]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 22:44:33] WARNING root fetch - processPackages [sao-paulo-rent-extractor]: Skipping, unable to determine old version
+[2023-06-25 22:44:33] INFO root fetch - processPackages [sao-paulo-rent-extractor]: Start processing: rlforge
+[2023-06-25 22:44:33] INFO root fetch - main [MainThread]: End processing [sao-paulo-rent-extractor] error
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev92] Old Version: [0.1.9.dev87]
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252041] Old Version: [202306252028]
+[2023-06-25 22:44:33] WARNING root fetch - processPackages [c-custom-code-checker]: Skipping, unable to determine old version
+[2023-06-25 22:44:33] INFO root fetch - main [MainThread]: End processing [c-custom-code-checker] error
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252041] Old Version: [202306252028]
+[2023-06-25 22:44:33] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252041] Old Version: [202306252028]
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/42/29/3f22c23c5d72f4c12fe7c62d93e85c8450041256320d917fa6fd613a2768/pybox-toolkit-0.1.9.dev87.tar.gz
+[2023-06-25 22:44:33] WARNING root fetch - processPackages [rlforge]: Skipping, unable to determine old version
+[2023-06-25 22:44:33] INFO root fetch - main [MainThread]: End processing [rlforge] error
+[2023-06-25 22:44:33] INFO root fetch - processPackages [catimerge]: Downloading https://files.pythonhosted.org/packages/b9/0d/e21d7eee622c3e6a4859de2aac389614d5e4dc5d9d0dfade57a877cf693f/catimerge-0.1.0.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/42/29/3f22c23c5d72f4c12fe7c62d93e85c8450041256320d917fa6fd613a2768/pybox-toolkit-0.1.9.dev87.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/3a/85/87708e48b8bc2fc4de9bdb1d18a6c000e5c9089d4422f4572466d8b5c2b6/PyNyaaTa-202306252028-py3-none-any.whl
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/3a/85/87708e48b8bc2fc4de9bdb1d18a6c000e5c9089d4422f4572466d8b5c2b6/PyNyaaTa-202306252028-py3-none-any.whl
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/3a/85/87708e48b8bc2fc4de9bdb1d18a6c000e5c9089d4422f4572466d8b5c2b6/PyNyaaTa-202306252028-py3-none-any.whl
+[2023-06-25 22:44:33] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/7c/e2/c885fda89e9445571c1d3b2e5314f157feffbbae695a4bf61ec15541ad9c/pybox-toolkit-0.1.9.dev92.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/7c/e2/c885fda89e9445571c1d3b2e5314f157feffbbae695a4bf61ec15541ad9c/pybox-toolkit-0.1.9.dev92.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev87.tar.gz tmp/pybox-toolkit-0.1.9.dev92.tar.gz --markdown 20230625/p/pybox-toolkit/0.1.9.dev87-0.1.9.dev92/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/6a/5e/52f3739557b5d11e0372f9b8ae49d0a2ab3cb8202277faf6ed465e300521/pytest-playwright-async-0.0.6.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev87.tar.gz tmp/pybox-toolkit-0.1.9.dev92.tar.gz --markdown 20230625/p/pybox-toolkit/0.1.9.dev87-0.1.9.dev92/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [catimerge]: Downloading https://files.pythonhosted.org/packages/ff/ba/3de55181abc366fab9cbba3e6b770032e22566e5005dedb647a5b0427927/catimerge-0.1.1.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/30/17/2be2de66c75844896ca7f348d013bc32c7215951db6d2e549806258c10f7/PyNyaaTa-202306252041.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/30/17/2be2de66c75844896ca7f348d013bc32c7215951db6d2e549806258c10f7/PyNyaaTa-202306252041.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/30/17/2be2de66c75844896ca7f348d013bc32c7215951db6d2e549806258c10f7/PyNyaaTa-202306252041.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [catimerge]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [catimerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catimerge-0.1.0.tar.gz tmp/catimerge-0.1.1.tar.gz --markdown 20230625/c/catimerge/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/7f/3c/645cb1b41e7d2670b594075c802e269781b25d85a78b749b957b9187c046/pytest-playwright-async-0.0.7.tar.gz
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip tmp/PyNyaaTa-202306252041.tar.gz --markdown 20230625/P/PyNyaaTa/202306252028-202306252041/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip tmp/PyNyaaTa-202306252041.tar.gz --markdown 20230625/P/PyNyaaTa/202306252028-202306252041/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip tmp/PyNyaaTa-202306252041.tar.gz --markdown 20230625/P/PyNyaaTa/202306252028-202306252041/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pytest-playwright-async]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [pytest-playwright-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-async-0.0.6.tar.gz tmp/pytest-playwright-async-0.0.7.tar.gz --markdown 20230625/p/pytest-playwright-async/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 22:44:33] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-25 22:44:33] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230625/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 22:44:34] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev87.tar.gz]
+[2023-06-25 22:44:34] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev92.tar.gz]
+[2023-06-25 22:44:34] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-25 22:44:34] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-25 22:44:35] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.6.tar.gz]
+[2023-06-25 22:44:35] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.7.tar.gz]
+[2023-06-25 22:44:35] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async]: success
+[2023-06-25 22:44:35] INFO root fetch - processPackages [catimerge]: Remove: archive file [/home/abi/fetcher/tmp/catimerge-0.1.0.tar.gz]
+[2023-06-25 22:44:35] INFO root fetch - processPackages [catimerge]: Remove: archive file [/home/abi/fetcher/tmp/catimerge-0.1.1.tar.gz]
+[2023-06-25 22:44:35] INFO root fetch - main [MainThread]: End processing [catimerge]: success
+[2023-06-25 22:44:36] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip]
+[2023-06-25 22:44:36] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306252041.tar.gz]
+[2023-06-25 22:44:36] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:44:36] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:44:39] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-25 22:44:39] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-25 22:44:39] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-25 22:45:30] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:45:30] INFO root fetch - main [MainThread]: Store serial: [18638864]
