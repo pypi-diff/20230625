@@ -12238,3 +12238,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 18:39:28] INFO root fetch - processPackages [pythoven]: Remove: archive file [/home/abi/fetcher/tmp/pythoven-0.1.2.tar.gz]
 [2023-06-25 18:39:28] INFO root fetch - main [MainThread]: End processing [pythoven]: success
 [2023-06-25 18:39:28] INFO root fetch - main [MainThread]: Store serial: [18637505]
+[2023-06-25 18:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637505]
+[2023-06-25 18:44:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-BitTorrent
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foundational
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyNyaaTa
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyroFork-dev
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiolm-pytorch
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soundstorm-pytorch
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-git-gitlab
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dk-google
+[2023-06-25 18:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osstatus
+[2023-06-25 18:44:38] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.3.dev202306251641] Old Version: [2.2.1.dev202306221627]
+[2023-06-25 18:44:38] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 18:44:38] INFO root fetch - processPackages [osstatus]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-25 18:44:38] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306251640] Old Version: [202306171004]
+[2023-06-25 18:44:38] WARNING root fetch - processPackages [foundational]: Skipping, unable to determine old version
+[2023-06-25 18:44:38] INFO root fetch - processPackages [foundational]: Start processing: py-pde
+[2023-06-25 18:44:38] INFO root fetch - main [MainThread]: End processing [foundational] error
+[2023-06-25 18:44:38] INFO root fetch - processPackages [soundstorm-pytorch]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 18:44:38] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-25 18:44:38] WARNING root fetch - processPackages [xia-git-gitlab]: Skipping, unable to determine old version
+[2023-06-25 18:44:38] WARNING root fetch - processPackages [dk-google]: Skipping, unable to determine old version
+[2023-06-25 18:44:38] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab] error
+[2023-06-25 18:44:38] INFO root fetch - main [MainThread]: End processing [dk-google] error
+[2023-06-25 18:44:38] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 18:44:38] INFO root fetch - processPackages [py-pde]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-25 18:44:38] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 18:44:38] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 18:44:38] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 18:44:38] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/78/72/71526c622bd1fa8fc1bcf587b85c4b07042f25cfcfe62187fb88826ac730/py-pde-0.9.3.tar.gz
+[2023-06-25 18:44:38] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/2e/6c/7a4bb336a2cbdb81f229442a68a5b6024fb5f8455afdcf3a538b7d4e4f77/PyNyaaTa-202306171004.tar.gz
+[2023-06-25 18:44:38] INFO root fetch - processPackages [osstatus]: Downloading https://files.pythonhosted.org/packages/ab/a6/3f16e26a9fe1a15468e040252a7f8abb665965689c69b694dc867b3dc349/osstatus-1.0.3.tar.gz
+[2023-06-25 18:44:38] INFO root fetch - processPackages [soundstorm-pytorch]: Downloading https://files.pythonhosted.org/packages/29/b7/f46ca5a6f46dad7414ad44385b3a5581848e95cc740256ae0442c40e7878/soundstorm-pytorch-0.0.6.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/ec/88/49862140743b0d3fb7acd246344b1263ac89242c751ac8a8cee6919e8abb/audiolm-pytorch-1.2.7.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Downloading https://files.pythonhosted.org/packages/9e/24/e496065d7dc5ab6cb82ac18c820d5969facd1d6e6cf2ede1af114d0de7ff/nonebot_plugin_BitTorrent-0.0.8.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [soundstorm-pytorch]: Downloading https://files.pythonhosted.org/packages/af/c6/22b180eef3ee4eb74b0a54f9f7b30706b1bf7c55d4a49f5a644b395c978b/soundstorm-pytorch-0.0.7.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/69/86/702c3ff65158b6594b800bfa103b9a219bcc1cb270a17634266044af2efa/py-pde-0.9.4.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [soundstorm-pytorch]: executing diffoscope
+[2023-06-25 18:44:39] INFO root fetch - processPackages [soundstorm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundstorm-pytorch-0.0.6.tar.gz tmp/soundstorm-pytorch-0.0.7.tar.gz --markdown 20230625/s/soundstorm-pytorch/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 18:44:39] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c5/54/aa27bfd03a72f0381c9529a34f14a78bcc245c8255d1a2ca94684c2e6863/PyNyaaTa-202306251640.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [py-pde]: executing diffoscope
+[2023-06-25 18:44:39] INFO root fetch - processPackages [py-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pde-0.9.3.tar.gz tmp/py-pde-0.9.4.tar.gz --markdown 20230625/p/py-pde/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-25 18:44:39] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/e7/7a/099483a69be236c95087d6ab7c3187d1e3b4bcc56c496e93bcf118c25d0c/audiolm-pytorch-1.2.8.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 18:44:39] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306171004.tar.gz tmp/PyNyaaTa-202306251640.tar.gz --markdown 20230625/P/PyNyaaTa/202306171004-202306251640/diff.md --exclude *.pyd
+[2023-06-25 18:44:39] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Downloading https://files.pythonhosted.org/packages/94/66/e426f642a1a997d3c139325f3d8d38fbb6d892bf8285b4b35dded9a17103/nonebot_plugin_BitTorrent-0.0.9.tar.gz
+[2023-06-25 18:44:39] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-06-25 18:44:39] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.2.7.tar.gz tmp/audiolm-pytorch-1.2.8.tar.gz --markdown 20230625/a/audiolm-pytorch/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-25 18:44:39] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: executing diffoscope
+[2023-06-25 18:44:39] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_BitTorrent-0.0.8.tar.gz tmp/nonebot_plugin_BitTorrent-0.0.9.tar.gz --markdown 20230625/n/nonebot-plugin-BitTorrent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 18:44:39] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/05/9a/ee28d1c2df7be0b4d2b565c3389c5c92c5a7bd713c6b56445a0422ffab1a/PyroFork-dev-2.2.1.dev202306221627.tar.gz
+[2023-06-25 18:44:40] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/7a/7c/6978d0cc452034e01aab8c3aeff9f2a02f07afe9e39176c575548119cac3/PyroFork-dev-2.2.3.dev202306251641.tar.gz
+[2023-06-25 18:44:40] INFO root fetch - processPackages [osstatus]: Downloading https://files.pythonhosted.org/packages/10/84/ae8840f9282993af400b2fd49d32e4e9cd85c76b3b1234302104abf503cb/osstatus-1.0.4.tar.gz
+[2023-06-25 18:44:40] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-25 18:44:40] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.1.dev202306221627.tar.gz tmp/PyroFork-dev-2.2.3.dev202306251641.tar.gz --markdown 20230625/P/PyroFork-dev/2.2.1.dev202306221627-2.2.3.dev202306251641/diff.md --exclude *.pyd
+[2023-06-25 18:44:40] INFO root fetch - processPackages [osstatus]: executing diffoscope
+[2023-06-25 18:44:40] INFO root fetch - processPackages [osstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osstatus-1.0.3.tar.gz tmp/osstatus-1.0.4.tar.gz --markdown 20230625/o/osstatus/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-25 18:44:40] INFO root fetch - processPackages [soundstorm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/soundstorm-pytorch-0.0.6.tar.gz]
+[2023-06-25 18:44:40] INFO root fetch - processPackages [soundstorm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/soundstorm-pytorch-0.0.7.tar.gz]
+[2023-06-25 18:44:40] INFO root fetch - main [MainThread]: End processing [soundstorm-pytorch]: success
+[2023-06-25 18:44:41] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306171004.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306251640.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 18:44:41] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_BitTorrent-0.0.8.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - processPackages [nonebot-plugin-BitTorrent]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_BitTorrent-0.0.9.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-BitTorrent]: success
+[2023-06-25 18:44:41] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.3.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - main [MainThread]: End processing [py-pde]: success
+[2023-06-25 18:44:41] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.7.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.8.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-06-25 18:44:41] INFO root fetch - processPackages [osstatus]: Remove: archive file [/home/abi/fetcher/tmp/osstatus-1.0.3.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - processPackages [osstatus]: Remove: archive file [/home/abi/fetcher/tmp/osstatus-1.0.4.tar.gz]
+[2023-06-25 18:44:41] INFO root fetch - main [MainThread]: End processing [osstatus]: success
+[2023-06-25 18:44:44] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.1.dev202306221627.tar.gz]
+[2023-06-25 18:44:44] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306251641.tar.gz]
+[2023-06-25 18:44:44] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-25 18:44:44] INFO root fetch - main [MainThread]: Store serial: [18637541]
