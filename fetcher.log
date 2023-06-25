@@ -9758,3 +9758,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:49:19] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.2.tar.gz]
 [2023-06-25 14:49:19] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-25 14:49:19] INFO root fetch - main [MainThread]: Store serial: [18636387]
+[2023-06-25 14:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636387]
+[2023-06-25 14:54:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classattr
+[2023-06-25 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Prakhar-Kumar
+[2023-06-25 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alnoda-wrk
+[2023-06-25 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manticore
+[2023-06-25 14:54:28] WARNING root fetch - processPackages [Prakhar-Kumar]: Skipping, unable to determine old version
+[2023-06-25 14:54:28] INFO root fetch - main [MainThread]: End processing [Prakhar-Kumar] error
+[2023-06-25 14:54:28] INFO root fetch - processPackages [classattr]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-25 14:54:28] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-25 14:54:28] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230624] Old Version: [0.3.8.dev230623]
+[2023-06-25 14:54:28] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/69/c1/589240c58ae240f749f41cf53411de746dac616ac0cbf00925dd9fd79e5f/alnoda_wrk-0.4.8.tar.gz
+[2023-06-25 14:54:28] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/fd/46/0a6b9415e2f6d68e386db59a6b19fbf69dfc64ff007366b4bf6f7bdeec2a/manticore-0.3.8.dev230623.tar.gz
+[2023-06-25 14:54:28] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/ca/3b/86fb2c8603cd90cc9157c7f094a68fa919e6b001eb910e18cd0ddb257c67/classattr-1.0.4.tar.gz
+[2023-06-25 14:54:28] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/31/aa/8d749b05c97d5fcea85e10098a84f5b5f264310d145ee86c92c93e83223a/alnoda_wrk-0.4.9.tar.gz
+[2023-06-25 14:54:29] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/74/36/328a525a90fa145b017f2a16e14978fbc0c37a8d39ff86a4fe52a87eab7e/manticore-0.3.8.dev230624.tar.gz
+[2023-06-25 14:54:29] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-06-25 14:54:29] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.8.tar.gz tmp/alnoda_wrk-0.4.9.tar.gz --markdown 20230625/a/alnoda-wrk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-25 14:54:29] INFO root fetch - processPackages [classattr]: Downloading https://files.pythonhosted.org/packages/5b/6b/cfee6150a186b4864d92231241d81bb75b76d4050ca86f1c8837c04303e8/classattr-1.0.5.tar.gz
+[2023-06-25 14:54:29] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-25 14:54:29] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230623.tar.gz tmp/manticore-0.3.8.dev230624.tar.gz --markdown 20230625/m/manticore/0.3.8.dev230623-0.3.8.dev230624/diff.md --exclude *.pyd
+[2023-06-25 14:54:29] INFO root fetch - processPackages [classattr]: executing diffoscope
+[2023-06-25 14:54:29] INFO root fetch - processPackages [classattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classattr-1.0.4.tar.gz tmp/classattr-1.0.5.tar.gz --markdown 20230625/c/classattr/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-25 14:54:30] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.4.tar.gz]
+[2023-06-25 14:54:30] INFO root fetch - processPackages [classattr]: Remove: archive file [/home/abi/fetcher/tmp/classattr-1.0.5.tar.gz]
+[2023-06-25 14:54:30] INFO root fetch - main [MainThread]: End processing [classattr]: success
+[2023-06-25 14:54:30] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.8.tar.gz]
+[2023-06-25 14:54:30] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
+[2023-06-25 14:54:30] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-06-25 14:54:30] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230623.tar.gz]
+[2023-06-25 14:54:30] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230624.tar.gz]
+[2023-06-25 14:54:30] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-25 14:54:30] INFO root fetch - main [MainThread]: Store serial: [18636399]
