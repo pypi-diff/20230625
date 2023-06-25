@@ -3775,3 +3775,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:34:57] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.8.tar.gz]
 [2023-06-25 05:34:57] INFO root fetch - main [MainThread]: End processing [miuc]: success
 [2023-06-25 05:34:57] INFO root fetch - main [MainThread]: Store serial: [18633924]
+[2023-06-25 05:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633924]
+[2023-06-25 05:40:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycalczx
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdt
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smithed-libraries
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apysc
+[2023-06-25 05:40:06] INFO root fetch - processPackages [smithed-libraries]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-25 05:40:06] WARNING root fetch - processPackages [mycalczx]: Skipping, unable to determine old version
+[2023-06-25 05:40:06] INFO root fetch - main [MainThread]: End processing [mycalczx] error
+[2023-06-25 05:40:06] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/5b/11/127740720a2fd4df5b81b8c525b006ddde5cbdd49e0ec49d5eb927c01c31/smithed_libraries-0.7.2.tar.gz
+[2023-06-25 05:40:06] INFO root fetch - processPackages [apysc]: New version: [3.0.0] Old Version: [2.8.9]
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-25 05:40:06] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/72/0f/bdb71d18840704c89dfa02f6a452972b12c4b06def95cf50ddaf4d70226d/smithed_libraries-0.7.3.tar.gz
+[2023-06-25 05:40:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/58/a3/a6f7e250674b7eb884049e28bf937c78e1643e143c22675e29337194cf49/apysc-2.8.9.tar.gz
+[2023-06-25 05:40:06] INFO root fetch - processPackages [smithed-libraries]: executing diffoscope
+[2023-06-25 05:40:06] INFO root fetch - processPackages [smithed-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed_libraries-0.7.2.tar.gz tmp/smithed_libraries-0.7.3.tar.gz --markdown 20230625/s/smithed-libraries/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-25 05:40:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/b1/a0/e008f327ed184c01c9a463323b3d5d3f1bd081bf30b547dd27b9497abe3a/apysc-3.0.0.tar.gz
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-25 05:40:06] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230625/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-25 05:40:06] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-25 05:40:06] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.9.tar.gz tmp/apysc-3.0.0.tar.gz --markdown 20230625/a/apysc/2.8.9-3.0.0/diff.md --exclude *.pyd
+[2023-06-25 05:40:07] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-25 05:40:07] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-25 05:40:07] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-25 05:40:13] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.9.tar.gz]
+[2023-06-25 05:40:13] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.0.tar.gz]
+[2023-06-25 05:40:13] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-25 05:40:18] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.7.2.tar.gz]
+[2023-06-25 05:40:18] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.7.3.tar.gz]
+[2023-06-25 05:40:18] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
+[2023-06-25 05:40:18] INFO root fetch - main [MainThread]: Store serial: [18633938]
