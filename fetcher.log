@@ -11596,3 +11596,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:40:35] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
 [2023-06-25 17:40:35] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-06-25 17:40:35] INFO root fetch - main [MainThread]: Store serial: [18637196]
+[2023-06-25 17:45:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637196]
+[2023-06-25 17:45:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catimerge
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airontools
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enformer-dna-diff
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: balcony
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: expert-intelligence-toolbox
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: labedf
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-apollo
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tegro-money
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-ecosystem-services
+[2023-06-25 17:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-maintenance-mode
+[2023-06-25 17:45:44] WARNING root fetch - processPackages [flask-apollo]: Skipping, unable to determine old version
+[2023-06-25 17:45:44] INFO root fetch - main [MainThread]: End processing [flask-apollo] error
+[2023-06-25 17:45:44] INFO root fetch - processPackages [enformer-dna-diff]: New version: [1.3] Old Version: [1.2]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [labedf]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [catimerge]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [airontools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [balcony]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [enformer-dna-diff]: Downloading https://files.pythonhosted.org/packages/b0/32/1afdb9a9187423663f5ffcb738acc15a36a916b3f026c9f4bd8ac1ce19ae/enformer_dna_diff-1.2.tar.gz
+[2023-06-25 17:45:44] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/1c/a1/ee4f0a89c7f7eb356f1da893ab5726ba05871394ac223304efb0f1926e5d/airontools-0.1.8-py3-none-any.whl
+[2023-06-25 17:45:44] INFO root fetch - processPackages [tegro-money]: New version: [2.0] Old Version: [1.2]
+[2023-06-25 17:45:44] ERROR root fetch - processPackages [fastapi-maintenance-mode]: Unable to get metadata: No such project 'fastapi-maintenance-mode'
+[2023-06-25 17:45:44] INFO root fetch - main [MainThread]: End processing [fastapi-maintenance-mode] error
+[2023-06-25 17:45:44] INFO root fetch - processPackages [catimerge]: Downloading https://files.pythonhosted.org/packages/6d/a7/58fb634c08e60dfd13d08923f19d797334e30737818f88bd94a8e617dc3f/catimerge-0.0.1.tar.gz
+[2023-06-25 17:45:44] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-25 17:45:44] INFO root fetch - processPackages [labedf]: Downloading https://files.pythonhosted.org/packages/7a/18/31c05468788d226b3d7dc71fe23fe3c2c0a85c91d2e23cf80951e6ae17a6/labedf-1.2.0.tar.gz
+[2023-06-25 17:45:44] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-25 17:45:44] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/53/51/2faf5ec7bf693c5d61b78a2fee52e0e748918394fc883b015ea4429fc6a6/balcony-0.1.0.tar.gz
+[2023-06-25 17:45:44] INFO root fetch - processPackages [enformer-dna-diff]: Downloading https://files.pythonhosted.org/packages/68/ae/bbcabf1985609fb644988a0443e2de5ee8e26754ec90768bc498e592de36/enformer_dna_diff-1.3.tar.gz
+[2023-06-25 17:45:44] INFO root fetch - processPackages [tegro-money]: Downloading https://files.pythonhosted.org/packages/36/47/a11f3356415c8ec85cd8fd396b5cdaabe9d9681deb07408973b4365b8166/tegro_money-1.2.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/b8/08/2a60311ced2f2e597aa5dff7784a56fd4979cd36b06d6099ee3a0c075f44/airontools-0.1.9-py3-none-any.whl
+[2023-06-25 17:45:45] INFO root fetch - processPackages [enformer-dna-diff]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [enformer-dna-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enformer_dna_diff-1.2.tar.gz tmp/enformer_dna_diff-1.3.tar.gz --markdown 20230625/e/enformer-dna-diff/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [catimerge]: Downloading https://files.pythonhosted.org/packages/b9/0d/e21d7eee622c3e6a4859de2aac389614d5e4dc5d9d0dfade57a877cf693f/catimerge-0.1.0.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230625/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [airontools]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [airontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airontools-0.1.8-py3-none-any.whl.zip tmp/airontools-0.1.9-py3-none-any.whl.zip --markdown 20230625/a/airontools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/a7/b1/6f0263fd6b46056d99530129372b8a86fcb9994ee6e9a659b0c6c566e713/balcony-0.1.1.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [tegro-money]: Downloading https://files.pythonhosted.org/packages/af/5d/9ef176c3a6e6e417570d5c8e181236fd2a05d1c67fa81a4b33c23f3c7505/tegro_money-2.0.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [catimerge]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [catimerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catimerge-0.0.1.tar.gz tmp/catimerge-0.1.0.tar.gz --markdown 20230625/c/catimerge/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [labedf]: Downloading https://files.pythonhosted.org/packages/53/4e/521753101a3a9da95575e3317225586bf0208d9ac4e4d2cb37c802302090/labedf-2.0.0.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.0.tar.gz tmp/balcony-0.1.1.tar.gz --markdown 20230625/b/balcony/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [labedf]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [labedf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labedf-1.2.0.tar.gz tmp/labedf-2.0.0.tar.gz --markdown 20230625/l/labedf/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-25 17:45:45] INFO root fetch - processPackages [tegro-money]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [tegro-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tegro_money-1.2.tar.gz tmp/tegro_money-2.0.tar.gz --markdown 20230625/t/tegro-money/1.2-2.0/diff.md --exclude *.pyd
+[2023-06-25 17:45:45] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-25 17:45:45] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230625/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-25 17:45:46] INFO root fetch - processPackages [enformer-dna-diff]: Remove: archive file [/home/abi/fetcher/tmp/enformer_dna_diff-1.2.tar.gz]
+[2023-06-25 17:45:46] INFO root fetch - processPackages [enformer-dna-diff]: Remove: archive file [/home/abi/fetcher/tmp/enformer_dna_diff-1.3.tar.gz]
+[2023-06-25 17:45:46] INFO root fetch - main [MainThread]: End processing [enformer-dna-diff]: success
+[2023-06-25 17:45:46] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-25 17:45:46] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-25 17:45:46] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-25 17:45:46] INFO root fetch - processPackages [catimerge]: Remove: archive file [/home/abi/fetcher/tmp/catimerge-0.0.1.tar.gz]
+[2023-06-25 17:45:46] INFO root fetch - processPackages [catimerge]: Remove: archive file [/home/abi/fetcher/tmp/catimerge-0.1.0.tar.gz]
+[2023-06-25 17:45:46] INFO root fetch - main [MainThread]: End processing [catimerge]: success
+[2023-06-25 17:45:47] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 17:45:47] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 17:45:47] INFO root fetch - main [MainThread]: End processing [airontools]: success
+[2023-06-25 17:45:47] INFO root fetch - processPackages [labedf]: Remove: archive file [/home/abi/fetcher/tmp/labedf-1.2.0.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - processPackages [labedf]: Remove: archive file [/home/abi/fetcher/tmp/labedf-2.0.0.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - main [MainThread]: End processing [labedf]: success
+[2023-06-25 17:45:47] INFO root fetch - processPackages [tegro-money]: Remove: archive file [/home/abi/fetcher/tmp/tegro_money-1.2.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - processPackages [tegro-money]: Remove: archive file [/home/abi/fetcher/tmp/tegro_money-2.0.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - main [MainThread]: End processing [tegro-money]: success
+[2023-06-25 17:45:47] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.0.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.1.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-06-25 17:45:47] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-25 17:45:47] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-25 17:45:47] INFO root fetch - main [MainThread]: Store serial: [18637230]
