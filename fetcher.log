@@ -15480,3 +15480,61 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:44:39] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-25 22:45:30] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
 [2023-06-25 22:45:30] INFO root fetch - main [MainThread]: Store serial: [18638864]
+[2023-06-25 22:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638864]
+[2023-06-25 22:50:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopencl
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyNyaaTa
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-fields
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: persist-ext
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traceon
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctd-python
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyNyaaTa
+[2023-06-25 22:50:43] WARNING root fetch - processPackages [xia-fields]: Skipping, unable to determine old version
+[2023-06-25 22:50:43] INFO root fetch - main [MainThread]: End processing [xia-fields] error
+[2023-06-25 22:50:43] INFO root fetch - processPackages [pyopencl]: New version: [2023.1.1] Old Version: [2023.1]
+[2023-06-25 22:50:43] INFO root fetch - processPackages [ctd-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 22:50:43] INFO root fetch - processPackages [traceon]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-25 22:50:43] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252046] Old Version: [202306252044]
+[2023-06-25 22:50:43] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252046] Old Version: [202306252044]
+[2023-06-25 22:50:43] INFO root fetch - processPackages [persist-ext]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 22:50:44] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/9e/f9/93640a9a849e2c6b11a38c7a02c92c4735109508f1c9d91c34ee783a7f2b/ctd-python-0.0.1.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [persist-ext]: Downloading https://files.pythonhosted.org/packages/a8/5c/a3dc04c3d64fda0c78de0b52d8a11d278eef910338454058cbd88c0c6db5/persist_ext-1.0.0.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [pyopencl]: Downloading https://files.pythonhosted.org/packages/63/1e/512d84caeea127b03730b4028147491ef1b49a8526f246c4cbff61f21b9e/pyopencl-2023.1.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [traceon]: Downloading https://files.pythonhosted.org/packages/41/53/707ca8f063ad0b5a0faeabff1dc5f100df6a38866ada4134c46620f8325b/traceon-0.2.0.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/2a/b5/c2428cd2045aa0f44e1010b3878d9699b8aa664d5e9af6a03d38a4b8c63a/PyNyaaTa-202306252044-py3-none-any.whl
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/2a/b5/c2428cd2045aa0f44e1010b3878d9699b8aa664d5e9af6a03d38a4b8c63a/PyNyaaTa-202306252044-py3-none-any.whl
+[2023-06-25 22:50:44] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/2a/15/60ec1757dba63bd4665949c71ede63c121f522ceb319ad8da290e7809856/ctd-python-0.0.2.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [persist-ext]: Downloading https://files.pythonhosted.org/packages/42/07/1f397286428906f1df93886d66a89e6adef23e39f86b470e394ff76bc301/persist_ext-1.0.1.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-25 22:50:44] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.1.tar.gz tmp/ctd-python-0.0.2.tar.gz --markdown 20230625/c/ctd-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 22:50:44] INFO root fetch - processPackages [pyopencl]: Downloading https://files.pythonhosted.org/packages/4b/53/7c4ffc22f32f26f55fa9fff0567ad156833f5a65698fb5673963936a25ac/pyopencl-2023.1.1.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c7/44/0c1b88b7cf64cddc4897b06953562225f556b8936d1a13ab3823556e5c14/PyNyaaTa-202306252046.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c7/44/0c1b88b7cf64cddc4897b06953562225f556b8936d1a13ab3823556e5c14/PyNyaaTa-202306252046.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [traceon]: Downloading https://files.pythonhosted.org/packages/18/e5/9cbf0cab6ea00e40f8210c71a8e5e93da35a173bf99c27c1d7c93786863d/traceon-0.3.0.tar.gz
+[2023-06-25 22:50:44] INFO root fetch - processPackages [pyopencl]: executing diffoscope
+[2023-06-25 22:50:44] INFO root fetch - processPackages [pyopencl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencl-2023.1.tar.gz tmp/pyopencl-2023.1.1.tar.gz --markdown 20230625/p/pyopencl/2023.1-2023.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:50:44] INFO root fetch - processPackages [traceon]: executing diffoscope
+[2023-06-25 22:50:44] INFO root fetch - processPackages [traceon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceon-0.2.0.tar.gz tmp/traceon-0.3.0.tar.gz --markdown 20230625/t/traceon/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252044-py3-none-any.whl.zip tmp/PyNyaaTa-202306252046.tar.gz --markdown 20230625/P/PyNyaaTa/202306252044-202306252046/diff.md --exclude *.pyd
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:50:44] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252044-py3-none-any.whl.zip tmp/PyNyaaTa-202306252046.tar.gz --markdown 20230625/P/PyNyaaTa/202306252044-202306252046/diff.md --exclude *.pyd
+[2023-06-25 22:50:44] INFO root fetch - processPackages [persist-ext]: executing diffoscope
+[2023-06-25 22:50:44] INFO root fetch - processPackages [persist-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persist_ext-1.0.0.tar.gz tmp/persist_ext-1.0.1.tar.gz --markdown 20230625/p/persist-ext/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 22:50:45] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.1.tar.gz]
+[2023-06-25 22:50:45] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.2.tar.gz]
+[2023-06-25 22:50:45] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-25 22:50:46] INFO root fetch - processPackages [traceon]: Remove: archive file [/home/abi/fetcher/tmp/traceon-0.2.0.tar.gz]
+[2023-06-25 22:50:46] INFO root fetch - processPackages [traceon]: Remove: archive file [/home/abi/fetcher/tmp/traceon-0.3.0.tar.gz]
+[2023-06-25 22:50:46] INFO root fetch - main [MainThread]: End processing [traceon]: success
+[2023-06-25 22:50:46] INFO root fetch - processPackages [pyopencl]: Remove: archive file [/home/abi/fetcher/tmp/pyopencl-2023.1.tar.gz]
+[2023-06-25 22:50:46] INFO root fetch - processPackages [pyopencl]: Remove: archive file [/home/abi/fetcher/tmp/pyopencl-2023.1.1.tar.gz]
+[2023-06-25 22:50:46] INFO root fetch - main [MainThread]: End processing [pyopencl]: success
+[2023-06-25 22:50:47] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306252044-py3-none-any.whl.zip]
+[2023-06-25 22:50:47] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306252046.tar.gz]
+[2023-06-25 22:50:47] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:50:47] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:50:49] INFO root fetch - processPackages [persist-ext]: Remove: archive file [/home/abi/fetcher/tmp/persist_ext-1.0.0.tar.gz]
+[2023-06-25 22:50:49] INFO root fetch - processPackages [persist-ext]: Remove: archive file [/home/abi/fetcher/tmp/persist_ext-1.0.1.tar.gz]
+[2023-06-25 22:50:49] INFO root fetch - main [MainThread]: End processing [persist-ext]: success
+[2023-06-25 22:50:49] INFO root fetch - main [MainThread]: Store serial: [18638916]
