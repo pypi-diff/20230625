@@ -12014,3 +12014,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 18:17:41] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.5.4.post1.tar.gz]
 [2023-06-25 18:17:41] INFO root fetch - main [MainThread]: End processing [networklab]: success
 [2023-06-25 18:17:41] INFO root fetch - main [MainThread]: Store serial: [18637391]
+[2023-06-25 18:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637391]
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openapi-pydantic-models
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-few-shot-gen
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-wrapper
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-lineage
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dk-google
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testless-autocomplete
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bsvlib
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netdoc
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-wrapper
+[2023-06-25 18:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vollseg
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [openapi-pydantic-models]: Skipping, unable to determine old version
+[2023-06-25 18:22:50] INFO root fetch - processPackages [openapi-pydantic-models]: Start processing: netdem
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [openapi-pydantic-models] error
+[2023-06-25 18:22:50] INFO root fetch - processPackages [json-lineage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 18:22:50] INFO root fetch - processPackages [llm-few-shot-gen]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [dk-google]: Skipping, unable to determine old version
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [async-wrapper]: Skipping, unable to determine old version
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [dk-google] error
+[2023-06-25 18:22:50] INFO root fetch - processPackages [netdoc]: New version: [0.9.71] Old Version: [0.9.70]
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [async-wrapper] error
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [async-wrapper]: Skipping, unable to determine old version
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [async-wrapper] error
+[2023-06-25 18:22:50] INFO root fetch - processPackages [bsvlib]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-25 18:22:50] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [testless-autocomplete]: Skipping, unable to determine old version
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [testless-autocomplete] error
+[2023-06-25 18:22:50] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/f2/ef/1d391989d1fcf09c8c91936ac38fc2ecb4b2432ab959707ae3761c31002a/netdoc-0.9.70.tar.gz
+[2023-06-25 18:22:50] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 18:22:50] ERROR root fetch - processPackages [json-lineage]: Unable to fetch info: No such project/version 'json-lineage' 0.0.1
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [json-lineage] error
+[2023-06-25 18:22:50] WARNING root fetch - processPackages [netdem]: Skipping, unable to determine old version
+[2023-06-25 18:22:50] INFO root fetch - main [MainThread]: End processing [netdem] error
+[2023-06-25 18:22:50] INFO root fetch - processPackages [llm-few-shot-gen]: Downloading https://files.pythonhosted.org/packages/6d/14/39b3e6f2965db625ed9fa1c9517fe899ebe1ee1fd19942cc986fc59bfc5e/llm_few_shot_gen-0.0.2.tar.gz
+[2023-06-25 18:22:50] INFO root fetch - processPackages [bsvlib]: Downloading https://files.pythonhosted.org/packages/6e/bd/5d2d139ec0da8634d185322c71e7e2b8e3cf2616ab8cc95c7e089f1f6a86/bsvlib-0.8.1.tar.gz
+[2023-06-25 18:22:50] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/bc/813dccd0af76852b3fea6f6f9ba3ebc578c1efa3980ff3e4676ac88f2077/netdoc-0.9.71.tar.gz
+[2023-06-25 18:22:51] INFO root fetch - processPackages [llm-few-shot-gen]: Downloading https://files.pythonhosted.org/packages/4a/de/b8975cf7b3912a3acde705ccbb4586b0e25e9ecc218d8c14bd0ccaddb785/llm_few_shot_gen-0.0.3.tar.gz
+[2023-06-25 18:22:51] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-06-25 18:22:51] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.70.tar.gz tmp/netdoc-0.9.71.tar.gz --markdown 20230625/n/netdoc/0.9.70-0.9.71/diff.md --exclude *.pyd
+[2023-06-25 18:22:51] INFO root fetch - processPackages [llm-few-shot-gen]: executing diffoscope
+[2023-06-25 18:22:51] INFO root fetch - processPackages [llm-few-shot-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_few_shot_gen-0.0.2.tar.gz tmp/llm_few_shot_gen-0.0.3.tar.gz --markdown 20230625/l/llm-few-shot-gen/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 18:22:52] INFO root fetch - processPackages [bsvlib]: Downloading https://files.pythonhosted.org/packages/23/3f/1527083af3d5ad54ed467b2ebdf6d29dbb6b4e4b32c32528cbca6901dc3f/bsvlib-0.9.0.tar.gz
+[2023-06-25 18:22:52] INFO root fetch - processPackages [llm-few-shot-gen]: Remove: archive file [/home/abi/fetcher/tmp/llm_few_shot_gen-0.0.2.tar.gz]
+[2023-06-25 18:22:52] INFO root fetch - processPackages [llm-few-shot-gen]: Remove: archive file [/home/abi/fetcher/tmp/llm_few_shot_gen-0.0.3.tar.gz]
+[2023-06-25 18:22:52] INFO root fetch - main [MainThread]: End processing [llm-few-shot-gen]: success
+[2023-06-25 18:22:52] INFO root fetch - processPackages [bsvlib]: executing diffoscope
+[2023-06-25 18:22:52] INFO root fetch - processPackages [bsvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsvlib-0.8.1.tar.gz tmp/bsvlib-0.9.0.tar.gz --markdown 20230625/b/bsvlib/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 18:22:53] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.70.tar.gz]
+[2023-06-25 18:22:53] INFO root fetch - processPackages [netdoc]: Remove: archive file [/home/abi/fetcher/tmp/netdoc-0.9.71.tar.gz]
+[2023-06-25 18:22:53] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-06-25 18:22:53] INFO root fetch - processPackages [bsvlib]: Remove: archive file [/home/abi/fetcher/tmp/bsvlib-0.8.1.tar.gz]
+[2023-06-25 18:22:53] INFO root fetch - processPackages [bsvlib]: Remove: archive file [/home/abi/fetcher/tmp/bsvlib-0.9.0.tar.gz]
+[2023-06-25 18:22:53] INFO root fetch - main [MainThread]: End processing [bsvlib]: success
+[2023-06-25 18:22:53] INFO root fetch - main [MainThread]: Store serial: [18637434]
