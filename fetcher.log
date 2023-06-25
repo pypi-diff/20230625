@@ -10993,3 +10993,37 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:40:49] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.2.0.tar.gz]
 [2023-06-25 16:40:49] INFO root fetch - main [MainThread]: End processing [prodsys]: success
 [2023-06-25 16:40:49] INFO root fetch - main [MainThread]: Store serial: [18636932]
+[2023-06-25 16:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636932]
+[2023-06-25 16:45:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 16:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythoven
+[2023-06-25 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decorator-parser
+[2023-06-25 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythoven
+[2023-06-25 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eldian
+[2023-06-25 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: userapiLib
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 16:45:58] WARNING root fetch - processPackages [eldian]: Skipping, unable to determine old version
+[2023-06-25 16:45:58] INFO root fetch - processPackages [userapiLib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 16:45:58] INFO root fetch - main [MainThread]: End processing [eldian] error
+[2023-06-25 16:45:58] WARNING root fetch - processPackages [decorator-parser]: Skipping, unable to determine old version
+[2023-06-25 16:45:58] INFO root fetch - main [MainThread]: End processing [decorator-parser] error
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: Downloading https://files.pythonhosted.org/packages/c9/2d/a78db0fd1bc1fa98bc6239cfc111aa3b552b61802ea48113a2449d4dc62c/pythoven-0.1.0.tar.gz
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: Downloading https://files.pythonhosted.org/packages/c9/2d/a78db0fd1bc1fa98bc6239cfc111aa3b552b61802ea48113a2449d4dc62c/pythoven-0.1.0.tar.gz
+[2023-06-25 16:45:58] INFO root fetch - processPackages [userapiLib]: Downloading https://files.pythonhosted.org/packages/f0/8d/c1e4606e9dddb4b7b91b4ed6d85e77c3de0218ee8611881933703c1ef200/userapiLib-0.0.1.tar.gz
+[2023-06-25 16:45:58] INFO root fetch - processPackages [userapiLib]: Downloading https://files.pythonhosted.org/packages/15/89/a1e52a12684ee81c6fc7565dbf706cb0132d16b787bdf812ade0e6444509/userapiLib-0.0.2.tar.gz
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: Downloading https://files.pythonhosted.org/packages/aa/9d/45ff9482cae8ad299ceb34d3c15c7d628b0ac510f37171f694212c33f70c/pythoven-0.1.1.tar.gz
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: Downloading https://files.pythonhosted.org/packages/aa/9d/45ff9482cae8ad299ceb34d3c15c7d628b0ac510f37171f694212c33f70c/pythoven-0.1.1.tar.gz
+[2023-06-25 16:45:58] INFO root fetch - processPackages [userapiLib]: executing diffoscope
+[2023-06-25 16:45:58] INFO root fetch - processPackages [userapiLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userapiLib-0.0.1.tar.gz tmp/userapiLib-0.0.2.tar.gz --markdown 20230625/u/userapiLib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: executing diffoscope
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoven-0.1.0.tar.gz tmp/pythoven-0.1.1.tar.gz --markdown 20230625/p/pythoven/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: executing diffoscope
+[2023-06-25 16:45:58] INFO root fetch - processPackages [pythoven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoven-0.1.0.tar.gz tmp/pythoven-0.1.1.tar.gz --markdown 20230625/p/pythoven/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 16:45:59] INFO root fetch - processPackages [userapiLib]: Remove: archive file [/home/abi/fetcher/tmp/userapiLib-0.0.1.tar.gz]
+[2023-06-25 16:45:59] INFO root fetch - processPackages [userapiLib]: Remove: archive file [/home/abi/fetcher/tmp/userapiLib-0.0.2.tar.gz]
+[2023-06-25 16:45:59] INFO root fetch - main [MainThread]: End processing [userapiLib]: success
+[2023-06-25 16:45:59] INFO root fetch - processPackages [pythoven]: Remove: archive file [/home/abi/fetcher/tmp/pythoven-0.1.0.tar.gz]
+[2023-06-25 16:45:59] INFO root fetch - processPackages [pythoven]: Remove: archive file [/home/abi/fetcher/tmp/pythoven-0.1.1.tar.gz]
+[2023-06-25 16:45:59] INFO root fetch - main [MainThread]: End processing [pythoven]: success
+[2023-06-25 16:45:59] INFO root fetch - main [MainThread]: End processing [pythoven]: success
+[2023-06-25 16:45:59] INFO root fetch - main [MainThread]: Store serial: [18636955]
