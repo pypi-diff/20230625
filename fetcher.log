@@ -4320,3 +4320,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:47:45] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.7.tar.gz]
 [2023-06-25 06:47:45] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
 [2023-06-25 06:47:45] INFO root fetch - main [MainThread]: Store serial: [18634139]
+[2023-06-25 06:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634139]
+[2023-06-25 06:52:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 06:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastgenerateapi
+[2023-06-25 06:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-selfhelp
+[2023-06-25 06:52:54] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 06:52:54] INFO root fetch - processPackages [azure-mgmt-selfhelp]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-06-25 06:52:54] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-06-25 06:52:54] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Downloading https://files.pythonhosted.org/packages/f4/a3/9306edefbb043e6bde8ef85fcea5d61b9cabb1d8b81826b1a2c73cb5ffcc/azure-mgmt-selfhelp-1.0.0.zip
+[2023-06-25 06:52:54] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-06-25 06:52:54] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-25 06:52:54] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230625/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 06:52:55] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Downloading https://files.pythonhosted.org/packages/6d/14/e65d1254481a64f48508aba2381b88df384dc8dbb46381202b693b1335a2/azure-mgmt-selfhelp-1.0.0b1.zip
+[2023-06-25 06:52:55] INFO root fetch - processPackages [azure-mgmt-selfhelp]: executing diffoscope
+[2023-06-25 06:52:55] INFO root fetch - processPackages [azure-mgmt-selfhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-selfhelp-1.0.0.zip tmp/azure-mgmt-selfhelp-1.0.0b1.zip --markdown 20230625/a/azure-mgmt-selfhelp/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-06-25 06:52:56] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-06-25 06:52:56] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-06-25 06:52:56] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-25 06:52:56] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-1.0.0.zip]
+[2023-06-25 06:52:56] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-1.0.0b1.zip]
+[2023-06-25 06:52:56] INFO root fetch - main [MainThread]: End processing [azure-mgmt-selfhelp]: success
+[2023-06-25 06:52:56] INFO root fetch - main [MainThread]: Store serial: [18634146]
