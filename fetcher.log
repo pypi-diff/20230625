@@ -3601,3 +3601,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:08:45] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230625.tar.gz]
 [2023-06-25 05:08:45] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-25 05:08:45] INFO root fetch - main [MainThread]: Store serial: [18633841]
+[2023-06-25 05:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633841]
+[2023-06-25 05:13:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbrlabs-pulumi-eks
+[2023-06-25 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2023-06-25 05:13:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flux-burst-gke
+[2023-06-25 05:13:54] WARNING root fetch - processPackages [flux-burst-gke]: Skipping, unable to determine old version
+[2023-06-25 05:13:54] INFO root fetch - main [MainThread]: End processing [flux-burst-gke] error
+[2023-06-25 05:13:54] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.3a1687660999] Old Version: [0.0.2a1687529435]
+[2023-06-25 05:13:54] INFO root fetch - processPackages [xklb]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-25 05:13:54] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/b1/a1/03a47da30bb6a1c754c92f2f9789d463bf99ff6025502a3b10459768037e/xklb-2.1.8.tar.gz
+[2023-06-25 05:13:54] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/73/39/c7a0aff1cb6c26b3e808df48011095339b3ba8516f43165dc42c557f298c/lbrlabs_pulumi_eks-0.0.2a1687529435.tar.gz
+[2023-06-25 05:13:54] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2e/31/1637bef7e4aaf8529af80e5d5d27b2eca11c30c3a63fd32033fb97549c52/xklb-2.1.9.tar.gz
+[2023-06-25 05:13:54] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-25 05:13:54] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.8.tar.gz tmp/xklb-2.1.9.tar.gz --markdown 20230625/x/xklb/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-25 05:13:55] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/fb/96/f7b048db989597dc46957a0c8893a916fbaa49ff48e6cf60a9db981b66e4/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz
+[2023-06-25 05:13:55] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-25 05:13:55] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.2a1687529435.tar.gz tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz --markdown 20230625/l/lbrlabs-pulumi-eks/0.0.2a1687529435-0.0.3a1687660999/diff.md --exclude *.pyd
+[2023-06-25 05:13:56] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.2a1687529435.tar.gz]
+[2023-06-25 05:13:56] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz]
+[2023-06-25 05:13:56] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-25 05:13:56] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.8.tar.gz]
+[2023-06-25 05:13:56] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
+[2023-06-25 05:13:56] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-25 05:13:56] INFO root fetch - main [MainThread]: Store serial: [18633856]
