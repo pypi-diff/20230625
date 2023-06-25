@@ -9845,3 +9845,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:59:49] INFO root fetch - processPackages [spectrum-io]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_io-0.2.1.tar.gz]
 [2023-06-25 14:59:49] INFO root fetch - main [MainThread]: End processing [spectrum-io]: success
 [2023-06-25 14:59:49] INFO root fetch - main [MainThread]: Store serial: [18636422]
+[2023-06-25 15:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636422]
+[2023-06-25 15:04:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-django-plus
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pfsense-git-config
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: draggan
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ltchiptool-terminal
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fittrackee
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-Ayiin
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Authlib
+[2023-06-25 15:04:58] INFO root fetch - processPackages [draggan]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [pfsense-git-config]: New version: [1.0.0] Old Version: [0.4.4]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev9] Old Version: [0.4.6.dev8]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ltchiptool-terminal]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [Authlib]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [fittrackee]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [strawberry-django-plus]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-25 15:04:58] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/c6/09/c6ae25cef02f7dc4adcdee0ca56222107289f39b5f96f71ceb6352b2d317/py-Ayiin-0.4.6.dev8.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/71/70/d8314c17a5dc0dd9cc2ab3d56a379a91778396561229c8e2666a45adc035/draggan-1.1.4.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [Authlib]: Downloading https://files.pythonhosted.org/packages/1e/84/3c82d181a04053fefa456dcb15edea93ffdb06071570b6cb05783f5e5fa5/Authlib-1.2.0.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [pfsense-git-config]: Downloading https://files.pythonhosted.org/packages/30/2f/d707912120813867ad637ff0611a6a5c00d8f2b6c8afb31d7cab7672a44b/pfsense_git_config-0.4.4.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/c7/4a/a6f92641c284124f011ca6cc5e2cc84bf781cdb9008421598311ac380c95/strawberry_django_plus-3.0.2.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ltchiptool-terminal]: Downloading https://files.pythonhosted.org/packages/ca/59/63a2d6478dc97b7cbf03fca8e453e9171020d05c491eacb0eea4c995a74c/ltchiptool_terminal-1.1.0.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/39/9b/88cac6ba5c302ee2897f01f34c7c18d6be412aa901f8bf35933443299379/fittrackee-0.7.8.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/8c/f1/21dea6f120a71ca512dcb52fbb8f28c6bf46e1962cab68ba35e7c88e0cd3/py-Ayiin-0.4.6.dev9.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/fa/bf/b910937770e85af803aa1a797f0480b6d9defad4472f001d94249fcf59c5/draggan-1.1.5.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/8b/ed/f7fb4047c6b8c428bfcfc34dfdb2708efdaec2c6c1791d9ded4d2e30a1df/strawberry_django_plus-3.0.3.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [Authlib]: Downloading https://files.pythonhosted.org/packages/61/ab/7475c1292d0ae22e291d74468693ae29c146185859e3ea4e01a179e9b625/Authlib-1.2.1.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-25 15:04:58] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.6.dev8.tar.gz tmp/py-Ayiin-0.4.6.dev9.tar.gz --markdown 20230625/p/py-Ayiin/0.4.6.dev8-0.4.6.dev9/diff.md --exclude *.pyd
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ltchiptool-terminal]: Downloading https://files.pythonhosted.org/packages/e8/de/642bffe160459f0eef8178f32f1f2f62a9cf27f607e32d70d0bc0fc33bd8/ltchiptool_terminal-1.2.0.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [pfsense-git-config]: Downloading https://files.pythonhosted.org/packages/69/ca/917ca0f95ad211f762183d91074cc077e8ed628556014a73a006e361e432/pfsense_git_config-1.0.0.tar.gz
+[2023-06-25 15:04:58] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-25 15:04:58] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.4.tar.gz tmp/draggan-1.1.5.tar.gz --markdown 20230625/d/draggan/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-25 15:04:58] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-06-25 15:04:58] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-3.0.2.tar.gz tmp/strawberry_django_plus-3.0.3.tar.gz --markdown 20230625/s/strawberry-django-plus/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ltchiptool-terminal]: executing diffoscope
+[2023-06-25 15:04:58] INFO root fetch - processPackages [ltchiptool-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltchiptool_terminal-1.1.0.tar.gz tmp/ltchiptool_terminal-1.2.0.tar.gz --markdown 20230625/l/ltchiptool-terminal/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 15:04:58] INFO root fetch - processPackages [Authlib]: executing diffoscope
+[2023-06-25 15:04:58] INFO root fetch - processPackages [Authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Authlib-1.2.0.tar.gz tmp/Authlib-1.2.1.tar.gz --markdown 20230625/A/Authlib/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-25 15:04:59] INFO root fetch - processPackages [pfsense-git-config]: executing diffoscope
+[2023-06-25 15:04:59] INFO root fetch - processPackages [pfsense-git-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfsense_git_config-0.4.4.tar.gz tmp/pfsense_git_config-1.0.0.tar.gz --markdown 20230625/p/pfsense-git-config/0.4.4-1.0.0/diff.md --exclude *.pyd
+[2023-06-25 15:05:00] INFO root fetch - processPackages [ltchiptool-terminal]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool_terminal-1.1.0.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - processPackages [ltchiptool-terminal]: Remove: archive file [/home/abi/fetcher/tmp/ltchiptool_terminal-1.2.0.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - main [MainThread]: End processing [ltchiptool-terminal]: success
+[2023-06-25 15:05:00] INFO root fetch - processPackages [pfsense-git-config]: Remove: archive file [/home/abi/fetcher/tmp/pfsense_git_config-0.4.4.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - processPackages [pfsense-git-config]: Remove: archive file [/home/abi/fetcher/tmp/pfsense_git_config-1.0.0.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - main [MainThread]: End processing [pfsense-git-config]: success
+[2023-06-25 15:05:00] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.2.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.3.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-06-25 15:05:00] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev8.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev9.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-25 15:05:00] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.4.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.5.tar.gz]
+[2023-06-25 15:05:00] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-25 15:05:01] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/ad/fd/33da1267f6c6e89f719de2ccc15dce823a7f50e5306a5f5ea891fb3e1f9a/fittrackee-0.7.9.tar.gz
+[2023-06-25 15:05:01] INFO root fetch - processPackages [Authlib]: Remove: archive file [/home/abi/fetcher/tmp/Authlib-1.2.0.tar.gz]
+[2023-06-25 15:05:01] INFO root fetch - processPackages [Authlib]: Remove: archive file [/home/abi/fetcher/tmp/Authlib-1.2.1.tar.gz]
+[2023-06-25 15:05:01] INFO root fetch - main [MainThread]: End processing [Authlib]: success
+[2023-06-25 15:05:03] INFO root fetch - processPackages [fittrackee]: executing diffoscope
+[2023-06-25 15:05:03] INFO root fetch - processPackages [fittrackee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittrackee-0.7.8.tar.gz tmp/fittrackee-0.7.9.tar.gz --markdown 20230625/f/fittrackee/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-25 15:06:17] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.7.8.tar.gz]
+[2023-06-25 15:06:17] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.7.9.tar.gz]
+[2023-06-25 15:06:17] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
+[2023-06-25 15:06:17] INFO root fetch - main [MainThread]: Store serial: [18636451]
