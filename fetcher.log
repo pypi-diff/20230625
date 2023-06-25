@@ -5592,3 +5592,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:25:58] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230625.tar.gz]
 [2023-06-25 08:25:58] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-25 08:25:58] INFO root fetch - main [MainThread]: Store serial: [18634613]
+[2023-06-25 08:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634613]
+[2023-06-25 08:31:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mongodbatlas
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ns1
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-opsgenie
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-pagerduty
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxx-VSCL
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-nomad
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvmblaster
+[2023-06-25 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PointBlaster
+[2023-06-25 08:31:07] WARNING root fetch - processPackages [cxx-VSCL]: Skipping, unable to determine old version
+[2023-06-25 08:31:07] INFO root fetch - main [MainThread]: End processing [cxx-VSCL] error
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1687672414] Old Version: [3.1.0a1687050371]
+[2023-06-25 08:31:07] INFO root fetch - processPackages [cvmblaster]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1687672889] Old Version: [1.3.0a1687055881]
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1687672202] Old Version: [0.4.2a1687055688]
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1687672134] Old Version: [3.9.0a1687055512]
+[2023-06-25 08:31:07] WARNING root fetch - processPackages [PointBlaster]: Skipping, unable to determine old version
+[2023-06-25 08:31:07] INFO root fetch - main [MainThread]: End processing [PointBlaster] error
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/97/26/994441e2cdcbef032a3685f5df8e1dab2bc28e3a22022d89b0138603f863/pulumi_opsgenie-1.3.0a1687055881.tar.gz
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/b5/fb/79fee471dd69dc38b5f18914f71f06adb7a5119d55e98fc8f6d3ab11087a/pulumi_ns1-3.1.0a1687050371.tar.gz
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/e3/fb/cfd0770cc238f4c5d0519a47c0dfe5476a67ad16fc40bc8e1152c8898f91/pulumi_pagerduty-3.9.0a1678231019.tar.gz
+[2023-06-25 08:31:07] INFO root fetch - processPackages [cvmblaster]: Downloading https://files.pythonhosted.org/packages/90/4f/72c15430bbe46440e7949fdd6e757b0bad72dc32253b24a1447805ae754f/cvmblaster-0.3.9.tar.gz
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/1f/60/bfcc0f3006fa7916226da959902e41b489115f74035ce64845c4c6a2c265/pulumi_nomad-0.4.2a1687055688.tar.gz
+[2023-06-25 08:31:07] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/55/c5/5568b4c0e0ec8e87db2b71ea63f1555f153ea44f6314cd5baadfd9537186/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/f9/67/c8791935a9ef50b9809a0b3cc1e3cc6338547f70a0ba53f26f257c6362aa/pulumi_opsgenie-1.3.0a1687672889.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/c2/70/7336f03cdfc0e2bcde8b47e8acb81312c5a52c7673e90f48108f547cdc57/pulumi_nomad-0.4.2a1687672202.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [cvmblaster]: Downloading https://files.pythonhosted.org/packages/de/ab/ff9a497d983666119504cb592b81085ec0eb889a4a73a1ba8f589a526510/cvmblaster-0.4.0.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/7e/f9/e0206a320a51a1156ee8f6fcd4fd7ae2e0dc2a714a3d8f9a267f7a38ad06/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/b2/77/786140b79d0946ee18e80ac92af9889e190480f889211497d09069a9f0fa/pulumi_pagerduty-3.9.0a1678824312.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1687055881.tar.gz tmp/pulumi_opsgenie-1.3.0a1687672889.tar.gz --markdown 20230625/p/pulumi-opsgenie/1.3.0a1687055881-1.3.0a1687672889/diff.md --exclude *.pyd
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/39/9c/545ca4c428bdb684fde3286ae822ca45c53367c738f040b3a57e28763395/pulumi_ns1-3.1.0a1687672414.tar.gz
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.2a1687055688.tar.gz tmp/pulumi_nomad-0.4.2a1687672202.tar.gz --markdown 20230625/p/pulumi-nomad/0.4.2a1687055688-0.4.2a1687672202/diff.md --exclude *.pyd
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz --markdown 20230625/p/pulumi-mongodbatlas/3.9.0a1687055512-3.9.0a1687672134/diff.md --exclude *.pyd
+[2023-06-25 08:31:08] INFO root fetch - processPackages [cvmblaster]: executing diffoscope
+[2023-06-25 08:31:08] INFO root fetch - processPackages [cvmblaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvmblaster-0.3.9.tar.gz tmp/cvmblaster-0.4.0.tar.gz --markdown 20230625/c/cvmblaster/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1687050371.tar.gz tmp/pulumi_ns1-3.1.0a1687672414.tar.gz --markdown 20230625/p/pulumi-ns1/3.1.0a1687050371-3.1.0a1687672414/diff.md --exclude *.pyd
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-06-25 08:31:08] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230625/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-06-25 08:31:09] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1687055881.tar.gz]
+[2023-06-25 08:31:09] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.3.0a1687672889.tar.gz]
+[2023-06-25 08:31:09] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-06-25 08:31:10] INFO root fetch - processPackages [cvmblaster]: Remove: archive file [/home/abi/fetcher/tmp/cvmblaster-0.3.9.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - processPackages [cvmblaster]: Remove: archive file [/home/abi/fetcher/tmp/cvmblaster-0.4.0.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - main [MainThread]: End processing [cvmblaster]: success
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1687055688.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1687672202.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1687050371.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.1.0a1687672414.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz]
+[2023-06-25 08:31:10] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-06-25 08:31:10] INFO root fetch - main [MainThread]: Store serial: [18634639]
