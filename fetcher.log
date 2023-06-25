@@ -4263,3 +4263,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:37:23] INFO root fetch - processPackages [cheetah-orm]: Remove: archive file [/home/abi/fetcher/tmp/cheetah_orm-2.0.0b3-py3-none-any.whl.zip]
 [2023-06-25 06:37:23] INFO root fetch - main [MainThread]: End processing [cheetah-orm]: success
 [2023-06-25 06:37:23] INFO root fetch - main [MainThread]: Store serial: [18634114]
+[2023-06-25 06:42:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634114]
+[2023-06-25 06:42:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 06:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SpLFastlyWrite
+[2023-06-25 06:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monstermash
+[2023-06-25 06:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stitch3d
+[2023-06-25 06:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissist
+[2023-06-25 06:42:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: static-frame
+[2023-06-25 06:42:31] INFO root fetch - processPackages [monstermash]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-25 06:42:31] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-25 06:42:31] INFO root fetch - processPackages [aissist]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 06:42:31] WARNING root fetch - processPackages [stitch3d]: Skipping, unable to determine old version
+[2023-06-25 06:42:31] INFO root fetch - main [MainThread]: End processing [stitch3d] error
+[2023-06-25 06:42:31] INFO root fetch - processPackages [static-frame]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-25 06:42:31] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/53/1a/e7df9206ec0b9d7e34fb9db747f46355e5f940a589a1c968c31d236a885b/aissist-0.0.7.tar.gz
+[2023-06-25 06:42:31] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/a6/6b/58b7f41605a5d39fff81ed4b11fffca0cd6f7199e8f24d10179830b195fd/monstermash-1.0.1.tar.gz
+[2023-06-25 06:42:31] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/84/c4/6e516f3b45ec254140b9f9b23f48642f10515008a09ad2210bbdf82cd49f/SpLFastlyWrite-1.0.5.tar.gz
+[2023-06-25 06:42:31] INFO root fetch - processPackages [static-frame]: Downloading https://files.pythonhosted.org/packages/47/9b/1cb0338c66167095037b26c6fd9a973513eef5140dda99ad4cfec389afa2/static-frame-1.4.5.tar.gz
+[2023-06-25 06:42:31] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/fc/fc/0f82b213a8b04bcc8b2ce2ad7092aa5e378767e6d7de2e9950a62df0d5c2/monstermash-1.1.0.tar.gz
+[2023-06-25 06:42:31] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/89/06/e4e31b255b127dbba68ed67200f4ada2bf5b60e6265b49dbbdeb22a0b7f2/aissist-0.0.8.tar.gz
+[2023-06-25 06:42:32] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/20/09/b3930fb9003159dde3cbf6f45dd32bb9ed975ea7f117338ce4fa260597ec/SpLFastlyWrite-1.0.6.tar.gz
+[2023-06-25 06:42:32] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-06-25 06:42:32] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-1.0.1.tar.gz tmp/monstermash-1.1.0.tar.gz --markdown 20230625/m/monstermash/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 06:42:32] INFO root fetch - processPackages [aissist]: executing diffoscope
+[2023-06-25 06:42:32] INFO root fetch - processPackages [aissist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissist-0.0.7.tar.gz tmp/aissist-0.0.8.tar.gz --markdown 20230625/a/aissist/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 06:42:32] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-06-25 06:42:32] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.5.tar.gz tmp/SpLFastlyWrite-1.0.6.tar.gz --markdown 20230625/S/SpLFastlyWrite/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-25 06:42:32] INFO root fetch - processPackages [static-frame]: Downloading https://files.pythonhosted.org/packages/4d/81/b432c2fe4912a8aaacb942acc4520e9097d0a9f1ba4d224f8e4a6eec79e6/static-frame-1.4.6.tar.gz
+[2023-06-25 06:42:32] INFO root fetch - processPackages [static-frame]: executing diffoscope
+[2023-06-25 06:42:32] INFO root fetch - processPackages [static-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static-frame-1.4.5.tar.gz tmp/static-frame-1.4.6.tar.gz --markdown 20230625/s/static-frame/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-25 06:42:33] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.0.1.tar.gz]
+[2023-06-25 06:42:33] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.1.0.tar.gz]
+[2023-06-25 06:42:33] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-06-25 06:42:33] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.7.tar.gz]
+[2023-06-25 06:42:33] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.8.tar.gz]
+[2023-06-25 06:42:33] INFO root fetch - main [MainThread]: End processing [aissist]: success
+[2023-06-25 06:42:33] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.5.tar.gz]
+[2023-06-25 06:42:33] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.6.tar.gz]
+[2023-06-25 06:42:33] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-06-25 06:42:34] INFO root fetch - processPackages [static-frame]: Remove: archive file [/home/abi/fetcher/tmp/static-frame-1.4.5.tar.gz]
+[2023-06-25 06:42:34] INFO root fetch - processPackages [static-frame]: Remove: archive file [/home/abi/fetcher/tmp/static-frame-1.4.6.tar.gz]
+[2023-06-25 06:42:34] INFO root fetch - main [MainThread]: End processing [static-frame]: success
+[2023-06-25 06:42:34] INFO root fetch - main [MainThread]: Store serial: [18634130]
