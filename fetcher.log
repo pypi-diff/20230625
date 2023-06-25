@@ -5508,3 +5508,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:20:40] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
 [2023-06-25 08:20:40] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-06-25 08:20:40] INFO root fetch - main [MainThread]: Store serial: [18634594]
+[2023-06-25 08:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634594]
+[2023-06-25 08:25:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-onelogin
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-f5bigip
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-user
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msgram-parser
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-docker
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onnx2tf
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-25 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-mongodbatlas
+[2023-06-25 08:25:52] INFO root fetch - processPackages [msgram-parser]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230625] Old Version: [1.6.1.dev20230624]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1687672553] Old Version: [0.6.1a1687055800]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [yplib]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1687671681] Old Version: [4.3.0a1687542462]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/f7/d6/3c996cfff03e1ed8526d3cffd843750f55e2bf74812a7ddd485c30a363bd/yplib-1.6.8.tar.gz
+[2023-06-25 08:25:52] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/16/84/c0c7f92db32de155a2d511c79ef417d6faf301b19e66db910e8d0eabab25/pretext-1.6.1.dev20230624.tar.gz
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1687672134] Old Version: [3.9.0a1687055512]
+[2023-06-25 08:25:52] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/26/e2/ecafa97faf7890a11f22cbdd68a73885a62913e3f7ae70b54149216bb0db/msgram-parser-0.0.4.tar.gz
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/68/37/fff2f364d356806a8c2d04234eb58d1ecd74ac120af183b53ef43da2deca/pulumi_onelogin-0.6.1a1687055800.tar.gz
+[2023-06-25 08:25:52] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-25 08:25:52] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/58/41/0898b5932468020ca2da6bc6f4eb6ce60a31530631b192e992bf518f8ddc/pulumi_docker-4.3.0a1687542462.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/e4/26/1bd5dae851ac5830f642e9adbf408c60254b4c93ddbc98f8f87be7c5a37b/yplib-1.6.9.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.6.8.tar.gz tmp/yplib-1.6.9.tar.gz --markdown 20230625/y/yplib/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d1/53/d43fa49b5749794ccb01eba2408565fcca00028bcf16f45b3759a7fca86f/pretext-1.6.1.dev20230625.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/55/c5/5568b4c0e0ec8e87db2b71ea63f1555f153ea44f6314cd5baadfd9537186/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/1c/02/411293def917a2a84217783d7264e8d0142c9adf5edae55fc8b71faa635e/msgram-parser-0.0.6.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/fa/d2/d1562be57282382b21f783831e5b2847da071bbe406d49d0e7627c548e5d/pulumi_onelogin-0.6.1a1687672553.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [msgram-parser]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [msgram-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-parser-0.0.4.tar.gz tmp/msgram-parser-0.0.6.tar.gz --markdown 20230625/m/msgram-parser/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230624.tar.gz tmp/pretext-1.6.1.dev20230625.tar.gz --markdown 20230625/p/pretext/1.6.1.dev20230624-1.6.1.dev20230625/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/1b/7e/54596effdcbef1afcd6e16692dbc578c385d7145a447d59d94dc30a4c411/pulumi_docker-4.3.0a1687671681.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230625/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1687055800.tar.gz tmp/pulumi_onelogin-0.6.1a1687672553.tar.gz --markdown 20230625/p/pulumi-onelogin/0.6.1a1687055800-0.6.1a1687672553/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20230625/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1687542462.tar.gz tmp/pulumi_docker-4.3.0a1687671681.tar.gz --markdown 20230625/p/pulumi-docker/4.3.0a1687542462-4.3.0a1687671681/diff.md --exclude *.pyd
+[2023-06-25 08:25:53] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/7e/f9/e0206a320a51a1156ee8f6fcd4fd7ae2e0dc2a714a3d8f9a267f7a38ad06/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-06-25 08:25:53] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-06-25 08:25:53] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230625/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-25 08:25:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.8.tar.gz]
+[2023-06-25 08:25:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.6.9.tar.gz]
+[2023-06-25 08:25:54] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 08:25:54] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-06-25 08:25:54] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz --markdown 20230625/p/pulumi-mongodbatlas/3.9.0a1687055512-3.9.0a1687672134/diff.md --exclude *.pyd
+[2023-06-25 08:25:55] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.4.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.6.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - main [MainThread]: End processing [msgram-parser]: success
+[2023-06-25 08:25:55] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.3.0a1687542462.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - processPackages [pulumi-docker]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker-4.3.0a1687671681.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-06-25 08:25:55] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1687055800.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1687672553.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-06-25 08:25:55] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-25 08:25:55] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-25 08:25:56] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687055512.tar.gz]
+[2023-06-25 08:25:56] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.0a1687672134.tar.gz]
+[2023-06-25 08:25:56] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-06-25 08:25:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-06-25 08:25:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-06-25 08:25:56] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-06-25 08:25:57] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2023-06-25 08:25:57] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2023-06-25 08:25:57] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2023-06-25 08:25:58] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230624.tar.gz]
+[2023-06-25 08:25:58] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230625.tar.gz]
+[2023-06-25 08:25:58] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-25 08:25:58] INFO root fetch - main [MainThread]: Store serial: [18634613]
