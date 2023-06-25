@@ -8285,3 +8285,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:32:11] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
 [2023-06-25 12:32:11] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-06-25 12:32:11] INFO root fetch - main [MainThread]: Store serial: [18635672]
+[2023-06-25 12:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635672]
+[2023-06-25 12:37:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caltool
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s5-pytorch
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LibRecommender
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erroraffirmations
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: endplay
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apysc
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyweb-db
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airoboros
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sathouel-ftp-client
+[2023-06-25 12:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: constrainedlr
+[2023-06-25 12:37:20] INFO root fetch - processPackages [constrainedlr]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 12:37:20] INFO root fetch - processPackages [LibRecommender]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-25 12:37:20] INFO root fetch - processPackages [s5-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 12:37:20] INFO root fetch - processPackages [caltool]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 12:37:20] WARNING root fetch - processPackages [erroraffirmations]: Skipping, unable to determine old version
+[2023-06-25 12:37:20] INFO root fetch - main [MainThread]: End processing [erroraffirmations] error
+[2023-06-25 12:37:20] INFO root fetch - processPackages [pyweb-db]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-25 12:37:20] INFO root fetch - processPackages [endplay]: New version: [0.4.9b0] Old Version: [0.4.8b0]
+[2023-06-25 12:37:20] INFO root fetch - processPackages [apysc]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-25 12:37:20] INFO root fetch - processPackages [constrainedlr]: Downloading https://files.pythonhosted.org/packages/da/10/fea88dd506b1d4b8d78ced078b783319f5920d0a3032db306e0092aba90d/constrainedlr-0.1.2.tar.gz
+[2023-06-25 12:37:20] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/98/06/cb9889cd1a7208199ea3b34376452bd66a459b4d8c828b90d0ba2b87357f/pyweb_db-1.0.2.tar.gz
+[2023-06-25 12:37:20] INFO root fetch - processPackages [airoboros]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-25 12:37:20] WARNING root fetch - processPackages [sathouel-ftp-client]: Skipping, unable to determine old version
+[2023-06-25 12:37:20] INFO root fetch - main [MainThread]: End processing [sathouel-ftp-client] error
+[2023-06-25 12:37:20] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/b1/a0/e008f327ed184c01c9a463323b3d5d3f1bd081bf30b547dd27b9497abe3a/apysc-3.0.0.tar.gz
+[2023-06-25 12:37:20] INFO root fetch - processPackages [s5-pytorch]: Downloading https://files.pythonhosted.org/packages/ea/69/999bff02db91f523c9747c8163b2cc2adc97caec0313690d20903f5b085d/s5-pytorch-0.1.8.tar.gz
+[2023-06-25 12:37:20] INFO root fetch - processPackages [LibRecommender]: Downloading https://files.pythonhosted.org/packages/c6/5c/66e74a6d9c682ae79b48f08a256bbe669170ff520fe9fefa4cdb71319ed9/LibRecommender-1.2.0.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [caltool]: Downloading https://files.pythonhosted.org/packages/82/33/a199ce8adc1738650e73814edba5dc0d657fb3fc25f8b61b93ea92ebd9b7/caltool-0.1.0.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [endplay]: Downloading https://files.pythonhosted.org/packages/54/c6/f899aef7fa0241f970bf6ca8c714b92c28a42f42a5fbf2cbd7911d51f69e/endplay-0.4.8b0.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/5d/9e/b1b4995c293b8185942c315a8a2326c99f1d2a265933f8050ed10564dab6/airoboros-0.2.7.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [constrainedlr]: Downloading https://files.pythonhosted.org/packages/cd/92/fedfd5cf7b667a91a8320096299f4338878885aa36d896bb7da3c73e1d57/constrainedlr-0.1.3.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/dd/2d/bd4083f2758aceb9d2bdc5f6de53c85e2f551114db3b2d61698bcfc2ba95/pyweb_db-1.0.3.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/41/a7/9641c79c31d6a138064b138ec2a239655f75c580042876bb414ed195da12/apysc-3.0.1.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [s5-pytorch]: Downloading https://files.pythonhosted.org/packages/aa/be/663fc33817928eafffab38c03dd54e0f7b414e93d0ed3b831fe07a9f2e57/s5-pytorch-0.1.9.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [constrainedlr]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [constrainedlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constrainedlr-0.1.2.tar.gz tmp/constrainedlr-0.1.3.tar.gz --markdown 20230625/c/constrainedlr/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [caltool]: Downloading https://files.pythonhosted.org/packages/6b/23/45cc705041705e4973374083c521c9b337a8d12c6df33e83501caa1f7f20/caltool-0.1.1.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [s5-pytorch]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [s5-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5-pytorch-0.1.8.tar.gz tmp/s5-pytorch-0.1.9.tar.gz --markdown 20230625/s/s5-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/47/35/70fd407197e55274689a64a7b089c4ce60e93835dffe1a83a35dad44d762/airoboros-0.2.8.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [LibRecommender]: Downloading https://files.pythonhosted.org/packages/87/75/1fc55cc04974d266f9af6fbb1a8c604bdaeeb5f69a4204001bd3ff2a2445/LibRecommender-1.2.1.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [pyweb-db]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [pyweb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweb_db-1.0.2.tar.gz tmp/pyweb_db-1.0.3.tar.gz --markdown 20230625/p/pyweb-db/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [caltool]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [caltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caltool-0.1.0.tar.gz tmp/caltool-0.1.1.tar.gz --markdown 20230625/c/caltool/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [endplay]: Downloading https://files.pythonhosted.org/packages/ee/95/123278373c285846cdf847bea2c2bcaa17d136410e3944e32dc55b268bec/endplay-0.4.9b0.tar.gz
+[2023-06-25 12:37:21] INFO root fetch - processPackages [LibRecommender]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [LibRecommender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LibRecommender-1.2.0.tar.gz tmp/LibRecommender-1.2.1.tar.gz --markdown 20230625/L/LibRecommender/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-0.2.7.tar.gz tmp/airoboros-0.2.8.tar.gz --markdown 20230625/a/airoboros/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [endplay]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [endplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endplay-0.4.8b0.tar.gz tmp/endplay-0.4.9b0.tar.gz --markdown 20230625/e/endplay/0.4.8b0-0.4.9b0/diff.md --exclude *.pyd
+[2023-06-25 12:37:21] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-25 12:37:21] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.0.0.tar.gz tmp/apysc-3.0.1.tar.gz --markdown 20230625/a/apysc/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-25 12:37:22] INFO root fetch - processPackages [constrainedlr]: Remove: archive file [/home/abi/fetcher/tmp/constrainedlr-0.1.2.tar.gz]
+[2023-06-25 12:37:22] INFO root fetch - processPackages [constrainedlr]: Remove: archive file [/home/abi/fetcher/tmp/constrainedlr-0.1.3.tar.gz]
+[2023-06-25 12:37:22] INFO root fetch - main [MainThread]: End processing [constrainedlr]: success
+[2023-06-25 12:37:22] INFO root fetch - processPackages [s5-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/s5-pytorch-0.1.8.tar.gz]
+[2023-06-25 12:37:22] INFO root fetch - processPackages [s5-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/s5-pytorch-0.1.9.tar.gz]
+[2023-06-25 12:37:22] INFO root fetch - main [MainThread]: End processing [s5-pytorch]: success
+[2023-06-25 12:37:23] INFO root fetch - processPackages [caltool]: Remove: archive file [/home/abi/fetcher/tmp/caltool-0.1.0.tar.gz]
+[2023-06-25 12:37:23] INFO root fetch - processPackages [caltool]: Remove: archive file [/home/abi/fetcher/tmp/caltool-0.1.1.tar.gz]
+[2023-06-25 12:37:23] INFO root fetch - main [MainThread]: End processing [caltool]: success
+[2023-06-25 12:37:23] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.2.tar.gz]
+[2023-06-25 12:37:23] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.3.tar.gz]
+[2023-06-25 12:37:23] INFO root fetch - main [MainThread]: End processing [pyweb-db]: success
+[2023-06-25 12:37:23] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-0.2.7.tar.gz]
+[2023-06-25 12:37:23] INFO root fetch - processPackages [airoboros]: Remove: archive file [/home/abi/fetcher/tmp/airoboros-0.2.8.tar.gz]
+[2023-06-25 12:37:23] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-06-25 12:37:24] INFO root fetch - processPackages [endplay]: Remove: archive file [/home/abi/fetcher/tmp/endplay-0.4.8b0.tar.gz]
+[2023-06-25 12:37:24] INFO root fetch - processPackages [endplay]: Remove: archive file [/home/abi/fetcher/tmp/endplay-0.4.9b0.tar.gz]
+[2023-06-25 12:37:24] INFO root fetch - main [MainThread]: End processing [endplay]: success
+[2023-06-25 12:37:25] INFO root fetch - processPackages [LibRecommender]: Remove: archive file [/home/abi/fetcher/tmp/LibRecommender-1.2.0.tar.gz]
+[2023-06-25 12:37:25] INFO root fetch - processPackages [LibRecommender]: Remove: archive file [/home/abi/fetcher/tmp/LibRecommender-1.2.1.tar.gz]
+[2023-06-25 12:37:25] INFO root fetch - main [MainThread]: End processing [LibRecommender]: success
+[2023-06-25 12:37:29] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.0.tar.gz]
+[2023-06-25 12:37:29] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.1.tar.gz]
+[2023-06-25 12:37:29] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-25 12:37:29] INFO root fetch - main [MainThread]: Store serial: [18635751]
