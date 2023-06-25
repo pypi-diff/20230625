@@ -11027,3 +11027,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:45:59] INFO root fetch - main [MainThread]: End processing [pythoven]: success
 [2023-06-25 16:45:59] INFO root fetch - main [MainThread]: End processing [pythoven]: success
 [2023-06-25 16:45:59] INFO root fetch - main [MainThread]: Store serial: [18636955]
+[2023-06-25 16:51:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636955]
+[2023-06-25 16:51:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 16:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betapert
+[2023-06-25 16:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prodsys
+[2023-06-25 16:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OEISsequences
+[2023-06-25 16:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aibench
+[2023-06-25 16:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maisaedu-utilities-prefect
+[2023-06-25 16:51:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maisaedu-poormans-dms
+[2023-06-25 16:51:08] WARNING root fetch - processPackages [aibench]: Skipping, unable to determine old version
+[2023-06-25 16:51:08] INFO root fetch - main [MainThread]: End processing [aibench] error
+[2023-06-25 16:51:08] INFO root fetch - processPackages [OEISsequences]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 16:51:08] INFO root fetch - processPackages [betapert]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 16:51:08] INFO root fetch - processPackages [prodsys]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-25 16:51:08] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 16:51:08] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [betapert]: Downloading https://files.pythonhosted.org/packages/61/72/06628ea812889c7eeb6d919ed62b84e68658fb4309e844053961aee46f88/betapert-0.1.0.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [OEISsequences]: Downloading https://files.pythonhosted.org/packages/3a/7d/6419b4a205449a139722f90569fa462c8020b2974b5e6f14ef836759d2e6/OEISsequences-0.1.8.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/71/b4/565dae99aa84cc726fe6642f27b44b67f45209545f7a59dae338d437093f/prodsys-0.1.1.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230625/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-06-25 16:51:09] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230625/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 16:51:09] INFO root fetch - processPackages [betapert]: Downloading https://files.pythonhosted.org/packages/bf/9e/42c1dcb2a5067c3561ba6470addbc03cd863787a9849fee5eeff5d897a14/betapert-0.1.1.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/8d/bb/033b2cb9dba252039cee1bb70a192133001cde3cfca22a7e042195cb631f/prodsys-0.2.1.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [betapert]: executing diffoscope
+[2023-06-25 16:51:09] INFO root fetch - processPackages [betapert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betapert-0.1.0.tar.gz tmp/betapert-0.1.1.tar.gz --markdown 20230625/b/betapert/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 16:51:09] INFO root fetch - processPackages [OEISsequences]: Downloading https://files.pythonhosted.org/packages/52/77/b1535f6e38bc45155d6d08bb55c675e7d2b785c4690b6f7b78067db78b04/OEISsequences-0.1.9.tar.gz
+[2023-06-25 16:51:09] INFO root fetch - processPackages [prodsys]: executing diffoscope
+[2023-06-25 16:51:09] INFO root fetch - processPackages [prodsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodsys-0.1.1.tar.gz tmp/prodsys-0.2.1.tar.gz --markdown 20230625/p/prodsys/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-25 16:51:09] INFO root fetch - processPackages [OEISsequences]: executing diffoscope
+[2023-06-25 16:51:09] INFO root fetch - processPackages [OEISsequences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OEISsequences-0.1.8.tar.gz tmp/OEISsequences-0.1.9.tar.gz --markdown 20230625/O/OEISsequences/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 16:51:10] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-06-25 16:51:10] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-06-25 16:51:10] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-06-25 16:51:10] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-06-25 16:51:10] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-06-25 16:51:10] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-06-25 16:51:10] INFO root fetch - processPackages [betapert]: Remove: archive file [/home/abi/fetcher/tmp/betapert-0.1.0.tar.gz]
+[2023-06-25 16:51:10] INFO root fetch - processPackages [betapert]: Remove: archive file [/home/abi/fetcher/tmp/betapert-0.1.1.tar.gz]
+[2023-06-25 16:51:10] INFO root fetch - main [MainThread]: End processing [betapert]: success
+[2023-06-25 16:51:11] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.1.1.tar.gz]
+[2023-06-25 16:51:11] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.2.1.tar.gz]
+[2023-06-25 16:51:11] INFO root fetch - main [MainThread]: End processing [prodsys]: success
+[2023-06-25 16:51:11] INFO root fetch - processPackages [OEISsequences]: Remove: archive file [/home/abi/fetcher/tmp/OEISsequences-0.1.8.tar.gz]
+[2023-06-25 16:51:11] INFO root fetch - processPackages [OEISsequences]: Remove: archive file [/home/abi/fetcher/tmp/OEISsequences-0.1.9.tar.gz]
+[2023-06-25 16:51:11] INFO root fetch - main [MainThread]: End processing [OEISsequences]: success
+[2023-06-25 16:51:11] INFO root fetch - main [MainThread]: Store serial: [18636989]
