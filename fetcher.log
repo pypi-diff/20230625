@@ -8618,3 +8618,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:03:31] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
 [2023-06-25 13:03:31] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
 [2023-06-25 13:03:31] INFO root fetch - main [MainThread]: Store serial: [18635864]
+[2023-06-25 13:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635864]
+[2023-06-25 13:08:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 13:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chomp64
+[2023-06-25 13:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhon
+[2023-06-25 13:08:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dszoro
+[2023-06-25 13:08:40] INFO root fetch - processPackages [zhon]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-25 13:08:40] WARNING root fetch - processPackages [chomp64]: Skipping, unable to determine old version
+[2023-06-25 13:08:40] INFO root fetch - main [MainThread]: End processing [chomp64] error
+[2023-06-25 13:08:40] INFO root fetch - processPackages [dszoro]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-25 13:08:40] INFO root fetch - processPackages [zhon]: Downloading https://files.pythonhosted.org/packages/49/5d/7f62f5bceb27b0e7e864aa8b990b0b3c451120052e6910af5937d3b0b1ee/zhon-2.0.0.tar.gz
+[2023-06-25 13:08:40] INFO root fetch - processPackages [dszoro]: Downloading https://files.pythonhosted.org/packages/90/ac/3fbd767e588a13d5ef5216e341941e6569aa81562493dd6e9b554b90a1e7/dszoro-0.0.1.tar.gz
+[2023-06-25 13:08:40] INFO root fetch - processPackages [dszoro]: Downloading https://files.pythonhosted.org/packages/b6/24/1e878dc3c758da5376523272e8ef01930e1ab3062ebbcb8cf9ea4de4d907/dszoro-0.0.3.tar.gz
+[2023-06-25 13:08:40] INFO root fetch - processPackages [zhon]: Downloading https://files.pythonhosted.org/packages/1b/e8/f598843392c06d1184f97600475681094fed116062e627045a9b7ec3a25a/zhon-2.0.1.tar.gz
+[2023-06-25 13:08:40] INFO root fetch - processPackages [dszoro]: executing diffoscope
+[2023-06-25 13:08:40] INFO root fetch - processPackages [dszoro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dszoro-0.0.1.tar.gz tmp/dszoro-0.0.3.tar.gz --markdown 20230625/d/dszoro/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 13:08:40] INFO root fetch - processPackages [zhon]: executing diffoscope
+[2023-06-25 13:08:40] INFO root fetch - processPackages [zhon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhon-2.0.0.tar.gz tmp/zhon-2.0.1.tar.gz --markdown 20230625/z/zhon/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-25 13:08:41] INFO root fetch - processPackages [dszoro]: Remove: archive file [/home/abi/fetcher/tmp/dszoro-0.0.1.tar.gz]
+[2023-06-25 13:08:41] INFO root fetch - processPackages [dszoro]: Remove: archive file [/home/abi/fetcher/tmp/dszoro-0.0.3.tar.gz]
+[2023-06-25 13:08:41] INFO root fetch - main [MainThread]: End processing [dszoro]: success
+[2023-06-25 13:09:36] INFO root fetch - processPackages [zhon]: Remove: archive file [/home/abi/fetcher/tmp/zhon-2.0.0.tar.gz]
+[2023-06-25 13:09:36] INFO root fetch - processPackages [zhon]: Remove: archive file [/home/abi/fetcher/tmp/zhon-2.0.1.tar.gz]
+[2023-06-25 13:09:36] INFO root fetch - main [MainThread]: End processing [zhon]: success
+[2023-06-25 13:09:36] INFO root fetch - main [MainThread]: Store serial: [18635874]
