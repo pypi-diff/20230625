@@ -4096,3 +4096,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:16:39] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.6.tar.gz]
 [2023-06-25 06:16:39] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
 [2023-06-25 06:16:39] INFO root fetch - main [MainThread]: Store serial: [18634038]
+[2023-06-25 06:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634038]
+[2023-06-25 06:21:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 06:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SpLFastlyWrite
+[2023-06-25 06:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stitch3d
+[2023-06-25 06:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BlitzChain
+[2023-06-25 06:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lycoris-lora
+[2023-06-25 06:21:48] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev6] Old Version: [0.1.7.dev5]
+[2023-06-25 06:21:48] WARNING root fetch - processPackages [stitch3d]: Skipping, unable to determine old version
+[2023-06-25 06:21:48] INFO root fetch - main [MainThread]: End processing [stitch3d] error
+[2023-06-25 06:21:48] INFO root fetch - processPackages [SpLFastlyWrite]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-25 06:21:48] WARNING root fetch - processPackages [BlitzChain]: Skipping, unable to determine old version
+[2023-06-25 06:21:48] INFO root fetch - main [MainThread]: End processing [BlitzChain] error
+[2023-06-25 06:21:48] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/9a/e6/7aabb9f126695d5ef6b74dc07750221187818c60b485cc2ee9400eee56bc/lycoris_lora-0.1.7.dev5.tar.gz
+[2023-06-25 06:21:48] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/35/0e/c70a0f2b2d4746e02836e9c6db1e567f8e8692876fdab76ced3def3cbdae/SpLFastlyWrite-1.0.4.tar.gz
+[2023-06-25 06:21:48] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/98/58/2f6226c45600bfda4a86da83e38423bd576ec566a52afeb9f7bf5251beb7/lycoris_lora-0.1.7.dev6.tar.gz
+[2023-06-25 06:21:48] INFO root fetch - processPackages [SpLFastlyWrite]: Downloading https://files.pythonhosted.org/packages/84/c4/6e516f3b45ec254140b9f9b23f48642f10515008a09ad2210bbdf82cd49f/SpLFastlyWrite-1.0.5.tar.gz
+[2023-06-25 06:21:48] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-25 06:21:48] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev5.tar.gz tmp/lycoris_lora-0.1.7.dev6.tar.gz --markdown 20230625/l/lycoris-lora/0.1.7.dev5-0.1.7.dev6/diff.md --exclude *.pyd
+[2023-06-25 06:21:48] INFO root fetch - processPackages [SpLFastlyWrite]: executing diffoscope
+[2023-06-25 06:21:48] INFO root fetch - processPackages [SpLFastlyWrite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpLFastlyWrite-1.0.4.tar.gz tmp/SpLFastlyWrite-1.0.5.tar.gz --markdown 20230625/S/SpLFastlyWrite/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-25 06:21:49] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev5.tar.gz]
+[2023-06-25 06:21:49] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev6.tar.gz]
+[2023-06-25 06:21:49] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-25 06:21:49] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.4.tar.gz]
+[2023-06-25 06:21:49] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.5.tar.gz]
+[2023-06-25 06:21:49] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
+[2023-06-25 06:21:49] INFO root fetch - main [MainThread]: Store serial: [18634058]
