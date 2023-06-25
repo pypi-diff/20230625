@@ -7710,3 +7710,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 11:41:02] INFO root fetch - processPackages [llm-rs-opencl]: Remove: archive file [/home/abi/fetcher/tmp/llm_rs_opencl-0.2.12-cp37-abi3-win_amd64.whl.zip]
 [2023-06-25 11:41:02] INFO root fetch - main [MainThread]: End processing [llm-rs-opencl]: success
 [2023-06-25 11:41:02] INFO root fetch - main [MainThread]: Store serial: [18635420]
+[2023-06-25 11:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635420]
+[2023-06-25 11:46:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TuXingKeJi
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosdk-py
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-unfold
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eFatura
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-ddosbgp
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py4ami
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-25 11:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: draggan
+[2023-06-25 11:46:11] INFO root fetch - processPackages [eFatura]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-25 11:46:11] WARNING root fetch - processPackages [aliyun-python-sdk-ddosbgp]: Skipping, unable to determine old version
+[2023-06-25 11:46:11] INFO root fetch - processPackages [aiosdk-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 11:46:11] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ddosbgp] error
+[2023-06-25 11:46:11] WARNING root fetch - processPackages [TuXingKeJi]: Skipping, unable to determine old version
+[2023-06-25 11:46:11] INFO root fetch - main [MainThread]: End processing [TuXingKeJi] error
+[2023-06-25 11:46:11] INFO root fetch - processPackages [django-unfold]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-25 11:46:11] INFO root fetch - processPackages [py4ami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 11:46:11] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping, unable to determine old version
+[2023-06-25 11:46:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-25 11:46:11] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/04/6b/969bae300c46604d26e04d53075a52695a49d30db8933c3b7082fec9093d/eFatura-1.0.9.tar.gz
+[2023-06-25 11:46:11] INFO root fetch - processPackages [draggan]: New version: [1.1.1] Old Version: [1.1.0b2]
+[2023-06-25 11:46:11] ERROR root fetch - processPackages [aiosdk-py]: Unable to fetch info: No such project/version 'aiosdk-py' 0.0.2
+[2023-06-25 11:46:11] INFO root fetch - main [MainThread]: End processing [aiosdk-py] error
+[2023-06-25 11:46:11] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/ff/1b/d0aa2b8c106e47d724aaba91db4593828ebf4de5d208b289e77885a54a7a/django_unfold-0.6.6.tar.gz
+[2023-06-25 11:46:11] INFO root fetch - processPackages [py4ami]: Downloading https://files.pythonhosted.org/packages/c5/19/fd72b8e353daaae6dce12807e4727231323c1eb920f6f081e58828435702/py4ami-0.0.8.tar.gz
+[2023-06-25 11:46:11] WARNING root fetch - processPackages [py4ami]: Skipping package: exceeds size limit 16331081>=10485760
+[2023-06-25 11:46:11] INFO root fetch - main [MainThread]: End processing [py4ami] error
+[2023-06-25 11:46:11] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/1f/96/e761bf136401e808d96734731474757f3e53f72133b041e00a36a4c7a56c/draggan-1.1.0b2.tar.gz
+[2023-06-25 11:46:11] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/03/e4/483b9961f8f1b4f41320b7381d3fb6e741861b8e40f7cacd7092cbac1671/eFatura-1.1.0.tar.gz
+[2023-06-25 11:46:11] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-06-25 11:46:11] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.9.tar.gz tmp/eFatura-1.1.0.tar.gz --markdown 20230625/e/eFatura/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 11:46:12] INFO root fetch - processPackages [django-unfold]: Downloading https://files.pythonhosted.org/packages/08/df/e592444b81e805a4eb6d28ff2a42aa5ba57d20f44d1b538f40774bfcd67a/django_unfold-0.6.7.tar.gz
+[2023-06-25 11:46:12] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/72/33/6c0d42217f7f47ab5bc2e01bb415c14b173ca0df0a9ce1ff99c6ba5c95ef/draggan-1.1.1.tar.gz
+[2023-06-25 11:46:12] INFO root fetch - processPackages [django-unfold]: executing diffoscope
+[2023-06-25 11:46:12] INFO root fetch - processPackages [django-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_unfold-0.6.6.tar.gz tmp/django_unfold-0.6.7.tar.gz --markdown 20230625/d/django-unfold/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-25 11:46:12] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-25 11:46:12] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.0b2.tar.gz tmp/draggan-1.1.1.tar.gz --markdown 20230625/d/draggan/1.1.0b2-1.1.1/diff.md --exclude *.pyd
+[2023-06-25 11:46:13] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.0.9.tar.gz]
+[2023-06-25 11:46:13] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.1.0.tar.gz]
+[2023-06-25 11:46:13] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-06-25 11:46:13] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.6.6.tar.gz]
+[2023-06-25 11:46:13] INFO root fetch - processPackages [django-unfold]: Remove: archive file [/home/abi/fetcher/tmp/django_unfold-0.6.7.tar.gz]
+[2023-06-25 11:46:13] INFO root fetch - main [MainThread]: End processing [django-unfold]: success
+[2023-06-25 11:46:14] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.0b2.tar.gz]
+[2023-06-25 11:46:14] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.1.tar.gz]
+[2023-06-25 11:46:14] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-25 11:46:14] INFO root fetch - main [MainThread]: Store serial: [18635454]
