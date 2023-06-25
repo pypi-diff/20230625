@@ -4198,3 +4198,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:32:11] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.2.4.tar.gz]
 [2023-06-25 06:32:11] INFO root fetch - main [MainThread]: End processing [dbterd]: success
 [2023-06-25 06:32:11] INFO root fetch - main [MainThread]: Store serial: [18634086]
+[2023-06-25 06:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634086]
+[2023-06-25 06:37:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msgram-parser
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickgpt
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jmcomic
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbrlabs-pulumi-eks
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slack-blocks-builder
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissist
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cheetah-orm
+[2023-06-25 06:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-macos
+[2023-06-25 06:37:20] INFO root fetch - processPackages [msgram-parser]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 06:37:20] INFO root fetch - processPackages [quickgpt]: New version: [0.7] Old Version: [0.6.2]
+[2023-06-25 06:37:20] INFO root fetch - processPackages [aissist]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 06:37:20] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.3a1687660999] Old Version: [0.0.3]
+[2023-06-25 06:37:20] INFO root fetch - processPackages [jmcomic]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-25 06:37:20] INFO root fetch - processPackages [cheetah-orm]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-06-25 06:37:20] WARNING root fetch - processPackages [slack-blocks-builder]: Skipping, unable to determine old version
+[2023-06-25 06:37:20] INFO root fetch - main [MainThread]: End processing [slack-blocks-builder] error
+[2023-06-25 06:37:20] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/74/b7/b3a8abd0ab3a0a469697bebaa9845dc400b68361c4a7c30270afbf7077e6/aissist-0.0.6.tar.gz
+[2023-06-25 06:37:20] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/8a/4b/7da4ff1e1941f8e5a82c6aa1125f43092d989c4ca4838f3466cfb49bea44/jmcomic-2.0.7.tar.gz
+[2023-06-25 06:37:20] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230624] Old Version: [2.14.0.dev20230623]
+[2023-06-25 06:37:20] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/2c/a5/389d176b1893c4c30aaff090bb84e25804936398746f008812146b5dd6dd/msgram-parser-0.0.2.tar.gz
+[2023-06-25 06:37:20] INFO root fetch - processPackages [quickgpt]: Downloading https://files.pythonhosted.org/packages/f4/2a/36b29b15ba449336af54ff0d7805f1a5e32f49541925c66c1a00c657bb99/quickgpt-0.6.2.tar.gz
+[2023-06-25 06:37:20] INFO root fetch - processPackages [cheetah-orm]: Downloading https://files.pythonhosted.org/packages/9e/c8/fcf9e13d18c0d39d66fec1cb95199181c174a4a7dcb8382b0245aff7d3e6/cheetah_orm-2.0.0b2-py3-none-any.whl
+[2023-06-25 06:37:20] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/7c/92/311384f3c58250b509be27524d5435fadc2b4e537a18d7e0c25d609c8419/lbrlabs_pulumi_eks-0.0.3.tar.gz
+[2023-06-25 06:37:21] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/a4/39/aa4123093e86ae4966727692eb3c2a82a6ac75000e2c888b19b25c81e7d3/tf_nightly_macos-2.14.0.dev20230623-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-25 06:37:21] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/fa/91/deb7e5684db2890a54286d6ea4054dbcf1b7195f70bc1cec419f8b315974/jmcomic-2.0.8.tar.gz
+[2023-06-25 06:37:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/fb/96/f7b048db989597dc46957a0c8893a916fbaa49ff48e6cf60a9db981b66e4/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz
+[2023-06-25 06:37:21] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199371738>=10485760
+[2023-06-25 06:37:21] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-25 06:37:21] INFO root fetch - processPackages [cheetah-orm]: Downloading https://files.pythonhosted.org/packages/3b/16/741210e93e343fcbbe722ffdd2ab76f9fcd7efbaf9c439e0a86d9afdd043/cheetah_orm-2.0.0b3-py3-none-any.whl
+[2023-06-25 06:37:21] INFO root fetch - processPackages [quickgpt]: Downloading https://files.pythonhosted.org/packages/0c/50/e0a10f671dfbb5485170fbe0960026c7f025d2d47ea420633fafca7c5b48/quickgpt-0.7.tar.gz
+[2023-06-25 06:37:21] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/d0/6e/5cea947aaefdbc998e116eb93ea3a25937e832aadb744c63c014cc39f04f/msgram-parser-0.0.3.tar.gz
+[2023-06-25 06:37:21] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/53/1a/e7df9206ec0b9d7e34fb9db747f46355e5f940a589a1c968c31d236a885b/aissist-0.0.7.tar.gz
+[2023-06-25 06:37:21] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-06-25 06:37:21] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.0.7.tar.gz tmp/jmcomic-2.0.8.tar.gz --markdown 20230625/j/jmcomic/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-06-25 06:37:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-25 06:37:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.3.tar.gz tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz --markdown 20230625/l/lbrlabs-pulumi-eks/0.0.3-0.0.3a1687660999/diff.md --exclude *.pyd
+[2023-06-25 06:37:21] INFO root fetch - processPackages [msgram-parser]: executing diffoscope
+[2023-06-25 06:37:21] INFO root fetch - processPackages [msgram-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-parser-0.0.2.tar.gz tmp/msgram-parser-0.0.3.tar.gz --markdown 20230625/m/msgram-parser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 06:37:21] INFO root fetch - processPackages [aissist]: executing diffoscope
+[2023-06-25 06:37:21] INFO root fetch - processPackages [aissist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissist-0.0.6.tar.gz tmp/aissist-0.0.7.tar.gz --markdown 20230625/a/aissist/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 06:37:21] INFO root fetch - processPackages [cheetah-orm]: executing diffoscope
+[2023-06-25 06:37:21] INFO root fetch - processPackages [cheetah-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheetah_orm-2.0.0b2-py3-none-any.whl.zip tmp/cheetah_orm-2.0.0b3-py3-none-any.whl.zip --markdown 20230625/c/cheetah-orm/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-06-25 06:37:21] INFO root fetch - processPackages [quickgpt]: executing diffoscope
+[2023-06-25 06:37:21] INFO root fetch - processPackages [quickgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickgpt-0.6.2.tar.gz tmp/quickgpt-0.7.tar.gz --markdown 20230625/q/quickgpt/0.6.2-0.7/diff.md --exclude *.pyd
+[2023-06-25 06:37:22] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.7.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.0.8.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-06-25 06:37:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.3.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-25 06:37:22] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.6.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.7.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - main [MainThread]: End processing [aissist]: success
+[2023-06-25 06:37:22] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.2.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.3.tar.gz]
+[2023-06-25 06:37:22] INFO root fetch - main [MainThread]: End processing [msgram-parser]: success
+[2023-06-25 06:37:23] INFO root fetch - processPackages [quickgpt]: Remove: archive file [/home/abi/fetcher/tmp/quickgpt-0.6.2.tar.gz]
+[2023-06-25 06:37:23] INFO root fetch - processPackages [quickgpt]: Remove: archive file [/home/abi/fetcher/tmp/quickgpt-0.7.tar.gz]
+[2023-06-25 06:37:23] INFO root fetch - main [MainThread]: End processing [quickgpt]: success
+[2023-06-25 06:37:23] INFO root fetch - processPackages [cheetah-orm]: Remove: archive file [/home/abi/fetcher/tmp/cheetah_orm-2.0.0b2-py3-none-any.whl.zip]
+[2023-06-25 06:37:23] INFO root fetch - processPackages [cheetah-orm]: Remove: archive file [/home/abi/fetcher/tmp/cheetah_orm-2.0.0b3-py3-none-any.whl.zip]
+[2023-06-25 06:37:23] INFO root fetch - main [MainThread]: End processing [cheetah-orm]: success
+[2023-06-25 06:37:23] INFO root fetch - main [MainThread]: Store serial: [18634114]
