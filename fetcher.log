@@ -15693,3 +15693,57 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 23:01:17] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban-cmd-2.0.0.tar.gz]
 [2023-06-25 23:01:17] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
 [2023-06-25 23:01:17] INFO root fetch - main [MainThread]: Store serial: [18638990]
+[2023-06-25 23:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638990]
+[2023-06-25 23:06:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m23
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: niapi
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollination-annual-daylight
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: degex
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fl-api-requester
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fl-api-requester
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nhs-aws-helpers
+[2023-06-25 23:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nhs-context-logging
+[2023-06-25 23:06:26] INFO root fetch - processPackages [crypto-screening]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-25 23:06:26] WARNING root fetch - processPackages [fl-api-requester]: Skipping, unable to determine old version
+[2023-06-25 23:06:26] INFO root fetch - main [MainThread]: End processing [fl-api-requester] error
+[2023-06-25 23:06:26] WARNING root fetch - processPackages [fl-api-requester]: Skipping, unable to determine old version
+[2023-06-25 23:06:26] INFO root fetch - main [MainThread]: End processing [fl-api-requester] error
+[2023-06-25 23:06:26] WARNING root fetch - processPackages [nhs-aws-helpers]: Skipping, unable to determine old version
+[2023-06-25 23:06:26] WARNING root fetch - processPackages [nhs-context-logging]: Skipping, unable to determine old version
+[2023-06-25 23:06:26] WARNING root fetch - processPackages [niapi]: Skipping, unable to determine old version
+[2023-06-25 23:06:26] INFO root fetch - processPackages [degex]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-06-25 23:06:26] INFO root fetch - main [MainThread]: End processing [nhs-aws-helpers] error
+[2023-06-25 23:06:26] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/43/7c/1fabbe3cbac65c17622a8cc95961339f7104cd74d303b130d68e6df6f6f5/crypto-screening-1.0.2.tar.gz
+[2023-06-25 23:06:26] INFO root fetch - main [MainThread]: End processing [nhs-context-logging] error
+[2023-06-25 23:06:26] INFO root fetch - main [MainThread]: End processing [niapi] error
+[2023-06-25 23:06:26] INFO root fetch - processPackages [pollination-annual-daylight]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 23:06:26] INFO root fetch - processPackages [m23]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-25 23:06:26] INFO root fetch - processPackages [degex]: Downloading https://files.pythonhosted.org/packages/95/dc/9785569a35ec6f62e68771363cd9788113dcfbbdfc3525ec3d90e28881a1/degex-0.0.18.tar.gz
+[2023-06-25 23:06:26] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/71/7b/2a5b44cea18c93a1d776101febbc647d89d9738f9fb59219526c9955f11d/crypto-screening-1.0.3.tar.gz
+[2023-06-25 23:06:26] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/0a/44/705c9726984438de5bec99f9947619f3668612c67ecf9aac3a94010aad52/m23-1.8.2.tar.gz
+[2023-06-25 23:06:26] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/84/2c/8efad4f9a84def4f540967d3f5d5a7b176697357ade3b81901f19f2f7d70/pollination-annual-daylight-0.9.8.tar.gz
+[2023-06-25 23:06:26] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-06-25 23:06:26] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.0.2.tar.gz tmp/crypto-screening-1.0.3.tar.gz --markdown 20230625/c/crypto-screening/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-25 23:06:27] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/4d/67/dab81863ce3ce679a1188cfd84270b5a286abb30cccee94eed488e197291/m23-1.8.3.tar.gz
+[2023-06-25 23:06:27] INFO root fetch - processPackages [degex]: Downloading https://files.pythonhosted.org/packages/89/05/169b376af94239172312e711c2e6fdc81c2ddf5777c2a78fb772f29258da/degex-0.0.19.tar.gz
+[2023-06-25 23:06:27] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/3f/e1/394fb4b8480edc7dea37f64330776b542e5453f9784b22f4e61e89bb4ecd/pollination-annual-daylight-0.9.9.tar.gz
+[2023-06-25 23:06:27] INFO root fetch - processPackages [degex]: executing diffoscope
+[2023-06-25 23:06:27] INFO root fetch - processPackages [degex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degex-0.0.18.tar.gz tmp/degex-0.0.19.tar.gz --markdown 20230625/d/degex/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-06-25 23:06:27] INFO root fetch - processPackages [pollination-annual-daylight]: executing diffoscope
+[2023-06-25 23:06:27] INFO root fetch - processPackages [pollination-annual-daylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-0.9.8.tar.gz tmp/pollination-annual-daylight-0.9.9.tar.gz --markdown 20230625/p/pollination-annual-daylight/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 23:06:27] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-25 23:06:27] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.2.tar.gz tmp/m23-1.8.3.tar.gz --markdown 20230625/m/m23/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-25 23:06:28] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.0.2.tar.gz]
+[2023-06-25 23:06:28] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.0.3.tar.gz]
+[2023-06-25 23:06:28] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-06-25 23:06:28] INFO root fetch - processPackages [degex]: Remove: archive file [/home/abi/fetcher/tmp/degex-0.0.18.tar.gz]
+[2023-06-25 23:06:28] INFO root fetch - processPackages [degex]: Remove: archive file [/home/abi/fetcher/tmp/degex-0.0.19.tar.gz]
+[2023-06-25 23:06:28] INFO root fetch - main [MainThread]: End processing [degex]: success
+[2023-06-25 23:06:28] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.8.tar.gz]
+[2023-06-25 23:06:28] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.9.tar.gz]
+[2023-06-25 23:06:28] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight]: success
+[2023-06-25 23:06:29] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.2.tar.gz]
+[2023-06-25 23:06:29] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.3.tar.gz]
+[2023-06-25 23:06:29] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-25 23:06:29] INFO root fetch - main [MainThread]: Store serial: [18639027]
