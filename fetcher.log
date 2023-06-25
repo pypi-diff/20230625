@@ -10408,3 +10408,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:33:12] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
 [2023-06-25 15:33:12] INFO root fetch - main [MainThread]: End processing [py-pde]: success
 [2023-06-25 15:33:12] INFO root fetch - main [MainThread]: Store serial: [18636685]
+[2023-06-25 15:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636685]
+[2023-06-25 15:38:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybrary
+[2023-06-25 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proJSON
+[2023-06-25 15:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhackrf2
+[2023-06-25 15:38:21] INFO root fetch - processPackages [pybrary]: New version: [0.3.0] Old Version: [0.2326.0]
+[2023-06-25 15:38:21] WARNING root fetch - processPackages [pyhackrf2]: Skipping, unable to determine old version
+[2023-06-25 15:38:21] INFO root fetch - main [MainThread]: End processing [pyhackrf2] error
+[2023-06-25 15:38:21] INFO root fetch - processPackages [proJSON]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-25 15:38:21] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/76/6f/23922d7b75366468b7b853081d5bae8abae13a2d7836ce41ff2884d2cd02/proJSON-1.2.3.tar.gz
+[2023-06-25 15:38:21] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/4a/0d/e9d519c8428ed0f863eacccdef3b2a0e2a630a3b7b33c5ac4721b7dafbd4/pybrary-0.2326.0.tar.gz
+[2023-06-25 15:38:22] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/bb/a2/1a75a3e87aa209fac7db7d97ca7acf6f9cd3cf72698d58f1aea0a4c3a18a/pybrary-0.3.0.tar.gz
+[2023-06-25 15:38:22] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/ac/23/a33d31687930896e303acdfa0bc02abb908dab09c917a345f2d4530ca56a/proJSON-1.2.4.tar.gz
+[2023-06-25 15:38:22] INFO root fetch - processPackages [pybrary]: executing diffoscope
+[2023-06-25 15:38:22] INFO root fetch - processPackages [pybrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrary-0.2326.0.tar.gz tmp/pybrary-0.3.0.tar.gz --markdown 20230625/p/pybrary/0.2326.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 15:38:22] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-25 15:38:22] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.2.3.tar.gz tmp/proJSON-1.2.4.tar.gz --markdown 20230625/p/proJSON/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-25 15:38:23] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.3.tar.gz]
+[2023-06-25 15:38:23] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.4.tar.gz]
+[2023-06-25 15:38:23] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-25 15:38:23] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.2326.0.tar.gz]
+[2023-06-25 15:38:23] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.3.0.tar.gz]
+[2023-06-25 15:38:23] INFO root fetch - main [MainThread]: End processing [pybrary]: success
+[2023-06-25 15:38:23] INFO root fetch - main [MainThread]: Store serial: [18636696]
