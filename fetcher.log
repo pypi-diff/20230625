@@ -16321,3 +16321,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 23:46:06] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.3.tar.gz]
 [2023-06-25 23:46:06] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-06-25 23:46:06] INFO root fetch - main [MainThread]: Store serial: [18639245]
+[2023-06-25 23:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639245]
+[2023-06-25 23:51:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyencryption
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svgtrace
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynbps
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MLandPattern
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gridpp
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-airflow-providers-kettle
+[2023-06-25 23:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrefact
+[2023-06-25 23:51:15] INFO root fetch - processPackages [easyencryption]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [svgtrace]: New version: [2023.1] Old Version: [2023.0.1]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [apache-airflow-providers-kettle]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [86]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/48/2d/4f12344feb80372afa4f07cbdbdac1ef14fbd0731a0c38536e81cfa0cb9b/apache_airflow_providers_kettle-1.0.1.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/32/87/3ed0c0af45ee028f6319289d4be3929289a1dd288096ba4a71a74f32f3eb/easyencryption-0.1.6.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/76/6b/c7b06fd7909de248c98f4ecdf4f92b7337c8a1dd2922a8ff6dc349b64b91/pyrefact-86.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/af/53/c2ab5979828b8b104b3146ff3db2f32a27e399cfbf5a870e4883edba5672/MLandPattern-0.2.3.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [gridpp]: New version: [0.7.0.dev4] Old Version: [0.7.0.dev2]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [dynbps]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 23:51:15] INFO root fetch - processPackages [svgtrace]: Downloading https://files.pythonhosted.org/packages/6f/7b/269bfc2477896f961ead1378bc60f5d1dd0c346f12f74bfb708508c745e9/svgtrace-2023.0.1.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/72/19/60206848525d0cdbb378abb45a5b4a486eb1a29facf81e7d72a771e4dce5/MLandPattern-0.2.4.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [gridpp]: Downloading https://files.pythonhosted.org/packages/12/ca/7eca4112cffa10fd814d9d25517a03c4b8543ffb4b3dc7a34c75af0a9f13/gridpp-0.7.0.dev2-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 23:51:15] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/c6/f7/32b2714ea3de2f178a1e087eb070d2ddf3f5c549b352a83d0e72cf92884e/apache_airflow_providers_kettle-1.0.2.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/df/7b/f58a1f70e52ed8b936d562f434b4d005322708be43347f0d4d623073631b/dynbps-0.0.8.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/51/be/da05cb0aabc4782f6d9ebc9aa3403e2cdaa4fa18409b636fcc9e4864953e/easyencryption-0.1.6.1.tar.gz
+[2023-06-25 23:51:15] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-06-25 23:51:15] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-86.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230625/p/pyrefact/86-9/diff.md --exclude *.pyd
+[2023-06-25 23:51:15] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-25 23:51:15] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.3.tar.gz tmp/MLandPattern-0.2.4.tar.gz --markdown 20230625/M/MLandPattern/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-25 23:51:15] INFO root fetch - processPackages [apache-airflow-providers-kettle]: executing diffoscope
+[2023-06-25 23:51:15] INFO root fetch - processPackages [apache-airflow-providers-kettle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_kettle-1.0.1.tar.gz tmp/apache_airflow_providers_kettle-1.0.2.tar.gz --markdown 20230625/a/apache-airflow-providers-kettle/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 23:51:15] INFO root fetch - processPackages [easyencryption]: executing diffoscope
+[2023-06-25 23:51:15] INFO root fetch - processPackages [easyencryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyencryption-0.1.6.tar.gz tmp/easyencryption-0.1.6.1.tar.gz --markdown 20230625/e/easyencryption/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-06-25 23:51:16] INFO root fetch - processPackages [svgtrace]: Downloading https://files.pythonhosted.org/packages/ca/0e/9c3bbbffee2a0dc1fe6a6fc7dcf3166a3268302144543577b7777fa466b5/svgtrace-2023.1.tar.gz
+[2023-06-25 23:51:16] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/68/24/1ebda3992ba3fca69361dc71a1002d2a7f0587e88491f1cc7ebebac1823a/dynbps-0.0.9.tar.gz
+[2023-06-25 23:51:16] INFO root fetch - processPackages [svgtrace]: executing diffoscope
+[2023-06-25 23:51:16] INFO root fetch - processPackages [svgtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgtrace-2023.0.1.tar.gz tmp/svgtrace-2023.1.tar.gz --markdown 20230625/s/svgtrace/2023.0.1-2023.1/diff.md --exclude *.pyd
+[2023-06-25 23:51:16] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-06-25 23:51:16] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.8.tar.gz tmp/dynbps-0.0.9.tar.gz --markdown 20230625/d/dynbps/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 23:51:16] WARNING root fetch - processPackages [gridpp]: Skipping package: exceeds size limit 11565399>=10485760
+[2023-06-25 23:51:16] INFO root fetch - main [MainThread]: End processing [gridpp] error
+[2023-06-25 23:51:17] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-86.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-06-25 23:51:17] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.3.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.4.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-25 23:51:17] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.1.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.2.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-kettle]: success
+[2023-06-25 23:51:17] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.6.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.6.1.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - main [MainThread]: End processing [easyencryption]: success
+[2023-06-25 23:51:17] INFO root fetch - processPackages [svgtrace]: Remove: archive file [/home/abi/fetcher/tmp/svgtrace-2023.0.1.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - processPackages [svgtrace]: Remove: archive file [/home/abi/fetcher/tmp/svgtrace-2023.1.tar.gz]
+[2023-06-25 23:51:17] INFO root fetch - main [MainThread]: End processing [svgtrace]: success
+[2023-06-25 23:51:18] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.8.tar.gz]
+[2023-06-25 23:51:18] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.9.tar.gz]
+[2023-06-25 23:51:18] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-06-25 23:51:18] INFO root fetch - main [MainThread]: Store serial: [18639270]
