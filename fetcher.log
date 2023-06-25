@@ -2870,3 +2870,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:16:10] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.0.tar.gz]
 [2023-06-25 04:16:10] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625]: success
 [2023-06-25 04:16:10] INFO root fetch - main [MainThread]: Store serial: [18633529]
+[2023-06-25 04:21:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633529]
+[2023-06-25 04:21:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 04:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-25 04:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viqi-api
+[2023-06-25 04:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyfile
+[2023-06-25 04:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blastpipe
+[2023-06-25 04:21:22] WARNING root fetch - processPackages [blastpipe]: Skipping, unable to determine old version
+[2023-06-25 04:21:22] INFO root fetch - main [MainThread]: End processing [blastpipe] error
+[2023-06-25 04:21:22] INFO root fetch - processPackages [findmyfile]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-06-25 04:21:22] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2023-06-25 04:21:22] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.41] Old Version: [0.1.8.40]
+[2023-06-25 04:21:22] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2023-06-25 04:21:22] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/e6/c5/fa6e0bded9b736d168e2bcd9338d7f1bc11c1d3d0c2969cb15ab88906c97/pillar1-0.1.8.40.tar.gz
+[2023-06-25 04:21:22] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/f6/c0/4875969229d5be796fa0a580a6aebd7c1948c315a7e3b406b1f5b4dd5e53/findmyfile-0.2.8.tar.gz
+[2023-06-25 04:21:22] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2023-06-25 04:21:22] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/86/cb/11e7bb776fb2cea74e385e08106163b78a4082e61f2d42456293b5e8070d/pillar1-0.1.8.41.tar.gz
+[2023-06-25 04:21:22] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/15/dd/705ba733c0e1d858295ad50a871fbbb7b94b13d690f5b445c139187dc87c/findmyfile-0.3.0.tar.gz
+[2023-06-25 04:21:22] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2023-06-25 04:21:22] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20230625/v/viqi-api/0.6.4.8-0.6.4.9/diff.md --exclude *.pyd
+[2023-06-25 04:21:22] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 04:21:22] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.40.tar.gz tmp/pillar1-0.1.8.41.tar.gz --markdown 20230625/p/pillar1/0.1.8.40-0.1.8.41/diff.md --exclude *.pyd
+[2023-06-25 04:21:23] INFO root fetch - processPackages [findmyfile]: executing diffoscope
+[2023-06-25 04:21:23] INFO root fetch - processPackages [findmyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyfile-0.2.8.tar.gz tmp/findmyfile-0.3.0.tar.gz --markdown 20230625/f/findmyfile/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 04:21:24] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2023-06-25 04:21:24] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2023-06-25 04:21:24] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2023-06-25 04:21:24] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.40.tar.gz]
+[2023-06-25 04:21:24] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.41.tar.gz]
+[2023-06-25 04:21:24] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 04:21:24] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.8.tar.gz]
+[2023-06-25 04:21:24] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.3.0.tar.gz]
+[2023-06-25 04:21:24] INFO root fetch - main [MainThread]: End processing [findmyfile]: success
+[2023-06-25 04:21:24] INFO root fetch - main [MainThread]: Store serial: [18633543]
