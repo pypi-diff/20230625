@@ -14355,3 +14355,104 @@ AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
 [2023-06-25 21:02:36] INFO root fetch - processPackages [streamlit-autorefresh]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-autorefresh-1.0.0.tar.gz]
 [2023-06-25 21:02:36] INFO root fetch - main [MainThread]: End processing [streamlit-autorefresh]: success
 [2023-06-25 21:02:36] INFO root fetch - main [MainThread]: Store serial: [18638407]
+[2023-06-25 21:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638407]
+[2023-06-25 21:07:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tahoma
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peaqevcore
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reddit-user-to-sqlite
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbtex
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydevice2mqtt
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autofeat
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vollseg
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simulated-bifurcation
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-ecosystem-dependencies
+[2023-06-25 21:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volvisualizer
+[2023-06-25 21:07:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.26] Old Version: [202306.0.25]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [tahoma]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [reddit-user-to-sqlite]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [vbtex]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [volvisualizer]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [pydevice2mqtt]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [autofeat]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [simulated-bifurcation]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/4f/cc/780972b0f608d5dab609f96deef1c6a880932ff0be405fea844298510097/data_ecosystem_dependencies-202306.0.25.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/b4/fb/10e38db5b16de1421a1d65d413bf4102d91d517475f1bc3ead74f1fb35d2/vbtex-0.1.1.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-25 21:07:45] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 21:07:45] INFO root fetch - processPackages [vollseg]: Start processing: m23
+[2023-06-25 21:07:45] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 21:07:45] INFO root fetch - processPackages [m23]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-25 21:07:45] INFO root fetch - processPackages [pydevice2mqtt]: Downloading https://files.pythonhosted.org/packages/a5/4d/26b4f5458f5350ca5c2cce7b24047b6d2356d0c7271216d088c321ec6036/pydevice2mqtt-0.2.4.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/d9/6a/81c368b6d9fde99b612d84e1b5a43d02f2686cca4095169566188463ef3f/reddit_user_to_sqlite-0.4.0.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [tahoma]: Downloading https://files.pythonhosted.org/packages/0b/61/eee4f0eb4aa11ae244dd9e2f953b86361a9632e4232732cc25c2bc210856/tahoma-2.2.9.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [autofeat]: Downloading https://files.pythonhosted.org/packages/76/a3/21b79f77e48e2cb4aa2e132af3c555dc28333cd74632be8c75b22db4abcb/autofeat-2.1.0.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [simulated-bifurcation]: Downloading https://files.pythonhosted.org/packages/ae/9b/22d0e8119379df838f084087f7834a7ecefd89e5b38e62ad2121bcbc6820/simulated_bifurcation-1.0.2.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [volvisualizer]: Downloading https://files.pythonhosted.org/packages/08/2f/51a3dd183df80bb6d3d65a2efe52fdb18677538f3915cbc300af3c6c7518/volvisualizer-1.1.2-py3-none-any.whl
+[2023-06-25 21:07:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/a1/7b/70d4c1397cfee191bea8511a7b289488882f551d1b97d13c04b3599ec650/data_ecosystem_dependencies-202306.0.26.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/e0/49/6754c4682e67a8ecca7ac8944da2cdd2d8e63c7c99b8e0ce523b1c4203ee/vbtex-0.1.2.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-25 21:07:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-25 21:07:45] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.25.tar.gz tmp/data_ecosystem_dependencies-202306.0.26.tar.gz --markdown 20230625/d/data-ecosystem-dependencies/202306.0.25-202306.0.26/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/06/f5/a6210ea46568524c6d5c00574781dba9f672f4a9b39af8fdf8162f96a071/m23-1.7.0.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230625/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.1.tar.gz tmp/vbtex-0.1.2.tar.gz --markdown 20230625/v/vbtex/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [reddit-user-to-sqlite]: Downloading https://files.pythonhosted.org/packages/1d/8f/dd547ab37ea201498ccb90d84efb63064ebdf43bf13db748265ff5d07837/reddit_user_to_sqlite-0.4.1.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [pydevice2mqtt]: Downloading https://files.pythonhosted.org/packages/0d/6f/eb32cff7429dab5b2c69783d12651b5b650f28dab88ed3f331021e45b988/pydevice2mqtt-0.2.5.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [reddit-user-to-sqlite]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [reddit-user-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_user_to_sqlite-0.4.0.tar.gz tmp/reddit_user_to_sqlite-0.4.1.tar.gz --markdown 20230625/r/reddit-user-to-sqlite/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [volvisualizer]: Downloading https://files.pythonhosted.org/packages/7b/79/c2682ce0f59e9472ff03c305a5a5d71e8717e1d937db5337b62454bea0e5/volvisualizer-1.1.3-py3-none-any.whl
+[2023-06-25 21:07:46] INFO root fetch - processPackages [tahoma]: Downloading https://files.pythonhosted.org/packages/08/98/07facadb6bb6b8e89817f4c57e007136cd5728de2a117e6a2e7e805f7e42/tahoma-2.3.0.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [simulated-bifurcation]: Downloading https://files.pythonhosted.org/packages/f8/fd/2c28f0afe4708800ec24e727a0feb24b99731dcab8e5cf48ae80bc16d829/simulated-bifurcation-1.1.0.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [autofeat]: Downloading https://files.pythonhosted.org/packages/fa/ee/5c8f454ba4bec20e71e99f9557cccecf78e887d693e43823671fc6b3cb44/autofeat-2.1.1.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [volvisualizer]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [volvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volvisualizer-1.1.2-py3-none-any.whl.zip tmp/volvisualizer-1.1.3-py3-none-any.whl.zip --markdown 20230625/v/volvisualizer/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [tahoma]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [tahoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahoma-2.2.9.tar.gz tmp/tahoma-2.3.0.tar.gz --markdown 20230625/t/tahoma/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [simulated-bifurcation]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [simulated-bifurcation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulated_bifurcation-1.0.2.tar.gz tmp/simulated-bifurcation-1.1.0.tar.gz --markdown 20230625/s/simulated-bifurcation/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [pydevice2mqtt]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [pydevice2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydevice2mqtt-0.2.4.tar.gz tmp/pydevice2mqtt-0.2.5.tar.gz --markdown 20230625/p/pydevice2mqtt/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [autofeat]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [autofeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofeat-2.1.0.tar.gz tmp/autofeat-2.1.1.tar.gz --markdown 20230625/a/autofeat/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-25 21:07:46] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/fc/b9/0ad82d2d396ac5f976c949afc466d98f4805812751194a3aab6c4cab24c6/m23-1.8.0.tar.gz
+[2023-06-25 21:07:46] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-25 21:07:46] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.7.0.tar.gz tmp/m23-1.8.0.tar.gz --markdown 20230625/m/m23/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-25 21:07:47] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.25.tar.gz]
+[2023-06-25 21:07:47] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.26.tar.gz]
+[2023-06-25 21:07:47] INFO root fetch - processPackages [data-ecosystem-dependencies]: Start processing: data-ecosystem-flask
+[2023-06-25 21:07:47] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-25 21:07:47] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.1.tar.gz]
+[2023-06-25 21:07:47] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.2.tar.gz]
+[2023-06-25 21:07:47] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-06-25 21:07:47] WARNING root fetch - processPackages [data-ecosystem-flask]: Skipping, unable to determine old version
+[2023-06-25 21:07:47] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask] error
+[2023-06-25 21:07:48] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.4.0.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [reddit-user-to-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/reddit_user_to_sqlite-0.4.1.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [reddit-user-to-sqlite]: success
+[2023-06-25 21:07:48] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-25 21:07:48] INFO root fetch - processPackages [volvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/volvisualizer-1.1.2-py3-none-any.whl.zip]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [volvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/volvisualizer-1.1.3-py3-none-any.whl.zip]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [volvisualizer]: success
+[2023-06-25 21:07:48] INFO root fetch - processPackages [pydevice2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/pydevice2mqtt-0.2.4.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [pydevice2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/pydevice2mqtt-0.2.5.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [pydevice2mqtt]: success
+[2023-06-25 21:07:48] INFO root fetch - processPackages [autofeat]: Remove: archive file [/home/abi/fetcher/tmp/autofeat-2.1.0.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [autofeat]: Remove: archive file [/home/abi/fetcher/tmp/autofeat-2.1.1.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [autofeat]: success
+[2023-06-25 21:07:48] INFO root fetch - processPackages [simulated-bifurcation]: Remove: archive file [/home/abi/fetcher/tmp/simulated_bifurcation-1.0.2.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [simulated-bifurcation]: Remove: archive file [/home/abi/fetcher/tmp/simulated-bifurcation-1.1.0.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [simulated-bifurcation]: success
+[2023-06-25 21:07:48] INFO root fetch - processPackages [tahoma]: Remove: archive file [/home/abi/fetcher/tmp/tahoma-2.2.9.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - processPackages [tahoma]: Remove: archive file [/home/abi/fetcher/tmp/tahoma-2.3.0.tar.gz]
+[2023-06-25 21:07:48] INFO root fetch - main [MainThread]: End processing [tahoma]: success
+[2023-06-25 21:07:51] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.7.0.tar.gz]
+[2023-06-25 21:07:51] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.0.tar.gz]
+[2023-06-25 21:07:51] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-25 21:07:51] INFO root fetch - main [MainThread]: Store serial: [18638443]
