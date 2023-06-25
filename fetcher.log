@@ -6598,3 +6598,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:06:58] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.4.0-py3-none-any.whl.zip]
 [2023-06-25 10:06:58] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-06-25 10:06:58] INFO root fetch - main [MainThread]: Store serial: [18634980]
+[2023-06-25 10:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634980]
+[2023-06-25 10:12:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydhcp3
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlexTraktSync
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-template-generator
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fppy
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scientific-plots
+[2023-06-25 10:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stoobly-agent
+[2023-06-25 10:12:07] INFO root fetch - processPackages [pydhcp3]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [fppy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [yplib]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [yplib]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.7] Old Version: [0.26.6]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [scientific-plots]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-25 10:12:07] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/f0/77/7b727f0c3134ac47b8c79218d6a9ceb49c4de16e65e64d5f375ff94acb77/PlexTraktSync-0.26.6.tar.gz
+[2023-06-25 10:12:07] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/f9/db/d3a8b42d20bb743b45c0794dab5a66994112f264d0e712cf45d39cc65d0d/scientific_plots-1.5.3.tar.gz
+[2023-06-25 10:12:07] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-06-25 10:12:07] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/bb/97/ff963ca992347f29363f94a7a536a165ae5756e836bc151d05eb772c48c0/yplib-1.7.4.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/bb/97/ff963ca992347f29363f94a7a536a165ae5756e836bc151d05eb772c48c0/yplib-1.7.4.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [fppy]: Downloading https://files.pythonhosted.org/packages/91/ac/7dc6ac862dbac9dc3cc78239b9ee3eff132d43f98cf3bfa9f6c41e69fde0/fppy-0.0.8.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/1c/df/a08a0d4221d9beca0d5fd6dda646c3a07951f26d77714cafa8a7c4b9c5cc/p-template-generator-0.1.8.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [pydhcp3]: Downloading https://files.pythonhosted.org/packages/8d/ae/d4203b9d34ccdcd5301a938f7568f67cbf642eada02f2143fa23e7a0f214/pydhcp3-0.0.2.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/09/01/f5fe66064ba9aa4280cdf2b82ddf47aa607e2bc127c416e0e27bc73b12f1/PlexTraktSync-0.26.7.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [scientific-plots]: Downloading https://files.pythonhosted.org/packages/c1/55/6ff2e3473a7d8f79267369c8faa219a9d5fb75abe55223af3943cea7cc03/scientific_plots-1.5.4.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.6.tar.gz tmp/PlexTraktSync-0.26.7.tar.gz --markdown 20230625/P/PlexTraktSync/0.26.6-0.26.7/diff.md --exclude *.pyd
+[2023-06-25 10:12:08] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230625/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c3/56/2876a7f69f91c634e79cae8ffaa622eb6a47d669bc82e9ab1ea7c0ae0ab1/yplib-1.7.5.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [scientific-plots]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [scientific-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scientific_plots-1.5.3.tar.gz tmp/scientific_plots-1.5.4.tar.gz --markdown 20230625/s/scientific-plots/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c3/56/2876a7f69f91c634e79cae8ffaa622eb6a47d669bc82e9ab1ea7c0ae0ab1/yplib-1.7.5.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [fppy]: Downloading https://files.pythonhosted.org/packages/65/a3/f06d3864042a8641f383bcf2fdf565947967911a93e9826a6b1bad1eadc9/fppy-0.0.9.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [pydhcp3]: Downloading https://files.pythonhosted.org/packages/b9/00/8e8400af1728c2c7c70f51614106f987d5aaff5259a8cc786852ca2d3fc7/pydhcp3-0.0.4.tar.gz
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.4.tar.gz tmp/yplib-1.7.5.tar.gz --markdown 20230625/y/yplib/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.4.tar.gz tmp/yplib-1.7.5.tar.gz --markdown 20230625/y/yplib/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-06-25 10:12:08] INFO root fetch - processPackages [fppy]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [fppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fppy-0.0.8.tar.gz tmp/fppy-0.0.9.tar.gz --markdown 20230625/f/fppy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 10:12:08] INFO root fetch - processPackages [pydhcp3]: executing diffoscope
+[2023-06-25 10:12:08] INFO root fetch - processPackages [pydhcp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydhcp3-0.0.2.tar.gz tmp/pydhcp3-0.0.4.tar.gz --markdown 20230625/p/pydhcp3/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 10:12:09] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/4d/c6/b1ba9d57550b94b120e03283c8ce61d054c3f089aed5ef88f169c30f97d8/p-template-generator-0.1.9.tar.gz
+[2023-06-25 10:12:10] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-06-25 10:12:10] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230625/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 10:12:10] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.5.3.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - processPackages [scientific-plots]: Remove: archive file [/home/abi/fetcher/tmp/scientific_plots-1.5.4.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [scientific-plots]: success
+[2023-06-25 10:12:10] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.4.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.5.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 10:12:10] INFO root fetch - processPackages [PlexTraktSync]: Remove: archive file [/home/abi/fetcher/tmp/PlexTraktSync-0.26.6.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - processPackages [PlexTraktSync]: Remove: archive file [/home/abi/fetcher/tmp/PlexTraktSync-0.26.7.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 10:12:10] INFO root fetch - processPackages [fppy]: Remove: archive file [/home/abi/fetcher/tmp/fppy-0.0.8.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - processPackages [fppy]: Remove: archive file [/home/abi/fetcher/tmp/fppy-0.0.9.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [fppy]: success
+[2023-06-25 10:12:10] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-06-25 10:12:10] INFO root fetch - processPackages [pydhcp3]: Remove: archive file [/home/abi/fetcher/tmp/pydhcp3-0.0.2.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - processPackages [pydhcp3]: Remove: archive file [/home/abi/fetcher/tmp/pydhcp3-0.0.4.tar.gz]
+[2023-06-25 10:12:10] INFO root fetch - main [MainThread]: End processing [pydhcp3]: success
+[2023-06-25 10:12:11] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.8.tar.gz]
+[2023-06-25 10:12:11] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.9.tar.gz]
+[2023-06-25 10:12:11] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-06-25 10:12:11] INFO root fetch - main [MainThread]: Store serial: [18635002]
