@@ -5754,3 +5754,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:41:36] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.3.tar.gz]
 [2023-06-25 08:41:36] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
 [2023-06-25 08:41:36] INFO root fetch - main [MainThread]: Store serial: [18634668]
+[2023-06-25 08:46:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634668]
+[2023-06-25 08:46:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salesforce-tools
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pytdbot
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-near-primitives
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapy-db
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Digital-Farming-Solution
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miuc
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zedstat
+[2023-06-25 08:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PointBlaster
+[2023-06-25 08:46:45] WARNING root fetch - processPackages [Digital-Farming-Solution]: Skipping, unable to determine old version
+[2023-06-25 08:46:45] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution] error
+[2023-06-25 08:46:45] INFO root fetch - processPackages [salesforce-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 08:46:45] INFO root fetch - processPackages [miuc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 08:46:45] INFO root fetch - processPackages [Pytdbot]: New version: [0.8.4.dev3] Old Version: [0.8.4.dev2]
+[2023-06-25 08:46:45] INFO root fetch - processPackages [scrapy-db]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 08:46:45] WARNING root fetch - processPackages [py-near-primitives]: Skipping, unable to determine old version
+[2023-06-25 08:46:45] INFO root fetch - processPackages [PointBlaster]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 08:46:45] INFO root fetch - main [MainThread]: End processing [py-near-primitives] error
+[2023-06-25 08:46:45] INFO root fetch - processPackages [zedstat]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 08:46:45] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/af/bb/9656071ed65f3df415ffacd3f4f829a5e7efb7ab41832a25b1ad24057f23/miuc-0.1.8.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/57/a3/e6eabaa673ecaddbc481e0c1cada2fc0f3b95f91e42974ec01aa0ac5d1c4/PointBlaster-0.1.2.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [salesforce-tools]: Downloading https://files.pythonhosted.org/packages/9c/78/3cc1bde16cbe20e5984120e10f653c02ae227869b4c1d702100f5a425562/salesforce-tools-0.1.8.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [Pytdbot]: Downloading https://files.pythonhosted.org/packages/b6/5c/496733d386d17f3a85fd744b6ad28dd0e71c4259daed952310b4dfb1422c/Pytdbot-0.8.4.dev2.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [scrapy-db]: Downloading https://files.pythonhosted.org/packages/9b/81/fa55f4426bd5d6e49f23319e45bc6a8782663ef57315810399a3b2460c2c/scrapy_db-0.0.2.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/97/72/3b0ef2bc7c6926ece589a3d9b2bab797de718992dcd38f7f5dd81c087e0a/miuc-0.1.9.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [zedstat]: Downloading https://files.pythonhosted.org/packages/0c/c7/c0cf9fe7d807ad52059c321a3f39e23d4a870d99c91e16e45d65cc6f2146/zedstat-0.0.98.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-06-25 08:46:45] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.8.tar.gz tmp/miuc-0.1.9.tar.gz --markdown 20230625/m/miuc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 08:46:45] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/a2/29/dad37afc3928bd4fb257f513bb845a9a8c1d40ff124bfd720daebc9e4a48/PointBlaster-0.1.3.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [salesforce-tools]: Downloading https://files.pythonhosted.org/packages/05/33/da9c8e47cc8a59230de0484e83f731cb44451b36bfac6066f3dd425e12d7/salesforce-tools-0.1.9.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [scrapy-db]: Downloading https://files.pythonhosted.org/packages/39/12/bc12c704cde8ecacd7a267a92b078eed4b8747c37221b4abcdd1bbb46da0/scrapy_db-0.0.3.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [Pytdbot]: Downloading https://files.pythonhosted.org/packages/27/30/9c0f5d6b50ac1a42d6ca6353f9fa7266f722d73e811ddebacea637ed38ed/Pytdbot-0.8.4.dev3.tar.gz
+[2023-06-25 08:46:45] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-06-25 08:46:45] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.1.2.tar.gz tmp/PointBlaster-0.1.3.tar.gz --markdown 20230625/P/PointBlaster/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 08:46:46] INFO root fetch - processPackages [salesforce-tools]: executing diffoscope
+[2023-06-25 08:46:46] INFO root fetch - processPackages [salesforce-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-tools-0.1.8.tar.gz tmp/salesforce-tools-0.1.9.tar.gz --markdown 20230625/s/salesforce-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 08:46:46] INFO root fetch - processPackages [scrapy-db]: executing diffoscope
+[2023-06-25 08:46:46] INFO root fetch - processPackages [scrapy-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_db-0.0.2.tar.gz tmp/scrapy_db-0.0.3.tar.gz --markdown 20230625/s/scrapy-db/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 08:46:46] INFO root fetch - processPackages [Pytdbot]: executing diffoscope
+[2023-06-25 08:46:46] INFO root fetch - processPackages [Pytdbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pytdbot-0.8.4.dev2.tar.gz tmp/Pytdbot-0.8.4.dev3.tar.gz --markdown 20230625/P/Pytdbot/0.8.4.dev2-0.8.4.dev3/diff.md --exclude *.pyd
+[2023-06-25 08:46:46] INFO root fetch - processPackages [zedstat]: Downloading https://files.pythonhosted.org/packages/d5/5a/f2d98d6de497697eff5fa441808a8c69c9feaf708be05752b37e0e9c0eb6/zedstat-0.0.99.tar.gz
+[2023-06-25 08:46:46] INFO root fetch - processPackages [zedstat]: executing diffoscope
+[2023-06-25 08:46:46] INFO root fetch - processPackages [zedstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zedstat-0.0.98.tar.gz tmp/zedstat-0.0.99.tar.gz --markdown 20230625/z/zedstat/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 08:46:46] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.8.tar.gz]
+[2023-06-25 08:46:46] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.9.tar.gz]
+[2023-06-25 08:46:46] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-06-25 08:46:47] INFO root fetch - processPackages [salesforce-tools]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-tools-0.1.8.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - processPackages [salesforce-tools]: Remove: archive file [/home/abi/fetcher/tmp/salesforce-tools-0.1.9.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - main [MainThread]: End processing [salesforce-tools]: success
+[2023-06-25 08:46:47] INFO root fetch - processPackages [scrapy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_db-0.0.2.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - processPackages [scrapy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_db-0.0.3.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - main [MainThread]: End processing [scrapy-db]: success
+[2023-06-25 08:46:47] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.2.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.3.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-06-25 08:46:47] INFO root fetch - processPackages [Pytdbot]: Remove: archive file [/home/abi/fetcher/tmp/Pytdbot-0.8.4.dev2.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - processPackages [Pytdbot]: Remove: archive file [/home/abi/fetcher/tmp/Pytdbot-0.8.4.dev3.tar.gz]
+[2023-06-25 08:46:47] INFO root fetch - main [MainThread]: End processing [Pytdbot]: success
+[2023-06-25 08:46:48] INFO root fetch - processPackages [zedstat]: Remove: archive file [/home/abi/fetcher/tmp/zedstat-0.0.98.tar.gz]
+[2023-06-25 08:46:48] INFO root fetch - processPackages [zedstat]: Remove: archive file [/home/abi/fetcher/tmp/zedstat-0.0.99.tar.gz]
+[2023-06-25 08:46:48] INFO root fetch - main [MainThread]: End processing [zedstat]: success
+[2023-06-25 08:46:48] INFO root fetch - main [MainThread]: Store serial: [18634694]
