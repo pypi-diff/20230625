@@ -5880,3 +5880,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:57:38] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1687673654.tar.gz]
 [2023-06-25 08:57:38] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2023-06-25 08:57:38] INFO root fetch - main [MainThread]: Store serial: [18634716]
+[2023-06-25 09:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634716]
+[2023-06-25 09:02:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-25 09:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-tabler-icons
+[2023-06-25 09:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-06-25 09:02:47] INFO root fetch - processPackages [django-tabler-icons]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-25 09:02:47] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-25 09:02:47] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-25 09:02:47] INFO root fetch - processPackages [django-tabler-icons]: Downloading https://files.pythonhosted.org/packages/d2/e8/cdc66fba4903c956d9b4b38f566096f80ab361d09ba90ba484dd6d3410f2/django_tabler_icons-0.1.0.tar.gz
+[2023-06-25 09:02:47] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-25 09:02:47] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-25 09:02:47] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230625/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-25 09:02:47] INFO root fetch - processPackages [django-tabler-icons]: Downloading https://files.pythonhosted.org/packages/8a/87/7ebe38daa46c0d21000996a0ed27a6dd794f14c6cb41b6c0322b2a3e947a/django_tabler_icons-0.2.0.tar.gz
+[2023-06-25 09:02:48] INFO root fetch - processPackages [django-tabler-icons]: executing diffoscope
+[2023-06-25 09:02:48] INFO root fetch - processPackages [django-tabler-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_tabler_icons-0.1.0.tar.gz tmp/django_tabler_icons-0.2.0.tar.gz --markdown 20230625/d/django-tabler-icons/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 09:02:49] INFO root fetch - processPackages [django-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/django_tabler_icons-0.1.0.tar.gz]
+[2023-06-25 09:02:49] INFO root fetch - processPackages [django-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/django_tabler_icons-0.2.0.tar.gz]
+[2023-06-25 09:02:49] INFO root fetch - main [MainThread]: End processing [django-tabler-icons]: success
+[2023-06-25 09:02:49] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-25 09:02:49] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-25 09:02:49] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-25 09:02:49] INFO root fetch - main [MainThread]: Store serial: [18634724]
