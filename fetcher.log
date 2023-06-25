@@ -12641,3 +12641,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:11:01] INFO root fetch - processPackages [streamlit-chat]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-0.1.1.tar.gz]
 [2023-06-25 19:11:01] INFO root fetch - main [MainThread]: End processing [streamlit-chat]: success
 [2023-06-25 19:11:01] INFO root fetch - main [MainThread]: Store serial: [18637654]
+[2023-06-25 19:16:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637654]
+[2023-06-25 19:16:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycatalicism
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evogfuzz
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandasai
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catflow-worker
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: translang
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu118
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu117
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-migratepg
+[2023-06-25 19:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sem-desc
+[2023-06-25 19:16:11] INFO root fetch - processPackages [translang]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [catflow-worker]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [pycatalicism]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [evogfuzz]: New version: [0.6.0] Old Version: [0.0.2]
+[2023-06-25 19:16:11] WARNING root fetch - processPackages [flask-migratepg]: Skipping, unable to determine old version
+[2023-06-25 19:16:11] INFO root fetch - main [MainThread]: End processing [flask-migratepg] error
+[2023-06-25 19:16:11] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [pandasai]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/c2/16/cb1e32cb9df4e01b12472b619d0295c99f9fedebc2babb9a03864e927019/pandasai-0.6.3.tar.gz
+[2023-06-25 19:16:11] INFO root fetch - processPackages [sem-desc]: New version: [4.5.0] Old Version: [4.4.4]
+[2023-06-25 19:16:11] INFO root fetch - processPackages [translang]: Downloading https://files.pythonhosted.org/packages/0d/44/a23cd4b06329fa8fc90c322b0b8466a37dab5d76022ee0b501f11256db21/translang-0.1.3.tar.gz
+[2023-06-25 19:16:11] INFO root fetch - processPackages [catflow-worker]: Downloading https://files.pythonhosted.org/packages/a6/d6/5bfad9bc4834ed82cf057efac93d68c827ff804df8fef8f90b64fb827ce1/catflow-worker-0.1.4.tar.gz
+[2023-06-25 19:16:11] INFO root fetch - processPackages [evogfuzz]: Downloading https://files.pythonhosted.org/packages/08/f0/81a09c8f2d526212fa76b324e7a76c8736a0c96a02cc9fb514f0e943716d/evogfuzz-0.0.2.tar.gz
+[2023-06-25 19:16:11] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:16:11] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:16:11] INFO root fetch - processPackages [pycatalicism]: Downloading https://files.pythonhosted.org/packages/55/0c/07fbd5a29bb855669cfd3b1c2fd21cb3b7dec1614f8896a03b67c0430db6/pycatalicism-2.0.0.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/4c/aa/8a6284029f539cd832e0302d7052c2e43df7b41fd2ecd5bc2d7f70b47018/sem_desc-4.4.4.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/84/e8/a832d49c079b51e0b0bc794bade95218829d63122aad089c7c12e70ba4d5/pandasai-0.6.4.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [translang]: Downloading https://files.pythonhosted.org/packages/b4/7e/a3c1362996846e7846df8e64033ae664cc8308a294f9113900ef3b6d80d6/translang-0.1.4.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-25 19:16:12] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.3.tar.gz tmp/pandasai-0.6.4.tar.gz --markdown 20230625/p/pandasai/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-25 19:16:12] INFO root fetch - processPackages [evogfuzz]: Downloading https://files.pythonhosted.org/packages/98/fe/4714c1bf18ed897fa6b7d08c3f183f71d587f5e3ad1624d22b371de89ca6/evogfuzz-0.6.0.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [translang]: executing diffoscope
+[2023-06-25 19:16:12] INFO root fetch - processPackages [translang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translang-0.1.3.tar.gz tmp/translang-0.1.4.tar.gz --markdown 20230625/t/translang/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 19:16:12] INFO root fetch - processPackages [catflow-worker]: Downloading https://files.pythonhosted.org/packages/8a/9b/3b223fbe48962a4ff78d1f4efedc6566750430b0c74bdec2953c1fab92c3/catflow-worker-0.1.5.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [pycatalicism]: Downloading https://files.pythonhosted.org/packages/f0/6c/100e4b15e167e5938ff6087a0fb9b497e75405eb2e017b49f381f796da4d/pycatalicism-2.0.1.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [catflow-worker]: executing diffoscope
+[2023-06-25 19:16:12] INFO root fetch - processPackages [catflow-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catflow-worker-0.1.4.tar.gz tmp/catflow-worker-0.1.5.tar.gz --markdown 20230625/c/catflow-worker/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 19:16:12] INFO root fetch - processPackages [evogfuzz]: executing diffoscope
+[2023-06-25 19:16:12] INFO root fetch - processPackages [evogfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evogfuzz-0.0.2.tar.gz tmp/evogfuzz-0.6.0.tar.gz --markdown 20230625/e/evogfuzz/0.0.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-25 19:16:12] INFO root fetch - processPackages [pycatalicism]: executing diffoscope
+[2023-06-25 19:16:12] INFO root fetch - processPackages [pycatalicism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatalicism-2.0.0.tar.gz tmp/pycatalicism-2.0.1.tar.gz --markdown 20230625/p/pycatalicism/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-25 19:16:12] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/fc/4f/5baa60fb634dfd081b54662af39465de8c0c81717a636a468daacbdd81b9/sem_desc-4.5.0.tar.gz
+[2023-06-25 19:16:12] INFO root fetch - processPackages [sem-desc]: executing diffoscope
+[2023-06-25 19:16:12] INFO root fetch - processPackages [sem-desc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sem_desc-4.4.4.tar.gz tmp/sem_desc-4.5.0.tar.gz --markdown 20230625/s/sem-desc/4.4.4-4.5.0/diff.md --exclude *.pyd
+[2023-06-25 19:16:13] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:16:13] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:16:13] INFO root fetch - processPackages [translang]: Remove: archive file [/home/abi/fetcher/tmp/translang-0.1.3.tar.gz]
+[2023-06-25 19:16:13] INFO root fetch - processPackages [translang]: Remove: archive file [/home/abi/fetcher/tmp/translang-0.1.4.tar.gz]
+[2023-06-25 19:16:13] INFO root fetch - main [MainThread]: End processing [translang]: success
+[2023-06-25 19:16:13] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.3.tar.gz]
+[2023-06-25 19:16:13] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.4.tar.gz]
+[2023-06-25 19:16:13] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-25 19:16:13] INFO root fetch - processPackages [evogfuzz]: Remove: archive file [/home/abi/fetcher/tmp/evogfuzz-0.0.2.tar.gz]
+[2023-06-25 19:16:13] INFO root fetch - processPackages [evogfuzz]: Remove: archive file [/home/abi/fetcher/tmp/evogfuzz-0.6.0.tar.gz]
+[2023-06-25 19:16:13] INFO root fetch - main [MainThread]: End processing [evogfuzz]: success
+[2023-06-25 19:16:14] INFO root fetch - processPackages [catflow-worker]: Remove: archive file [/home/abi/fetcher/tmp/catflow-worker-0.1.4.tar.gz]
+[2023-06-25 19:16:14] INFO root fetch - processPackages [catflow-worker]: Remove: archive file [/home/abi/fetcher/tmp/catflow-worker-0.1.5.tar.gz]
+[2023-06-25 19:16:14] INFO root fetch - main [MainThread]: End processing [catflow-worker]: success
+[2023-06-25 19:16:14] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-06-25 19:16:14] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-25 19:16:14] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-4.4.4.tar.gz]
+[2023-06-25 19:16:14] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-4.5.0.tar.gz]
+[2023-06-25 19:16:14] INFO root fetch - main [MainThread]: End processing [sem-desc]: success
+[2023-06-25 19:16:14] INFO root fetch - processPackages [pycatalicism]: Remove: archive file [/home/abi/fetcher/tmp/pycatalicism-2.0.0.tar.gz]
+[2023-06-25 19:16:14] INFO root fetch - processPackages [pycatalicism]: Remove: archive file [/home/abi/fetcher/tmp/pycatalicism-2.0.1.tar.gz]
+[2023-06-25 19:16:14] INFO root fetch - main [MainThread]: End processing [pycatalicism]: success
+[2023-06-25 19:16:14] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-06-25 19:16:14] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-25 19:16:15] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:16:15] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:16:15] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-06-25 19:16:16] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:16:16] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:16:16] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-06-25 19:16:16] INFO root fetch - main [MainThread]: Store serial: [18637681]
