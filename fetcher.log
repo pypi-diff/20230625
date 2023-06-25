@@ -10797,3 +10797,109 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:20:02] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.1.0.tar.gz]
 [2023-06-25 16:20:03] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
 [2023-06-25 16:20:03] INFO root fetch - main [MainThread]: Store serial: [18636840]
+[2023-06-25 16:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636840]
+[2023-06-25 16:25:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiofauna
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gldf-rs-python
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: balrogo
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiomagra
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cbpi4-pt100x
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ko2kana
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d0da
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycryptosat
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: verysimplemodule-lais
+[2023-06-25 16:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meilisearch-fastapi
+[2023-06-25 16:25:12] ERROR root fetch - processPackages [ko2kana]: Unable to get metadata: No such project 'ko2kana'
+[2023-06-25 16:25:12] INFO root fetch - processPackages [ko2kana]: Start processing: spanishconjugator
+[2023-06-25 16:25:12] INFO root fetch - main [MainThread]: End processing [ko2kana] error
+[2023-06-25 16:25:12] INFO root fetch - processPackages [d0da]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [balrogo]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [pycryptosat]: New version: [5.11.9] Old Version: [5.11.8]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [verysimplemodule-lais]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [cbpi4-pt100x]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 16:25:12] WARNING root fetch - processPackages [gldf-rs-python]: Skipping, unable to determine old version
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiomagra]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [gldf-rs-python]: Start processing: spanishconjugator
+[2023-06-25 16:25:12] INFO root fetch - main [MainThread]: End processing [gldf-rs-python] error
+[2023-06-25 16:25:12] INFO root fetch - processPackages [meilisearch-fastapi]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [d0da]: Downloading https://files.pythonhosted.org/packages/a6/9f/13078e980a01b384c1cb8a356eb04b0c62b6fcb4028d525892c80ac1157c/d0da-0.2.0.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiomagra]: Downloading https://files.pythonhosted.org/packages/c3/c5/bdd2f4c63159a96945e032a8ca4ad6b4224ac864c4ee6bac7a530e4ae30f/aiomagra-0.1.1.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 16:25:12] INFO root fetch - processPackages [pycryptosat]: Downloading https://files.pythonhosted.org/packages/59/36/20b49e6052f77673e73f358128dad447206ee2f83f9c67ae0f1b5af257d0/pycryptosat-5.11.8.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [meilisearch-fastapi]: Downloading https://files.pythonhosted.org/packages/34/1a/5ce93e0349259c0f35be8762af2aa63b54d086045c538f35722107b688c7/meilisearch-fastapi-0.9.1.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/49/2e/d2f24cb70dbe834d653016f8693c0f719613f8923779adbb74ed4ea64f3b/verysimplemodule_lais-0.0.1.2.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [cbpi4-pt100x]: Downloading https://files.pythonhosted.org/packages/34/4c/e828a1b9cbaf8a25fa15c3311a9f5dcab04b69acba2342f31952c94a1447/cbpi4-pt100x-0.1.8.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [balrogo]: Downloading https://files.pythonhosted.org/packages/29/1b/f949c6353172371469bca64a6f38965713e83f2662f41927f7b37486f6d6/balrogo-1.6.5.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [d0da]: Downloading https://files.pythonhosted.org/packages/92/fd/2f0499825ac5bd2df7154db6c29f87969596347d38286472f1473fb6c362/d0da-0.3.0.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiomagra]: Downloading https://files.pythonhosted.org/packages/4b/01/d261c62e0facba87d3a2fb179f58cb5edf722d50776081e34dd0b2b70fdd/aiomagra-0.1.2.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [d0da]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [d0da]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d0da-0.2.0.tar.gz tmp/d0da-0.3.0.tar.gz --markdown 20230625/d/d0da/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/f1/12/0f46ab0831844d70cdbe1a676dfe73b70427733cecc3c76d24d5638476d5/verysimplemodule_lais-0.0.1.3.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [balrogo]: Downloading https://files.pythonhosted.org/packages/e5/d6/d18f04894fada4fc37c5f1729a7f6362df724f4e073dc76b7750a35c2d36/balrogo-1.6.6.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230625/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiomagra]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [cbpi4-pt100x]: Downloading https://files.pythonhosted.org/packages/34/5d/a4b97ecebd358d6eb7f3f40582caee997a18b64f469959573eb0bba98f11/cbpi4-pt100x-0.1.9.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [aiomagra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomagra-0.1.1.tar.gz tmp/aiomagra-0.1.2.tar.gz --markdown 20230625/a/aiomagra/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [pycryptosat]: Downloading https://files.pythonhosted.org/packages/32/a9/203e5b3cd3526edc1f2fd66141c2706d391c0dfd4045c33950f2697ef2b3/pycryptosat-5.11.9.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [meilisearch-fastapi]: Downloading https://files.pythonhosted.org/packages/12/2a/ff8287bd79864a0b3a17f173b27c8e3a5bac8d9038e6feb8c753d8c35645/meilisearch-fastapi-0.9.2.tar.gz
+[2023-06-25 16:25:12] INFO root fetch - processPackages [balrogo]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [balrogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balrogo-1.6.5.tar.gz tmp/balrogo-1.6.6.tar.gz --markdown 20230625/b/balrogo/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [verysimplemodule-lais]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [verysimplemodule-lais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verysimplemodule_lais-0.0.1.2.tar.gz tmp/verysimplemodule_lais-0.0.1.3.tar.gz --markdown 20230625/v/verysimplemodule-lais/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [cbpi4-pt100x]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [cbpi4-pt100x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-pt100x-0.1.8.tar.gz tmp/cbpi4-pt100x-0.1.9.tar.gz --markdown 20230625/c/cbpi4-pt100x/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [meilisearch-fastapi]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [meilisearch-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch-fastapi-0.9.1.tar.gz tmp/meilisearch-fastapi-0.9.2.tar.gz --markdown 20230625/m/meilisearch-fastapi/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-25 16:25:12] INFO root fetch - processPackages [pycryptosat]: executing diffoscope
+[2023-06-25 16:25:12] INFO root fetch - processPackages [pycryptosat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptosat-5.11.8.tar.gz tmp/pycryptosat-5.11.9.tar.gz --markdown 20230625/p/pycryptosat/5.11.8-5.11.9/diff.md --exclude *.pyd
+[2023-06-25 16:25:14] INFO root fetch - processPackages [d0da]: Remove: archive file [/home/abi/fetcher/tmp/d0da-0.2.0.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - processPackages [d0da]: Remove: archive file [/home/abi/fetcher/tmp/d0da-0.3.0.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - processPackages [d0da]: Start processing: pytest-md-report
+[2023-06-25 16:25:14] INFO root fetch - main [MainThread]: End processing [d0da]: success
+[2023-06-25 16:25:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 16:25:14] INFO root fetch - processPackages [pytest-md-report]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-25 16:25:14] INFO root fetch - processPackages [pytest-md-report]: Downloading https://files.pythonhosted.org/packages/4f/6d/4f47c8f90863b5c58a5b18795715d2917d7015dce3dc50eba5f8a9a2f15d/pytest-md-report-0.3.1.tar.gz
+[2023-06-25 16:25:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 16:25:14] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.2.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.3.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - main [MainThread]: End processing [verysimplemodule-lais]: success
+[2023-06-25 16:25:14] INFO root fetch - processPackages [pytest-md-report]: Downloading https://files.pythonhosted.org/packages/a0/b6/55edc3abed9bbc045cdaf7840c9b7b24515faf3e90e47cd137e20bc5dc5c/pytest-md-report-0.3.2.tar.gz
+[2023-06-25 16:25:14] INFO root fetch - processPackages [balrogo]: Remove: archive file [/home/abi/fetcher/tmp/balrogo-1.6.5.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - processPackages [balrogo]: Remove: archive file [/home/abi/fetcher/tmp/balrogo-1.6.6.tar.gz]
+[2023-06-25 16:25:14] INFO root fetch - main [MainThread]: End processing [balrogo]: success
+[2023-06-25 16:25:14] INFO root fetch - processPackages [pytest-md-report]: executing diffoscope
+[2023-06-25 16:25:14] INFO root fetch - processPackages [pytest-md-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-md-report-0.3.1.tar.gz tmp/pytest-md-report-0.3.2.tar.gz --markdown 20230625/p/pytest-md-report/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-25 16:25:15] INFO root fetch - processPackages [meilisearch-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-fastapi-0.9.1.tar.gz]
+[2023-06-25 16:25:15] INFO root fetch - processPackages [meilisearch-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch-fastapi-0.9.2.tar.gz]
+[2023-06-25 16:25:15] INFO root fetch - main [MainThread]: End processing [meilisearch-fastapi]: success
+[2023-06-25 16:25:15] INFO root fetch - processPackages [cbpi4-pt100x]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-pt100x-0.1.8.tar.gz]
+[2023-06-25 16:25:15] INFO root fetch - processPackages [cbpi4-pt100x]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-pt100x-0.1.9.tar.gz]
+[2023-06-25 16:25:15] INFO root fetch - main [MainThread]: End processing [cbpi4-pt100x]: success
+[2023-06-25 16:25:15] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-06-25 16:25:15] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-06-25 16:25:15] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-06-25 16:25:16] INFO root fetch - processPackages [pycryptosat]: Remove: archive file [/home/abi/fetcher/tmp/pycryptosat-5.11.8.tar.gz]
+[2023-06-25 16:25:16] INFO root fetch - processPackages [pycryptosat]: Remove: archive file [/home/abi/fetcher/tmp/pycryptosat-5.11.9.tar.gz]
+[2023-06-25 16:25:16] INFO root fetch - main [MainThread]: End processing [pycryptosat]: success
+[2023-06-25 16:25:16] INFO root fetch - processPackages [pytest-md-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest-md-report-0.3.1.tar.gz]
+[2023-06-25 16:25:16] INFO root fetch - processPackages [pytest-md-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest-md-report-0.3.2.tar.gz]
+[2023-06-25 16:25:16] INFO root fetch - main [MainThread]: End processing [pytest-md-report]: success
+[2023-06-25 16:25:16] INFO root fetch - processPackages [aiomagra]: Remove: archive file [/home/abi/fetcher/tmp/aiomagra-0.1.1.tar.gz]
+[2023-06-25 16:25:16] INFO root fetch - processPackages [aiomagra]: Remove: archive file [/home/abi/fetcher/tmp/aiomagra-0.1.2.tar.gz]
+[2023-06-25 16:25:16] INFO root fetch - main [MainThread]: End processing [aiomagra]: success
+[2023-06-25 16:25:16] INFO root fetch - main [MainThread]: Store serial: [18636883]
