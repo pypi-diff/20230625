@@ -16237,3 +16237,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 23:40:44] INFO root fetch - processPackages [vl-convert-python]: Remove: archive file [/home/abi/fetcher/tmp/vl_convert_python-0.9.0.tar.gz]
 [2023-06-25 23:40:44] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
 [2023-06-25 23:40:44] INFO root fetch - main [MainThread]: Store serial: [18639207]
+[2023-06-25 23:45:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639207]
+[2023-06-25 23:46:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ridgeplot-py
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palmers-agents-general
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msgram-parser
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-airflow-providers-kettle
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m23
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-multiauth
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: piel
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easyencryption
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miley
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.1rc25] Old Version: [0.2.1rc24]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [miley]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [m23]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [apache-airflow-providers-kettle]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [msgram-parser]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/21/71/3bd6a4513a49ae327b72c6e60871e53d4cf813998a55aac6957e6521f37a/miley-0.1.1.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/0a/44/705c9726984438de5bec99f9947619f3668612c67ecf9aac3a94010aad52/m23-1.8.2.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/1c/02/411293def917a2a84217783d7264e8d0142c9adf5edae55fc8b71faa635e/msgram-parser-0.0.6.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/db/e6/a47cb7208db58cb8c073ea1e642b62ead3bdf44ef3c29d1dcb33b5a86ff0/apache_airflow_providers_kettle-1.0.0.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [piel]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [easyencryption]: New version: [0.1.6] Old Version: [0.1.5.1]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [py-multiauth]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/48/33/8369b8a40190a9d1cddc6ce1dc174ce2aa1c9c965b7bd9e82764480c2dcf/ridgeplot_py-0.2.1rc24.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/a0/ba/bb9972f2c344a2bfc6289bc81301dc0b876b6cc6c50834a9b71e5b5ffdf4/palmers_agents_general-0.0.8.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/48/2d/4f12344feb80372afa4f07cbdbdac1ef14fbd0731a0c38536e81cfa0cb9b/apache_airflow_providers_kettle-1.0.1.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [py-multiauth]: Downloading https://files.pythonhosted.org/packages/48/7e/cd404657dfc3f403f771aaea4aaf2ddb24bf4ba80fc0091eb1232066ff31/py_multiauth-2.0.0rc2.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/36/b6/2d3b8a4f250ab6b09d4d68c094d66b336ef15193c25420adec07bbc65559/easyencryption-0.1.5.1.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/49/51/9e5defc04eddaba0dca780e9f6ed3b05bdfc606af70aed2c2bd363bbc8dd/msgram-parser-0.0.7.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [apache-airflow-providers-kettle]: executing diffoscope
+[2023-06-25 23:46:02] INFO root fetch - processPackages [apache-airflow-providers-kettle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_kettle-1.0.0.tar.gz tmp/apache_airflow_providers_kettle-1.0.1.tar.gz --markdown 20230625/a/apache-airflow-providers-kettle/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 23:46:02] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/25/8c/30b758b8d51a0a905208100dbfbcc193445c79e48bfb7581d6b9ca53ae0b/piel-0.0.29.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/5e/3d/9e63a11e0cd2826e09660a08a7b0dd9a9db97d39f5d711c2c8f6944af970/miley-0.1.2.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/4d/67/dab81863ce3ce679a1188cfd84270b5a286abb30cccee94eed488e197291/m23-1.8.3.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [msgram-parser]: executing diffoscope
+[2023-06-25 23:46:02] INFO root fetch - processPackages [msgram-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-parser-0.0.6.tar.gz tmp/msgram-parser-0.0.7.tar.gz --markdown 20230625/m/msgram-parser/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 23:46:02] INFO root fetch - processPackages [palmers-agents-general]: Downloading https://files.pythonhosted.org/packages/61/cd/e3e3e79d25eaa13474a77df36729a9c49c52bf78a9aabee81eb71e0e9622/palmers_agents_general-0.0.9.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [miley]: executing diffoscope
+[2023-06-25 23:46:02] INFO root fetch - processPackages [miley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miley-0.1.1.tar.gz tmp/miley-0.1.2.tar.gz --markdown 20230625/m/miley/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 23:46:02] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/67/65/380709825ad440c3a2027985666ac165fdbc4e7f0ce51c86517b4c165841/ridgeplot_py-0.2.1rc25.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-06-25 23:46:02] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.8.tar.gz tmp/palmers_agents_general-0.0.9.tar.gz --markdown 20230625/p/palmers-agents-general/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 23:46:02] INFO root fetch - processPackages [easyencryption]: Downloading https://files.pythonhosted.org/packages/32/87/3ed0c0af45ee028f6319289d4be3929289a1dd288096ba4a71a74f32f3eb/easyencryption-0.1.6.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-25 23:46:02] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.2.tar.gz tmp/m23-1.8.3.tar.gz --markdown 20230625/m/m23/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-25 23:46:02] INFO root fetch - processPackages [py-multiauth]: Downloading https://files.pythonhosted.org/packages/86/1f/c8d76d3f88119ef48fe059bf5e9cf633fdb681727d2aef7a0070f77515a0/py_multiauth-2.0.0rc3.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/86/00/405f5086167d09dd3a3aab4c33c384b2ab4cd26c07d6fb111bfe81a6e43f/piel-0.0.30.tar.gz
+[2023-06-25 23:46:02] INFO root fetch - processPackages [easyencryption]: executing diffoscope
+[2023-06-25 23:46:02] INFO root fetch - processPackages [easyencryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyencryption-0.1.5.1.tar.gz tmp/easyencryption-0.1.6.tar.gz --markdown 20230625/e/easyencryption/0.1.5.1-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 23:46:03] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-25 23:46:03] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.29.tar.gz tmp/piel-0.0.30.tar.gz --markdown 20230625/p/piel/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-25 23:46:03] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2023-06-25 23:46:03] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.2.1rc24.tar.gz tmp/ridgeplot_py-0.2.1rc25.tar.gz --markdown 20230625/r/ridgeplot-py/0.2.1rc24-0.2.1rc25/diff.md --exclude *.pyd
+[2023-06-25 23:46:03] INFO root fetch - processPackages [py-multiauth]: executing diffoscope
+[2023-06-25 23:46:03] INFO root fetch - processPackages [py-multiauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_multiauth-2.0.0rc2.tar.gz tmp/py_multiauth-2.0.0rc3.tar.gz --markdown 20230625/p/py-multiauth/2.0.0rc2-2.0.0rc3/diff.md --exclude *.pyd
+[2023-06-25 23:46:04] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.0.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.1.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-kettle]: success
+[2023-06-25 23:46:04] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.6.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.7.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - main [MainThread]: End processing [msgram-parser]: success
+[2023-06-25 23:46:04] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.1.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.2.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - main [MainThread]: End processing [miley]: success
+[2023-06-25 23:46:04] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.5.1.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - processPackages [easyencryption]: Remove: archive file [/home/abi/fetcher/tmp/easyencryption-0.1.6.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - main [MainThread]: End processing [easyencryption]: success
+[2023-06-25 23:46:04] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.8.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - processPackages [palmers-agents-general]: Remove: archive file [/home/abi/fetcher/tmp/palmers_agents_general-0.0.9.tar.gz]
+[2023-06-25 23:46:04] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-06-25 23:46:05] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.29.tar.gz]
+[2023-06-25 23:46:05] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.30.tar.gz]
+[2023-06-25 23:46:05] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-25 23:46:05] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.1rc24.tar.gz]
+[2023-06-25 23:46:05] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.1rc25.tar.gz]
+[2023-06-25 23:46:05] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2023-06-25 23:46:05] INFO root fetch - processPackages [py-multiauth]: Remove: archive file [/home/abi/fetcher/tmp/py_multiauth-2.0.0rc2.tar.gz]
+[2023-06-25 23:46:05] INFO root fetch - processPackages [py-multiauth]: Remove: archive file [/home/abi/fetcher/tmp/py_multiauth-2.0.0rc3.tar.gz]
+[2023-06-25 23:46:05] INFO root fetch - main [MainThread]: End processing [py-multiauth]: success
+[2023-06-25 23:46:06] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.2.tar.gz]
+[2023-06-25 23:46:06] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.3.tar.gz]
+[2023-06-25 23:46:06] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-25 23:46:06] INFO root fetch - main [MainThread]: Store serial: [18639245]
