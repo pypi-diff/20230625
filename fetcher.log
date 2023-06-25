@@ -12584,3 +12584,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:05:39] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.3.tar.gz]
 [2023-06-25 19:05:39] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
 [2023-06-25 19:05:39] INFO root fetch - main [MainThread]: Store serial: [18637631]
+[2023-06-25 19:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637631]
+[2023-06-25 19:10:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 19:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypha
+[2023-06-25 19:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-chat
+[2023-06-25 19:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lol-esp-api
+[2023-06-25 19:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Resource-Locator-Program
+[2023-06-25 19:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nitrogfx-py
+[2023-06-25 19:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-git-gitlab
+[2023-06-25 19:10:49] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 19:10:49] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-25 19:10:49] INFO root fetch - processPackages [streamlit-chat]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 19:10:49] INFO root fetch - processPackages [Resource-Locator-Program]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 19:10:49] INFO root fetch - processPackages [lol-esp-api]: New version: [0.24.1] Old Version: [0.24]
+[2023-06-25 19:10:49] INFO root fetch - processPackages [nitrogfx-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 19:10:49] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/0f/d5/7171642831798174f43805c72c0ed2b053787f1bab4b487951a2979476bb/lol-esp-api-0.24.tar.gz
+[2023-06-25 19:10:49] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-25 19:10:49] INFO root fetch - processPackages [streamlit-chat]: Downloading https://files.pythonhosted.org/packages/26/8e/0b826521e65d7481f1391dc8d6da186a08f14d391fa0128e6961245b1f8f/streamlit-chat-0.1.0.tar.gz
+[2023-06-25 19:10:49] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-25 19:10:49] INFO root fetch - processPackages [Resource-Locator-Program]: Downloading https://files.pythonhosted.org/packages/61/87/fca3c37e58567f8cbb11a620e44e6a5679be1b29a2035df7993a237e53d9/Resource%20Locator%20Program-0.0.2.tar.gz
+[2023-06-25 19:10:49] INFO root fetch - processPackages [nitrogfx-py]: Downloading https://files.pythonhosted.org/packages/8f/76/ae93e91c75468b3d7459dd6264b03ce2bf5711a13b8b474f03286c9fd245/nitrogfx-py-0.1.1.tar.gz
+[2023-06-25 19:10:49] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/c9/ea/4b1d8ba1014896cb500d2dab7fdab2ec9f55bf50cbdd48fd43ef9bb94f6f/lol-esp-api-0.24.1.tar.gz
+[2023-06-25 19:10:50] INFO root fetch - processPackages [nitrogfx-py]: Downloading https://files.pythonhosted.org/packages/a0/1c/2c88284f49a482bfdfbd14e9091fc63410ff924fb9f914d4828586227f45/nitrogfx-py-0.1.2.tar.gz
+[2023-06-25 19:10:50] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 19:10:50] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.24.tar.gz tmp/lol-esp-api-0.24.1.tar.gz --markdown 20230625/l/lol-esp-api/0.24-0.24.1/diff.md --exclude *.pyd
+[2023-06-25 19:10:50] INFO root fetch - processPackages [Resource-Locator-Program]: Downloading https://files.pythonhosted.org/packages/e0/7b/e8a4f6835d231e2caa4d50f08c3943292338b415b7ca2a1b23f0299586d0/Resource%20Locator%20Program-0.0.3.tar.gz
+[2023-06-25 19:10:50] INFO root fetch - processPackages [streamlit-chat]: Downloading https://files.pythonhosted.org/packages/d8/3e/7b16dad6192dca27502a57b218424563d61154bdba97bef226cb222e97ec/streamlit-chat-0.1.1.tar.gz
+[2023-06-25 19:10:50] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-25 19:10:50] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-25 19:10:50] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-25 19:10:50] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230625/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-25 19:10:50] INFO root fetch - processPackages [streamlit-chat]: executing diffoscope
+[2023-06-25 19:10:50] INFO root fetch - processPackages [streamlit-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-0.1.0.tar.gz tmp/streamlit-chat-0.1.1.tar.gz --markdown 20230625/s/streamlit-chat/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 19:10:50] INFO root fetch - processPackages [Resource-Locator-Program]: executing diffoscope
+[2023-06-25 19:10:50] INFO root fetch - processPackages [Resource-Locator-Program]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Resource Locator Program-0.0.2.tar.gz tmp/Resource Locator Program-0.0.3.tar.gz --markdown 20230625/R/Resource-Locator-Program/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 19:10:50] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 19:10:50] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 19:10:50] INFO root fetch - processPackages [nitrogfx-py]: executing diffoscope
+[2023-06-25 19:10:50] INFO root fetch - processPackages [nitrogfx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrogfx-py-0.1.1.tar.gz tmp/nitrogfx-py-0.1.2.tar.gz --markdown 20230625/n/nitrogfx-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 19:10:51] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.tar.gz]
+[2023-06-25 19:10:51] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.1.tar.gz]
+[2023-06-25 19:10:51] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 19:10:51] INFO root fetch - processPackages [Resource-Locator-Program]: Remove: archive file [/home/abi/fetcher/tmp/Resource Locator Program-0.0.2.tar.gz]
+[2023-06-25 19:10:51] INFO root fetch - processPackages [Resource-Locator-Program]: Remove: archive file [/home/abi/fetcher/tmp/Resource Locator Program-0.0.3.tar.gz]
+[2023-06-25 19:10:51] INFO root fetch - main [MainThread]: End processing [Resource-Locator-Program]: success
+[2023-06-25 19:10:51] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:10:51] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:10:51] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 19:10:52] INFO root fetch - processPackages [nitrogfx-py]: Remove: archive file [/home/abi/fetcher/tmp/nitrogfx-py-0.1.1.tar.gz]
+[2023-06-25 19:10:52] INFO root fetch - processPackages [nitrogfx-py]: Remove: archive file [/home/abi/fetcher/tmp/nitrogfx-py-0.1.2.tar.gz]
+[2023-06-25 19:10:52] INFO root fetch - main [MainThread]: End processing [nitrogfx-py]: success
+[2023-06-25 19:10:52] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-25 19:10:52] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-25 19:10:52] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-25 19:11:01] INFO root fetch - processPackages [streamlit-chat]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-0.1.0.tar.gz]
+[2023-06-25 19:11:01] INFO root fetch - processPackages [streamlit-chat]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-chat-0.1.1.tar.gz]
+[2023-06-25 19:11:01] INFO root fetch - main [MainThread]: End processing [streamlit-chat]: success
+[2023-06-25 19:11:01] INFO root fetch - main [MainThread]: Store serial: [18637654]
