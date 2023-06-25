@@ -4773,3 +4773,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:32:59] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.7.0.tar.gz]
 [2023-06-25 07:32:59] INFO root fetch - main [MainThread]: End processing [fast-matrix-market]: success
 [2023-06-25 07:32:59] INFO root fetch - main [MainThread]: Store serial: [18634310]
+[2023-06-25 07:38:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634310]
+[2023-06-25 07:38:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m23
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libre-fastapi-jwt
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text2text
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-pgadmin-proxy
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pxutil
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluecast
+[2023-06-25 07:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyTransLingo
+[2023-06-25 07:38:08] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.20.4] Old Version: [0.20.3]
+[2023-06-25 07:38:08] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 07:38:08] WARNING root fetch - processPackages [jupyter-pgadmin-proxy]: Skipping, unable to determine old version
+[2023-06-25 07:38:08] INFO root fetch - main [MainThread]: End processing [jupyter-pgadmin-proxy] error
+[2023-06-25 07:38:08] INFO root fetch - processPackages [bluecast]: New version: [0.5] Old Version: [0.4.2]
+[2023-06-25 07:38:08] INFO root fetch - processPackages [text2text]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-25 07:38:08] INFO root fetch - processPackages [m23]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-25 07:38:08] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/31/c2/62f7a56a63c1e8199a6f6cacc5c90c4857b6f895068515cfbb400bc34351/bluecast-0.4.2.tar.gz
+[2023-06-25 07:38:08] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/e0/e7/1eac623023da322418358240250439b97c4b12be6b77b0fe1dc5a15f6318/text2text-1.1.4.tar.gz
+[2023-06-25 07:38:08] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/73/81/e7861aeb6f595cff1cef808a07cd7971b0dfd215484c3d0c99aab83eae52/m23-1.4.0.tar.gz
+[2023-06-25 07:38:08] WARNING root fetch - processPackages [PyTransLingo]: Skipping, unable to determine old version
+[2023-06-25 07:38:08] INFO root fetch - main [MainThread]: End processing [PyTransLingo] error
+[2023-06-25 07:38:08] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/f2/12/851d913c29e8ab3007e39034dab8f840bd64fccac856ef7b44a789d66951/libre_fastapi_jwt-0.20.3.tar.gz
+[2023-06-25 07:38:08] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2023-06-25 07:38:08] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/63/98/d6c4e4b33978923c1ad39b1d72c2a230e4d6c53b4c29d78f7d1f759321ac/text2text-1.1.5.tar.gz
+[2023-06-25 07:38:08] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/5a/40/b6196481cb4ca084c4bd7cb2c719538e74ae6a4ff0c45363bb41ab65edaa/bluecast-0.5.tar.gz
+[2023-06-25 07:38:09] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/a2/af/0e0d07ffd7671a720c4442f632d9ff3e0aca42646c796225240dcf522e8c/libre_fastapi_jwt-0.20.4.tar.gz
+[2023-06-25 07:38:09] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/8b/3b/4197868f06474490d17f98ecb8fe3cc40a44e3b6fd89c54457a99d43a830/m23-1.5.0.tar.gz
+[2023-06-25 07:38:09] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-25 07:38:09] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.4.tar.gz tmp/text2text-1.1.5.tar.gz --markdown 20230625/t/text2text/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-25 07:38:09] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-06-25 07:38:09] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.4.2.tar.gz tmp/bluecast-0.5.tar.gz --markdown 20230625/b/bluecast/0.4.2-0.5/diff.md --exclude *.pyd
+[2023-06-25 07:38:09] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2023-06-25 07:38:09] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.20.3.tar.gz tmp/libre_fastapi_jwt-0.20.4.tar.gz --markdown 20230625/l/libre-fastapi-jwt/0.20.3-0.20.4/diff.md --exclude *.pyd
+[2023-06-25 07:38:09] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-25 07:38:09] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.4.0.tar.gz tmp/m23-1.5.0.tar.gz --markdown 20230625/m/m23/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 07:38:09] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2023-06-25 07:38:09] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2023-06-25 07:38:09] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20230625/p/pxutil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 07:38:10] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.4.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.5.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-25 07:38:10] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.3.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.4.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2023-06-25 07:38:10] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2023-06-25 07:38:10] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.4.0.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.5.0.tar.gz]
+[2023-06-25 07:38:10] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-25 07:38:11] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.4.2.tar.gz]
+[2023-06-25 07:38:11] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.5.tar.gz]
+[2023-06-25 07:38:11] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-06-25 07:38:11] INFO root fetch - main [MainThread]: Store serial: [18634355]
