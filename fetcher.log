@@ -12450,3 +12450,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 18:49:56] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
 [2023-06-25 18:49:56] INFO root fetch - main [MainThread]: End processing [py-pde]: success
 [2023-06-25 18:49:56] INFO root fetch - main [MainThread]: Store serial: [18637562]
+[2023-06-25 18:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637562]
+[2023-06-25 18:55:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydit-jceresearch
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-pydantic-models
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusion-blossom
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dk-google
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyadalight
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolibri-explore-plugin
+[2023-06-25 18:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csup-analyzer
+[2023-06-25 18:55:06] INFO root fetch - processPackages [openapi-pydantic-models]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 18:55:06] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-06-25 18:55:06] WARNING root fetch - processPackages [csup-analyzer]: Skipping, unable to determine old version
+[2023-06-25 18:55:06] INFO root fetch - main [MainThread]: End processing [csup-analyzer] error
+[2023-06-25 18:55:06] INFO root fetch - processPackages [dk-google]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-06-25 18:55:06] WARNING root fetch - processPackages [pyadalight]: Skipping, unable to determine old version
+[2023-06-25 18:55:06] INFO root fetch - main [MainThread]: End processing [pyadalight] error
+[2023-06-25 18:55:06] INFO root fetch - processPackages [pydit-jceresearch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 18:55:06] INFO root fetch - processPackages [fusion-blossom]: New version: [0.2.5] Old Version: [0.2.2]
+[2023-06-25 18:55:06] INFO root fetch - processPackages [dk-google]: Downloading https://files.pythonhosted.org/packages/d5/dc/ff9239fbc88443d32887ccfdfc796409bc9777fc3a4d7f26880ae13cb56f/dk_google-0.0.31.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [fusion-blossom]: Downloading https://files.pythonhosted.org/packages/24/a6/3314ab56b20589c2383cd635eb85df1e01b9246d76f6d5f9af119a3d52a7/fusion_blossom-0.2.2.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-06-25 18:55:06] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/1e/8f/f6cf11d26765a6512dbf4c08669a6af0821cf5e89f43829394512bd5e0d3/openapi-pydantic-models-0.1.0.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [pydit-jceresearch]: Downloading https://files.pythonhosted.org/packages/cf/d5/9b0268e48e889401aa2a7918bb2a375e3c1549dd79394a0448a8504bc6e7/pydit-jceresearch-0.0.8.tar.gz
+[2023-06-25 18:55:06] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-06-25 18:55:06] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-06-25 18:55:06] INFO root fetch - processPackages [dk-google]: Downloading https://files.pythonhosted.org/packages/e2/f3/348be24946a8496674547d7023f9a1165c845d8ad5d91bb5318e2d8ad040/dk_google-0.0.32.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/f0/7e/93aef79a9328cd9da9b3964f015f1effe3a2d7c5838e571dc2b8b169eb81/openapi-pydantic-models-0.1.1.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [openapi-pydantic-models]: executing diffoscope
+[2023-06-25 18:55:06] INFO root fetch - processPackages [openapi-pydantic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-pydantic-models-0.1.0.tar.gz tmp/openapi-pydantic-models-0.1.1.tar.gz --markdown 20230625/o/openapi-pydantic-models/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 18:55:06] INFO root fetch - processPackages [dk-google]: executing diffoscope
+[2023-06-25 18:55:06] INFO root fetch - processPackages [dk-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dk_google-0.0.31.tar.gz tmp/dk_google-0.0.32.tar.gz --markdown 20230625/d/dk-google/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-06-25 18:55:06] INFO root fetch - processPackages [pydit-jceresearch]: Downloading https://files.pythonhosted.org/packages/70/df/4f41595b62e8897183b7362265dca6b06c653455ff4f535aa71abfd02ee9/pydit-jceresearch-0.0.9.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [fusion-blossom]: Downloading https://files.pythonhosted.org/packages/f4/ee/e7ec31caad6d66563a936d0da85fd0e0b153871425931ecb6f6e02f2b8b1/fusion_blossom-0.2.5.tar.gz
+[2023-06-25 18:55:06] INFO root fetch - processPackages [fusion-blossom]: executing diffoscope
+[2023-06-25 18:55:06] INFO root fetch - processPackages [fusion-blossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion_blossom-0.2.2.tar.gz tmp/fusion_blossom-0.2.5.tar.gz --markdown 20230625/f/fusion-blossom/0.2.2-0.2.5/diff.md --exclude *.pyd
+[2023-06-25 18:55:07] INFO root fetch - processPackages [pydit-jceresearch]: executing diffoscope
+[2023-06-25 18:55:07] INFO root fetch - processPackages [pydit-jceresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydit-jceresearch-0.0.8.tar.gz tmp/pydit-jceresearch-0.0.9.tar.gz --markdown 20230625/p/pydit-jceresearch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 18:55:07] INFO root fetch - processPackages [dk-google]: Remove: archive file [/home/abi/fetcher/tmp/dk_google-0.0.31.tar.gz]
+[2023-06-25 18:55:07] INFO root fetch - processPackages [dk-google]: Remove: archive file [/home/abi/fetcher/tmp/dk_google-0.0.32.tar.gz]
+[2023-06-25 18:55:07] INFO root fetch - main [MainThread]: End processing [dk-google]: success
+[2023-06-25 18:55:08] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-0.1.0.tar.gz]
+[2023-06-25 18:55:08] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-0.1.1.tar.gz]
+[2023-06-25 18:55:08] INFO root fetch - main [MainThread]: End processing [openapi-pydantic-models]: success
+[2023-06-25 18:55:08] INFO root fetch - processPackages [pydit-jceresearch]: Remove: archive file [/home/abi/fetcher/tmp/pydit-jceresearch-0.0.8.tar.gz]
+[2023-06-25 18:55:08] INFO root fetch - processPackages [pydit-jceresearch]: Remove: archive file [/home/abi/fetcher/tmp/pydit-jceresearch-0.0.9.tar.gz]
+[2023-06-25 18:55:08] INFO root fetch - main [MainThread]: End processing [pydit-jceresearch]: success
+[2023-06-25 18:55:09] INFO root fetch - processPackages [fusion-blossom]: Remove: archive file [/home/abi/fetcher/tmp/fusion_blossom-0.2.2.tar.gz]
+[2023-06-25 18:55:09] INFO root fetch - processPackages [fusion-blossom]: Remove: archive file [/home/abi/fetcher/tmp/fusion_blossom-0.2.5.tar.gz]
+[2023-06-25 18:55:09] INFO root fetch - main [MainThread]: End processing [fusion-blossom]: success
+[2023-06-25 18:55:09] INFO root fetch - main [MainThread]: Store serial: [18637591]
