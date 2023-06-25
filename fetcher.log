@@ -2416,3 +2416,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:31:33] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
 [2023-06-25 03:31:33] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
 [2023-06-25 03:31:33] INFO root fetch - main [MainThread]: Store serial: [18633269]
+[2023-06-25 03:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633269]
+[2023-06-25 03:36:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-starter
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-sedona
+[2023-06-25 03:36:42] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.38] Old Version: [0.1.8.37]
+[2023-06-25 03:36:42] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ml-starter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 03:36:42] INFO root fetch - processPackages [apache-sedona]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-25 03:36:42] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/6c/41/9d139e5fb67bca47b17a523dfaf2b54932ee4c3e470c4f77c100c5376e07/pillar1-0.1.8.37.tar.gz
+[2023-06-25 03:36:42] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-25 03:36:42] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/a3/4e/ab465324dc88392982e7a5fcd00f4f6e8c7515c352461ee1fa7669c2d6e2/ml-starter-0.1.1.tar.gz
+[2023-06-25 03:36:42] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:36:42] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-25 03:36:43] INFO root fetch - processPackages [apache-sedona]: Downloading https://files.pythonhosted.org/packages/68/1a/63db41c8cf33bbd45ddc04fd2c10ba34ab48fc72f7647e1fbb288e1c7dbb/apache-sedona-1.4.0.tar.gz
+[2023-06-25 03:36:43] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/df/2c/2c63fad196ec57efe08dd1770b01933d4003ae9d7d1567786452cf7467aa/ml-starter-0.1.2.tar.gz
+[2023-06-25 03:36:43] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-25 03:36:43] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-25 03:36:43] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.1.tar.gz tmp/ml-starter-0.1.2.tar.gz --markdown 20230625/m/ml-starter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 03:36:43] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/96/04/359bb706d1a73fd3c975c7808f632285aa1cb1320c4bef35ce5baa6bf45a/pillar1-0.1.8.38.tar.gz
+[2023-06-25 03:36:43] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-25 03:36:43] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230625/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:36:43] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 03:36:43] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.37.tar.gz tmp/pillar1-0.1.8.38.tar.gz --markdown 20230625/p/pillar1/0.1.8.37-0.1.8.38/diff.md --exclude *.pyd
+[2023-06-25 03:36:43] INFO root fetch - processPackages [apache-sedona]: Downloading https://files.pythonhosted.org/packages/ba/bb/a9f60585eb1f16ba2f3658cb01c423a20060228b9d4b529bb1916cae923f/apache-sedona-1.4.1.tar.gz
+[2023-06-25 03:36:43] INFO root fetch - processPackages [apache-sedona]: executing diffoscope
+[2023-06-25 03:36:43] INFO root fetch - processPackages [apache-sedona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-sedona-1.4.0.tar.gz tmp/apache-sedona-1.4.1.tar.gz --markdown 20230625/a/apache-sedona/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-25 03:36:44] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-25 03:36:44] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-25 03:36:44] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230625/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-25 03:36:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-25 03:36:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-25 03:36:44] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-25 03:36:44] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.37.tar.gz]
+[2023-06-25 03:36:44] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.38.tar.gz]
+[2023-06-25 03:36:44] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:36:45] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.1.tar.gz]
+[2023-06-25 03:36:45] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.2.tar.gz]
+[2023-06-25 03:36:45] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-25 03:36:45] INFO root fetch - processPackages [apache-sedona]: Remove: archive file [/home/abi/fetcher/tmp/apache-sedona-1.4.0.tar.gz]
+[2023-06-25 03:36:45] INFO root fetch - processPackages [apache-sedona]: Remove: archive file [/home/abi/fetcher/tmp/apache-sedona-1.4.1.tar.gz]
+[2023-06-25 03:36:45] INFO root fetch - main [MainThread]: End processing [apache-sedona]: success
+[2023-06-25 03:36:46] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-25 03:36:46] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-25 03:36:46] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-25 03:36:46] INFO root fetch - main [MainThread]: Store serial: [18633319]
