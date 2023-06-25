@@ -7057,3 +7057,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:52:28] ERROR root fetch - processPackages [jdcloud-sdk]: Timeout during execution of pkgdiff
 [2023-06-25 10:52:28] INFO root fetch - main [MainThread]: End processing [jdcloud-sdk] error
 [2023-06-25 10:52:28] INFO root fetch - main [MainThread]: Store serial: [18635152]
+[2023-06-25 10:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635152]
+[2023-06-25 10:57:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-25 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metdig
+[2023-06-25 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdypy-EMA
+[2023-06-25 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airtouch2
+[2023-06-25 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-navicat
+[2023-06-25 10:57:37] INFO root fetch - processPackages [nonebot-plugin-navicat]: New version: [0.3.0rc1] Old Version: [0.3.0]
+[2023-06-25 10:57:37] INFO root fetch - processPackages [sdypy-EMA]: New version: [0.27.2] Old Version: [0.27.1]
+[2023-06-25 10:57:37] INFO root fetch - processPackages [airtouch2]: New version: [0.7] Old Version: [0.5b2]
+[2023-06-25 10:57:37] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-06-25 10:57:37] INFO root fetch - processPackages [yplib]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-06-25 10:57:37] INFO root fetch - processPackages [sdypy-EMA]: Downloading https://files.pythonhosted.org/packages/c2/bb/322fb824b1b9a126a27e6b25a322d40ccfb1ea631af217a078d170200e4c/sdypy-EMA-0.27.1.tar.gz
+[2023-06-25 10:57:37] INFO root fetch - processPackages [nonebot-plugin-navicat]: Downloading https://files.pythonhosted.org/packages/54/dd/6cf532716427e4797a71fca9863e2eb1cd73062dd51a42a8d495faade681/nonebot-plugin-navicat-0.3.0.tar.gz
+[2023-06-25 10:57:37] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/b1/3c/6f99d5b25b3bfab92bfe158379ff91e93f0226f0cfce9bfadd9bd77189e5/metdig-0.1.9.9.8-py3-none-any.whl
+[2023-06-25 10:57:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/2e/71/256bd808eba7df82bd49f93aaf486d83daedd542be15f61826d36d6a86cf/yplib-1.7.7.tar.gz
+[2023-06-25 10:57:38] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/7e/55/63b23863f7f63739051b41403ee570bc18214fc5f446d11d78f1ba64e6a3/airtouch2-0.5b2.tar.gz
+[2023-06-25 10:57:38] INFO root fetch - processPackages [sdypy-EMA]: Downloading https://files.pythonhosted.org/packages/31/d9/e6ca4728b98f40b771944858ee1ee18910f63a0445cfb4ab19ba6459eb76/sdypy-EMA-0.27.2.tar.gz
+[2023-06-25 10:57:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/aa/afd4bfed0ad626c9bb85c455046c0f268864368da87255ad8cfe0b92452d/yplib-1.7.8.tar.gz
+[2023-06-25 10:57:38] INFO root fetch - processPackages [nonebot-plugin-navicat]: Downloading https://files.pythonhosted.org/packages/d2/c8/494ffe2a446564c618064d26540ee67ee65fcf1f5b53032cbb11f5071eb2/nonebot-plugin-navicat-0.3.0rc1.tar.gz
+[2023-06-25 10:57:38] INFO root fetch - processPackages [sdypy-EMA]: executing diffoscope
+[2023-06-25 10:57:38] INFO root fetch - processPackages [sdypy-EMA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdypy-EMA-0.27.1.tar.gz tmp/sdypy-EMA-0.27.2.tar.gz --markdown 20230625/s/sdypy-EMA/0.27.1-0.27.2/diff.md --exclude *.pyd
+[2023-06-25 10:57:38] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 10:57:38] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.7.tar.gz tmp/yplib-1.7.8.tar.gz --markdown 20230625/y/yplib/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-06-25 10:57:38] INFO root fetch - processPackages [nonebot-plugin-navicat]: executing diffoscope
+[2023-06-25 10:57:38] INFO root fetch - processPackages [nonebot-plugin-navicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-navicat-0.3.0.tar.gz tmp/nonebot-plugin-navicat-0.3.0rc1.tar.gz --markdown 20230625/n/nonebot-plugin-navicat/0.3.0-0.3.0rc1/diff.md --exclude *.pyd
+[2023-06-25 10:57:38] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/2e/1a/9ec3f8a8f91655cc0083532474c55e68289a042bec1dae3920e0823fc513/airtouch2-0.7.tar.gz
+[2023-06-25 10:57:38] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-06-25 10:57:38] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.5b2.tar.gz tmp/airtouch2-0.7.tar.gz --markdown 20230625/a/airtouch2/0.5b2-0.7/diff.md --exclude *.pyd
+[2023-06-25 10:57:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.7.tar.gz]
+[2023-06-25 10:57:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.8.tar.gz]
+[2023-06-25 10:57:39] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 10:57:39] INFO root fetch - processPackages [sdypy-EMA]: Remove: archive file [/home/abi/fetcher/tmp/sdypy-EMA-0.27.1.tar.gz]
+[2023-06-25 10:57:39] INFO root fetch - processPackages [sdypy-EMA]: Remove: archive file [/home/abi/fetcher/tmp/sdypy-EMA-0.27.2.tar.gz]
+[2023-06-25 10:57:39] INFO root fetch - main [MainThread]: End processing [sdypy-EMA]: success
+[2023-06-25 10:57:39] INFO root fetch - processPackages [nonebot-plugin-navicat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-navicat-0.3.0.tar.gz]
+[2023-06-25 10:57:39] INFO root fetch - processPackages [nonebot-plugin-navicat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-navicat-0.3.0rc1.tar.gz]
+[2023-06-25 10:57:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-navicat]: success
+[2023-06-25 10:57:40] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.5b2.tar.gz]
+[2023-06-25 10:57:40] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.tar.gz]
+[2023-06-25 10:57:40] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-06-25 10:57:40] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/96/6e/1c393cb969c82fe1c39fc922d6de4aedb7830f5ce13e7be8c7ac41f5115f/metdig-0.1.9.9.9-py3-none-any.whl
+[2023-06-25 10:57:42] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-06-25 10:57:42] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230625/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-06-25 10:57:55] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip]
+[2023-06-25 10:57:55] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
+[2023-06-25 10:57:55] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-06-25 10:57:55] INFO root fetch - main [MainThread]: Store serial: [18635167]
