@@ -8946,3 +8946,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:38:17] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl.zip]
 [2023-06-25 13:38:17] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-06-25 13:38:17] INFO root fetch - main [MainThread]: Store serial: [18635998]
+[2023-06-25 13:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635998]
+[2023-06-25 13:43:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txt2ebook
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-mystool
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flook
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speech-bot-helpers
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-06-25 13:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-Ayiin
+[2023-06-25 13:43:32] INFO root fetch - processPackages [txt2ebook]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 13:43:32] WARNING root fetch - processPackages [speech-bot-helpers]: Skipping, unable to determine old version
+[2023-06-25 13:43:32] INFO root fetch - main [MainThread]: End processing [speech-bot-helpers] error
+[2023-06-25 13:43:32] INFO root fetch - processPackages [flook]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 13:43:32] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev9] Old Version: [0.4.6.dev8]
+[2023-06-25 13:43:32] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 13:43:32] INFO root fetch - processPackages [nonebot-plugin-mystool]: New version: [1.0.1] Old Version: [1.0.0b2]
+[2023-06-25 13:43:32] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 13:43:32] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687691527] Old Version: [0.0.101687605135]
+[2023-06-25 13:43:32] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/c6/09/c6ae25cef02f7dc4adcdee0ca56222107289f39b5f96f71ceb6352b2d317/py-Ayiin-0.4.6.dev8.tar.gz
+[2023-06-25 13:43:32] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 13:43:32] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 13:43:32] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/7c/c4/d60a564f3da745273bfa35e59033388d7e8d9e9554261bd419d45d8071c7/txt2ebook-0.1.8.tar.gz
+[2023-06-25 13:43:32] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/34/82/d2d51eef9153fa3025c5926930cd4922191e5b2f2cd3015f72f8cba90199/flook-0.1.2.tar.gz
+[2023-06-25 13:43:32] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/a9/3f/017bea4e49fcf187219ce440728064ee7f1064abb6db4ebd225f0acdf3e9/nonebot_plugin_mystool-1.0.0b2.tar.gz
+[2023-06-25 13:43:32] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/b9/f1/b3cce31e10774c3bfa3676fff18363d320a20cd403a2ce2f0fc7280d5e14/pyre-check-nightly-0.0.101687605135.tar.gz
+[2023-06-25 13:43:32] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/8c/f1/21dea6f120a71ca512dcb52fbb8f28c6bf46e1962cab68ba35e7c88e0cd3/py-Ayiin-0.4.6.dev9.tar.gz
+[2023-06-25 13:43:32] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23752814>=10485760
+[2023-06-25 13:43:32] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-25 13:43:32] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/29/b8/26bf3a31b07b72b764f4df1ced8fdefb05a2f83482732e85ae4ad10ae8bf/flook-0.1.3.tar.gz
+[2023-06-25 13:43:33] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-25 13:43:33] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.6.dev8.tar.gz tmp/py-Ayiin-0.4.6.dev9.tar.gz --markdown 20230625/p/py-Ayiin/0.4.6.dev8-0.4.6.dev9/diff.md --exclude *.pyd
+[2023-06-25 13:43:33] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/e0/e0/488573e0e1f2db23f71e26f18d37b1ac10b710938ef3e69a3e6702a8bc91/nonebot_plugin_mystool-1.0.1.tar.gz
+[2023-06-25 13:43:33] INFO root fetch - processPackages [txt2ebook]: Downloading https://files.pythonhosted.org/packages/2a/b8/8ad395f87b8f7685da9b3f389de9870183f09446c9f0624dfed431e3b9b8/txt2ebook-0.1.9.tar.gz
+[2023-06-25 13:43:33] INFO root fetch - processPackages [nonebot-plugin-mystool]: executing diffoscope
+[2023-06-25 13:43:33] INFO root fetch - processPackages [nonebot-plugin-mystool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mystool-1.0.0b2.tar.gz tmp/nonebot_plugin_mystool-1.0.1.tar.gz --markdown 20230625/n/nonebot-plugin-mystool/1.0.0b2-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 13:43:33] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-06-25 13:43:33] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.1.2.tar.gz tmp/flook-0.1.3.tar.gz --markdown 20230625/f/flook/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 13:43:33] INFO root fetch - processPackages [txt2ebook]: executing diffoscope
+[2023-06-25 13:43:33] INFO root fetch - processPackages [txt2ebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2ebook-0.1.8.tar.gz tmp/txt2ebook-0.1.9.tar.gz --markdown 20230625/t/txt2ebook/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 13:43:34] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.8.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - processPackages [txt2ebook]: Remove: archive file [/home/abi/fetcher/tmp/txt2ebook-0.1.9.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - main [MainThread]: End processing [txt2ebook]: success
+[2023-06-25 13:43:34] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.0.0b2.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.0.1.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mystool]: success
+[2023-06-25 13:43:34] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev8.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev9.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-25 13:43:34] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.2.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.3.tar.gz]
+[2023-06-25 13:43:34] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-06-25 13:43:34] INFO root fetch - main [MainThread]: Store serial: [18636033]
