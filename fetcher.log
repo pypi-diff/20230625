@@ -9911,3 +9911,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:06:17] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.7.9.tar.gz]
 [2023-06-25 15:06:17] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
 [2023-06-25 15:06:17] INFO root fetch - main [MainThread]: Store serial: [18636451]
+[2023-06-25 15:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636451]
+[2023-06-25 15:11:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: workflow-templater
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythorhead
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandasmore
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vka
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ercotutils
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuck
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Prakhar-Kumar
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-06-25 15:11:29] INFO root fetch - processPackages [workflow-templater]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ercotutils]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [Prakhar-Kumar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pandasmore]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [vka]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pythorhead]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230625.13.9.471447] Old Version: [20230623.21.25.814696]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [tuck]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [tuck]: Downloading https://files.pythonhosted.org/packages/0c/47/7904cc77f20275ad4d4dcaadad01fa9610c6ed8480640d3865074c2771ea/tuck-0.2.2.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.25] Old Version: [2023.6.24]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pandasmore]: Downloading https://files.pythonhosted.org/packages/59/d4/5143bdd973e2561315f8c0bbeea8ebd6a7b5d32c942f86ff72e124295fd7/pandasmore-0.0.1.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/99/1a/60c76ee175c5a5f1d98bfbc1d3045e0b0f63cb8b2cdfff8aed5a36f31dc8/pythorhead-0.9.0.tar.gz
+[2023-06-25 15:11:29] ERROR root fetch - processPackages [Prakhar-Kumar]: Unable to fetch info: No such project/version 'Prakhar-Kumar' 0.0.1
+[2023-06-25 15:11:29] INFO root fetch - processPackages [Prakhar-Kumar]: Start processing: test-bench-control
+[2023-06-25 15:11:29] INFO root fetch - main [MainThread]: End processing [Prakhar-Kumar] error
+[2023-06-25 15:11:29] WARNING root fetch - processPackages [test-bench-control]: Skipping, unable to determine old version
+[2023-06-25 15:11:29] INFO root fetch - processPackages [test-bench-control]: Start processing: procmondf
+[2023-06-25 15:11:29] INFO root fetch - main [MainThread]: End processing [test-bench-control] error
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ercotutils]: Downloading https://files.pythonhosted.org/packages/a5/76/521626fec432d6d51db5f263c4bdcc3946314babc0df79069ab90dad5b2c/ercotutils-1.0.0.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/de/87/d677e0d216dada742a6f7df9936553e827807f54e0088304b471c99d926f/certora-cli-alpha-master-20230623.21.25.814696.tar.gz
+[2023-06-25 15:11:29] WARNING root fetch - processPackages [procmondf]: Skipping, unable to determine old version
+[2023-06-25 15:11:29] INFO root fetch - processPackages [procmondf]: Start processing: agixt
+[2023-06-25 15:11:29] INFO root fetch - main [MainThread]: End processing [procmondf] error
+[2023-06-25 15:11:29] INFO root fetch - processPackages [vka]: Downloading https://files.pythonhosted.org/packages/b0/bb/9e2424da6ba6efb491947a984af904fdd3e896435bb6417a8e3666e0d748/vka-1.2.8.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-25 15:11:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37100523>=10485760
+[2023-06-25 15:11:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: meilisearch-python-async
+[2023-06-25 15:11:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-25 15:11:29] INFO root fetch - processPackages [tuck]: Downloading https://files.pythonhosted.org/packages/77/94/dd4b35513b77952a43bc4587231b02b5dedecd4e6c19f87e1fd44f5a521c/tuck-0.2.3.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [meilisearch-python-async]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-25 15:11:29] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/73/1c/757a0e1224b088c2da1c9eb71b1d5f24d35ae78bba0c8b0761782612b46a/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 15:11:29] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-25 15:11:29] INFO root fetch - processPackages [workflow-templater]: Downloading https://files.pythonhosted.org/packages/ff/f3/01335d7d117dfc8e3e858138846dcad19ed3a511b53328ff69cd6f02031e/workflow_templater-0.2.8.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230625/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ercotutils]: Downloading https://files.pythonhosted.org/packages/fd/62/3b4835f6314d3afef4e9bc02010341381df457ce11a2444e1f6c5fdf904b/ercotutils-1.1.0.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pandasmore]: Downloading https://files.pythonhosted.org/packages/e1/da/902afe389caa2d7f3dbd6a7a3e56b5b0c024f7df76de7fbcc0cc683931de/pandasmore-0.0.2.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/32/49/25014ccf47c23de453b085a9a06314b9954494c9bf46e627ff178005b6b3/pythorhead-0.9.1.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [tuck]: executing diffoscope
+[2023-06-25 15:11:29] INFO root fetch - processPackages [tuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuck-0.2.2.tar.gz tmp/tuck-0.2.3.tar.gz --markdown 20230625/t/tuck/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 15:11:29] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/ee/68/7f8ac530f9c8c664cad2b5ee6408af79214b99fee3e96659375477295e88/meilisearch_python_async-1.4.1.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ercotutils]: executing diffoscope
+[2023-06-25 15:11:29] INFO root fetch - processPackages [ercotutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ercotutils-1.0.0.tar.gz tmp/ercotutils-1.1.0.tar.gz --markdown 20230625/e/ercotutils/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pandasmore]: executing diffoscope
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pandasmore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasmore-0.0.1.tar.gz tmp/pandasmore-0.0.2.tar.gz --markdown 20230625/p/pandasmore/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-25 15:11:29] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.9.0.tar.gz tmp/pythorhead-0.9.1.tar.gz --markdown 20230625/p/pythorhead/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-25 15:11:29] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/19/03/c9bc9a6bd0f8b128bea4ac6256b4ae7155dc84661b67aff5f92283e1991a/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 15:11:29] INFO root fetch - processPackages [vka]: Downloading https://files.pythonhosted.org/packages/8e/46/ab7a7c188e32f0b2c63ff472431c60a38a52687c4b854aa6783e469c1595/vka-1.2.9.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [workflow-templater]: Downloading https://files.pythonhosted.org/packages/97/b5/d7dee5f107cbfe25d096f0e4f7fff3c8b6bf7e8fd0e564ab5a52dfe3cbed/workflow_templater-0.2.9.tar.gz
+[2023-06-25 15:11:29] INFO root fetch - processPackages [meilisearch-python-async]: Downloading https://files.pythonhosted.org/packages/1a/fb/067837744a693fac90418643ee7f94587cf90c50d89f2754cdc4c1c79218/meilisearch_python_async-1.4.2.tar.gz
+[2023-06-25 15:11:30] INFO root fetch - processPackages [workflow-templater]: executing diffoscope
+[2023-06-25 15:11:30] INFO root fetch - processPackages [workflow-templater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workflow_templater-0.2.8.tar.gz tmp/workflow_templater-0.2.9.tar.gz --markdown 20230625/w/workflow-templater/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 15:11:30] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-25 15:11:30] INFO root fetch - processPackages [meilisearch-python-async]: executing diffoscope
+[2023-06-25 15:11:30] INFO root fetch - processPackages [meilisearch-python-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_async-1.4.1.tar.gz tmp/meilisearch_python_async-1.4.2.tar.gz --markdown 20230625/m/meilisearch-python-async/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-25 15:11:30] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-25 15:11:30] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230625/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-25 15:11:30] INFO root fetch - processPackages [vka]: executing diffoscope
+[2023-06-25 15:11:30] INFO root fetch - processPackages [vka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vka-1.2.8.tar.gz tmp/vka-1.2.9.tar.gz --markdown 20230625/v/vka/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-25 15:11:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-25 15:11:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230625/f/fbgemm-gpu-nightly-cpu/2023.6.24-2023.6.25/diff.md --exclude *.pyd
+[2023-06-25 15:11:31] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-25 15:11:31] INFO root fetch - processPackages [ercotutils]: Remove: archive file [/home/abi/fetcher/tmp/ercotutils-1.0.0.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - processPackages [ercotutils]: Remove: archive file [/home/abi/fetcher/tmp/ercotutils-1.1.0.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - main [MainThread]: End processing [ercotutils]: success
+[2023-06-25 15:11:31] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.2.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.3.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - main [MainThread]: End processing [tuck]: success
+[2023-06-25 15:11:31] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.0.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.1.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-25 15:11:31] INFO root fetch - processPackages [workflow-templater]: Remove: archive file [/home/abi/fetcher/tmp/workflow_templater-0.2.8.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - processPackages [workflow-templater]: Remove: archive file [/home/abi/fetcher/tmp/workflow_templater-0.2.9.tar.gz]
+[2023-06-25 15:11:31] INFO root fetch - main [MainThread]: End processing [workflow-templater]: success
+[2023-06-25 15:11:32] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.4.1.tar.gz]
+[2023-06-25 15:11:32] INFO root fetch - processPackages [meilisearch-python-async]: Remove: archive file [/home/abi/fetcher/tmp/meilisearch_python_async-1.4.2.tar.gz]
+[2023-06-25 15:11:32] INFO root fetch - main [MainThread]: End processing [meilisearch-python-async]: success
+[2023-06-25 15:11:32] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-25 15:11:32] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-25 15:11:32] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-25 15:11:32] INFO root fetch - processPackages [vka]: Remove: archive file [/home/abi/fetcher/tmp/vka-1.2.8.tar.gz]
+[2023-06-25 15:11:32] INFO root fetch - processPackages [vka]: Remove: archive file [/home/abi/fetcher/tmp/vka-1.2.9.tar.gz]
+[2023-06-25 15:11:32] INFO root fetch - main [MainThread]: End processing [vka]: success
+[2023-06-25 15:11:33] INFO root fetch - processPackages [pandasmore]: Remove: archive file [/home/abi/fetcher/tmp/pandasmore-0.0.1.tar.gz]
+[2023-06-25 15:11:33] INFO root fetch - processPackages [pandasmore]: Remove: archive file [/home/abi/fetcher/tmp/pandasmore-0.0.2.tar.gz]
+[2023-06-25 15:11:33] INFO root fetch - main [MainThread]: End processing [pandasmore]: success
+[2023-06-25 15:12:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-25 15:12:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-25 15:12:11] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-25 15:12:11] INFO root fetch - main [MainThread]: Store serial: [18636508]
