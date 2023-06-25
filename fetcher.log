@@ -3179,3 +3179,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:52:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
 [2023-06-25 04:52:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-06-25 04:52:54] INFO root fetch - main [MainThread]: Store serial: [18633661]
+[2023-06-25 04:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633661]
+[2023-06-25 04:58:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 04:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noseOfYeti
+[2023-06-25 04:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naif-eop-high-prec
+[2023-06-25 04:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyExpansion
+[2023-06-25 04:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-ttauto-crawler
+[2023-06-25 04:58:03] INFO root fetch - processPackages [noseOfYeti]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-06-25 04:58:03] INFO root fetch - processPackages [PyExpansion]: New version: [0.0.1a20230624] Old Version: [0.0.1a20230622]
+[2023-06-25 04:58:03] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 04:58:03] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-25 04:58:03] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [noseOfYeti]: Downloading https://files.pythonhosted.org/packages/55/4c/a700fd5ce82ec1929e144250fe1600a35783c97ad07d4ffeedfe1b07b211/noseOfYeti-2.4.1.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [PyExpansion]: Downloading https://files.pythonhosted.org/packages/ac/8e/0ff397bef9eb8e59ad9730eeeddc6e87ed6896f7f890d9aa6b316e190c07/PyExpansion-0.0.1a20230622.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 04:58:03] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 04:58:03] INFO root fetch - processPackages [noseOfYeti]: Downloading https://files.pythonhosted.org/packages/bf/8d/d75ce82ed902ca749254815113f89988b6f2e40c53cd6d6278031d2dc32e/noseOfYeti-2.4.2.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [PyExpansion]: Downloading https://files.pythonhosted.org/packages/a5/be/411fc956c661bffcf59fb2bc80469486f270f02e80a81ee1070b11b38606/PyExpansion-0.0.1a20230624.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [noseOfYeti]: executing diffoscope
+[2023-06-25 04:58:03] INFO root fetch - processPackages [noseOfYeti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noseOfYeti-2.4.1.tar.gz tmp/noseOfYeti-2.4.2.tar.gz --markdown 20230625/n/noseOfYeti/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-06-25 04:58:03] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-25 04:58:03] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-25 04:58:03] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230625/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-25 04:58:03] INFO root fetch - processPackages [PyExpansion]: executing diffoscope
+[2023-06-25 04:58:03] INFO root fetch - processPackages [PyExpansion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyExpansion-0.0.1a20230622.tar.gz tmp/PyExpansion-0.0.1a20230624.tar.gz --markdown 20230625/P/PyExpansion/0.0.1a20230622-0.0.1a20230624/diff.md --exclude *.pyd
+[2023-06-25 04:58:04] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 04:58:04] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 04:58:04] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 04:58:04] INFO root fetch - processPackages [noseOfYeti]: Remove: archive file [/home/abi/fetcher/tmp/noseOfYeti-2.4.1.tar.gz]
+[2023-06-25 04:58:04] INFO root fetch - processPackages [noseOfYeti]: Remove: archive file [/home/abi/fetcher/tmp/noseOfYeti-2.4.2.tar.gz]
+[2023-06-25 04:58:04] INFO root fetch - main [MainThread]: End processing [noseOfYeti]: success
+[2023-06-25 04:58:05] INFO root fetch - processPackages [PyExpansion]: Remove: archive file [/home/abi/fetcher/tmp/PyExpansion-0.0.1a20230622.tar.gz]
+[2023-06-25 04:58:05] INFO root fetch - processPackages [PyExpansion]: Remove: archive file [/home/abi/fetcher/tmp/PyExpansion-0.0.1a20230624.tar.gz]
+[2023-06-25 04:58:05] INFO root fetch - main [MainThread]: End processing [PyExpansion]: success
+[2023-06-25 04:58:08] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-25 04:58:08] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-25 04:58:08] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-25 04:58:08] INFO root fetch - main [MainThread]: Store serial: [18633672]
