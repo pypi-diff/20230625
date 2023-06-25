@@ -11824,3 +11824,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 18:01:56] INFO root fetch - processPackages [Geoarchpy]: Remove: archive file [/home/abi/fetcher/tmp/Geoarchpy-1.0.2.tar.gz]
 [2023-06-25 18:01:56] INFO root fetch - main [MainThread]: End processing [Geoarchpy]: success
 [2023-06-25 18:01:56] INFO root fetch - main [MainThread]: Store serial: [18637294]
+[2023-06-25 18:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637294]
+[2023-06-25 18:07:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentinel-analysis
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpc-obscodes
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySide2-Fluent-Widgets
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqlib
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-git-gitlab
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-06-25 18:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crc
+[2023-06-25 18:07:05] INFO root fetch - processPackages [sentinel-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 18:07:05] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 18:07:05] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 18:07:05] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 18:07:05] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/29/fc/d5da493efa0695d1911f749ac1ed4d7822f003e2963b6411fda96254f4dd/sentinel_analysis-0.1.0.tar.gz
+[2023-06-25 18:07:05] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.6.8] Old Version: [2023.6.4]
+[2023-06-25 18:07:05] INFO root fetch - processPackages [pyqlib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-25 18:07:05] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-25 18:07:05] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 18:07:05] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 18:07:05] INFO root fetch - processPackages [crc]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-25 18:07:05] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/cb/ed/b71e55691ae6bfbe1dac861d384309e689b6c6b2db2c9bc0f4c49e1cd1b2/xia_git_gitlab-0.1.5-cp39-none-win_amd64.whl
+[2023-06-25 18:07:05] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/9a/aa/ec068e0492f65edac793f3ac5d7c8288328cbc861af38391f23c8e2e564c/mpc_obscodes-2023.6.4.tar.gz
+[2023-06-25 18:07:05] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/ea/59/e137295540c469d16f147fe98410c0997c4af4554b8d428fe19086b6945b/PySide2-Fluent-Widgets-0.9.7.tar.gz
+[2023-06-25 18:07:05] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/ab/7d/b190e01cb3f573099cf56eee2ae244b2a5d7aedc1e28665e3e54b4d09284/pyqlib-0.9.1-cp38-cp38-win_amd64.whl
+[2023-06-25 18:07:05] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/16/4b/179a5e04470e5c213959485e4a1282fd2d739d12929d006405890196ef3c/sentinel_analysis-0.1.1.tar.gz
+[2023-06-25 18:07:06] INFO root fetch - processPackages [crc]: Downloading https://files.pythonhosted.org/packages/7d/21/ad20557ea1bb7510b138477e0d907ce6985be5308b51816a77e9d4fe870e/crc-4.2.0.tar.gz
+[2023-06-25 18:07:06] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/a9/6a/9a01bdd625db375592636fd805ae5f0805e442b13eb7c47940c0236c2707/xia_git_gitlab-0.1.6-cp39-none-win_amd64.whl
+[2023-06-25 18:07:06] INFO root fetch - processPackages [sentinel-analysis]: executing diffoscope
+[2023-06-25 18:07:06] INFO root fetch - processPackages [sentinel-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_analysis-0.1.0.tar.gz tmp/sentinel_analysis-0.1.1.tar.gz --markdown 20230625/s/sentinel-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 18:07:06] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/be/07/4ad74682bf9b07fedd0d34086d66c6090aa90431059a6aaaf74d5874ae78/mpc_obscodes-2023.6.8.tar.gz
+[2023-06-25 18:07:06] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/66/59/cb67c53735dd020876cd0aaa137e801adc49373637ba65321a8bb6a60818/pyqlib-0.9.2-cp38-cp38-win_amd64.whl
+[2023-06-25 18:07:06] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 18:07:06] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.5-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.6-cp39-none-win_amd64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 18:07:06] INFO root fetch - processPackages [crc]: Downloading https://files.pythonhosted.org/packages/c2/53/559a165c83ab16ad1d4a1639de239b77894fc02585bf767da88ad4288f40/crc-4.3.0.tar.gz
+[2023-06-25 18:07:06] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-06-25 18:07:06] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.6.4.tar.gz tmp/mpc_obscodes-2023.6.8.tar.gz --markdown 20230625/m/mpc-obscodes/2023.6.4-2023.6.8/diff.md --exclude *.pyd
+[2023-06-25 18:07:06] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/d3/05/2018a913ce0cd7fe1332bfcc212b45f4d06d2cf57c8c383613cf5d12032e/PySide2-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-25 18:07:06] INFO root fetch - processPackages [pyqlib]: executing diffoscope
+[2023-06-25 18:07:06] INFO root fetch - processPackages [pyqlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqlib-0.9.1-cp38-cp38-win_amd64.whl.zip tmp/pyqlib-0.9.2-cp38-cp38-win_amd64.whl.zip --markdown 20230625/p/pyqlib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-25 18:07:06] INFO root fetch - processPackages [crc]: executing diffoscope
+[2023-06-25 18:07:06] INFO root fetch - processPackages [crc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc-4.2.0.tar.gz tmp/crc-4.3.0.tar.gz --markdown 20230625/c/crc/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-25 18:07:06] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-06-25 18:07:06] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.9.7.tar.gz tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz --markdown 20230625/P/PySide2-Fluent-Widgets/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-25 18:07:07] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-06-25 18:07:07] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.6-cp39-none-win_amd64.whl.zip]
+[2023-06-25 18:07:07] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 18:07:07] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.0.tar.gz]
+[2023-06-25 18:07:07] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.1.tar.gz]
+[2023-06-25 18:07:07] INFO root fetch - main [MainThread]: End processing [sentinel-analysis]: success
+[2023-06-25 18:07:08] INFO root fetch - processPackages [crc]: Remove: archive file [/home/abi/fetcher/tmp/crc-4.2.0.tar.gz]
+[2023-06-25 18:07:08] INFO root fetch - processPackages [crc]: Remove: archive file [/home/abi/fetcher/tmp/crc-4.3.0.tar.gz]
+[2023-06-25 18:07:08] INFO root fetch - main [MainThread]: End processing [crc]: success
+[2023-06-25 18:07:08] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.6.4.tar.gz]
+[2023-06-25 18:07:08] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2023.6.8.tar.gz]
+[2023-06-25 18:07:08] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-06-25 18:07:10] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.1-cp38-cp38-win_amd64.whl.zip]
+[2023-06-25 18:07:10] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.2-cp38-cp38-win_amd64.whl.zip]
+[2023-06-25 18:07:10] INFO root fetch - main [MainThread]: End processing [pyqlib]: success
+[2023-06-25 18:07:10] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.7.tar.gz]
+[2023-06-25 18:07:10] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-25 18:07:10] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-06-25 18:07:10] INFO root fetch - main [MainThread]: Store serial: [18637321]
