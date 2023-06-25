@@ -6790,3 +6790,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:23:29] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.0.3.tar.gz]
 [2023-06-25 10:23:29] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
 [2023-06-25 10:23:29] INFO root fetch - main [MainThread]: Store serial: [18635059]
+[2023-06-25 10:28:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635059]
+[2023-06-25 10:28:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mnisq
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: olympus-surrogate-bench
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumigo-opentelemetry
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-mui-table
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easybio
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p-ttauto-crawler
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anonpi
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airontools
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ogms
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotslacker-testcli
+[2023-06-25 10:28:38] WARNING root fetch - processPackages [st-mui-table]: Skipping, unable to determine old version
+[2023-06-25 10:28:38] INFO root fetch - main [MainThread]: End processing [st-mui-table] error
+[2023-06-25 10:28:38] INFO root fetch - processPackages [mnisq]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [olympus-surrogate-bench]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [anonpi]: New version: [0.1.5] Old Version: [0.1.0]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [easybio]: New version: [0.3.5] Old Version: [0.3.2]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [ogms]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [airontools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 10:28:38] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/1c/a1/ee4f0a89c7f7eb356f1da893ab5726ba05871394ac223304efb0f1926e5d/airontools-0.1.8-py3-none-any.whl
+[2023-06-25 10:28:39] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9c/64/2e350612673dcde2f1bd79c8b6fea2e0ef8b6239bdff92276be501c2c300/lumigo_opentelemetry-1.0.8-py3-none-any.whl
+[2023-06-25 10:28:39] INFO root fetch - processPackages [anonpi]: Downloading https://files.pythonhosted.org/packages/82/a4/7189967685950fcd2073131af3b5aa00099bd11adb1295a95567543be1fb/anonpi-0.1.0.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [olympus-surrogate-bench]: Downloading https://files.pythonhosted.org/packages/1b/49/bc6666821fd4ef90074f19b33034d0a74cd790651bb13b8a195dbc5cb5e6/olympus_surrogate_bench-0.0.1-py3-none-any.whl
+[2023-06-25 10:28:39] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/6e/9d/5639e199c3cfbd624171082c4b87c63c0c0e1a0da6136cdc2119c56af57e/easybio-0.3.2.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [mnisq]: Downloading https://files.pythonhosted.org/packages/79/6b/256944a950f2e35c3c9a196d1c00d829ebf9eeaeb01dac513878023e3071/mnisq-0.1.0.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [ogms]: Downloading https://files.pythonhosted.org/packages/f0/96/b7c7c56ad1a912b253bb9525abc3cda906be7499d15f4728574a0f6ede2a/ogms-0.1.2-py3.7.egg
+[2023-06-25 10:28:39] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/b8/08/2a60311ced2f2e597aa5dff7784a56fd4979cd36b06d6099ee3a0c075f44/airontools-0.1.9-py3-none-any.whl
+[2023-06-25 10:28:39] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/57/71/45cf11c2c66e7969006d17b79832678705ed38a0df644acf7ca1110f208b/robotslacker-testcli-0.0.8.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 10:28:39] INFO root fetch - processPackages [airontools]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [airontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airontools-0.1.8-py3-none-any.whl.zip tmp/airontools-0.1.9-py3-none-any.whl.zip --markdown 20230625/a/airontools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 10:28:39] INFO root fetch - processPackages [anonpi]: Downloading https://files.pythonhosted.org/packages/3c/f9/cbcde1f7da43718709fe6239b6931192beca8a9addf1efac276cd7148963/anonpi-0.1.5.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-06-25 10:28:39] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/01/e6/fee29e41a15e1f8352ae65eacc4f2377c07488d44ae4d1a915a581ebe20e/easybio-0.3.5-py3.10.egg
+[2023-06-25 10:28:39] INFO root fetch - processPackages [mnisq]: Downloading https://files.pythonhosted.org/packages/df/1e/13f25de262770202ec1af3b6da1b50f8333308cd74c74da48fd257d6034f/mnisq-0.2.0.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [anonpi]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [anonpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anonpi-0.1.0.tar.gz tmp/anonpi-0.1.5.tar.gz --markdown 20230625/a/anonpi/0.1.0-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 10:28:39] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230625/l/lumigo-opentelemetry/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 10:28:39] INFO root fetch - processPackages [easybio]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [easybio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easybio-0.3.2.tar.gz tmp/easybio-0.3.5-py3.10.egg --markdown 20230625/e/easybio/0.3.2-0.3.5/diff.md --exclude *.pyd
+[2023-06-25 10:28:39] INFO root fetch - processPackages [olympus-surrogate-bench]: Downloading https://files.pythonhosted.org/packages/08/67/7fa6a2e621bd784603d308cf723acaf9217cff29100394ed457b9c286e6a/olympus_surrogate_bench-0.0.2-py3-none-any.whl
+[2023-06-25 10:28:39] INFO root fetch - processPackages [ogms]: Downloading https://files.pythonhosted.org/packages/ac/f4/ce0591f617378fb32b786ae10ef3fe04b404d148e8cb8b808849967c7f17/ogms-0.1.5.tar.gz
+[2023-06-25 10:28:39] INFO root fetch - processPackages [mnisq]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [mnisq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnisq-0.1.0.tar.gz tmp/mnisq-0.2.0.tar.gz --markdown 20230625/m/mnisq/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 10:28:39] INFO root fetch - processPackages [ogms]: executing diffoscope
+[2023-06-25 10:28:39] INFO root fetch - processPackages [ogms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogms-0.1.2-py3.7.egg tmp/ogms-0.1.5.tar.gz --markdown 20230625/o/ogms/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 10:28:40] INFO root fetch - processPackages [robotslacker-testcli]: Downloading https://files.pythonhosted.org/packages/49/c7/4e9f25562dae606566643edd46e0c7fdfcb015dd742780c7eeb381d4ae43/robotslacker-testcli-0.0.9.tar.gz
+[2023-06-25 10:28:40] INFO root fetch - processPackages [olympus-surrogate-bench]: executing diffoscope
+[2023-06-25 10:28:40] INFO root fetch - processPackages [olympus-surrogate-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olympus_surrogate_bench-0.0.1-py3-none-any.whl.zip tmp/olympus_surrogate_bench-0.0.2-py3-none-any.whl.zip --markdown 20230625/o/olympus-surrogate-bench/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 10:28:40] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-06-25 10:28:40] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230625/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 10:28:40] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 10:28:40] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 10:28:40] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 10:28:41] INFO root fetch - processPackages [anonpi]: Remove: archive file [/home/abi/fetcher/tmp/anonpi-0.1.0.tar.gz]
+[2023-06-25 10:28:41] INFO root fetch - processPackages [anonpi]: Remove: archive file [/home/abi/fetcher/tmp/anonpi-0.1.5.tar.gz]
+[2023-06-25 10:28:41] INFO root fetch - main [MainThread]: End processing [anonpi]: success
+[2023-06-25 10:28:41] INFO root fetch - processPackages [easybio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.3.2.tar.gz]
+[2023-06-25 10:28:41] INFO root fetch - processPackages [easybio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.3.5-py3.10.egg]
+[2023-06-25 10:28:41] INFO root fetch - main [MainThread]: End processing [easybio]: success
+[2023-06-25 10:28:41] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 10:28:41] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 10:28:41] INFO root fetch - main [MainThread]: End processing [airontools]: success
+[2023-06-25 10:28:41] INFO root fetch - processPackages [mnisq]: Remove: archive file [/home/abi/fetcher/tmp/mnisq-0.1.0.tar.gz]
+[2023-06-25 10:28:41] INFO root fetch - processPackages [mnisq]: Remove: archive file [/home/abi/fetcher/tmp/mnisq-0.2.0.tar.gz]
+[2023-06-25 10:28:41] INFO root fetch - main [MainThread]: End processing [mnisq]: success
+[2023-06-25 10:28:41] INFO root fetch - processPackages [ogms]: Remove: archive file [/home/abi/fetcher/tmp/ogms-0.1.2-py3.7.egg]
+[2023-06-25 10:28:41] INFO root fetch - processPackages [ogms]: Remove: archive file [/home/abi/fetcher/tmp/ogms-0.1.5.tar.gz]
+[2023-06-25 10:28:41] INFO root fetch - main [MainThread]: End processing [ogms]: success
+[2023-06-25 10:28:41] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip]
+[2023-06-25 10:28:41] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-06-25 10:28:41] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-06-25 10:28:42] INFO root fetch - processPackages [olympus-surrogate-bench]: Remove: archive file [/home/abi/fetcher/tmp/olympus_surrogate_bench-0.0.1-py3-none-any.whl.zip]
+[2023-06-25 10:28:42] INFO root fetch - processPackages [olympus-surrogate-bench]: Remove: archive file [/home/abi/fetcher/tmp/olympus_surrogate_bench-0.0.2-py3-none-any.whl.zip]
+[2023-06-25 10:28:42] INFO root fetch - main [MainThread]: End processing [olympus-surrogate-bench]: success
+[2023-06-25 10:28:44] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.8.tar.gz]
+[2023-06-25 10:28:44] INFO root fetch - processPackages [robotslacker-testcli]: Remove: archive file [/home/abi/fetcher/tmp/robotslacker-testcli-0.0.9.tar.gz]
+[2023-06-25 10:28:44] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-06-25 10:28:44] INFO root fetch - main [MainThread]: Store serial: [18635089]
