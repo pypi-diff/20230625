@@ -2127,3 +2127,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 02:54:49] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-25 02:54:49] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-25 02:54:49] INFO root fetch - main [MainThread]: Store serial: [18633123]
+[2023-06-25 02:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633123]
+[2023-06-25 02:59:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catgram
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyfile
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcorelib
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-session
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SCALECAST
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pillar1
+[2023-06-25 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-06-25 02:59:58] INFO root fetch - processPackages [vcorelib]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-25 02:59:58] INFO root fetch - processPackages [findmyfile]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-25 02:59:58] INFO root fetch - processPackages [catgram]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-25 02:59:58] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 02:59:58] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.32] Old Version: [0.1.8.31]
+[2023-06-25 02:59:58] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 02:59:58] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 02:59:59] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/bc/6f/494847fb38d73d42d207372022feac578edd72b7236299eabde1e5319b88/findmyfile-0.2.7.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/5c/8e/d16789e96c14d1ef06ef27a0f0cea38d7196d8fe0df89594c805c2520d2e/vcorelib-2.0.0.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [catgram]: Downloading https://files.pythonhosted.org/packages/c7/59/fe6289c538ff003fbc655542c61a054184fd1fe386c31ee7a0320fb086cd/catgram-0.1.0.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/17/60/cdc30d2c2ffaace984af275aadb100b12607e0bcdd84903ef902a3bc0723/pillar1-0.1.8.31.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-06-25 02:59:59] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-25 02:59:59] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-25 02:59:59] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/f6/c0/4875969229d5be796fa0a580a6aebd7c1948c315a7e3b406b1f5b4dd5e53/findmyfile-0.2.8.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/83/fc/fca0a3034d75f6dd12968f18a88c2da5889a7359402161c602f2c042990f/vcorelib-2.0.1.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-25 02:59:59] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230625/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 02:59:59] INFO root fetch - processPackages [catgram]: Downloading https://files.pythonhosted.org/packages/a2/87/b9b7935f2cb46ac135d882e55458e1a3cc49656d042ec285ce60bde90fae/catgram-0.2.0.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/1c/c4/82bb6b4f38c55a2c3670f668c9555cbe71d299067cc675a888270d37ff5f/pillar1-0.1.8.32.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-25 02:59:59] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.0.0.tar.gz tmp/vcorelib-2.0.1.tar.gz --markdown 20230625/v/vcorelib/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-25 02:59:59] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-06-25 02:59:59] INFO root fetch - processPackages [findmyfile]: executing diffoscope
+[2023-06-25 02:59:59] INFO root fetch - processPackages [findmyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyfile-0.2.7.tar.gz tmp/findmyfile-0.2.8.tar.gz --markdown 20230625/f/findmyfile/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-25 02:59:59] INFO root fetch - processPackages [catgram]: executing diffoscope
+[2023-06-25 02:59:59] INFO root fetch - processPackages [catgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catgram-0.1.0.tar.gz tmp/catgram-0.2.0.tar.gz --markdown 20230625/c/catgram/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 02:59:59] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 02:59:59] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.31.tar.gz tmp/pillar1-0.1.8.32.tar.gz --markdown 20230625/p/pillar1/0.1.8.31-0.1.8.32/diff.md --exclude *.pyd
+[2023-06-25 02:59:59] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-06-25 02:59:59] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230625/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 03:00:00] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-25 03:00:00] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-25 03:00:00] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-25 03:00:01] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.7.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.8.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - main [MainThread]: End processing [findmyfile]: success
+[2023-06-25 03:00:01] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.31.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.32.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:00:01] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.0.0.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.0.1.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-25 03:00:01] INFO root fetch - processPackages [catgram]: Remove: archive file [/home/abi/fetcher/tmp/catgram-0.1.0.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - processPackages [catgram]: Remove: archive file [/home/abi/fetcher/tmp/catgram-0.2.0.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - main [MainThread]: End processing [catgram]: success
+[2023-06-25 03:00:01] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.8.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.9.tar.gz]
+[2023-06-25 03:00:01] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-06-25 03:00:01] INFO root fetch - main [MainThread]: Store serial: [18633144]
