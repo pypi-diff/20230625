@@ -7577,3 +7577,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 11:30:12] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-06-25 11:30:12] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-06-25 11:30:12] INFO root fetch - main [MainThread]: Store serial: [18635368]
+[2023-06-25 11:35:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635368]
+[2023-06-25 11:35:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atro-pylog
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello2
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagster-polars
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Nuitka
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-utilities
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: serverchain
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atro-pyrsync
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airontools
+[2023-06-25 11:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eFatura
+[2023-06-25 11:35:21] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [automation-utilities]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [dagster-polars]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [atro-pylog]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [Nuitka]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-25 11:35:21] WARNING root fetch - processPackages [serverchain]: Skipping, unable to determine old version
+[2023-06-25 11:35:21] INFO root fetch - main [MainThread]: End processing [serverchain] error
+[2023-06-25 11:35:21] INFO root fetch - processPackages [airontools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [hello2]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/2e/5e/15c750904d1769d53392b430f508d7cce449d2d099f6e007e9300d2d991e/atro-pyrsync-0.0.6.tar.gz
+[2023-06-25 11:35:21] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/1c/a1/ee4f0a89c7f7eb356f1da893ab5726ba05871394ac223304efb0f1926e5d/airontools-0.1.8-py3-none-any.whl
+[2023-06-25 11:35:21] INFO root fetch - processPackages [eFatura]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 11:35:21] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/ae/82/b78373fdb58886c3208eca11193dcc648673b807bca81bc625037f93e384/automation-utilities-1.0.1.tar.gz
+[2023-06-25 11:35:21] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/39/93/74f91b1ee3e5df8374395712603670cbd9065a79bb3e8108d14c3019e55f/dagster_polars-0.0.1.tar.gz
+[2023-06-25 11:35:21] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/d4/76/7b6478056129d6d30ce18107b7dd1a4bd4347e955935fe69be310d587f4a/atro-pylog-0.0.9.tar.gz
+[2023-06-25 11:35:21] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/ac/d9/4fc57af8f6890bbf11ea0b0ae43e57a6b6186cfac3a08ccf7f3a4577ba37/hello2-2.0.8.tar.gz
+[2023-06-25 11:35:21] INFO root fetch - processPackages [airontools]: Downloading https://files.pythonhosted.org/packages/b8/08/2a60311ced2f2e597aa5dff7784a56fd4979cd36b06d6099ee3a0c075f44/airontools-0.1.9-py3-none-any.whl
+[2023-06-25 11:35:21] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/ff/19/37767052fe1eeee227de6288742ecdc391bae50a6c7ec530153d31178114/Nuitka-1.6.4.tar.gz
+[2023-06-25 11:35:21] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/a2/6b/d9ee0c1158d16bddc03e567d6b63c536260cce3860ddef23c37d6c0a6bba/atro-pyrsync-0.0.7.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/c4/c5/c6857c05031ac25fa648e7daffb255f3a14a001498ea53197757c0d2b292/eFatura-1.0.8.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [airontools]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [airontools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airontools-0.1.8-py3-none-any.whl.zip tmp/airontools-0.1.9-py3-none-any.whl.zip --markdown 20230625/a/airontools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.6.tar.gz tmp/atro-pyrsync-0.0.7.tar.gz --markdown 20230625/a/atro-pyrsync/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/e8/10/e3d4806e78a4e8cc086fcdb06ae84ff601481fcf73db456036d0deb8e425/automation-utilities-1.1.0.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/2b/7a/c2ea3bd809ae3d488d168c6fcce965d1e1622c7265fe195d7eac2b108851/atro-pylog-0.1.0.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/24/b6/8dcffe30b7ff0b0f71541698d3b432f9db62f35913d75645626138962cc7/dagster_polars-0.0.2.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/f3/e2/bfe93bb7d49f13044b56930ef7a7786549b5de36797524a8717bf3c6cf23/hello2-2.0.9.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.0.1.tar.gz tmp/automation-utilities-1.1.0.tar.gz --markdown 20230625/a/automation-utilities/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [dagster-polars]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [dagster-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_polars-0.0.1.tar.gz tmp/dagster_polars-0.0.2.tar.gz --markdown 20230625/d/dagster-polars/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [atro-pylog]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [atro-pylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pylog-0.0.9.tar.gz tmp/atro-pylog-0.1.0.tar.gz --markdown 20230625/a/atro-pylog/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/66/4b/ea83f157a48f83c30614869ce53caaec3994f62d1675238f1f9c54ea514e/Nuitka-1.6.5.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-2.0.8.tar.gz tmp/hello2-2.0.9.tar.gz --markdown 20230625/h/hello2/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/04/6b/969bae300c46604d26e04d53075a52695a49d30db8933c3b7082fec9093d/eFatura-1.0.9.tar.gz
+[2023-06-25 11:35:22] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.6.4.tar.gz tmp/Nuitka-1.6.5.tar.gz --markdown 20230625/N/Nuitka/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-25 11:35:22] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-06-25 11:35:22] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-1.0.8.tar.gz tmp/eFatura-1.0.9.tar.gz --markdown 20230625/e/eFatura/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 11:35:23] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.6.tar.gz]
+[2023-06-25 11:35:23] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.7.tar.gz]
+[2023-06-25 11:35:23] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-06-25 11:35:23] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 11:35:23] INFO root fetch - processPackages [airontools]: Remove: archive file [/home/abi/fetcher/tmp/airontools-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 11:35:23] INFO root fetch - main [MainThread]: End processing [airontools]: success
+[2023-06-25 11:35:23] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.0.1.tar.gz]
+[2023-06-25 11:35:23] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.1.0.tar.gz]
+[2023-06-25 11:35:23] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-25 11:35:23] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.1.tar.gz]
+[2023-06-25 11:35:23] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.2.tar.gz]
+[2023-06-25 11:35:23] INFO root fetch - main [MainThread]: End processing [dagster-polars]: success
+[2023-06-25 11:35:24] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.9.tar.gz]
+[2023-06-25 11:35:24] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.1.0.tar.gz]
+[2023-06-25 11:35:24] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
+[2023-06-25 11:35:24] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.0.8.tar.gz]
+[2023-06-25 11:35:24] INFO root fetch - processPackages [eFatura]: Remove: archive file [/home/abi/fetcher/tmp/eFatura-1.0.9.tar.gz]
+[2023-06-25 11:35:24] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-06-25 11:35:25] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.8.tar.gz]
+[2023-06-25 11:35:25] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-2.0.9.tar.gz]
+[2023-06-25 11:35:25] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-25 11:35:50] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.4.tar.gz]
+[2023-06-25 11:35:50] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.5.tar.gz]
+[2023-06-25 11:35:50] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-06-25 11:35:50] INFO root fetch - main [MainThread]: Store serial: [18635397]
