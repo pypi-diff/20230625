@@ -12980,3 +12980,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:32:23] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-25 19:32:23] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-06-25 19:32:23] INFO root fetch - main [MainThread]: Store serial: [18637805]
+[2023-06-25 19:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637805]
+[2023-06-25 19:37:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqint
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lodkit
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypha
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emreader
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkov
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-git-gitlab
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rds-core
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fajrGPT
+[2023-06-25 19:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-restit
+[2023-06-25 19:37:39] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [emreader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [pyqint]: New version: [0.9.7.2] Old Version: [0.9.7.1]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [rds-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 19:37:39] WARNING root fetch - processPackages [lodkit]: Skipping, unable to determine old version
+[2023-06-25 19:37:39] INFO root fetch - processPackages [lodkit]: Start processing: mcresources
+[2023-06-25 19:37:39] INFO root fetch - main [MainThread]: End processing [lodkit] error
+[2023-06-25 19:37:39] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [fajrGPT]: New version: [1.2] Old Version: [1.1.6]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [django-restit]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [mcresources]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-25 19:37:39] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [emreader]: Downloading https://files.pythonhosted.org/packages/64/9a/f9d07b0b15d2355e49a4e923412fe52cd5c0d6ebd8b3cb1557d29526af1a/emreader-0.1.8.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [mcresources]: Downloading https://files.pythonhosted.org/packages/ce/23/357687e2333f09e92271b33954c43da3511687b473c228516ea58df4e73b/mcresources-1.6.0.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/ef/d6/e4d7cc0082ce6fc0aa99cd2e7b4f8cd14452c1f5f9600d8e4564044cc50e/django_restit-4.0.1.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/e1/6f/f0baaa4fc34d51a75654547ad912cdf525f93b34ef1a95f1294cd34dadbc/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:37:39] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-25 19:37:39] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/97/e1/03c303316421346ca266d933ed770d86a02e8564e969d920f8b14dcd4c54/rds-core-0.1.0.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/66/e7/c3062d1a337e67d85cadfe002c401f78bb3c45f452b2db6aecbe2181dd62/fajrGPT-1.1.6.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-25 19:37:39] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-25 19:37:39] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230625/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-25 19:37:40] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-25 19:37:40] INFO root fetch - processPackages [emreader]: Downloading https://files.pythonhosted.org/packages/4c/d8/5f29bf647c5a1138d2ea191f61b7e79bdf7832599d6f135b227d0f6b307b/emreader-0.1.9.tar.gz
+[2023-06-25 19:37:40] INFO root fetch - processPackages [mcresources]: Downloading https://files.pythonhosted.org/packages/92/f1/e5911b018953203042a41fc59fea834df69c32b00fca4908f78e647a93be/mcresources-1.6.1.tar.gz
+[2023-06-25 19:37:40] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-25 19:37:40] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/d0/8c/782c648b0318f1f4b9dda63d9294daf9f64d68a0fa0788649f7b7bd49661/django_restit-4.0.2.tar.gz
+[2023-06-25 19:37:40] INFO root fetch - processPackages [emreader]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [emreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emreader-0.1.8.tar.gz tmp/emreader-0.1.9.tar.gz --markdown 20230625/e/emreader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] INFO root fetch - processPackages [mcresources]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [mcresources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcresources-1.6.0.tar.gz tmp/mcresources-1.6.1.tar.gz --markdown 20230625/m/mcresources/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/2e/8e/b4c4da51e175fc2c0084ac23a702416bee9072f74c71e5917384ae8e16e7/fajrGPT-1.2.tar.gz
+[2023-06-25 19:37:40] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/3a/f8/4eaf8a257682d01ba7dc0b043eb7700825d11218fe69016ace25ed474b42/rds-core-0.1.1.tar.gz
+[2023-06-25 19:37:40] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.0.1.tar.gz tmp/django_restit-4.0.2.tar.gz --markdown 20230625/d/django-restit/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.1.0.tar.gz tmp/rds-core-0.1.1.tar.gz --markdown 20230625/r/rds-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.1.6.tar.gz tmp/fajrGPT-1.2.tar.gz --markdown 20230625/f/fajrGPT/1.1.6-1.2/diff.md --exclude *.pyd
+[2023-06-25 19:37:40] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-25 19:37:40] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-25 19:37:40] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230625/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-25 19:37:41] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/c6/91/7907d7a29f5c26c031da3175916525427e9150b5a9ab871b7734076bbf41/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 19:37:41] INFO root fetch - processPackages [emreader]: Remove: archive file [/home/abi/fetcher/tmp/emreader-0.1.8.tar.gz]
+[2023-06-25 19:37:41] INFO root fetch - processPackages [emreader]: Remove: archive file [/home/abi/fetcher/tmp/emreader-0.1.9.tar.gz]
+[2023-06-25 19:37:41] INFO root fetch - main [MainThread]: End processing [emreader]: success
+[2023-06-25 19:37:41] INFO root fetch - processPackages [mcresources]: Remove: archive file [/home/abi/fetcher/tmp/mcresources-1.6.0.tar.gz]
+[2023-06-25 19:37:41] INFO root fetch - processPackages [mcresources]: Remove: archive file [/home/abi/fetcher/tmp/mcresources-1.6.1.tar.gz]
+[2023-06-25 19:37:41] INFO root fetch - main [MainThread]: End processing [mcresources]: success
+[2023-06-25 19:37:41] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:37:41] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:37:41] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 19:37:41] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-25 19:37:41] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-25 19:37:41] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-25 19:37:41] INFO root fetch - processPackages [pyqint]: executing diffoscope
+[2023-06-25 19:37:41] INFO root fetch - processPackages [pyqint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/p/pyqint/0.9.7.1-0.9.7.2/diff.md --exclude *.pyd
+[2023-06-25 19:37:42] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.1.6.tar.gz]
+[2023-06-25 19:37:42] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.2.tar.gz]
+[2023-06-25 19:37:42] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-06-25 19:37:42] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.1.0.tar.gz]
+[2023-06-25 19:37:42] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.1.1.tar.gz]
+[2023-06-25 19:37:42] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-06-25 19:37:44] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.1.tar.gz]
+[2023-06-25 19:37:44] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.2.tar.gz]
+[2023-06-25 19:37:44] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-06-25 19:38:05] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:38:05] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 19:38:05] INFO root fetch - main [MainThread]: End processing [pyqint]: success
+[2023-06-25 19:38:19] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-25 19:38:19] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-25 19:38:19] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-25 19:38:19] INFO root fetch - main [MainThread]: Store serial: [18637851]
