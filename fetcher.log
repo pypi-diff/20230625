@@ -15103,3 +15103,54 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:11:02] WARNING root fetch - processPackages [kenzy-image]: Skipping package: exceeds size limit 23969913>=10485760
 [2023-06-25 22:11:02] INFO root fetch - main [MainThread]: End processing [kenzy-image] error
 [2023-06-25 22:11:02] INFO root fetch - main [MainThread]: Store serial: [18638705]
+[2023-06-25 22:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638705]
+[2023-06-25 22:16:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 22:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycti
+[2023-06-25 22:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: persist-ext
+[2023-06-25 22:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dasy
+[2023-06-25 22:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-06-25 22:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iamlistening
+[2023-06-25 22:16:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytrend
+[2023-06-25 22:16:11] INFO root fetch - processPackages [talkytrend]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-25 22:16:11] INFO root fetch - processPackages [pycti]: New version: [5.8.4] Old Version: [5.8.3]
+[2023-06-25 22:16:11] INFO root fetch - processPackages [iamlistening]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-25 22:16:11] INFO root fetch - processPackages [findmyorder]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-25 22:16:11] WARNING root fetch - processPackages [persist-ext]: Skipping, unable to determine old version
+[2023-06-25 22:16:11] INFO root fetch - main [MainThread]: End processing [persist-ext] error
+[2023-06-25 22:16:11] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/34/1d/ec49c85fe441d5a90ac671ff4557e0f37ef999d3889387a83b42893522ca/talkytrend-1.4.0.tar.gz
+[2023-06-25 22:16:11] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/d5/33/cb3acac345b9099f8d279aab58cbdc14715b3b752fd6200ed8bcbc50bf88/iamlistening-0.1.9.tar.gz
+[2023-06-25 22:16:11] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/50/39/15102d4db7e2aaf647eff4578d6e6009aab71f2eaf0af0ab623ae6ec3c8d/findmyorder-1.5.0.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [dasy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 22:16:12] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/70/6d/14b157e4bba06944787b6b804504d985acba8de2fc5097a15abf3048366a/pycti-5.8.3.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/5b/8d/a0c0f3534cbb6b61f5ae13fb40f4c3ef18e9ba7ade2596bff5e3490eaa67/talkytrend-1.5.0.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/54/df/e2361ece3f803fed5d81ed4c250094a64e14d019f8f03adb46753d08d115/iamlistening-0.2.0.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [dasy]: Downloading https://files.pythonhosted.org/packages/d3/b1/de780503eb0e6bca7541d7ae49e6a21bb72fca5c51d9f7ff1e3e534aa356/dasy-0.1.8.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-25 22:16:12] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.4.0.tar.gz tmp/talkytrend-1.5.0.tar.gz --markdown 20230625/t/talkytrend/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 22:16:12] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-06-25 22:16:12] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/d4/a4/fd44bcb2be4a560b644c19e0be449858fe687962080acc312206804f3c7e/findmyorder-1.5.1.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.1.9.tar.gz tmp/iamlistening-0.2.0.tar.gz --markdown 20230625/i/iamlistening/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 22:16:12] INFO root fetch - processPackages [dasy]: Downloading https://files.pythonhosted.org/packages/0e/53/e05b4a570e16b91c8396e18dbdd2f607a96ad7d632a7349226a9dca46b32/dasy-0.1.9.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/7a/83/ed1a4fddc4be59412b8dcb921ae4ca528d408b64dd96e03fc7cfc79812f0/pycti-5.8.4.tar.gz
+[2023-06-25 22:16:12] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-25 22:16:12] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.5.0.tar.gz tmp/findmyorder-1.5.1.tar.gz --markdown 20230625/f/findmyorder/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-25 22:16:12] INFO root fetch - processPackages [dasy]: executing diffoscope
+[2023-06-25 22:16:12] INFO root fetch - processPackages [dasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dasy-0.1.8.tar.gz tmp/dasy-0.1.9.tar.gz --markdown 20230625/d/dasy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 22:16:12] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-06-25 22:16:12] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.8.3.tar.gz tmp/pycti-5.8.4.tar.gz --markdown 20230625/p/pycti/5.8.3-5.8.4/diff.md --exclude *.pyd
+[2023-06-25 22:16:13] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.4.0.tar.gz]
+[2023-06-25 22:16:13] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.0.tar.gz]
+[2023-06-25 22:16:13] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-25 22:16:13] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.1.9.tar.gz]
+[2023-06-25 22:16:13] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.2.0.tar.gz]
+[2023-06-25 22:16:13] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-06-25 22:16:13] INFO root fetch - processPackages [dasy]: Remove: archive file [/home/abi/fetcher/tmp/dasy-0.1.8.tar.gz]
+[2023-06-25 22:16:13] INFO root fetch - processPackages [dasy]: Remove: archive file [/home/abi/fetcher/tmp/dasy-0.1.9.tar.gz]
+[2023-06-25 22:16:13] INFO root fetch - main [MainThread]: End processing [dasy]: success
+[2023-06-25 22:16:14] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.3.tar.gz]
+[2023-06-25 22:16:14] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-5.8.4.tar.gz]
+[2023-06-25 22:16:14] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-06-25 22:17:08] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.0.tar.gz]
+[2023-06-25 22:17:08] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.1.tar.gz]
+[2023-06-25 22:17:08] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-25 22:17:08] INFO root fetch - main [MainThread]: Store serial: [18638725]
