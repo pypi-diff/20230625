@@ -11078,3 +11078,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:51:11] INFO root fetch - processPackages [OEISsequences]: Remove: archive file [/home/abi/fetcher/tmp/OEISsequences-0.1.9.tar.gz]
 [2023-06-25 16:51:11] INFO root fetch - main [MainThread]: End processing [OEISsequences]: success
 [2023-06-25 16:51:11] INFO root fetch - main [MainThread]: Store serial: [18636989]
+[2023-06-25 16:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636989]
+[2023-06-25 16:56:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentle-mxml
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verysimplemodule-lais
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuantStats
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastexception
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynad
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytestifyx
+[2023-06-25 16:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gnssrefl
+[2023-06-25 16:56:20] INFO root fetch - processPackages [verysimplemodule-lais]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-06-25 16:56:20] WARNING root fetch - processPackages [fastexception]: Skipping, unable to determine old version
+[2023-06-25 16:56:20] INFO root fetch - main [MainThread]: End processing [fastexception] error
+[2023-06-25 16:56:20] INFO root fetch - processPackages [gentle-mxml]: New version: [0.3.0] Old Version: [0.2]
+[2023-06-25 16:56:20] INFO root fetch - processPackages [QuantStats]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 16:56:20] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-25 16:56:20] INFO root fetch - processPackages [pytestifyx]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-25 16:56:20] INFO root fetch - processPackages [pynad]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-06-25 16:56:20] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/f1/12/0f46ab0831844d70cdbe1a676dfe73b70427733cecc3c76d24d5638476d5/verysimplemodule_lais-0.0.1.3.tar.gz
+[2023-06-25 16:56:20] INFO root fetch - processPackages [QuantStats]: Downloading https://files.pythonhosted.org/packages/b7/6e/fe470bb810f81e845bd2b88d3d6d793f2cfcdb44023329afa2fa7904151a/QuantStats-0.0.8.tar.gz
+[2023-06-25 16:56:20] INFO root fetch - processPackages [gentle-mxml]: Downloading https://files.pythonhosted.org/packages/77/b0/d4ef6f53701b2b1a971f94917d9cd2e3033ced31d177f2f1f32a1178b18a/gentle_mxml-0.2.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/6c/9b/d890e53b6c60340f31064120907f83473c86f2f6cbcb7955f1c0848aba72/pytestifyx-0.5.7-py2.py3-none-any.whl
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/a4/5c/f49ad56cf2935d22d1328bf9170ea052b2eef9de33ec9d65022e09364bfd/gnssrefl-1.3.7.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/4f/17/445eef4c2bad99bd3bcdeccca48a4da158886fc88c77bc55870501997503/pynad-2.2.0.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/e6/58/4c9d33d74964884878bc17019e989f122882a21342b2d763ba8e35ccdab0/verysimplemodule_lais-0.0.1.4.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [QuantStats]: Downloading https://files.pythonhosted.org/packages/2d/ae/fd62bf56d161bb5f28c874bb671bc56dabcfba7952c6bcffd73dfddc4ad3/QuantStats-0.0.9.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/8e/4f/749e2186b9188c1c88cfec3f024c56b3f5bca019cbbfeb7c024a4cb89f7a/pytestifyx-0.5.8-py2.py3-none-any.whl
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gentle-mxml]: Downloading https://files.pythonhosted.org/packages/74/f4/681a7e8775957f2acbe53490b9101f0da5e5820e7752935e381f7ea6ebf5/gentle_mxml-0.3.0.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [verysimplemodule-lais]: executing diffoscope
+[2023-06-25 16:56:21] INFO root fetch - processPackages [verysimplemodule-lais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verysimplemodule_lais-0.0.1.3.tar.gz tmp/verysimplemodule_lais-0.0.1.4.tar.gz --markdown 20230625/v/verysimplemodule-lais/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-06-25 16:56:21] INFO root fetch - processPackages [QuantStats]: executing diffoscope
+[2023-06-25 16:56:21] INFO root fetch - processPackages [QuantStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantStats-0.0.8.tar.gz tmp/QuantStats-0.0.9.tar.gz --markdown 20230625/Q/QuantStats/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gentle-mxml]: executing diffoscope
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gentle-mxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentle_mxml-0.2.tar.gz tmp/gentle_mxml-0.3.0.tar.gz --markdown 20230625/g/gentle-mxml/0.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/dd/26/8615c355012b784188a7250a988c444ca380263d0a76040cf39dc2df9bdf/pynad-3.0.0.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.5.7-py2.py3-none-any.whl.zip tmp/pytestifyx-0.5.8-py2.py3-none-any.whl.zip --markdown 20230625/p/pytestifyx/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pynad]: executing diffoscope
+[2023-06-25 16:56:21] INFO root fetch - processPackages [pynad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynad-2.2.0.tar.gz tmp/pynad-3.0.0.tar.gz --markdown 20230625/p/pynad/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-06-25 16:56:21] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230625/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-25 16:56:22] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.3.tar.gz]
+[2023-06-25 16:56:22] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.4.tar.gz]
+[2023-06-25 16:56:22] INFO root fetch - main [MainThread]: End processing [verysimplemodule-lais]: success
+[2023-06-25 16:56:22] INFO root fetch - processPackages [QuantStats]: Remove: archive file [/home/abi/fetcher/tmp/QuantStats-0.0.8.tar.gz]
+[2023-06-25 16:56:22] INFO root fetch - processPackages [QuantStats]: Remove: archive file [/home/abi/fetcher/tmp/QuantStats-0.0.9.tar.gz]
+[2023-06-25 16:56:22] INFO root fetch - main [MainThread]: End processing [QuantStats]: success
+[2023-06-25 16:56:23] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-2.2.0.tar.gz]
+[2023-06-25 16:56:23] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.0.tar.gz]
+[2023-06-25 16:56:23] INFO root fetch - main [MainThread]: End processing [pynad]: success
+[2023-06-25 16:56:23] INFO root fetch - processPackages [gentle-mxml]: Remove: archive file [/home/abi/fetcher/tmp/gentle_mxml-0.2.tar.gz]
+[2023-06-25 16:56:23] INFO root fetch - processPackages [gentle-mxml]: Remove: archive file [/home/abi/fetcher/tmp/gentle_mxml-0.3.0.tar.gz]
+[2023-06-25 16:56:23] INFO root fetch - main [MainThread]: End processing [gentle-mxml]: success
+[2023-06-25 16:56:23] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.7-py2.py3-none-any.whl.zip]
+[2023-06-25 16:56:23] INFO root fetch - processPackages [pytestifyx]: Remove: archive file [/home/abi/fetcher/tmp/pytestifyx-0.5.8-py2.py3-none-any.whl.zip]
+[2023-06-25 16:56:23] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-06-25 16:56:27] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.7.tar.gz]
+[2023-06-25 16:56:27] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.8.tar.gz]
+[2023-06-25 16:56:27] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-06-25 16:56:27] INFO root fetch - main [MainThread]: Store serial: [18637009]
