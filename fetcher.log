@@ -2242,3 +2242,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:05:20] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.4.tar.gz]
 [2023-06-25 03:05:20] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-06-25 03:05:20] INFO root fetch - main [MainThread]: Store serial: [18633181]
+[2023-06-25 03:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633181]
+[2023-06-25 03:10:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 03:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-25 03:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catflow-worker
+[2023-06-25 03:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-06-25 03:10:29] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.35] Old Version: [0.1.8.34]
+[2023-06-25 03:10:29] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 03:10:29] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/c5/c3/674836ddbe06148edb50a82e2cd3f1bd9bdf744409d95cb900f0329f0326/pillar1-0.1.8.34.tar.gz
+[2023-06-25 03:10:29] WARNING root fetch - processPackages [catflow-worker]: Skipping, unable to determine old version
+[2023-06-25 03:10:29] INFO root fetch - main [MainThread]: End processing [catflow-worker] error
+[2023-06-25 03:10:29] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-25 03:10:29] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/a1/25b0dc3aec784aebee13dcc89cdb8acdac4e804ef1b4532ddaa6786f6e66/pillar1-0.1.8.35.tar.gz
+[2023-06-25 03:10:29] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 03:10:29] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.34.tar.gz tmp/pillar1-0.1.8.35.tar.gz --markdown 20230625/p/pillar1/0.1.8.34-0.1.8.35/diff.md --exclude *.pyd
+[2023-06-25 03:10:29] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-25 03:10:30] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-25 03:10:30] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230625/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:10:30] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.34.tar.gz]
+[2023-06-25 03:10:30] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.35.tar.gz]
+[2023-06-25 03:10:30] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:10:31] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-25 03:10:31] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-25 03:10:31] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-25 03:10:31] INFO root fetch - main [MainThread]: Store serial: [18633191]
