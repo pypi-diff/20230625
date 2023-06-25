@@ -15245,3 +15245,52 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:22:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306252017-py3-none-any.whl.zip]
 [2023-06-25 22:22:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-25 22:22:28] INFO root fetch - main [MainThread]: Store serial: [18638755]
+[2023-06-25 22:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638755]
+[2023-06-25 22:27:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 22:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySiglent-SSA3000x
+[2023-06-25 22:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foreverbull
+[2023-06-25 22:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-25 22:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-25 22:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncdiff
+[2023-06-25 22:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voussoirkit
+[2023-06-25 22:27:39] WARNING root fetch - processPackages [PySiglent-SSA3000x]: Skipping, unable to determine old version
+[2023-06-25 22:27:39] INFO root fetch - main [MainThread]: End processing [PySiglent-SSA3000x] error
+[2023-06-25 22:27:40] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 22:27:40] INFO root fetch - processPackages [voussoirkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 22:27:40] INFO root fetch - processPackages [ncdiff]: New version: [23.6] Old Version: [23.3]
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 22:27:40] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-25 22:27:40] INFO root fetch - processPackages [voussoirkit]: Downloading https://files.pythonhosted.org/packages/55/0f/ce20e0e01f012e9d43d1d3d8fd4dd8414aee396703d31cd0916313eae26c/voussoirkit-0.0.8.zip
+[2023-06-25 22:27:40] INFO root fetch - processPackages [ncdiff]: Downloading https://files.pythonhosted.org/packages/22/bf/3127a7a9ef75baccce2a31e0bd6b3eae612448708ca557aeaebd829b6fcc/ncdiff-23.3-py3-none-any.whl
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-25 22:27:40] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230625/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-25 22:27:40] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-06-25 22:27:40] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-25 22:27:40] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230625/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-06-25 22:27:40] INFO root fetch - processPackages [voussoirkit]: Downloading https://files.pythonhosted.org/packages/f6/8a/2a87fde7ba3990e96ef662a11dccf1ecd709d6fae2e86c2a12e10533363c/voussoirkit-0.0.9.tar.gz
+[2023-06-25 22:27:41] INFO root fetch - processPackages [ncdiff]: Downloading https://files.pythonhosted.org/packages/fa/44/8f6c5cf9761596757f00aca3b17305aa1b568fb5838cbf9edd498f5f9500/ncdiff-23.6-py3-none-any.whl
+[2023-06-25 22:27:41] INFO root fetch - processPackages [voussoirkit]: executing diffoscope
+[2023-06-25 22:27:41] INFO root fetch - processPackages [voussoirkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voussoirkit-0.0.8.zip tmp/voussoirkit-0.0.9.tar.gz --markdown 20230625/v/voussoirkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 22:27:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-25 22:27:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-25 22:27:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 22:27:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-25 22:27:41] INFO root fetch - processPackages [ncdiff]: executing diffoscope
+[2023-06-25 22:27:41] INFO root fetch - processPackages [ncdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncdiff-23.3-py3-none-any.whl.zip tmp/ncdiff-23.6-py3-none-any.whl.zip --markdown 20230625/n/ncdiff/23.3-23.6/diff.md --exclude *.pyd
+[2023-06-25 22:27:41] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-25 22:27:41] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-06-25 22:27:41] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-25 22:27:42] INFO root fetch - processPackages [voussoirkit]: Remove: archive file [/home/abi/fetcher/tmp/voussoirkit-0.0.8.zip]
+[2023-06-25 22:27:42] INFO root fetch - processPackages [voussoirkit]: Remove: archive file [/home/abi/fetcher/tmp/voussoirkit-0.0.9.tar.gz]
+[2023-06-25 22:27:42] INFO root fetch - main [MainThread]: End processing [voussoirkit]: success
+[2023-06-25 22:28:04] INFO root fetch - processPackages [ncdiff]: Remove: archive file [/home/abi/fetcher/tmp/ncdiff-23.3-py3-none-any.whl.zip]
+[2023-06-25 22:28:04] INFO root fetch - processPackages [ncdiff]: Remove: archive file [/home/abi/fetcher/tmp/ncdiff-23.6-py3-none-any.whl.zip]
+[2023-06-25 22:28:04] INFO root fetch - main [MainThread]: End processing [ncdiff]: success
+[2023-06-25 22:28:04] INFO root fetch - main [MainThread]: Store serial: [18638774]
