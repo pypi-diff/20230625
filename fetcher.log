@@ -11677,3 +11677,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:45:47] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
 [2023-06-25 17:45:47] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
 [2023-06-25 17:45:47] INFO root fetch - main [MainThread]: Store serial: [18637230]
+[2023-06-25 17:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637230]
+[2023-06-25 17:50:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hardened-steel
+[2023-06-25 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decorator-parser
+[2023-06-25 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandas-type-checks
+[2023-06-25 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ecosystem-dependencies
+[2023-06-25 17:50:56] INFO root fetch - processPackages [hardened-steel]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 17:50:56] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 17:50:56] INFO root fetch - processPackages [pandas-type-checks]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-25 17:50:56] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/4b/99/5f74d5fa106de8665932a21df7daa8917478d2a414139e1da9079e92bd3f/decorator-parser-1.0.1.tar.gz
+[2023-06-25 17:50:56] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.25] Old Version: [202306.0.24]
+[2023-06-25 17:50:56] INFO root fetch - processPackages [pandas-type-checks]: Downloading https://files.pythonhosted.org/packages/fc/cb/23e31a6082fbafbca2fa3d43dec14e10e0e28cdf338b459a110981fba07b/pandas-type-checks-1.1.1.tar.gz
+[2023-06-25 17:50:56] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/e5/91/650d1988a5290a461f0454458cd4061309b1c229c7ae1098d50ff156dee7/hardened-steel-0.0.7.tar.gz
+[2023-06-25 17:50:56] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/7c/19/216e5b547f81456f1127a7d11c1cb90ffc0d74b1454e3e0ea7f168aef8b8/data_ecosystem_dependencies-202306.0.24.tar.gz
+[2023-06-25 17:50:57] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/25/20/1f523f009a0a3934201f9ac766a32d2a8f88794a9b16824b196aaa342afd/decorator_parser-1.0.2.tar.gz
+[2023-06-25 17:50:57] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-06-25 17:50:57] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator-parser-1.0.1.tar.gz tmp/decorator_parser-1.0.2.tar.gz --markdown 20230625/d/decorator-parser/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 17:50:57] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/6b/ba/d60af5efca2bff34a494aaa4b8906e6a0010047815301cfe17ad93729c78/hardened-steel-0.0.8.tar.gz
+[2023-06-25 17:50:57] INFO root fetch - processPackages [pandas-type-checks]: Downloading https://files.pythonhosted.org/packages/af/77/8a3daa09d93beb3c69c5748298d25feb148349c6e5f617069a3a3b99cd29/pandas_type_checks-1.1.2-py3-none-any.whl
+[2023-06-25 17:50:57] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/4f/cc/780972b0f608d5dab609f96deef1c6a880932ff0be405fea844298510097/data_ecosystem_dependencies-202306.0.25.tar.gz
+[2023-06-25 17:50:57] INFO root fetch - processPackages [hardened-steel]: executing diffoscope
+[2023-06-25 17:50:57] INFO root fetch - processPackages [hardened-steel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardened-steel-0.0.7.tar.gz tmp/hardened-steel-0.0.8.tar.gz --markdown 20230625/h/hardened-steel/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 17:50:57] INFO root fetch - processPackages [pandas-type-checks]: executing diffoscope
+[2023-06-25 17:50:57] INFO root fetch - processPackages [pandas-type-checks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-type-checks-1.1.1.tar.gz tmp/pandas_type_checks-1.1.2-py3-none-any.whl.zip --markdown 20230625/p/pandas-type-checks/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-25 17:50:57] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-25 17:50:57] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.24.tar.gz tmp/data_ecosystem_dependencies-202306.0.25.tar.gz --markdown 20230625/d/data-ecosystem-dependencies/202306.0.24-202306.0.25/diff.md --exclude *.pyd
+[2023-06-25 17:50:58] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator-parser-1.0.1.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.2.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-06-25 17:50:58] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.7.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.8.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - main [MainThread]: End processing [hardened-steel]: success
+[2023-06-25 17:50:58] INFO root fetch - processPackages [pandas-type-checks]: Remove: archive file [/home/abi/fetcher/tmp/pandas-type-checks-1.1.1.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - processPackages [pandas-type-checks]: Remove: archive file [/home/abi/fetcher/tmp/pandas_type_checks-1.1.2-py3-none-any.whl.zip]
+[2023-06-25 17:50:58] INFO root fetch - main [MainThread]: End processing [pandas-type-checks]: success
+[2023-06-25 17:50:58] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.24.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.25.tar.gz]
+[2023-06-25 17:50:58] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-25 17:50:58] INFO root fetch - main [MainThread]: Store serial: [18637255]
