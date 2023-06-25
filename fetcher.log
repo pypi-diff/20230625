@@ -13674,3 +13674,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:09:51] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-06-25 20:09:51] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-06-25 20:09:51] INFO root fetch - main [MainThread]: Store serial: [18638066]
+[2023-06-25 20:14:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638066]
+[2023-06-25 20:15:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-utilities
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testless-autocomplete
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdkit
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-game-collection
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatlab
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cheetah-orm
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cns
+[2023-06-25 20:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lol-esp-api
+[2023-06-25 20:15:00] INFO root fetch - processPackages [automation-utilities]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.104] Old Version: [0.0.103]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [lol-esp-api]: New version: [0.24.3] Old Version: [0.24.2]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [rdkit]: New version: [2023.3.2] Old Version: [2023.3.1b1]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 20:15:00] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-25 20:15:00] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-25 20:15:00] INFO root fetch - processPackages [cheetah-orm]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [chatlab]: New version: [0.14.1] Old Version: [0.14.0]
+[2023-06-25 20:15:00] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/97/53/70f4abeeb767b43965a26a78ad590651a055c20891f30379445c7a5e80d0/automation-utilities-1.1.2.tar.gz
+[2023-06-25 20:15:00] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-25 20:15:00] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 20:15:00] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/4a/8e/4ca95c8fc88dacc19c48ef3e4fdbef536b3d068b7e3b13aa2b5dd6e73751/lol-esp-api-0.24.2.tar.gz
+[2023-06-25 20:15:00] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/a2/f3/8ccbe8b69d830dd19504940ec5e34bc3ebac7e27ca7ee6c4564fc6ff5d58/testless_autocomplete-0.0.103.tar.gz
+[2023-06-25 20:15:00] INFO root fetch - processPackages [cheetah-orm]: Downloading https://files.pythonhosted.org/packages/9e/c8/fcf9e13d18c0d39d66fec1cb95199181c174a4a7dcb8382b0245aff7d3e6/cheetah_orm-2.0.0b2-py3-none-any.whl
+[2023-06-25 20:15:00] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 20:15:00] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 20:15:00] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/6e/d8/109fc78402cc41b4b94b614e460b565e19590035238e987475b90258a82e/chatlab-0.14.0.tar.gz
+[2023-06-25 20:15:00] INFO root fetch - processPackages [rdkit]: Downloading https://files.pythonhosted.org/packages/57/11/272c2ea23cfec8ee3de1c3790ab05dd01a2c0566b1e3a75dc8c775f78a12/rdkit-2023.3.1b1-cp39-cp39-win_amd64.whl
+[2023-06-25 20:15:01] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-25 20:15:01] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/70/0f/b5311fd1d60577bc18c225413408d6a4516bf0fd74ee7b6d61a82f59028f/testless_autocomplete-0.0.104.tar.gz
+[2023-06-25 20:15:01] WARNING root fetch - processPackages [rdkit]: Skipping package: exceeds size limit 20665831>=10485760
+[2023-06-25 20:15:01] INFO root fetch - main [MainThread]: End processing [rdkit] error
+[2023-06-25 20:15:01] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-25 20:15:01] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230625/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 20:15:01] INFO root fetch - processPackages [chatlab]: Downloading https://files.pythonhosted.org/packages/ef/a0/878b0c79822f30c7d605eaf819bfa525dbefc51fd7bec0c0da69c17be32e/chatlab-0.14.1.tar.gz
+[2023-06-25 20:15:01] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/15/a4/f8741e76bb353fbdde5bb0a67a30b89c1e04eafb3695add5b534e6012cc0/lol-esp-api-0.24.3.tar.gz
+[2023-06-25 20:15:01] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 20:15:01] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.103.tar.gz tmp/testless_autocomplete-0.0.104.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.103-0.0.104/diff.md --exclude *.pyd
+[2023-06-25 20:15:01] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/94/56/48292ddcaea296e148c9725c759ec6a953a0e5e33fb6c033c856f77834ab/automation-utilities-1.2.0.tar.gz
+[2023-06-25 20:15:01] INFO root fetch - processPackages [chatlab]: executing diffoscope
+[2023-06-25 20:15:01] INFO root fetch - processPackages [chatlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatlab-0.14.0.tar.gz tmp/chatlab-0.14.1.tar.gz --markdown 20230625/c/chatlab/0.14.0-0.14.1/diff.md --exclude *.pyd
+[2023-06-25 20:15:01] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-06-25 20:15:01] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.24.2.tar.gz tmp/lol-esp-api-0.24.3.tar.gz --markdown 20230625/l/lol-esp-api/0.24.2-0.24.3/diff.md --exclude *.pyd
+[2023-06-25 20:15:01] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-25 20:15:01] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.1.2.tar.gz tmp/automation-utilities-1.2.0.tar.gz --markdown 20230625/a/automation-utilities/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 20:15:01] INFO root fetch - processPackages [cheetah-orm]: Downloading https://files.pythonhosted.org/packages/3b/16/741210e93e343fcbbe722ffdd2ab76f9fcd7efbaf9c439e0a86d9afdd043/cheetah_orm-2.0.0b3-py3-none-any.whl
+[2023-06-25 20:15:02] INFO root fetch - processPackages [cheetah-orm]: executing diffoscope
+[2023-06-25 20:15:02] INFO root fetch - processPackages [cheetah-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheetah_orm-2.0.0b2-py3-none-any.whl.zip tmp/cheetah_orm-2.0.0b3-py3-none-any.whl.zip --markdown 20230625/c/cheetah-orm/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-06-25 20:15:02] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.103.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.104.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 20:15:02] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-25 20:15:02] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-0.14.0.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - processPackages [chatlab]: Remove: archive file [/home/abi/fetcher/tmp/chatlab-0.14.1.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - main [MainThread]: End processing [chatlab]: success
+[2023-06-25 20:15:02] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.2.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.3.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-06-25 20:15:02] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.1.2.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.0.tar.gz]
+[2023-06-25 20:15:02] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-25 20:15:03] INFO root fetch - processPackages [cheetah-orm]: Remove: archive file [/home/abi/fetcher/tmp/cheetah_orm-2.0.0b2-py3-none-any.whl.zip]
+[2023-06-25 20:15:03] INFO root fetch - processPackages [cheetah-orm]: Remove: archive file [/home/abi/fetcher/tmp/cheetah_orm-2.0.0b3-py3-none-any.whl.zip]
+[2023-06-25 20:15:03] INFO root fetch - main [MainThread]: End processing [cheetah-orm]: success
+[2023-06-25 20:15:03] INFO root fetch - main [MainThread]: Store serial: [18638113]
