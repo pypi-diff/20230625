@@ -6331,3 +6331,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:45:31] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
 [2023-06-25 09:45:31] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
 [2023-06-25 09:45:31] INFO root fetch - main [MainThread]: Store serial: [18634877]
+[2023-06-25 09:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634877]
+[2023-06-25 09:50:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezelf
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otpme
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tweeterpy
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2023-06-25 09:50:40] INFO root fetch - processPackages [yplib]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-25 09:50:40] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-25 09:50:40] INFO root fetch - processPackages [otpme]: New version: [0.3.0a48] Old Version: [0.3.0a47]
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ezelf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 09:50:40] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/a7/1d/06d86ba856ea144d8fa11dee8784eb628d25354eb22570cd51d08d1c6279/ezelf-0.0.4.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [tweeterpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 09:50:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/58/75/ef454059773706104e32f94d84d875f915cdf14eebc11f01afecd5379084/yplib-1.7.0.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/43/88/3102dc08dc68032f1c34d7817e5811a05a487413e9e484503445067c48f5/otpme-0.3.0a47.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230625] Old Version: [2.14.0.dev20230624]
+[2023-06-25 09:50:40] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-25 09:50:40] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/e7/eb/f0b2af29b429d659a6bce951874cb64906b8b21633c2d7df75745614605f/tweeterpy-0.0.3.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/94/fb/0a87624a7d84dedbb7f928afbeca2ff7a9d7b2c91ced1301bdb7898d9d06/yplib-1.7.1.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/aa/03/613010a504f49789fb77dcc1367d700820df4349f77eae441e24665f5ef2/ezelf-0.0.5.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ezelf]: executing diffoscope
+[2023-06-25 09:50:40] INFO root fetch - processPackages [ezelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezelf-0.0.4.tar.gz tmp/ezelf-0.0.5.tar.gz --markdown 20230625/e/ezelf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 09:50:40] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c1/98/52a7bed76cff62f3d6dec92b6abc5d76691d438b90769f355a74f70042a5/tf_nightly_cpu-2.14.0.dev20230624-cp39-cp39-win_amd64.whl
+[2023-06-25 09:50:40] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/1f/45/88c191b606169e7274cb71ffe759809a0676b24ca4227b169ddd345ff0ee/otpme-0.3.0a48.tar.gz
+[2023-06-25 09:50:40] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-25 09:50:40] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230625/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-25 09:50:40] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-25 09:50:40] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.0.tar.gz tmp/yplib-1.7.1.tar.gz --markdown 20230625/y/yplib/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-25 09:50:40] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/0a/8c/a5d6a8548373d068ddac5a0bb53b77d7914fa27be85647fed5193e7c0be4/tweeterpy-0.0.4.tar.gz
+[2023-06-25 09:50:41] INFO root fetch - processPackages [tweeterpy]: executing diffoscope
+[2023-06-25 09:50:41] INFO root fetch - processPackages [tweeterpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweeterpy-0.0.3.tar.gz tmp/tweeterpy-0.0.4.tar.gz --markdown 20230625/t/tweeterpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 09:50:41] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/08/75/d1f696df942f0de43d7eca511fd8a1006853357d600b84f5dbd7a69be6f0/tf_nightly_cpu-2.14.0.dev20230625-cp39-cp39-win_amd64.whl
+[2023-06-25 09:50:41] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-25 09:50:41] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230624-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230625-cp39-cp39-win_amd64.whl.zip --markdown 20230625/t/tf-nightly-cpu/2.14.0.dev20230624-2.14.0.dev20230625/diff.md --exclude *.pyd
+[2023-06-25 09:50:41] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-25 09:50:41] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a47.tar.gz tmp/otpme-0.3.0a48.tar.gz --markdown 20230625/o/otpme/0.3.0a47-0.3.0a48/diff.md --exclude *.pyd
+[2023-06-25 09:50:42] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.4.tar.gz]
+[2023-06-25 09:50:42] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.5.tar.gz]
+[2023-06-25 09:50:42] INFO root fetch - main [MainThread]: End processing [ezelf]: success
+[2023-06-25 09:50:42] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.0.tar.gz]
+[2023-06-25 09:50:42] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.1.tar.gz]
+[2023-06-25 09:50:42] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-25 09:50:42] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.3.tar.gz]
+[2023-06-25 09:50:42] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.4.tar.gz]
+[2023-06-25 09:50:42] INFO root fetch - main [MainThread]: End processing [tweeterpy]: success
+[2023-06-25 09:50:42] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230624-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 09:50:42] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230625-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 09:50:42] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-25 09:50:46] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a47.tar.gz]
+[2023-06-25 09:50:46] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a48.tar.gz]
+[2023-06-25 09:50:46] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-25 09:50:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-25 09:50:50] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-25 09:50:50] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-25 09:50:50] INFO root fetch - main [MainThread]: Store serial: [18634898]
