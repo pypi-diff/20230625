@@ -10432,3 +10432,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:38:23] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.3.0.tar.gz]
 [2023-06-25 15:38:23] INFO root fetch - main [MainThread]: End processing [pybrary]: success
 [2023-06-25 15:38:23] INFO root fetch - main [MainThread]: Store serial: [18636696]
+[2023-06-25 15:43:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636696]
+[2023-06-25 15:43:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delfino
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proJSON
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btimer
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gqlalchemy-tailor
+[2023-06-25 15:43:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onvif-gui
+[2023-06-25 15:43:32] INFO root fetch - processPackages [delfino]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-06-25 15:43:32] INFO root fetch - processPackages [proJSON]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-25 15:43:32] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.7.post1] Old Version: [0.5.7]
+[2023-06-25 15:43:32] WARNING root fetch - processPackages [gqlalchemy-tailor]: Skipping, unable to determine old version
+[2023-06-25 15:43:32] INFO root fetch - main [MainThread]: End processing [gqlalchemy-tailor] error
+[2023-06-25 15:43:32] INFO root fetch - processPackages [btimer]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-25 15:43:32] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/ac/23/a33d31687930896e303acdfa0bc02abb908dab09c917a345f2d4530ca56a/proJSON-1.2.4.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/03/2d/003ed97bf90ca0e295afa3decde6917250b26572965b9ae6505979a72535/nonebot_plugin_l4d2_server-0.5.7.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/e0/70/e92b4574a59fad90e8a32366812c59ff7798dbee280b3fa06064438796e7/btimer-1.0.5.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.25] Old Version: [2023.6.24]
+[2023-06-25 15:43:32] INFO root fetch - processPackages [onvif-gui]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-25 15:43:32] INFO root fetch - processPackages [delfino]: Downloading https://files.pythonhosted.org/packages/76/94/8f0b686c3c052dd548ec8473596520bd504722a6b3b4ad52dccd8c20f71f/delfino-1.3.0.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/c7/48/d67fd92d671c65027ff3220b801325a918118265e03de4d918cfd4e974d9/onvif-gui-1.2.7.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/c4/22/121d3967982a2101c9f5c71ca79fd20a743e789902b07c61f988f0ceebe3/fbgemm_gpu_nightly-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 15:43:32] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/f3/ea/9b9dbcf584fbea23fbeca9c19aa06ee783351d9fc6eecd3e9db828f3ca0e/proJSON-1.2.5.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/49/2a/63fff1dd16901d2e482e0279659e5ba6346874bdc0a76cbf8ca541fc4ebf/nonebot_plugin_l4d2_server-0.5.7.post1.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/d6/50/eff6563d5a71f9c2a5674b5b502de8499293b6e01a2d5b2b95229ead8e2e/btimer-1.0.6.tar.gz
+[2023-06-25 15:43:32] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 257991407>=10485760
+[2023-06-25 15:43:32] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-25 15:43:32] INFO root fetch - processPackages [delfino]: Downloading https://files.pythonhosted.org/packages/dd/28/b07dc9c97597d0f3ccabda33a77af59ace52ec68dbbf44f8bffdd39e4ea2/delfino-2.0.0.tar.gz
+[2023-06-25 15:43:32] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-25 15:43:32] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.2.4.tar.gz tmp/proJSON-1.2.5.tar.gz --markdown 20230625/p/proJSON/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-25 15:43:33] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/0b/a1/dfeb4ba2d525bfcd3fe352881a8e7bee0c2a61cbaeafa6b2b6aea7c23bc7/onvif-gui-1.2.8.tar.gz
+[2023-06-25 15:43:33] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-06-25 15:43:33] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.5.tar.gz tmp/btimer-1.0.6.tar.gz --markdown 20230625/b/btimer/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-25 15:43:33] INFO root fetch - processPackages [delfino]: executing diffoscope
+[2023-06-25 15:43:33] INFO root fetch - processPackages [delfino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delfino-1.3.0.tar.gz tmp/delfino-2.0.0.tar.gz --markdown 20230625/d/delfino/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-25 15:43:33] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-06-25 15:43:33] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.2.7.tar.gz tmp/onvif-gui-1.2.8.tar.gz --markdown 20230625/o/onvif-gui/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-25 15:43:33] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-25 15:43:33] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.7.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.7.post1.tar.gz --markdown 20230625/n/nonebot-plugin-l4d2-server/0.5.7-0.5.7.post1/diff.md --exclude *.pyd
+[2023-06-25 15:43:34] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.4.tar.gz]
+[2023-06-25 15:43:34] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.5.tar.gz]
+[2023-06-25 15:43:34] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-25 15:43:34] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.5.tar.gz]
+[2023-06-25 15:43:34] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.6.tar.gz]
+[2023-06-25 15:43:34] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-06-25 15:43:34] INFO root fetch - processPackages [delfino]: Remove: archive file [/home/abi/fetcher/tmp/delfino-1.3.0.tar.gz]
+[2023-06-25 15:43:34] INFO root fetch - processPackages [delfino]: Remove: archive file [/home/abi/fetcher/tmp/delfino-2.0.0.tar.gz]
+[2023-06-25 15:43:34] INFO root fetch - main [MainThread]: End processing [delfino]: success
+[2023-06-25 15:43:36] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.7.tar.gz]
+[2023-06-25 15:43:36] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.8.tar.gz]
+[2023-06-25 15:43:36] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-06-25 15:43:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.7.tar.gz]
+[2023-06-25 15:43:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.7.post1.tar.gz]
+[2023-06-25 15:43:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-25 15:43:36] INFO root fetch - main [MainThread]: Store serial: [18636720]
