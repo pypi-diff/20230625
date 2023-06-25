@@ -1995,3 +1995,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-25 02:44:11] INFO root fetch - main [MainThread]: End processing [rtb-toolbox] error
 [2023-06-25 02:44:11] INFO root fetch - main [MainThread]: Store serial: [18633081]
+[2023-06-25 02:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633081]
+[2023-06-25 02:49:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubestat
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bittrade-luno-websocket
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mercury-toolkit
+[2023-06-25 02:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: state-machine-semaphore
+[2023-06-25 02:49:20] INFO root fetch - processPackages [mercury-toolkit]: New version: [0.9.86] Old Version: [0.9.85]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cubestat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [bittrade-luno-websocket]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306240045] Old Version: [4.9.2.dev202306230045]
+[2023-06-25 02:49:20] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/eb/08/ff1b86446e2c4338cb3e777659047e7a84b584d068c5da14c1768a0fe5e9/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl
+[2023-06-25 02:49:20] INFO root fetch - processPackages [mercury-toolkit]: Downloading https://files.pythonhosted.org/packages/8f/0b/5cf475e426bf4ae6a3d3c1b67973ea9e24d7ad17f7a188642fa807152835/mercury_toolkit-0.9.85-py3-none-any.whl
+[2023-06-25 02:49:20] INFO root fetch - processPackages [bittrade-luno-websocket]: Downloading https://files.pythonhosted.org/packages/1b/90/7b3980284400cef83c0a063c00e10d5cb642067adb86a50dde56a9f7ad15/bittrade_luno_websocket-0.1.6.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/17/14/78fec0e611f3e8eebd23ae925d6a8d908e61364d7e25fe4fb75cf0cc4ed9/cubestat-0.0.8.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-25 02:49:20] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230625/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-25 02:49:20] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-25 02:49:20] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230625/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-25 02:49:20] INFO root fetch - processPackages [bittrade-luno-websocket]: Downloading https://files.pythonhosted.org/packages/95/d1/b27bba44796d6e2a5305b8fe17eec263d19cca25ecff991a8258efb65dcf/bittrade_luno_websocket-0.1.7.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [mercury-toolkit]: Downloading https://files.pythonhosted.org/packages/8d/34/cff79344cdc9e89c1720494491a1ea2811627d214f9dbab97a427e055798/mercury_toolkit-0.9.86-py3-none-any.whl
+[2023-06-25 02:49:20] INFO root fetch - processPackages [bittrade-luno-websocket]: executing diffoscope
+[2023-06-25 02:49:20] INFO root fetch - processPackages [bittrade-luno-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_luno_websocket-0.1.6.tar.gz tmp/bittrade_luno_websocket-0.1.7.tar.gz --markdown 20230625/b/bittrade-luno-websocket/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-25 02:49:20] INFO root fetch - processPackages [mercury-toolkit]: executing diffoscope
+[2023-06-25 02:49:20] INFO root fetch - processPackages [mercury-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury_toolkit-0.9.85-py3-none-any.whl.zip tmp/mercury_toolkit-0.9.86-py3-none-any.whl.zip --markdown 20230625/m/mercury-toolkit/0.9.85-0.9.86/diff.md --exclude *.pyd
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/0a/05/9a6fad17681c2028af2aea51f9008abf7575f3d852f3cdc6203079a64085/cubestat-0.0.9.tar.gz
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cubestat]: executing diffoscope
+[2023-06-25 02:49:20] INFO root fetch - processPackages [cubestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubestat-0.0.8.tar.gz tmp/cubestat-0.0.9.tar.gz --markdown 20230625/c/cubestat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 02:49:21] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/de/ef/dfac027b2eab99eef379bfbd12644a3d78db70f53376f82abffc1d3a6c2e/tfds-nightly-4.9.2.dev202306240045.tar.gz
+[2023-06-25 02:49:21] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-25 02:49:21] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-25 02:49:21] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-25 02:49:22] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-25 02:49:22] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-25 02:49:22] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-25 02:49:22] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.8.tar.gz]
+[2023-06-25 02:49:22] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.9.tar.gz]
+[2023-06-25 02:49:22] INFO root fetch - main [MainThread]: End processing [cubestat]: success
+[2023-06-25 02:49:22] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-25 02:49:22] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl.zip tmp/tfds-nightly-4.9.2.dev202306240045.tar.gz --markdown 20230625/t/tfds-nightly/4.9.2.dev202306230045-4.9.2.dev202306240045/diff.md --exclude *.pyd
+[2023-06-25 02:49:22] INFO root fetch - processPackages [bittrade-luno-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_luno_websocket-0.1.6.tar.gz]
+[2023-06-25 02:49:22] INFO root fetch - processPackages [bittrade-luno-websocket]: Remove: archive file [/home/abi/fetcher/tmp/bittrade_luno_websocket-0.1.7.tar.gz]
+[2023-06-25 02:49:22] INFO root fetch - main [MainThread]: End processing [bittrade-luno-websocket]: success
+[2023-06-25 02:49:22] INFO root fetch - processPackages [mercury-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/mercury_toolkit-0.9.85-py3-none-any.whl.zip]
+[2023-06-25 02:49:22] INFO root fetch - processPackages [mercury-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/mercury_toolkit-0.9.86-py3-none-any.whl.zip]
+[2023-06-25 02:49:22] INFO root fetch - main [MainThread]: End processing [mercury-toolkit]: success
+[2023-06-25 02:49:23] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-25 02:49:24] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-25 02:49:24] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230625/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 02:49:26] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-25 02:49:26] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-25 02:49:26] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-25 02:49:27] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl.zip]
+[2023-06-25 02:49:27] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306240045.tar.gz]
+[2023-06-25 02:49:27] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-25 02:49:27] INFO root fetch - main [MainThread]: Store serial: [18633102]
