@@ -14109,3 +14109,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:46:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev96.tar.gz]
 [2023-06-25 20:46:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-06-25 20:46:52] INFO root fetch - main [MainThread]: Store serial: [18638292]
+[2023-06-25 20:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638292]
+[2023-06-25 20:52:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-utilities
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miley
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldimbenchmark
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbrlabs-pulumi-eks
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytedee-async
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datawise
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testless-autocomplete
+[2023-06-25 20:52:01] INFO root fetch - processPackages [automation-utilities]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 20:52:01] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.110] Old Version: [0.0.109]
+[2023-06-25 20:52:01] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.3a1687660999] Old Version: [0.0.3]
+[2023-06-25 20:52:01] INFO root fetch - processPackages [miley]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 20:52:01] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/15/d5/562d2fba19e484132ecc1fb4c875cc9777f56bd12038f4fe8a861318b29f/testless_autocomplete-0.0.109.tar.gz
+[2023-06-25 20:52:01] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-25 20:52:01] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/94/56/48292ddcaea296e148c9725c759ec6a953a0e5e33fb6c033c856f77834ab/automation-utilities-1.2.0.tar.gz
+[2023-06-25 20:52:01] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/c7/8b/8c5dadf508aeb5cbf5c9941b0c1a23682eb59f9753dbb22a37477214c8c6/miley-0.1.0.tar.gz
+[2023-06-25 20:52:01] INFO root fetch - processPackages [datawise]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-06-25 20:52:01] WARNING root fetch - processPackages [pytedee-async]: Skipping, unable to determine old version
+[2023-06-25 20:52:01] INFO root fetch - main [MainThread]: End processing [pytedee-async] error
+[2023-06-25 20:52:01] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/7c/92/311384f3c58250b509be27524d5435fadc2b4e537a18d7e0c25d609c8419/lbrlabs_pulumi_eks-0.0.3.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/21/71/3bd6a4513a49ae327b72c6e60871e53d4cf813998a55aac6957e6521f37a/miley-0.1.1.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/fe/8e/4f446c3765f408fb006977f3c343354a3c42cd11848d9237b097282dd99b/automation-utilities-1.2.1.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/4b/14/45b2dcd9b22c622866eb76d150ec2e5564f66e267032f8a2ae0be043ba43/testless_autocomplete-0.0.110.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/23/5c/662552c5f13cd5d2ad01fae38a632625bfb6d70b39d2104834d948a50cbe/datawise-0.0.20.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/fb/96/f7b048db989597dc46957a0c8893a916fbaa49ff48e6cf60a9db981b66e4/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [miley]: executing diffoscope
+[2023-06-25 20:52:02] INFO root fetch - processPackages [miley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miley-0.1.0.tar.gz tmp/miley-0.1.1.tar.gz --markdown 20230625/m/miley/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 20:52:02] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-25 20:52:02] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.2.0.tar.gz tmp/automation-utilities-1.2.1.tar.gz --markdown 20230625/a/automation-utilities/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-25 20:52:02] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 20:52:02] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.109.tar.gz tmp/testless_autocomplete-0.0.110.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.109-0.0.110/diff.md --exclude *.pyd
+[2023-06-25 20:52:02] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-25 20:52:02] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230625/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 20:52:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-25 20:52:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.3.tar.gz tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz --markdown 20230625/l/lbrlabs-pulumi-eks/0.0.3-0.0.3a1687660999/diff.md --exclude *.pyd
+[2023-06-25 20:52:02] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/0a/84/4f19a4bb885d048229c9f320040ff3fd5599bf99d825b8ffea3641071cd1/datawise-0.0.21.tar.gz
+[2023-06-25 20:52:02] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-25 20:52:02] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.20.tar.gz tmp/datawise-0.0.21.tar.gz --markdown 20230625/d/datawise/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-06-25 20:52:03] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.0.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.1.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - main [MainThread]: End processing [miley]: success
+[2023-06-25 20:52:03] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.109.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.110.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 20:52:03] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.0.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.1.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-25 20:52:03] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.3.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.3a1687660999.tar.gz]
+[2023-06-25 20:52:03] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-25 20:52:04] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-25 20:52:04] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-25 20:52:04] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-25 20:52:04] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.20.tar.gz]
+[2023-06-25 20:52:04] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.21.tar.gz]
+[2023-06-25 20:52:04] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-25 20:52:04] INFO root fetch - main [MainThread]: Store serial: [18638320]
