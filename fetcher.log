@@ -6133,3 +6133,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:24:32] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.2.0a1687673610.tar.gz]
 [2023-06-25 09:24:32] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-06-25 09:24:32] INFO root fetch - main [MainThread]: Store serial: [18634806]
+[2023-06-25 09:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634806]
+[2023-06-25 09:29:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: origamibot
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: theboringlibrary
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TutorialPackageZZZ
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PointBlaster
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-session
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybrary
+[2023-06-25 09:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chat-box-streamlit
+[2023-06-25 09:29:41] INFO root fetch - processPackages [PointBlaster]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-25 09:29:41] INFO root fetch - processPackages [origamibot]: New version: [2.3.6] Old Version: [2.3.4]
+[2023-06-25 09:29:41] INFO root fetch - processPackages [pybrary]: New version: [0.3.0] Old Version: [0.2325.0]
+[2023-06-25 09:29:41] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 09:29:41] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 09:29:41] WARNING root fetch - processPackages [TutorialPackageZZZ]: Skipping, unable to determine old version
+[2023-06-25 09:29:41] INFO root fetch - processPackages [theboringlibrary]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-25 09:29:41] INFO root fetch - main [MainThread]: End processing [TutorialPackageZZZ] error
+[2023-06-25 09:29:42] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/f5/fb/d0ab3ad1b48691fe7e882834934342a36366cc90a9eec3909c732483ee3e/PointBlaster-0.1.6.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/e3/d7/c78379d7c26dc8d3bbb4ecec1eeaf81d3636fb87831e2eb05f39a927e626/chat-box-streamlit-0.0.7.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/19/ed/7172c1c7f72d3a9f19a5e0f71ba3ffc71199f0842a8062d21e63a706ff9b/pybrary-0.2325.0.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [origamibot]: Downloading https://files.pythonhosted.org/packages/79/85/293c4720cadf21b1ffef833404f6ef2370f48132bcc624b0ec16207711f6/origamibot-2.3.4.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/37/4b/337115738e8bb4f109f548f95adfd7621ae8a0369f6b915a3943b14219a4/theboringlibrary-0.4.0.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/0c/0c/cb3928781a8897e29e2dedfb06eb285ad0aca1215677bbccc54db34feb07/PointBlaster-0.1.7.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-25 09:29:42] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230625/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 09:29:42] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/76/b5/0ff18aa683d788ebd1d4e0efa86b6200fbc10ef3c600f6de20333f9bfaa3/chat-box-streamlit-0.0.8.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [origamibot]: Downloading https://files.pythonhosted.org/packages/83/64/8972aded53c68553d18693d10623262623fd0c100e45515a5ea1efa68c64/origamibot-2.3.6.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/bb/a2/1a75a3e87aa209fac7db7d97ca7acf6f9cd3cf72698d58f1aea0a4c3a18a/pybrary-0.3.0.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/bb/ae/904373d1b9cf9ca8badc590eb536030e3b4f179a2d9a7fd8d333a7a6e126/theboringlibrary-0.5.0.tar.gz
+[2023-06-25 09:29:42] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-06-25 09:29:42] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.1.6.tar.gz tmp/PointBlaster-0.1.7.tar.gz --markdown 20230625/P/PointBlaster/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-25 09:29:42] INFO root fetch - processPackages [origamibot]: executing diffoscope
+[2023-06-25 09:29:42] INFO root fetch - processPackages [origamibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origamibot-2.3.4.tar.gz tmp/origamibot-2.3.6.tar.gz --markdown 20230625/o/origamibot/2.3.4-2.3.6/diff.md --exclude *.pyd
+[2023-06-25 09:29:42] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-06-25 09:29:42] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.7.tar.gz tmp/chat-box-streamlit-0.0.8.tar.gz --markdown 20230625/c/chat-box-streamlit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 09:29:42] INFO root fetch - processPackages [theboringlibrary]: executing diffoscope
+[2023-06-25 09:29:42] INFO root fetch - processPackages [theboringlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theboringlibrary-0.4.0.tar.gz tmp/theboringlibrary-0.5.0.tar.gz --markdown 20230625/t/theboringlibrary/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-25 09:29:42] INFO root fetch - processPackages [pybrary]: executing diffoscope
+[2023-06-25 09:29:42] INFO root fetch - processPackages [pybrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrary-0.2325.0.tar.gz tmp/pybrary-0.3.0.tar.gz --markdown 20230625/p/pybrary/0.2325.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 09:29:43] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-25 09:29:43] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-25 09:29:43] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-25 09:29:44] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.4.0.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.5.0.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - main [MainThread]: End processing [theboringlibrary]: success
+[2023-06-25 09:29:44] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.7.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.8.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-06-25 09:29:44] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.2325.0.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.3.0.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - main [MainThread]: End processing [pybrary]: success
+[2023-06-25 09:29:44] INFO root fetch - processPackages [origamibot]: Remove: archive file [/home/abi/fetcher/tmp/origamibot-2.3.4.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - processPackages [origamibot]: Remove: archive file [/home/abi/fetcher/tmp/origamibot-2.3.6.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - main [MainThread]: End processing [origamibot]: success
+[2023-06-25 09:29:44] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.6.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.7.tar.gz]
+[2023-06-25 09:29:44] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-06-25 09:29:44] INFO root fetch - main [MainThread]: Store serial: [18634831]
