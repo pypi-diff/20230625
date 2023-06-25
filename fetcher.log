@@ -6259,3 +6259,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:35:06] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-25 09:35:06] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-25 09:35:06] INFO root fetch - main [MainThread]: Store serial: [18634851]
+[2023-06-25 09:40:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634851]
+[2023-06-25 09:40:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jykj
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drizzutojr-vader
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezelf
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stoobly-agent
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcentralab-qa-infra-automation
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybrary
+[2023-06-25 09:40:17] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ezelf]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 09:40:17] INFO root fetch - processPackages [jykj]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 09:40:17] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-25 09:40:17] INFO root fetch - processPackages [pybrary]: New version: [0.3.0] Old Version: [0.2325.1]
+[2023-06-25 09:40:17] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-25 09:40:17] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/b9/83/67c53d0e0f0899916b14d5df848e73db4cba17573e079140f16b8db56922/dcentralab_qa_infra_automation-1.0.2.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/3f/39/a686a2ed34360a7af80a79017f20a885d19212360593ec0641c628d8d9e5/ezelf-0.0.3.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/bf/bb/71c5bc94c49ec26ff12463f008b3f2a5c4b3735393198b62304e1b14ba52/jykj-0.0.7.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-25 09:40:17] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/13/13/b1d550296071d4b6dad03c9e771e24bf7794b13cef9a5fe37deba6aabe41/pybrary-0.2325.1.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/a7/1d/06d86ba856ea144d8fa11dee8784eb628d25354eb22570cd51d08d1c6279/ezelf-0.0.4.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/97/46/67dbf2a10253ad0eabbbca5d6d290e748236dd0842aa87060b28576e0d05/jykj-0.0.8.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-25 09:40:17] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230625/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 09:40:17] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Downloading https://files.pythonhosted.org/packages/0c/07/9a05a3b4dc775998d41e173ea73a2c02797ee9843514bdd64f24cee69513/dcentralab_qa_infra_automation-1.0.3.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [jykj]: executing diffoscope
+[2023-06-25 09:40:17] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.7.tar.gz tmp/jykj-0.0.8.tar.gz --markdown 20230625/j/jykj/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ezelf]: executing diffoscope
+[2023-06-25 09:40:17] INFO root fetch - processPackages [ezelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezelf-0.0.3.tar.gz tmp/ezelf-0.0.4.tar.gz --markdown 20230625/e/ezelf/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 09:40:17] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/bb/a2/1a75a3e87aa209fac7db7d97ca7acf6f9cd3cf72698d58f1aea0a4c3a18a/pybrary-0.3.0.tar.gz
+[2023-06-25 09:40:17] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: executing diffoscope
+[2023-06-25 09:40:17] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentralab_qa_infra_automation-1.0.2.tar.gz tmp/dcentralab_qa_infra_automation-1.0.3.tar.gz --markdown 20230625/d/dcentralab-qa-infra-automation/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-25 09:40:17] INFO root fetch - processPackages [pybrary]: executing diffoscope
+[2023-06-25 09:40:17] INFO root fetch - processPackages [pybrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrary-0.2325.1.tar.gz tmp/pybrary-0.3.0.tar.gz --markdown 20230625/p/pybrary/0.2325.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 09:40:17] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-06-25 09:40:18] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-06-25 09:40:18] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230625/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-25 09:40:18] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-25 09:40:18] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-25 09:40:18] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-25 09:40:19] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.3.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.4.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - main [MainThread]: End processing [ezelf]: success
+[2023-06-25 09:40:19] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.2325.1.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.3.0.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - main [MainThread]: End processing [pybrary]: success
+[2023-06-25 09:40:19] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.7.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.8.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - main [MainThread]: End processing [jykj]: success
+[2023-06-25 09:40:19] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.2.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - processPackages [dcentralab-qa-infra-automation]: Remove: archive file [/home/abi/fetcher/tmp/dcentralab_qa_infra_automation-1.0.3.tar.gz]
+[2023-06-25 09:40:19] INFO root fetch - main [MainThread]: End processing [dcentralab-qa-infra-automation]: success
+[2023-06-25 09:40:20] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-06-25 09:40:20] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-06-25 09:40:20] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-06-25 09:40:20] INFO root fetch - main [MainThread]: Store serial: [18634869]
