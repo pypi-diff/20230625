@@ -10604,3 +10604,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:54:07] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306241348.tar.gz]
 [2023-06-25 15:54:07] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-25 15:54:07] INFO root fetch - main [MainThread]: Store serial: [18636761]
+[2023-06-25 15:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636761]
+[2023-06-25 15:59:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 15:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2023-06-25 15:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-engineer
+[2023-06-25 15:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-git-gitlab
+[2023-06-25 15:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstra
+[2023-06-25 15:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speech-bot-helpers
+[2023-06-25 15:59:16] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 15:59:16] INFO root fetch - processPackages [gpt-engineer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-25 15:59:16] INFO root fetch - processPackages [speech-bot-helpers]: New version: [0.2] Old Version: [0.1.1]
+[2023-06-25 15:59:16] INFO root fetch - processPackages [abstra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-25 15:59:16] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/11/c8/51f1f9f8c94fa044959d02d8b51a0bd3a1ba3a82a4cc07cc057bd13199a8/xia_git_gitlab-0.1.4-cp39-none-win_amd64.whl
+[2023-06-25 15:59:16] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/64/8e/da50ce7af31ceb67c56123d62ecc0c7f931d34726a5fe68c5bf056db8395/speech_bot_helpers-0.1.1.tar.gz
+[2023-06-25 15:59:16] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-25 15:59:16] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/13/13/324da620765a68274ae42494f767a2572a72aae86a5ad3da55466b6c0d21/gpt-engineer-0.0.6.tar.gz
+[2023-06-25 15:59:16] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/05/28/f72832c041e0b2b0b63df0d3511c62d5fcbca5ba96f7d4a263a7454e6806/abstra-0.8.0.tar.gz
+[2023-06-25 15:59:16] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/b7/53/20a5431d9b317f52006b26a58c1a0f6379bdfa26cb784cce6ff6e55fda39/speech_bot_helpers-0.2.tar.gz
+[2023-06-25 15:59:16] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-25 15:59:16] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/2f/43/c907dc63a3eb9ede70d7548e2d0efe19656ab3f39fec1274098dcf478588/xia_git_gitlab-0.1.5-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 15:59:16] INFO root fetch - processPackages [speech-bot-helpers]: executing diffoscope
+[2023-06-25 15:59:16] INFO root fetch - processPackages [speech-bot-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_bot_helpers-0.1.1.tar.gz tmp/speech_bot_helpers-0.2.tar.gz --markdown 20230625/s/speech-bot-helpers/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-06-25 15:59:16] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/5f/a4/d34da610f1d255be6eb291e559d0beb8c7f731ded072f57ee735d02c98ef/gpt-engineer-0.0.7.tar.gz
+[2023-06-25 15:59:16] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 15:59:16] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.5-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 15:59:16] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/53/b0/210e93eceb08f1666cd15ef523580965cb7020363a0db1d10cd50c9a5b2e/abstra-0.9.0.tar.gz
+[2023-06-25 15:59:17] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2023-06-25 15:59:17] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-0.8.0.tar.gz tmp/abstra-0.9.0.tar.gz --markdown 20230625/a/abstra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 15:59:17] INFO root fetch - processPackages [gpt-engineer]: executing diffoscope
+[2023-06-25 15:59:17] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-06-25 15:59:17] INFO root fetch - processPackages [gpt-engineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-engineer-0.0.6.tar.gz tmp/gpt-engineer-0.0.7.tar.gz --markdown 20230625/g/gpt-engineer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-25 15:59:17] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-25 15:59:17] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip --markdown 20230625/t/tensordict-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-25 15:59:17] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.1.1.tar.gz]
+[2023-06-25 15:59:17] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.2.tar.gz]
+[2023-06-25 15:59:17] INFO root fetch - main [MainThread]: End processing [speech-bot-helpers]: success
+[2023-06-25 15:59:18] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-25 15:59:18] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.5-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-25 15:59:18] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 15:59:18] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.6.tar.gz]
+[2023-06-25 15:59:18] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.7.tar.gz]
+[2023-06-25 15:59:18] INFO root fetch - main [MainThread]: End processing [gpt-engineer]: success
+[2023-06-25 15:59:18] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.8.0.tar.gz]
+[2023-06-25 15:59:18] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-0.9.0.tar.gz]
+[2023-06-25 15:59:18] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2023-06-25 15:59:18] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-25 15:59:18] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-25 15:59:18] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-25 15:59:18] INFO root fetch - main [MainThread]: Store serial: [18636783]
