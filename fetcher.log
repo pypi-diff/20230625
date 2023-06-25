@@ -15095,3 +15095,11 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:05:52] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.0-py3-none-any.whl.zip]
 [2023-06-25 22:05:52] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
 [2023-06-25 22:05:52] INFO root fetch - main [MainThread]: Store serial: [18638702]
+[2023-06-25 22:10:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638702]
+[2023-06-25 22:11:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-25 22:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kenzy-image
+[2023-06-25 22:11:01] INFO root fetch - processPackages [kenzy-image]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-25 22:11:01] INFO root fetch - processPackages [kenzy-image]: Downloading https://files.pythonhosted.org/packages/2c/f4/0069784bd6bc53e681141fb320ecc0b10f14648aadbe6c00452e9ce45505/kenzy_image-0.0.9.tar.gz
+[2023-06-25 22:11:02] WARNING root fetch - processPackages [kenzy-image]: Skipping package: exceeds size limit 23969913>=10485760
+[2023-06-25 22:11:02] INFO root fetch - main [MainThread]: End processing [kenzy-image] error
+[2023-06-25 22:11:02] INFO root fetch - main [MainThread]: Store serial: [18638705]
