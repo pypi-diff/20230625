@@ -4123,3 +4123,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:21:49] INFO root fetch - processPackages [SpLFastlyWrite]: Remove: archive file [/home/abi/fetcher/tmp/SpLFastlyWrite-1.0.5.tar.gz]
 [2023-06-25 06:21:49] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite]: success
 [2023-06-25 06:21:49] INFO root fetch - main [MainThread]: Store serial: [18634058]
+[2023-06-25 06:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634058]
+[2023-06-25 06:26:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kobushi-trackviewer
+[2023-06-25 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsutsuji-trackcomputer
+[2023-06-25 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedpy
+[2023-06-25 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blocks-builder
+[2023-06-25 06:26:58] INFO root fetch - processPackages [kobushi-trackviewer]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-25 06:26:58] WARNING root fetch - processPackages [blocks-builder]: Skipping, unable to determine old version
+[2023-06-25 06:26:58] INFO root fetch - main [MainThread]: End processing [blocks-builder] error
+[2023-06-25 06:26:58] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-06-25 06:26:58] INFO root fetch - processPackages [tsutsuji-trackcomputer]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-25 06:26:58] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-06-25 06:26:58] INFO root fetch - processPackages [kobushi-trackviewer]: Downloading https://files.pythonhosted.org/packages/1f/3b/a77181fbf845d54f0ebbfa987a1264ab2c84ff3ba0e0dbe47f81f821dae4/kobushi_trackviewer-1.1.4-py3-none-any.whl
+[2023-06-25 06:26:58] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Downloading https://files.pythonhosted.org/packages/0c/4d/05680e459951e636d137979851a91d74db31198ae56752f3f5a870cf0bab/tsutsuji_trackcomputer-1.6.1-py3-none-any.whl
+[2023-06-25 06:26:58] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-06-25 06:26:58] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-06-25 06:26:58] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230625/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-06-25 06:26:58] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Downloading https://files.pythonhosted.org/packages/ba/5d/d8011dac374899ab763d6f794265f96fd1f6271cf5124d167c1a2bf745c9/tsutsuji_trackcomputer-1.7.0-py3-none-any.whl
+[2023-06-25 06:26:58] INFO root fetch - processPackages [kobushi-trackviewer]: Downloading https://files.pythonhosted.org/packages/5d/f2/1d93508a1ed662ca65e1fc73d4378ab08fde7227c6ab646b87967b6e1f46/kobushi_trackviewer-1.1.5-py3-none-any.whl
+[2023-06-25 06:26:58] INFO root fetch - processPackages [tsutsuji-trackcomputer]: executing diffoscope
+[2023-06-25 06:26:58] INFO root fetch - processPackages [tsutsuji-trackcomputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsutsuji_trackcomputer-1.6.1-py3-none-any.whl.zip tmp/tsutsuji_trackcomputer-1.7.0-py3-none-any.whl.zip --markdown 20230625/t/tsutsuji-trackcomputer/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-25 06:26:59] INFO root fetch - processPackages [kobushi-trackviewer]: executing diffoscope
+[2023-06-25 06:26:59] INFO root fetch - processPackages [kobushi-trackviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobushi_trackviewer-1.1.4-py3-none-any.whl.zip tmp/kobushi_trackviewer-1.1.5-py3-none-any.whl.zip --markdown 20230625/k/kobushi-trackviewer/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-25 06:27:00] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-06-25 06:27:00] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-06-25 06:27:00] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-06-25 06:27:00] INFO root fetch - processPackages [kobushi-trackviewer]: Remove: archive file [/home/abi/fetcher/tmp/kobushi_trackviewer-1.1.4-py3-none-any.whl.zip]
+[2023-06-25 06:27:00] INFO root fetch - processPackages [kobushi-trackviewer]: Remove: archive file [/home/abi/fetcher/tmp/kobushi_trackviewer-1.1.5-py3-none-any.whl.zip]
+[2023-06-25 06:27:00] INFO root fetch - main [MainThread]: End processing [kobushi-trackviewer]: success
+[2023-06-25 06:27:00] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Remove: archive file [/home/abi/fetcher/tmp/tsutsuji_trackcomputer-1.6.1-py3-none-any.whl.zip]
+[2023-06-25 06:27:00] INFO root fetch - processPackages [tsutsuji-trackcomputer]: Remove: archive file [/home/abi/fetcher/tmp/tsutsuji_trackcomputer-1.7.0-py3-none-any.whl.zip]
+[2023-06-25 06:27:00] INFO root fetch - main [MainThread]: End processing [tsutsuji-trackcomputer]: success
+[2023-06-25 06:27:00] INFO root fetch - main [MainThread]: Store serial: [18634070]
