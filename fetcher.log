@@ -5008,3 +5008,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:53:48] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.1.0a1687670320.tar.gz]
 [2023-06-25 07:53:48] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-06-25 07:53:48] INFO root fetch - main [MainThread]: Store serial: [18634412]
+[2023-06-25 07:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634412]
+[2023-06-25 07:58:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuread
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-consul
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statute-utils
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-utils
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-civo
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: objectory
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sj-tool
+[2023-06-25 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter-pgadmin-proxy
+[2023-06-25 07:58:57] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [objectory]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [statute-utils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [citation-utils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1687670531] Old Version: [2.4.0a1687050451]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.5.0a1687670486] Old Version: [5.5.0a1687050407]
+[2023-06-25 07:58:57] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: Downloading https://files.pythonhosted.org/packages/6b/30/4714d41ac8a76945361087b81345910b191d4739200bf0cfd6b0d5012add/jupyter_pgadmin_proxy-0.0.1.tar.gz
+[2023-06-25 07:58:57] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-06-25 07:58:57] INFO root fetch - processPackages [objectory]: Downloading https://files.pythonhosted.org/packages/84/9b/947e06ed022af252a533bbb14c59b015cc76dc8141377c4cd73d5424b521/objectory-0.0.2.tar.gz
+[2023-06-25 07:58:57] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-25 07:58:57] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/3e/12/6f3cad975e8a438f024d4eaf738a5a34b7bc8bd56f95251d3a6042666b9d/citation_utils-0.4.0.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/04/04/fbb369260394678a1c517c69ada3bca3d1ea52d88a4ae1bdc44d3b6126ab/pulumi_cloudflare-5.5.0a1687050407.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/1e/9a/791cf08be0da0a1910cc4dfbe1e3d393ef894c5f70aee26e8fe558733a8c/statute_utils-0.4.0.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b8/af/b6f58f09d8cf79ecfc1ed4b60c5a41cfe5285a8f3a9e1b1c146078b30606/pulumi_civo-2.4.0a1687050451.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: Downloading https://files.pythonhosted.org/packages/6d/41/3379ed670ee4208a3d7ee3e03363411d2fc595706c2e5e1feec165fa5b44/jupyter_pgadmin_proxy-0.0.2.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/71/f8/27ce6e47bcde047a103cd24f8d50c27fbb88bc4918d6d52067a273e223ce/citation_utils-0.4.1.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/f1/f0/695ff1a54bac25e2f62a0961ad3e6feef5826f9d4215216cc42582f77d1f/pulumi_cloudflare-5.5.0a1687670486.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-06-25 07:58:58] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/27/c6/89c60a1303fff5d37ffa2ccf47cfb2ccb106e6e3a1574a2b8920e0f12019/statute_utils-0.4.1.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_pgadmin_proxy-0.0.1.tar.gz tmp/jupyter_pgadmin_proxy-0.0.2.tar.gz --markdown 20230625/j/jupyter-pgadmin-proxy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.4.0.tar.gz tmp/citation_utils-0.4.1.tar.gz --markdown 20230625/c/citation-utils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/c9/12/e205d5637537fcc8979ea81746a9d59ac7b8ae5ddb16db9cc286de44555b/pulumi_civo-2.4.0a1687670531.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.4.0.tar.gz tmp/statute_utils-0.4.1.tar.gz --markdown 20230625/s/statute-utils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230625/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230625/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20230625/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [objectory]: Downloading https://files.pythonhosted.org/packages/31/20/dee42c556d113bacb0b4e6f672d82aa0e53afdfd6688dc0396def6b0e32d/objectory-0.0.3.tar.gz
+[2023-06-25 07:58:58] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230625/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [objectory]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [objectory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectory-0.0.2.tar.gz tmp/objectory-0.0.3.tar.gz --markdown 20230625/o/objectory/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1687050451.tar.gz tmp/pulumi_civo-2.4.0a1687670531.tar.gz --markdown 20230625/p/pulumi-civo/2.4.0a1687050451-2.4.0a1687670531/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.5.0a1687050407.tar.gz tmp/pulumi_cloudflare-5.5.0a1687670486.tar.gz --markdown 20230625/p/pulumi-cloudflare/5.5.0a1687050407-5.5.0a1687670486/diff.md --exclude *.pyd
+[2023-06-25 07:58:58] ERROR root fetch - processPackages [sj-tool]: Diffoscope failed: Error: error creating container storage: the container name "amazing_bell" is already in use by "6d653b16ed652b4ae48ac41f803c0c31f6fc0a101208cb5d831bb89935c98873". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-25 07:58:58] INFO root fetch - processPackages [sj-tool]: Start processing: pycrawlers
+[2023-06-25 07:58:58] INFO root fetch - main [MainThread]: End processing [sj-tool] error
+[2023-06-25 07:58:58] INFO root fetch - processPackages [pycrawlers]: New version: [0.1.1] Old Version: [0.0.5]
+[2023-06-25 07:58:59] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/5e/40/dc7afb70e4ef22414c3504325c61928c729ecb170e656ecc3a9d9e1351b8/pycrawlers-0.0.5.tar.gz
+[2023-06-25 07:58:59] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/06/cd/cb233cb9c772bd55efe9b8a95fab44abcad5ac10ea864d3658303175c7c7/pycrawlers-0.1.1.tar.gz
+[2023-06-25 07:58:59] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-06-25 07:58:59] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-0.0.5.tar.gz tmp/pycrawlers-0.1.1.tar.gz --markdown 20230625/p/pycrawlers/0.0.5-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 07:58:59] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_pgadmin_proxy-0.0.1.tar.gz]
+[2023-06-25 07:58:59] INFO root fetch - processPackages [jupyter-pgadmin-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_pgadmin_proxy-0.0.2.tar.gz]
+[2023-06-25 07:58:59] INFO root fetch - main [MainThread]: End processing [jupyter-pgadmin-proxy]: success
+[2023-06-25 07:59:00] INFO root fetch - processPackages [objectory]: Remove: archive file [/home/abi/fetcher/tmp/objectory-0.0.2.tar.gz]
+[2023-06-25 07:59:00] INFO root fetch - processPackages [objectory]: Remove: archive file [/home/abi/fetcher/tmp/objectory-0.0.3.tar.gz]
+[2023-06-25 07:59:00] INFO root fetch - main [MainThread]: End processing [objectory]: success
+[2023-06-25 07:59:00] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2023-06-25 07:59:00] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2023-06-25 07:59:00] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.0.5.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.1.1.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.4.0.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.4.1.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.0.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.1.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1687050451.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1687670531.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.5.0a1687050407.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.5.0a1687670486.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-06-25 07:59:01] INFO root fetch - main [MainThread]: Store serial: [18634440]
