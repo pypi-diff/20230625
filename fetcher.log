@@ -11298,3 +11298,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:12:35] INFO root fetch - processPackages [tui-rsync]: Remove: archive file [/home/abi/fetcher/tmp/tui_rsync-0.8.14.tar.gz]
 [2023-06-25 17:12:35] INFO root fetch - main [MainThread]: End processing [tui-rsync]: success
 [2023-06-25 17:12:35] INFO root fetch - main [MainThread]: Store serial: [18637083]
+[2023-06-25 17:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637083]
+[2023-06-25 17:17:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 17:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enformer-dna-diff
+[2023-06-25 17:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2n
+[2023-06-25 17:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-lineage
+[2023-06-25 17:17:44] INFO root fetch - processPackages [py2n]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-25 17:17:44] INFO root fetch - processPackages [enformer-dna-diff]: New version: [1.1] Old Version: [1.0]
+[2023-06-25 17:17:44] WARNING root fetch - processPackages [json-lineage]: Skipping, unable to determine old version
+[2023-06-25 17:17:44] INFO root fetch - main [MainThread]: End processing [json-lineage] error
+[2023-06-25 17:17:45] INFO root fetch - processPackages [py2n]: Downloading https://files.pythonhosted.org/packages/ef/09/d29c18d35ae1799fdbfb0546920b3067965bd84243246c696f5674bb769b/py2n-0.3.2.tar.gz
+[2023-06-25 17:17:45] INFO root fetch - processPackages [enformer-dna-diff]: Downloading https://files.pythonhosted.org/packages/a2/2d/6ed4a37ffcd817f542cf2751f67ef93ba5a324b935f548fc068ddc7d5778/enformer_dna_diff-1.0.tar.gz
+[2023-06-25 17:17:45] INFO root fetch - processPackages [py2n]: Downloading https://files.pythonhosted.org/packages/5e/bb/29aa138ab8842a1c997d7bf4f58480845b7d9cd1961ad3bc4481bc88764b/py2n-0.4.0.tar.gz
+[2023-06-25 17:17:45] INFO root fetch - processPackages [enformer-dna-diff]: Downloading https://files.pythonhosted.org/packages/d9/78/5d01b21a1c4d76c465ddf13a1bd20a449f3b14f595c341b6185f7e75fd9c/enformer_dna_diff-1.1.tar.gz
+[2023-06-25 17:17:45] INFO root fetch - processPackages [py2n]: executing diffoscope
+[2023-06-25 17:17:45] INFO root fetch - processPackages [py2n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2n-0.3.2.tar.gz tmp/py2n-0.4.0.tar.gz --markdown 20230625/p/py2n/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-25 17:17:45] INFO root fetch - processPackages [enformer-dna-diff]: executing diffoscope
+[2023-06-25 17:17:45] INFO root fetch - processPackages [enformer-dna-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enformer_dna_diff-1.0.tar.gz tmp/enformer_dna_diff-1.1.tar.gz --markdown 20230625/e/enformer-dna-diff/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-25 17:17:46] INFO root fetch - processPackages [py2n]: Remove: archive file [/home/abi/fetcher/tmp/py2n-0.3.2.tar.gz]
+[2023-06-25 17:17:46] INFO root fetch - processPackages [py2n]: Remove: archive file [/home/abi/fetcher/tmp/py2n-0.4.0.tar.gz]
+[2023-06-25 17:17:46] INFO root fetch - main [MainThread]: End processing [py2n]: success
+[2023-06-25 17:17:46] INFO root fetch - processPackages [enformer-dna-diff]: Remove: archive file [/home/abi/fetcher/tmp/enformer_dna_diff-1.0.tar.gz]
+[2023-06-25 17:17:46] INFO root fetch - processPackages [enformer-dna-diff]: Remove: archive file [/home/abi/fetcher/tmp/enformer_dna_diff-1.1.tar.gz]
+[2023-06-25 17:17:46] INFO root fetch - main [MainThread]: End processing [enformer-dna-diff]: success
+[2023-06-25 17:17:46] INFO root fetch - main [MainThread]: Store serial: [18637097]
