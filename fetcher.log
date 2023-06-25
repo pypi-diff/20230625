@@ -14760,3 +14760,93 @@ AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
 [2023-06-25 21:44:53] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.8-py3-none-any.whl.zip]
 [2023-06-25 21:44:53] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
 [2023-06-25 21:44:53] INFO root fetch - main [MainThread]: Store serial: [18638573]
+[2023-06-25 21:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638573]
+[2023-06-25 21:50:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gridworks-protocol
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iamlistening
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudpy-org
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GoogleBard
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buteo
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dxsp
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ofscraper
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unrollcuda
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testless-autocomplete
+[2023-06-25 21:50:02] INFO root fetch - processPackages [iamlistening]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-25 21:50:02] WARNING root fetch - processPackages [unrollcuda]: Skipping, unable to determine old version
+[2023-06-25 21:50:02] INFO root fetch - processPackages [unrollcuda]: Start processing: inventree-wled-locator
+[2023-06-25 21:50:02] INFO root fetch - main [MainThread]: End processing [unrollcuda] error
+[2023-06-25 21:50:02] INFO root fetch - processPackages [GoogleBard]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ofscraper]: New version: [2.6] Old Version: [2.5]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.113] Old Version: [0.0.112]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [cloudpy-org]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [gridworks-protocol]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [findmyorder]: New version: [1.5.0] Old Version: [1.4.5]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [dxsp]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 21:50:02] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/70/17/7c772cefcab5a92b351a9490f683d7e9dcb63ae6e6041ae0931cb99774e7/testless_autocomplete-0.0.112.tar.gz
+[2023-06-25 21:50:02] WARNING root fetch - processPackages [inventree-wled-locator]: Skipping, unable to determine old version
+[2023-06-25 21:50:02] INFO root fetch - main [MainThread]: End processing [inventree-wled-locator] error
+[2023-06-25 21:50:02] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/30/6d/911d2c2eba9536c824d3130b0a8a1a17a7f67d0307f5ad252f28ff7634b2/GoogleBard-1.3.2.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/d5/33/cb3acac345b9099f8d279aab58cbdc14715b3b752fd6200ed8bcbc50bf88/iamlistening-0.1.9.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/a0/4c/02fff1e883caffa07566dc13f3e95fc412e1b0eede48afc252c2c7c86fbe/findmyorder-1.4.5.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/67/ba/59866d2f05eed3b9dd80d794e612f3f7fd4883104b42cbf02cb3f4ffbd48/cloudpy_org-1.3.3.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/6d/06/4f7ba07d0cf858c139a93aeffda541a3a3c344690bfe4ea24b693f2ee851/ofscraper-2.5.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [gridworks-protocol]: Downloading https://files.pythonhosted.org/packages/fd/5f/7131b09691422213ab4d90730d13b51ccd226bf1c9aaa1ea8690b1316a3f/gridworks_protocol-0.5.4.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/b0/d5/715a79aab5bc95cd5dcec1b1f99ff7531f1ad87b39f966b367df5472fbed/dxsp-2.6.8.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/0d/ea/560a58b1e27b6781a91d91547c337d535cbe195cdb03c569ba9732d78244/testless_autocomplete-0.0.113.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.112.tar.gz tmp/testless_autocomplete-0.0.113.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.112-0.0.113/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/54/df/e2361ece3f803fed5d81ed4c250094a64e14d019f8f03adb46753d08d115/iamlistening-0.2.0.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [GoogleBard]: Downloading https://files.pythonhosted.org/packages/f2/9b/4f51f84e71e2fc8bbf3d5cc7b9f1bfb3bd60a01d5e07be87dd84c38e8a71/GoogleBard-1.3.3.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/50/39/15102d4db7e2aaf647eff4578d6e6009aab71f2eaf0af0ab623ae6ec3c8d/findmyorder-1.5.0.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/fa/2d/055899056c1f8c8a0e4368720f0b9b5175bc8668e70e304751664e5a3e83/ofscraper-2.6.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/a1/3e/e18b5143301ce1b74d48eaef7548d73c1cb714b48f80fbb7f99312b761cd/cloudpy_org-1.3.4.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [gridworks-protocol]: Downloading https://files.pythonhosted.org/packages/b5/db/be7e817c27857fddb861f22a9f98205d840f994c1060def420e84bcd2c9e/gridworks_protocol-0.5.5.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-0.1.9.tar.gz tmp/iamlistening-0.2.0.tar.gz --markdown 20230625/i/iamlistening/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [GoogleBard]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [GoogleBard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleBard-1.3.2.tar.gz tmp/GoogleBard-1.3.3.tar.gz --markdown 20230625/G/GoogleBard/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/8e/36/ebff45e8fcfc7c802f316046901c42642ea5b4cf5a7cca835e9dba832590/dxsp-2.6.9.tar.gz
+[2023-06-25 21:50:02] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.3.3.tar.gz tmp/cloudpy_org-1.3.4.tar.gz --markdown 20230625/c/cloudpy-org/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.5.tar.gz tmp/ofscraper-2.6.tar.gz --markdown 20230625/o/ofscraper/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.4.5.tar.gz tmp/findmyorder-1.5.0.tar.gz --markdown 20230625/f/findmyorder/1.4.5-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.8.tar.gz tmp/dxsp-2.6.9.tar.gz --markdown 20230625/d/dxsp/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-06-25 21:50:02] INFO root fetch - processPackages [gridworks-protocol]: executing diffoscope
+[2023-06-25 21:50:02] INFO root fetch - processPackages [gridworks-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_protocol-0.5.4.tar.gz tmp/gridworks_protocol-0.5.5.tar.gz --markdown 20230625/g/gridworks-protocol/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-25 21:50:03] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-06-25 21:50:03] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-06-25 21:50:03] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230625/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 21:50:03] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.112.tar.gz]
+[2023-06-25 21:50:03] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.113.tar.gz]
+[2023-06-25 21:50:03] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 21:50:04] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.1.9.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-0.2.0.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-06-25 21:50:04] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.3.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.3.4.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-06-25 21:50:04] INFO root fetch - processPackages [GoogleBard]: Remove: archive file [/home/abi/fetcher/tmp/GoogleBard-1.3.2.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - processPackages [GoogleBard]: Remove: archive file [/home/abi/fetcher/tmp/GoogleBard-1.3.3.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - main [MainThread]: End processing [GoogleBard]: success
+[2023-06-25 21:50:04] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.8.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.9.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-06-25 21:50:04] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.4.5.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.0.tar.gz]
+[2023-06-25 21:50:04] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-25 21:50:05] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-06-25 21:50:05] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-06-25 21:50:05] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-06-25 21:50:06] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.5.tar.gz]
+[2023-06-25 21:50:06] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.tar.gz]
+[2023-06-25 21:50:06] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-06-25 21:50:06] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.5.4.tar.gz]
+[2023-06-25 21:50:06] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.5.5.tar.gz]
+[2023-06-25 21:50:06] INFO root fetch - main [MainThread]: End processing [gridworks-protocol]: success
+[2023-06-25 21:50:06] INFO root fetch - main [MainThread]: Store serial: [18638613]
