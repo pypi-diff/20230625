@@ -9270,3 +9270,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:05:22] INFO root fetch - processPackages [alnoda-wrk]: Remove: archive file [/home/abi/fetcher/tmp/alnoda_wrk-0.4.9.tar.gz]
 [2023-06-25 14:05:22] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
 [2023-06-25 14:05:22] INFO root fetch - main [MainThread]: Store serial: [18636146]
+[2023-06-25 14:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636146]
+[2023-06-25 14:10:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 14:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnome-dns-switcher
+[2023-06-25 14:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-camelcaser
+[2023-06-25 14:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuck
+[2023-06-25 14:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentinel-analysis
+[2023-06-25 14:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-agents-nightly
+[2023-06-25 14:10:31] INFO root fetch - processPackages [sentinel-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 14:10:31] INFO root fetch - processPackages [python-camelcaser]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tuck]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-25 14:10:31] INFO root fetch - processPackages [gnome-dns-switcher]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-25 14:10:31] INFO root fetch - processPackages [python-camelcaser]: Downloading https://files.pythonhosted.org/packages/31/3b/708f81ef616fe45186f9ed684d2ff23baa7e08ac826e9378868754a8e24b/python_camelcaser-1.0.1-py3-none-any.whl
+[2023-06-25 14:10:31] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/29/fc/d5da493efa0695d1911f749ac1ed4d7822f003e2963b6411fda96254f4dd/sentinel_analysis-0.1.0.tar.gz
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-25 14:10:31] INFO root fetch - processPackages [gnome-dns-switcher]: Downloading https://files.pythonhosted.org/packages/db/78/922c6d93824ba22bb20fe7c6188a6b298b1a6b9fac1499e72803b86c1793/gnome-dns-switcher-1.2.2.tar.gz
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tuck]: Downloading https://files.pythonhosted.org/packages/89/0a/bbdec08ae62aa66e98cf75a3a322a77d31e3716dbfc76d03e75b8bebe5be/tuck-0.2.1.tar.gz
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-25 14:10:31] INFO root fetch - processPackages [gnome-dns-switcher]: Downloading https://files.pythonhosted.org/packages/6c/2f/524c66d2d324309af827b8858b168ea13fc3427f36c09ae251d3c3840efa/gnome-dns-switcher-1.3.0.tar.gz
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tuck]: Downloading https://files.pythonhosted.org/packages/0c/47/7904cc77f20275ad4d4dcaadad01fa9610c6ed8480640d3865074c2771ea/tuck-0.2.2.tar.gz
+[2023-06-25 14:10:31] INFO root fetch - processPackages [gnome-dns-switcher]: executing diffoscope
+[2023-06-25 14:10:31] INFO root fetch - processPackages [gnome-dns-switcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnome-dns-switcher-1.2.2.tar.gz tmp/gnome-dns-switcher-1.3.0.tar.gz --markdown 20230625/g/gnome-dns-switcher/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-25 14:10:31] INFO root fetch - processPackages [python-camelcaser]: Downloading https://files.pythonhosted.org/packages/b4/c7/f185a1bb585a4e21735f744ada5f70a8882f570e0433f79035088ec8a898/python_camelcaser-1.0.2-py3-none-any.whl
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tuck]: executing diffoscope
+[2023-06-25 14:10:31] INFO root fetch - processPackages [tuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuck-0.2.1.tar.gz tmp/tuck-0.2.2.tar.gz --markdown 20230625/t/tuck/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-25 14:10:31] INFO root fetch - processPackages [python-camelcaser]: executing diffoscope
+[2023-06-25 14:10:31] INFO root fetch - processPackages [python-camelcaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_camelcaser-1.0.1-py3-none-any.whl.zip tmp/python_camelcaser-1.0.2-py3-none-any.whl.zip --markdown 20230625/p/python-camelcaser/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 14:10:32] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-25 14:10:32] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230625/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-25 14:10:32] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/16/4b/179a5e04470e5c213959485e4a1282fd2d739d12929d006405890196ef3c/sentinel_analysis-0.1.1.tar.gz
+[2023-06-25 14:10:32] INFO root fetch - processPackages [sentinel-analysis]: executing diffoscope
+[2023-06-25 14:10:32] INFO root fetch - processPackages [sentinel-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_analysis-0.1.0.tar.gz tmp/sentinel_analysis-0.1.1.tar.gz --markdown 20230625/s/sentinel-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 14:10:33] INFO root fetch - processPackages [gnome-dns-switcher]: Remove: archive file [/home/abi/fetcher/tmp/gnome-dns-switcher-1.2.2.tar.gz]
+[2023-06-25 14:10:33] INFO root fetch - processPackages [gnome-dns-switcher]: Remove: archive file [/home/abi/fetcher/tmp/gnome-dns-switcher-1.3.0.tar.gz]
+[2023-06-25 14:10:33] INFO root fetch - main [MainThread]: End processing [gnome-dns-switcher]: success
+[2023-06-25 14:10:33] INFO root fetch - processPackages [python-camelcaser]: Remove: archive file [/home/abi/fetcher/tmp/python_camelcaser-1.0.1-py3-none-any.whl.zip]
+[2023-06-25 14:10:33] INFO root fetch - processPackages [python-camelcaser]: Remove: archive file [/home/abi/fetcher/tmp/python_camelcaser-1.0.2-py3-none-any.whl.zip]
+[2023-06-25 14:10:33] INFO root fetch - main [MainThread]: End processing [python-camelcaser]: success
+[2023-06-25 14:10:33] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.1.tar.gz]
+[2023-06-25 14:10:33] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.2.tar.gz]
+[2023-06-25 14:10:33] INFO root fetch - main [MainThread]: End processing [tuck]: success
+[2023-06-25 14:10:34] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.0.tar.gz]
+[2023-06-25 14:10:34] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.1.tar.gz]
+[2023-06-25 14:10:34] INFO root fetch - main [MainThread]: End processing [sentinel-analysis]: success
+[2023-06-25 14:10:40] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-25 14:10:40] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-25 14:10:40] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-25 14:10:40] INFO root fetch - main [MainThread]: Store serial: [18636159]
