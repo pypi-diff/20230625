@@ -11886,3 +11886,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 18:07:10] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz]
 [2023-06-25 18:07:10] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-06-25 18:07:10] INFO root fetch - main [MainThread]: Store serial: [18637321]
+[2023-06-25 18:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637321]
+[2023-06-25 18:12:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notification-service-nightly
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-flow-nightly
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bibleit
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-aio.py
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aironsuit
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: error-alerts
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: degex
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autocomplet
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-product-category-type
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-index
+[2023-06-25 18:12:21] INFO root fetch - processPackages [error-alerts]: New version: [4.4] Old Version: [4.3]
+[2023-06-25 18:12:21] ERROR root fetch - processPackages [degex]: Unable to get metadata: No such project 'degex'
+[2023-06-25 18:12:21] INFO root fetch - processPackages [degex]: Start processing: llama-index
+[2023-06-25 18:12:21] INFO root fetch - main [MainThread]: End processing [degex] error
+[2023-06-25 18:12:21] INFO root fetch - processPackages [aironsuit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 18:12:21] WARNING root fetch - processPackages [autocomplet]: Skipping, unable to determine old version
+[2023-06-25 18:12:21] INFO root fetch - main [MainThread]: End processing [autocomplet] error
+[2023-06-25 18:12:21] INFO root fetch - processPackages [roblox-aio.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-25 18:12:21] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-25 18:12:21] INFO root fetch - processPackages [gpt-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 18:12:21] INFO root fetch - processPackages [bibleit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 18:12:21] WARNING root fetch - processPackages [odoo-addon-product-category-type]: Skipping, unable to determine old version
+[2023-06-25 18:12:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-category-type] error
+[2023-06-25 18:12:21] INFO root fetch - processPackages [llama-index]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 18:12:21] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-25 18:12:21] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-25 18:12:21] INFO root fetch - processPackages [roblox-aio.py]: Downloading https://files.pythonhosted.org/packages/ae/74/42e4b558d59f5161eddb46b99af655675255fb53e81e95c46c48b9a4c8ce/roblox-aio.py-1.0.1.tar.gz
+[2023-06-25 18:12:21] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/46/67/1c4081b5ffc00608bcf294305b347654cc44bf04151037a6b5f06cd5ba25/bibleit-0.0.8.tar.gz
+[2023-06-25 18:12:21] INFO root fetch - processPackages [aironsuit]: Downloading https://files.pythonhosted.org/packages/e0/f9/6d9b4e7442593d7d1cc57e6a0686991e808210e95e66013f21adcd7f0178/aironsuit-0.1.8-py3-none-any.whl
+[2023-06-25 18:12:21] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/9f/6c/a0f38b93d8aac52edfb61eb105987c7a408a3f8b8cf5b2929e9640f0e24c/error-alerts-4.3.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/39/ed/965dee00b18d04a9e723c02a028442b257e1b226780861f81ac52cd324ba/gpt_index-0.6.8.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/f3/a4/8fcac26c887b38aa528079ee4a511159fe89337c438c32c575ef70afe1dc/llama_index-0.6.8.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [roblox-aio.py]: Downloading https://files.pythonhosted.org/packages/f0/30/68d5cf5653037d6faf51202c7eb850d66afe0973942f81febf1c332d5682/roblox-aio.py-1.0.2.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230625/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230625/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/48/a2/403182399a047ed6f5ea0175511bae62c223f1efb278739f73b2f82272fa/bibleit-0.0.9.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [error-alerts]: Downloading https://files.pythonhosted.org/packages/da/1f/8e83ddbcb344b7823a8add9827dd3e3bef2f1a8c9f87935b0570e837e6f3/error-alerts-4.4.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [roblox-aio.py]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [roblox-aio.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-aio.py-1.0.1.tar.gz tmp/roblox-aio.py-1.0.2.tar.gz --markdown 20230625/r/roblox-aio.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [aironsuit]: Downloading https://files.pythonhosted.org/packages/b5/69/06cd53ad2e995337a9dafc5bc478822b4505a8976fc71af1536257117450/aironsuit-0.1.9-py3-none-any.whl
+[2023-06-25 18:12:22] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/9c/96/62b5a23720114f0ce0f6331a1c6f89c27b66d44db7187a5632221f0d6f27/llama_index-0.6.9.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [aironsuit]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [aironsuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aironsuit-0.1.8-py3-none-any.whl.zip tmp/aironsuit-0.1.9-py3-none-any.whl.zip --markdown 20230625/a/aironsuit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [bibleit]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [bibleit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibleit-0.0.8.tar.gz tmp/bibleit-0.0.9.tar.gz --markdown 20230625/b/bibleit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fd/af/29feddbce0290a3ddaa8adad399a5fa0c83d3d4d9637bf47751161c55d5c/gpt_index-0.6.9.tar.gz
+[2023-06-25 18:12:22] INFO root fetch - processPackages [error-alerts]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [error-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-alerts-4.3.tar.gz tmp/error-alerts-4.4.tar.gz --markdown 20230625/e/error-alerts/4.3-4.4/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.8.tar.gz tmp/llama_index-0.6.9.tar.gz --markdown 20230625/l/llama-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 18:12:22] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-06-25 18:12:22] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.8.tar.gz tmp/gpt_index-0.6.9.tar.gz --markdown 20230625/g/gpt-index/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 18:12:23] INFO root fetch - processPackages [roblox-aio.py]: Remove: archive file [/home/abi/fetcher/tmp/roblox-aio.py-1.0.1.tar.gz]
+[2023-06-25 18:12:23] INFO root fetch - processPackages [roblox-aio.py]: Remove: archive file [/home/abi/fetcher/tmp/roblox-aio.py-1.0.2.tar.gz]
+[2023-06-25 18:12:23] INFO root fetch - main [MainThread]: End processing [roblox-aio.py]: success
+[2023-06-25 18:12:23] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-25 18:12:23] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-25 18:12:23] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-25 18:12:24] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.3.tar.gz]
+[2023-06-25 18:12:24] INFO root fetch - processPackages [error-alerts]: Remove: archive file [/home/abi/fetcher/tmp/error-alerts-4.4.tar.gz]
+[2023-06-25 18:12:24] INFO root fetch - main [MainThread]: End processing [error-alerts]: success
+[2023-06-25 18:12:24] INFO root fetch - processPackages [aironsuit]: Remove: archive file [/home/abi/fetcher/tmp/aironsuit-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 18:12:24] INFO root fetch - processPackages [aironsuit]: Remove: archive file [/home/abi/fetcher/tmp/aironsuit-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 18:12:24] INFO root fetch - main [MainThread]: End processing [aironsuit]: success
+[2023-06-25 18:12:25] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-25 18:12:25] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-25 18:12:25] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-25 18:12:26] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.8.tar.gz]
+[2023-06-25 18:12:26] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.9.tar.gz]
+[2023-06-25 18:12:26] INFO root fetch - main [MainThread]: End processing [bibleit]: success
+[2023-06-25 18:12:26] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.8.tar.gz]
+[2023-06-25 18:12:26] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.6.9.tar.gz]
+[2023-06-25 18:12:26] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-06-25 18:12:26] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.8.tar.gz]
+[2023-06-25 18:12:26] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.6.9.tar.gz]
+[2023-06-25 18:12:26] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-06-25 18:12:26] INFO root fetch - main [MainThread]: Store serial: [18637361]
