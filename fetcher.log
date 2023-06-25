@@ -15625,3 +15625,71 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:56:03] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.4.tar.gz]
 [2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [euroleague-api]: success
 [2023-06-25 22:56:03] INFO root fetch - main [MainThread]: Store serial: [18638961]
+[2023-06-25 23:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638961]
+[2023-06-25 23:01:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zkaccess-c3
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c-custom-code-checker
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packg
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctd-python
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IQM-Vis
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-engine
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vban-cmd
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: canarypy
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m23
+[2023-06-25 23:01:14] INFO root fetch - processPackages [m23]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ctd-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 23:01:14] INFO root fetch - processPackages [c-custom-code-checker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 23:01:14] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.74] Old Version: [0.2.5.73]
+[2023-06-25 23:01:14] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/81/66/234c17a8ef0397cddf04882bced2f03458af63f446ec4e63706725789977/m23-1.8.1.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/da/40/96046673fa52b47d7efd98d2b647ec53164d3dcf62001d821f33efc7ca8f/IQM-Vis-0.2.5.73.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/9e/f9/93640a9a849e2c6b11a38c7a02c92c4735109508f1c9d91c34ee783a7f2b/ctd-python-0.0.1.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [zkaccess-c3]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 23:01:14] WARNING root fetch - processPackages [xia-engine]: Skipping, unable to determine old version
+[2023-06-25 23:01:14] WARNING root fetch - processPackages [IQM-Vis]: Skipping package: exceeds size limit 15509456>=10485760
+[2023-06-25 23:01:14] INFO root fetch - processPackages [packg]: New version: [0.2.13] Old Version: [0.2.12]
+[2023-06-25 23:01:14] INFO root fetch - main [MainThread]: End processing [xia-engine] error
+[2023-06-25 23:01:14] WARNING root fetch - processPackages [canarypy]: Skipping, unable to determine old version
+[2023-06-25 23:01:14] INFO root fetch - main [MainThread]: End processing [IQM-Vis] error
+[2023-06-25 23:01:14] INFO root fetch - main [MainThread]: End processing [canarypy] error
+[2023-06-25 23:01:14] INFO root fetch - processPackages [vban-cmd]: New version: [2.0.0] Old Version: [1.8.1]
+[2023-06-25 23:01:14] INFO root fetch - processPackages [c-custom-code-checker]: Downloading https://files.pythonhosted.org/packages/5b/b8/814fe252ca4d733e5149e106a87f8c0905745f354148a48a9f27a2b272a3/c-custom-code-checker-1.0.0.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/2a/15/60ec1757dba63bd4665949c71ede63c121f522ceb319ad8da290e7809856/ctd-python-0.0.2.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [zkaccess-c3]: Downloading https://files.pythonhosted.org/packages/36/92/7dc79142dbe7e2f94d615d0f463ced29a917d72c764b37170eb48f7d1e35/zkaccess_c3-0.0.5.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/63/65/76e67aba4978f0a1de28368b0da593949308c362742f1a3cd4657334fa40/packg-0.2.12.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/0a/44/705c9726984438de5bec99f9947619f3668612c67ecf9aac3a94010aad52/m23-1.8.2.tar.gz
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-25 23:01:14] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.1.tar.gz tmp/ctd-python-0.0.2.tar.gz --markdown 20230625/c/ctd-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 23:01:14] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/6d/f6/74aa5acc590683527e93e22a83519d007ca9137598c4fbdb93181e4ee3fa/vban-cmd-1.8.1.tar.gz
+[2023-06-25 23:01:15] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-25 23:01:15] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.1.tar.gz tmp/m23-1.8.2.tar.gz --markdown 20230625/m/m23/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-25 23:01:15] INFO root fetch - processPackages [c-custom-code-checker]: Downloading https://files.pythonhosted.org/packages/2f/dc/d05aeab76d6f4690a87bbf49681b65db043c1f36b24fe678ebbb18a5d498/c-custom-code-checker-1.0.1.tar.gz
+[2023-06-25 23:01:15] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/6c/d6/f11d082cfd767c82e3d429b95666e1b2020a64e2eb5f2b76729c037e46f8/packg-0.2.13.tar.gz
+[2023-06-25 23:01:15] INFO root fetch - processPackages [c-custom-code-checker]: executing diffoscope
+[2023-06-25 23:01:15] INFO root fetch - processPackages [c-custom-code-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c-custom-code-checker-1.0.0.tar.gz tmp/c-custom-code-checker-1.0.1.tar.gz --markdown 20230625/c/c-custom-code-checker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 23:01:15] INFO root fetch - processPackages [zkaccess-c3]: Downloading https://files.pythonhosted.org/packages/f7/38/f94e63b090804badc6478f4b9dd98d60048a17bc3104cf4f7250d74ca7a9/zkaccess_c3-0.0.6.tar.gz
+[2023-06-25 23:01:15] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/e8/4e/b59d68bf8819bac57d73b58eaa231815d10f9f5985bdccac9fb0b618a807/vban-cmd-2.0.0.tar.gz
+[2023-06-25 23:01:15] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-06-25 23:01:15] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.12.tar.gz tmp/packg-0.2.13.tar.gz --markdown 20230625/p/packg/0.2.12-0.2.13/diff.md --exclude *.pyd
+[2023-06-25 23:01:15] INFO root fetch - processPackages [zkaccess-c3]: executing diffoscope
+[2023-06-25 23:01:15] INFO root fetch - processPackages [zkaccess-c3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zkaccess_c3-0.0.5.tar.gz tmp/zkaccess_c3-0.0.6.tar.gz --markdown 20230625/z/zkaccess-c3/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 23:01:15] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-06-25 23:01:15] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban-cmd-1.8.1.tar.gz tmp/vban-cmd-2.0.0.tar.gz --markdown 20230625/v/vban-cmd/1.8.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-25 23:01:16] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.1.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.2.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-25 23:01:16] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.12.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.13.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-06-25 23:01:16] INFO root fetch - processPackages [c-custom-code-checker]: Remove: archive file [/home/abi/fetcher/tmp/c-custom-code-checker-1.0.0.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - processPackages [c-custom-code-checker]: Remove: archive file [/home/abi/fetcher/tmp/c-custom-code-checker-1.0.1.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - main [MainThread]: End processing [c-custom-code-checker]: success
+[2023-06-25 23:01:16] INFO root fetch - processPackages [zkaccess-c3]: Remove: archive file [/home/abi/fetcher/tmp/zkaccess_c3-0.0.5.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - processPackages [zkaccess-c3]: Remove: archive file [/home/abi/fetcher/tmp/zkaccess_c3-0.0.6.tar.gz]
+[2023-06-25 23:01:16] INFO root fetch - main [MainThread]: End processing [zkaccess-c3]: success
+[2023-06-25 23:01:17] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.1.tar.gz]
+[2023-06-25 23:01:17] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.2.tar.gz]
+[2023-06-25 23:01:17] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-25 23:01:17] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban-cmd-1.8.1.tar.gz]
+[2023-06-25 23:01:17] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban-cmd-2.0.0.tar.gz]
+[2023-06-25 23:01:17] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-06-25 23:01:17] INFO root fetch - main [MainThread]: Store serial: [18638990]
