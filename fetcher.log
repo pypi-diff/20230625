@@ -9581,3 +9581,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:33:14] INFO root fetch - processPackages [alibabacloud-pds20220301]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pds20220301-1.0.9.tar.gz]
 [2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-pds20220301]: success
 [2023-06-25 14:33:14] INFO root fetch - main [MainThread]: Store serial: [18636307]
+[2023-06-25 14:38:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636307]
+[2023-06-25 14:38:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-git-gitlab
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fix8
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apysc
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WebtoonScraper
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-dzne-overload
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volcengine-python-sdk
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: draggan
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rid-kit
+[2023-06-25 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cmyt
+[2023-06-25 14:38:24] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 14:38:24] INFO root fetch - processPackages [fix8]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-25 14:38:24] INFO root fetch - processPackages [cmyt]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-06-25 14:38:24] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 14:38:24] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 14:38:24] WARNING root fetch - processPackages [rid-kit]: Skipping, unable to determine old version
+[2023-06-25 14:38:24] INFO root fetch - main [MainThread]: End processing [rid-kit] error
+[2023-06-25 14:38:24] INFO root fetch - processPackages [draggan]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-25 14:38:24] WARNING root fetch - processPackages [lib-dzne-overload]: Skipping, unable to determine old version
+[2023-06-25 14:38:24] INFO root fetch - main [MainThread]: End processing [lib-dzne-overload] error
+[2023-06-25 14:38:24] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-25 14:38:24] INFO root fetch - processPackages [apysc]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-25 14:38:24] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/98/5f/f38afbc2dc6c5d2a05abe1c87e7bcc28eea94ddd4a746b549f213f501f5d/xia_git_gitlab-0.1.2-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 14:38:24] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/e1/89/120600fb5102697d02d55c2024b2f82b207fd24286d502d198a31e58d13e/apysc-3.1.0.tar.gz
+[2023-06-25 14:38:24] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/1c/90/0fd66463dc388b2f75dfe9c6f4a86c0ad03f659ec4e8fe1b03625615df32/draggan-1.1.3.tar.gz
+[2023-06-25 14:38:24] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-25 14:38:24] INFO root fetch - processPackages [fix8]: Downloading https://files.pythonhosted.org/packages/aa/fe/ef20a4d96eea2b84e7fbe85af976848030e30d3b46194a170ce207f6fa5f/fix8-0.1.7.tar.gz
+[2023-06-25 14:38:24] INFO root fetch - processPackages [cmyt]: Downloading https://files.pythonhosted.org/packages/28/42/e1f9b43172ddb09b54c5900e228df48fa811decb53f3d5bef906369b99d0/cmyt-1.2.1.tar.gz
+[2023-06-25 14:38:24] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-06-25 14:38:24] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/da/d5/38694da4b6f0677fad0a4235c7fcf83630477403b0ba4f6bb472827e455b/WebtoonScraper-0.1.1.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/9d/b7/4e4f561044ebe2029eec9d538435082abc3a962284c9b5fa9cd4d31cd434/xia_git_gitlab-0.1.3-cp39-none-win_amd64.whl
+[2023-06-25 14:38:25] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/71/70/d8314c17a5dc0dd9cc2ab3d56a379a91778396561229c8e2666a45adc035/draggan-1.1.4.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/43/b2/21da34714543534aaa4208a52d11d3eeba0e1ca639093b08f0ad38c9c043/apysc-3.1.1.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [fix8]: Downloading https://files.pythonhosted.org/packages/cd/c6/76b61ab7f5fc84ea5898e7ef4266810b4fc5021e729115ae3abbb9ed516b/fix8-0.1.8.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [cmyt]: Downloading https://files.pythonhosted.org/packages/ea/6a/a47e25f2941e28de5e7458807835992c16c0c57938da13fa264bd2f17156/cmyt-1.3.0.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip tmp/xia_git_gitlab-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [WebtoonScraper]: Downloading https://files.pythonhosted.org/packages/ca/21/df0963cb05b378cd8637400d99b7555e438eaaa5691e2d5fe7a933148b30/WebtoonScraper-0.1.2.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.0.tar.gz tmp/apysc-3.1.1.tar.gz --markdown 20230625/a/apysc/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230625/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.3.tar.gz tmp/draggan-1.1.4.tar.gz --markdown 20230625/d/draggan/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [fix8]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [fix8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix8-0.1.7.tar.gz tmp/fix8-0.1.8.tar.gz --markdown 20230625/f/fix8/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-06-25 14:38:25] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.1.1.tar.gz tmp/WebtoonScraper-0.1.2.tar.gz --markdown 20230625/W/WebtoonScraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [cmyt]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [cmyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmyt-1.2.1.tar.gz tmp/cmyt-1.3.0.tar.gz --markdown 20230625/c/cmyt/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-06-25 14:38:25] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-06-25 14:38:25] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230625/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 14:38:27] INFO root fetch - processPackages [fix8]: Remove: archive file [/home/abi/fetcher/tmp/fix8-0.1.7.tar.gz]
+[2023-06-25 14:38:27] INFO root fetch - processPackages [fix8]: Remove: archive file [/home/abi/fetcher/tmp/fix8-0.1.8.tar.gz]
+[2023-06-25 14:38:27] INFO root fetch - main [MainThread]: End processing [fix8]: success
+[2023-06-25 14:38:27] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-25 14:38:27] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-25 14:38:27] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 14:38:27] INFO root fetch - processPackages [cmyt]: Remove: archive file [/home/abi/fetcher/tmp/cmyt-1.2.1.tar.gz]
+[2023-06-25 14:38:27] INFO root fetch - processPackages [cmyt]: Remove: archive file [/home/abi/fetcher/tmp/cmyt-1.3.0.tar.gz]
+[2023-06-25 14:38:27] INFO root fetch - main [MainThread]: End processing [cmyt]: success
+[2023-06-25 14:38:27] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.1.tar.gz]
+[2023-06-25 14:38:27] INFO root fetch - processPackages [WebtoonScraper]: Remove: archive file [/home/abi/fetcher/tmp/WebtoonScraper-0.1.2.tar.gz]
+[2023-06-25 14:38:27] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-06-25 14:38:28] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.3.tar.gz]
+[2023-06-25 14:38:28] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.4.tar.gz]
+[2023-06-25 14:38:28] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-25 14:38:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-25 14:38:29] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-25 14:38:29] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-25 14:38:32] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.0.tar.gz]
+[2023-06-25 14:38:32] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.1.tar.gz]
+[2023-06-25 14:38:32] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-25 14:38:50] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-06-25 14:38:50] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-06-25 14:38:50] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-06-25 14:38:50] INFO root fetch - main [MainThread]: Store serial: [18636348]
