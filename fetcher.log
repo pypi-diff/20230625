@@ -15538,3 +15538,90 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:50:49] INFO root fetch - processPackages [persist-ext]: Remove: archive file [/home/abi/fetcher/tmp/persist_ext-1.0.1.tar.gz]
 [2023-06-25 22:50:49] INFO root fetch - main [MainThread]: End processing [persist-ext]: success
 [2023-06-25 22:50:49] INFO root fetch - main [MainThread]: Store serial: [18638916]
+[2023-06-25 22:55:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638916]
+[2023-06-25 22:56:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py2appsigner
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphscope
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphscope-client
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speech-bot-helpers
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strawberry-graphql
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-apps
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-coordinator
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-engine
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-include
+[2023-06-25 22:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: euroleague-api
+[2023-06-25 22:56:01] INFO root fetch - processPackages [speech-bot-helpers]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [py2appsigner]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230625] Old Version: [0.23.0a20230624]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230625] Old Version: [0.23.0a20230624]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230625] Old Version: [0.23.0a20230624]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230625] Old Version: [0.23.0a20230624]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-include]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/66/df/905109b117f26144e1832192285e99d24b60ac8ae959445d1369eff61358/gs_include-0.23.0a20230623-py2.py3-none-any.whl
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/38/18/7db62212df2ebe4ead227d034f3323acf46f47bc77d98f670843395b376c/gs_engine-0.23.0a20230623-py2.py3-none-any.whl
+[2023-06-25 22:56:01] INFO root fetch - processPackages [euroleague-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/5f/54/1f1515ef22d02afe681a7a9b890459f5f066e250a9ffe2fd1e1cffaca366/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl
+[2023-06-25 22:56:01] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/4e/b0/01cb3c908332f01ce63eaae70df6a428e970d2ab2dbf0dab0628741ea84c/speech_bot_helpers-0.2.2.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/fd/d7/e8c91473c91769c75586d51474327eaed3b501aab4fce653effe0e035913/graphscope-0.23.0a20230624-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 22:56:01] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [py2appsigner]: Downloading https://files.pythonhosted.org/packages/47/55/c81623762f525bf573696b18f9c173a84d97e320e3b621759a682cb8c961/py2appsigner-0.5.4.tar.gz
+[2023-06-25 22:56:01] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 27683708>=10485760
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-include]: Start processing: IQM-Vis
+[2023-06-25 22:56:01] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/2e/ac/6edd074da8067fe847b6da8be1df5f55082a01291b58c8fc8a495b33f705/gs_apps-0.23.0a20230624-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 22:56:01] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/75/af/019b86acdd794f2aa4fa55dbfbd96a29d5ccd02555eaa7dacb7760c63e05/graphscope_client-0.23.0a20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 22:56:01] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211399533>=10485760
+[2023-06-25 22:56:01] INFO root fetch - processPackages [graphscope]: Start processing: pywebview
+[2023-06-25 22:56:01] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-06-25 22:56:01] INFO root fetch - processPackages [euroleague-api]: Downloading https://files.pythonhosted.org/packages/3c/d8/a9a59178f8fac477284b719dbccedbf85d6260c67548d987d87dc9426508/euroleague_api-0.0.3.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.74] Old Version: [0.2.5.73]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/19/c1/87203683dc01076c837ccb2ac0e696d1d928f765bcb3ee34760d0e3b1671/gs_engine-0.23.0a20230624-py2.py3-none-any.whl
+[2023-06-25 22:56:01] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47084960>=10485760
+[2023-06-25 22:56:01] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64485523>=10485760
+[2023-06-25 22:56:01] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-06-25 22:56:01] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-06-25 22:56:01] INFO root fetch - processPackages [pywebview]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-06-25 22:56:01] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/05/20/8a571b1d28fb351d8738c5949b076f990790e4aca98012b7c4491ef4748b/gs_coordinator-0.23.0a20230625-py2.py3-none-any.whl
+[2023-06-25 22:56:01] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/06/60/a580e264e2a5bdcd754074b70fa99dc1dda496bc3a53b6e846aeee765cad/speech_bot_helpers-0.2.3.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [py2appsigner]: Downloading https://files.pythonhosted.org/packages/8e/05/1c10bc0d47f2d07722cf159fca5ba69d41c5891400be48d9f14fc802a044/py2appsigner-0.5.5.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230623-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230624-py2.py3-none-any.whl.zip --markdown 20230625/g/gs-engine/0.23.0a20230623-0.23.0a20230624/diff.md --exclude *.pyd
+[2023-06-25 22:56:01] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-25 22:56:01] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230625/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-25 22:56:01] INFO root fetch - processPackages [speech-bot-helpers]: executing diffoscope
+[2023-06-25 22:56:01] INFO root fetch - processPackages [speech-bot-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_bot_helpers-0.2.2.tar.gz tmp/speech_bot_helpers-0.2.3.tar.gz --markdown 20230625/s/speech-bot-helpers/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 22:56:01] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/da/40/96046673fa52b47d7efd98d2b647ec53164d3dcf62001d821f33efc7ca8f/IQM-Vis-0.2.5.73.tar.gz
+[2023-06-25 22:56:01] INFO root fetch - processPackages [py2appsigner]: executing diffoscope
+[2023-06-25 22:56:01] INFO root fetch - processPackages [py2appsigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2appsigner-0.5.4.tar.gz tmp/py2appsigner-0.5.5.tar.gz --markdown 20230625/p/py2appsigner/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-06-25 22:56:01] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230625-py2.py3-none-any.whl.zip --markdown 20230625/g/gs-coordinator/0.23.0a20230624-0.23.0a20230625/diff.md --exclude *.pyd
+[2023-06-25 22:56:01] INFO root fetch - processPackages [pywebview]: Downloading https://files.pythonhosted.org/packages/50/25/3b634563d5ea993c3d8381f41dddbe78dca4c59d328d17f6a7ed256372a1/pywebview-4.2.1.tar.gz
+[2023-06-25 22:56:01] WARNING root fetch - processPackages [IQM-Vis]: Skipping package: exceeds size limit 15509456>=10485760
+[2023-06-25 22:56:01] INFO root fetch - main [MainThread]: End processing [IQM-Vis] error
+[2023-06-25 22:56:02] INFO root fetch - processPackages [euroleague-api]: Downloading https://files.pythonhosted.org/packages/d4/01/8701e0378bf14346f6b7986c51dda3e4300e93a2346439733d41f3656395/euroleague_api-0.0.4.tar.gz
+[2023-06-25 22:56:02] INFO root fetch - processPackages [euroleague-api]: executing diffoscope
+[2023-06-25 22:56:02] INFO root fetch - processPackages [euroleague-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euroleague_api-0.0.3.tar.gz tmp/euroleague_api-0.0.4.tar.gz --markdown 20230625/e/euroleague-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 22:56:02] WARNING root fetch - processPackages [pywebview]: Skipping package: exceeds size limit 30105897>=10485760
+[2023-06-25 22:56:02] INFO root fetch - main [MainThread]: End processing [pywebview] error
+[2023-06-25 22:56:03] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230623-py2.py3-none-any.whl.zip]
+[2023-06-25 22:56:03] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230624-py2.py3-none-any.whl.zip]
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-06-25 22:56:03] INFO root fetch - processPackages [py2appsigner]: Remove: archive file [/home/abi/fetcher/tmp/py2appsigner-0.5.4.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - processPackages [py2appsigner]: Remove: archive file [/home/abi/fetcher/tmp/py2appsigner-0.5.5.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [py2appsigner]: success
+[2023-06-25 22:56:03] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.2.2.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.2.3.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [speech-bot-helpers]: success
+[2023-06-25 22:56:03] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl.zip]
+[2023-06-25 22:56:03] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230625-py2.py3-none-any.whl.zip]
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-06-25 22:56:03] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-25 22:56:03] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.3.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - processPackages [euroleague-api]: Remove: archive file [/home/abi/fetcher/tmp/euroleague_api-0.0.4.tar.gz]
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: End processing [euroleague-api]: success
+[2023-06-25 22:56:03] INFO root fetch - main [MainThread]: Store serial: [18638961]
