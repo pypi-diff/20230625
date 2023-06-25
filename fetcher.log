@@ -3679,3 +3679,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:24:30] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
 [2023-06-25 05:24:30] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-06-25 05:24:30] INFO root fetch - main [MainThread]: Store serial: [18633893]
+[2023-06-25 05:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633893]
+[2023-06-25 05:29:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissist
+[2023-06-25 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monstermash
+[2023-06-25 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-06-25 05:29:43] INFO root fetch - processPackages [aissist]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 05:29:43] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230625] Old Version: [0.0.17.dev20230624]
+[2023-06-25 05:29:43] INFO root fetch - processPackages [monstermash]: New version: [1.0.0] Old Version: [0.7.6]
+[2023-06-25 05:29:43] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/9f/3b/2bf1038afcce74faf3ff56b6656bc1e06d3d035f9377b0b2822f96060a11/GANDLF-0.0.17.dev20230624.tar.gz
+[2023-06-25 05:29:43] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/6e/6b/eb70ee1ccb8b0f0c0bc71db16b97389695d6282f84eafafbeccf880c4178/aissist-0.0.3.tar.gz
+[2023-06-25 05:29:44] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/41/51/f8b3aa29157611092ecefa939fc3327b153d2abe41bd210c619b17fedf4e/monstermash-0.7.6.tar.gz
+[2023-06-25 05:29:44] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/b2/bf/aa48ee7ccb4d80be052025260ece62e17f47258982128780b4d135453d5e/GANDLF-0.0.17.dev20230625.tar.gz
+[2023-06-25 05:29:44] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/b7/fe/2aac61407660f9eb72ef5748a95dd2f3a88ee1beb4584e7d156c06640fa4/aissist-0.0.4.tar.gz
+[2023-06-25 05:29:44] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/23/69/c96843d4cfed6a5ae28ef98dee2ed514b3b917ef59dbd5589841ad666544/monstermash-1.0.0.tar.gz
+[2023-06-25 05:29:44] INFO root fetch - processPackages [aissist]: executing diffoscope
+[2023-06-25 05:29:44] INFO root fetch - processPackages [aissist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissist-0.0.3.tar.gz tmp/aissist-0.0.4.tar.gz --markdown 20230625/a/aissist/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 05:29:44] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-25 05:29:44] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230624.tar.gz tmp/GANDLF-0.0.17.dev20230625.tar.gz --markdown 20230625/G/GANDLF/0.0.17.dev20230624-0.0.17.dev20230625/diff.md --exclude *.pyd
+[2023-06-25 05:29:44] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-06-25 05:29:44] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-0.7.6.tar.gz tmp/monstermash-1.0.0.tar.gz --markdown 20230625/m/monstermash/0.7.6-1.0.0/diff.md --exclude *.pyd
+[2023-06-25 05:29:45] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-0.7.6.tar.gz]
+[2023-06-25 05:29:45] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.0.0.tar.gz]
+[2023-06-25 05:29:45] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-06-25 05:29:45] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.3.tar.gz]
+[2023-06-25 05:29:45] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.4.tar.gz]
+[2023-06-25 05:29:45] INFO root fetch - main [MainThread]: End processing [aissist]: success
+[2023-06-25 05:29:46] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230624.tar.gz]
+[2023-06-25 05:29:46] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230625.tar.gz]
+[2023-06-25 05:29:46] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-25 05:29:46] INFO root fetch - main [MainThread]: Store serial: [18633903]
