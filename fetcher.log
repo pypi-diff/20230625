@@ -10939,3 +10939,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:35:36] WARNING root fetch - processPackages [userapiLib]: Skipping, unable to determine old version
 [2023-06-25 16:35:36] INFO root fetch - main [MainThread]: End processing [userapiLib] error
 [2023-06-25 16:35:36] INFO root fetch - main [MainThread]: Store serial: [18636908]
+[2023-06-25 16:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636908]
+[2023-06-25 16:40:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-few-shot-gen
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: purpleair-api
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-exception
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weather-command
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ridgeplot-py
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prodsys
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cihai-cli
+[2023-06-25 16:40:45] WARNING root fetch - processPackages [fast-exception]: Skipping, unable to determine old version
+[2023-06-25 16:40:45] INFO root fetch - main [MainThread]: End processing [fast-exception] error
+[2023-06-25 16:40:45] INFO root fetch - processPackages [prodsys]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-25 16:40:45] WARNING root fetch - processPackages [llm-few-shot-gen]: Skipping, unable to determine old version
+[2023-06-25 16:40:45] INFO root fetch - main [MainThread]: End processing [llm-few-shot-gen] error
+[2023-06-25 16:40:45] INFO root fetch - processPackages [purpleair-api]: New version: [1.1.0a1] Old Version: [1.0.2a1]
+[2023-06-25 16:40:45] INFO root fetch - processPackages [cihai-cli]: New version: [0.9.0a1] Old Version: [0.9.0a0]
+[2023-06-25 16:40:45] INFO root fetch - processPackages [weather-command]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.0.post10] Old Version: [0.2.0]
+[2023-06-25 16:40:45] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/71/b4/565dae99aa84cc726fe6642f27b44b67f45209545f7a59dae338d437093f/prodsys-0.1.1.tar.gz
+[2023-06-25 16:40:45] INFO root fetch - processPackages [purpleair-api]: Downloading https://files.pythonhosted.org/packages/bc/92/e5a431ef87f5d2327c04aeefb81fafd1c671a6c641606bb5fa74eef26112/purpleair_api-1.0.2a1.tar.gz
+[2023-06-25 16:40:45] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/5c/2f/32c3c49c6ba793fecf517e43f012a7946c4fabd917e80ceb3a039f0f896a/ridgeplot-py-0.2.0.tar.gz
+[2023-06-25 16:40:45] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/d2/4c/75ccfa9c6b8fb30de3cba09cf54a8c9f6f9f2f38a9cea4b854a81c25cc79/cihai-cli-0.9.0a0.tar.gz
+[2023-06-25 16:40:45] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/37/f1/a106eee0b76f24a5c923bc1611d1552b4b1171f64acc11009e45534e16f2/weather_command-6.1.1.tar.gz
+[2023-06-25 16:40:46] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/6b/80/83b2e53e487efc456077b2f4fa0358224f555faee938335ae5001c21f83c/prodsys-0.2.0.tar.gz
+[2023-06-25 16:40:46] INFO root fetch - processPackages [prodsys]: executing diffoscope
+[2023-06-25 16:40:46] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/8e/b4/916444e3a9fda0608eef7da850d4c11159bb559b04533b2629093776d420/ridgeplot_py-0.2.0.post10.tar.gz
+[2023-06-25 16:40:46] INFO root fetch - processPackages [prodsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodsys-0.1.1.tar.gz tmp/prodsys-0.2.0.tar.gz --markdown 20230625/p/prodsys/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 16:40:46] INFO root fetch - processPackages [purpleair-api]: Downloading https://files.pythonhosted.org/packages/10/27/bf6378bdd4a64b7ceda8b8371dc0c7e11329d8a2b9e100b6083215bac935/purpleair_api-1.1.0a1.tar.gz
+[2023-06-25 16:40:46] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/0b/b5/e89b0b6924ecd0d5a3cb77abed8ec4b18fefbae25d67658b915c13d1bf35/cihai-cli-0.9.0a1.tar.gz
+[2023-06-25 16:40:46] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/15/68/ee20b2ae7a03940ca197fadc6e0ce5fe18ea7d06c3bbda3aa7994df57b86/weather_command-6.1.2.tar.gz
+[2023-06-25 16:40:46] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2023-06-25 16:40:46] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot-py-0.2.0.tar.gz tmp/ridgeplot_py-0.2.0.post10.tar.gz --markdown 20230625/r/ridgeplot-py/0.2.0-0.2.0.post10/diff.md --exclude *.pyd
+[2023-06-25 16:40:46] INFO root fetch - processPackages [cihai-cli]: executing diffoscope
+[2023-06-25 16:40:46] INFO root fetch - processPackages [cihai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-cli-0.9.0a0.tar.gz tmp/cihai-cli-0.9.0a1.tar.gz --markdown 20230625/c/cihai-cli/0.9.0a0-0.9.0a1/diff.md --exclude *.pyd
+[2023-06-25 16:40:46] INFO root fetch - processPackages [weather-command]: executing diffoscope
+[2023-06-25 16:40:46] INFO root fetch - processPackages [weather-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_command-6.1.1.tar.gz tmp/weather_command-6.1.2.tar.gz --markdown 20230625/w/weather-command/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-06-25 16:40:46] INFO root fetch - processPackages [purpleair-api]: executing diffoscope
+[2023-06-25 16:40:46] INFO root fetch - processPackages [purpleair-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purpleair_api-1.0.2a1.tar.gz tmp/purpleair_api-1.1.0a1.tar.gz --markdown 20230625/p/purpleair-api/1.0.2a1-1.1.0a1/diff.md --exclude *.pyd
+[2023-06-25 16:40:47] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot-py-0.2.0.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.0.post10.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2023-06-25 16:40:47] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a0.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a1.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - main [MainThread]: End processing [cihai-cli]: success
+[2023-06-25 16:40:47] INFO root fetch - processPackages [weather-command]: Remove: archive file [/home/abi/fetcher/tmp/weather_command-6.1.1.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - processPackages [weather-command]: Remove: archive file [/home/abi/fetcher/tmp/weather_command-6.1.2.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - main [MainThread]: End processing [weather-command]: success
+[2023-06-25 16:40:47] INFO root fetch - processPackages [purpleair-api]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_api-1.0.2a1.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - processPackages [purpleair-api]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_api-1.1.0a1.tar.gz]
+[2023-06-25 16:40:47] INFO root fetch - main [MainThread]: End processing [purpleair-api]: success
+[2023-06-25 16:40:49] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.1.1.tar.gz]
+[2023-06-25 16:40:49] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.2.0.tar.gz]
+[2023-06-25 16:40:49] INFO root fetch - main [MainThread]: End processing [prodsys]: success
+[2023-06-25 16:40:49] INFO root fetch - main [MainThread]: Store serial: [18636932]
