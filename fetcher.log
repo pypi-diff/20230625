@@ -10927,3 +10927,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 16:30:28] INFO root fetch - processPackages [modelfree-protein15n]: Remove: archive file [/home/abi/fetcher/tmp/modelfree-protein15n-0.0.7.tar.gz]
 [2023-06-25 16:30:28] INFO root fetch - main [MainThread]: End processing [modelfree-protein15n]: success
 [2023-06-25 16:30:28] INFO root fetch - main [MainThread]: Store serial: [18636895]
+[2023-06-25 16:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636895]
+[2023-06-25 16:35:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 16:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SubPack
+[2023-06-25 16:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: convergaince-client
+[2023-06-25 16:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: userapiLib
+[2023-06-25 16:35:36] WARNING root fetch - processPackages [convergaince-client]: Skipping, unable to determine old version
+[2023-06-25 16:35:36] WARNING root fetch - processPackages [SubPack]: Skipping, unable to determine old version
+[2023-06-25 16:35:36] INFO root fetch - main [MainThread]: End processing [convergaince-client] error
+[2023-06-25 16:35:36] INFO root fetch - main [MainThread]: End processing [SubPack] error
+[2023-06-25 16:35:36] WARNING root fetch - processPackages [userapiLib]: Skipping, unable to determine old version
+[2023-06-25 16:35:36] INFO root fetch - main [MainThread]: End processing [userapiLib] error
+[2023-06-25 16:35:36] INFO root fetch - main [MainThread]: Store serial: [18636908]
