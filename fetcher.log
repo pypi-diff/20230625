@@ -9361,3 +9361,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:15:51] INFO root fetch - main [MainThread]: End processing [sphinx-markdown-builder]: success
 [2023-06-25 14:15:51] INFO root fetch - main [MainThread]: End processing [draggan]: success
 [2023-06-25 14:15:51] INFO root fetch - main [MainThread]: Store serial: [18636185]
+[2023-06-25 14:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636185]
+[2023-06-25 14:21:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 14:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-mail
+[2023-06-25 14:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmaps-locator
+[2023-06-25 14:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: speech-bot-helpers
+[2023-06-25 14:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitcoinX
+[2023-06-25 14:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: work-time-log
+[2023-06-25 14:21:00] WARNING root fetch - processPackages [gmaps-locator]: Skipping, unable to determine old version
+[2023-06-25 14:21:00] INFO root fetch - main [MainThread]: End processing [gmaps-locator] error
+[2023-06-25 14:21:00] INFO root fetch - processPackages [work-time-log]: New version: [0.99.2.post1] Old Version: [0.99.2]
+[2023-06-25 14:21:00] INFO root fetch - processPackages [speech-bot-helpers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 14:21:00] INFO root fetch - processPackages [bitcoinX]: New version: [0.8] Old Version: [0.7.1]
+[2023-06-25 14:21:00] INFO root fetch - processPackages [fastapi-mail]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-25 14:21:00] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/3b/72/4c46276cbaebd8ccb9e8034b39c1e6871a2311c610918454238d94ec6f16/speech_bot_helpers-0.1.0.tar.gz
+[2023-06-25 14:21:00] INFO root fetch - processPackages [work-time-log]: Downloading https://files.pythonhosted.org/packages/56/a9/ca4f7096fc717096b0c72e3551ede102278c4db17eca388c3b28180bcb52/work-time-log-0.99.2.tar.gz
+[2023-06-25 14:21:00] INFO root fetch - processPackages [fastapi-mail]: Downloading https://files.pythonhosted.org/packages/43/e4/51632219174e92b6ec383ee696998ec21d24a8768ce11ba0410a35c49ce1/fastapi_mail-1.2.8.tar.gz
+[2023-06-25 14:21:00] INFO root fetch - processPackages [bitcoinX]: Downloading https://files.pythonhosted.org/packages/e8/f9/c8021840d4c07da5117a100469374517cf678f30c3adb61aa988f478d67b/bitcoinX-0.7.1.tar.gz
+[2023-06-25 14:21:01] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/64/8e/da50ce7af31ceb67c56123d62ecc0c7f931d34726a5fe68c5bf056db8395/speech_bot_helpers-0.1.1.tar.gz
+[2023-06-25 14:21:01] INFO root fetch - processPackages [fastapi-mail]: Downloading https://files.pythonhosted.org/packages/01/ff/af24ddaf7c40b3e8877d0f2af44f5c61b4dad607ba01be48540e85522c22/fastapi_mail-1.2.9.tar.gz
+[2023-06-25 14:21:01] INFO root fetch - processPackages [work-time-log]: Downloading https://files.pythonhosted.org/packages/f2/3c/8252c8e10fe5ea561b3c93e1ec358e52afeeb8ed245d47e8a066d43a7629/work-time-log-0.99.2.post1.tar.gz
+[2023-06-25 14:21:01] INFO root fetch - processPackages [bitcoinX]: Downloading https://files.pythonhosted.org/packages/85/ef/0b49659936db93463907c5516a34ed679686b16d9079b8f3b488c309eae3/bitcoinX-0.8.tar.gz
+[2023-06-25 14:21:01] INFO root fetch - processPackages [fastapi-mail]: executing diffoscope
+[2023-06-25 14:21:01] INFO root fetch - processPackages [fastapi-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mail-1.2.8.tar.gz tmp/fastapi_mail-1.2.9.tar.gz --markdown 20230625/f/fastapi-mail/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-25 14:21:01] INFO root fetch - processPackages [speech-bot-helpers]: executing diffoscope
+[2023-06-25 14:21:01] INFO root fetch - processPackages [speech-bot-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_bot_helpers-0.1.0.tar.gz tmp/speech_bot_helpers-0.1.1.tar.gz --markdown 20230625/s/speech-bot-helpers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 14:21:01] INFO root fetch - processPackages [work-time-log]: executing diffoscope
+[2023-06-25 14:21:01] INFO root fetch - processPackages [work-time-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-time-log-0.99.2.tar.gz tmp/work-time-log-0.99.2.post1.tar.gz --markdown 20230625/w/work-time-log/0.99.2-0.99.2.post1/diff.md --exclude *.pyd
+[2023-06-25 14:21:01] INFO root fetch - processPackages [bitcoinX]: executing diffoscope
+[2023-06-25 14:21:01] INFO root fetch - processPackages [bitcoinX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoinX-0.7.1.tar.gz tmp/bitcoinX-0.8.tar.gz --markdown 20230625/b/bitcoinX/0.7.1-0.8/diff.md --exclude *.pyd
+[2023-06-25 14:21:02] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.1.0.tar.gz]
+[2023-06-25 14:21:02] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.1.1.tar.gz]
+[2023-06-25 14:21:02] INFO root fetch - main [MainThread]: End processing [speech-bot-helpers]: success
+[2023-06-25 14:21:02] INFO root fetch - processPackages [work-time-log]: Remove: archive file [/home/abi/fetcher/tmp/work-time-log-0.99.2.tar.gz]
+[2023-06-25 14:21:02] INFO root fetch - processPackages [work-time-log]: Remove: archive file [/home/abi/fetcher/tmp/work-time-log-0.99.2.post1.tar.gz]
+[2023-06-25 14:21:02] INFO root fetch - main [MainThread]: End processing [work-time-log]: success
+[2023-06-25 14:21:02] INFO root fetch - processPackages [bitcoinX]: Remove: archive file [/home/abi/fetcher/tmp/bitcoinX-0.7.1.tar.gz]
+[2023-06-25 14:21:02] INFO root fetch - processPackages [bitcoinX]: Remove: archive file [/home/abi/fetcher/tmp/bitcoinX-0.8.tar.gz]
+[2023-06-25 14:21:02] INFO root fetch - main [MainThread]: End processing [bitcoinX]: success
+[2023-06-25 14:21:56] INFO root fetch - processPackages [fastapi-mail]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mail-1.2.8.tar.gz]
+[2023-06-25 14:21:56] INFO root fetch - processPackages [fastapi-mail]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mail-1.2.9.tar.gz]
+[2023-06-25 14:21:56] INFO root fetch - main [MainThread]: End processing [fastapi-mail]: success
+[2023-06-25 14:21:56] INFO root fetch - main [MainThread]: Store serial: [18636212]
