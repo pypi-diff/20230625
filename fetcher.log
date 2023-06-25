@@ -7655,3 +7655,58 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 11:35:50] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.5.tar.gz]
 [2023-06-25 11:35:50] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-06-25 11:35:50] INFO root fetch - main [MainThread]: Store serial: [18635397]
+[2023-06-25 11:40:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635397]
+[2023-06-25 11:40:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 11:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-utilities
+[2023-06-25 11:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atro-pyparser
+[2023-06-25 11:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-06-25 11:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-rs-opencl
+[2023-06-25 11:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-utilities
+[2023-06-25 11:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: joserfc
+[2023-06-25 11:40:59] INFO root fetch - processPackages [atro-pyparser]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 11:40:59] INFO root fetch - processPackages [llm-rs-opencl]: New version: [0.2.12] Old Version: [0.0.1]
+[2023-06-25 11:40:59] INFO root fetch - processPackages [automation-utilities]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-25 11:40:59] INFO root fetch - processPackages [automation-utilities]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-25 11:40:59] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 11:40:59] INFO root fetch - processPackages [joserfc]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-25 11:40:59] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-25 11:40:59] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/34/ef/8f725d065008a08f3b89653364d290851c26239a9709a4ee53ee122915e6/automation-utilities-1.1.1.tar.gz
+[2023-06-25 11:40:59] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/34/ef/8f725d065008a08f3b89653364d290851c26239a9709a4ee53ee122915e6/automation-utilities-1.1.1.tar.gz
+[2023-06-25 11:40:59] INFO root fetch - processPackages [llm-rs-opencl]: Downloading https://files.pythonhosted.org/packages/6a/3a/ce1cdf6c7bd5d51a3670520fc477e73e5f3c571334956bbdecf4663d8f92/llm-rs-opencl-0.0.1.tar.gz
+[2023-06-25 11:40:59] INFO root fetch - processPackages [atro-pyparser]: Downloading https://files.pythonhosted.org/packages/a0/38/0a4bfa5df4f19a3a1d1380d06acbb5ee2d1a3876d3f67ea48f0108919b52/atro-pyparser-0.0.1.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [joserfc]: Downloading https://files.pythonhosted.org/packages/20/e1/2cb2513838933dab7e4358e6e77297cb7d6421d9727b7bb994b840084805/joserfc-0.1.0.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/97/53/70f4abeeb767b43965a26a78ad590651a055c20891f30379445c7a5e80d0/automation-utilities-1.1.2.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/97/53/70f4abeeb767b43965a26a78ad590651a055c20891f30379445c7a5e80d0/automation-utilities-1.1.2.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [atro-pyparser]: Downloading https://files.pythonhosted.org/packages/70/bd/5abe9beac5db322d28f1ac7ca25e6b8304c517fd4134ecba6752b4d3548e/atro-pyparser-0.0.2.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-25 11:41:00] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230625/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 11:41:00] INFO root fetch - processPackages [llm-rs-opencl]: Downloading https://files.pythonhosted.org/packages/98/02/183e23f5a7a5c7fdfd86844d29c689f9d10353732908970270055b6d3275/llm_rs_opencl-0.2.12-cp37-abi3-win_amd64.whl
+[2023-06-25 11:41:00] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-25 11:41:00] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.1.1.tar.gz tmp/automation-utilities-1.1.2.tar.gz --markdown 20230625/a/automation-utilities/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-25 11:41:00] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-25 11:41:00] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.1.1.tar.gz tmp/automation-utilities-1.1.2.tar.gz --markdown 20230625/a/automation-utilities/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-25 11:41:00] INFO root fetch - processPackages [joserfc]: Downloading https://files.pythonhosted.org/packages/a8/28/5bec50ef21aae37461d36f66d92c0e735f67272f834f2bb36a13942fc570/joserfc-0.2.0.tar.gz
+[2023-06-25 11:41:00] INFO root fetch - processPackages [atro-pyparser]: executing diffoscope
+[2023-06-25 11:41:00] INFO root fetch - processPackages [atro-pyparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyparser-0.0.1.tar.gz tmp/atro-pyparser-0.0.2.tar.gz --markdown 20230625/a/atro-pyparser/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 11:41:00] INFO root fetch - processPackages [joserfc]: executing diffoscope
+[2023-06-25 11:41:00] INFO root fetch - processPackages [joserfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joserfc-0.1.0.tar.gz tmp/joserfc-0.2.0.tar.gz --markdown 20230625/j/joserfc/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 11:41:00] INFO root fetch - processPackages [llm-rs-opencl]: executing diffoscope
+[2023-06-25 11:41:00] INFO root fetch - processPackages [llm-rs-opencl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-rs-opencl-0.0.1.tar.gz tmp/llm_rs_opencl-0.2.12-cp37-abi3-win_amd64.whl.zip --markdown 20230625/l/llm-rs-opencl/0.0.1-0.2.12/diff.md --exclude *.pyd
+[2023-06-25 11:41:01] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.1.1.tar.gz]
+[2023-06-25 11:41:01] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.1.2.tar.gz]
+[2023-06-25 11:41:01] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-25 11:41:01] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-25 11:41:01] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-25 11:41:01] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-25 11:41:01] INFO root fetch - processPackages [atro-pyparser]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyparser-0.0.1.tar.gz]
+[2023-06-25 11:41:01] INFO root fetch - processPackages [atro-pyparser]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyparser-0.0.2.tar.gz]
+[2023-06-25 11:41:01] INFO root fetch - main [MainThread]: End processing [atro-pyparser]: success
+[2023-06-25 11:41:01] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-25 11:41:02] INFO root fetch - processPackages [joserfc]: Remove: archive file [/home/abi/fetcher/tmp/joserfc-0.1.0.tar.gz]
+[2023-06-25 11:41:02] INFO root fetch - processPackages [joserfc]: Remove: archive file [/home/abi/fetcher/tmp/joserfc-0.2.0.tar.gz]
+[2023-06-25 11:41:02] INFO root fetch - main [MainThread]: End processing [joserfc]: success
+[2023-06-25 11:41:02] INFO root fetch - processPackages [llm-rs-opencl]: Remove: archive file [/home/abi/fetcher/tmp/llm-rs-opencl-0.0.1.tar.gz]
+[2023-06-25 11:41:02] INFO root fetch - processPackages [llm-rs-opencl]: Remove: archive file [/home/abi/fetcher/tmp/llm_rs_opencl-0.2.12-cp37-abi3-win_amd64.whl.zip]
+[2023-06-25 11:41:02] INFO root fetch - main [MainThread]: End processing [llm-rs-opencl]: success
+[2023-06-25 11:41:02] INFO root fetch - main [MainThread]: Store serial: [18635420]
