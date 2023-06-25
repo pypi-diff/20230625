@@ -13394,3 +13394,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:54:09] INFO root fetch - processPackages [jhu-assembly-linter]: Remove: archive file [/home/abi/fetcher/tmp/jhu_assembly_linter-0.1.5.tar.gz]
 [2023-06-25 19:54:09] INFO root fetch - main [MainThread]: End processing [jhu-assembly-linter]: success
 [2023-06-25 19:54:09] INFO root fetch - main [MainThread]: Store serial: [18637953]
+[2023-06-25 19:59:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637953]
+[2023-06-25 19:59:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polyfactory
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcloud-secret-configure
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnr
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ndx-miniscope
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llm-api-client
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-git-gitlab
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tavern
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hahomematic
+[2023-06-25 19:59:18] INFO root fetch - processPackages [gcloud-secret-configure]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 19:59:18] WARNING root fetch - processPackages [llm-api-client]: Skipping, unable to determine old version
+[2023-06-25 19:59:18] WARNING root fetch - processPackages [gnr]: Skipping, unable to determine old version
+[2023-06-25 19:59:18] INFO root fetch - processPackages [llm-api-client]: Start processing: nonebot-plugin-game-collection
+[2023-06-25 19:59:18] INFO root fetch - processPackages [gnr]: Start processing: pykebab
+[2023-06-25 19:59:18] INFO root fetch - main [MainThread]: End processing [llm-api-client] error
+[2023-06-25 19:59:18] INFO root fetch - main [MainThread]: End processing [gnr] error
+[2023-06-25 19:59:18] INFO root fetch - processPackages [polyfactory]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ndx-miniscope]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [tavern]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [hahomematic]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [pykebab]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-25 19:59:18] INFO root fetch - processPackages [gcloud-secret-configure]: Downloading https://files.pythonhosted.org/packages/fb/bf/59ba2aa14f95314b63ecf0e773cf894627e97d139297c658ee32e666d04a/gcloud-secret-configure-0.0.3.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-25 19:59:18] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/83/68/d64ab542d8d3a5f3a24b830120633610b599855ab13102ef4db6b961f6d8/hahomematic-2023.6.0.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ndx-miniscope]: Downloading https://files.pythonhosted.org/packages/dc/e9/c7b6243b3769e05577967d8ae20939926612740f3512f6eec163a9f302b7/ndx-miniscope-0.5.0.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/e4/1b/c7252243bf56c3617f681dbee7e5a3b596f108aa04d7d21dc1395a78b5d3/polyfactory-2.3.3.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [tavern]: Downloading https://files.pythonhosted.org/packages/3f/07/5a144e10daf323e83cd4df03257286561bef9a126a6bc0826cf816ba0884/tavern-2.1.0.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [gcloud-secret-configure]: Downloading https://files.pythonhosted.org/packages/f8/c4/a3e28739f0d4df999b2d7ddf82dd3876b6d15acdba48caa3b387de06689c/gcloud-secret-configure-1.0.0.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230625/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 19:59:18] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/33/fd/c40b2b1136c887cae386e613544f2c04c0ca81576c9abf434195c8c86e41/pykebab-0.7.0.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [gcloud-secret-configure]: executing diffoscope
+[2023-06-25 19:59:18] INFO root fetch - processPackages [gcloud-secret-configure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-secret-configure-0.0.3.tar.gz tmp/gcloud-secret-configure-1.0.0.tar.gz --markdown 20230625/g/gcloud-secret-configure/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-25 19:59:18] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230625/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-25 19:59:18] INFO root fetch - processPackages [polyfactory]: Downloading https://files.pythonhosted.org/packages/ab/f3/e10f4fca6ce059158cf84d25a5662a86b6ff0009d6aa85a7ccdbeb9bb8d0/polyfactory-2.4.0.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/69/52/1964194e614d3044d2714b97ecd24e051c6d3c2258dc49dbfe7fe96616cb/hahomematic-2023.6.1.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [ndx-miniscope]: Downloading https://files.pythonhosted.org/packages/fa/25/338cb8fa6f444e5a15035fa845a9be0f40e7b9f46085b7d7ff3db39200f6/ndx-miniscope-0.5.1.tar.gz
+[2023-06-25 19:59:18] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-25 19:59:19] INFO root fetch - processPackages [tavern]: Downloading https://files.pythonhosted.org/packages/bd/b6/b995236f8ef419dc725622ca49785e45ebf700a058e32ff40c9ee9b19bd5/tavern-2.2.0.tar.gz
+[2023-06-25 19:59:19] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-06-25 19:59:19] INFO root fetch - processPackages [ndx-miniscope]: executing diffoscope
+[2023-06-25 19:59:19] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.6.0.tar.gz tmp/hahomematic-2023.6.1.tar.gz --markdown 20230625/h/hahomematic/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-25 19:59:19] INFO root fetch - processPackages [ndx-miniscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndx-miniscope-0.5.0.tar.gz tmp/ndx-miniscope-0.5.1.tar.gz --markdown 20230625/n/ndx-miniscope/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-25 19:59:19] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/7b/4d/2718d0187c1d083e5f04d622d4b10967566faecea3648d2e8d4634756dfb/pykebab-0.7.1.tar.gz
+[2023-06-25 19:59:19] INFO root fetch - processPackages [polyfactory]: executing diffoscope
+[2023-06-25 19:59:19] INFO root fetch - processPackages [polyfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfactory-2.3.3.tar.gz tmp/polyfactory-2.4.0.tar.gz --markdown 20230625/p/polyfactory/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-06-25 19:59:19] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 19:59:19] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 19:59:19] INFO root fetch - processPackages [tavern]: executing diffoscope
+[2023-06-25 19:59:19] INFO root fetch - processPackages [tavern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tavern-2.1.0.tar.gz tmp/tavern-2.2.0.tar.gz --markdown 20230625/t/tavern/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-25 19:59:19] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-06-25 19:59:19] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-06-25 19:59:19] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.7.0.tar.gz tmp/pykebab-0.7.1.tar.gz --markdown 20230625/p/pykebab/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-25 19:59:20] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-25 19:59:20] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230625/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 19:59:20] INFO root fetch - processPackages [gcloud-secret-configure]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-secret-configure-0.0.3.tar.gz]
+[2023-06-25 19:59:20] INFO root fetch - processPackages [gcloud-secret-configure]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-secret-configure-1.0.0.tar.gz]
+[2023-06-25 19:59:20] INFO root fetch - main [MainThread]: End processing [gcloud-secret-configure]: success
+[2023-06-25 19:59:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-25 19:59:20] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-25 19:59:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-25 19:59:20] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:59:20] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:59:20] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 19:59:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-25 19:59:21] INFO root fetch - processPackages [ndx-miniscope]: Remove: archive file [/home/abi/fetcher/tmp/ndx-miniscope-0.5.0.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - processPackages [ndx-miniscope]: Remove: archive file [/home/abi/fetcher/tmp/ndx-miniscope-0.5.1.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - main [MainThread]: End processing [ndx-miniscope]: success
+[2023-06-25 19:59:21] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.0.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.1.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-06-25 19:59:21] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.6.0.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.6.1.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-06-25 19:59:21] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.3.3.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - processPackages [polyfactory]: Remove: archive file [/home/abi/fetcher/tmp/polyfactory-2.4.0.tar.gz]
+[2023-06-25 19:59:21] INFO root fetch - main [MainThread]: End processing [polyfactory]: success
+[2023-06-25 19:59:22] INFO root fetch - processPackages [tavern]: Remove: archive file [/home/abi/fetcher/tmp/tavern-2.1.0.tar.gz]
+[2023-06-25 19:59:22] INFO root fetch - processPackages [tavern]: Remove: archive file [/home/abi/fetcher/tmp/tavern-2.2.0.tar.gz]
+[2023-06-25 19:59:22] INFO root fetch - main [MainThread]: End processing [tavern]: success
+[2023-06-25 19:59:23] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-06-25 19:59:23] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-06-25 19:59:23] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-25 19:59:23] INFO root fetch - main [MainThread]: Store serial: [18637995]
