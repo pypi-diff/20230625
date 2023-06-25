@@ -2933,3 +2933,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:26:34] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-3.1.1.tar.gz]
 [2023-06-25 04:26:34] INFO root fetch - main [MainThread]: End processing [vernum]: success
 [2023-06-25 04:26:34] INFO root fetch - main [MainThread]: Store serial: [18633557]
+[2023-06-25 04:31:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633557]
+[2023-06-25 04:31:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 04:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miao-make
+[2023-06-25 04:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-06-25 04:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openssm
+[2023-06-25 04:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfsd
+[2023-06-25 04:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-ttauto-crawler
+[2023-06-25 04:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a2y-fef
+[2023-06-25 04:31:43] INFO root fetch - processPackages [miao-make]: New version: [20230624] Old Version: [20230622]
+[2023-06-25 04:31:43] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.41] Old Version: [0.1.8.40]
+[2023-06-25 04:31:43] WARNING root fetch - processPackages [openssm]: Skipping, unable to determine old version
+[2023-06-25 04:31:43] INFO root fetch - main [MainThread]: End processing [openssm] error
+[2023-06-25 04:31:43] INFO root fetch - processPackages [a2y-fef]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-25 04:31:43] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 04:31:43] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 04:31:43] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/e6/c5/fa6e0bded9b736d168e2bcd9338d7f1bc11c1d3d0c2969cb15ab88906c97/pillar1-0.1.8.40.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [miao-make]: Downloading https://files.pythonhosted.org/packages/ca/87/37caa04df4e81c2adaad9862f5bfb5d4ee561698078e5ae4fdad5bcfa1ef/miao-make-20230622.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [a2y-fef]: Downloading https://files.pythonhosted.org/packages/a5/a0/6fe6a3b095532004faf48fe9549e97861aeb2d23d6345091e228ad3ff6f4/a2y_fef-0.9.6-cp36-cp36m-win32.whl
+[2023-06-25 04:31:43] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/86/cb/11e7bb776fb2cea74e385e08106163b78a4082e61f2d42456293b5e8070d/pillar1-0.1.8.41.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 04:31:43] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.40.tar.gz tmp/pillar1-0.1.8.41.tar.gz --markdown 20230625/p/pillar1/0.1.8.40-0.1.8.41/diff.md --exclude *.pyd
+[2023-06-25 04:31:43] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 04:31:43] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 04:31:43] INFO root fetch - processPackages [miao-make]: Downloading https://files.pythonhosted.org/packages/e1/5e/f70aa35bc6314e16ed98f2c6497a6cc7e426eb530ff991f0dbb52f2839c7/miao-make-20230624.tar.gz
+[2023-06-25 04:31:43] INFO root fetch - processPackages [a2y-fef]: Downloading https://files.pythonhosted.org/packages/a4/18/0af278f5f97c38f6384e623b3c5ebce76f377c0f2bff9a5d00d1896cad2c/a2y_fef-0.9.7-cp36-cp36m-win32.whl
+[2023-06-25 04:31:43] INFO root fetch - processPackages [miao-make]: executing diffoscope
+[2023-06-25 04:31:43] INFO root fetch - processPackages [miao-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miao-make-20230622.tar.gz tmp/miao-make-20230624.tar.gz --markdown 20230625/m/miao-make/20230622-20230624/diff.md --exclude *.pyd
+[2023-06-25 04:31:44] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-06-25 04:31:44] INFO root fetch - processPackages [a2y-fef]: executing diffoscope
+[2023-06-25 04:31:44] INFO root fetch - processPackages [a2y-fef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_fef-0.9.6-cp36-cp36m-win32.whl.zip tmp/a2y_fef-0.9.7-cp36-cp36m-win32.whl.zip --markdown 20230625/a/a2y-fef/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-25 04:31:44] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-06-25 04:31:44] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230625/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 04:31:45] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.40.tar.gz]
+[2023-06-25 04:31:45] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.41.tar.gz]
+[2023-06-25 04:31:45] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 04:31:45] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 04:31:45] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 04:31:45] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 04:31:45] INFO root fetch - processPackages [miao-make]: Remove: archive file [/home/abi/fetcher/tmp/miao-make-20230622.tar.gz]
+[2023-06-25 04:31:45] INFO root fetch - processPackages [miao-make]: Remove: archive file [/home/abi/fetcher/tmp/miao-make-20230624.tar.gz]
+[2023-06-25 04:31:45] INFO root fetch - main [MainThread]: End processing [miao-make]: success
+[2023-06-25 04:31:45] INFO root fetch - processPackages [a2y-fef]: Remove: archive file [/home/abi/fetcher/tmp/a2y_fef-0.9.6-cp36-cp36m-win32.whl.zip]
+[2023-06-25 04:31:45] INFO root fetch - processPackages [a2y-fef]: Remove: archive file [/home/abi/fetcher/tmp/a2y_fef-0.9.7-cp36-cp36m-win32.whl.zip]
+[2023-06-25 04:31:45] INFO root fetch - main [MainThread]: End processing [a2y-fef]: success
+[2023-06-25 04:31:47] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-06-25 04:31:47] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-06-25 04:31:47] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-06-25 04:31:47] INFO root fetch - main [MainThread]: Store serial: [18633580]
