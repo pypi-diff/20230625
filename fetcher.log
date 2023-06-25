@@ -16383,3 +16383,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 23:51:18] INFO root fetch - processPackages [dynbps]: Remove: archive file [/home/abi/fetcher/tmp/dynbps-0.0.9.tar.gz]
 [2023-06-25 23:51:18] INFO root fetch - main [MainThread]: End processing [dynbps]: success
 [2023-06-25 23:51:18] INFO root fetch - main [MainThread]: Store serial: [18639270]
+[2023-06-25 23:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639270]
+[2023-06-25 23:56:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 23:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: captif-cpx-db
+[2023-06-25 23:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hardened-steel
+[2023-06-25 23:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow-providers-kettle
+[2023-06-25 23:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bev
+[2023-06-25 23:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c4m-pdk-gf180mcu
+[2023-06-25 23:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piel
+[2023-06-25 23:56:28] INFO root fetch - processPackages [piel]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-25 23:56:28] INFO root fetch - processPackages [hardened-steel]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 23:56:28] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.9] Old Version: [0.8]
+[2023-06-25 23:56:28] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 23:56:28] INFO root fetch - processPackages [bev]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-25 23:56:28] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/25/8c/30b758b8d51a0a905208100dbfbcc193445c79e48bfb7581d6b9ca53ae0b/piel-0.0.29.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/56/75/520a4f343869032bde441c1e003f04318f43c9e63f8fbc876f5cb3f83289/captif_cpx_db-0.8.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [bev]: Downloading https://files.pythonhosted.org/packages/1b/85/1330dbcea09ee730787e24ab049312ba9b1cbbb8cbb820565f9133b22567/bev-0.8.1.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/e5/91/650d1988a5290a461f0454458cd4061309b1c229c7ae1098d50ff156dee7/hardened-steel-0.0.7.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [apache-airflow-providers-kettle]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-25 23:56:28] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Downloading https://files.pythonhosted.org/packages/c0/9a/610ac4df5f2ef14f786ee9eb20641aa193747c302f732ebf3b78ccd5c49a/c4m_pdk_gf180mcu-0.0.3-py3-none-any.whl
+[2023-06-25 23:56:28] INFO root fetch - processPackages [piel]: Downloading https://files.pythonhosted.org/packages/86/00/405f5086167d09dd3a3aab4c33c384b2ab4cd26c07d6fb111bfe81a6e43f/piel-0.0.30.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/6b/ba/d60af5efca2bff34a494aaa4b8906e6a0010047815301cfe17ad93729c78/hardened-steel-0.0.8.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/13/2d/bfd1ce82d1877d5c33ba5d16cc355203b48146e1b37fc019560379c8f923/captif_cpx_db-0.9.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/e9/74/df0722bb7a1e98b64e2fcd63d44c984b36efe542d2324d27d309aa2db4a6/apache_airflow_providers_kettle-1.0.3.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [bev]: Downloading https://files.pythonhosted.org/packages/49/20/7dff47aa954e9001001ba488308234815a07d81e3d6c2ac7ad4517030987/bev-0.9.0.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Downloading https://files.pythonhosted.org/packages/26/9f/423d8e4e3558d4e0bc3490d36a5c81f5c3f8a9271962adadceba2716cc36/c4m_pdk_gf180mcu-0.0.4.tar.gz
+[2023-06-25 23:56:28] INFO root fetch - processPackages [piel]: executing diffoscope
+[2023-06-25 23:56:28] INFO root fetch - processPackages [piel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piel-0.0.29.tar.gz tmp/piel-0.0.30.tar.gz --markdown 20230625/p/piel/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-25 23:56:28] INFO root fetch - processPackages [hardened-steel]: executing diffoscope
+[2023-06-25 23:56:28] INFO root fetch - processPackages [hardened-steel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardened-steel-0.0.7.tar.gz tmp/hardened-steel-0.0.8.tar.gz --markdown 20230625/h/hardened-steel/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 23:56:28] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-06-25 23:56:28] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.8.tar.gz tmp/captif_cpx_db-0.9.tar.gz --markdown 20230625/c/captif-cpx-db/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-25 23:56:28] INFO root fetch - processPackages [bev]: executing diffoscope
+[2023-06-25 23:56:28] INFO root fetch - processPackages [bev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bev-0.8.1.tar.gz tmp/bev-0.9.0.tar.gz --markdown 20230625/b/bev/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 23:56:28] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: executing diffoscope
+[2023-06-25 23:56:28] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_gf180mcu-0.0.3-py3-none-any.whl.zip tmp/c4m_pdk_gf180mcu-0.0.4.tar.gz --markdown 20230625/c/c4m-pdk-gf180mcu/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 23:56:29] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Downloading https://files.pythonhosted.org/packages/33/9f/24e34fc2e741683471d5daf969958d05b222938a4631806891c71814349d/apache_airflow_providers_kettle-1.0.4.tar.gz
+[2023-06-25 23:56:29] INFO root fetch - processPackages [apache-airflow-providers-kettle]: executing diffoscope
+[2023-06-25 23:56:29] INFO root fetch - processPackages [apache-airflow-providers-kettle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_kettle-1.0.3.tar.gz tmp/apache_airflow_providers_kettle-1.0.4.tar.gz --markdown 20230625/a/apache-airflow-providers-kettle/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-25 23:56:30] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.8.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.9.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-06-25 23:56:30] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_gf180mcu-0.0.3-py3-none-any.whl.zip]
+[2023-06-25 23:56:30] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_gf180mcu-0.0.4.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: End processing [c4m-pdk-gf180mcu]: success
+[2023-06-25 23:56:30] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.29.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - processPackages [piel]: Remove: archive file [/home/abi/fetcher/tmp/piel-0.0.30.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: End processing [piel]: success
+[2023-06-25 23:56:30] INFO root fetch - processPackages [bev]: Remove: archive file [/home/abi/fetcher/tmp/bev-0.8.1.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - processPackages [bev]: Remove: archive file [/home/abi/fetcher/tmp/bev-0.9.0.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: End processing [bev]: success
+[2023-06-25 23:56:30] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.3.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - processPackages [apache-airflow-providers-kettle]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_kettle-1.0.4.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-kettle]: success
+[2023-06-25 23:56:30] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.7.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.8.tar.gz]
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: End processing [hardened-steel]: success
+[2023-06-25 23:56:30] INFO root fetch - main [MainThread]: Store serial: [18639287]
