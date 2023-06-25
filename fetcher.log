@@ -4045,3 +4045,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:11:28] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.0.1.tar.gz]
 [2023-06-25 06:11:28] INFO root fetch - main [MainThread]: End processing [monstermash]: success
 [2023-06-25 06:11:28] INFO root fetch - main [MainThread]: Store serial: [18634018]
+[2023-06-25 06:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634018]
+[2023-06-25 06:16:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-remote-control
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mintomfig
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjava
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miuc
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytablereader
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: laconiq
+[2023-06-25 06:16:36] WARNING root fetch - processPackages [laconiq]: Skipping, unable to determine old version
+[2023-06-25 06:16:36] INFO root fetch - main [MainThread]: End processing [laconiq] error
+[2023-06-25 06:16:36] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 06:16:36] INFO root fetch - processPackages [mintomfig]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-25 06:16:36] INFO root fetch - processPackages [miuc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 06:16:36] INFO root fetch - processPackages [pyjava]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-25 06:16:36] INFO root fetch - processPackages [pytablereader]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/56/81/18550bcc5db7694ab46ab0cea54aa401b4194530542349dbd5cef5ac6f9b/pyjava-0.6.3.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/af/bb/9656071ed65f3df415ffacd3f4f829a5e7efb7ab41832a25b1ad24057f23/miuc-0.1.8.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [mintomfig]: Downloading https://files.pythonhosted.org/packages/a1/86/055ab26b379080a84f6fe9b522af4fbbb088bd632078b9f8ca1410988bcb/mintomfig-0.1.3.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/1a/82/71083fdea74d81102eb890ed19d820de270dbd9625f4371ed43d0449700e/ssh_remote_control-0.1.5.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pytablereader]: Downloading https://files.pythonhosted.org/packages/70/c1/7baa4f189b4b205b7e6b4a557a2f7100488fa5e1f23c43c96657e10f6ae4/pytablereader-0.9.2.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/97/72/3b0ef2bc7c6926ece589a3d9b2bab797de718992dcd38f7f5dd81c087e0a/miuc-0.1.9.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/65/dc/c9b3e6e89ddc9beb423bd04ffb6fdc90c96300589aada857d71a1a851a94/pyjava-0.6.4.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-06-25 06:16:37] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.8.tar.gz tmp/miuc-0.1.9.tar.gz --markdown 20230625/m/miuc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 06:16:37] INFO root fetch - processPackages [mintomfig]: Downloading https://files.pythonhosted.org/packages/ef/fc/9f52d43880a2f488215f6faf3a6a3a158179251c01a7b8b0b476d16e25f1/mintomfig-0.1.4.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/3c/c8/21b02da3139f5397da1d25c6589876303f0cf59fad19710e4373b71a6b45/ssh_remote_control-0.1.6.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.6.3.tar.gz tmp/pyjava-0.6.4.tar.gz --markdown 20230625/p/pyjava/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-25 06:16:37] INFO root fetch - processPackages [mintomfig]: executing diffoscope
+[2023-06-25 06:16:37] INFO root fetch - processPackages [mintomfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mintomfig-0.1.3.tar.gz tmp/mintomfig-0.1.4.tar.gz --markdown 20230625/m/mintomfig/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 06:16:37] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-25 06:16:37] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.5.tar.gz tmp/ssh_remote_control-0.1.6.tar.gz --markdown 20230625/s/ssh-remote-control/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pytablereader]: Downloading https://files.pythonhosted.org/packages/5c/1a/9aec837c4ff13c2f5f7c5519c32dcf21b56c4d449e71ce9a64dfadbe8bb5/pytablereader-0.9.3.tar.gz
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pytablereader]: executing diffoscope
+[2023-06-25 06:16:37] INFO root fetch - processPackages [pytablereader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytablereader-0.9.2.tar.gz tmp/pytablereader-0.9.3.tar.gz --markdown 20230625/p/pytablereader/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-25 06:16:38] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.8.tar.gz]
+[2023-06-25 06:16:38] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.9.tar.gz]
+[2023-06-25 06:16:38] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-06-25 06:16:39] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.3.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.4.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-06-25 06:16:39] INFO root fetch - processPackages [mintomfig]: Remove: archive file [/home/abi/fetcher/tmp/mintomfig-0.1.3.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - processPackages [mintomfig]: Remove: archive file [/home/abi/fetcher/tmp/mintomfig-0.1.4.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - main [MainThread]: End processing [mintomfig]: success
+[2023-06-25 06:16:39] INFO root fetch - processPackages [pytablereader]: Remove: archive file [/home/abi/fetcher/tmp/pytablereader-0.9.2.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - processPackages [pytablereader]: Remove: archive file [/home/abi/fetcher/tmp/pytablereader-0.9.3.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - main [MainThread]: End processing [pytablereader]: success
+[2023-06-25 06:16:39] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.5.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.6.tar.gz]
+[2023-06-25 06:16:39] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-25 06:16:39] INFO root fetch - main [MainThread]: Store serial: [18634038]
