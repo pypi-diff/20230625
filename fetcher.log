@@ -2730,3 +2730,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:55:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-06-25 03:55:20] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-25 03:55:20] INFO root fetch - main [MainThread]: Store serial: [18633416]
+[2023-06-25 04:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633416]
+[2023-06-25 04:00:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: histcite-python
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p-ttauto-crawler
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scotthsieh-projen-statemachine
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hf-deepali
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: saq
+[2023-06-25 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-base-extras
+[2023-06-25 04:00:29] WARNING root fetch - processPackages [hf-deepali]: Skipping, unable to determine old version
+[2023-06-25 04:00:29] INFO root fetch - main [MainThread]: End processing [hf-deepali] error
+[2023-06-25 04:00:29] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 04:00:29] INFO root fetch - processPackages [histcite-python]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-25 04:00:29] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 04:00:29] INFO root fetch - processPackages [saq]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-25 04:00:29] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 04:00:29] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 04:00:29] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-25 04:00:29] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/54/8b/df85e2db43c1639b0437e36a8fd2fec84d62a57c30db7d4299fef9ebe967/histcite-python-0.3.2.tar.gz
+[2023-06-25 04:00:29] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 04:00:29] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-25 04:00:29] INFO root fetch - processPackages [saq]: Downloading https://files.pythonhosted.org/packages/46/5e/300657f7894f65e54efd047adb7004eb23dd6f2f678d014016a00350c504/saq-0.9.3.tar.gz
+[2023-06-25 04:00:29] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [histcite-python]: Downloading https://files.pythonhosted.org/packages/96/87/862f37661cc7b578d508a0a36107c7ca1e6c5c4890e94a85944d1e6fdecf/histcite-python-0.3.3.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-25 04:00:30] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230625/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 04:00:30] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [histcite-python]: executing diffoscope
+[2023-06-25 04:00:30] INFO root fetch - processPackages [histcite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcite-python-0.3.2.tar.gz tmp/histcite-python-0.3.3.tar.gz --markdown 20230625/h/histcite-python/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-25 04:00:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [saq]: Downloading https://files.pythonhosted.org/packages/d7/68/6c0b0d0e519b86110e23d6a304520d05591afe5ccbdc05833a6ca2ba6b21/saq-0.9.4.tar.gz
+[2023-06-25 04:00:30] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 04:00:30] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 04:00:30] INFO root fetch - processPackages [saq]: executing diffoscope
+[2023-06-25 04:00:30] INFO root fetch - processPackages [saq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saq-0.9.3.tar.gz tmp/saq-0.9.4.tar.gz --markdown 20230625/s/saq/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-25 04:00:30] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-25 04:00:30] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230625/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 04:00:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-25 04:00:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230625/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-25 04:00:31] INFO root fetch - processPackages [histcite-python]: Remove: archive file [/home/abi/fetcher/tmp/histcite-python-0.3.2.tar.gz]
+[2023-06-25 04:00:31] INFO root fetch - processPackages [histcite-python]: Remove: archive file [/home/abi/fetcher/tmp/histcite-python-0.3.3.tar.gz]
+[2023-06-25 04:00:31] INFO root fetch - main [MainThread]: End processing [histcite-python]: success
+[2023-06-25 04:00:31] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 04:00:31] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 04:00:31] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 04:00:31] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-25 04:00:31] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-25 04:00:31] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-25 04:00:32] INFO root fetch - processPackages [saq]: Remove: archive file [/home/abi/fetcher/tmp/saq-0.9.3.tar.gz]
+[2023-06-25 04:00:32] INFO root fetch - processPackages [saq]: Remove: archive file [/home/abi/fetcher/tmp/saq-0.9.4.tar.gz]
+[2023-06-25 04:00:32] INFO root fetch - main [MainThread]: End processing [saq]: success
+[2023-06-25 04:00:32] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-25 04:00:32] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-25 04:00:32] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-25 04:00:32] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-25 04:00:32] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-25 04:00:32] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-25 04:00:32] INFO root fetch - main [MainThread]: Store serial: [18633478]
