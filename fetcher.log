@@ -8759,3 +8759,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:22:12] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.4.tar.gz]
 [2023-06-25 13:22:12] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-25 13:22:12] INFO root fetch - main [MainThread]: Store serial: [18635922]
+[2023-06-25 13:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635922]
+[2023-06-25 13:27:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-replication
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-Ayiin
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chomp64
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrfix
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-assimilator
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchtnt-nightly
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flook
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: XGenTS
+[2023-06-25 13:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: XGen-Time-Series
+[2023-06-25 13:27:21] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.6.dev9] Old Version: [0.4.6.dev8]
+[2023-06-25 13:27:21] INFO root fetch - processPackages [mrfix]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-25 13:27:21] WARNING root fetch - processPackages [flook]: Skipping, unable to determine old version
+[2023-06-25 13:27:21] INFO root fetch - main [MainThread]: End processing [flook] error
+[2023-06-25 13:27:21] INFO root fetch - processPackages [chomp64]: New version: [2.2.2] Old Version: [2.1.2]
+[2023-06-25 13:27:21] INFO root fetch - processPackages [mysql-replication]: New version: [0.9] Old Version: [0.8]
+[2023-06-25 13:27:21] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-25 13:27:21] INFO root fetch - processPackages [py-assimilator]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-06-25 13:27:22] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-25 13:27:22] WARNING root fetch - processPackages [XGen-Time-Series]: Skipping, unable to determine old version
+[2023-06-25 13:27:22] INFO root fetch - main [MainThread]: End processing [XGen-Time-Series] error
+[2023-06-25 13:27:22] WARNING root fetch - processPackages [XGenTS]: Skipping, unable to determine old version
+[2023-06-25 13:27:22] INFO root fetch - main [MainThread]: End processing [XGenTS] error
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/c6/09/c6ae25cef02f7dc4adcdee0ca56222107289f39b5f96f71ceb6352b2d317/py-Ayiin-0.4.6.dev8.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [chomp64]: Downloading https://files.pythonhosted.org/packages/f8/0d/008003cddbfe59d5b231400bf77a0424ed7a7a69e2fea7c5ad6c01ee690b/chomp64-2.1.2.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mysql-replication]: Downloading https://files.pythonhosted.org/packages/6e/e0/cea8648ecf06e88aa0c894b32751513dd26d00434017a2a5cec1c3d95c83/mysql-replication-0.8.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-assimilator]: Downloading https://files.pythonhosted.org/packages/87/b8/86e9d5b7967c0274daa3afb68035345d0ea64d7bb73a9e2f88a095148fd9/py_assimilator-1.2.4.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/38/20/897fb2c5b0213f1e1571b54820b4355999c474be186e86799a5f3e51f3f0/mrfix-2.0.5.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-25 13:27:22] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230625/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-25 13:27:22] INFO root fetch - processPackages [chomp64]: Downloading https://files.pythonhosted.org/packages/61/4f/965e6526e1ff0d5ed413b4bb490a8363324119b0ad3db2388ba6f8caaf0f/chomp64-2.2.2.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-assimilator]: Downloading https://files.pythonhosted.org/packages/63/30/6c5a969a07a98510ea0efb2daa4b0887c965560d37bf667435d5107b520f/py_assimilator-1.3.0.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/17/c3/54bd019b551cf6a64148fe1408f5425398b07f478085508c936308b218f2/mrfix-2.0.6.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [chomp64]: executing diffoscope
+[2023-06-25 13:27:22] INFO root fetch - processPackages [chomp64]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chomp64-2.1.2.tar.gz tmp/chomp64-2.2.2.tar.gz --markdown 20230625/c/chomp64/2.1.2-2.2.2/diff.md --exclude *.pyd
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mysql-replication]: Downloading https://files.pythonhosted.org/packages/d6/e8/7c4105691668684e3f94cdd223a8f6fa31af67e90092ddee835e4a7d69a1/mysql-replication-0.9.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-assimilator]: executing diffoscope
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-assimilator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_assimilator-1.2.4.tar.gz tmp/py_assimilator-1.3.0.tar.gz --markdown 20230625/p/py-assimilator/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/8c/f1/21dea6f120a71ca512dcb52fbb8f28c6bf46e1962cab68ba35e7c88e0cd3/py-Ayiin-0.4.6.dev9.tar.gz
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.5.tar.gz tmp/mrfix-2.0.6.tar.gz --markdown 20230625/m/mrfix/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-25 13:27:22] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.6.dev8.tar.gz tmp/py-Ayiin-0.4.6.dev9.tar.gz --markdown 20230625/p/py-Ayiin/0.4.6.dev8-0.4.6.dev9/diff.md --exclude *.pyd
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mysql-replication]: executing diffoscope
+[2023-06-25 13:27:22] INFO root fetch - processPackages [mysql-replication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-replication-0.8.tar.gz tmp/mysql-replication-0.9.tar.gz --markdown 20230625/m/mysql-replication/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-25 13:27:23] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-25 13:27:23] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-25 13:27:23] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-25 13:27:23] INFO root fetch - processPackages [chomp64]: Remove: archive file [/home/abi/fetcher/tmp/chomp64-2.1.2.tar.gz]
+[2023-06-25 13:27:23] INFO root fetch - processPackages [chomp64]: Remove: archive file [/home/abi/fetcher/tmp/chomp64-2.2.2.tar.gz]
+[2023-06-25 13:27:23] INFO root fetch - main [MainThread]: End processing [chomp64]: success
+[2023-06-25 13:27:24] INFO root fetch - processPackages [py-assimilator]: Remove: archive file [/home/abi/fetcher/tmp/py_assimilator-1.2.4.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - processPackages [py-assimilator]: Remove: archive file [/home/abi/fetcher/tmp/py_assimilator-1.3.0.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - main [MainThread]: End processing [py-assimilator]: success
+[2023-06-25 13:27:24] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.5.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.6.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-25 13:27:24] INFO root fetch - processPackages [mysql-replication]: Remove: archive file [/home/abi/fetcher/tmp/mysql-replication-0.8.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - processPackages [mysql-replication]: Remove: archive file [/home/abi/fetcher/tmp/mysql-replication-0.9.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - main [MainThread]: End processing [mysql-replication]: success
+[2023-06-25 13:27:24] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev8.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev9.tar.gz]
+[2023-06-25 13:27:24] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-25 13:27:24] INFO root fetch - main [MainThread]: Store serial: [18635954]
