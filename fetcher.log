@@ -2296,3 +2296,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:16:00] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-25 03:16:00] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-25 03:16:00] INFO root fetch - main [MainThread]: Store serial: [18633201]
+[2023-06-25 03:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633201]
+[2023-06-25 03:21:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 03:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hf-deepali
+[2023-06-25 03:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-06-25 03:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aemcmc-nightly
+[2023-06-25 03:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miuc
+[2023-06-25 03:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zcbot-celery-sdk
+[2023-06-25 03:21:09] INFO root fetch - processPackages [miuc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 03:21:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-25 03:21:09] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 03:21:09] WARNING root fetch - processPackages [hf-deepali]: Skipping, unable to determine old version
+[2023-06-25 03:21:09] INFO root fetch - main [MainThread]: End processing [hf-deepali] error
+[2023-06-25 03:21:09] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/a0/9f/760a0090255dbdb4f169384f4ccda29b54092cfcda6beedf9f5e8e028da4/miuc-0.1.5.tar.gz
+[2023-06-25 03:21:09] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230625] Old Version: [0.0.8.dev20230624]
+[2023-06-25 03:21:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-25 03:21:09] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/29/9c/587a49d1b6fe7435b040aacbc53bbd628af08070cae6024ad80637f979ed/miuc-0.1.6.tar.gz
+[2023-06-25 03:21:09] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/4c/b5/afb2bfe70b2370676ef969e320b714a06c96a1bba3cad13f5f5040450b48/zcbot-celery-sdk-0.0.8.tar.gz
+[2023-06-25 03:21:09] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/f5/20/b1ea6bcaad8dbaae7bef81b4595af65896a6a5680ad4aacc693b279fcc0b/aemcmc-nightly-0.0.8.dev20230624.tar.gz
+[2023-06-25 03:21:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-25 03:21:09] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-06-25 03:21:09] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.5.tar.gz tmp/miuc-0.1.6.tar.gz --markdown 20230625/m/miuc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 03:21:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-25 03:21:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230625/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:21:10] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a2/be/0fbf9dc3165821829f5d570963008713b4f769fd29ba6d8421df1f1fa0fa/aemcmc-nightly-0.0.8.dev20230625.tar.gz
+[2023-06-25 03:21:10] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-25 03:21:10] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230624.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz --markdown 20230625/a/aemcmc-nightly/0.0.8.dev20230624-0.0.8.dev20230625/diff.md --exclude *.pyd
+[2023-06-25 03:21:10] INFO root fetch - processPackages [zcbot-celery-sdk]: Downloading https://files.pythonhosted.org/packages/9a/d8/42b0d82e5095896d6ec2775f0d727ce292ea46e9948fb4aebbbd7ff44280/zcbot-celery-sdk-0.0.9.tar.gz
+[2023-06-25 03:21:10] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-06-25 03:21:10] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230625/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 03:21:11] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.5.tar.gz]
+[2023-06-25 03:21:11] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.6.tar.gz]
+[2023-06-25 03:21:11] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-06-25 03:21:11] INFO root fetch - processPackages [zcbot-celery-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-celery-sdk-0.0.8.tar.gz]
+[2023-06-25 03:21:11] INFO root fetch - processPackages [zcbot-celery-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-celery-sdk-0.0.9.tar.gz]
+[2023-06-25 03:21:11] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-06-25 03:21:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-25 03:21:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-25 03:21:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-25 03:21:12] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230624.tar.gz]
+[2023-06-25 03:21:12] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz]
+[2023-06-25 03:21:12] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-25 03:21:12] INFO root fetch - main [MainThread]: Store serial: [18633217]
