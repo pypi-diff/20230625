@@ -8570,3 +8570,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:58:19] INFO root fetch - processPackages [apache-airflow-client]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-client-2.6.2rc2.tar.gz]
 [2023-06-25 12:58:19] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
 [2023-06-25 12:58:19] INFO root fetch - main [MainThread]: Store serial: [18635848]
+[2023-06-25 13:03:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635848]
+[2023-06-25 13:03:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 13:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lite-tools
+[2023-06-25 13:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lm-datahandler
+[2023-06-25 13:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: theboringlibrary
+[2023-06-25 13:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dszoro
+[2023-06-25 13:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gfort2py
+[2023-06-25 13:03:28] INFO root fetch - processPackages [theboringlibrary]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-25 13:03:28] INFO root fetch - processPackages [dszoro]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-25 13:03:28] INFO root fetch - processPackages [gfort2py]: New version: [2.0.0] Old Version: [1.1.7]
+[2023-06-25 13:03:28] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 13:03:28] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-06-25 13:03:28] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/0c/17/5af5192b52db8cc6f28725d380f4cbc67d95ac5d3df0d556c227724629b7/theboringlibrary-0.6.2.tar.gz
+[2023-06-25 13:03:28] INFO root fetch - processPackages [gfort2py]: Downloading https://files.pythonhosted.org/packages/a8/86/c41ec4f31e97d71b164b2512b1f3ffcea428b12c7e78b8552d8f70e37af8/gfort2py-1.1.7.tar.gz
+[2023-06-25 13:03:28] INFO root fetch - processPackages [dszoro]: Downloading https://files.pythonhosted.org/packages/90/ac/3fbd767e588a13d5ef5216e341941e6569aa81562493dd6e9b554b90a1e7/dszoro-0.0.1.tar.gz
+[2023-06-25 13:03:28] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-06-25 13:03:28] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-06-25 13:03:29] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/9c/de/e8c16a0ed05ee37429754f84382e2d187c5f48571fb58df613bdd1bbaad8/theboringlibrary-0.6.3.tar.gz
+[2023-06-25 13:03:29] INFO root fetch - processPackages [gfort2py]: Downloading https://files.pythonhosted.org/packages/3a/13/e0a4265825953ff96136cff89857e40007be96708649389fdcfb466685c4/gfort2py-2.0.0.tar.gz
+[2023-06-25 13:03:29] INFO root fetch - processPackages [dszoro]: Downloading https://files.pythonhosted.org/packages/b6/24/1e878dc3c758da5376523272e8ef01930e1ab3062ebbcb8cf9ea4de4d907/dszoro-0.0.3.tar.gz
+[2023-06-25 13:03:29] INFO root fetch - processPackages [theboringlibrary]: executing diffoscope
+[2023-06-25 13:03:29] INFO root fetch - processPackages [theboringlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theboringlibrary-0.6.2.tar.gz tmp/theboringlibrary-0.6.3.tar.gz --markdown 20230625/t/theboringlibrary/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-25 13:03:29] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-06-25 13:03:29] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-06-25 13:03:29] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-06-25 13:03:29] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230625/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-06-25 13:03:29] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-25 13:03:29] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230625/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 13:03:29] INFO root fetch - processPackages [dszoro]: executing diffoscope
+[2023-06-25 13:03:29] INFO root fetch - processPackages [dszoro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dszoro-0.0.1.tar.gz tmp/dszoro-0.0.3.tar.gz --markdown 20230625/d/dszoro/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 13:03:29] INFO root fetch - processPackages [gfort2py]: executing diffoscope
+[2023-06-25 13:03:29] INFO root fetch - processPackages [gfort2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfort2py-1.1.7.tar.gz tmp/gfort2py-2.0.0.tar.gz --markdown 20230625/g/gfort2py/1.1.7-2.0.0/diff.md --exclude *.pyd
+[2023-06-25 13:03:30] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.6.2.tar.gz]
+[2023-06-25 13:03:30] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.6.3.tar.gz]
+[2023-06-25 13:03:30] INFO root fetch - main [MainThread]: End processing [theboringlibrary]: success
+[2023-06-25 13:03:30] INFO root fetch - processPackages [gfort2py]: Remove: archive file [/home/abi/fetcher/tmp/gfort2py-1.1.7.tar.gz]
+[2023-06-25 13:03:30] INFO root fetch - processPackages [gfort2py]: Remove: archive file [/home/abi/fetcher/tmp/gfort2py-2.0.0.tar.gz]
+[2023-06-25 13:03:30] INFO root fetch - main [MainThread]: End processing [gfort2py]: success
+[2023-06-25 13:03:30] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-06-25 13:03:30] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-06-25 13:03:30] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-25 13:03:31] INFO root fetch - processPackages [dszoro]: Remove: archive file [/home/abi/fetcher/tmp/dszoro-0.0.1.tar.gz]
+[2023-06-25 13:03:31] INFO root fetch - processPackages [dszoro]: Remove: archive file [/home/abi/fetcher/tmp/dszoro-0.0.3.tar.gz]
+[2023-06-25 13:03:31] INFO root fetch - main [MainThread]: End processing [dszoro]: success
+[2023-06-25 13:03:31] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip]
+[2023-06-25 13:03:31] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
+[2023-06-25 13:03:31] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-06-25 13:03:31] INFO root fetch - main [MainThread]: Store serial: [18635864]
