@@ -2903,3 +2903,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:21:24] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.3.0.tar.gz]
 [2023-06-25 04:21:24] INFO root fetch - main [MainThread]: End processing [findmyfile]: success
 [2023-06-25 04:21:24] INFO root fetch - main [MainThread]: Store serial: [18633543]
+[2023-06-25 04:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633543]
+[2023-06-25 04:26:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-pretrained
+[2023-06-25 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vernum
+[2023-06-25 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p-ttauto-crawler
+[2023-06-25 04:26:32] INFO root fetch - processPackages [vernum]: New version: [3.1.1] Old Version: [3.0.0]
+[2023-06-25 04:26:32] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 04:26:32] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 04:26:33] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-06-25 04:26:33] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-25 04:26:33] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/e3/5c/5c70d631c03dc1a896b02b00339e54f423903c9429c7a5a64138a10bd0ca/vernum-3.0.0.tar.gz
+[2023-06-25 04:26:33] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-06-25 04:26:33] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-25 04:26:33] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-25 04:26:33] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230625/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 04:26:33] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-25 04:26:33] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230625/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 04:26:33] INFO root fetch - processPackages [vernum]: Downloading https://files.pythonhosted.org/packages/20/4d/dc80282a7010e1374f7172eda1acaa7998d093ad3a6c819cdc3cd78bcdda/vernum-3.1.1.tar.gz
+[2023-06-25 04:26:33] INFO root fetch - processPackages [vernum]: executing diffoscope
+[2023-06-25 04:26:33] INFO root fetch - processPackages [vernum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vernum-3.0.0.tar.gz tmp/vernum-3.1.1.tar.gz --markdown 20230625/v/vernum/3.0.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-25 04:26:34] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-25 04:26:34] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-25 04:26:34] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-25 04:26:34] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-06-25 04:26:34] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-06-25 04:26:34] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-25 04:26:34] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-3.0.0.tar.gz]
+[2023-06-25 04:26:34] INFO root fetch - processPackages [vernum]: Remove: archive file [/home/abi/fetcher/tmp/vernum-3.1.1.tar.gz]
+[2023-06-25 04:26:34] INFO root fetch - main [MainThread]: End processing [vernum]: success
+[2023-06-25 04:26:34] INFO root fetch - main [MainThread]: Store serial: [18633557]
