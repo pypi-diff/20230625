@@ -4704,3 +4704,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 07:22:34] INFO root fetch - processPackages [trialbot]: Remove: archive file [/home/abi/fetcher/tmp/trialbot-0.3.9.2.tar.gz]
 [2023-06-25 07:22:34] INFO root fetch - main [MainThread]: End processing [trialbot]: success
 [2023-06-25 07:22:34] INFO root fetch - main [MainThread]: Store serial: [18634255]
+[2023-06-25 07:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634255]
+[2023-06-25 07:27:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 07:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcc-helper
+[2023-06-25 07:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: borgmatic
+[2023-06-25 07:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text2text
+[2023-06-25 07:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-mcqq
+[2023-06-25 07:27:43] INFO root fetch - processPackages [text2text]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-25 07:27:43] INFO root fetch - processPackages [nonebot-plugin-mcqq]: New version: [1.2.5.post1] Old Version: [1.2.5]
+[2023-06-25 07:27:43] INFO root fetch - processPackages [zcc-helper]: New version: [3.1rc1] Old Version: [3.0rc1]
+[2023-06-25 07:27:43] INFO root fetch - processPackages [borgmatic]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-25 07:27:43] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/d3/2f/d58bf1367c0a551eb4f95a12a967691532923168d3f58b0d48120dfc7edd/text2text-1.1.3.tar.gz
+[2023-06-25 07:27:43] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/95/a0/2d1e0b39b06df3548c5dadd05b1aa90ebec1029bbb1d00ea3540fc51f0fd/nonebot-plugin-mcqq-1.2.5.tar.gz
+[2023-06-25 07:27:43] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/88/95/471529a730266bebb40183a355652fd8375426058c88d3017e589c86f8a7/zcc-helper-3.0rc1.tar.gz
+[2023-06-25 07:27:43] INFO root fetch - processPackages [borgmatic]: Downloading https://files.pythonhosted.org/packages/db/4d/bbe4fe66fb2fc6fcf2f0550638dce9d169acd237b3be29ebe8f6a2615c6b/borgmatic-1.7.8.tar.gz
+[2023-06-25 07:27:43] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/e0/e7/1eac623023da322418358240250439b97c4b12be6b77b0fe1dc5a15f6318/text2text-1.1.4.tar.gz
+[2023-06-25 07:27:43] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/19/2f/e45c4e6b0f2a94341888f2bc4310546240fe76eadf22fc4fc693e3f07871/nonebot-plugin-mcqq-1.2.5.post1.tar.gz
+[2023-06-25 07:27:43] INFO root fetch - processPackages [nonebot-plugin-mcqq]: executing diffoscope
+[2023-06-25 07:27:43] INFO root fetch - processPackages [nonebot-plugin-mcqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-1.2.5.tar.gz tmp/nonebot-plugin-mcqq-1.2.5.post1.tar.gz --markdown 20230625/n/nonebot-plugin-mcqq/1.2.5-1.2.5.post1/diff.md --exclude *.pyd
+[2023-06-25 07:27:43] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-25 07:27:43] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.3.tar.gz tmp/text2text-1.1.4.tar.gz --markdown 20230625/t/text2text/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-25 07:27:43] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/26/be/1d90829294d023ea357858cf5bffda4ea0c0467a5fa9cd7311e4b95a3286/zcc-helper-3.1rc1.tar.gz
+[2023-06-25 07:27:44] INFO root fetch - processPackages [zcc-helper]: executing diffoscope
+[2023-06-25 07:27:44] INFO root fetch - processPackages [zcc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcc-helper-3.0rc1.tar.gz tmp/zcc-helper-3.1rc1.tar.gz --markdown 20230625/z/zcc-helper/3.0rc1-3.1rc1/diff.md --exclude *.pyd
+[2023-06-25 07:27:44] INFO root fetch - processPackages [borgmatic]: Downloading https://files.pythonhosted.org/packages/74/53/c7ec58aeff933602ea2eb2a779be5b11c1a7d3dc9aede5e9bdbae5ed1e90/borgmatic-1.7.9.tar.gz
+[2023-06-25 07:27:44] INFO root fetch - processPackages [borgmatic]: executing diffoscope
+[2023-06-25 07:27:44] INFO root fetch - processPackages [borgmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borgmatic-1.7.8.tar.gz tmp/borgmatic-1.7.9.tar.gz --markdown 20230625/b/borgmatic/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-25 07:27:44] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.5.tar.gz]
+[2023-06-25 07:27:44] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.5.post1.tar.gz]
+[2023-06-25 07:27:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq]: success
+[2023-06-25 07:27:45] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.0rc1.tar.gz]
+[2023-06-25 07:27:45] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.1rc1.tar.gz]
+[2023-06-25 07:27:45] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
+[2023-06-25 07:27:45] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.3.tar.gz]
+[2023-06-25 07:27:45] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.4.tar.gz]
+[2023-06-25 07:27:45] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-25 07:27:47] INFO root fetch - processPackages [borgmatic]: Remove: archive file [/home/abi/fetcher/tmp/borgmatic-1.7.8.tar.gz]
+[2023-06-25 07:27:47] INFO root fetch - processPackages [borgmatic]: Remove: archive file [/home/abi/fetcher/tmp/borgmatic-1.7.9.tar.gz]
+[2023-06-25 07:27:47] INFO root fetch - main [MainThread]: End processing [borgmatic]: success
+[2023-06-25 07:27:47] INFO root fetch - main [MainThread]: Store serial: [18634267]
