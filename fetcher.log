@@ -9083,3 +9083,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:48:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230625114708.tar.gz]
 [2023-06-25 13:48:52] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-25 13:48:52] INFO root fetch - main [MainThread]: Store serial: [18636060]
+[2023-06-25 13:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636060]
+[2023-06-25 13:54:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bigsansar
+[2023-06-25 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delfino-core
+[2023-06-25 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cozo-client
+[2023-06-25 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erroraffirmations
+[2023-06-25 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-playwright-async
+[2023-06-25 13:54:01] WARNING root fetch - processPackages [pytest-playwright-async]: Skipping, unable to determine old version
+[2023-06-25 13:54:01] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async] error
+[2023-06-25 13:54:01] INFO root fetch - processPackages [delfino-core]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-06-25 13:54:01] INFO root fetch - processPackages [Bigsansar]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-25 13:54:01] INFO root fetch - processPackages [erroraffirmations]: New version: [0.1.0rc1] Old Version: [0.1.0rc0]
+[2023-06-25 13:54:01] INFO root fetch - processPackages [cozo-client]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-25 13:54:01] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/3d/27/d9deb82c83c97fddbe07b15bb99d9c8712bc6b1d8ddd50f4214dcea47fdc/Bigsansar-1.7.3.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [erroraffirmations]: Downloading https://files.pythonhosted.org/packages/86/d3/44d261181720b4e8fa52d7c9e8262bca9e60e50a6da9cc47c1814c88550b/erroraffirmations-0.1.0rc0.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [delfino-core]: Downloading https://files.pythonhosted.org/packages/46/6c/9d6403a895297e3f5dd94e88b47748e1b4f867bff979da8b12db62355ff2/delfino_core-4.0.1.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [cozo-client]: Downloading https://files.pythonhosted.org/packages/69/0b/fa4a0706f384c3f27fe8486c69b546c602cb6bec79a70fcd38fa74070c28/cozo_client-0.1.2.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/c8/67/63e6ffe3e3b5b6b15c720de0463836c76957c490b7e5837ea97d5ed674fa/Bigsansar-1.7.4.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [delfino-core]: Downloading https://files.pythonhosted.org/packages/6b/ec/352540f11a868573c84b10c39dbe0dac7236ef37b1b6b5dbea0e5dc53474/delfino_core-5.0.0.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [cozo-client]: Downloading https://files.pythonhosted.org/packages/4d/1b/477e57978413e2035a1806e12ee532e70ac18129a273ab8bb40fe4124312/cozo_client-0.1.4.tar.gz
+[2023-06-25 13:54:01] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-25 13:54:01] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.7.3.tar.gz tmp/Bigsansar-1.7.4.tar.gz --markdown 20230625/B/Bigsansar/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-25 13:54:01] INFO root fetch - processPackages [delfino-core]: executing diffoscope
+[2023-06-25 13:54:01] INFO root fetch - processPackages [delfino-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delfino_core-4.0.1.tar.gz tmp/delfino_core-5.0.0.tar.gz --markdown 20230625/d/delfino-core/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-25 13:54:01] INFO root fetch - processPackages [cozo-client]: executing diffoscope
+[2023-06-25 13:54:01] INFO root fetch - processPackages [cozo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_client-0.1.2.tar.gz tmp/cozo_client-0.1.4.tar.gz --markdown 20230625/c/cozo-client/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 13:54:02] INFO root fetch - processPackages [erroraffirmations]: Downloading https://files.pythonhosted.org/packages/72/44/af87a5a88cc8612b1b4883c6fd8b1b97db0b291acfdbd5b45d01620446f4/erroraffirmations-0.1.0rc1.tar.gz
+[2023-06-25 13:54:02] INFO root fetch - processPackages [erroraffirmations]: executing diffoscope
+[2023-06-25 13:54:02] INFO root fetch - processPackages [erroraffirmations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erroraffirmations-0.1.0rc0.tar.gz tmp/erroraffirmations-0.1.0rc1.tar.gz --markdown 20230625/e/erroraffirmations/0.1.0rc0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-06-25 13:54:03] INFO root fetch - processPackages [delfino-core]: Remove: archive file [/home/abi/fetcher/tmp/delfino_core-4.0.1.tar.gz]
+[2023-06-25 13:54:03] INFO root fetch - processPackages [delfino-core]: Remove: archive file [/home/abi/fetcher/tmp/delfino_core-5.0.0.tar.gz]
+[2023-06-25 13:54:03] INFO root fetch - main [MainThread]: End processing [delfino-core]: success
+[2023-06-25 13:54:03] INFO root fetch - processPackages [cozo-client]: Remove: archive file [/home/abi/fetcher/tmp/cozo_client-0.1.2.tar.gz]
+[2023-06-25 13:54:03] INFO root fetch - processPackages [cozo-client]: Remove: archive file [/home/abi/fetcher/tmp/cozo_client-0.1.4.tar.gz]
+[2023-06-25 13:54:03] INFO root fetch - main [MainThread]: End processing [cozo-client]: success
+[2023-06-25 13:54:03] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.3.tar.gz]
+[2023-06-25 13:54:03] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.4.tar.gz]
+[2023-06-25 13:54:03] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-25 13:54:57] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc0.tar.gz]
+[2023-06-25 13:54:57] INFO root fetch - processPackages [erroraffirmations]: Remove: archive file [/home/abi/fetcher/tmp/erroraffirmations-0.1.0rc1.tar.gz]
+[2023-06-25 13:54:57] INFO root fetch - main [MainThread]: End processing [erroraffirmations]: success
+[2023-06-25 13:54:57] INFO root fetch - main [MainThread]: Store serial: [18636079]
