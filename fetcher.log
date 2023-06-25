@@ -6671,3 +6671,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 10:12:11] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.9.tar.gz]
 [2023-06-25 10:12:11] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2023-06-25 10:12:11] INFO root fetch - main [MainThread]: Store serial: [18635002]
+[2023-06-25 10:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635002]
+[2023-06-25 10:17:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-depends
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anonpi
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: illumigator
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-code-search
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bpmn-tools
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ringcentral
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dify-client
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: olympus-surrogate-bench
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kkpyutil
+[2023-06-25 10:17:20] INFO root fetch - processPackages [fast-depends]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ringcentral]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-25 10:17:20] INFO root fetch - processPackages [bpmn-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 10:17:20] WARNING root fetch - processPackages [anonpi]: Skipping, unable to determine old version
+[2023-06-25 10:17:20] INFO root fetch - main [MainThread]: End processing [anonpi] error
+[2023-06-25 10:17:20] INFO root fetch - processPackages [dify-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-25 10:17:20] INFO root fetch - processPackages [illumigator]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 10:17:20] WARNING root fetch - processPackages [olympus-surrogate-bench]: Skipping, unable to determine old version
+[2023-06-25 10:17:20] INFO root fetch - main [MainThread]: End processing [olympus-surrogate-bench] error
+[2023-06-25 10:17:20] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-06-25 10:17:20] INFO root fetch - processPackages [gpt-code-search]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 10:17:20] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/41/30/41cdd2545f583939a8a2d3ac2ec07df1fb13ed0f449bd79a0691c3273b68/fast_depends-2.0.4.tar.gz
+[2023-06-25 10:17:20] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/18/3c/040e2515c582c220910fad7e1efb1ca749e329499bfe571d8831a4bb604c/gpt_code_search-0.0.1.tar.gz
+[2023-06-25 10:17:20] INFO root fetch - processPackages [ringcentral]: Downloading https://files.pythonhosted.org/packages/77/42/e093e11da3e0cf9aea125b674c28cbcceb9020970b6b1c4f3993dd5e4873/ringcentral-0.8.0.tar.gz
+[2023-06-25 10:17:20] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/a8/5b/20438ac8e6061ff8455cad7d3fb0048b20e51e67b2c5bfce4686c098da75/illumigator-0.0.5.tar.gz
+[2023-06-25 10:17:20] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-06-25 10:17:20] INFO root fetch - processPackages [dify-client]: Downloading https://files.pythonhosted.org/packages/0a/36/8bf2c3fa95d41a33383d7205184aafc029bb54ab5dd15012e2c3f3e519af/dify-client-0.1.7.tar.gz
+[2023-06-25 10:17:20] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/88/cb/3059a158cfbf4ecd92d22da3b75112ff9aeae0258bbf484ba446ae26189a/bpmn-tools-0.1.0.tar.gz
+[2023-06-25 10:17:20] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 61062647>=10485760
+[2023-06-25 10:17:20] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-06-25 10:17:21] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/54/1e/0c3cb4ce68f42a145d329f86d0bdc041cca4db8efe1c1298ef6d388766eb/fast_depends-2.0.5.tar.gz
+[2023-06-25 10:17:21] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/d7/81/d129a61f0e98401c34e2cc545f0b4aa6f41cae86670a10fb869b81b204e0/gpt_code_search-0.0.2.tar.gz
+[2023-06-25 10:17:21] INFO root fetch - processPackages [ringcentral]: Downloading https://files.pythonhosted.org/packages/a1/d0/4c578a9a30c8dc545e9ed3e2818925ec390b2a01edf48cd7da0de31e0fc0/ringcentral-0.8.1.tar.gz
+[2023-06-25 10:17:21] INFO root fetch - processPackages [dify-client]: Downloading https://files.pythonhosted.org/packages/34/3a/909bab5184671ce2311453fdfc7ce5462eb422e5e0d234724ea6dbed7128/dify-client-0.1.8.tar.gz
+[2023-06-25 10:17:21] INFO root fetch - processPackages [fast-depends]: executing diffoscope
+[2023-06-25 10:17:21] INFO root fetch - processPackages [fast-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_depends-2.0.4.tar.gz tmp/fast_depends-2.0.5.tar.gz --markdown 20230625/f/fast-depends/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-25 10:17:21] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/0b/49/c90f70ea2127689f5c18934730d3592bb5c2ef76ef5747a166767b56ad76/bpmn-tools-0.1.1.tar.gz
+[2023-06-25 10:17:21] INFO root fetch - processPackages [ringcentral]: executing diffoscope
+[2023-06-25 10:17:21] INFO root fetch - processPackages [ringcentral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ringcentral-0.8.0.tar.gz tmp/ringcentral-0.8.1.tar.gz --markdown 20230625/r/ringcentral/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-25 10:17:21] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-06-25 10:17:21] INFO root fetch - processPackages [dify-client]: executing diffoscope
+[2023-06-25 10:17:21] INFO root fetch - processPackages [dify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dify-client-0.1.7.tar.gz tmp/dify-client-0.1.8.tar.gz --markdown 20230625/d/dify-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-25 10:17:21] INFO root fetch - processPackages [gpt-code-search]: executing diffoscope
+[2023-06-25 10:17:21] INFO root fetch - processPackages [gpt-code-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_search-0.0.1.tar.gz tmp/gpt_code_search-0.0.2.tar.gz --markdown 20230625/g/gpt-code-search/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 10:17:21] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-06-25 10:17:21] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230625/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-06-25 10:17:21] INFO root fetch - processPackages [bpmn-tools]: executing diffoscope
+[2023-06-25 10:17:21] INFO root fetch - processPackages [bpmn-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpmn-tools-0.1.0.tar.gz tmp/bpmn-tools-0.1.1.tar.gz --markdown 20230625/b/bpmn-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 10:17:22] INFO root fetch - processPackages [fast-depends]: Remove: archive file [/home/abi/fetcher/tmp/fast_depends-2.0.4.tar.gz]
+[2023-06-25 10:17:22] INFO root fetch - processPackages [fast-depends]: Remove: archive file [/home/abi/fetcher/tmp/fast_depends-2.0.5.tar.gz]
+[2023-06-25 10:17:22] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
+[2023-06-25 10:17:22] INFO root fetch - processPackages [ringcentral]: Remove: archive file [/home/abi/fetcher/tmp/ringcentral-0.8.0.tar.gz]
+[2023-06-25 10:17:22] INFO root fetch - processPackages [ringcentral]: Remove: archive file [/home/abi/fetcher/tmp/ringcentral-0.8.1.tar.gz]
+[2023-06-25 10:17:22] INFO root fetch - main [MainThread]: End processing [ringcentral]: success
+[2023-06-25 10:17:22] INFO root fetch - processPackages [dify-client]: Remove: archive file [/home/abi/fetcher/tmp/dify-client-0.1.7.tar.gz]
+[2023-06-25 10:17:22] INFO root fetch - processPackages [dify-client]: Remove: archive file [/home/abi/fetcher/tmp/dify-client-0.1.8.tar.gz]
+[2023-06-25 10:17:22] INFO root fetch - main [MainThread]: End processing [dify-client]: success
+[2023-06-25 10:17:23] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-06-25 10:17:23] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-06-25 10:17:23] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-06-25 10:17:23] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.1.tar.gz]
+[2023-06-25 10:17:23] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.2.tar.gz]
+[2023-06-25 10:17:23] INFO root fetch - main [MainThread]: End processing [gpt-code-search]: success
+[2023-06-25 10:17:23] INFO root fetch - processPackages [bpmn-tools]: Remove: archive file [/home/abi/fetcher/tmp/bpmn-tools-0.1.0.tar.gz]
+[2023-06-25 10:17:23] INFO root fetch - processPackages [bpmn-tools]: Remove: archive file [/home/abi/fetcher/tmp/bpmn-tools-0.1.1.tar.gz]
+[2023-06-25 10:17:23] INFO root fetch - main [MainThread]: End processing [bpmn-tools]: success
+[2023-06-25 10:17:23] INFO root fetch - main [MainThread]: Store serial: [18635037]
