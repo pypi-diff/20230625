@@ -2189,3 +2189,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:00:01] INFO root fetch - processPackages [SCALECAST]: Remove: archive file [/home/abi/fetcher/tmp/SCALECAST-0.9.9.tar.gz]
 [2023-06-25 03:00:01] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
 [2023-06-25 03:00:01] INFO root fetch - main [MainThread]: Store serial: [18633144]
+[2023-06-25 03:05:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633144]
+[2023-06-25 03:05:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 03:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyagrum-nightly
+[2023-06-25 03:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-06-25 03:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipen-board
+[2023-06-25 03:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vit
+[2023-06-25 03:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pillar1
+[2023-06-25 03:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pillar1
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.35] Old Version: [0.1.8.34]
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pipen-board]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-25 03:05:10] INFO root fetch - processPackages [vit]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.35] Old Version: [0.1.8.34]
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.35] Old Version: [0.1.8.34]
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/c5/c3/674836ddbe06148edb50a82e2cd3f1bd9bdf744409d95cb900f0329f0326/pillar1-0.1.8.34.tar.gz
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/c5/c3/674836ddbe06148edb50a82e2cd3f1bd9bdf744409d95cb900f0329f0326/pillar1-0.1.8.34.tar.gz
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/c5/c3/674836ddbe06148edb50a82e2cd3f1bd9bdf744409d95cb900f0329f0326/pillar1-0.1.8.34.tar.gz
+[2023-06-25 03:05:10] INFO root fetch - processPackages [vit]: Downloading https://files.pythonhosted.org/packages/44/1c/e92432357d5dd26ad086e4a05ff066c0539e754fbe3dfdd78e0cb206964b/vit-2.3.0.tar.gz
+[2023-06-25 03:05:10] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/4e/98/67ff4094c428955423476a60e17af1b5f898eee6c95dbc4076de7f1ad8c0/pipen_board-0.7.3.tar.gz
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/a1/25b0dc3aec784aebee13dcc89cdb8acdac4e804ef1b4532ddaa6786f6e66/pillar1-0.1.8.35.tar.gz
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/a1/25b0dc3aec784aebee13dcc89cdb8acdac4e804ef1b4532ddaa6786f6e66/pillar1-0.1.8.35.tar.gz
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/a1/25b0dc3aec784aebee13dcc89cdb8acdac4e804ef1b4532ddaa6786f6e66/pillar1-0.1.8.35.tar.gz
+[2023-06-25 03:05:11] INFO root fetch - processPackages [vit]: Downloading https://files.pythonhosted.org/packages/e5/45/4e94b51638143c2f47fe39ba8d54f42976b661fd9c90d5efec28c66e6fb9/vit-2.3.1.tar.gz
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/ff/8b/e09142e8426973bd4bdc529378289a82988db5a56a5bb5484202e8a052e7/pipen_board-0.7.4.tar.gz
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.34.tar.gz tmp/pillar1-0.1.8.35.tar.gz --markdown 20230625/p/pillar1/0.1.8.34-0.1.8.35/diff.md --exclude *.pyd
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.34.tar.gz tmp/pillar1-0.1.8.35.tar.gz --markdown 20230625/p/pillar1/0.1.8.34-0.1.8.35/diff.md --exclude *.pyd
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.34.tar.gz tmp/pillar1-0.1.8.35.tar.gz --markdown 20230625/p/pillar1/0.1.8.34-0.1.8.35/diff.md --exclude *.pyd
+[2023-06-25 03:05:11] INFO root fetch - processPackages [vit]: executing diffoscope
+[2023-06-25 03:05:11] INFO root fetch - processPackages [vit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-2.3.0.tar.gz tmp/vit-2.3.1.tar.gz --markdown 20230625/v/vit/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230625/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-25 03:05:11] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.7.3.tar.gz tmp/pipen_board-0.7.4.tar.gz --markdown 20230625/p/pipen-board/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-25 03:05:12] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.34.tar.gz]
+[2023-06-25 03:05:12] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.35.tar.gz]
+[2023-06-25 03:05:12] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:05:12] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:05:12] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-25 03:05:13] INFO root fetch - processPackages [vit]: Remove: archive file [/home/abi/fetcher/tmp/vit-2.3.0.tar.gz]
+[2023-06-25 03:05:13] INFO root fetch - processPackages [vit]: Remove: archive file [/home/abi/fetcher/tmp/vit-2.3.1.tar.gz]
+[2023-06-25 03:05:13] INFO root fetch - main [MainThread]: End processing [vit]: success
+[2023-06-25 03:05:14] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 03:05:14] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-25 03:05:14] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-25 03:05:20] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.3.tar.gz]
+[2023-06-25 03:05:20] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.4.tar.gz]
+[2023-06-25 03:05:20] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-25 03:05:20] INFO root fetch - main [MainThread]: Store serial: [18633181]
