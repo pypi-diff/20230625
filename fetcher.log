@@ -15294,3 +15294,66 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:28:04] INFO root fetch - processPackages [ncdiff]: Remove: archive file [/home/abi/fetcher/tmp/ncdiff-23.6-py3-none-any.whl.zip]
 [2023-06-25 22:28:04] INFO root fetch - main [MainThread]: End processing [ncdiff]: success
 [2023-06-25 22:28:04] INFO root fetch - main [MainThread]: Store serial: [18638774]
+[2023-06-25 22:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638774]
+[2023-06-25 22:33:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyNyaaTa
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyNyaaTa
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-acl-tools
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-gpt-openai
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testless-autocomplete
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-gpt
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-gpt
+[2023-06-25 22:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-gpt
+[2023-06-25 22:33:14] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252028] Old Version: [202306252027]
+[2023-06-25 22:33:14] WARNING root fetch - processPackages [xia-gpt-openai]: Skipping, unable to determine old version
+[2023-06-25 22:33:14] INFO root fetch - main [MainThread]: End processing [xia-gpt-openai] error
+[2023-06-25 22:33:14] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306252028] Old Version: [202306252027]
+[2023-06-25 22:33:14] INFO root fetch - processPackages [spark-acl-tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-25 22:33:14] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.114] Old Version: [0.0.113]
+[2023-06-25 22:33:14] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/0d/ea/560a58b1e27b6781a91d91547c337d535cbe195cdb03c569ba9732d78244/testless_autocomplete-0.0.113.tar.gz
+[2023-06-25 22:33:14] INFO root fetch - processPackages [xia-gpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:33:14] INFO root fetch - processPackages [xia-gpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:33:14] INFO root fetch - processPackages [xia-gpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:33:14] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/0a/e8/bb3daed81dc02ac7481fe7984af1e2b70110d9fa4d8e8cd7c647b7821fbf/PyNyaaTa-202306252027.tar.gz
+[2023-06-25 22:33:14] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/0a/e8/bb3daed81dc02ac7481fe7984af1e2b70110d9fa4d8e8cd7c647b7821fbf/PyNyaaTa-202306252027.tar.gz
+[2023-06-25 22:33:14] INFO root fetch - processPackages [spark-acl-tools]: Downloading https://files.pythonhosted.org/packages/62/20/bf5d7acd29aad89a804bf12fd8438cc8589a23173dedb6b8b6c752d6d536/spark_acl_tools-0.1.0.tar.gz
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/1e/9d/14b0814d5dc58ef1348f9f9546caedd14437be7b91bd038c6757cc78ad54/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/1e/9d/14b0814d5dc58ef1348f9f9546caedd14437be7b91bd038c6757cc78ad54/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/1e/9d/14b0814d5dc58ef1348f9f9546caedd14437be7b91bd038c6757cc78ad54/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/51/71/b30f84fde4d18b2b1fd3f1b8eebf74e03141fb763bc21b797b03f8a15653/testless_autocomplete-0.0.114.tar.gz
+[2023-06-25 22:33:15] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/3a/85/87708e48b8bc2fc4de9bdb1d18a6c000e5c9089d4422f4572466d8b5c2b6/PyNyaaTa-202306252028-py3-none-any.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/3a/85/87708e48b8bc2fc4de9bdb1d18a6c000e5c9089d4422f4572466d8b5c2b6/PyNyaaTa-202306252028-py3-none-any.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.113.tar.gz tmp/testless_autocomplete-0.0.114.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.113-0.0.114/diff.md --exclude *.pyd
+[2023-06-25 22:33:15] INFO root fetch - processPackages [spark-acl-tools]: Downloading https://files.pythonhosted.org/packages/6b/c7/0810c1a021e1365e628aeed0a4108885d2bfd453e9f53507d20e723edaa5/spark_acl_tools-0.2.0.tar.gz
+[2023-06-25 22:33:15] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252027.tar.gz tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip --markdown 20230625/P/PyNyaaTa/202306252027-202306252028/diff.md --exclude *.pyd
+[2023-06-25 22:33:15] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306252027.tar.gz tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip --markdown 20230625/P/PyNyaaTa/202306252027-202306252028/diff.md --exclude *.pyd
+[2023-06-25 22:33:15] INFO root fetch - processPackages [spark-acl-tools]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [spark-acl-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_acl_tools-0.1.0.tar.gz tmp/spark_acl_tools-0.2.0.tar.gz --markdown 20230625/s/spark-acl-tools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/f5/5b/a9cf1b2c611c883684cad31602932d351a8068e0ce6542b03d67ebceff8d/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/f5/5b/a9cf1b2c611c883684cad31602932d351a8068e0ce6542b03d67ebceff8d/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/f5/5b/a9cf1b2c611c883684cad31602932d351a8068e0ce6542b03d67ebceff8d/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl.zip tmp/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230625/x/xia-gpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl.zip tmp/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230625/x/xia-gpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: executing diffoscope
+[2023-06-25 22:33:15] INFO root fetch - processPackages [xia-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl.zip tmp/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230625/x/xia-gpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:33:16] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.113.tar.gz]
+[2023-06-25 22:33:16] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.114.tar.gz]
+[2023-06-25 22:33:16] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 22:33:16] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306252027.tar.gz]
+[2023-06-25 22:33:16] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306252028-py3-none-any.whl.zip]
+[2023-06-25 22:33:16] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-25 22:33:17] INFO root fetch - processPackages [spark-acl-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_acl_tools-0.1.0.tar.gz]
+[2023-06-25 22:33:17] INFO root fetch - processPackages [spark-acl-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_acl_tools-0.2.0.tar.gz]
+[2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [spark-acl-tools]: success
+[2023-06-25 22:33:17] INFO root fetch - processPackages [xia-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt-0.1.0-cp311-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-25 22:33:17] INFO root fetch - processPackages [xia-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
+[2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
+[2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
+[2023-06-25 22:33:17] INFO root fetch - main [MainThread]: Store serial: [18638803]
