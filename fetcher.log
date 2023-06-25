@@ -4341,3 +4341,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 06:52:56] INFO root fetch - processPackages [azure-mgmt-selfhelp]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-selfhelp-1.0.0b1.zip]
 [2023-06-25 06:52:56] INFO root fetch - main [MainThread]: End processing [azure-mgmt-selfhelp]: success
 [2023-06-25 06:52:56] INFO root fetch - main [MainThread]: Store serial: [18634146]
+[2023-06-25 06:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634146]
+[2023-06-25 06:58:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 06:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-session
+[2023-06-25 06:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metpx-sr3
+[2023-06-25 06:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickgpt
+[2023-06-25 06:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-session
+[2023-06-25 06:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metpx-sarracenia
+[2023-06-25 06:58:05] INFO root fetch - processPackages [metpx-sr3]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-25 06:58:05] INFO root fetch - processPackages [metpx-sarracenia]: New version: [2.23.6] Old Version: [2.22.6]
+[2023-06-25 06:58:05] INFO root fetch - processPackages [quickgpt]: New version: [0.7.1] Old Version: [0.7]
+[2023-06-25 06:58:05] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 06:58:05] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-25 06:58:05] INFO root fetch - processPackages [quickgpt]: Downloading https://files.pythonhosted.org/packages/0c/50/e0a10f671dfbb5485170fbe0960026c7f025d2d47ea420633fafca7c5b48/quickgpt-0.7.tar.gz
+[2023-06-25 06:58:05] INFO root fetch - processPackages [metpx-sr3]: Downloading https://files.pythonhosted.org/packages/89/06/0f745164c2089adef9236ac31fbe46f4158d18631576d682cf9658757694/metpx_sr3-3.0.8-py3-none-any.whl
+[2023-06-25 06:58:05] INFO root fetch - processPackages [metpx-sarracenia]: Downloading https://files.pythonhosted.org/packages/87/26/aec1f8ac93c5dbaf076410edebc00308ed32a495377bfa4b30ae98e2ef0e/metpx_sarracenia-2.22.6-py3-none-any.whl
+[2023-06-25 06:58:05] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-25 06:58:05] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-25 06:58:05] INFO root fetch - processPackages [quickgpt]: Downloading https://files.pythonhosted.org/packages/35/2b/d20f3a0d3f2dc505e74b207ef8c9f95020ae172af011c50265374daecef7/quickgpt-0.7.1.tar.gz
+[2023-06-25 06:58:05] INFO root fetch - processPackages [metpx-sr3]: Downloading https://files.pythonhosted.org/packages/a4/8a/64230448bcafc80a1f9a2c5805a6cf7fb4956c1fea5a9c7439c01449480c/metpx_sr3-3.0.9-py3-none-any.whl
+[2023-06-25 06:58:05] INFO root fetch - processPackages [quickgpt]: executing diffoscope
+[2023-06-25 06:58:05] INFO root fetch - processPackages [quickgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickgpt-0.7.tar.gz tmp/quickgpt-0.7.1.tar.gz --markdown 20230625/q/quickgpt/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-06-25 06:58:06] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-25 06:58:06] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-25 06:58:06] INFO root fetch - processPackages [metpx-sr3]: executing diffoscope
+[2023-06-25 06:58:06] INFO root fetch - processPackages [metpx-sr3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metpx_sr3-3.0.8-py3-none-any.whl.zip tmp/metpx_sr3-3.0.9-py3-none-any.whl.zip --markdown 20230625/m/metpx-sr3/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-25 06:58:06] INFO root fetch - processPackages [metpx-sarracenia]: Downloading https://files.pythonhosted.org/packages/c7/7f/8a5bee6c4b4383a16bb7723436ea6ce52c9de55ee6ae59829de3a7c9143d/metpx_sarracenia-2.23.6-py3-none-any.whl
+[2023-06-25 06:58:06] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-25 06:58:06] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230625/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 06:58:06] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-25 06:58:06] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230625/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-25 06:58:06] INFO root fetch - processPackages [metpx-sarracenia]: executing diffoscope
+[2023-06-25 06:58:06] INFO root fetch - processPackages [metpx-sarracenia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metpx_sarracenia-2.22.6-py3-none-any.whl.zip tmp/metpx_sarracenia-2.23.6-py3-none-any.whl.zip --markdown 20230625/m/metpx-sarracenia/2.22.6-2.23.6/diff.md --exclude *.pyd
+[2023-06-25 06:58:07] INFO root fetch - processPackages [quickgpt]: Remove: archive file [/home/abi/fetcher/tmp/quickgpt-0.7.tar.gz]
+[2023-06-25 06:58:07] INFO root fetch - processPackages [quickgpt]: Remove: archive file [/home/abi/fetcher/tmp/quickgpt-0.7.1.tar.gz]
+[2023-06-25 06:58:07] INFO root fetch - main [MainThread]: End processing [quickgpt]: success
+[2023-06-25 06:58:07] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-25 06:58:07] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-25 06:58:07] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-25 06:58:08] ERROR root fetch - processPackages [np-session]: Diffoscope failed: gzip: tmp/np-session-0.6.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/np-session-0.6.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-25 06:58:08] INFO root fetch - main [MainThread]: End processing [np-session] error
+[2023-06-25 06:58:08] INFO root fetch - processPackages [metpx-sr3]: Remove: archive file [/home/abi/fetcher/tmp/metpx_sr3-3.0.8-py3-none-any.whl.zip]
+[2023-06-25 06:58:08] INFO root fetch - processPackages [metpx-sr3]: Remove: archive file [/home/abi/fetcher/tmp/metpx_sr3-3.0.9-py3-none-any.whl.zip]
+[2023-06-25 06:58:08] INFO root fetch - main [MainThread]: End processing [metpx-sr3]: success
+[2023-06-25 06:58:09] INFO root fetch - processPackages [metpx-sarracenia]: Remove: archive file [/home/abi/fetcher/tmp/metpx_sarracenia-2.22.6-py3-none-any.whl.zip]
+[2023-06-25 06:58:09] INFO root fetch - processPackages [metpx-sarracenia]: Remove: archive file [/home/abi/fetcher/tmp/metpx_sarracenia-2.23.6-py3-none-any.whl.zip]
+[2023-06-25 06:58:09] INFO root fetch - main [MainThread]: End processing [metpx-sarracenia]: success
+[2023-06-25 06:58:09] INFO root fetch - main [MainThread]: Store serial: [18634158]
