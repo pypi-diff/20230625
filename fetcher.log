@@ -3527,3 +3527,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 05:03:33] INFO root fetch - processPackages [watchmen-indicator-kernel]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_kernel-16.5.9.tar.gz]
 [2023-06-25 05:03:33] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-kernel]: success
 [2023-06-25 05:03:33] INFO root fetch - main [MainThread]: Store serial: [18633810]
+[2023-06-25 05:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633810]
+[2023-06-25 05:08:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchmen-indicator-surface
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchmen-rest-doll
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watchmen-cli
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Solc-Parser-Namryeong-Kim
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: product-key-memory
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyperspace
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoflake
+[2023-06-25 05:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bkapi-plugins-py
+[2023-06-25 05:08:42] WARNING root fetch - processPackages [Solc-Parser-Namryeong-Kim]: Skipping, unable to determine old version
+[2023-06-25 05:08:42] INFO root fetch - main [MainThread]: End processing [Solc-Parser-Namryeong-Kim] error
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-rest-doll]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230625] Old Version: [1.2.20230624]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [autoflake]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [product-key-memory]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-cli]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-indicator-surface]: New version: [16.5.9] Old Version: [16.5.8]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [pyperspace]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.625] Old Version: [0.620]
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-rest-doll]: Downloading https://files.pythonhosted.org/packages/ee/ad/529ebbd43ca0ccbedbb09d452ae55e4bdefc04863f91ec6ab3a727224eae/watchmen_rest_doll-16.5.8.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-indicator-surface]: Downloading https://files.pythonhosted.org/packages/b4/aa/0fbf4127368309b40bc2aa5089dcf3643176344d41650598cd5607a9986e/watchmen_indicator_surface-16.5.8.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/2d/ff/c5478cee2b18c9c2f2ac3f55edfa388881cef43e3472a8deb683bb27e7cf/iam_actions-1.2.20230624.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [product-key-memory]: Downloading https://files.pythonhosted.org/packages/95/c7/dea1f6cb6d7e27b93e51db08248e2650b9e60ed66291078d5e9052f07bc9/product_key_memory-0.1.8.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-cli]: Downloading https://files.pythonhosted.org/packages/22/22/16efc1595b55b0bdc2c77f09aee835c9fc3858979267abb12220f3e4ad06/watchmen_cli-16.5.8.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [autoflake]: Downloading https://files.pythonhosted.org/packages/6d/13/c3a4676cd4af77440e86f928b80e777244f6e9f045143ac2ba42154318cf/autoflake-2.1.1.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [pyperspace]: Downloading https://files.pythonhosted.org/packages/71/21/812c77eb191605381755778612184120a8b9f58734d67ef2de1bea6f2f5b/pyperspace-0.1.8-py3-none-any.whl
+[2023-06-25 05:08:42] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/aa/e8/3b74954ed8eac37178ab28743126241081f569b6efd283c59d379866cd72/bkapi-plugins-py-0.620.tar.gz
+[2023-06-25 05:08:42] WARNING root fetch - processPackages [bkapi-plugins-py]: Skipping package: exceeds size limit 15235569>=10485760
+[2023-06-25 05:08:42] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py] error
+[2023-06-25 05:08:42] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/76/25/04ff3502aec4ef804deb22c9b4c2123e31dc561ce944598fa4aa190f1a14/iam_actions-1.2.20230625.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-indicator-surface]: Downloading https://files.pythonhosted.org/packages/cd/25/83a89f9bd0b86f37aa60ee791629d25d96216ca195e8db03416d8589d50a/watchmen_indicator_surface-16.5.9.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [watchmen-cli]: Downloading https://files.pythonhosted.org/packages/7d/61/da8bfe1be628c6b1b9d3b3e54930cf4f5888e178a50adbc460ad0cbe38a1/watchmen_cli-16.5.9.tar.gz
+[2023-06-25 05:08:42] INFO root fetch - processPackages [autoflake]: Downloading https://files.pythonhosted.org/packages/5c/a4/c7178c72cdd8cffedd0e58b8633cfc4545bd56607a02ceedbaa04cb1f4d6/autoflake-2.2.0.tar.gz
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-rest-doll]: Downloading https://files.pythonhosted.org/packages/7e/18/ee0b6d49131dc37d6221578e37fa1415a47b9db43f1a2e73f13041a4d0f0/watchmen_rest_doll-16.5.9.tar.gz
+[2023-06-25 05:08:43] INFO root fetch - processPackages [pyperspace]: Downloading https://files.pythonhosted.org/packages/94/0b/d9bc69f903cf6abbf7ba7872862bfcf81092e22fbe8a63e07c35dc6260ab/pyperspace-0.1.9-py3-none-any.whl
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-indicator-surface]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-indicator-surface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_indicator_surface-16.5.8.tar.gz tmp/watchmen_indicator_surface-16.5.9.tar.gz --markdown 20230625/w/watchmen-indicator-surface/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-cli]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_cli-16.5.8.tar.gz tmp/watchmen_cli-16.5.9.tar.gz --markdown 20230625/w/watchmen-cli/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-25 05:08:43] INFO root fetch - processPackages [product-key-memory]: Downloading https://files.pythonhosted.org/packages/a8/ed/32b1f11952c7f0e3ab20a34415ae44b6107cbd0a83d9fc70b88b12855e6e/product_key_memory-0.1.9.tar.gz
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-rest-doll]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [watchmen-rest-doll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchmen_rest_doll-16.5.8.tar.gz tmp/watchmen_rest_doll-16.5.9.tar.gz --markdown 20230625/w/watchmen-rest-doll/16.5.8-16.5.9/diff.md --exclude *.pyd
+[2023-06-25 05:08:43] INFO root fetch - processPackages [pyperspace]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [pyperspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperspace-0.1.8-py3-none-any.whl.zip tmp/pyperspace-0.1.9-py3-none-any.whl.zip --markdown 20230625/p/pyperspace/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 05:08:43] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230624.tar.gz tmp/iam_actions-1.2.20230625.tar.gz --markdown 20230625/i/iam-actions/1.2.20230624-1.2.20230625/diff.md --exclude *.pyd
+[2023-06-25 05:08:43] INFO root fetch - processPackages [autoflake]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [autoflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoflake-2.1.1.tar.gz tmp/autoflake-2.2.0.tar.gz --markdown 20230625/a/autoflake/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-25 05:08:43] INFO root fetch - processPackages [product-key-memory]: executing diffoscope
+[2023-06-25 05:08:43] INFO root fetch - processPackages [product-key-memory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/product_key_memory-0.1.8.tar.gz tmp/product_key_memory-0.1.9.tar.gz --markdown 20230625/p/product-key-memory/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 05:08:44] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.8.tar.gz]
+[2023-06-25 05:08:44] INFO root fetch - processPackages [watchmen-indicator-surface]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_indicator_surface-16.5.9.tar.gz]
+[2023-06-25 05:08:44] INFO root fetch - main [MainThread]: End processing [watchmen-indicator-surface]: success
+[2023-06-25 05:08:44] INFO root fetch - processPackages [watchmen-cli]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_cli-16.5.8.tar.gz]
+[2023-06-25 05:08:44] INFO root fetch - processPackages [watchmen-cli]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_cli-16.5.9.tar.gz]
+[2023-06-25 05:08:44] INFO root fetch - main [MainThread]: End processing [watchmen-cli]: success
+[2023-06-25 05:08:44] INFO root fetch - processPackages [product-key-memory]: Remove: archive file [/home/abi/fetcher/tmp/product_key_memory-0.1.8.tar.gz]
+[2023-06-25 05:08:44] INFO root fetch - processPackages [product-key-memory]: Remove: archive file [/home/abi/fetcher/tmp/product_key_memory-0.1.9.tar.gz]
+[2023-06-25 05:08:44] INFO root fetch - main [MainThread]: End processing [product-key-memory]: success
+[2023-06-25 05:08:44] INFO root fetch - processPackages [pyperspace]: Remove: archive file [/home/abi/fetcher/tmp/pyperspace-0.1.8-py3-none-any.whl.zip]
+[2023-06-25 05:08:44] INFO root fetch - processPackages [pyperspace]: Remove: archive file [/home/abi/fetcher/tmp/pyperspace-0.1.9-py3-none-any.whl.zip]
+[2023-06-25 05:08:44] INFO root fetch - main [MainThread]: End processing [pyperspace]: success
+[2023-06-25 05:08:45] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.8.tar.gz]
+[2023-06-25 05:08:45] INFO root fetch - processPackages [watchmen-rest-doll]: Remove: archive file [/home/abi/fetcher/tmp/watchmen_rest_doll-16.5.9.tar.gz]
+[2023-06-25 05:08:45] INFO root fetch - main [MainThread]: End processing [watchmen-rest-doll]: success
+[2023-06-25 05:08:45] INFO root fetch - processPackages [autoflake]: Remove: archive file [/home/abi/fetcher/tmp/autoflake-2.1.1.tar.gz]
+[2023-06-25 05:08:45] INFO root fetch - processPackages [autoflake]: Remove: archive file [/home/abi/fetcher/tmp/autoflake-2.2.0.tar.gz]
+[2023-06-25 05:08:45] INFO root fetch - main [MainThread]: End processing [autoflake]: success
+[2023-06-25 05:08:45] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230624.tar.gz]
+[2023-06-25 05:08:45] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230625.tar.gz]
+[2023-06-25 05:08:45] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-25 05:08:45] INFO root fetch - main [MainThread]: Store serial: [18633841]
