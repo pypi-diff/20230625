@@ -15357,3 +15357,48 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
 [2023-06-25 22:33:17] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
 [2023-06-25 22:33:17] INFO root fetch - main [MainThread]: Store serial: [18638803]
+[2023-06-25 22:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638803]
+[2023-06-25 22:38:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctd-python
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-cat
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iza
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ape-dasy
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: horde-model-reference
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hackchat
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ape-dasy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:38:27] INFO root fetch - processPackages [pandas-cat]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:38:27] WARNING root fetch - processPackages [iza]: Skipping, unable to determine old version
+[2023-06-25 22:38:27] INFO root fetch - main [MainThread]: End processing [iza] error
+[2023-06-25 22:38:27] WARNING root fetch - processPackages [ctd-python]: Skipping, unable to determine old version
+[2023-06-25 22:38:27] INFO root fetch - main [MainThread]: End processing [ctd-python] error
+[2023-06-25 22:38:27] INFO root fetch - processPackages [horde-model-reference]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 22:38:27] INFO root fetch - processPackages [hackchat]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-25 22:38:27] INFO root fetch - processPackages [ape-dasy]: Downloading https://files.pythonhosted.org/packages/bc/c0/d81cc24b4caaf9753fba741787931deba87af6c0dd7cb0438b97db54b90f/ape-dasy-0.1.0.tar.gz
+[2023-06-25 22:38:27] INFO root fetch - processPackages [pandas-cat]: Downloading https://files.pythonhosted.org/packages/4d/29/fdb86ebcd0590a29ca01a699e13881a1c215b3c32cdb55ed7ee293719e76/pandas-cat-0.1.0.tar.gz
+[2023-06-25 22:38:27] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/94/b1/94af3b2f1266ecead1ddc74512152639ba9a9c4f26bc7fbb9d2e31f8bbb2/horde_model_reference-0.2.2-py3-none-any.whl
+[2023-06-25 22:38:27] INFO root fetch - processPackages [hackchat]: Downloading https://files.pythonhosted.org/packages/cb/66/fbeccaf35eee56731751c830661686c7f4477a5c6bdbad81a190fc668fcd/hackchat-0.2.0.tar.gz
+[2023-06-25 22:38:28] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/13/42/bccf1b87352dfb3265a1d1df6e90274a388cb7e38b1053e9070c2885c56e/horde_model_reference-0.2.3-py3-none-any.whl
+[2023-06-25 22:38:28] INFO root fetch - processPackages [ape-dasy]: Downloading https://files.pythonhosted.org/packages/2d/32/9add11fdc013cb6f50fafa84e54425a3e39530af4d7466e3a3eff742feaa/ape_dasy-0.1.1.tar.gz
+[2023-06-25 22:38:28] INFO root fetch - processPackages [pandas-cat]: Downloading https://files.pythonhosted.org/packages/10/69/a1b30afc451440893eab279367124b507897463efe1a95301b0fcc5e0c7d/pandas-cat-0.1.1.tar.gz
+[2023-06-25 22:38:28] INFO root fetch - processPackages [horde-model-reference]: executing diffoscope
+[2023-06-25 22:38:28] INFO root fetch - processPackages [horde-model-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_model_reference-0.2.2-py3-none-any.whl.zip tmp/horde_model_reference-0.2.3-py3-none-any.whl.zip --markdown 20230625/h/horde-model-reference/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 22:38:28] INFO root fetch - processPackages [ape-dasy]: executing diffoscope
+[2023-06-25 22:38:28] INFO root fetch - processPackages [ape-dasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-dasy-0.1.0.tar.gz tmp/ape_dasy-0.1.1.tar.gz --markdown 20230625/a/ape-dasy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:38:28] INFO root fetch - processPackages [hackchat]: Downloading https://files.pythonhosted.org/packages/36/57/d252dc1c2bc754330bc23007633073aa3b98a6c0957473e702ef5b06cfc4/hackchat-0.3.0.tar.gz
+[2023-06-25 22:38:28] INFO root fetch - processPackages [pandas-cat]: executing diffoscope
+[2023-06-25 22:38:28] INFO root fetch - processPackages [pandas-cat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-cat-0.1.0.tar.gz tmp/pandas-cat-0.1.1.tar.gz --markdown 20230625/p/pandas-cat/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:38:28] INFO root fetch - processPackages [hackchat]: executing diffoscope
+[2023-06-25 22:38:28] INFO root fetch - processPackages [hackchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackchat-0.2.0.tar.gz tmp/hackchat-0.3.0.tar.gz --markdown 20230625/h/hackchat/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-25 22:38:29] INFO root fetch - processPackages [ape-dasy]: Remove: archive file [/home/abi/fetcher/tmp/ape-dasy-0.1.0.tar.gz]
+[2023-06-25 22:38:29] INFO root fetch - processPackages [ape-dasy]: Remove: archive file [/home/abi/fetcher/tmp/ape_dasy-0.1.1.tar.gz]
+[2023-06-25 22:38:29] INFO root fetch - main [MainThread]: End processing [ape-dasy]: success
+[2023-06-25 22:38:29] INFO root fetch - processPackages [horde-model-reference]: Remove: archive file [/home/abi/fetcher/tmp/horde_model_reference-0.2.2-py3-none-any.whl.zip]
+[2023-06-25 22:38:29] INFO root fetch - processPackages [horde-model-reference]: Remove: archive file [/home/abi/fetcher/tmp/horde_model_reference-0.2.3-py3-none-any.whl.zip]
+[2023-06-25 22:38:29] INFO root fetch - main [MainThread]: End processing [horde-model-reference]: success
+[2023-06-25 22:38:29] INFO root fetch - processPackages [pandas-cat]: Remove: archive file [/home/abi/fetcher/tmp/pandas-cat-0.1.0.tar.gz]
+[2023-06-25 22:38:29] INFO root fetch - processPackages [pandas-cat]: Remove: archive file [/home/abi/fetcher/tmp/pandas-cat-0.1.1.tar.gz]
+[2023-06-25 22:38:29] INFO root fetch - main [MainThread]: End processing [pandas-cat]: success
+[2023-06-25 22:39:23] INFO root fetch - processPackages [hackchat]: Remove: archive file [/home/abi/fetcher/tmp/hackchat-0.2.0.tar.gz]
+[2023-06-25 22:39:23] INFO root fetch - processPackages [hackchat]: Remove: archive file [/home/abi/fetcher/tmp/hackchat-0.3.0.tar.gz]
+[2023-06-25 22:39:23] INFO root fetch - main [MainThread]: End processing [hackchat]: success
+[2023-06-25 22:39:23] INFO root fetch - main [MainThread]: Store serial: [18638832]
