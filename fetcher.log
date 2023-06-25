@@ -10321,3 +10321,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 15:27:59] INFO root fetch - processPackages [inducoapi]: Remove: archive file [/home/abi/fetcher/tmp/inducoapi-2.1.0.tar.gz]
 [2023-06-25 15:27:59] INFO root fetch - main [MainThread]: End processing [inducoapi]: success
 [2023-06-25 15:27:59] INFO root fetch - main [MainThread]: Store serial: [18636655]
+[2023-06-25 15:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636655]
+[2023-06-25 15:33:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lycoris-lora
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RouterExecutor
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hddfancontrol
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pcats-api-client
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuspyserver
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-pde
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsr-agent
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: countool
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-playwright-async
+[2023-06-25 15:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gwas-tools
+[2023-06-25 15:33:09] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev8] Old Version: [0.1.7.dev7]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [tuspyserver]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-25 15:33:09] WARNING root fetch - processPackages [RouterExecutor]: Skipping, unable to determine old version
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pcats-api-client]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-06-25 15:33:09] INFO root fetch - main [MainThread]: End processing [RouterExecutor] error
+[2023-06-25 15:33:09] INFO root fetch - processPackages [countool]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [hddfancontrol]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pytest-playwright-async]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [dsr-agent]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [gwas-tools]: New version: [0.13.3] Old Version: [0.13.2]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [py-pde]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-25 15:33:09] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/2a/1a/d43b9003799dc96caaba1306c272c91f4a0f58d5f6a82a1b374c8014f23d/lycoris_lora-0.1.7.dev7.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [tuspyserver]: Downloading https://files.pythonhosted.org/packages/a7/52/7d32c6ac16782331e93979e76b265f90491c3e6b25266f0b84d52f2529db/tuspyserver-1.3.0.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [countool]: Downloading https://files.pythonhosted.org/packages/88/0d/9debd3deb2c6486d75090446beea2136b7fd0e1f722a45ccb8b8b443c3c7/countool-0.0.2.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/5b/69/b16b44df96dc44b9bf923812868da393a13c28e71743feda7c9a57d5b15f/pytest-playwright-async-0.0.4.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [gwas-tools]: Downloading https://files.pythonhosted.org/packages/22/3d/3e675a929b2dc47a766e98f8abe467b226c4c3926015717542d1f69371fb/gwas_tools-0.13.2-py3-none-any.whl
+[2023-06-25 15:33:09] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/78/72/71526c622bd1fa8fc1bcf587b85c4b07042f25cfcfe62187fb88826ac730/py-pde-0.9.3.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pcats-api-client]: Downloading https://files.pythonhosted.org/packages/80/ef/449062f678e2d25627fcb1cf858a88b671acbbf10051cabc99b4de060b8d/pcats_api_client-1.0.0.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [hddfancontrol]: Downloading https://files.pythonhosted.org/packages/c4/b1/a100f5612d01497cdfd7897c1663d139b5f7798caec70fc4d8154a4c575f/hddfancontrol-1.5.0.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [dsr-agent]: Downloading https://files.pythonhosted.org/packages/05/18/a84c8563bf7cd6206c0eeabdf8c87d9f0c8468b32a46abbf2c33a6c81e78/dsr_agent-0.0.3.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [tuspyserver]: Downloading https://files.pythonhosted.org/packages/94/c1/bf2d452cb02cfcf91370cba73e454a1b484b055766ff28bea20940b61865/tuspyserver-1.3.1.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [countool]: Downloading https://files.pythonhosted.org/packages/3a/a2/dc25425a94def3b09f268cb151cec053529af033d59720a06aeb729e09a4/countool-0.0.3.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/b1/c9/291594490dd6eef9b9f9cbd13742cf378ad8eac4b57234a125b050e3b4bc/lycoris_lora-0.1.7.dev8.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/77/5d/37a16cc358a25759e9728f66228cfc8449cd2fb1eceffc23d6b7889e1be1/pytest-playwright-async-0.0.5.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [tuspyserver]: executing diffoscope
+[2023-06-25 15:33:09] INFO root fetch - processPackages [tuspyserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuspyserver-1.3.0.tar.gz tmp/tuspyserver-1.3.1.tar.gz --markdown 20230625/t/tuspyserver/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-25 15:33:09] INFO root fetch - processPackages [countool]: executing diffoscope
+[2023-06-25 15:33:09] INFO root fetch - processPackages [countool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countool-0.0.2.tar.gz tmp/countool-0.0.3.tar.gz --markdown 20230625/c/countool/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pytest-playwright-async]: executing diffoscope
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pytest-playwright-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-async-0.0.4.tar.gz tmp/pytest-playwright-async-0.0.5.tar.gz --markdown 20230625/p/pytest-playwright-async/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-25 15:33:09] INFO root fetch - processPackages [gwas-tools]: Downloading https://files.pythonhosted.org/packages/0f/69/7904722a25797c0b8860838c6f12319b052569c3dbe3be8d69dbc5bda3a7/gwas_tools-0.13.3-py3-none-any.whl
+[2023-06-25 15:33:09] INFO root fetch - processPackages [pcats-api-client]: Downloading https://files.pythonhosted.org/packages/8b/e5/9047f4578472b6fc721ee2583265a7550bf7ef06246a954bc03e4ad77d0d/pcats_api_client-1.1.1.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [dsr-agent]: Downloading https://files.pythonhosted.org/packages/5e/03/54f3eb4021af3c2367b59b8729df412472cfd8e75edec553fe8f81d8d890/dsr_agent-0.0.4.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [hddfancontrol]: Downloading https://files.pythonhosted.org/packages/83/ea/386dcabf926869341593240bb76f9feac25bff4e7ff5c8edc7ed2d462175/hddfancontrol-1.5.1.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-25 15:33:09] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev7.tar.gz tmp/lycoris_lora-0.1.7.dev8.tar.gz --markdown 20230625/l/lycoris-lora/0.1.7.dev7-0.1.7.dev8/diff.md --exclude *.pyd
+[2023-06-25 15:33:09] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/69/86/702c3ff65158b6594b800bfa103b9a219bcc1cb270a17634266044af2efa/py-pde-0.9.4.tar.gz
+[2023-06-25 15:33:09] INFO root fetch - processPackages [gwas-tools]: executing diffoscope
+[2023-06-25 15:33:09] INFO root fetch - processPackages [gwas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwas_tools-0.13.2-py3-none-any.whl.zip tmp/gwas_tools-0.13.3-py3-none-any.whl.zip --markdown 20230625/g/gwas-tools/0.13.2-0.13.3/diff.md --exclude *.pyd
+[2023-06-25 15:33:10] INFO root fetch - processPackages [pcats-api-client]: executing diffoscope
+[2023-06-25 15:33:10] INFO root fetch - processPackages [pcats-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcats_api_client-1.0.0.tar.gz tmp/pcats_api_client-1.1.1.tar.gz --markdown 20230625/p/pcats-api-client/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-25 15:33:10] INFO root fetch - processPackages [dsr-agent]: executing diffoscope
+[2023-06-25 15:33:10] INFO root fetch - processPackages [dsr-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsr_agent-0.0.3.tar.gz tmp/dsr_agent-0.0.4.tar.gz --markdown 20230625/d/dsr-agent/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 15:33:10] INFO root fetch - processPackages [hddfancontrol]: executing diffoscope
+[2023-06-25 15:33:10] INFO root fetch - processPackages [hddfancontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hddfancontrol-1.5.0.tar.gz tmp/hddfancontrol-1.5.1.tar.gz --markdown 20230625/h/hddfancontrol/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-25 15:33:10] INFO root fetch - processPackages [py-pde]: executing diffoscope
+[2023-06-25 15:33:10] INFO root fetch - processPackages [py-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pde-0.9.3.tar.gz tmp/py-pde-0.9.4.tar.gz --markdown 20230625/p/py-pde/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-25 15:33:11] INFO root fetch - processPackages [tuspyserver]: Remove: archive file [/home/abi/fetcher/tmp/tuspyserver-1.3.0.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - processPackages [tuspyserver]: Remove: archive file [/home/abi/fetcher/tmp/tuspyserver-1.3.1.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - main [MainThread]: End processing [tuspyserver]: success
+[2023-06-25 15:33:11] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.4.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.5.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async]: success
+[2023-06-25 15:33:11] INFO root fetch - processPackages [countool]: Remove: archive file [/home/abi/fetcher/tmp/countool-0.0.2.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - processPackages [countool]: Remove: archive file [/home/abi/fetcher/tmp/countool-0.0.3.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - main [MainThread]: End processing [countool]: success
+[2023-06-25 15:33:11] INFO root fetch - processPackages [dsr-agent]: Remove: archive file [/home/abi/fetcher/tmp/dsr_agent-0.0.3.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - processPackages [dsr-agent]: Remove: archive file [/home/abi/fetcher/tmp/dsr_agent-0.0.4.tar.gz]
+[2023-06-25 15:33:11] INFO root fetch - main [MainThread]: End processing [dsr-agent]: success
+[2023-06-25 15:33:11] INFO root fetch - processPackages [gwas-tools]: Remove: archive file [/home/abi/fetcher/tmp/gwas_tools-0.13.2-py3-none-any.whl.zip]
+[2023-06-25 15:33:11] INFO root fetch - processPackages [gwas-tools]: Remove: archive file [/home/abi/fetcher/tmp/gwas_tools-0.13.3-py3-none-any.whl.zip]
+[2023-06-25 15:33:11] INFO root fetch - main [MainThread]: End processing [gwas-tools]: success
+[2023-06-25 15:33:12] INFO root fetch - processPackages [pcats-api-client]: Remove: archive file [/home/abi/fetcher/tmp/pcats_api_client-1.0.0.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - processPackages [pcats-api-client]: Remove: archive file [/home/abi/fetcher/tmp/pcats_api_client-1.1.1.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - main [MainThread]: End processing [pcats-api-client]: success
+[2023-06-25 15:33:12] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev7.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev8.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-25 15:33:12] INFO root fetch - processPackages [hddfancontrol]: Remove: archive file [/home/abi/fetcher/tmp/hddfancontrol-1.5.0.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - processPackages [hddfancontrol]: Remove: archive file [/home/abi/fetcher/tmp/hddfancontrol-1.5.1.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - main [MainThread]: End processing [hddfancontrol]: success
+[2023-06-25 15:33:12] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.3.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
+[2023-06-25 15:33:12] INFO root fetch - main [MainThread]: End processing [py-pde]: success
+[2023-06-25 15:33:12] INFO root fetch - main [MainThread]: Store serial: [18636685]
