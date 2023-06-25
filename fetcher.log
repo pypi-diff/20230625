@@ -11322,3 +11322,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 17:17:46] INFO root fetch - processPackages [enformer-dna-diff]: Remove: archive file [/home/abi/fetcher/tmp/enformer_dna_diff-1.1.tar.gz]
 [2023-06-25 17:17:46] INFO root fetch - main [MainThread]: End processing [enformer-dna-diff]: success
 [2023-06-25 17:17:46] INFO root fetch - main [MainThread]: Store serial: [18637097]
+[2023-06-25 17:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637097]
+[2023-06-25 17:22:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-25 17:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrefact
+[2023-06-25 17:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptulate
+[2023-06-25 17:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verysimplemodule-lais
+[2023-06-25 17:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: propan
+[2023-06-25 17:22:56] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [86]
+[2023-06-25 17:22:56] INFO root fetch - processPackages [verysimplemodule-lais]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-06-25 17:22:56] INFO root fetch - processPackages [promptulate]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-25 17:22:56] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/50/d6/38134aa1d59394dd1ae0fb963c1add286f8fc15c8f534595457249a86780/verysimplemodule_lais-0.0.1.5.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [propan]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2023-06-25 17:22:56] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/74/39/257fa76947c50fa4914a98752bebc9935f1ea54a28b6f37e78277bbad64b/promptulate-1.1.0.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/76/6b/c7b06fd7909de248c98f4ecdf4f92b7337c8a1dd2922a8ff6dc349b64b91/pyrefact-86.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [verysimplemodule-lais]: Downloading https://files.pythonhosted.org/packages/56/7a/2c663a4dfa8ac36da5ed8d4f1b9985b342a8da7b540c26bbb62283961e57/verysimplemodule_lais-0.0.1.6.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/2e/bc/8febc292cb164b868943aa1f0860b6d58bd563ed6b752557bbd739dddcf6/propan-0.1.3.8.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [promptulate]: Downloading https://files.pythonhosted.org/packages/09/2f/15e4dded1e6c75b2799667c2200bed7d09ceeb3a79e65c142e6cd52069db/promptulate-1.2.0.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [pyrefact]: Downloading https://files.pythonhosted.org/packages/ec/25/07a98c4557e35e22a88708b9a988bbedf69d9c83d14aa843166c1bc82677/pyrefact-9.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [verysimplemodule-lais]: executing diffoscope
+[2023-06-25 17:22:56] INFO root fetch - processPackages [verysimplemodule-lais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verysimplemodule_lais-0.0.1.5.tar.gz tmp/verysimplemodule_lais-0.0.1.6.tar.gz --markdown 20230625/v/verysimplemodule-lais/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-06-25 17:22:56] INFO root fetch - processPackages [promptulate]: executing diffoscope
+[2023-06-25 17:22:56] INFO root fetch - processPackages [promptulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptulate-1.1.0.tar.gz tmp/promptulate-1.2.0.tar.gz --markdown 20230625/p/promptulate/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 17:22:56] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-06-25 17:22:56] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-86.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230625/p/pyrefact/86-9/diff.md --exclude *.pyd
+[2023-06-25 17:22:56] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/69/e6/bc7cb6e9b78e3e948b6c8433fdcaeaca26051215c27c714975856fd5a85e/propan-0.1.3.9.tar.gz
+[2023-06-25 17:22:56] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-25 17:22:56] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.3.8.tar.gz tmp/propan-0.1.3.9.tar.gz --markdown 20230625/p/propan/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2023-06-25 17:22:57] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.5.tar.gz]
+[2023-06-25 17:22:57] INFO root fetch - processPackages [verysimplemodule-lais]: Remove: archive file [/home/abi/fetcher/tmp/verysimplemodule_lais-0.0.1.6.tar.gz]
+[2023-06-25 17:22:57] INFO root fetch - main [MainThread]: End processing [verysimplemodule-lais]: success
+[2023-06-25 17:22:57] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-86.tar.gz]
+[2023-06-25 17:22:57] INFO root fetch - processPackages [pyrefact]: Remove: archive file [/home/abi/fetcher/tmp/pyrefact-9.tar.gz]
+[2023-06-25 17:22:57] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-06-25 17:22:58] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.8.tar.gz]
+[2023-06-25 17:22:58] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.9.tar.gz]
+[2023-06-25 17:22:58] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-25 17:23:52] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.1.0.tar.gz]
+[2023-06-25 17:23:52] INFO root fetch - processPackages [promptulate]: Remove: archive file [/home/abi/fetcher/tmp/promptulate-1.2.0.tar.gz]
+[2023-06-25 17:23:52] INFO root fetch - main [MainThread]: End processing [promptulate]: success
+[2023-06-25 17:23:52] INFO root fetch - main [MainThread]: Store serial: [18637109]
