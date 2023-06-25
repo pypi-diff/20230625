@@ -2790,3 +2790,29 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 04:00:32] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
 [2023-06-25 04:00:32] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
 [2023-06-25 04:00:32] INFO root fetch - main [MainThread]: Store serial: [18633478]
+[2023-06-25 04:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633478]
+[2023-06-25 04:05:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-25 04:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radiant-framework
+[2023-06-25 04:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timeout-executor
+[2023-06-25 04:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowtask
+[2023-06-25 04:05:40] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a3] Old Version: [0.1a2]
+[2023-06-25 04:05:40] INFO root fetch - processPackages [flowtask]: New version: [4.5.6] Old Version: [4.5.5]
+[2023-06-25 04:05:40] INFO root fetch - processPackages [timeout-executor]: New version: [0.1.9] Old Version: [0.1.10]
+[2023-06-25 04:05:40] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/a3/f9/f95a481822969ba91971b84069dc95a069924ea2b0c9eaafde21c584b753/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 04:05:40] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/39/58/5de845086dd1dc8cc9018ee2001664524e29e009e4605610ddeeaa166eaf/radiant-framework-0.1a2.tar.gz
+[2023-06-25 04:05:40] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 28113036>=10485760
+[2023-06-25 04:05:40] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-06-25 04:05:41] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/b9/c3/cce2c8aed987c1074d13c59f422d6d699c8441c05924d3ae8fcb09e2cfdb/timeout_executor-0.1.10.tar.gz
+[2023-06-25 04:05:41] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/d2/9e/f0938bfdf88e4754c0df1b11c42953d6e387115ddda1de40a808e38f728b/flowtask-4.5.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 04:05:41] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/d7/bc/668c75799814b1f57614a3f9bc838a8684ecfc293959f71de3b3737e2265/timeout_executor-0.1.9.tar.gz
+[2023-06-25 04:05:41] INFO root fetch - processPackages [timeout-executor]: executing diffoscope
+[2023-06-25 04:05:41] INFO root fetch - processPackages [timeout-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_executor-0.1.10.tar.gz tmp/timeout_executor-0.1.9.tar.gz --markdown 20230625/t/timeout-executor/0.1.10-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 04:05:41] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-25 04:05:41] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/f/flowtask/4.5.5-4.5.6/diff.md --exclude *.pyd
+[2023-06-25 04:05:42] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.10.tar.gz]
+[2023-06-25 04:05:42] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.9.tar.gz]
+[2023-06-25 04:05:42] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
+[2023-06-25 04:05:47] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 04:05:47] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 04:05:47] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-25 04:05:47] INFO root fetch - main [MainThread]: Store serial: [18633487]
