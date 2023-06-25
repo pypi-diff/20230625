@@ -9403,3 +9403,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:21:56] INFO root fetch - processPackages [fastapi-mail]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mail-1.2.9.tar.gz]
 [2023-06-25 14:21:56] INFO root fetch - main [MainThread]: End processing [fastapi-mail]: success
 [2023-06-25 14:21:56] INFO root fetch - main [MainThread]: Store serial: [18636212]
+[2023-06-25 14:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636212]
+[2023-06-25 14:27:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apysc
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgt
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captchaai
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: workflow-templater
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-dzne-filedata
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-playwright-async
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-git-gitlab
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lccpy
+[2023-06-25 14:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbmig
+[2023-06-25 14:27:05] INFO root fetch - processPackages [lib-dzne-filedata]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [cgt]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [lccpy]: New version: [1.4.7.1] Old Version: [1.4.7]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [workflow-templater]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 14:27:05] WARNING root fetch - processPackages [captchaai]: Skipping, unable to determine old version
+[2023-06-25 14:27:05] INFO root fetch - processPackages [captchaai]: Start processing: work-time-log
+[2023-06-25 14:27:05] INFO root fetch - main [MainThread]: End processing [captchaai] error
+[2023-06-25 14:27:05] INFO root fetch - processPackages [dbmig]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [pytest-playwright-async]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [apysc]: New version: [3.1.0] Old Version: [3.0.4]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [work-time-log]: New version: [0.99.2.post1] Old Version: [0.99.2]
+[2023-06-25 14:27:05] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [work-time-log]: Downloading https://files.pythonhosted.org/packages/56/a9/ca4f7096fc717096b0c72e3551ede102278c4db17eca388c3b28180bcb52/work-time-log-0.99.2.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [lccpy]: Downloading https://files.pythonhosted.org/packages/ca/c4/ed52db954ad3c2ec653c666f2c2b2b520f93962138ad18f8fa3c6a8d42cd/lccpy-1.4.7.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/c7/24/053cebf2131a799b32e05b35ed9195711213f77308ac4f1815c88be9b03b/cgt-0.2.0.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/37/50/d55a2cfa478fced5f349961a8c29722fa929b34f60195f65364ba4a1a71a/pytest-playwright-async-0.0.2.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [lib-dzne-filedata]: Downloading https://files.pythonhosted.org/packages/eb/f3/7bcfd728bf12c63a14ad0ffb96831d9658c99bc9ea4e24221ec11e6a766e/lib-dzne-filedata-0.4.4.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [dbmig]: Downloading https://files.pythonhosted.org/packages/47/a6/048fbd5786c034feb6530611889c83e378548ae4dd20b1a803153e665299/dbmig-1.6.2.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/e1/65/858c2930d7b5503cd19f1d037f695e7bd906cc77df462219dfa2a8fc52b7/xia_git_gitlab-0.1.1-cp39-none-win_amd64.whl
+[2023-06-25 14:27:05] INFO root fetch - processPackages [workflow-templater]: Downloading https://files.pythonhosted.org/packages/ff/f3/01335d7d117dfc8e3e858138846dcad19ed3a511b53328ff69cd6f02031e/workflow_templater-0.2.8.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ba/e1/6b1aaaca6fa8402a724db993939cc1d0b493ba382639b35d0d584737c8c4/apysc-3.0.4.tar.gz
+[2023-06-25 14:27:05] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [work-time-log]: Downloading https://files.pythonhosted.org/packages/f2/3c/8252c8e10fe5ea561b3c93e1ec358e52afeeb8ed245d47e8a066d43a7629/work-time-log-0.99.2.post1.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230625/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [lccpy]: Downloading https://files.pythonhosted.org/packages/94/21/bbd41dabfb380da22ddb868af9fe75740f7fbabb8ada0e72a691ea4de464/lccpy-1.4.7.1.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [pytest-playwright-async]: Downloading https://files.pythonhosted.org/packages/ef/f1/abef2042af3f89475d8803a9a0fee1ab4d26b87468a0ca5143b9bbbc3591/pytest-playwright-async-0.0.3.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [lib-dzne-filedata]: Downloading https://files.pythonhosted.org/packages/50/e8/40fcefd2542311312123aebf787411d64d3e22710e097b014403ac4aa458/lib-dzne-filedata-0.5.0.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/98/5f/f38afbc2dc6c5d2a05abe1c87e7bcc28eea94ddd4a746b549f213f501f5d/xia_git_gitlab-0.1.2-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 14:27:06] INFO root fetch - processPackages [dbmig]: Downloading https://files.pythonhosted.org/packages/12/07/08d897917ffab24b64cac9c13ab9d3357318e9efd6158fff9534c05d4b97/dbmig-1.6.3.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/e1/89/120600fb5102697d02d55c2024b2f82b207fd24286d502d198a31e58d13e/apysc-3.1.0.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/ca/fe/ba5ae7df0804e6855d354a09bb73515821ee6f158bcf93cc06f75a71697b/cgt-0.3.1.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [lccpy]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [lccpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lccpy-1.4.7.tar.gz tmp/lccpy-1.4.7.1.tar.gz --markdown 20230625/l/lccpy/1.4.7-1.4.7.1/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [workflow-templater]: Downloading https://files.pythonhosted.org/packages/97/b5/d7dee5f107cbfe25d096f0e4f7fff3c8b6bf7e8fd0e564ab5a52dfe3cbed/workflow_templater-0.2.9.tar.gz
+[2023-06-25 14:27:06] INFO root fetch - processPackages [lib-dzne-filedata]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [lib-dzne-filedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-filedata-0.4.4.tar.gz tmp/lib-dzne-filedata-0.5.0.tar.gz --markdown 20230625/l/lib-dzne-filedata/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [pytest-playwright-async]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [pytest-playwright-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-playwright-async-0.0.2.tar.gz tmp/pytest-playwright-async-0.0.3.tar.gz --markdown 20230625/p/pytest-playwright-async/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.1-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [dbmig]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [dbmig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbmig-1.6.2.tar.gz tmp/dbmig-1.6.3.tar.gz --markdown 20230625/d/dbmig/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [work-time-log]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [work-time-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-time-log-0.99.2.tar.gz tmp/work-time-log-0.99.2.post1.tar.gz --markdown 20230625/w/work-time-log/0.99.2-0.99.2.post1/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [cgt]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [cgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgt-0.2.0.tar.gz tmp/cgt-0.3.1.tar.gz --markdown 20230625/c/cgt/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [workflow-templater]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [workflow-templater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workflow_templater-0.2.8.tar.gz tmp/workflow_templater-0.2.9.tar.gz --markdown 20230625/w/workflow-templater/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 14:27:06] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-25 14:27:06] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.0.4.tar.gz tmp/apysc-3.1.0.tar.gz --markdown 20230625/a/apysc/3.0.4-3.1.0/diff.md --exclude *.pyd
+[2023-06-25 14:27:07] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-25 14:27:07] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-25 14:27:07] INFO root fetch - processPackages [pyqrack]: Start processing: cooltime
+[2023-06-25 14:27:07] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-25 14:27:07] INFO root fetch - processPackages [cooltime]: New version: [0.3] Old Version: [0.2]
+[2023-06-25 14:27:07] INFO root fetch - processPackages [lccpy]: Remove: archive file [/home/abi/fetcher/tmp/lccpy-1.4.7.tar.gz]
+[2023-06-25 14:27:07] INFO root fetch - processPackages [lccpy]: Remove: archive file [/home/abi/fetcher/tmp/lccpy-1.4.7.1.tar.gz]
+[2023-06-25 14:27:07] INFO root fetch - main [MainThread]: End processing [lccpy]: success
+[2023-06-25 14:27:07] INFO root fetch - processPackages [cooltime]: Downloading https://files.pythonhosted.org/packages/78/e6/b1e93487e1981a36c9614d8c72808ad0431de9763311aa7c263975ca6bb1/cooltime-0.2-py2.py3-none-any.whl
+[2023-06-25 14:27:08] INFO root fetch - processPackages [dbmig]: Remove: archive file [/home/abi/fetcher/tmp/dbmig-1.6.2.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - processPackages [dbmig]: Remove: archive file [/home/abi/fetcher/tmp/dbmig-1.6.3.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - main [MainThread]: End processing [dbmig]: success
+[2023-06-25 14:27:08] INFO root fetch - processPackages [lib-dzne-filedata]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-filedata-0.4.4.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - processPackages [lib-dzne-filedata]: Remove: archive file [/home/abi/fetcher/tmp/lib-dzne-filedata-0.5.0.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - main [MainThread]: End processing [lib-dzne-filedata]: success
+[2023-06-25 14:27:08] INFO root fetch - processPackages [cooltime]: Downloading https://files.pythonhosted.org/packages/b1/71/3d4b2cad48cd761320ffdd3741c063a2723c6f7ad1bd4901fe30ff835ecb/cooltime-0.3.tar.gz
+[2023-06-25 14:27:08] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.2.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - processPackages [pytest-playwright-async]: Remove: archive file [/home/abi/fetcher/tmp/pytest-playwright-async-0.0.3.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async]: success
+[2023-06-25 14:27:08] INFO root fetch - processPackages [cooltime]: executing diffoscope
+[2023-06-25 14:27:08] INFO root fetch - processPackages [cooltime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooltime-0.2-py2.py3-none-any.whl.zip tmp/cooltime-0.3.tar.gz --markdown 20230625/c/cooltime/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-25 14:27:08] INFO root fetch - processPackages [work-time-log]: Remove: archive file [/home/abi/fetcher/tmp/work-time-log-0.99.2.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - processPackages [work-time-log]: Remove: archive file [/home/abi/fetcher/tmp/work-time-log-0.99.2.post1.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - main [MainThread]: End processing [work-time-log]: success
+[2023-06-25 14:27:08] INFO root fetch - processPackages [workflow-templater]: Remove: archive file [/home/abi/fetcher/tmp/workflow_templater-0.2.8.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - processPackages [workflow-templater]: Remove: archive file [/home/abi/fetcher/tmp/workflow_templater-0.2.9.tar.gz]
+[2023-06-25 14:27:08] INFO root fetch - main [MainThread]: End processing [workflow-templater]: success
+[2023-06-25 14:27:08] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-25 14:27:08] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.2-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-25 14:27:08] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 14:27:09] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.2.0.tar.gz]
+[2023-06-25 14:27:09] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.3.1.tar.gz]
+[2023-06-25 14:27:09] INFO root fetch - main [MainThread]: End processing [cgt]: success
+[2023-06-25 14:27:16] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.4.tar.gz]
+[2023-06-25 14:27:16] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.0.tar.gz]
+[2023-06-25 14:27:16] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-25 14:28:02] INFO root fetch - processPackages [cooltime]: Remove: archive file [/home/abi/fetcher/tmp/cooltime-0.2-py2.py3-none-any.whl.zip]
+[2023-06-25 14:28:02] INFO root fetch - processPackages [cooltime]: Remove: archive file [/home/abi/fetcher/tmp/cooltime-0.3.tar.gz]
+[2023-06-25 14:28:02] INFO root fetch - main [MainThread]: End processing [cooltime]: success
+[2023-06-25 14:28:02] INFO root fetch - main [MainThread]: Store serial: [18636262]
