@@ -2566,3 +2566,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:41:58] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
 [2023-06-25 03:41:58] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-06-25 03:41:58] INFO root fetch - main [MainThread]: Store serial: [18633351]
+[2023-06-25 03:47:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633351]
+[2023-06-25 03:47:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-pretrained
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-celery-beat
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive-jupyter-kernel
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agent-automata
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioregistry
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drupaljsonapiclient
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-django
+[2023-06-25 03:47:07] INFO root fetch - processPackages [sqlalchemy-celery-beat]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [drupaljsonapiclient]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [agent-automata]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/42/20/6294e69a067581323652fe83e08a6ce3545a9020a285bf6820dc0608773a/drupaljsonapiclient-1.0.3.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-25 03:47:07] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-25 03:47:07] INFO root fetch - processPackages [proactive]: Start processing: flowtask
+[2023-06-25 03:47:07] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [flowtask]: New version: [4.5.6] Old Version: [4.5.5]
+[2023-06-25 03:47:07] INFO root fetch - processPackages [agent-automata]: Downloading https://files.pythonhosted.org/packages/bf/a5/da066e1bce3327401e6fee89781188ac800df6661e466881d11ccf7ffc7c/agent_automata-0.1.2.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/0a/61/acd70e136a359f0cfe16b4121fddd4852911a6953a66bed35e44575c48c2/sqlalchemy_celery_beat-0.6.2.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-25 03:47:07] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-25 03:47:08] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/a3/f9/f95a481822969ba91971b84069dc95a069924ea2b0c9eaafde21c584b753/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230625/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/e5/c8/ea49cadef2a53a3026365bfeecf1799d695bcc0f63add143d8954ac25404/drupaljsonapiclient-1.0.4.tar.gz
+[2023-06-25 03:47:08] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-06-25 03:47:08] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230625/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230625/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [drupaljsonapiclient]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [drupaljsonapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drupaljsonapiclient-1.0.3.tar.gz tmp/drupaljsonapiclient-1.0.4.tar.gz --markdown 20230625/d/drupaljsonapiclient/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230625/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/c0/d8/064fe87149719f46db980dad39c9d6bc89f0b15d3ae33a53156d4a213724/sqlalchemy_celery_beat-0.7.0.tar.gz
+[2023-06-25 03:47:08] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230625/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [agent-automata]: Downloading https://files.pythonhosted.org/packages/61/01/39b581ad64c1af7c4261d48ef8920b3676deb16d73e18df5646622277f3a/agent_automata-0.1.3.tar.gz
+[2023-06-25 03:47:08] INFO root fetch - processPackages [sqlalchemy-celery-beat]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [sqlalchemy-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_celery_beat-0.6.2.tar.gz tmp/sqlalchemy_celery_beat-0.7.0.tar.gz --markdown 20230625/s/sqlalchemy-celery-beat/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/d2/9e/f0938bfdf88e4754c0df1b11c42953d6e387115ddda1de40a808e38f728b/flowtask-4.5.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 03:47:08] INFO root fetch - processPackages [agent-automata]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [agent-automata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_automata-0.1.2.tar.gz tmp/agent_automata-0.1.3.tar.gz --markdown 20230625/a/agent-automata/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 03:47:08] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-25 03:47:08] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230625/f/flowtask/4.5.5-4.5.6/diff.md --exclude *.pyd
+[2023-06-25 03:47:09] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-25 03:47:09] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-25 03:47:09] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-25 03:47:09] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.3.tar.gz]
+[2023-06-25 03:47:09] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.4.tar.gz]
+[2023-06-25 03:47:09] INFO root fetch - main [MainThread]: End processing [drupaljsonapiclient]: success
+[2023-06-25 03:47:09] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-25 03:47:09] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-25 03:47:09] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-25 03:47:10] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.6.2.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.7.0.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
+[2023-06-25 03:47:10] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-25 03:47:10] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-25 03:47:10] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-25 03:47:10] INFO root fetch - processPackages [agent-automata]: Remove: archive file [/home/abi/fetcher/tmp/agent_automata-0.1.2.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - processPackages [agent-automata]: Remove: archive file [/home/abi/fetcher/tmp/agent_automata-0.1.3.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - main [MainThread]: End processing [agent-automata]: success
+[2023-06-25 03:47:10] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-25 03:47:10] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-25 03:47:10] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-06-25 03:47:10] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-25 03:47:13] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-25 03:47:13] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230625/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 03:47:13] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 03:47:13] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-25 03:47:13] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-25 03:49:12] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-25 03:49:12] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-25 03:49:12] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-25 03:49:12] INFO root fetch - main [MainThread]: Store serial: [18633384]
