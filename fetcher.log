@@ -9710,3 +9710,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:44:03] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
 [2023-06-25 14:44:03] INFO root fetch - main [MainThread]: End processing [cs-models]: success
 [2023-06-25 14:44:03] INFO root fetch - main [MainThread]: Store serial: [18636364]
+[2023-06-25 14:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636364]
+[2023-06-25 14:49:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-25 14:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphix
+[2023-06-25 14:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-git-gitlab
+[2023-06-25 14:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: countool
+[2023-06-25 14:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apysc
+[2023-06-25 14:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vollseg-napari-mtrack
+[2023-06-25 14:49:13] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-25 14:49:13] INFO root fetch - processPackages [graphix]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 14:49:13] INFO root fetch - processPackages [vollseg-napari-mtrack]: New version: [1.3.5] Old Version: [1.3.3]
+[2023-06-25 14:49:13] INFO root fetch - processPackages [countool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 14:49:13] INFO root fetch - processPackages [apysc]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-25 14:49:13] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/9d/b7/4e4f561044ebe2029eec9d538435082abc3a962284c9b5fa9cd4d31cd434/xia_git_gitlab-0.1.3-cp39-none-win_amd64.whl
+[2023-06-25 14:49:13] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/43/b2/21da34714543534aaa4208a52d11d3eeba0e1ca639093b08f0ad38c9c043/apysc-3.1.1.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [countool]: Downloading https://files.pythonhosted.org/packages/e5/b5/d9dac9dd2d316c7704d53db27b8ade9138085b59341bffb1e91ce6443cc7/countool-0.0.1.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [graphix]: Downloading https://files.pythonhosted.org/packages/eb/42/b6691264fa35529efe6a657a916de3266295e1dc411cb6c82c9c999da044/graphix-0.2.2.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [vollseg-napari-mtrack]: Downloading https://files.pythonhosted.org/packages/c0/e1/1a921c3cd174075f8d74f5c605db47f556ee4c1ef4b811ccd7f3c0923ad8/vollseg-napari-mtrack-1.3.3.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/11/c8/51f1f9f8c94fa044959d02d8b51a0bd3a1ba3a82a4cc07cc057bd13199a8/xia_git_gitlab-0.1.4-cp39-none-win_amd64.whl
+[2023-06-25 14:49:13] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/f8/65/cd89a8df869c7cb67a4fa3ef36f22f795fa56f8fb6d3b05b820b261ca4b1/apysc-3.1.2.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 14:49:13] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-25 14:49:13] INFO root fetch - processPackages [countool]: Downloading https://files.pythonhosted.org/packages/88/0d/9debd3deb2c6486d75090446beea2136b7fd0e1f722a45ccb8b8b443c3c7/countool-0.0.2.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [graphix]: Downloading https://files.pythonhosted.org/packages/94/2d/1fc573e3130dbe8dc42f2d95c7b41a6638679539d8c989bef719b47d3736/graphix-0.2.3.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-25 14:49:13] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.1.tar.gz tmp/apysc-3.1.2.tar.gz --markdown 20230625/a/apysc/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-25 14:49:13] INFO root fetch - processPackages [vollseg-napari-mtrack]: Downloading https://files.pythonhosted.org/packages/ee/2d/4e2d0b4e31a32c98e52d5dd24c90d9a222b099e404cf1afb0c4cafdf41f8/vollseg-napari-mtrack-1.3.5.tar.gz
+[2023-06-25 14:49:13] INFO root fetch - processPackages [countool]: executing diffoscope
+[2023-06-25 14:49:13] INFO root fetch - processPackages [countool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countool-0.0.1.tar.gz tmp/countool-0.0.2.tar.gz --markdown 20230625/c/countool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 14:49:13] INFO root fetch - processPackages [graphix]: executing diffoscope
+[2023-06-25 14:49:13] INFO root fetch - processPackages [graphix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphix-0.2.2.tar.gz tmp/graphix-0.2.3.tar.gz --markdown 20230625/g/graphix/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 14:49:13] INFO root fetch - processPackages [vollseg-napari-mtrack]: executing diffoscope
+[2023-06-25 14:49:13] INFO root fetch - processPackages [vollseg-napari-mtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-mtrack-1.3.3.tar.gz tmp/vollseg-napari-mtrack-1.3.5.tar.gz --markdown 20230625/v/vollseg-napari-mtrack/1.3.3-1.3.5/diff.md --exclude *.pyd
+[2023-06-25 14:49:14] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-06-25 14:49:14] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-06-25 14:49:14] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 14:49:15] INFO root fetch - processPackages [countool]: Remove: archive file [/home/abi/fetcher/tmp/countool-0.0.1.tar.gz]
+[2023-06-25 14:49:15] INFO root fetch - processPackages [countool]: Remove: archive file [/home/abi/fetcher/tmp/countool-0.0.2.tar.gz]
+[2023-06-25 14:49:15] INFO root fetch - main [MainThread]: End processing [countool]: success
+[2023-06-25 14:49:15] INFO root fetch - processPackages [vollseg-napari-mtrack]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-mtrack-1.3.3.tar.gz]
+[2023-06-25 14:49:15] INFO root fetch - processPackages [vollseg-napari-mtrack]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-mtrack-1.3.5.tar.gz]
+[2023-06-25 14:49:15] INFO root fetch - main [MainThread]: End processing [vollseg-napari-mtrack]: success
+[2023-06-25 14:49:15] INFO root fetch - processPackages [graphix]: Remove: archive file [/home/abi/fetcher/tmp/graphix-0.2.2.tar.gz]
+[2023-06-25 14:49:15] INFO root fetch - processPackages [graphix]: Remove: archive file [/home/abi/fetcher/tmp/graphix-0.2.3.tar.gz]
+[2023-06-25 14:49:15] INFO root fetch - main [MainThread]: End processing [graphix]: success
+[2023-06-25 14:49:19] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.1.tar.gz]
+[2023-06-25 14:49:19] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.2.tar.gz]
+[2023-06-25 14:49:19] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-25 14:49:19] INFO root fetch - main [MainThread]: Store serial: [18636387]
