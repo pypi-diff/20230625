@@ -9508,3 +9508,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:28:02] INFO root fetch - processPackages [cooltime]: Remove: archive file [/home/abi/fetcher/tmp/cooltime-0.3.tar.gz]
 [2023-06-25 14:28:02] INFO root fetch - main [MainThread]: End processing [cooltime]: success
 [2023-06-25 14:28:02] INFO root fetch - main [MainThread]: Store serial: [18636262]
+[2023-06-25 14:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636262]
+[2023-06-25 14:33:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cooltime
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speech-bot-helpers
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandasmore
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cooltime
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-base-extras
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-assimilator
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zprocess
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: btimer
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: btimer
+[2023-06-25 14:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-pds20220301
+[2023-06-25 14:33:12] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 14:33:12] WARNING root fetch - processPackages [cooltime]: Skipping, unable to determine old version
+[2023-06-25 14:33:12] WARNING root fetch - processPackages [cooltime]: Skipping, unable to determine old version
+[2023-06-25 14:33:12] INFO root fetch - main [MainThread]: End processing [cooltime] error
+[2023-06-25 14:33:12] INFO root fetch - main [MainThread]: End processing [cooltime] error
+[2023-06-25 14:33:12] WARNING root fetch - processPackages [pandasmore]: Skipping, unable to determine old version
+[2023-06-25 14:33:12] INFO root fetch - main [MainThread]: End processing [pandasmore] error
+[2023-06-25 14:33:12] INFO root fetch - processPackages [speech-bot-helpers]: New version: [0.2] Old Version: [0.1.1]
+[2023-06-25 14:33:12] INFO root fetch - processPackages [py-assimilator]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-25 14:33:12] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: New version: [1.0.5] Old Version: [1.0.0]
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: New version: [1.0.5] Old Version: [1.0.0]
+[2023-06-25 14:33:12] INFO root fetch - processPackages [zprocess]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-06-25 14:33:12] INFO root fetch - processPackages [alibabacloud-pds20220301]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 14:33:12] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/64/8e/da50ce7af31ceb67c56123d62ecc0c7f931d34726a5fe68c5bf056db8395/speech_bot_helpers-0.1.1.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [py-assimilator]: Downloading https://files.pythonhosted.org/packages/2d/12/1c14173c6d7e44e7f15b97a635ee909a172220d54aa93fc3d3b876c08145/py_assimilator-1.2.3.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/03/3f/fde9a2f7f08a9e46950ed785874959e5b80e4a8abba6e5f3ea5685efc8aa/btimer-1.0.0.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/03/3f/fde9a2f7f08a9e46950ed785874959e5b80e4a8abba6e5f3ea5685efc8aa/btimer-1.0.0.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [zprocess]: Downloading https://files.pythonhosted.org/packages/a0/47/6368bed778ed6e3d60e95dbaa73bb83ff4e381ebfd12f3fc4b3286f02f81/zprocess-2.9.2.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230625/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 14:33:12] INFO root fetch - processPackages [alibabacloud-pds20220301]: Downloading https://files.pythonhosted.org/packages/09/40/e9ddea9ec92f9ef473afe6e2d63faceeac9d3043dbfda1fed0e45cb8943b/alibabacloud_pds20220301-1.0.8.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [speech-bot-helpers]: Downloading https://files.pythonhosted.org/packages/b7/53/20a5431d9b317f52006b26a58c1a0f6379bdfa26cb784cce6ff6e55fda39/speech_bot_helpers-0.2.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/e0/70/e92b4574a59fad90e8a32366812c59ff7798dbee280b3fa06064438796e7/btimer-1.0.5.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: Downloading https://files.pythonhosted.org/packages/e0/70/e92b4574a59fad90e8a32366812c59ff7798dbee280b3fa06064438796e7/btimer-1.0.5.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [speech-bot-helpers]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [speech-bot-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_bot_helpers-0.1.1.tar.gz tmp/speech_bot_helpers-0.2.tar.gz --markdown 20230625/s/speech-bot-helpers/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-06-25 14:33:12] INFO root fetch - processPackages [py-assimilator]: Downloading https://files.pythonhosted.org/packages/87/b8/86e9d5b7967c0274daa3afb68035345d0ea64d7bb73a9e2f88a095148fd9/py_assimilator-1.2.4.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.0.tar.gz tmp/btimer-1.0.5.tar.gz --markdown 20230625/b/btimer/1.0.0-1.0.5/diff.md --exclude *.pyd
+[2023-06-25 14:33:12] INFO root fetch - processPackages [zprocess]: Downloading https://files.pythonhosted.org/packages/12/95/f23d6e2762cd945c97eea807147fdb5b5eb7aa2c1e03395e05589a437fdc/zprocess-2.9.3.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [py-assimilator]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [py-assimilator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_assimilator-1.2.3.tar.gz tmp/py_assimilator-1.2.4.tar.gz --markdown 20230625/p/py-assimilator/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [btimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btimer-1.0.0.tar.gz tmp/btimer-1.0.5.tar.gz --markdown 20230625/b/btimer/1.0.0-1.0.5/diff.md --exclude *.pyd
+[2023-06-25 14:33:12] INFO root fetch - processPackages [alibabacloud-pds20220301]: Downloading https://files.pythonhosted.org/packages/bc/22/eb07e3f4ad97904f734a1df6500259ad500da1f59752b902629ea7246bfe/alibabacloud_pds20220301-1.0.9.tar.gz
+[2023-06-25 14:33:12] INFO root fetch - processPackages [alibabacloud-pds20220301]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [alibabacloud-pds20220301]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_pds20220301-1.0.8.tar.gz tmp/alibabacloud_pds20220301-1.0.9.tar.gz --markdown 20230625/a/alibabacloud-pds20220301/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 14:33:12] INFO root fetch - processPackages [zprocess]: executing diffoscope
+[2023-06-25 14:33:12] INFO root fetch - processPackages [zprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zprocess-2.9.2.tar.gz tmp/zprocess-2.9.3.tar.gz --markdown 20230625/z/zprocess/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-06-25 14:33:14] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.1.1.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - processPackages [speech-bot-helpers]: Remove: archive file [/home/abi/fetcher/tmp/speech_bot_helpers-0.2.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [speech-bot-helpers]: success
+[2023-06-25 14:33:14] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-25 14:33:14] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.0.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - processPackages [btimer]: Remove: archive file [/home/abi/fetcher/tmp/btimer-1.0.5.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [btimer]: success
+[2023-06-25 14:33:14] INFO root fetch - processPackages [py-assimilator]: Remove: archive file [/home/abi/fetcher/tmp/py_assimilator-1.2.3.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - processPackages [py-assimilator]: Remove: archive file [/home/abi/fetcher/tmp/py_assimilator-1.2.4.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [py-assimilator]: success
+[2023-06-25 14:33:14] INFO root fetch - processPackages [zprocess]: Remove: archive file [/home/abi/fetcher/tmp/zprocess-2.9.2.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - processPackages [zprocess]: Remove: archive file [/home/abi/fetcher/tmp/zprocess-2.9.3.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [zprocess]: success
+[2023-06-25 14:33:14] INFO root fetch - processPackages [alibabacloud-pds20220301]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pds20220301-1.0.8.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - processPackages [alibabacloud-pds20220301]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pds20220301-1.0.9.tar.gz]
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-pds20220301]: success
+[2023-06-25 14:33:14] INFO root fetch - main [MainThread]: Store serial: [18636307]
