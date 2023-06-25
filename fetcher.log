@@ -8886,3 +8886,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:32:37] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230624-py3-none-win_amd64.whl.zip]
 [2023-06-25 13:32:37] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-06-25 13:32:37] INFO root fetch - main [MainThread]: Store serial: [18635976]
+[2023-06-25 13:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635976]
+[2023-06-25 13:37:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synodic-client
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbpi4-buzzer
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-llm
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-camelcaser
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-06-25 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: propan
+[2023-06-25 13:37:46] INFO root fetch - processPackages [propan]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:37:46] WARNING root fetch - processPackages [synodic-client]: Skipping, unable to determine old version
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:37:46] INFO root fetch - processPackages [python-camelcaser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 13:37:46] INFO root fetch - main [MainThread]: End processing [synodic-client] error
+[2023-06-25 13:37:46] INFO root fetch - processPackages [cbpi4-buzzer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230625] Old Version: [2.4.0b20230624]
+[2023-06-25 13:37:46] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/2e/bc/8febc292cb164b868943aa1f0860b6d58bd563ed6b752557bbd739dddcf6/propan-0.1.3.8.tar.gz
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/96/ab/57624a22c2c894089fc0f6cd8a372c1cfcf46a8eb99d9fbe11fb2d77bd4f/bigdl_llm-2.4.0b20230624-py3-none-win_amd64.whl
+[2023-06-25 13:37:46] INFO root fetch - processPackages [cbpi4-buzzer]: Downloading https://files.pythonhosted.org/packages/2e/e1/bcba55a0b7c2de9e12cb3d79ffc2758e2be643a8096605cf1b1d2e451cbc/cbpi4-buzzer-0.0.7.tar.gz
+[2023-06-25 13:37:46] INFO root fetch - processPackages [python-camelcaser]: Downloading https://files.pythonhosted.org/packages/35/1a/b8e51d08d32397d3af5d3155e065281f3dfedf2306e449a690cbe5c77b96/python_camelcaser-1.0.0-py3-none-any.whl
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/69/69/142b790c65522ca65af5142866c49ac6c92de32c654049fbb4472e494db8/bigdl_chronos-2.4.0b20230624-py3-none-win_amd64.whl
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/27/b1/ee57390f679260542a0e7567a5f8222f3f316522b4d396624029d2e512f0/bigdl_serving-2.4.0b20230624-py2.py3-none-any.whl
+[2023-06-25 13:37:46] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/69/e6/bc7cb6e9b78e3e948b6c8433fdcaeaca26051215c27c714975856fd5a85e/propan-0.1.3.9.tar.gz
+[2023-06-25 13:37:46] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-06-25 13:37:46] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.3.8.tar.gz tmp/propan-0.1.3.9.tar.gz --markdown 20230625/p/propan/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2023-06-25 13:37:46] INFO root fetch - processPackages [cbpi4-buzzer]: Downloading https://files.pythonhosted.org/packages/01/0a/3ff335907bcd23f2bf22a142b26d5e2618bdcbef7d510e8143d3b730b03b/cbpi4-buzzer-0.0.8.tar.gz
+[2023-06-25 13:37:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/d5/57/d132534094bb9a61a79082ebe1bbc87e27926b7102d877b62ccccfc62f8e/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/eb/20/780ac0200cc7d0f9a43dd5fb8b543c5f206255004ac83a0ac2053575e75a/bigdl_serving-2.4.0b20230625-py2.py3-none-any.whl
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/5e/9f/3ba1fafda842fa8c7eaa16c604ca83bfdd023664113b9173b3038c824d19/bigdl_chronos-2.4.0b20230625-py3-none-win_amd64.whl
+[2023-06-25 13:37:47] INFO root fetch - processPackages [python-camelcaser]: Downloading https://files.pythonhosted.org/packages/31/3b/708f81ef616fe45186f9ed684d2ff23baa7e08ac826e9378868754a8e24b/python_camelcaser-1.0.1-py3-none-any.whl
+[2023-06-25 13:37:47] INFO root fetch - processPackages [cbpi4-buzzer]: executing diffoscope
+[2023-06-25 13:37:47] INFO root fetch - processPackages [cbpi4-buzzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-buzzer-0.0.7.tar.gz tmp/cbpi4-buzzer-0.0.8.tar.gz --markdown 20230625/c/cbpi4-buzzer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230624-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl.zip --markdown 20230625/b/bigdl-llm/2.4.0b20230624-2.4.0b20230625/diff.md --exclude *.pyd
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230624-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230625-py2.py3-none-any.whl.zip --markdown 20230625/b/bigdl-serving/2.4.0b20230624-2.4.0b20230625/diff.md --exclude *.pyd
+[2023-06-25 13:37:47] INFO root fetch - processPackages [python-camelcaser]: executing diffoscope
+[2023-06-25 13:37:47] INFO root fetch - processPackages [python-camelcaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_camelcaser-1.0.0-py3-none-any.whl.zip tmp/python_camelcaser-1.0.1-py3-none-any.whl.zip --markdown 20230625/p/python-camelcaser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-25 13:37:47] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230624-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230625-py3-none-win_amd64.whl.zip --markdown 20230625/b/bigdl-chronos/2.4.0b20230624-2.4.0b20230625/diff.md --exclude *.pyd
+[2023-06-25 13:37:48] INFO root fetch - processPackages [cbpi4-buzzer]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-buzzer-0.0.7.tar.gz]
+[2023-06-25 13:37:48] INFO root fetch - processPackages [cbpi4-buzzer]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-buzzer-0.0.8.tar.gz]
+[2023-06-25 13:37:48] INFO root fetch - main [MainThread]: End processing [cbpi4-buzzer]: success
+[2023-06-25 13:37:48] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230624-py2.py3-none-any.whl.zip]
+[2023-06-25 13:37:48] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230625-py2.py3-none-any.whl.zip]
+[2023-06-25 13:37:48] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-25 13:37:48] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.8.tar.gz]
+[2023-06-25 13:37:48] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.3.9.tar.gz]
+[2023-06-25 13:37:48] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-06-25 13:37:49] INFO root fetch - processPackages [python-camelcaser]: Remove: archive file [/home/abi/fetcher/tmp/python_camelcaser-1.0.0-py3-none-any.whl.zip]
+[2023-06-25 13:37:49] INFO root fetch - processPackages [python-camelcaser]: Remove: archive file [/home/abi/fetcher/tmp/python_camelcaser-1.0.1-py3-none-any.whl.zip]
+[2023-06-25 13:37:49] INFO root fetch - main [MainThread]: End processing [python-camelcaser]: success
+[2023-06-25 13:37:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230624-py3-none-win_amd64.whl.zip]
+[2023-06-25 13:37:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230625-py3-none-win_amd64.whl.zip]
+[2023-06-25 13:37:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-25 13:38:17] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230624-py3-none-win_amd64.whl.zip]
+[2023-06-25 13:38:17] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl.zip]
+[2023-06-25 13:38:17] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-25 13:38:17] INFO root fetch - main [MainThread]: Store serial: [18635998]
