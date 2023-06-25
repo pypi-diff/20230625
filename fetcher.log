@@ -14508,3 +14508,48 @@ AssertionError: tmp/vbtex-0.1.0.tar.gz does not exist
 [2023-06-25 21:18:13] INFO root fetch - processPackages [asv-runner]: Remove: archive file [/home/abi/fetcher/tmp/asv_runner-0.0.5.tar.gz]
 [2023-06-25 21:18:13] INFO root fetch - main [MainThread]: End processing [asv-runner]: success
 [2023-06-25 21:18:13] INFO root fetch - main [MainThread]: Store serial: [18638462]
+[2023-06-25 21:23:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638462]
+[2023-06-25 21:23:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 21:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: habitat-tools
+[2023-06-25 21:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: termkit
+[2023-06-25 21:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfcsv2parquet
+[2023-06-25 21:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: framegrab
+[2023-06-25 21:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freeGPT
+[2023-06-25 21:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntrfc
+[2023-06-25 21:23:24] WARNING root fetch - processPackages [dfcsv2parquet]: Skipping, unable to determine old version
+[2023-06-25 21:23:24] INFO root fetch - main [MainThread]: End processing [dfcsv2parquet] error
+[2023-06-25 21:23:24] INFO root fetch - processPackages [termkit]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-06-25 21:23:24] INFO root fetch - processPackages [habitat-tools]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-25 21:23:24] INFO root fetch - processPackages [framegrab]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 21:23:24] WARNING root fetch - processPackages [ntrfc]: Skipping, unable to determine old version
+[2023-06-25 21:23:24] INFO root fetch - main [MainThread]: End processing [ntrfc] error
+[2023-06-25 21:23:24] INFO root fetch - processPackages [freeGPT]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-25 21:23:24] INFO root fetch - processPackages [termkit]: Downloading https://files.pythonhosted.org/packages/25/74/2a6326ce3113eda5516ae619126376049e02b2843e1a8eba48af2b347372/termkit-0.2.0a1.tar.gz
+[2023-06-25 21:23:24] INFO root fetch - processPackages [habitat-tools]: Downloading https://files.pythonhosted.org/packages/0f/84/c35f28e6d7aaf090ee3882f79bbba5f19f35153b954e4b1527afa4105564/habitat_tools-0.1.9.tar.gz
+[2023-06-25 21:23:24] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/e9/35/b9e81927e143dc47efdddaf90556338a61343a80c611a8e21bb0e6dec03e/freeGPT-1.1.9.tar.gz
+[2023-06-25 21:23:24] INFO root fetch - processPackages [framegrab]: Downloading https://files.pythonhosted.org/packages/8f/a2/b235952e7b4c6feb23597d55ae4a10a7410520a89504cd8e8563a46295a9/framegrab-0.1.0.tar.gz
+[2023-06-25 21:23:24] INFO root fetch - processPackages [termkit]: Downloading https://files.pythonhosted.org/packages/89/ea/1bf9aa9ba51ad34ba0fa462e99bdaf75e1997c11c2d431009f3a7ff73440/termkit-0.2.0a2.tar.gz
+[2023-06-25 21:23:25] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/85/88/69e923f84517d77eadbf6d217908edbb6b8445127dcc490c36efa66f7b41/freeGPT-1.2.0.tar.gz
+[2023-06-25 21:23:25] INFO root fetch - processPackages [framegrab]: Downloading https://files.pythonhosted.org/packages/ab/0a/ed8f96da7083286b13033e31d909a83886c4eaf7c9ddf2a62b882d493adc/framegrab-0.1.1.tar.gz
+[2023-06-25 21:23:25] INFO root fetch - processPackages [habitat-tools]: Downloading https://files.pythonhosted.org/packages/0e/76/2e45f6c0e592167656578d8f75e7479bf0f18e467ae87478edcd21753448/habitat-tools-0.2.0.tar.gz
+[2023-06-25 21:23:25] INFO root fetch - processPackages [termkit]: executing diffoscope
+[2023-06-25 21:23:25] INFO root fetch - processPackages [termkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termkit-0.2.0a1.tar.gz tmp/termkit-0.2.0a2.tar.gz --markdown 20230625/t/termkit/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-06-25 21:23:25] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-06-25 21:23:25] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.1.9.tar.gz tmp/freeGPT-1.2.0.tar.gz --markdown 20230625/f/freeGPT/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-25 21:23:25] INFO root fetch - processPackages [habitat-tools]: executing diffoscope
+[2023-06-25 21:23:25] INFO root fetch - processPackages [habitat-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habitat_tools-0.1.9.tar.gz tmp/habitat-tools-0.2.0.tar.gz --markdown 20230625/h/habitat-tools/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-25 21:23:25] INFO root fetch - processPackages [framegrab]: executing diffoscope
+[2023-06-25 21:23:25] INFO root fetch - processPackages [framegrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framegrab-0.1.0.tar.gz tmp/framegrab-0.1.1.tar.gz --markdown 20230625/f/framegrab/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 21:23:26] INFO root fetch - processPackages [habitat-tools]: Remove: archive file [/home/abi/fetcher/tmp/habitat_tools-0.1.9.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - processPackages [habitat-tools]: Remove: archive file [/home/abi/fetcher/tmp/habitat-tools-0.2.0.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - main [MainThread]: End processing [habitat-tools]: success
+[2023-06-25 21:23:26] INFO root fetch - processPackages [framegrab]: Remove: archive file [/home/abi/fetcher/tmp/framegrab-0.1.0.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - processPackages [framegrab]: Remove: archive file [/home/abi/fetcher/tmp/framegrab-0.1.1.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - main [MainThread]: End processing [framegrab]: success
+[2023-06-25 21:23:26] INFO root fetch - processPackages [termkit]: Remove: archive file [/home/abi/fetcher/tmp/termkit-0.2.0a1.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - processPackages [termkit]: Remove: archive file [/home/abi/fetcher/tmp/termkit-0.2.0a2.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - main [MainThread]: End processing [termkit]: success
+[2023-06-25 21:23:26] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.1.9.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.0.tar.gz]
+[2023-06-25 21:23:26] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-06-25 21:23:26] INFO root fetch - main [MainThread]: Store serial: [18638481]
