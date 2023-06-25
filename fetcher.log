@@ -9318,3 +9318,46 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 14:10:40] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-25 14:10:40] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-25 14:10:40] INFO root fetch - main [MainThread]: Store serial: [18636159]
+[2023-06-25 14:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18636159]
+[2023-06-25 14:15:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 14:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyenvtools
+[2023-06-25 14:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailpit-api-client
+[2023-06-25 14:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: draggan
+[2023-06-25 14:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdxbasics
+[2023-06-25 14:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx-markdown-builder
+[2023-06-25 14:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: draggan
+[2023-06-25 14:15:49] WARNING root fetch - processPackages [pyenvtools]: Skipping, unable to determine old version
+[2023-06-25 14:15:49] INFO root fetch - main [MainThread]: End processing [pyenvtools] error
+[2023-06-25 14:15:49] WARNING root fetch - processPackages [mailpit-api-client]: Skipping, unable to determine old version
+[2023-06-25 14:15:49] INFO root fetch - main [MainThread]: End processing [mailpit-api-client] error
+[2023-06-25 14:15:49] INFO root fetch - processPackages [draggan]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-25 14:15:49] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-25 14:15:49] INFO root fetch - processPackages [sphinx-markdown-builder]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-25 14:15:49] INFO root fetch - processPackages [draggan]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-25 14:15:49] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/f8/18/fca3369d1b774c7f0aad04916de1fe045c8d7c882bf00e303ecee0d94d54/draggan-1.1.2.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/f8/18/fca3369d1b774c7f0aad04916de1fe045c8d7c882bf00e303ecee0d94d54/draggan-1.1.2.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [sphinx-markdown-builder]: Downloading https://files.pythonhosted.org/packages/49/94/55ba382219583c587bfb43ad54a7f9ccdf5d89825b1c4eb7b379f21f1d20/sphinx-markdown-builder-0.5.5.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [sphinx-markdown-builder]: Downloading https://files.pythonhosted.org/packages/36/02/e932b308f6a0b018501ba3396d3dde03e32a428c398784f7ecc2bb17eefc/sphinx-markdown-builder-0.6.0.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/1c/90/0fd66463dc388b2f75dfe9c6f4a86c0ad03f659ec4e8fe1b03625615df32/draggan-1.1.3.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [draggan]: Downloading https://files.pythonhosted.org/packages/1c/90/0fd66463dc388b2f75dfe9c6f4a86c0ad03f659ec4e8fe1b03625615df32/draggan-1.1.3.tar.gz
+[2023-06-25 14:15:49] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-06-25 14:15:50] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-25 14:15:50] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.2.tar.gz tmp/draggan-1.1.3.tar.gz --markdown 20230625/d/draggan/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-25 14:15:50] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-06-25 14:15:50] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230625/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 14:15:50] INFO root fetch - processPackages [sphinx-markdown-builder]: executing diffoscope
+[2023-06-25 14:15:50] INFO root fetch - processPackages [sphinx-markdown-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-markdown-builder-0.5.5.tar.gz tmp/sphinx-markdown-builder-0.6.0.tar.gz --markdown 20230625/s/sphinx-markdown-builder/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-25 14:15:50] INFO root fetch - processPackages [draggan]: executing diffoscope
+[2023-06-25 14:15:50] INFO root fetch - processPackages [draggan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggan-1.1.2.tar.gz tmp/draggan-1.1.3.tar.gz --markdown 20230625/d/draggan/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-25 14:15:51] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-06-25 14:15:51] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-06-25 14:15:51] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-06-25 14:15:51] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.2.tar.gz]
+[2023-06-25 14:15:51] INFO root fetch - processPackages [draggan]: Remove: archive file [/home/abi/fetcher/tmp/draggan-1.1.3.tar.gz]
+[2023-06-25 14:15:51] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-25 14:15:51] INFO root fetch - processPackages [sphinx-markdown-builder]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-markdown-builder-0.5.5.tar.gz]
+[2023-06-25 14:15:51] INFO root fetch - processPackages [sphinx-markdown-builder]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-markdown-builder-0.6.0.tar.gz]
+[2023-06-25 14:15:51] INFO root fetch - main [MainThread]: End processing [sphinx-markdown-builder]: success
+[2023-06-25 14:15:51] INFO root fetch - main [MainThread]: End processing [draggan]: success
+[2023-06-25 14:15:51] INFO root fetch - main [MainThread]: Store serial: [18636185]
