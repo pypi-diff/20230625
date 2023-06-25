@@ -5259,3 +5259,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 08:09:32] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230624.tar.gz]
 [2023-06-25 08:09:32] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-25 08:09:32] INFO root fetch - main [MainThread]: Store serial: [18634498]
+[2023-06-25 08:14:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634498]
+[2023-06-25 08:14:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libre-fastapi-jwt
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yter
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-dytnsapi
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-hcloud
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-github
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-account
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-fastly
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-equinix-metal
+[2023-06-25 08:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dss-python
+[2023-06-25 08:14:45] INFO root fetch - processPackages [yter]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.20.5] Old Version: [0.20.4]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.2.0a1687671288] Old Version: [8.2.0a1687545350]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.8.0.0] Old Version: [14.0.7.1.3.dev1]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1687671105] Old Version: [3.3.0a1687054660]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-06-25 08:14:45] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/84/1e/6f3c4d09c6f214c59aff15073ae3316a0ba719c7713dff92cb5935ba7421/yter-3.0.1.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/19/eb/50a8a63a80b82ba0c238aad0319e405acfe037ec9e2044f03affbd624d5f/aliyun-python-sdk-dytnsapi-1.1.7.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/b0/ff/24ac5fe4fb54a56ff7bd271d72635e46258945e67c12eb0c75c8b0ebde04/odoo14_addon_l10n_br_account-14.0.7.1.3.dev1-py3-none-any.whl
+[2023-06-25 08:14:45] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/a2/af/0e0d07ffd7671a720c4442f632d9ff3e0aca42646c796225240dcf522e8c/libre_fastapi_jwt-0.20.4.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/56/ef/34a9b779281d18db5897b2ca01c836ee8c9983a0a2432c3f7b018b0006cb/pulumi_equinix_metal-3.3.0a1687054660.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/ba/cf/a5abece290b5d45a750b25f6d114e5b1462f4576dc2639d8c1f557b61d72/dss_python-0.9.7-cp36-cp36m-win_amd64.whl
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/27/c3/ce280a63a117cedbc6407748a7cb1623245bab3b84afc8225617506083ec/pulumi_fastly-8.2.0a1687545350.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-06-25 08:14:45] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/5c/0a/8cfb361fe863d491639ce1b26eb4f9e8ca1ce0c8965570719ea55b8470fc/yter-3.1.0.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/df/b4/fd7003a1d0ad56b059cc2dbf4c0eef88c5588959f886d2b2a45dedefcbd5/aliyun-python-sdk-dytnsapi-1.1.8.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/ee/2f/2de9947c2adfd3715a1683b19dd908e0b139b91c221e2535a8bcf0eb1944/libre_fastapi_jwt-0.20.5.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/22/30/2883e3db211760098ca81360a9c20509f96505da489733bf09a99aa96892/odoo14_addon_l10n_br_account-14.0.8.0.0-py3-none-any.whl
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/82/47/49bf29b652708272f6f1fadd36ffdc22775944be91eb75bd1e4c73d9d2c8/pulumi_fastly-8.2.0a1687671288.tar.gz
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-25 08:14:45] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230625/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-25 08:14:45] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: executing diffoscope
+[2023-06-25 08:14:45] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dytnsapi-1.1.7.tar.gz tmp/aliyun-python-sdk-dytnsapi-1.1.8.tar.gz --markdown 20230625/a/aliyun-python-sdk-dytnsapi/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-25 08:14:45] INFO root fetch - processPackages [yter]: executing diffoscope
+[2023-06-25 08:14:45] INFO root fetch - processPackages [yter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yter-3.0.1.tar.gz tmp/yter-3.1.0.tar.gz --markdown 20230625/y/yter/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230625/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-06-25 08:14:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-06-25 08:14:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.7.1.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.8.0.0-py3-none-any.whl.zip --markdown 20230625/o/odoo14-addon-l10n-br-account/14.0.7.1.3.dev1-14.0.8.0.0/diff.md --exclude *.pyd
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/ea/15/13a6308b6843864889b8e71135e5f3620e30569719361d58d4bb065dcb20/pulumi_equinix_metal-3.3.0a1687671105.tar.gz
+[2023-06-25 08:14:46] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2023-06-25 08:14:46] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.20.4.tar.gz tmp/libre_fastapi_jwt-0.20.5.tar.gz --markdown 20230625/l/libre-fastapi-jwt/0.20.4-0.20.5/diff.md --exclude *.pyd
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.2.0a1687545350.tar.gz tmp/pulumi_fastly-8.2.0a1687671288.tar.gz --markdown 20230625/p/pulumi-fastly/8.2.0a1687545350-8.2.0a1687671288/diff.md --exclude *.pyd
+[2023-06-25 08:14:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-06-25 08:14:46] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1687054660.tar.gz tmp/pulumi_equinix_metal-3.3.0a1687671105.tar.gz --markdown 20230625/p/pulumi-equinix-metal/3.3.0a1687054660-3.3.0a1687671105/diff.md --exclude *.pyd
+[2023-06-25 08:14:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-06-25 08:14:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230625/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-06-25 08:14:47] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/01/44/9b7b908415f0e3ecbc413ebf6895b4465ca04c24d15d974ddac812e6cf2b/dss_python-0.9.8-cp37-cp37m-win_amd64.whl
+[2023-06-25 08:14:47] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.0.1.tar.gz]
+[2023-06-25 08:14:47] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.1.0.tar.gz]
+[2023-06-25 08:14:47] INFO root fetch - processPackages [yter]: Start processing: pulumi-confluentcloud
+[2023-06-25 08:14:47] INFO root fetch - main [MainThread]: End processing [yter]: success
+[2023-06-25 08:14:47] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-25 08:14:47] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dytnsapi-1.1.7.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dytnsapi-1.1.8.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Start processing: viterbi
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dytnsapi]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [viterbi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.7.1.3.dev1-py3-none-any.whl.zip]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.8.0.0-py3-none-any.whl.zip]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Start processing: pulumi-digitalocean
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230625/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-25 08:14:48] INFO root fetch - processPackages [viterbi]: Downloading https://files.pythonhosted.org/packages/48/ef/e5cfe99a61dcfcbd9558407d828202a2c0dbf6013e758e7fe63d1a4104fe/viterbi-0.0.3.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1687545350.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.2.0a1687671288.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-fastly]: Start processing: pulumi-kafka
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1687054660.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-equinix-metal]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_equinix_metal-3.3.0a1687671105.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-equinix-metal]: Start processing: msgram-parser
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [viterbi]: Downloading https://files.pythonhosted.org/packages/75/77/076018bbbcc361f6c4f6fa7987c962be04fff85b20e2cbd12cdeba1c7d2d/viterbi-0.0.4.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [msgram-parser]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.4.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.20.5.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1687671489] Old Version: [3.5.0a1687055060]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-06-25 08:14:48] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230625/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-06-25 08:14:48] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-06-25 08:14:48] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/d0/6e/5cea947aaefdbc998e116eb93ea3a25937e832aadb744c63c014cc39f04f/msgram-parser-0.0.3.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [msgram-parser]: Downloading https://files.pythonhosted.org/packages/26/e2/ecafa97faf7890a11f22cbdd68a73885a62913e3f7ae70b54149216bb0db/msgram-parser-0.0.4.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/11/6c/9f361f3eb3e8be3fbacb481ca9db2cb79bdaa13cfca49cb4e0912f75a15b/pulumi_kafka-3.5.0a1687055060.tar.gz
+[2023-06-25 08:14:48] INFO root fetch - processPackages [viterbi]: executing diffoscope
+[2023-06-25 08:14:48] INFO root fetch - processPackages [viterbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viterbi-0.0.3.tar.gz tmp/viterbi-0.0.4.tar.gz --markdown 20230625/v/viterbi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 08:14:48] INFO root fetch - processPackages [msgram-parser]: executing diffoscope
+[2023-06-25 08:14:48] INFO root fetch - processPackages [msgram-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram-parser-0.0.3.tar.gz tmp/msgram-parser-0.0.4.tar.gz --markdown 20230625/m/msgram-parser/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-25 08:14:49] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/81/59/f1e51bf7bf6b43522cfac86598a21a6e2158a599e26e441dca663b8555ff/pulumi_kafka-3.5.0a1687671489.tar.gz
+[2023-06-25 08:14:49] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2023-06-25 08:14:49] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-06-25 08:14:49] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1687055060.tar.gz tmp/pulumi_kafka-3.5.0a1687671489.tar.gz --markdown 20230625/p/pulumi-kafka/3.5.0a1687055060-3.5.0a1687671489/diff.md --exclude *.pyd
+[2023-06-25 08:14:49] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-06-25 08:14:49] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230625/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-06-25 08:14:50] INFO root fetch - processPackages [viterbi]: Remove: archive file [/home/abi/fetcher/tmp/viterbi-0.0.3.tar.gz]
+[2023-06-25 08:14:50] INFO root fetch - processPackages [viterbi]: Remove: archive file [/home/abi/fetcher/tmp/viterbi-0.0.4.tar.gz]
+[2023-06-25 08:14:50] INFO root fetch - main [MainThread]: End processing [viterbi]: success
+[2023-06-25 08:14:50] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.3.tar.gz]
+[2023-06-25 08:14:50] INFO root fetch - processPackages [msgram-parser]: Remove: archive file [/home/abi/fetcher/tmp/msgram-parser-0.0.4.tar.gz]
+[2023-06-25 08:14:50] INFO root fetch - main [MainThread]: End processing [msgram-parser]: success
+[2023-06-25 08:14:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-06-25 08:14:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-06-25 08:14:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-06-25 08:14:50] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1687055060.tar.gz]
+[2023-06-25 08:14:50] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.5.0a1687671489.tar.gz]
+[2023-06-25 08:14:50] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-06-25 08:14:51] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2023-06-25 08:14:51] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2023-06-25 08:14:51] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-06-25 08:14:51] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-25 08:14:51] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-25 08:14:51] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-25 08:15:11] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip]
+[2023-06-25 08:15:11] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-25 08:15:11] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-06-25 08:15:11] INFO root fetch - main [MainThread]: Store serial: [18634566]
