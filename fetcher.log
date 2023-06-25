@@ -13072,3 +13072,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:38:19] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-25 19:38:19] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-25 19:38:19] INFO root fetch - main [MainThread]: Store serial: [18637851]
+[2023-06-25 19:43:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637851]
+[2023-06-25 19:43:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WeatherApp-pck
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdslibs
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLandPattern
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blackboardsync
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testless-autocomplete
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-06-25 19:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i8-terminal
+[2023-06-25 19:43:29] INFO root fetch - processPackages [WeatherApp-pck]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 19:43:29] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.2rc1] Old Version: [0.9.2]
+[2023-06-25 19:43:29] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 19:43:29] INFO root fetch - processPackages [kdslibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 19:43:29] WARNING root fetch - processPackages [testless-autocomplete]: Skipping, unable to determine old version
+[2023-06-25 19:43:29] INFO root fetch - main [MainThread]: End processing [testless-autocomplete] error
+[2023-06-25 19:43:29] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.87]
+[2023-06-25 19:43:29] INFO root fetch - processPackages [kcli]: New version: [99.0.202306251742] Old Version: [99.0.202306251729]
+[2023-06-25 19:43:29] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/3f/f8/9f631951e3b320a0869530c11732ce537eaea07935f3f5570be9a4572ef2/MLandPattern-0.2.2.tar.gz
+[2023-06-25 19:43:29] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/ef/57/3c9452dd81dcc5f0dceb6eb3d40aa40ea7e878400a08f0663d6749ae3a33/i8-terminal-0.2.87.tar.gz
+[2023-06-25 19:43:29] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/ac/d1/374f2225da3fe319eedb7bb10b543daa8eb7f7d68af377187676b84c7da2/blackboardsync-0.9.2.tar.gz
+[2023-06-25 19:43:29] INFO root fetch - processPackages [WeatherApp-pck]: Downloading https://files.pythonhosted.org/packages/97/b5/3e89e2a5790289b61605ebf7116f3daabb71ca7452c214cb56f2c9ca8ab6/WeatherApp_pck-0.0.1.tar.gz
+[2023-06-25 19:43:29] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f7/36/8d4e1d1d4cb632ab8f11337fb3c42a143bca49a0eaa94757c77e98b13f3e/kcli-99.0.202306251729-py3-none-any.whl
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/d1/75/31dbf40a1710caa843016d509bed4139740781b5ab155d4223917f122df5/kdslibs-0.0.8.tar.gz
+[2023-06-25 19:43:30] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/3a/4e/059b0e0994331c6b3c544b088856473010361bbdd6bcf135283c19003870/i8-terminal-0.2.9.tar.gz
+[2023-06-25 19:43:30] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/af/53/c2ab5979828b8b104b3146ff3db2f32a27e399cfbf5a870e4883edba5672/MLandPattern-0.2.3.tar.gz
+[2023-06-25 19:43:30] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-25 19:43:30] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.87.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230625/i/i8-terminal/0.2.87-0.2.9/diff.md --exclude *.pyd
+[2023-06-25 19:43:30] INFO root fetch - processPackages [WeatherApp-pck]: Downloading https://files.pythonhosted.org/packages/5f/7c/bd229b0503daa5412108173ec974c937b95f69e7b86ed0ad2e6bd749b57b/WeatherApp_pck-0.0.2.tar.gz
+[2023-06-25 19:43:30] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/ab/6a/cd1d7563d74a55edbd48a8286ee5089adbe06d845afbf1e0a28b5333fc9f/blackboardsync-0.9.2rc1.tar.gz
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/a6/792588e645e8230a2ad6a8025931e41baf78d84c8508234b3d9157926b4d/kcli-99.0.202306251742-py3-none-any.whl
+[2023-06-25 19:43:30] INFO root fetch - processPackages [WeatherApp-pck]: executing diffoscope
+[2023-06-25 19:43:30] INFO root fetch - processPackages [WeatherApp-pck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WeatherApp_pck-0.0.1.tar.gz tmp/WeatherApp_pck-0.0.2.tar.gz --markdown 20230625/W/WeatherApp-pck/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/a7/f7/51c720c9cb636a40208740673b1da5adb53e747e77e7976eae2f73d5b616/kdslibs-0.0.9.tar.gz
+[2023-06-25 19:43:30] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-25 19:43:30] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.2.tar.gz tmp/MLandPattern-0.2.3.tar.gz --markdown 20230625/M/MLandPattern/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.8.tar.gz tmp/kdslibs-0.0.9.tar.gz --markdown 20230625/k/kdslibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 19:43:30] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-25 19:43:30] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.2.tar.gz tmp/blackboardsync-0.9.2rc1.tar.gz --markdown 20230625/b/blackboardsync/0.9.2-0.9.2rc1/diff.md --exclude *.pyd
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-25 19:43:30] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306251729-py3-none-any.whl.zip tmp/kcli-99.0.202306251742-py3-none-any.whl.zip --markdown 20230625/k/kcli/99.0.202306251729-99.0.202306251742/diff.md --exclude *.pyd
+[2023-06-25 19:43:31] INFO root fetch - processPackages [WeatherApp-pck]: Remove: archive file [/home/abi/fetcher/tmp/WeatherApp_pck-0.0.1.tar.gz]
+[2023-06-25 19:43:31] INFO root fetch - processPackages [WeatherApp-pck]: Remove: archive file [/home/abi/fetcher/tmp/WeatherApp_pck-0.0.2.tar.gz]
+[2023-06-25 19:43:31] INFO root fetch - main [MainThread]: End processing [WeatherApp-pck]: success
+[2023-06-25 19:43:31] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.8.tar.gz]
+[2023-06-25 19:43:31] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.9.tar.gz]
+[2023-06-25 19:43:31] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-06-25 19:43:31] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.2.tar.gz]
+[2023-06-25 19:43:31] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.3.tar.gz]
+[2023-06-25 19:43:31] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-25 19:43:32] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.2.tar.gz]
+[2023-06-25 19:43:32] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.2rc1.tar.gz]
+[2023-06-25 19:43:32] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-25 19:43:32] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.87.tar.gz]
+[2023-06-25 19:43:32] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.9.tar.gz]
+[2023-06-25 19:43:32] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-25 19:43:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251729-py3-none-any.whl.zip]
+[2023-06-25 19:43:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251742-py3-none-any.whl.zip]
+[2023-06-25 19:43:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-25 19:43:42] INFO root fetch - main [MainThread]: Store serial: [18637874]
