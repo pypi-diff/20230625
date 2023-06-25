@@ -13924,3 +13924,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 20:31:10] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.1.6.tar.gz]
 [2023-06-25 20:31:10] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
 [2023-06-25 20:31:10] INFO root fetch - main [MainThread]: Store serial: [18638191]
+[2023-06-25 20:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638191]
+[2023-06-25 20:36:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testless-autocomplete
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vxnc-finder
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: likelihood
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-autorefresh
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsetmc
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyppbox-ultralytics
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuroneq
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miley
+[2023-06-25 20:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testless-autocomplete
+[2023-06-25 20:36:19] WARNING root fetch - processPackages [vxnc-finder]: Skipping, unable to determine old version
+[2023-06-25 20:36:19] INFO root fetch - main [MainThread]: End processing [vxnc-finder] error
+[2023-06-25 20:36:19] INFO root fetch - processPackages [likelihood]: New version: [1.1.12] Old Version: [1.1.11]
+[2023-06-25 20:36:19] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.107] Old Version: [0.0.106]
+[2023-06-25 20:36:19] INFO root fetch - processPackages [testless-autocomplete]: New version: [0.0.107] Old Version: [0.0.106]
+[2023-06-25 20:36:20] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/1b/a8/93a837f011860317b83c4bc1edb021fcc2a82f3f860d75956bb209054392/testless_autocomplete-0.0.106.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/1b/a8/93a837f011860317b83c4bc1edb021fcc2a82f3f860d75956bb209054392/testless_autocomplete-0.0.106.tar.gz
+[2023-06-25 20:36:20] WARNING root fetch - processPackages [miley]: Skipping, unable to determine old version
+[2023-06-25 20:36:20] INFO root fetch - processPackages [streamlit-autorefresh]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-25 20:36:20] INFO root fetch - main [MainThread]: End processing [miley] error
+[2023-06-25 20:36:20] INFO root fetch - processPackages [tsetmc]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-25 20:36:20] WARNING root fetch - processPackages [pyppbox-ultralytics]: Skipping, unable to determine old version
+[2023-06-25 20:36:20] INFO root fetch - main [MainThread]: End processing [pyppbox-ultralytics] error
+[2023-06-25 20:36:20] INFO root fetch - processPackages [neuroneq]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 20:36:20] INFO root fetch - processPackages [likelihood]: Downloading https://files.pythonhosted.org/packages/09/3e/1fcfc7a9979c18616ea72c0c508f72841a9b5e86b868b21d77baeca2843d/likelihood-1.1.11.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 20:36:20] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 20:36:20] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 20:36:20] INFO root fetch - processPackages [streamlit-autorefresh]: Downloading https://files.pythonhosted.org/packages/f4/4d/bf84a32e147dbac4e0f2251a22a1d77fdd69b736f55a988ab864e5f711ca/streamlit-autorefresh-0.0.1.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [neuroneq]: Downloading https://files.pythonhosted.org/packages/8c/56/3e5965e141873f47e99e2703e772db4d7097051d3709e47bedbae2748f0b/neuroneq-0.0.5.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/e9/89/591bbad4fd0fe61938b4209f60e88c1fb470f266fe465ce188ca3fa4c499/tsetmc-0.9.0.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/62/63/29375243244c55e552fb4ba792d65855fc3a80e75f10e2edbed53f4439ed/testless_autocomplete-0.0.107.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: Downloading https://files.pythonhosted.org/packages/62/63/29375243244c55e552fb4ba792d65855fc3a80e75f10e2edbed53f4439ed/testless_autocomplete-0.0.107.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.106.tar.gz tmp/testless_autocomplete-0.0.107.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.106-0.0.107/diff.md --exclude *.pyd
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: executing diffoscope
+[2023-06-25 20:36:20] INFO root fetch - processPackages [testless-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_autocomplete-0.0.106.tar.gz tmp/testless_autocomplete-0.0.107.tar.gz --markdown 20230625/t/testless-autocomplete/0.0.106-0.0.107/diff.md --exclude *.pyd
+[2023-06-25 20:36:20] INFO root fetch - processPackages [likelihood]: Downloading https://files.pythonhosted.org/packages/ea/c4/baf0bbeee9161af298ad7bd8ac9f7351ec24de2d9c88af7bd58962d24ce9/likelihood-1.1.12.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [neuroneq]: Downloading https://files.pythonhosted.org/packages/be/37/43db98375953b4f29f6f449489949ae46d09fe6b9747883c53a9f25d559e/neuroneq-0.0.6.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [likelihood]: executing diffoscope
+[2023-06-25 20:36:20] INFO root fetch - processPackages [likelihood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likelihood-1.1.11.tar.gz tmp/likelihood-1.1.12.tar.gz --markdown 20230625/l/likelihood/1.1.11-1.1.12/diff.md --exclude *.pyd
+[2023-06-25 20:36:20] INFO root fetch - processPackages [streamlit-autorefresh]: Downloading https://files.pythonhosted.org/packages/dd/e3/46a5817f39e2fe40be65799a3cc501a71a7688f38a2e99ab2ce2bbacac62/streamlit-autorefresh-1.0.0.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [tsetmc]: Downloading https://files.pythonhosted.org/packages/58/ff/602c329041abb143266ea818f96ae044114643056881f5b90ee954fa644d/tsetmc-0.9.1.tar.gz
+[2023-06-25 20:36:20] INFO root fetch - processPackages [neuroneq]: executing diffoscope
+[2023-06-25 20:36:20] INFO root fetch - processPackages [neuroneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroneq-0.0.5.tar.gz tmp/neuroneq-0.0.6.tar.gz --markdown 20230625/n/neuroneq/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 20:36:20] INFO root fetch - processPackages [streamlit-autorefresh]: executing diffoscope
+[2023-06-25 20:36:20] INFO root fetch - processPackages [streamlit-autorefresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-autorefresh-0.0.1.tar.gz tmp/streamlit-autorefresh-1.0.0.tar.gz --markdown 20230625/s/streamlit-autorefresh/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-25 20:36:20] INFO root fetch - processPackages [tsetmc]: executing diffoscope
+[2023-06-25 20:36:20] INFO root fetch - processPackages [tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsetmc-0.9.0.tar.gz tmp/tsetmc-0.9.1.tar.gz --markdown 20230625/t/tsetmc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-25 20:36:21] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.106.tar.gz]
+[2023-06-25 20:36:21] INFO root fetch - processPackages [testless-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/testless_autocomplete-0.0.107.tar.gz]
+[2023-06-25 20:36:21] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 20:36:21] INFO root fetch - main [MainThread]: End processing [testless-autocomplete]: success
+[2023-06-25 20:36:22] INFO root fetch - processPackages [likelihood]: Remove: archive file [/home/abi/fetcher/tmp/likelihood-1.1.11.tar.gz]
+[2023-06-25 20:36:22] INFO root fetch - processPackages [likelihood]: Remove: archive file [/home/abi/fetcher/tmp/likelihood-1.1.12.tar.gz]
+[2023-06-25 20:36:22] INFO root fetch - main [MainThread]: End processing [likelihood]: success
+[2023-06-25 20:36:22] INFO root fetch - processPackages [neuroneq]: Remove: archive file [/home/abi/fetcher/tmp/neuroneq-0.0.5.tar.gz]
+[2023-06-25 20:36:22] INFO root fetch - processPackages [neuroneq]: Remove: archive file [/home/abi/fetcher/tmp/neuroneq-0.0.6.tar.gz]
+[2023-06-25 20:36:22] INFO root fetch - main [MainThread]: End processing [neuroneq]: success
+[2023-06-25 20:36:22] INFO root fetch - processPackages [tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc-0.9.0.tar.gz]
+[2023-06-25 20:36:22] INFO root fetch - processPackages [tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/tsetmc-0.9.1.tar.gz]
+[2023-06-25 20:36:22] INFO root fetch - main [MainThread]: End processing [tsetmc]: success
+[2023-06-25 20:36:28] INFO root fetch - processPackages [streamlit-autorefresh]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-autorefresh-0.0.1.tar.gz]
+[2023-06-25 20:36:28] INFO root fetch - processPackages [streamlit-autorefresh]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-autorefresh-1.0.0.tar.gz]
+[2023-06-25 20:36:28] INFO root fetch - main [MainThread]: End processing [streamlit-autorefresh]: success
+[2023-06-25 20:36:28] INFO root fetch - main [MainThread]: Store serial: [18638229]
