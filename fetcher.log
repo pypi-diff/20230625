@@ -2371,3 +2371,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 03:26:23] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-1.3.tar.gz]
 [2023-06-25 03:26:23] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
 [2023-06-25 03:26:23] INFO root fetch - main [MainThread]: Store serial: [18633240]
+[2023-06-25 03:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18633240]
+[2023-06-25 03:31:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-25 03:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: restraint-fold
+[2023-06-25 03:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-06-25 03:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-06-25 03:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radiant-framework
+[2023-06-25 03:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lol-esp-api
+[2023-06-25 03:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweetrpg-api-core
+[2023-06-25 03:31:32] INFO root fetch - processPackages [restraint-fold]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-25 03:31:32] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:31:32] WARNING root fetch - processPackages [lol-esp-api]: Skipping, unable to determine old version
+[2023-06-25 03:31:32] INFO root fetch - main [MainThread]: End processing [lol-esp-api] error
+[2023-06-25 03:31:32] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:31:32] WARNING root fetch - processPackages [radiant-framework]: Skipping, unable to determine old version
+[2023-06-25 03:31:32] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-06-25 03:31:32] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-25 03:31:32] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [restraint-fold]: Downloading https://files.pythonhosted.org/packages/e9/32/c817efa4b3b1ccdb57e2c38fef0c7d713082e6adc357924ddb7ab4cbe32a/restraint-fold-0.1.1.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-25 03:31:32] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230625/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:31:32] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-06-25 03:31:32] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230625/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:31:32] INFO root fetch - processPackages [restraint-fold]: Downloading https://files.pythonhosted.org/packages/83/5d/3e0a0785b6bf008942883492fd7ca9828e359f2b1e9817c664881902a21e/restraint-fold-0.1.3.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-25 03:31:32] INFO root fetch - processPackages [restraint-fold]: executing diffoscope
+[2023-06-25 03:31:32] INFO root fetch - processPackages [restraint-fold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restraint-fold-0.1.1.tar.gz tmp/restraint-fold-0.1.3.tar.gz --markdown 20230625/r/restraint-fold/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-25 03:31:32] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-25 03:31:32] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230625/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-25 03:31:33] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-06-25 03:31:33] INFO root fetch - processPackages [restraint-fold]: Remove: archive file [/home/abi/fetcher/tmp/restraint-fold-0.1.1.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - processPackages [restraint-fold]: Remove: archive file [/home/abi/fetcher/tmp/restraint-fold-0.1.3.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - main [MainThread]: End processing [restraint-fold]: success
+[2023-06-25 03:31:33] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-25 03:31:33] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-25 03:31:33] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-25 03:31:33] INFO root fetch - main [MainThread]: Store serial: [18633269]
