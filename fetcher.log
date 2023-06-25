@@ -15154,3 +15154,94 @@ AssertionError: tmp/text2text-1.1.6.tar.gz does not exist
 [2023-06-25 22:17:08] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.5.1.tar.gz]
 [2023-06-25 22:17:08] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
 [2023-06-25 22:17:08] INFO root fetch - main [MainThread]: Store serial: [18638725]
+[2023-06-25 22:22:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18638725]
+[2023-06-25 22:22:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyweb-db
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypi-jump-to
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jdtt
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NeuroGraph
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anytree
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: git2doc
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deklinacija
+[2023-06-25 22:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypi-jump-to
+[2023-06-25 22:22:18] INFO root fetch - processPackages [pyweb-db]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-25 22:22:18] INFO root fetch - processPackages [jdtt]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [anytree]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [NeuroGraph]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [git2doc]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [deklinacija]: New version: [1.5.0] Old Version: [1.0.5]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kfish]: New version: [99.0.202306252019] Old Version: [99.0.202306251827]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kcli]: New version: [99.0.202306252017] Old Version: [99.0.202306251825]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/73/ed/72650860fd02a9abd81a266f4cba6c436ea6bdd908818c7c73eff4f36158/kfish-99.0.202306251827-py3-none-any.whl
+[2023-06-25 22:22:19] INFO root fetch - processPackages [jdtt]: Downloading https://files.pythonhosted.org/packages/60/21/4d87c24def55a27a1c9faedcfd162d614057c0c423eef285fb404344b68d/jdtt-1.0.7.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 22:22:19] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/91/8e/1d53acb3c8cdbf5ab45b0c52901f2a18cd937398a0fffcfb357b769c4226/git2doc-0.2.2.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/ea/27/e7b800c1515ae75ddcda3c3fed015dfe95afd759e557d443385262e5c249/pyweb_db-1.0.4.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [NeuroGraph]: Downloading https://files.pythonhosted.org/packages/c4/98/7faa2afc7eda6bc5c633f7b3bb97bca60fb94390d356515cd1508886dfe5/NeuroGraph-1.0.1.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [anytree]: Downloading https://files.pythonhosted.org/packages/d8/45/de59861abc8cb66e9e95c02b214be4d52900aa92ce34241a957dcf1d569d/anytree-2.8.0.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/47/df/2455ab94b3d5ba7212f19af02d1032411f07e4edc61d28319eca4d0e8a5f/deklinacija-1.0.5.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3f/06/5ea189514afa0f1c67f1921da07c3e4ee53a4274197308abe95ba36f2570/kcli-99.0.202306251825-py3-none-any.whl
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ff/38/4d4770dcc1c5229111b54d29bde841c9f312e42b060a33f85fb636537a96/kfish-99.0.202306252019-py3-none-any.whl
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/c3/2e/19c41fd51d12edc68a005d0c25cf26f31e5020f6c0725e59e1c8948058ed/pyweb_db-1.0.5.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: Downloading https://files.pythonhosted.org/packages/21/ce/895c64b1e91ebeb68bbc3215be9f5d0b82af1c5524987d9fb5fb321b5228/pypi_jump_to-0.1.0.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: Downloading https://files.pythonhosted.org/packages/21/ce/895c64b1e91ebeb68bbc3215be9f5d0b82af1c5524987d9fb5fb321b5228/pypi_jump_to-0.1.0.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306251827-py3-none-any.whl.zip tmp/kfish-99.0.202306252019-py3-none-any.whl.zip --markdown 20230625/k/kfish/99.0.202306251827-99.0.202306252019/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [jdtt]: Downloading https://files.pythonhosted.org/packages/c0/39/47a0de854af4621d9007244fd78e2151039192f48bcb19cd8e9bf8a1072b/jdtt-1.0.8.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/be/d9/815d50cc4f5e4518332438e926373529a45cbba01f8b1eef9a2a80719bcb/git2doc-0.2.3.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [anytree]: Downloading https://files.pythonhosted.org/packages/ed/20/560b2c0801762f3de73ce04dd20d50ec39c2cdae83f23b6ed81cc72c7558/anytree-2.9.0.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pyweb-db]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pyweb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweb_db-1.0.4.tar.gz tmp/pyweb_db-1.0.5.tar.gz --markdown 20230625/p/pyweb-db/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [NeuroGraph]: Downloading https://files.pythonhosted.org/packages/96/ed/096c7338105b24dbe6c2b7c9c55e2fdcee1d94a24c1f5482385ad0f74e14/NeuroGraph-1.0.2.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [jdtt]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [jdtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdtt-1.0.7.tar.gz tmp/jdtt-1.0.8.tar.gz --markdown 20230625/j/jdtt/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/82/db/aec0e80cd704eb2dcf63e09d3cb5e1d6e0d4ae912de0adb8aa849217f06e/deklinacija-1.5.0.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [git2doc]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [git2doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git2doc-0.2.2.tar.gz tmp/git2doc-0.2.3.tar.gz --markdown 20230625/g/git2doc/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [anytree]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [anytree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anytree-2.8.0.tar.gz tmp/anytree-2.9.0.tar.gz --markdown 20230625/a/anytree/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [NeuroGraph]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [NeuroGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroGraph-1.0.1.tar.gz tmp/NeuroGraph-1.0.2.tar.gz --markdown 20230625/N/NeuroGraph/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/38/9c/62ba60b2fefa4e6690995fc0223d99e724b9e34e7b4e8ec913f558eb5063/kcli-99.0.202306252017-py3-none-any.whl
+[2023-06-25 22:22:19] INFO root fetch - processPackages [deklinacija]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [deklinacija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deklinacija-1.0.5.tar.gz tmp/deklinacija-1.5.0.tar.gz --markdown 20230625/d/deklinacija/1.0.5-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: Downloading https://files.pythonhosted.org/packages/4c/93/cca326baf4bfb2d833712a50604d9749e0d67e6059015b4be1dbaa23ef29/pypi_jump_to-0.1.1.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: Downloading https://files.pythonhosted.org/packages/4c/93/cca326baf4bfb2d833712a50604d9749e0d67e6059015b4be1dbaa23ef29/pypi_jump_to-0.1.1.tar.gz
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_jump_to-0.1.0.tar.gz tmp/pypi_jump_to-0.1.1.tar.gz --markdown 20230625/p/pypi-jump-to/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: executing diffoscope
+[2023-06-25 22:22:19] INFO root fetch - processPackages [pypi-jump-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_jump_to-0.1.0.tar.gz tmp/pypi_jump_to-0.1.1.tar.gz --markdown 20230625/p/pypi-jump-to/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 22:22:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-25 22:22:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306251825-py3-none-any.whl.zip tmp/kcli-99.0.202306252017-py3-none-any.whl.zip --markdown 20230625/k/kcli/99.0.202306251825-99.0.202306252017/diff.md --exclude *.pyd
+[2023-06-25 22:22:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251827-py3-none-any.whl.zip]
+[2023-06-25 22:22:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306252019-py3-none-any.whl.zip]
+[2023-06-25 22:22:20] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-25 22:22:21] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.4.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.5.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - main [MainThread]: End processing [pyweb-db]: success
+[2023-06-25 22:22:21] INFO root fetch - processPackages [NeuroGraph]: Remove: archive file [/home/abi/fetcher/tmp/NeuroGraph-1.0.1.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - processPackages [NeuroGraph]: Remove: archive file [/home/abi/fetcher/tmp/NeuroGraph-1.0.2.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - main [MainThread]: End processing [NeuroGraph]: success
+[2023-06-25 22:22:21] INFO root fetch - processPackages [anytree]: Remove: archive file [/home/abi/fetcher/tmp/anytree-2.8.0.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - processPackages [anytree]: Remove: archive file [/home/abi/fetcher/tmp/anytree-2.9.0.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - main [MainThread]: End processing [anytree]: success
+[2023-06-25 22:22:21] INFO root fetch - processPackages [jdtt]: Remove: archive file [/home/abi/fetcher/tmp/jdtt-1.0.7.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - processPackages [jdtt]: Remove: archive file [/home/abi/fetcher/tmp/jdtt-1.0.8.tar.gz]
+[2023-06-25 22:22:21] INFO root fetch - main [MainThread]: End processing [jdtt]: success
+[2023-06-25 22:22:22] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.2.tar.gz]
+[2023-06-25 22:22:22] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.3.tar.gz]
+[2023-06-25 22:22:22] INFO root fetch - main [MainThread]: End processing [git2doc]: success
+[2023-06-25 22:22:22] INFO root fetch - processPackages [deklinacija]: Remove: archive file [/home/abi/fetcher/tmp/deklinacija-1.0.5.tar.gz]
+[2023-06-25 22:22:22] INFO root fetch - processPackages [deklinacija]: Remove: archive file [/home/abi/fetcher/tmp/deklinacija-1.5.0.tar.gz]
+[2023-06-25 22:22:22] INFO root fetch - main [MainThread]: End processing [deklinacija]: success
+[2023-06-25 22:22:22] INFO root fetch - processPackages [pypi-jump-to]: Remove: archive file [/home/abi/fetcher/tmp/pypi_jump_to-0.1.0.tar.gz]
+[2023-06-25 22:22:22] INFO root fetch - processPackages [pypi-jump-to]: Remove: archive file [/home/abi/fetcher/tmp/pypi_jump_to-0.1.1.tar.gz]
+[2023-06-25 22:22:22] INFO root fetch - main [MainThread]: End processing [pypi-jump-to]: success
+[2023-06-25 22:22:22] INFO root fetch - main [MainThread]: End processing [pypi-jump-to]: success
+[2023-06-25 22:22:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306251825-py3-none-any.whl.zip]
+[2023-06-25 22:22:28] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306252017-py3-none-any.whl.zip]
+[2023-06-25 22:22:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-25 22:22:28] INFO root fetch - main [MainThread]: Store serial: [18638755]
