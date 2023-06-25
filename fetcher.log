@@ -6000,3 +6000,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 09:13:12] INFO root fetch - processPackages [yolov5-utils]: Remove: archive file [/home/abi/fetcher/tmp/yolov5-utils-7.1.2.tar.gz]
 [2023-06-25 09:13:12] INFO root fetch - main [MainThread]: End processing [yolov5-utils]: success
 [2023-06-25 09:13:12] INFO root fetch - main [MainThread]: Store serial: [18634760]
+[2023-06-25 09:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18634760]
+[2023-06-25 09:18:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxx-VSCL
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konfuzio-sdk
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PointBlaster
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shibuya
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yb-hello
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tikit
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SpatialCluster
+[2023-06-25 09:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfq-nightly
+[2023-06-25 09:18:20] INFO root fetch - processPackages [shibuya]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-25 09:18:20] INFO root fetch - processPackages [cxx-VSCL]: New version: [1.1] Old Version: [1.0]
+[2023-06-25 09:18:20] INFO root fetch - processPackages [PointBlaster]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-25 09:18:20] WARNING root fetch - processPackages [yb-hello]: Skipping, unable to determine old version
+[2023-06-25 09:18:20] INFO root fetch - main [MainThread]: End processing [yb-hello] error
+[2023-06-25 09:18:20] INFO root fetch - processPackages [tikit]: New version: [1.5.2.230625] Old Version: [1.4.7.230609]
+[2023-06-25 09:18:20] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-25 09:18:20] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230624] Old Version: [0.7.3.dev20230623]
+[2023-06-25 09:18:20] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-25 09:18:21] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/0e/00/a5483c4a2d808676a5e7185197e6c257d6febdbbfeaf72bcdb3349b50107/PointBlaster-0.1.5.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-25 09:18:21] ERROR root fetch - processPackages [cxx-VSCL]: Unable to fetch info: No such project/version 'cxx-VSCL' 1.0
+[2023-06-25 09:18:21] INFO root fetch - main [MainThread]: End processing [cxx-VSCL] error
+[2023-06-25 09:18:21] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/b6/14/00db2c90848d599e4f70c512628854b186fdf662e7762054ba0866112e97/shibuya-2023.6.7.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/53/08/0bf19797ac8413f700509af901cbff8a34c2d09b82de417796d0a8cc69ae/tikit-1.4.7.230609.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/28/a2/25f0d31bddcbd4f0e934204ce670bb1615f19f3238d0e665851a12da4e0a/tfq_nightly-0.7.3.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-25 09:18:21] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-25 09:18:21] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822718>=10485760
+[2023-06-25 09:18:21] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-25 09:18:21] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/d9/d7/a51c7bdf1e3bb01f187eb04b6f229c6cb047c3139e20ee8d06cb1de548c1/SpatialCluster-0.0.8.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/f5/fb/d0ab3ad1b48691fe7e882834934342a36366cc90a9eec3909c732483ee3e/PointBlaster-0.1.6.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/e6/40/4b864a64d501e1d83a559bb6bb6e458c888311611d1d01f9ec67d9636fef/shibuya-2023.6.8.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-06-25 09:18:21] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.1.5.tar.gz tmp/PointBlaster-0.1.6.tar.gz --markdown 20230625/P/PointBlaster/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-25 09:18:21] INFO root fetch - processPackages [tikit]: Downloading https://files.pythonhosted.org/packages/1d/1a/57fb0c000b40445c36c84f162bfa68d113466abd5fdec3a21e4b8b6d94a9/tikit-1.5.2.230625.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2023-06-25 09:18:21] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2023.6.7.tar.gz tmp/shibuya-2023.6.8.tar.gz --markdown 20230625/s/shibuya/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-25 09:18:21] INFO root fetch - processPackages [tikit]: executing diffoscope
+[2023-06-25 09:18:21] INFO root fetch - processPackages [tikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tikit-1.4.7.230609.tar.gz tmp/tikit-1.5.2.230625.tar.gz --markdown 20230625/t/tikit/1.4.7.230609-1.5.2.230625/diff.md --exclude *.pyd
+[2023-06-25 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-25 09:18:21] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230625/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-25 09:18:21] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-25 09:18:21] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-25 09:18:21] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230625/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-25 09:18:21] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-25 09:18:21] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.8.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230625/S/SpatialCluster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 09:18:23] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.8.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-25 09:18:23] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-25 09:18:23] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.5.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.6.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-06-25 09:18:23] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.7.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.6.8.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2023-06-25 09:18:23] INFO root fetch - processPackages [tikit]: Remove: archive file [/home/abi/fetcher/tmp/tikit-1.4.7.230609.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - processPackages [tikit]: Remove: archive file [/home/abi/fetcher/tmp/tikit-1.5.2.230625.tar.gz]
+[2023-06-25 09:18:23] INFO root fetch - main [MainThread]: End processing [tikit]: success
+[2023-06-25 09:18:32] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-25 09:18:32] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-25 09:18:32] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-25 09:18:32] INFO root fetch - main [MainThread]: Store serial: [18634789]
