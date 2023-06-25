@@ -8672,3 +8672,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 13:16:56] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-06-25 13:16:56] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-06-25 13:16:56] INFO root fetch - main [MainThread]: Store serial: [18635886]
+[2023-06-25 13:22:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635886]
+[2023-06-25 13:22:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformers-supporter
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp-frame
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apysc
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evilHunter
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splunk-kvstore-cli
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socnavgym
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kappadata
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shareddata
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: theboringlibrary
+[2023-06-25 13:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tb-nightly
+[2023-06-25 13:22:05] INFO root fetch - processPackages [splunk-kvstore-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-25 13:22:05] INFO root fetch - processPackages [evilHunter]: New version: [0.1.9.47] Old Version: [0.1.9.46]
+[2023-06-25 13:22:05] INFO root fetch - processPackages [theboringlibrary]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-25 13:22:05] WARNING root fetch - processPackages [socnavgym]: Skipping, unable to determine old version
+[2023-06-25 13:22:05] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-25 13:22:05] INFO root fetch - main [MainThread]: End processing [socnavgym] error
+[2023-06-25 13:22:05] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-25 13:22:05] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-25 13:22:05] INFO root fetch - processPackages [apysc]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-25 13:22:05] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-25 13:22:05] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/9c/de/e8c16a0ed05ee37429754f84382e2d187c5f48571fb58df613bdd1bbaad8/theboringlibrary-0.6.3.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-25 13:22:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/cb/8e/aa93fdd94202550b254e6e5f339684363a700aa3596eb6b10edfb44ebb36/apysc-3.0.3.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-25 13:22:06] INFO root fetch - processPackages [splunk-kvstore-cli]: Downloading https://files.pythonhosted.org/packages/ab/64/2ae12b907803636b057628a399005033bacad4d0559dbebf2e5d92a08fde/splunk_kvstore_cli-1.0.0.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/60/0c/dffad7544867eaf6d494efacc49a70e70124aa460dac207fd6e7f69bcaa2/evilHunter-0.1.9.46.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/c5/80/77c18d6fe20c85e84690c356497f237d348af2b7558ce01b14c460db59e9/kappadata-1.2.8.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/48/e1/a3f4c6971d7251d2e737bfc0b182fa7259845a006cbb6505ce492f4663bd/theboringlibrary-0.6.4.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/a3/89/36663418cc430f191945f4554d0919f8804487b2ffe208a4b81eb15419ff/shareddata-2.0.8.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [theboringlibrary]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [theboringlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theboringlibrary-0.6.3.tar.gz tmp/theboringlibrary-0.6.4.tar.gz --markdown 20230625/t/theboringlibrary/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ba/e1/6b1aaaca6fa8402a724db993939cc1d0b493ba382639b35d0d584737c8c4/apysc-3.0.4.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/ba/2d/7f8d8475dd721a3d40943bfd83b6d6d0e6e391119421df337ac66db741ee/evilHunter-0.1.9.47.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230625/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.0.3.tar.gz tmp/apysc-3.0.4.tar.gz --markdown 20230625/a/apysc/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/25/ceb4f83c59a4447b0c7e6db154402e4159e2a5dd958e4428d855e0248515/kappadata-1.2.9.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/c9/f9/61fa61a22abefea2b892306bbb73a62ed0a1a79371960e7ef36dd8fd83b5/shareddata-2.0.9.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230625/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [splunk-kvstore-cli]: Downloading https://files.pythonhosted.org/packages/dc/3a/3c0537badc281d7bc917752f8637ae0ecd9cfc081c7932298b6b3784c0e0/splunk_kvstore_cli-1.0.1.tar.gz
+[2023-06-25 13:22:06] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.9.46.tar.gz tmp/evilHunter-0.1.9.47.tar.gz --markdown 20230625/e/evilHunter/0.1.9.46-0.1.9.47/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230625/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230625/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [splunk-kvstore-cli]: executing diffoscope
+[2023-06-25 13:22:06] INFO root fetch - processPackages [splunk-kvstore-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_kvstore_cli-1.0.0.tar.gz tmp/splunk_kvstore_cli-1.0.1.tar.gz --markdown 20230625/s/splunk-kvstore-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-25 13:22:06] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-25 13:22:07] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-25 13:22:07] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230625/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-25 13:22:07] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.6.3.tar.gz]
+[2023-06-25 13:22:07] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.6.4.tar.gz]
+[2023-06-25 13:22:07] INFO root fetch - main [MainThread]: End processing [theboringlibrary]: success
+[2023-06-25 13:22:08] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-25 13:22:08] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.46.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.47.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-25 13:22:08] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.8.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.9.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-06-25 13:22:08] INFO root fetch - processPackages [splunk-kvstore-cli]: Remove: archive file [/home/abi/fetcher/tmp/splunk_kvstore_cli-1.0.0.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - processPackages [splunk-kvstore-cli]: Remove: archive file [/home/abi/fetcher/tmp/splunk_kvstore_cli-1.0.1.tar.gz]
+[2023-06-25 13:22:08] INFO root fetch - main [MainThread]: End processing [splunk-kvstore-cli]: success
+[2023-06-25 13:22:09] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.8.tar.gz]
+[2023-06-25 13:22:09] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.9.tar.gz]
+[2023-06-25 13:22:09] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-06-25 13:22:09] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-25 13:22:09] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-25 13:22:09] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-25 13:22:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-25 13:22:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-25 13:22:11] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-25 13:22:12] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.3.tar.gz]
+[2023-06-25 13:22:12] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.0.4.tar.gz]
+[2023-06-25 13:22:12] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-25 13:22:12] INFO root fetch - main [MainThread]: Store serial: [18635922]
