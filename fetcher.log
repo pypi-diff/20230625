@@ -12180,3 +12180,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 18:33:21] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
 [2023-06-25 18:33:21] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-06-25 18:33:21] INFO root fetch - main [MainThread]: Store serial: [18637485]
+[2023-06-25 18:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637485]
+[2023-06-25 18:38:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specialStr
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezelf
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythoven
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stormlibpp
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feathub-nightly
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miao-make
+[2023-06-25 18:38:32] INFO root fetch - processPackages [specialStr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230624] Old Version: [0.1.dev20230623]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [stormlibpp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [pythoven]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [miao-make]: New version: [20230624] Old Version: [20230622]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ezelf]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-25 18:38:32] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/58/85/3accd5e2c1435c28e9550475edd57c96fa6bc91e2d2d94fdfc9f8b20e078/stormlibpp-0.1.1.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [pythoven]: Downloading https://files.pythonhosted.org/packages/aa/9d/45ff9482cae8ad299ceb34d3c15c7d628b0ac510f37171f694212c33f70c/pythoven-0.1.1.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d5/24/85cafd36205d047155765fd47610fa3cf60ee1997da74a69b8c26bce13f3/feathub_nightly-0.1.dev20230623-py3-none-any.whl
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/aa/03/613010a504f49789fb77dcc1367d700820df4349f77eae441e24665f5ef2/ezelf-0.0.5.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [miao-make]: Downloading https://files.pythonhosted.org/packages/ca/87/37caa04df4e81c2adaad9862f5bfb5d4ee561698078e5ae4fdad5bcfa1ef/miao-make-20230622.tar.gz
+[2023-06-25 18:38:32] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12203996>=10485760
+[2023-06-25 18:38:32] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-25 18:38:32] INFO root fetch - processPackages [specialStr]: Downloading https://files.pythonhosted.org/packages/ce/92/6b2e99e7213c6aa47708daec5ab63015a8953729c12994fb790728245e3b/specialStr-0.0.2.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [miao-make]: Downloading https://files.pythonhosted.org/packages/e1/5e/f70aa35bc6314e16ed98f2c6497a6cc7e426eb530ff991f0dbb52f2839c7/miao-make-20230624.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [pythoven]: Downloading https://files.pythonhosted.org/packages/0b/84/f1b435a5d391eb64a9de2f9705606c07a5a1c3362dbef3e470610cb34888/pythoven-0.1.2.tar.gz
+[2023-06-25 18:38:32] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-25 18:38:32] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-25 18:38:32] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/0c/c0/c93b07d055804b919eff74240a1fefac7e745fae725e6a4c91b7e1ed1b2d/stormlibpp-0.1.2.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [ezelf]: Downloading https://files.pythonhosted.org/packages/21/e2/9104affd300eb3f24d8e8301d4b5f9074c87788d455d58e0cec2a3d2ec89/ezelf-0.0.6.tar.gz
+[2023-06-25 18:38:32] INFO root fetch - processPackages [miao-make]: executing diffoscope
+[2023-06-25 18:38:32] INFO root fetch - processPackages [miao-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miao-make-20230622.tar.gz tmp/miao-make-20230624.tar.gz --markdown 20230625/m/miao-make/20230622-20230624/diff.md --exclude *.pyd
+[2023-06-25 18:38:33] INFO root fetch - processPackages [stormlibpp]: executing diffoscope
+[2023-06-25 18:38:33] INFO root fetch - processPackages [stormlibpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stormlibpp-0.1.1.tar.gz tmp/stormlibpp-0.1.2.tar.gz --markdown 20230625/s/stormlibpp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 18:38:33] INFO root fetch - processPackages [pythoven]: executing diffoscope
+[2023-06-25 18:38:33] INFO root fetch - processPackages [pythoven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoven-0.1.1.tar.gz tmp/pythoven-0.1.2.tar.gz --markdown 20230625/p/pythoven/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-25 18:38:33] INFO root fetch - processPackages [specialStr]: Downloading https://files.pythonhosted.org/packages/7b/d6/bb3c6a1e4274b1c581b6a2a875c10138427bcb8275d1793d80d659287ac5/specialStr-0.0.3.tar.gz
+[2023-06-25 18:38:33] INFO root fetch - processPackages [ezelf]: executing diffoscope
+[2023-06-25 18:38:33] INFO root fetch - processPackages [ezelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezelf-0.0.5.tar.gz tmp/ezelf-0.0.6.tar.gz --markdown 20230625/e/ezelf/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-25 18:38:33] INFO root fetch - processPackages [specialStr]: executing diffoscope
+[2023-06-25 18:38:33] INFO root fetch - processPackages [specialStr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specialStr-0.0.2.tar.gz tmp/specialStr-0.0.3.tar.gz --markdown 20230625/s/specialStr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-25 18:38:34] INFO root fetch - processPackages [miao-make]: Remove: archive file [/home/abi/fetcher/tmp/miao-make-20230622.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - processPackages [miao-make]: Remove: archive file [/home/abi/fetcher/tmp/miao-make-20230624.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - main [MainThread]: End processing [miao-make]: success
+[2023-06-25 18:38:34] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.1.1.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.1.2.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - main [MainThread]: End processing [stormlibpp]: success
+[2023-06-25 18:38:34] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.5.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - processPackages [ezelf]: Remove: archive file [/home/abi/fetcher/tmp/ezelf-0.0.6.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - main [MainThread]: End processing [ezelf]: success
+[2023-06-25 18:38:34] INFO root fetch - processPackages [specialStr]: Remove: archive file [/home/abi/fetcher/tmp/specialStr-0.0.2.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - processPackages [specialStr]: Remove: archive file [/home/abi/fetcher/tmp/specialStr-0.0.3.tar.gz]
+[2023-06-25 18:38:34] INFO root fetch - main [MainThread]: End processing [specialStr]: success
+[2023-06-25 18:39:28] INFO root fetch - processPackages [pythoven]: Remove: archive file [/home/abi/fetcher/tmp/pythoven-0.1.1.tar.gz]
+[2023-06-25 18:39:28] INFO root fetch - processPackages [pythoven]: Remove: archive file [/home/abi/fetcher/tmp/pythoven-0.1.2.tar.gz]
+[2023-06-25 18:39:28] INFO root fetch - main [MainThread]: End processing [pythoven]: success
+[2023-06-25 18:39:28] INFO root fetch - main [MainThread]: Store serial: [18637505]
