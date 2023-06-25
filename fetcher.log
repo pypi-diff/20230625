@@ -16165,3 +16165,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 23:34:21] INFO root fetch - processPackages [scientisttools]: Remove: archive file [/home/abi/fetcher/tmp/scientisttools-0.0.7.tar.gz]
 [2023-06-25 23:34:21] INFO root fetch - main [MainThread]: End processing [scientisttools]: success
 [2023-06-25 23:34:21] INFO root fetch - main [MainThread]: Store serial: [18639159]
+[2023-06-25 23:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639159]
+[2023-06-25 23:39:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kappadata
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xknx
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-flask
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepbookpy
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vl-convert-python
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ridgeplot-py
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: halc
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nitrado
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covdrugsim
+[2023-06-25 23:39:33] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-25 23:39:33] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202306.0.29] Old Version: [202306.0.28]
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ridgeplot-py]: New version: [0.2.1rc24] Old Version: [0.2.1rc23]
+[2023-06-25 23:39:33] INFO root fetch - processPackages [xknx]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-25 23:39:33] WARNING root fetch - processPackages [deepbookpy]: Skipping, unable to determine old version
+[2023-06-25 23:39:33] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-25 23:39:33] INFO root fetch - main [MainThread]: End processing [deepbookpy] error
+[2023-06-25 23:39:33] INFO root fetch - processPackages [vl-convert-python]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/06/f4/aca0356ebb12b10432fd50fcace6e9b828226278fb45a1476665525a3e3b/ridgeplot_py-0.2.1rc23.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/f6/b0/4cf1f50d5c8e637d80dac078436faf6ba1e14ba95ad7e140959ed2925f7e/nitrado-1.0.8.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [halc]: New version: [0.22.5] Old Version: [0.22.4]
+[2023-06-25 23:39:33] WARNING root fetch - processPackages [covdrugsim]: Skipping, unable to determine old version
+[2023-06-25 23:39:33] INFO root fetch - main [MainThread]: End processing [covdrugsim] error
+[2023-06-25 23:39:33] INFO root fetch - processPackages [xknx]: Downloading https://files.pythonhosted.org/packages/2c/20/4a1dd050eb0440be4315e22cb2a18c282db281bc23a91172838252006d87/xknx-2.8.0.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/fb/b1/ca7d7f51473cd2474cbb963404825d23ef50f7d63d050e88fc2ed8ecedcf/data_ecosystem_flask-202306.0.28.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/c5/80/77c18d6fe20c85e84690c356497f237d348af2b7558ce01b14c460db59e9/kappadata-1.2.8.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/18/5d/a182a36879b2e7f8aaebc3d49a610d00a10f3ecf37211672fc9db139c4b7/nitrado-1.0.9.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/64/cc/eecb15b1a2cc6fd37fb5a3af89faa3bb0f6c5c588dda5887002df1c67241/vl_convert_python-0.8.1.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ridgeplot-py]: Downloading https://files.pythonhosted.org/packages/48/33/8369b8a40190a9d1cddc6ce1dc174ce2aa1c9c965b7bd9e82764480c2dcf/ridgeplot_py-0.2.1rc24.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/5a/58/156cd99658bf2aa1eb4c5070ed05bf9763d96c1d856709e879fa04c59b10/halc-0.22.4.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-06-25 23:39:33] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230625/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ridgeplot-py]: executing diffoscope
+[2023-06-25 23:39:33] INFO root fetch - processPackages [ridgeplot-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot_py-0.2.1rc23.tar.gz tmp/ridgeplot_py-0.2.1rc24.tar.gz --markdown 20230625/r/ridgeplot-py/0.2.1rc23-0.2.1rc24/diff.md --exclude *.pyd
+[2023-06-25 23:39:33] INFO root fetch - processPackages [xknx]: Downloading https://files.pythonhosted.org/packages/13/d7/c6d1636743067c51da463f46cd4cd48078d50745e12d8b685111abc67e79/xknx-2.9.0.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/f8/8a/f8a5506104e0a72d31251ed4fbd4222cec45fefa4c4d6dfeedfda4fc04fe/data_ecosystem_flask-202306.0.29.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/a9/e1/1491afd84c8f9b67878798108d9ef2ad769bb2715f82a2057a6f625058d4/halc-0.22.5.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-06-25 23:39:33] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202306.0.28.tar.gz tmp/data_ecosystem_flask-202306.0.29.tar.gz --markdown 20230625/d/data-ecosystem-flask/202306.0.28-202306.0.29/diff.md --exclude *.pyd
+[2023-06-25 23:39:33] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/25/ceb4f83c59a4447b0c7e6db154402e4159e2a5dd958e4428d855e0248515/kappadata-1.2.9.tar.gz
+[2023-06-25 23:39:33] INFO root fetch - processPackages [halc]: executing diffoscope
+[2023-06-25 23:39:33] INFO root fetch - processPackages [halc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halc-0.22.4.tar.gz tmp/halc-0.22.5.tar.gz --markdown 20230625/h/halc/0.22.4-0.22.5/diff.md --exclude *.pyd
+[2023-06-25 23:39:33] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-06-25 23:39:33] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230625/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-25 23:39:34] INFO root fetch - processPackages [xknx]: executing diffoscope
+[2023-06-25 23:39:34] INFO root fetch - processPackages [xknx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xknx-2.8.0.tar.gz tmp/xknx-2.9.0.tar.gz --markdown 20230625/x/xknx/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-25 23:39:34] INFO root fetch - processPackages [vl-convert-python]: Downloading https://files.pythonhosted.org/packages/2c/5e/b6ef3a0bd418911bc9813078e2373acb839085abe1ef6df34b9c045df500/vl_convert_python-0.9.0.tar.gz
+[2023-06-25 23:39:34] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.1rc23.tar.gz]
+[2023-06-25 23:39:34] INFO root fetch - processPackages [ridgeplot-py]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot_py-0.2.1rc24.tar.gz]
+[2023-06-25 23:39:34] INFO root fetch - main [MainThread]: End processing [ridgeplot-py]: success
+[2023-06-25 23:39:35] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.8.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.9.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-06-25 23:39:35] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.4.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.5.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - main [MainThread]: End processing [halc]: success
+[2023-06-25 23:39:35] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202306.0.28.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202306.0.29.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-06-25 23:39:35] INFO root fetch - processPackages [vl-convert-python]: executing diffoscope
+[2023-06-25 23:39:35] INFO root fetch - processPackages [vl-convert-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_convert_python-0.8.1.tar.gz tmp/vl_convert_python-0.9.0.tar.gz --markdown 20230625/v/vl-convert-python/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-25 23:39:35] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.8.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.9.tar.gz]
+[2023-06-25 23:39:35] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-06-25 23:39:36] INFO root fetch - processPackages [xknx]: Remove: archive file [/home/abi/fetcher/tmp/xknx-2.8.0.tar.gz]
+[2023-06-25 23:39:36] INFO root fetch - processPackages [xknx]: Remove: archive file [/home/abi/fetcher/tmp/xknx-2.9.0.tar.gz]
+[2023-06-25 23:39:36] INFO root fetch - main [MainThread]: End processing [xknx]: success
+[2023-06-25 23:40:44] INFO root fetch - processPackages [vl-convert-python]: Remove: archive file [/home/abi/fetcher/tmp/vl_convert_python-0.8.1.tar.gz]
+[2023-06-25 23:40:44] INFO root fetch - processPackages [vl-convert-python]: Remove: archive file [/home/abi/fetcher/tmp/vl_convert_python-0.9.0.tar.gz]
+[2023-06-25 23:40:44] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
+[2023-06-25 23:40:44] INFO root fetch - main [MainThread]: Store serial: [18639207]
