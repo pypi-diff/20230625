@@ -12524,3 +12524,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 19:00:26] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230625165601.tar.gz]
 [2023-06-25 19:00:26] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-25 19:00:26] INFO root fetch - main [MainThread]: Store serial: [18637606]
+[2023-06-25 19:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18637606]
+[2023-06-25 19:05:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Digital-Farming-Solution
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-migratepg
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ffmpegcv
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-git-gitlab
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talkytrend
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embykeeper
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csup-analyzer
+[2023-06-25 19:05:36] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-25 19:05:36] INFO root fetch - processPackages [Digital-Farming-Solution]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 19:05:36] INFO root fetch - processPackages [ffmpegcv]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-25 19:05:36] WARNING root fetch - processPackages [flask-migratepg]: Skipping, unable to determine old version
+[2023-06-25 19:05:36] INFO root fetch - main [MainThread]: End processing [flask-migratepg] error
+[2023-06-25 19:05:36] INFO root fetch - processPackages [talkytrend]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-25 19:05:36] INFO root fetch - processPackages [csup-analyzer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-25 19:05:36] INFO root fetch - processPackages [embykeeper]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-25 19:05:36] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-25 19:05:37] INFO root fetch - processPackages [csup-analyzer]: Downloading https://files.pythonhosted.org/packages/2f/59/8ba0e70ab477dec88d0b4f8c3276d060175bf9458acf558a679c73697b6d/csup_analyzer-0.1.0.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/34/1d/ec49c85fe441d5a90ac671ff4557e0f37ef999d3889387a83b42893522ca/talkytrend-1.4.0.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/44/4c/7a3b0e2b6c95520910d7ee0954d6ce055215077c68000727ae12ccedecb4/ffmpegcv-0.3.2.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/63/89/efb899edb1d028e12e228b7eebd99970ca000984884dc5048657eae2cff2/Digital_Farming_Solution-0.1.0.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/6e/df/d3d5362e99a70e6deafcf74e5aaa8f8eb26783c18fd85a7c0922e7659f5c/embykeeper-2.2.1.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/10/dd/9eac6dfa24ab731db7b4b28f87b2918e96c00e98a1ef337108a285ae09f2/xia_git_gitlab-0.1.9-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-25 19:05:37] INFO root fetch - processPackages [csup-analyzer]: Downloading https://files.pythonhosted.org/packages/90/11/da2405fe3b764e3009a32719bf4b3240e6e2b39700ca24595860bb6eb11b/csup_analyzer-0.1.1.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/5b/8d/a0c0f3534cbb6b61f5ae13fb40f4c3ef18e9ba7ade2596bff5e3490eaa67/talkytrend-1.5.0.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-25 19:05:37] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230625/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-25 19:05:37] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/89/95/cfa34110d63f3cc78ce224678aac4ba1ad8a30e208c7d070d32a1f7b3215/embykeeper-2.2.2.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [csup-analyzer]: executing diffoscope
+[2023-06-25 19:05:37] INFO root fetch - processPackages [csup-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csup_analyzer-0.1.0.tar.gz tmp/csup_analyzer-0.1.1.tar.gz --markdown 20230625/c/csup-analyzer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 19:05:37] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/ad/28/092b78cfdae8abb59967bceb24419a21b3b305b23f69f691662ca4d8ad98/ffmpegcv-0.3.3.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [Digital-Farming-Solution]: Downloading https://files.pythonhosted.org/packages/4a/b7/a945f848ef33f94f584a771fb559a0f9defd9e2fd48ba46f095ccd59c0e6/Digital_Farming_Solution-0.1.1.tar.gz
+[2023-06-25 19:05:37] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-25 19:05:37] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.4.0.tar.gz tmp/talkytrend-1.5.0.tar.gz --markdown 20230625/t/talkytrend/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-25 19:05:37] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-06-25 19:05:37] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.1.tar.gz tmp/embykeeper-2.2.2.tar.gz --markdown 20230625/e/embykeeper/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-25 19:05:37] INFO root fetch - processPackages [Digital-Farming-Solution]: executing diffoscope
+[2023-06-25 19:05:37] INFO root fetch - processPackages [Digital-Farming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Farming_Solution-0.1.0.tar.gz tmp/Digital_Farming_Solution-0.1.1.tar.gz --markdown 20230625/D/Digital-Farming-Solution/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-25 19:05:38] INFO root fetch - processPackages [ffmpegcv]: executing diffoscope
+[2023-06-25 19:05:38] INFO root fetch - processPackages [ffmpegcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpegcv-0.3.2.tar.gz tmp/ffmpegcv-0.3.3.tar.gz --markdown 20230625/f/ffmpegcv/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-25 19:05:38] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-25 19:05:38] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-25 19:05:38] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-25 19:05:38] INFO root fetch - processPackages [csup-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/csup_analyzer-0.1.0.tar.gz]
+[2023-06-25 19:05:38] INFO root fetch - processPackages [csup-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/csup_analyzer-0.1.1.tar.gz]
+[2023-06-25 19:05:38] INFO root fetch - main [MainThread]: End processing [csup-analyzer]: success
+[2023-06-25 19:05:39] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.0.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - processPackages [Digital-Farming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Farming_Solution-0.1.1.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - main [MainThread]: End processing [Digital-Farming-Solution]: success
+[2023-06-25 19:05:39] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.4.0.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.0.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-25 19:05:39] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.1.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.2.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-06-25 19:05:39] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.2.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - processPackages [ffmpegcv]: Remove: archive file [/home/abi/fetcher/tmp/ffmpegcv-0.3.3.tar.gz]
+[2023-06-25 19:05:39] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
+[2023-06-25 19:05:39] INFO root fetch - main [MainThread]: Store serial: [18637631]
