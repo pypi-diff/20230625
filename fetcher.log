@@ -8016,3 +8016,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-25 12:09:32] INFO root fetch - processPackages [starwhale]: Remove: archive file [/home/abi/fetcher/tmp/starwhale-0.5.0.tar.gz]
 [2023-06-25 12:09:32] INFO root fetch - main [MainThread]: End processing [starwhale]: success
 [2023-06-25 12:09:32] INFO root fetch - main [MainThread]: Store serial: [18635559]
+[2023-06-25 12:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18635559]
+[2023-06-25 12:14:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu-aws
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: click-schema-config
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-contract
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shaxrux-pip-test
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dm-reverb-nightly
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miko-analyzer
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moptipy
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mloptimizer
+[2023-06-25 12:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2023-06-25 12:14:41] INFO root fetch - processPackages [click-schema-config]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [netbox-contract]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [mloptimizer]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.7] Old Version: [0.5.6.8]
+[2023-06-25 12:14:41] WARNING root fetch - processPackages [shaxrux-pip-test]: Skipping, unable to determine old version
+[2023-06-25 12:14:41] INFO root fetch - processPackages [shaxrux-pip-test]: Start processing: jcci
+[2023-06-25 12:14:41] INFO root fetch - processPackages [miko-analyzer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-25 12:14:41] INFO root fetch - main [MainThread]: End processing [shaxrux-pip-test] error
+[2023-06-25 12:14:41] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [yeref]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [jcci]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-25 12:14:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/08/e6/2c5027cca6bb1ecd48d1fbb9a0730c912459f60ce8ea886ab35bd9eefa45/yeref-0.2.7.tar.gz
+[2023-06-25 12:14:41] INFO root fetch - processPackages [mloptimizer]: Downloading https://files.pythonhosted.org/packages/2f/f4/2b1a268a8ffbaa26c55e5df6201b8eebefc1edee56dd57d66c4e9bbdafed/mloptimizer-0.5.8.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230625] Old Version: [2.14.0.dev20230623]
+[2023-06-25 12:14:42] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 12:14:42] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/4b/6c/165c16326245eaf3fa5c0891a64c6758b52e8b8f8cee10174b4ef7e95672/click_schema_config-0.1.4.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/71/80/df6d96ef38a99d1f604d17d5cc3a13ad1e36d209e7fe5a38d9c46c7ad968/jcci-0.0.1.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/23/e1/1ad8b46b91eaf9e1f38171c2942a42d5b8d276455d859cad5bf03428c80d/tf_nightly_cpu_aws-2.14.0.dev20230623-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-25 12:14:42] INFO root fetch - processPackages [netbox-contract]: Downloading https://files.pythonhosted.org/packages/3c/b3/2efa69ec1c36eb0a088157a34f945169d02ad6cf4e3b3fda336ae3230f37/netbox-contract-2.0.4.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [miko-analyzer]: Downloading https://files.pythonhosted.org/packages/03/67/4dca679facb0862bd0a7bbd1e584884a77bbbc1cb726fd06eb235122e3d5/miko_analyzer-0.3.0.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/53/84/ee7375675da2facff5bf87fe9c677aebe1c10969f0e2b02b312a4a8036cf/nonebot_plugin_l4d2_server-0.5.6.8.tar.gz
+[2023-06-25 12:14:42] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 262207717>=10485760
+[2023-06-25 12:14:42] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: PyPtt
+[2023-06-25 12:14:42] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-06-25 12:14:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [mloptimizer]: Downloading https://files.pythonhosted.org/packages/93/84/f849ed5d4acfb2e1115b76f5ccdbe1e11650499264d42d32a317d2c29410/mloptimizer-0.5.9.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [PyPtt]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-25 12:14:42] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [click-schema-config]: Downloading https://files.pythonhosted.org/packages/bf/d1/874acf01762b0e5c17c415da988133cf2529137949864b0583ba9d93acb0/click_schema_config-0.1.5.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-25 12:14:42] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/d1/1b/be0cec8e1ac181ab86bedf9900b5680dcc17487bf850e5e6b81c779e168e/jcci-0.0.2.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [click-schema-config]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [click-schema-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_schema_config-0.1.4.tar.gz tmp/click_schema_config-0.1.5.tar.gz --markdown 20230625/c/click-schema-config/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [miko-analyzer]: Downloading https://files.pythonhosted.org/packages/d1/ee/96d4ad9a9121a5ff5ac1a5e02bb0235723a9f066ff4f07d90f427ec8960e/miko_analyzer-0.3.1.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230625/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [netbox-contract]: Downloading https://files.pythonhosted.org/packages/31/57/6c5377e20ac97e15529130daac95070571241daf51158b9269d8d51b7869/netbox-contract-2.0.5.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/d8/2f/fc4838cf40b6c6d247f1137e30c7161a11ddcf642ef73934031c35d80b73/PyPtt-1.0.7.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [mloptimizer]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [mloptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mloptimizer-0.5.8.tar.gz tmp/mloptimizer-0.5.9.tar.gz --markdown 20230625/m/mloptimizer/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.7.tar.gz tmp/yeref-0.2.8.tar.gz --markdown 20230625/y/yeref/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/03/2d/003ed97bf90ca0e295afa3decde6917250b26572965b9ae6505979a72535/nonebot_plugin_l4d2_server-0.5.7.tar.gz
+[2023-06-25 12:14:42] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.1.tar.gz tmp/jcci-0.0.2.tar.gz --markdown 20230625/j/jcci/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [miko-analyzer]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [miko-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miko_analyzer-0.3.0.tar.gz tmp/miko_analyzer-0.3.1.tar.gz --markdown 20230625/m/miko-analyzer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [netbox-contract]: executing diffoscope
+[2023-06-25 12:14:42] INFO root fetch - processPackages [netbox-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-contract-2.0.4.tar.gz tmp/netbox-contract-2.0.5.tar.gz --markdown 20230625/n/netbox-contract/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-25 12:14:42] INFO root fetch - processPackages [PyPtt]: Downloading https://files.pythonhosted.org/packages/80/b0/9ac39d438d4bc70acdb17cf46580e8b13e192fa3f187a3e4668c4c953075/PyPtt-1.0.8.tar.gz
+[2023-06-25 12:14:43] INFO root fetch - processPackages [PyPtt]: executing diffoscope
+[2023-06-25 12:14:43] INFO root fetch - processPackages [PyPtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPtt-1.0.7.tar.gz tmp/PyPtt-1.0.8.tar.gz --markdown 20230625/P/PyPtt/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-25 12:14:43] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-25 12:14:43] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.6.8.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.7.tar.gz --markdown 20230625/n/nonebot-plugin-l4d2-server/0.5.6.8-0.5.7/diff.md --exclude *.pyd
+[2023-06-25 12:14:43] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-25 12:14:43] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230625:/home/abi/fetcher/20230625:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230625/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-25 12:14:44] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.4.tar.gz]
+[2023-06-25 12:14:44] INFO root fetch - processPackages [click-schema-config]: Remove: archive file [/home/abi/fetcher/tmp/click_schema_config-0.1.5.tar.gz]
+[2023-06-25 12:14:44] INFO root fetch - processPackages [click-schema-config]: Start processing: mareep
+[2023-06-25 12:14:44] INFO root fetch - main [MainThread]: End processing [click-schema-config]: success
+[2023-06-25 12:14:44] WARNING root fetch - processPackages [mareep]: Skipping, unable to determine old version
+[2023-06-25 12:14:44] INFO root fetch - main [MainThread]: End processing [mareep] error
+[2023-06-25 12:14:44] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.1.tar.gz]
+[2023-06-25 12:14:44] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.2.tar.gz]
+[2023-06-25 12:14:44] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-06-25 12:14:44] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.5.8.tar.gz]
+[2023-06-25 12:14:44] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.5.9.tar.gz]
+[2023-06-25 12:14:44] INFO root fetch - main [MainThread]: End processing [mloptimizer]: success
+[2023-06-25 12:14:45] INFO root fetch - processPackages [netbox-contract]: Remove: archive file [/home/abi/fetcher/tmp/netbox-contract-2.0.4.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - processPackages [netbox-contract]: Remove: archive file [/home/abi/fetcher/tmp/netbox-contract-2.0.5.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - main [MainThread]: End processing [netbox-contract]: success
+[2023-06-25 12:14:45] INFO root fetch - processPackages [miko-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/miko_analyzer-0.3.0.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - processPackages [miko-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/miko_analyzer-0.3.1.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - main [MainThread]: End processing [miko-analyzer]: success
+[2023-06-25 12:14:45] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.0.7.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - processPackages [PyPtt]: Remove: archive file [/home/abi/fetcher/tmp/PyPtt-1.0.8.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - main [MainThread]: End processing [PyPtt]: success
+[2023-06-25 12:14:45] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.8.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-06-25 12:14:45] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-06-25 12:14:46] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.7.tar.gz]
+[2023-06-25 12:14:46] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-06-25 12:14:46] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-25 12:14:47] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.8.tar.gz]
+[2023-06-25 12:14:47] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.7.tar.gz]
+[2023-06-25 12:14:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-25 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-25 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-25 12:15:37] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-25 12:15:37] INFO root fetch - main [MainThread]: Store serial: [18635603]
